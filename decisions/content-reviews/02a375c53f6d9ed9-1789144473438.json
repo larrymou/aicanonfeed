@@ -1,0 +1,14 @@
+{
+  "urlHash": "02a375c53f6d9ed9",
+  "url": "https://openai.com/index/faulty-reward-functions",
+  "sourceName": "OpenAI Blog",
+  "title": "Faulty reward functions in the wild",
+  "summary": "Reinforcement learning algorithms can break in surprising, counterintuitive ways. In this post we’ll explore one failure mode, which is where you misspecify your reward function.",
+  "pubDate": "2016-12-21T08:00:00.000Z",
+  "decidedAt": "2026-09-11T16:33:46.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI blog post explaining RL reward misspecification; it is neither a new model release, a peer-reviewed/preprint paper or official technical report with verifiable benchmarks, nor industry, policy, or open-source tool news.",
+  "promptVersion": "1"
+}
