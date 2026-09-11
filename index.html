@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AICanonFeed</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --ink:#e8eaed; --muted:#9aa0a6; --line:#2a2f3a; --accent:#7cb7ff; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--ink); }
+  header.site { padding:28px 20px 8px; max-width:720px; margin:0 auto; }
+  header.site h1 { margin:0 0 4px; font-size:1.5rem; }
+  header.site p { margin:0; color:var(--muted); }
+  main { max-width:720px; margin:0 auto; padding:12px 20px 48px; }
+  section { margin-top:28px; }
+  h2.section { font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:10px; }
+  .card header { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:0.8rem; }
+  .card h2 { margin:6px 0; font-size:1.05rem; }
+  .card a { color:var(--accent); text-decoration:none; }
+  .card a:hover { text-decoration:underline; }
+  .card p { margin:0 0 6px; }
+  .meta, .muted, .votes { color:var(--muted); font-size:0.85rem; }
+  .rule { color:var(--accent); font-weight:600; }
+  ul.feed { list-style:none; padding:0; margin:0; }
+  ul.feed li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; margin-bottom:8px; }
+  ul.rules { padding-left:1.1rem; }
+  ul.rules li { margin-bottom:10px; }
+  footer { max-width:720px; margin:0 auto; padding:0 20px 40px; color:var(--muted); font-size:0.85rem; }
+</style>
+</head>
+<body>
+<header class="site">
+  <h1>AICanonFeed</h1>
+  <p>Community writes the rules. AI applies them. Chronological inclusion feed.</p>
+  <p class="muted">Stars: 0 · Stage: S0 · Quorum: 1</p>
+</header>
+<main>
+  <section>
+    <h2 class="section">Latest Included</h2>
+    <article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2017-02-08T08:00:00.000Z">2017-02-08 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/adversarial-attacks-on-neural-network-policies" rel="noopener noreferrer" target="_blank">Adversarial attacks on neural network policies</a></h2>
+  <p>Adversarial attacks on neural network policies</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2017-01-19T08:00:00.000Z">2017-01-19 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/pixelcnn-plus-plus" rel="noopener noreferrer" target="_blank">PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications</a></h2>
+  <p>PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R5</span>
+    <time datetime="2016-12-05T08:00:00.000Z">2016-12-05 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/universe" rel="noopener noreferrer" target="_blank">Universe</a></h2>
+  <p>We’re releasing Universe, a software platform for measuring and training an AI’s general intelligence across the world’s supply of games, websites and other applications.</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-11-15T08:00:00.000Z">2016-11-15 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/exploration" rel="noopener noreferrer" target="_blank">#Exploration: A study of count-based exploration for deep reinforcement learning</a></h2>
+  <p>#Exploration: A study of count-based exploration for deep reinforcement learning</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R3</span>
+    <time datetime="2016-11-15T08:00:00.000Z">2016-11-15 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/openai-and-microsoft" rel="noopener noreferrer" target="_blank">OpenAI and Microsoft</a></h2>
+  <p>We’re working with Microsoft to start running most of our large-scale experiments on Azure.</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-11-14T08:00:00.000Z">2016-11-14 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models" rel="noopener noreferrer" target="_blank">On the quantitative analysis of decoder-based generative models</a></h2>
+  <p>On the quantitative analysis of decoder-based generative models</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-11-11T08:00:00.000Z">2016-11-11 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models" rel="noopener noreferrer" target="_blank">A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models</a></h2>
+  <p>A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-11-09T08:00:00.000Z">2016-11-09 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/rl2" rel="noopener noreferrer" target="_blank">RL²: Fast reinforcement learning via slow reinforcement learning</a></h2>
+  <p>RL²: Fast reinforcement learning via slow reinforcement learning</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-11-08T08:00:00.000Z">2016-11-08 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/variational-lossy-autoencoder" rel="noopener noreferrer" target="_blank">Variational lossy autoencoder</a></h2>
+  <p>Variational lossy autoencoder</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-11-02T07:00:00.000Z">2016-11-02 07:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/extensions-and-limitations-of-the-neural-gpu" rel="noopener noreferrer" target="_blank">Extensions and limitations of the neural GPU</a></h2>
+  <p>Extensions and limitations of the neural GPU</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-10-18T07:00:00.000Z">2016-10-18 07:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data" rel="noopener noreferrer" target="_blank">Semi-supervised knowledge transfer for deep learning from private training data</a></h2>
+  <p>Semi-supervised knowledge transfer for deep learning from private training data</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-10-11T07:00:00.000Z">2016-10-11 07:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model" rel="noopener noreferrer" target="_blank">Transfer from simulation to real world through learning deep inverse dynamics model</a></h2>
+  <p>Transfer from simulation to real world through learning deep inverse dynamics model</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-06-21T07:00:00.000Z">2016-06-21 07:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/concrete-ai-safety-problems" rel="noopener noreferrer" target="_blank">Concrete AI safety problems</a></h2>
+  <p>We (along with researchers from Berkeley and Stanford) are co-authors on today’s paper led by Google Brain researchers, Concrete Problems in AI Safety. The paper explores many research problems around ensuring that modern machine learning systems operate as intended.</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-05-25T07:00:00.000Z">2016-05-25 07:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification" rel="noopener noreferrer" target="_blank">Adversarial training methods for semi-supervised text classification</a></h2>
+  <p>Adversarial training methods for semi-supervised text classification</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R5</span>
+    <time datetime="2016-04-27T07:00:00.000Z">2016-04-27 07:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/openai-gym-beta" rel="noopener noreferrer" target="_blank">OpenAI Gym Beta</a></h2>
+  <p>We’re releasing the public beta of OpenAI Gym, a toolkit for developing and comparing reinforcement learning (RL) algorithms. It consists of a growing suite of environments (from simulated robots to Atari games), and a site for comparing and reproducing results.</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+<article class="card">
+  <header>
+    <span class="rule">R2</span>
+    <time datetime="2016-02-25T08:00:00.000Z">2016-02-25 08:00 UTC</time>
+  </header>
+  <h2><a href="https://openai.com/index/weight-normalization" rel="noopener noreferrer" target="_blank">Weight normalization: A simple reparameterization to accelerate training of deep neural networks</a></h2>
+  <p>Weight normalization: A simple reparameterization to accelerate training of deep neural networks</p>
+  <p class="meta">OpenAI Blog</p>
+</article>
+  </section>
+  <section>
+    <h2 class="section">Open for Vote</h2>
+    <p class="muted">No proposals open for vote right now.</p>
+  </section>
+  <section>
+    <h2 class="section">Active Rules</h2>
+    <ul class="rules">
+<li><strong>R1</strong> <em>model-releases</em><br>A post is included in model-releases when it reports a new model, major version update, or significant new capability released by an AI company, research lab, or official product owner, and links to the official or original announcement.</li>
+<li><strong>R2</strong> <em>research</em><br>A post is included in research when it reports a peer-reviewed or preprint paper from a recognized venue or research lab, an official technical report, or verifiable benchmark results, and links to the original source.</li>
+<li><strong>R3</strong> <em>industry</em><br>A post is included in industry when it reports financing, M&amp;A, partnerships, product launches, or market data in the AI industry, and links to a company announcement, deal announcement, or reputable media report.</li>
+<li><strong>R4</strong> <em>policy</em><br>A post is included in policy when it reports AI policy, regulatory action, or compliance events issued by official bodies, or links to reputable coverage of such an event.</li>
+<li><strong>R5</strong> <em>tools-oss</em><br>A post is included in tools-oss when it reports the initial release or major update of an open-source project or developer tool directly in the AI ecosystem, and links to the repository, release page, or official page.</li>
+    </ul>
+  </section>
+  <section>
+    <h2 class="section">About</h2>
+    <p>No algorithmic ranking. No manual pin. Strict reverse-chronological inclusion under community rules only. Uncovered content is rejected.</p>
+    <p>See <a href="https://github.com/larrymou/aicanonfeed">the repository</a> and CONTRIBUTING to propose rules.</p>
+  </section>
+</main>
+<footer>All decisions are auditable in <code>decisions/</code>.</footer>
+</body>
+</html>
