@@ -140,7 +140,7 @@ async function settlePhase({ stars, stageInfo, rules }) {
   const results = [];
   const { owner, repo } = splitSlug();
   // Track IDs allocated this run so multi-ratify does not collide.
-  const usedIds = new Set(rules.active.map((r) => r.id));
+  const usedIds = new Set((rules || []).map((r) => r.id));
 
   for (const issue of voting) {
     const reactions = await listIssueReactions(issue.number);
@@ -167,8 +167,7 @@ async function settlePhase({ stars, stageInfo, rules }) {
         guardError = `MVP supports new only (got ${pType})`;
         outcome = "rejected_by_guard";
       } else {
-        const { active } = rules;
-        let nextN = maxRuleId(active) + 1;
+        let nextN = maxRuleId(rules) + 1;
         let nextId = `R${nextN}`;
         while (usedIds.has(nextId)) {
           nextN += 1;
