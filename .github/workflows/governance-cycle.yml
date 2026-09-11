@@ -1,0 +1,50 @@
+name: governance-cycle
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: governance-cycle
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: git-writes
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - name: Run governance cycle
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: node scripts/governance.mjs
+      - name: Commit decisions
+        run: |
+          if [ -n "$(git status --porcelain decisions)" ]; then
+            git config user.name "aicanonfeed-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add decisions
+            git pull --rebase origin main || true
+            git commit -m "chore: record governance decisions"
+            git push || {
+              git pull --rebase origin main
+              git push
+            }
+          fi

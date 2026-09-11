@@ -1,0 +1,18 @@
+{
+  "name": "aicanonfeed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Community-written rules, AI moderation, GitHub as the platform.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "governance": "node scripts/governance.mjs",
+    "pipeline": "node scripts/pipeline.mjs",
+    "build-pages": "node scripts/build-pages.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

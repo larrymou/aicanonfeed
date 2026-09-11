@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.cache/
+
+# local product specs (not for public repo)
+*aicanonfeed*mvp*.md
+*aicanonfeed-spec*
+
