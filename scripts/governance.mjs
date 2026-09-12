@@ -18,7 +18,7 @@ import {
   splitSlug,
   repoSlug,
 } from "../lib/github.mjs";
-import { stageForStars, LABELS, CATEGORIES, RULE_MAX_CHARS } from "../lib/constants.mjs";
+import { stageForStars, LABELS, CATEGORIES, RULE_MAX_CHARS, isCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, maxRuleId } from "../lib/rules.mjs";
 
@@ -47,7 +47,7 @@ function parseCategory(body) {
   const m = body.match(/^\s*##\s*Category\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
   const raw = (m?.[1] || "").trim().toLowerCase();
   for (const c of Object.keys(CATEGORIES)) {
-    if (raw.includes(c)) return c;
+    if (raw === c || raw.split(/\s+/)[0] === c) return c;
   }
   return null;
 }
@@ -129,7 +129,7 @@ function guardRule({ text, category, nextId, existingIds }) {
   if (!text || text.length < 20) return "Rule text too short";
   if (text.length > RULE_MAX_CHARS) return "Rule text too long";
   if (/<script|javascript:|onerror=/i.test(text)) return "Rule text contains unsafe markup";
-  if (!CATEGORIES[category]) return "Invalid category";
+  if (!isCategory(category)) return "Invalid category";
   if (existingIds.has(nextId)) return `Rule ID ${nextId} already exists`;
   return null;
 }
@@ -175,7 +175,7 @@ async function settlePhase({ stars, stageInfo, rules }) {
         }
         const guardMsg = guardRule({
           text,
-          category,
+          category: isCategory(category) ? category : null,
           nextId,
           existingIds: usedIds,
         });

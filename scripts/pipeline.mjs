@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
-import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory } from "../lib/constants.mjs";
+import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory, isCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadIndexFile, appendIndex } from "../lib/hash.mjs";
@@ -70,6 +70,14 @@ async function moderateOne(item, rules, promptBody) {
       };
     }
     categoryId = rule.category;
+    if (!isCategory(categoryId)) {
+      return {
+        include: false,
+        matchedRuleId: null,
+        categoryId: null,
+        reason: "Forced reject: invalid category",
+      };
+    }
   } else {
     matchedRuleId = null;
     categoryId = null;
@@ -224,9 +232,13 @@ async function main() {
       promptVersion,
     };
     const name = `${item.urlHash}-${Date.now()}.json`;
-    fs.writeFileSync(path.join(contentDir, name), JSON.stringify(record, null, 2) + "\n");
-    // Do not index provider/network errors — allow a later run to retry the URL
-    if (!result.error) {
+    if (result.error) {
+      // Keep noise out of content-reviews; do not index so the URL can retry.
+      const errDir = path.join(ROOT, "decisions", "errors");
+      fs.mkdirSync(errDir, { recursive: true });
+      fs.writeFileSync(path.join(errDir, name), JSON.stringify(record, null, 2) + "\n");
+    } else {
+      fs.writeFileSync(path.join(contentDir, name), JSON.stringify(record, null, 2) + "\n");
       indexRows.push({ urlHash: item.urlHash, url: item.link, decidedAt });
     }
     log(

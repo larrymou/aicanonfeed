@@ -12,6 +12,7 @@ import {
   CONTENT_MAX_AGE_DAYS,
   CATEGORIES,
   TAB_ORDER,
+  isCategory,
 } from "../lib/constants.mjs";
 import { loadActiveRules } from "../lib/rules.mjs";
 import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
@@ -129,7 +130,7 @@ async function main() {
   for (const id of Object.keys(CATEGORIES)) counts[id] = 0;
   for (const r of included) {
     const id = r.categoryId;
-    if (id && counts[id] !== undefined) counts[id]++;
+    if (id && isCategory(id)) counts[id]++;
   }
 
   let stars = 0;
@@ -189,14 +190,14 @@ async function main() {
           const titleHtml = href
             ? `<a href="${esc(href)}" rel="noopener noreferrer" target="_blank">${title}</a>`
             : `<span class="plain">${title}</span>`;
-          const cat = r.categoryId || "";
+          const cat = isCategory(r.categoryId) ? r.categoryId : "";
           const isResearch = cat === "research";
           const rule = r.matchedRuleId || "";
           const summary = (r.summary || "").slice(0, isResearch ? 140 : SUMMARY_MAX_CHARS);
           const date = fmtDate(r.pubDate || r.decidedAt || "");
           return `<article class="item${isResearch ? " is-research" : ""}" data-category="${esc(cat)}">
   <div class="item-kicker">
-    <span class="cat cat-${esc(cat)}">${esc(shortLabel(cat))}</span>
+    <span class="cat cat-${esc(cat)}">${esc(cat ? shortLabel(cat) : "Uncategorized")}</span>
     <span class="dot" aria-hidden="true">·</span>
     <span class="src">${esc(r.sourceName || "")}</span>
     <span class="dot" aria-hidden="true">·</span>
