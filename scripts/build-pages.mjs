@@ -232,33 +232,39 @@ async function main() {
 <meta name="color-scheme" content="dark">
 <title>AICanonFeed</title>
 <style>
+  /* Deep blue system — minimal, modern */
   :root {
-    --bg: #0c0e12;
-    --ink: #f2f4f7;
-    --muted: #8b929c;
-    --line: #1e232b;
-    --line-soft: #171b22;
-    --accent: #8eb6ff;
-    --surface: #12151b;
-    --max: 52rem;
-    --tag-model: #a5b4fc;
-    --tag-industry: #6ee7b7;
-    --tag-policy: #fcd34d;
-    --tag-tools: #d8b4fe;
-    --tag-research: #93c5fd;
+    --bg: #060b16;
+    --bg-deep: #040812;
+    --ink: #e8eef8;
+    --muted: #8a96ab;
+    --line: #17233a;
+    --line-soft: #101a2e;
+    --accent: #5b9dff;
+    --accent-soft: #9ec2ff;
+    --surface: #0b1426;
+    --max: 54rem;
+    --tag-model: #7aa2ff;
+    --tag-industry: #5ecf9a;
+    --tag-policy: #e0b35e;
+    --tag-tools: #9b8cff;
+    --tag-research: #4fc3f7;
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   body {
     margin: 0;
-    background: var(--bg);
+    background:
+      radial-gradient(1200px 520px at 50% -120px, rgba(55, 110, 220, 0.18), transparent 60%),
+      linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 28%, var(--bg) 100%);
     color: var(--ink);
     font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    min-height: 100%;
   }
   a { color: var(--ink); text-decoration: none; }
-  a:hover { color: var(--accent); }
+  a:hover { color: var(--accent-soft); }
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
   .plain { color: inherit; }
 
@@ -269,7 +275,7 @@ async function main() {
 
   /* —— Header —— */
   .hero {
-    padding: 4.5rem 0 2.25rem;
+    padding: 4.75rem 0 2.5rem;
     border-bottom: 1px solid var(--line-soft);
   }
   .hero-top {
@@ -281,30 +287,30 @@ async function main() {
   }
   .wordmark {
     margin: 0;
-    font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+    font-size: clamp(1.85rem, 3.8vw, 2.45rem);
     font-weight: 650;
-    letter-spacing: -0.03em;
-    line-height: 1.1;
+    letter-spacing: -0.035em;
+    line-height: 1.08;
   }
   .wordmark span {
-    color: var(--muted);
+    color: var(--accent);
     font-weight: 500;
   }
   .lede {
-    margin: 1rem 0 0;
+    margin: 1.1rem 0 0;
     max-width: 36rem;
     color: var(--muted);
     font-size: 1.05rem;
-    line-height: 1.55;
+    line-height: 1.6;
   }
   .status {
-    margin: 1.25rem 0 0;
+    margin: 1.35rem 0 0;
     color: var(--muted);
     font-size: 0.875rem;
     letter-spacing: 0.01em;
   }
   .status strong {
-    color: var(--ink);
+    color: var(--accent-soft);
     font-weight: 600;
   }
 
@@ -325,7 +331,8 @@ async function main() {
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--muted);
+    color: var(--accent-soft);
+    opacity: 0.85;
   }
 
   /* —— Tabs —— */
@@ -353,7 +360,7 @@ async function main() {
   .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
   .tab.is-active {
     color: var(--ink);
-    border-bottom-color: var(--ink);
+    border-bottom-color: var(--accent);
   }
   .tab .count {
     margin-left: 0.4rem;
