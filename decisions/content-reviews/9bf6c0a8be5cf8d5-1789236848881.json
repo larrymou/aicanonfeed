@@ -1,0 +1,14 @@
+{
+  "urlHash": "9bf6c0a8be5cf8d5",
+  "url": "https://arxiv.org/abs/2609.11509",
+  "sourceName": "arXiv cs.AI",
+  "title": "Extending SMT Solving with Non-Ground Clause Learning",
+  "summary": "arXiv:2609.11509v1 Announce Type: new Abstract: Quantifier instantiation is currently the main approach to non-ground SMT solving: solvers generate ground instances and solve the resulting ground SMT problems with CDCL(T)-style reasoning. When a conflict is found, conflict analys",
+  "pubDate": "2026-09-12T04:00:00.000Z",
+  "decidedAt": "2026-09-12T18:13:58.098Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "Item is an arXiv cs.AI preprint (arXiv:2609.11509) presenting new research on non-ground SMT solving, linked to the original arXiv source, satisfying R2 for preprints from a recognized research source.",
+  "promptVersion": "1"
+}
