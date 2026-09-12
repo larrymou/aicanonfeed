@@ -205,7 +205,10 @@ async function main() {
     };
     const name = `${item.urlHash}-${Date.now()}.json`;
     fs.writeFileSync(path.join(contentDir, name), JSON.stringify(record, null, 2) + "\n");
-    indexRows.push({ urlHash: item.urlHash, url: item.link, decidedAt });
+    // Do not index provider/network errors — allow a later run to retry the URL
+    if (!result.error) {
+      indexRows.push({ urlHash: item.urlHash, url: item.link, decidedAt });
+    }
     log(
       `${result.include ? "IN " : "OUT"} ${item.sourceName} ${item.matchedRuleId || "-"} ${item.title.slice(0, 60)}`,
     );
