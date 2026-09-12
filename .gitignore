@@ -4,6 +4,9 @@ node_modules/
 .env
 .cache/
 
+# Pages build artifact lives on gh-pages; do not commit generated HTML
+docs/index.html
+
 # local product specs (not for public repo)
 *aicanonfeed*mvp*.md
 *aicanonfeed-spec*

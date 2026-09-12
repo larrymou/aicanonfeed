@@ -231,14 +231,17 @@ async function main() {
       reason: result.reason,
       promptVersion,
     };
-    const name = `${item.urlHash}-${Date.now()}.json`;
+    const name = `${item.urlHash}.json`;
     if (result.error) {
-      // Keep noise out of content-reviews; do not index so the URL can retry.
+      // One file per hash; overwrite on retry; not indexed.
       const errDir = path.join(ROOT, "decisions", "errors");
       fs.mkdirSync(errDir, { recursive: true });
       fs.writeFileSync(path.join(errDir, name), JSON.stringify(record, null, 2) + "\n");
     } else {
-      fs.writeFileSync(path.join(contentDir, name), JSON.stringify(record, null, 2) + "\n");
+      // Success: drop stale error file if any
+      const errFile = path.join(ROOT, "decisions", "errors", name);
+      if (fs.existsSync(errFile)) fs.unlinkSync(errFile);
+      fs.writeFileSync(path.join(contentDir, `${item.urlHash}-${Date.now()}.json`), JSON.stringify(record, null, 2) + "\n");
       indexRows.push({ urlHash: item.urlHash, url: item.link, decidedAt });
     }
     log(

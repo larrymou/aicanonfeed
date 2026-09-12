@@ -45,11 +45,15 @@ function parseProposalType(body) {
 
 function parseCategory(body) {
   const m = body.match(/^\s*##\s*Category\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
-  const raw = (m?.[1] || "").trim().toLowerCase();
-  for (const c of Object.keys(CATEGORIES)) {
-    if (raw === c || raw.split(/\s+/)[0] === c) return c;
-  }
-  return null;
+  if (!m) return null;
+  // First non-empty, non-comment line only — exact slug match
+  const line = m[1]
+    .split(/\r?\n/)
+    .map((s) => s.replace(/<!--[\s\S]*?-->/g, "").trim())
+    .find((s) => s && !s.startsWith("#"));
+  if (!line) return null;
+  const token = line.toLowerCase().split(/[^a-z0-9-]+/).filter(Boolean)[0];
+  return isCategory(token) ? token : null;
 }
 
 function parseRuleText(body) {
@@ -275,6 +279,26 @@ async function preReviewPhase({ metaRules, prompt }) {
   const promptBody = loadPrompt(prompt);
 
   for (const issue of proposals) {
+    // Structural gate before spending an LLM call
+    const category = parseCategory(issue.body || "");
+    if (!category) {
+      await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+      await comment(
+        issue.number,
+        "❌ Pre-review rejected: Category must be one of `model-releases`, `research`, `industry`, `policy`, `tools-oss` (first line under ## Category).",
+      );
+      await closeIssue(issue.number);
+      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+        issueNumber: issue.number,
+        verdict: "reject",
+        reason: "invalid_category",
+        matchedMetaRules: [],
+        reviewedAt: new Date().toISOString(),
+      });
+      results.push({ issueNumber: issue.number, verdict: "reject" });
+      continue;
+    }
+
     const filled = fillTemplate(promptBody, {
       META_RULES: metaRules,
       ISSUE_BODY: (issue.body || "").slice(0, 8000),
