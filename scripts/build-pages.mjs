@@ -4,7 +4,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { SUMMARY_MAX_CHARS, stageForStars, LABELS } from "../lib/constants.mjs";
+import { SUMMARY_MAX_CHARS, stageForStars, LABELS, CONTENT_MAX_AGE_DAYS } from "../lib/constants.mjs";
 import { loadActiveRules } from "../lib/rules.mjs";
 import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
 
@@ -27,12 +27,18 @@ function esc(s) {
 function loadIncluded() {
   const dir = path.join(ROOT, "decisions", "content-reviews");
   if (!fs.existsSync(dir)) return [];
+  const maxAgeMs = CONTENT_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const now = Date.now();
   const rows = [];
   for (const f of fs.readdirSync(dir)) {
     if (!f.endsWith(".json")) continue;
     try {
       const obj = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
-      if (obj.include === true) rows.push(obj);
+      if (obj.include !== true) continue;
+      const t = new Date(obj.pubDate || obj.decidedAt || 0).getTime();
+      // Hide archive backfill; only show the rolling content window
+      if (!Number.isFinite(t) || now - t > maxAgeMs) continue;
+      rows.push(obj);
     } catch {
       /* skip */
     }

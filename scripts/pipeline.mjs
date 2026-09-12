@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
-import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS } from "../lib/constants.mjs";
+import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadIndexFile, appendIndex } from "../lib/hash.mjs";
@@ -107,6 +107,10 @@ async function main() {
   log(`index size=${seen.size}`);
 
   const candidates = [];
+  const maxAgeMs = CONTENT_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+  let skippedStale = 0;
+  let skippedNoDate = 0;
   for (const feed of feeds.rss || []) {
     try {
       const parsed = await parser.parseURL(feed.url);
@@ -117,11 +121,21 @@ async function main() {
         if (!link) continue;
         const h = urlHash(link);
         if (seen.has(h)) continue;
+        const pubRaw = it.isoDate || it.pubDate || null;
+        if (!pubRaw) {
+          skippedNoDate++;
+          continue;
+        }
+        const pubMs = new Date(pubRaw).getTime();
+        if (!Number.isFinite(pubMs) || now - pubMs > maxAgeMs) {
+          skippedStale++;
+          continue;
+        }
         candidates.push({
           sourceName: feed.name,
           link,
           title: it.title || "",
-          pubDate: it.isoDate || it.pubDate || null,
+          pubDate: pubRaw,
           summary: summarize(it),
           urlHash: h,
         });
@@ -131,10 +145,12 @@ async function main() {
     }
   }
 
-  // Oldest first so backlog drains steadily; cap new URLs
-  candidates.sort((a, b) => new Date(a.pubDate || 0) - new Date(b.pubDate || 0));
+  // Newest first — surface current news, do not drain years of RSS archive
+  candidates.sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
   const batch = candidates.slice(0, FEED_MAX_NEW_PER_RUN);
-  log(`candidates=${candidates.length} processing=${batch.length}`);
+  log(
+    `candidates=${candidates.length} processing=${batch.length} skipped_stale=${skippedStale} skipped_no_date=${skippedNoDate}`,
+  );
 
   // Wall-clock budget so a hung provider cannot burn the full Actions job (6h)
   const deadline = Date.now() + 20 * 60 * 1000;
