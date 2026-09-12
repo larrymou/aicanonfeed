@@ -113,7 +113,13 @@ async function main() {
   let skippedNoDate = 0;
   for (const feed of feeds.rss || []) {
     try {
-      const parsed = await parser.parseURL(feed.url);
+      // rss-parser timeout is unreliable for some hosts; enforce our own
+      const parsed = await Promise.race([
+        parser.parseURL(feed.url),
+        new Promise((_, reject) =>
+          setTimeout(() => reject(new Error(`feed timeout: ${feed.name}`)), 25000),
+        ),
+      ]);
       const items = parsed.items || [];
       log(`${feed.name}: ${items.length} items`);
       for (const it of items) {
