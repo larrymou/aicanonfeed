@@ -18,7 +18,7 @@ import {
   splitSlug,
   repoSlug,
 } from "../lib/github.mjs";
-import { stageForStars, LABELS, CATEGORIES, RULE_MAX_CHARS, isCategory } from "../lib/constants.mjs";
+import { stageForStars, LABELS, RULE_MAX_CHARS, isCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, maxRuleId } from "../lib/rules.mjs";
 
