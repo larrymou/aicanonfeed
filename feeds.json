@@ -4,13 +4,25 @@
       "name": "OpenAI Blog",
       "url": "https://www.openai.com/blog/rss.xml",
       "category": "model-releases",
-      "maxPerRun": 12
+      "maxPerRun": 10
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "category": "model-releases",
+      "maxPerRun": 8
     },
     {
       "name": "Google AI Blog",
       "url": "https://blog.google/technology/ai/rss/",
       "category": "research",
       "maxPerRun": 8
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "category": "research",
+      "maxPerRun": 6
     },
     {
       "name": "arXiv cs.AI",
@@ -22,13 +34,55 @@
       "name": "TechCrunch AI",
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "category": "industry",
-      "maxPerRun": 12
+      "maxPerRun": 10
     },
     {
       "name": "The Verge AI",
       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "category": "industry",
-      "maxPerRun": 12
+      "maxPerRun": 8
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/feed/",
+      "category": "industry",
+      "maxPerRun": 8
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "category": "industry",
+      "maxPerRun": 6
+    },
+    {
+      "name": "Wired AI",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "category": "industry",
+      "maxPerRun": 6
+    },
+    {
+      "name": "IEEE Spectrum AI",
+      "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+      "category": "policy",
+      "maxPerRun": 6
+    },
+    {
+      "name": "AI News",
+      "url": "https://www.artificialintelligence-news.com/feed/",
+      "category": "industry",
+      "maxPerRun": 6
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category": "tools-oss",
+      "maxPerRun": 8
+    },
+    {
+      "name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/feed/",
+      "category": "research",
+      "maxPerRun": 6
     }
   ]
 }
