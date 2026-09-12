@@ -17,6 +17,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     concurrency:
       group: git-writes
       cancel-in-progress: false

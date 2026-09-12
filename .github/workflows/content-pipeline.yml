@@ -16,6 +16,8 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    # Hard job ceiling — never occupy a runner for hours
+    timeout-minutes: 25
     concurrency:
       group: git-writes
       cancel-in-progress: false
