@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed.">
 <title>AICanonFeed</title>
 <style>
   :root { --bg:#0f1115; --card:#171a21; --ink:#e8eaed; --muted:#9aa0a6; --line:#2a2f3a; --accent:#7cb7ff; }
@@ -11,36 +12,41 @@
   header.site { padding:28px 20px 8px; max-width:720px; margin:0 auto; }
   header.site h1 { margin:0 0 4px; font-size:1.5rem; }
   header.site p { margin:0; color:var(--muted); }
+  header.site .tagline { color:var(--ink); margin-top:6px; }
   main { max-width:720px; margin:0 auto; padding:12px 20px 48px; }
   section { margin-top:28px; }
   h2.section { font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 12px; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:10px; }
-  .card header { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:0.8rem; }
-  .card h2 { margin:6px 0; font-size:1.05rem; }
-  .card a { color:var(--accent); text-decoration:none; }
-  .card a:hover { text-decoration:underline; }
+  .card header { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:0.8rem; flex-wrap:wrap; }
+  .card h2 { margin:6px 0; font-size:1.1rem; line-height:1.35; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
   .card p { margin:0 0 6px; }
-  .meta, .muted, .votes { color:var(--muted); font-size:0.85rem; }
+  .meta, .muted, .votes, .hint { color:var(--muted); font-size:0.85rem; }
+  .hint { display:block; margin-top:2px; }
   .rule { color:var(--accent); font-weight:600; }
+  .rule a { color:inherit; }
   ul.feed { list-style:none; padding:0; margin:0; }
   ul.feed li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; margin-bottom:8px; }
   ul.rules { padding-left:1.1rem; }
-  ul.rules li { margin-bottom:10px; }
+  ul.rules li { margin-bottom:14px; }
+  .about ul { padding-left:1.1rem; margin:8px 0; }
   footer { max-width:720px; margin:0 auto; padding:0 20px 40px; color:var(--muted); font-size:0.85rem; }
+  :target { outline:1px solid var(--accent); }
 </style>
 </head>
 <body>
 <header class="site">
   <h1>AICanonFeed</h1>
-  <p>Community writes the rules. AI applies them. Chronological inclusion feed.</p>
-  <p class="muted">Stars: 0 · Stage: S0 · Quorum: 1</p>
+  <p class="tagline">Community writes the rules. AI applies them. Chronological inclusion feed — no ranking, no pins.</p>
+  <p class="muted">Stars: 0 · Stage: S0 · Quorum: 1 · Window: last 14 days</p>
 </header>
 <main>
-  <section>
+  <section id="latest">
     <h2 class="section">Latest Included</h2>
     <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10657" rel="noopener noreferrer" target="_blank">Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking</a></h2>
@@ -49,7 +55,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10992" rel="noopener noreferrer" target="_blank">Demystifying the Privacy-Utility Trade-off in LLM Interactions</a></h2>
@@ -58,7 +64,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10712" rel="noopener noreferrer" target="_blank">An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics</a></h2>
@@ -67,7 +73,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11185" rel="noopener noreferrer" target="_blank">Can LLMs Follow Medical Expert Logic? A Benchmark for Hierarchical Logical Consistency in Risk-of-Bias Assessment</a></h2>
@@ -76,7 +82,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11176" rel="noopener noreferrer" target="_blank">Debate-to-Skill: Capability-Bound Process Supervision for Industrial Query-to-Agent Annotation</a></h2>
@@ -85,7 +91,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11115" rel="noopener noreferrer" target="_blank">Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</a></h2>
@@ -94,7 +100,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10728" rel="noopener noreferrer" target="_blank">Towards a Deterministic Math Solver for Clinical Language Models</a></h2>
@@ -103,7 +109,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11155" rel="noopener noreferrer" target="_blank">DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat</a></h2>
@@ -112,7 +118,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11144" rel="noopener noreferrer" target="_blank">Same Day, Same Story; One Day Ahead, a Different Signal: The Dual Validity of Financial Sentiment</a></h2>
@@ -121,7 +127,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10724" rel="noopener noreferrer" target="_blank">Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge</a></h2>
@@ -130,7 +136,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11190" rel="noopener noreferrer" target="_blank">Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce</a></h2>
@@ -139,7 +145,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11146" rel="noopener noreferrer" target="_blank">The Oligarch Barely Steers Model Collapse in Multi-Model Ecosystems</a></h2>
@@ -148,7 +154,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10964" rel="noopener noreferrer" target="_blank">Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows</a></h2>
@@ -157,7 +163,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10629" rel="noopener noreferrer" target="_blank">Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language</a></h2>
@@ -166,7 +172,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11065" rel="noopener noreferrer" target="_blank">MOSAIC: Query-Aware Exploration Policy Adaptation for GraphRAG</a></h2>
@@ -175,7 +181,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11061" rel="noopener noreferrer" target="_blank">Fork Where the Model Changes Its Mind: Belief-Shift Branching for Tree-Structured Reinforcement Learning</a></h2>
@@ -184,7 +190,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11127" rel="noopener noreferrer" target="_blank">KuaiRP Series Role-playing Models Technical Report</a></h2>
@@ -193,7 +199,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11060" rel="noopener noreferrer" target="_blank">Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents</a></h2>
@@ -202,7 +208,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11147" rel="noopener noreferrer" target="_blank">Autonomous Chemical Mechanistic Discovery through Agentic Reasoning and Validation</a></h2>
@@ -211,7 +217,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10654" rel="noopener noreferrer" target="_blank">A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning</a></h2>
@@ -220,7 +226,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10873" rel="noopener noreferrer" target="_blank">When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents</a></h2>
@@ -229,7 +235,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10656" rel="noopener noreferrer" target="_blank">Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning</a></h2>
@@ -238,7 +244,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11170" rel="noopener noreferrer" target="_blank">Breaking Predictions Is Not Enough: Specified-Foil Counterfactuals for Temporal Graphs</a></h2>
@@ -247,7 +253,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10824" rel="noopener noreferrer" target="_blank">Studying Without a Syllabus: Task-Agnostic Environment Preprocessing</a></h2>
@@ -256,7 +262,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11030" rel="noopener noreferrer" target="_blank">The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures</a></h2>
@@ -265,7 +271,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11180" rel="noopener noreferrer" target="_blank">SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics</a></h2>
@@ -274,7 +280,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11018" rel="noopener noreferrer" target="_blank">Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks</a></h2>
@@ -283,7 +289,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.10584" rel="noopener noreferrer" target="_blank">Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement</a></h2>
@@ -292,7 +298,7 @@
 </article>
 <article class="card">
   <header>
-    <span class="rule">R2</span>
+    <span class="rule"><a href="#rule-R2">R2</a> · Research</span>
     <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
   </header>
   <h2><a href="https://arxiv.org/abs/2609.11199" rel="noopener noreferrer" target="_blank">An AI-Powered Culturally Aware Chatbot for Stress Detection and Wellness Support among Pakistani University Students Using NLP and Machine Learning</a></h2>
@@ -300,24 +306,49 @@
   <p class="meta">arXiv cs.AI</p>
 </article>
   </section>
-  <section>
+  <section id="vote">
     <h2 class="section">Open for Vote</h2>
-    <p class="muted">No proposals open for vote right now.</p>
+    <p class="muted">No proposals open for vote right now. Propose a rule via GitHub Issues.</p>
   </section>
-  <section>
+  <section id="rules">
     <h2 class="section">Active Rules</h2>
     <ul class="rules">
-<li><strong>R1</strong> <em>model-releases</em><br>A post is included in model-releases when it reports a new model, major version update, or significant new capability released by an AI company, research lab, or official product owner, and links to the official or original announcement.</li>
-<li><strong>R2</strong> <em>research</em><br>A post is included in research when it reports a peer-reviewed or preprint paper from a recognized venue or research lab, an official technical report, or verifiable benchmark results, and links to the original source.</li>
-<li><strong>R3</strong> <em>industry</em><br>A post is included in industry when it reports financing, M&amp;A, partnerships, product launches, or market data in the AI industry, and links to a company announcement, deal announcement, or reputable media report.</li>
-<li><strong>R4</strong> <em>policy</em><br>A post is included in policy when it reports AI policy, regulatory action, or compliance events issued by official bodies, or links to reputable coverage of such an event.</li>
-<li><strong>R5</strong> <em>tools-oss</em><br>A post is included in tools-oss when it reports the initial release or major update of an open-source project or developer tool directly in the AI ecosystem, and links to the repository, release page, or official page.</li>
+<li id="rule-R1">
+  <strong>R1</strong> <em>Model Releases</em>
+  <br>A post is included in model-releases when it reports a new model, major version update, or significant new capability released by an AI company, research lab, or official product owner, and links to the official or original announcement.
+  <div class="hint">Disagree? <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule change</a></div>
+</li>
+<li id="rule-R2">
+  <strong>R2</strong> <em>Research</em>
+  <br>A post is included in research when it reports a peer-reviewed or preprint paper from a recognized venue or research lab, an official technical report, or verifiable benchmark results, and links to the original source.
+  <div class="hint">Disagree? <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule change</a></div>
+</li>
+<li id="rule-R3">
+  <strong>R3</strong> <em>Industry</em>
+  <br>A post is included in industry when it reports financing, M&amp;A, partnerships, product launches, or market data in the AI industry, and links to a company announcement, deal announcement, or reputable media report.
+  <div class="hint">Disagree? <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule change</a></div>
+</li>
+<li id="rule-R4">
+  <strong>R4</strong> <em>Policy</em>
+  <br>A post is included in policy when it reports AI policy, regulatory action, or compliance events issued by official bodies, or links to reputable coverage of such an event.
+  <div class="hint">Disagree? <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule change</a></div>
+</li>
+<li id="rule-R5">
+  <strong>R5</strong> <em>Tools &amp; OSS</em>
+  <br>A post is included in tools-oss when it reports the initial release or major update of an open-source project or developer tool directly in the AI ecosystem, and links to the repository, release page, or official page.
+  <div class="hint">Disagree? <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule change</a></div>
+</li>
     </ul>
   </section>
-  <section>
+  <section class="about" id="about">
     <h2 class="section">About</h2>
-    <p>No algorithmic ranking. No manual pin. Strict reverse-chronological inclusion under community rules only. Uncovered content is rejected.</p>
-    <p>See <a href="https://github.com/larrymou/aicanonfeed">the repository</a> and CONTRIBUTING to propose rules.</p>
+    <ul>
+      <li>No algorithmic ranking and no manual pin — strict reverse-chronological.</li>
+      <li>AI only applies ratified rules; uncovered content is rejected.</li>
+      <li>Platform does not hand-review feed items; decisions live in <code>decisions/</code>.</li>
+      <li>Rule proposals take roughly 8–14 days (pre-review → vote → merge).</li>
+    </ul>
+    <p><a href="https://github.com/larrymou/aicanonfeed">Repository</a> · <a href="https://github.com/larrymou/aicanonfeed/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> · <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule</a></p>
   </section>
 </main>
 <footer>All decisions are auditable in <code>decisions/</code>.</footer>
