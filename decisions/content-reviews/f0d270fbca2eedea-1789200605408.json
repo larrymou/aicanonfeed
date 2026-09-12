@@ -1,0 +1,14 @@
+{
+  "urlHash": "f0d270fbca2eedea",
+  "url": "https://openai.com/index/block-sparse-gpu-kernels",
+  "sourceName": "OpenAI Blog",
+  "title": "Block-sparse GPU kernels",
+  "summary": "We’re releasing highly-optimized GPU kernels for an underexplored class of neural network architectures: networks with block-sparse weights. Depending on the chosen sparsity, these kernels can run orders of magnitude faster than cuBLAS or cuSPARSE. We’ve used them to attain state",
+  "pubDate": "2017-12-06T08:00:00.000Z",
+  "decidedAt": "2026-09-12T08:09:28.658Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "R5",
+  "reason": "OpenAI announces initial release of highly-optimized GPU kernels for block-sparse neural networks, a developer tool in the AI ecosystem, linking to the official OpenAI page.",
+  "promptVersion": "1"
+}
