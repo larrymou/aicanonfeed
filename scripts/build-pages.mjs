@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
  * Build static GitHub Pages site: Latest Included first, then Open for Vote, Rules, About.
+ * Visual direction: editorial dark — minimal chrome, hairline list, calm type scale.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -67,6 +68,13 @@ function fmtDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return String(iso);
+  return d.toISOString().slice(0, 10);
+}
+
+function fmtDateTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return String(iso);
   return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
 }
 
@@ -100,6 +108,17 @@ function tabLabel(id) {
   return CATEGORIES[id] || id;
 }
 
+function shortLabel(slug) {
+  const map = {
+    "model-releases": "Models",
+    research: "Research",
+    industry: "Industry",
+    policy: "Policy",
+    "tools-oss": "Tools",
+  };
+  return map[slug] || categoryName(slug);
+}
+
 async function main() {
   const { active: rules } = loadActiveRules(path.join(ROOT, "rules"));
   const included = loadIncluded();
@@ -115,8 +134,7 @@ async function main() {
 
   let stars = 0;
   let stageInfo = { stage: "S0", stars: 0, quorum: 1 };
-  let votingHtml =
-    '<p class="muted">Voting data unavailable (local build without GitHub token).</p>';
+  let votingHtml = '<p class="empty">Voting data unavailable (local build without token).</p>';
 
   try {
     const repo = await getRepo();
@@ -138,19 +156,20 @@ async function main() {
       const need = Math.max(0, stageInfo.quorum - (up + down));
       const needText =
         up + down < stageInfo.quorum
-          ? ` · need ${need} more valid vote${need === 1 ? "" : "s"} (quorum ${stageInfo.quorum})`
+          ? `${need} more vote${need === 1 ? "" : "s"} needed · quorum ${stageInfo.quorum}`
           : up > down
-            ? " · currently leading"
-            : "";
-      items.push(`<li>
-        <a href="${esc(issue.html_url)}">${esc(issue.title)}</a>
-        <span class="votes">👍 ${up} · 👎 ${down}${esc(needText)}</span>
-        <span class="hint">Open the issue and react 👍 or 👎 to vote.</span>
+            ? "Leading"
+            : "Tied or behind";
+      items.push(`<li class="vote-item">
+        <a class="vote-title" href="${esc(issue.html_url)}">${esc(issue.title)}</a>
+        <div class="vote-meta"><span>👍 ${up} · 👎 ${down}</span><span>${esc(needText)}</span></div>
       </li>`);
     }
     votingHtml = items.length
-      ? `<ul class="feed">${items.join("\n")}</ul>`
-      : `<p class="muted">No proposals open for vote right now. Propose a rule via GitHub Issues.</p>`;
+      ? `<ul class="list vote-list">${items.join("\n")}</ul>`
+      : '<p class="empty">No open proposals. <a href="https://github.com/' +
+        esc(repoSlugEnv) +
+        '/issues/new/choose">Propose a rule</a></p>';
   } catch (err) {
     log("GitHub unavailable:", String(err.message || err));
     stageInfo = stageForStars(process.env.STARS || 0);
@@ -159,8 +178,8 @@ async function main() {
   const tabsHtml = TAB_ORDER.map((id, i) => {
     const n = counts[id] ?? 0;
     const active = i === 0 ? " is-active" : "";
-    return `<button type="button" class="tab${active}" data-tab="${esc(id)}" aria-pressed="${i === 0 ? "true" : "false"}">${esc(tabLabel(id))} <span class="count">${n}</span></button>`;
-  }).join("\n      ");
+    return `<button type="button" class="tab${active}" data-tab="${esc(id)}" aria-pressed="${i === 0 ? "true" : "false"}">${esc(tabLabel(id))}<span class="count">${n}</span></button>`;
+  }).join("");
 
   const feedHtml = included.length
     ? included
@@ -169,31 +188,37 @@ async function main() {
           const title = esc(r.title);
           const titleHtml = href
             ? `<a href="${esc(href)}" rel="noopener noreferrer" target="_blank">${title}</a>`
-            : title;
+            : `<span class="plain">${title}</span>`;
           const cat = r.categoryId || "";
-          const catName = categoryName(cat);
-          const rule = r.matchedRuleId || "";
           const isResearch = cat === "research";
-          const summary = (r.summary || "").slice(0, isResearch ? 160 : SUMMARY_MAX_CHARS);
-          return `<article class="card${isResearch ? " is-research" : ""}" data-category="${esc(cat)}">
-  <header>
-    <span class="rule"><span class="chip chip-${esc(cat)}">${esc(catName)}</span> <a href="#rule-${esc(rule)}">${esc(rule || "—")}</a></span>
-    <time datetime="${esc(r.pubDate || r.decidedAt || "")}">${esc(fmtDate(r.pubDate || r.decidedAt))}</time>
-  </header>
-  <h2>${titleHtml}</h2>
-  <p>${esc(summary)}</p>
-  <p class="meta">${esc(r.sourceName || "")}</p>
+          const rule = r.matchedRuleId || "";
+          const summary = (r.summary || "").slice(0, isResearch ? 140 : SUMMARY_MAX_CHARS);
+          const date = fmtDate(r.pubDate || r.decidedAt || "");
+          return `<article class="item${isResearch ? " is-research" : ""}" data-category="${esc(cat)}">
+  <div class="item-kicker">
+    <span class="cat cat-${esc(cat)}">${esc(shortLabel(cat))}</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">${esc(r.sourceName || "")}</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="${esc(r.pubDate || r.decidedAt || "")}">${esc(date)}</time>
+    <span class="rule-tag"><a href="#rule-${esc(rule)}">${esc(rule || "")}</a></span>
+  </div>
+  <h3 class="item-title">${titleHtml}</h3>
+  <p class="item-summary">${esc(summary)}</p>
 </article>`;
         })
         .join("\n")
-    : `<p class="muted" data-category="all">No items in the last ${CONTENT_MAX_AGE_DAYS} days. Pipeline runs every 4 hours against active rules only.</p>`;
+    : `<p class="empty" data-category="all">Nothing included in the last ${CONTENT_MAX_AGE_DAYS} days.</p>`;
 
   const rulesHtml = rules
     .map(
-      (r) => `<li id="rule-${esc(r.id)}">
-  <strong>${esc(r.id)}</strong> <em>${esc(categoryName(r.category))}</em>
-  <br>${esc(r.body)}
-  <div class="hint">Disagree? <a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a rule change</a></div>
+      (r) => `<li class="rule-row" id="rule-${esc(r.id)}">
+  <div class="rule-head">
+    <span class="rule-id">${esc(r.id)}</span>
+    <span class="cat cat-${esc(r.category)}">${esc(shortLabel(r.category))}</span>
+  </div>
+  <p class="rule-body">${esc(r.body)}</p>
+  <p class="rule-cta"><a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a change</a></p>
 </li>`,
     )
     .join("\n");
@@ -203,123 +228,377 @@ async function main() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed for general AI news and research.">
+<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed for AI industry and research.">
+<meta name="color-scheme" content="dark">
 <title>AICanonFeed</title>
 <style>
   :root {
-    --bg:#0f1115; --card:#171a21; --ink:#e8eaed; --muted:#9aa0a6;
-    --line:#2a2f3a; --accent:#7cb7ff;
-    --tag-model:#8b9cff; --tag-industry:#5ecf9a; --tag-policy:#e0b35e;
-    --tag-tools:#c792ea; --tag-research:#7cb7ff;
+    --bg: #0c0e12;
+    --ink: #f2f4f7;
+    --muted: #8b929c;
+    --line: #1e232b;
+    --line-soft: #171b22;
+    --accent: #8eb6ff;
+    --surface: #12151b;
+    --max: 52rem;
+    --tag-model: #a5b4fc;
+    --tag-industry: #6ee7b7;
+    --tag-policy: #fcd34d;
+    --tag-tools: #d8b4fe;
+    --tag-research: #93c5fd;
   }
   * { box-sizing: border-box; }
-  body { margin:0; font:16px/1.5 system-ui,-apple-system,'Segoe UI',sans-serif; background:var(--bg); color:var(--ink); }
-  header.site { padding:28px 20px 8px; max-width:720px; margin:0 auto; }
-  header.site h1 { margin:0 0 4px; font-size:1.5rem; letter-spacing:-0.02em; }
-  header.site .tagline { color:var(--ink); margin:6px 0 0; }
-  header.site .status { color:var(--muted); margin:8px 0 0; font-size:0.9rem; }
-  main { max-width:720px; margin:0 auto; padding:12px 20px 48px; }
-  section { margin-top:28px; }
-  h2.section { font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 12px; font-weight:600; }
-  .rail { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 14px; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: var(--ink); text-decoration: none; }
+  a:hover { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  .plain { color: inherit; }
+
+  .wrap {
+    width: min(100% - 2.5rem, var(--max));
+    margin-inline: auto;
+  }
+
+  /* —— Header —— */
+  .hero {
+    padding: 4.5rem 0 2.25rem;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .hero-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+  }
+  .wordmark {
+    margin: 0;
+    font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+    font-weight: 650;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+  .wordmark span {
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .lede {
+    margin: 1rem 0 0;
+    max-width: 36rem;
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+  .status {
+    margin: 1.25rem 0 0;
+    color: var(--muted);
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+  }
+  .status strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* —— Sections —— */
+  main { padding: 2rem 0 5rem; }
+  .block { margin-top: 3.5rem; }
+  .block:first-child { margin-top: 0; }
+  .block-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .block-title {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* —— Tabs —— */
+  .rail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem 0;
+    margin: 0 0 0.5rem;
+    border-bottom: 1px solid var(--line);
+  }
   .tab {
-    appearance:none; border:1px solid var(--line); background:transparent; color:var(--muted);
-    border-radius:999px; padding:8px 12px; font:inherit; font-size:0.9rem; cursor:pointer;
-    min-height:36px;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 0.95rem;
+    padding: 0.7rem 0.9rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    min-height: 44px;
   }
-  .tab:hover { color:var(--ink); border-color:#3a4150; }
-  .tab:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
-  .tab.is-active { color:var(--bg); background:var(--ink); border-color:var(--ink); }
-  .tab .count { opacity:0.75; font-variant-numeric:tabular-nums; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:10px; }
-  .card.is-hidden { display:none; }
-  .card.is-research { opacity:0.96; }
-  .card.is-research h2 { font-size:1rem; }
-  .card header { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:0.8rem; flex-wrap:wrap; align-items:center; }
-  .card h2 { margin:8px 0 6px; font-size:1.1rem; line-height:1.35; }
-  a { color:var(--accent); text-decoration:none; }
-  a:hover { text-decoration:underline; }
-  .card p { margin:0 0 6px; }
-  .meta, .muted, .votes, .hint { color:var(--muted); font-size:0.85rem; }
-  .hint { display:block; margin-top:2px; }
-  .rule { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-  .chip {
-    display:inline-block; padding:2px 8px; border-radius:999px; font-size:0.75rem;
-    font-weight:600; letter-spacing:0.02em; border:1px solid var(--line); color:var(--ink);
+  .tab:hover { color: var(--ink); }
+  .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .tab.is-active {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
   }
-  .chip-model-releases { border-color:var(--tag-model); color:var(--tag-model); }
-  .chip-research { border-color:var(--tag-research); color:var(--tag-research); }
-  .chip-industry { border-color:var(--tag-industry); color:var(--tag-industry); }
-  .chip-policy { border-color:var(--tag-policy); color:var(--tag-policy); }
-  .chip-tools-oss { border-color:var(--tag-tools); color:var(--tag-tools); }
-  ul.feed { list-style:none; padding:0; margin:0; }
-  ul.feed li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; margin-bottom:8px; }
-  ul.rules { padding-left:1.1rem; }
-  ul.rules li { margin-bottom:14px; }
-  .about ul { padding-left:1.1rem; margin:8px 0; }
-  footer { max-width:720px; margin:0 auto; padding:0 20px 40px; color:var(--muted); font-size:0.85rem; }
-  :target { outline:1px solid var(--accent); }
-  @media (max-width:480px) {
-    .card h2 { font-size:1.05rem; }
-    .rail { gap:6px; }
+  .tab .count {
+    margin-left: 0.4rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .tab.is-active .count { color: var(--accent); }
+
+  /* —— Feed list —— */
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .item {
+    padding: 1.35rem 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .item:first-child { padding-top: 1rem; }
+  .item-kicker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.45rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .cat {
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+  }
+  .cat-model-releases { color: var(--tag-model); }
+  .cat-research { color: var(--tag-research); }
+  .cat-industry { color: var(--tag-industry); }
+  .cat-policy { color: var(--tag-policy); }
+  .cat-tools-oss { color: var(--tag-tools); }
+  .dot { color: var(--line); }
+  .rule-tag { margin-left: auto; }
+  .rule-tag a {
+    color: var(--muted);
+    font-size: 0.75rem;
+    border-bottom: 1px solid transparent;
+  }
+  .rule-tag a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .item-title {
+    margin: 0.45rem 0 0.35rem;
+    font-size: clamp(1.1rem, 2.2vw, 1.28rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.35;
+  }
+  .item-title a { color: var(--ink); }
+  .item-title a:hover { color: var(--accent); }
+  .item.is-research .item-title {
+    font-size: 1.02rem;
+    font-weight: 550;
+  }
+  .item-summary {
+    margin: 0;
+    color: var(--muted);
+    max-width: 42rem;
+  }
+  .empty {
+    color: var(--muted);
+    padding: 1.5rem 0;
+  }
+
+  /* —— Vote —— */
+  .vote-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .vote-title {
+    display: block;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .vote-meta {
+    margin-top: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  /* —— Rules —— */
+  .rule-row {
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--line-soft);
+    list-style: none;
+  }
+  ul.rules { margin: 0; padding: 0; }
+  .rule-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .rule-id {
+    font-weight: 650;
+    letter-spacing: 0.04em;
+  }
+  .rule-body {
+    margin: 0.45rem 0 0;
+    color: var(--ink);
+    max-width: 42rem;
+  }
+  .rule-cta {
+    margin: 0.5rem 0 0;
+    font-size: 0.875rem;
+  }
+  .rule-cta a { color: var(--muted); }
+  .rule-cta a:hover { color: var(--accent); }
+
+  /* —— About / footer —— */
+  .about p,
+  .about li {
+    color: var(--muted);
+    max-width: 40rem;
+  }
+  .about ul {
+    margin: 0.5rem 0 1rem;
+    padding-left: 1.1rem;
+  }
+  .about li { margin: 0.35rem 0; }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    font-size: 0.95rem;
+  }
+  .links a { color: var(--muted); }
+  .links a:hover { color: var(--accent); }
+  footer {
+    padding: 0 0 3.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  footer code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.85em;
+  }
+  :target { scroll-margin-top: 1.5rem; }
+
+  @media (max-width: 540px) {
+    .wrap { width: min(100% - 1.5rem, var(--max)); }
+    .hero { padding-top: 2.75rem; }
+    .rule-tag { margin-left: 0; width: 100%; }
+    .tab { padding-inline: 0.7rem; font-size: 0.9rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
   }
 </style>
 </head>
 <body>
-<header class="site">
-  <h1>AICanonFeed</h1>
-  <p class="tagline">Community rules. AI-applied. Chronological AI news — industry and research, tagged.</p>
-  <p class="status">Stars: ${esc(stars)} · Stage: ${esc(stageInfo.stage)} · Quorum: ${esc(stageInfo.quorum)} · Last ${CONTENT_MAX_AGE_DAYS} days</p>
-</header>
-<main>
-  <section id="latest" aria-label="Latest included">
-    <h2 class="section">Latest Included</h2>
-    <div class="rail" role="tablist" aria-label="Filter by category">
-      ${tabsHtml}
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+        <h1 class="wordmark">AICanon<span>Feed</span></h1>
+      </div>
+      <p class="lede">Community-written rules. AI applied strictly. A calm, chronological feed of AI industry and research — no ranking, no pins.</p>
+      <p class="status">
+        <strong>${esc(stageInfo.stage)}</strong>
+        · ${esc(stars)} stars
+        · quorum ${esc(stageInfo.quorum)}
+        · last ${CONTENT_MAX_AGE_DAYS} days
+      </p>
     </div>
-    <div id="feed">
+  </header>
+
+  <main class="wrap">
+    <section class="block" id="latest" aria-label="Latest included">
+      <div class="block-head">
+        <h2 class="block-title">Latest included</h2>
+      </div>
+      <div class="rail" role="tablist" aria-label="Filter by category">
+        ${tabsHtml}
+      </div>
+      <div id="feed">
 ${feedHtml}
-    </div>
-    <p class="muted" id="empty-filter" hidden>No items in this category for the current window.</p>
-  </section>
-  <section id="vote">
-    <h2 class="section">Open for Vote</h2>
-    ${votingHtml}
-  </section>
-  <section id="rules">
-    <h2 class="section">Active Rules</h2>
-    <ul class="rules">
+      </div>
+      <p class="empty" id="empty-filter" hidden>Nothing in this category for the current window.</p>
+    </section>
+
+    <section class="block" id="vote">
+      <div class="block-head">
+        <h2 class="block-title">Open for vote</h2>
+      </div>
+      ${votingHtml}
+    </section>
+
+    <section class="block" id="rules">
+      <div class="block-head">
+        <h2 class="block-title">Active rules</h2>
+      </div>
+      <ul class="rules">
 ${rulesHtml}
-    </ul>
-  </section>
-  <section class="about" id="about">
-    <h2 class="section">About</h2>
-    <ul>
-      <li>No algorithmic ranking — filter tabs only reorder by your choice; each view stays time-descending.</li>
-      <li>Industry and research are both first-class; research is volume-limited at ingest so it does not drown the mix.</li>
-      <li>AI only applies ratified rules; uncovered content is rejected.</li>
-      <li>Rule proposals take roughly 8–14 days.</li>
-    </ul>
-    <p><a href="https://github.com/${esc(repoSlugEnv)}">Repository</a> · <a href="https://github.com/${esc(repoSlugEnv)}/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> · <a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a rule</a></p>
-  </section>
-</main>
-<footer>All decisions are auditable in <code>decisions/</code>.</footer>
+      </ul>
+    </section>
+
+    <section class="block about" id="about">
+      <div class="block-head">
+        <h2 class="block-title">About</h2>
+      </div>
+      <ul>
+        <li>Strict reverse-chronological order. Tabs are filters, not rankings.</li>
+        <li>Industry and research are both first-class; research volume is limited at ingest.</li>
+        <li>AI only applies ratified community rules. Uncovered items are rejected.</li>
+        <li>Rule proposals take about 8–14 days end to end.</li>
+      </ul>
+      <p class="links">
+        <a href="https://github.com/${esc(repoSlugEnv)}">Repository</a>
+        <a href="https://github.com/${esc(repoSlugEnv)}/blob/main/CONTRIBUTING.md">Contributing</a>
+        <a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a rule</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap">Auditable decisions live in <code>decisions/</code>.</footer>
+
 <script>
 (function () {
   var tabs = document.querySelectorAll('.tab');
-  var cards = document.querySelectorAll('#feed .card');
+  var items = document.querySelectorAll('#feed .item');
   var empty = document.getElementById('empty-filter');
-  var emptyAll = document.querySelector('#feed p.muted');
+  var emptyAll = document.querySelector('#feed p.empty');
 
   function apply(id) {
     var visible = 0;
-    cards.forEach(function (el) {
+    items.forEach(function (el) {
       var cat = el.getAttribute('data-category') || '';
       var show = id === 'all' || cat === id;
       el.classList.toggle('is-hidden', !show);
+      el.hidden = !show;
       if (show) visible++;
     });
-    if (emptyAll) emptyAll.hidden = id !== 'all' || visible > 0;
+    if (emptyAll) emptyAll.hidden = !(id === 'all' && visible === 0);
     if (empty) empty.hidden = !(id !== 'all' && visible === 0);
   }
 
@@ -329,8 +608,9 @@ ${rulesHtml}
         b.classList.toggle('is-active', b === btn);
         b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
       });
-      apply(btn.getAttribute('data-tab'));
-      if (history.replaceState) history.replaceState(null, '', '#' + btn.getAttribute('data-tab'));
+      var id = btn.getAttribute('data-tab');
+      apply(id);
+      if (history.replaceState) history.replaceState(null, '', '#' + id);
     });
   });
 
