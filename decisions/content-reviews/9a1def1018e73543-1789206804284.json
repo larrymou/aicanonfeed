@@ -1,0 +1,14 @@
+{
+  "urlHash": "9a1def1018e73543",
+  "url": "https://arxiv.org/abs/2609.11061",
+  "sourceName": "arXiv cs.AI",
+  "title": "Fork Where the Model Changes Its Mind: Belief-Shift Branching for Tree-Structured Reinforcement Learning",
+  "summary": "arXiv:2609.11061v1 Announce Type: new Abstract: Tree-structured rollouts give critic-free reinforcement learning with verifiable rewards (RLVR) step-level credit: fork a chain at an intermediate point, and sibling outcome differences estimate step value. Each fork adds sampling c",
+  "pubDate": "2026-09-12T04:00:00.000Z",
+  "decidedAt": "2026-09-12T09:52:55.307Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint (cs.AI) presenting a novel tree-structured RLVR method with belief-shift branching; links to the original source at arxiv.org.",
+  "promptVersion": "1"
+}

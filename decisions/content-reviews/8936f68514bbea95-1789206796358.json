@@ -1,0 +1,14 @@
+{
+  "urlHash": "8936f68514bbea95",
+  "url": "https://arxiv.org/abs/2609.10964",
+  "sourceName": "arXiv cs.AI",
+  "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
+  "summary": "arXiv:2609.10964v1 Announce Type: new Abstract: Agentic LLM workflows consist of sequences of model turns interleaved with tool interactions, so their end-to-end completion time depends not only on inference speed but also on when ready turns are released. Most runtimes release e",
+  "pubDate": "2026-09-12T04:00:00.000Z",
+  "decidedAt": "2026-09-12T09:52:55.307Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint (cs.AI) reporting a technical approach to scheduling agentic LLM workflows, with a link to the original source on arXiv. Fits R2 as a preprint from a recognized research repository.",
+  "promptVersion": "1"
+}

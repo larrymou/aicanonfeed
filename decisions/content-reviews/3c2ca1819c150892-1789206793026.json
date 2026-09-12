@@ -1,0 +1,14 @@
+{
+  "urlHash": "3c2ca1819c150892",
+  "url": "https://arxiv.org/abs/2609.10728",
+  "sourceName": "arXiv cs.AI",
+  "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+  "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each calculator as a validated function,",
+  "pubDate": "2026-09-12T04:00:00.000Z",
+  "decidedAt": "2026-09-12T09:52:55.307Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint (cs.AI) announcing a new deterministic math-solver approach for clinical language models, linking to the original arXiv source.",
+  "promptVersion": "1"
+}
