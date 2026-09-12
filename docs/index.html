@@ -3,29 +3,55 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed.">
+<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed for general AI news and research.">
 <title>AICanonFeed</title>
 <style>
-  :root { --bg:#0f1115; --card:#171a21; --ink:#e8eaed; --muted:#9aa0a6; --line:#2a2f3a; --accent:#7cb7ff; }
+  :root {
+    --bg:#0f1115; --card:#171a21; --ink:#e8eaed; --muted:#9aa0a6;
+    --line:#2a2f3a; --accent:#7cb7ff;
+    --tag-model:#8b9cff; --tag-industry:#5ecf9a; --tag-policy:#e0b35e;
+    --tag-tools:#c792ea; --tag-research:#7cb7ff;
+  }
   * { box-sizing: border-box; }
-  body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--ink); }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,'Segoe UI',sans-serif; background:var(--bg); color:var(--ink); }
   header.site { padding:28px 20px 8px; max-width:720px; margin:0 auto; }
-  header.site h1 { margin:0 0 4px; font-size:1.5rem; }
-  header.site p { margin:0; color:var(--muted); }
-  header.site .tagline { color:var(--ink); margin-top:6px; }
+  header.site h1 { margin:0 0 4px; font-size:1.5rem; letter-spacing:-0.02em; }
+  header.site .tagline { color:var(--ink); margin:6px 0 0; }
+  header.site .status { color:var(--muted); margin:8px 0 0; font-size:0.9rem; }
   main { max-width:720px; margin:0 auto; padding:12px 20px 48px; }
   section { margin-top:28px; }
-  h2.section { font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 12px; }
+  h2.section { font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 12px; font-weight:600; }
+  .rail { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 14px; }
+  .tab {
+    appearance:none; border:1px solid var(--line); background:transparent; color:var(--muted);
+    border-radius:999px; padding:8px 12px; font:inherit; font-size:0.9rem; cursor:pointer;
+    min-height:36px;
+  }
+  .tab:hover { color:var(--ink); border-color:#3a4150; }
+  .tab:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .tab.is-active { color:var(--bg); background:var(--ink); border-color:var(--ink); }
+  .tab .count { opacity:0.75; font-variant-numeric:tabular-nums; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:10px; }
-  .card header { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:0.8rem; flex-wrap:wrap; }
-  .card h2 { margin:6px 0; font-size:1.1rem; line-height:1.35; }
+  .card.is-hidden { display:none; }
+  .card.is-research { opacity:0.96; }
+  .card.is-research h2 { font-size:1rem; }
+  .card header { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:0.8rem; flex-wrap:wrap; align-items:center; }
+  .card h2 { margin:8px 0 6px; font-size:1.1rem; line-height:1.35; }
   a { color:var(--accent); text-decoration:none; }
   a:hover { text-decoration:underline; }
   .card p { margin:0 0 6px; }
   .meta, .muted, .votes, .hint { color:var(--muted); font-size:0.85rem; }
   .hint { display:block; margin-top:2px; }
-  .rule { color:var(--accent); font-weight:600; }
-  .rule a { color:inherit; }
+  .rule { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .chip {
+    display:inline-block; padding:2px 8px; border-radius:999px; font-size:0.75rem;
+    font-weight:600; letter-spacing:0.02em; border:1px solid var(--line); color:var(--ink);
+  }
+  .chip-model-releases { border-color:var(--tag-model); color:var(--tag-model); }
+  .chip-research { border-color:var(--tag-research); color:var(--tag-research); }
+  .chip-industry { border-color:var(--tag-industry); color:var(--tag-industry); }
+  .chip-policy { border-color:var(--tag-policy); color:var(--tag-policy); }
+  .chip-tools-oss { border-color:var(--tag-tools); color:var(--tag-tools); }
   ul.feed { list-style:none; padding:0; margin:0; }
   ul.feed li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; margin-bottom:8px; }
   ul.rules { padding-left:1.1rem; }
@@ -33,18 +59,293 @@
   .about ul { padding-left:1.1rem; margin:8px 0; }
   footer { max-width:720px; margin:0 auto; padding:0 20px 40px; color:var(--muted); font-size:0.85rem; }
   :target { outline:1px solid var(--accent); }
+  @media (max-width:480px) {
+    .card h2 { font-size:1.05rem; }
+    .rail { gap:6px; }
+  }
 </style>
 </head>
 <body>
 <header class="site">
   <h1>AICanonFeed</h1>
-  <p class="tagline">Community writes the rules. AI applies them. Chronological inclusion feed — no ranking, no pins.</p>
-  <p class="muted">Stars: 0 · Stage: S0 · Quorum: 1 · Window: last 14 days</p>
+  <p class="tagline">Community rules. AI-applied. Chronological AI news — industry and research, tagged.</p>
+  <p class="status">Stars: 0 · Stage: S0 · Quorum: 1 · Last 14 days</p>
 </header>
 <main>
-  <section id="latest">
+  <section id="latest" aria-label="Latest included">
     <h2 class="section">Latest Included</h2>
-    <p class="muted">No items in the last 14 days. Pipeline runs every 4 hours against active rules only.</p>
+    <div class="rail" role="tablist" aria-label="Filter by category">
+      <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">All <span class="count">29</span></button>
+      <button type="button" class="tab" data-tab="model-releases" aria-pressed="false">Model Releases <span class="count">0</span></button>
+      <button type="button" class="tab" data-tab="industry" aria-pressed="false">Industry <span class="count">0</span></button>
+      <button type="button" class="tab" data-tab="research" aria-pressed="false">Research <span class="count">29</span></button>
+      <button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">Tools &amp; OSS <span class="count">0</span></button>
+      <button type="button" class="tab" data-tab="policy" aria-pressed="false">Policy <span class="count">0</span></button>
+    </div>
+    <div id="feed">
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10657" rel="noopener noreferrer" target="_blank">Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking</a></h2>
+  <p>arXiv:2609.10657v1 Announce Type: new Abstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomeno</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10992" rel="noopener noreferrer" target="_blank">Demystifying the Privacy-Utility Trade-off in LLM Interactions</a></h2>
+  <p>arXiv:2609.10992v1 Announce Type: new Abstract: The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposi</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10712" rel="noopener noreferrer" target="_blank">An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics</a></h2>
+  <p>arXiv:2609.10712v1 Announce Type: new Abstract: We study how model post-training and test-time inference design affect natural-language proof generation for har</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11185" rel="noopener noreferrer" target="_blank">Can LLMs Follow Medical Expert Logic? A Benchmark for Hierarchical Logical Consistency in Risk-of-Bias Assessment</a></h2>
+  <p>arXiv:2609.11185v1 Announce Type: new Abstract: Evidence-based medicine demands strict logical consistency, yet current evaluations of large language models (LL</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11176" rel="noopener noreferrer" target="_blank">Debate-to-Skill: Capability-Bound Process Supervision for Industrial Query-to-Agent Annotation</a></h2>
+  <p>arXiv:2609.11176v1 Announce Type: new Abstract: Industrial query-to-agent matching fails when topical relevance is mistaken for executable capability, especiall</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11115" rel="noopener noreferrer" target="_blank">Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</a></h2>
+  <p>arXiv:2609.11115v1 Announce Type: new Abstract: Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant </p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10728" rel="noopener noreferrer" target="_blank">Towards a Deterministic Math Solver for Clinical Language Models</a></h2>
+  <p>arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single n</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11155" rel="noopener noreferrer" target="_blank">DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat</a></h2>
+  <p>arXiv:2609.11155v1 Announce Type: new Abstract: Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in auton</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11144" rel="noopener noreferrer" target="_blank">Same Day, Same Story; One Day Ahead, a Different Signal: The Dual Validity of Financial Sentiment</a></h2>
+  <p>arXiv:2609.11144v1 Announce Type: new Abstract: Financial NLP has a standard workflow: validate a sentiment tool against human labels, then trust it to extract </p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10724" rel="noopener noreferrer" target="_blank">Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge</a></h2>
+  <p>arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11190" rel="noopener noreferrer" target="_blank">Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce</a></h2>
+  <p>arXiv:2609.11190v1 Announce Type: new Abstract: AI shopping assistants increasingly redirect consumer discovery, creating an urgent need for tools that support </p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11146" rel="noopener noreferrer" target="_blank">The Oligarch Barely Steers Model Collapse in Multi-Model Ecosystems</a></h2>
+  <p>arXiv:2609.11146v1 Announce Type: new Abstract: AI-generated text is flowing back into the training corpora of the next generation of models. Recursive training</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10964" rel="noopener noreferrer" target="_blank">Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows</a></h2>
+  <p>arXiv:2609.10964v1 Announce Type: new Abstract: Agentic LLM workflows consist of sequences of model turns interleaved with tool interactions, so their end-to-en</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10629" rel="noopener noreferrer" target="_blank">Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language</a></h2>
+  <p>arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and h</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11065" rel="noopener noreferrer" target="_blank">MOSAIC: Query-Aware Exploration Policy Adaptation for GraphRAG</a></h2>
+  <p>arXiv:2609.11065v1 Announce Type: new Abstract: Graph Retrieval-Augmented Generation (GraphRAG) can connect evidence distributed across a corpus graph, but most</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11061" rel="noopener noreferrer" target="_blank">Fork Where the Model Changes Its Mind: Belief-Shift Branching for Tree-Structured Reinforcement Learning</a></h2>
+  <p>arXiv:2609.11061v1 Announce Type: new Abstract: Tree-structured rollouts give critic-free reinforcement learning with verifiable rewards (RLVR) step-level credi</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11127" rel="noopener noreferrer" target="_blank">KuaiRP Series Role-playing Models Technical Report</a></h2>
+  <p>arXiv:2609.11127v1 Announce Type: new Abstract: This paper introduces the complete technical solution for the KuaiRP series of role-playing models. We aim to ac</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11060" rel="noopener noreferrer" target="_blank">Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents</a></h2>
+  <p>arXiv:2609.11060v1 Announce Type: new Abstract: Persistent memory is entering production-oriented agent platforms to help long-horizon agents accumulate experie</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11147" rel="noopener noreferrer" target="_blank">Autonomous Chemical Mechanistic Discovery through Agentic Reasoning and Validation</a></h2>
+  <p>arXiv:2609.11147v1 Announce Type: new Abstract: Unraveling reaction mechanisms is central to modern chemistry, yet automating these investigations remains chall</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10654" rel="noopener noreferrer" target="_blank">A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning</a></h2>
+  <p>arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply a</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10873" rel="noopener noreferrer" target="_blank">When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents</a></h2>
+  <p>arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue th</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10656" rel="noopener noreferrer" target="_blank">Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning</a></h2>
+  <p>arXiv:2609.10656v1 Announce Type: new Abstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controll</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11170" rel="noopener noreferrer" target="_blank">Breaking Predictions Is Not Enough: Specified-Foil Counterfactuals for Temporal Graphs</a></h2>
+  <p>arXiv:2609.11170v1 Announce Type: new Abstract: Temporal graph counterfactual explanations typically change past events to change or invalidate an original pred</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10824" rel="noopener noreferrer" target="_blank">Studying Without a Syllabus: Task-Agnostic Environment Preprocessing</a></h2>
+  <p>arXiv:2609.10824v1 Announce Type: new Abstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11030" rel="noopener noreferrer" target="_blank">The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures</a></h2>
+  <p>arXiv:2609.11030v1 Announce Type: new Abstract: AI agents increasingly act through tools and delegated authority, but general incident repositories rarely captu</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11180" rel="noopener noreferrer" target="_blank">SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics</a></h2>
+  <p>arXiv:2609.11180v1 Announce Type: new Abstract: Large language model (LLM) coding agents constantly decide whether a version satisfies a constraint such as ^1.2</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11018" rel="noopener noreferrer" target="_blank">Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks</a></h2>
+  <p>arXiv:2609.11018v1 Announce Type: new Abstract: The term agent in artificial intelligence lacks a standard definition, complicating the evaluation, comparison, </p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.10584" rel="noopener noreferrer" target="_blank">Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement</a></h2>
+  <p>arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Se</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+<article class="card is-research" data-category="research">
+  <header>
+    <span class="rule"><span class="chip chip-research">Research</span> <a href="#rule-R2">R2</a></span>
+    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12 04:00 UTC</time>
+  </header>
+  <h2><a href="https://arxiv.org/abs/2609.11199" rel="noopener noreferrer" target="_blank">An AI-Powered Culturally Aware Chatbot for Stress Detection and Wellness Support among Pakistani University Students Using NLP and Machine Learning</a></h2>
+  <p>arXiv:2609.11199v1 Announce Type: new Abstract: With the existing digital mental health tools specifically developed for Western settings, Pakistani students ar</p>
+  <p class="meta">arXiv cs.AI</p>
+</article>
+    </div>
+    <p class="muted" id="empty-filter" hidden>No items in this category for the current window.</p>
   </section>
   <section id="vote">
     <h2 class="section">Open for Vote</h2>
@@ -83,14 +384,50 @@
   <section class="about" id="about">
     <h2 class="section">About</h2>
     <ul>
-      <li>No algorithmic ranking and no manual pin — strict reverse-chronological.</li>
+      <li>No algorithmic ranking — filter tabs only reorder by your choice; each view stays time-descending.</li>
+      <li>Industry and research are both first-class; research is volume-limited at ingest so it does not drown the mix.</li>
       <li>AI only applies ratified rules; uncovered content is rejected.</li>
-      <li>Platform does not hand-review feed items; decisions live in <code>decisions/</code>.</li>
-      <li>Rule proposals take roughly 8–14 days (pre-review → vote → merge).</li>
+      <li>Rule proposals take roughly 8–14 days.</li>
     </ul>
     <p><a href="https://github.com/larrymou/aicanonfeed">Repository</a> · <a href="https://github.com/larrymou/aicanonfeed/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> · <a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a rule</a></p>
   </section>
 </main>
 <footer>All decisions are auditable in <code>decisions/</code>.</footer>
+<script>
+(function () {
+  var tabs = document.querySelectorAll('.tab');
+  var cards = document.querySelectorAll('#feed .card');
+  var empty = document.getElementById('empty-filter');
+  var emptyAll = document.querySelector('#feed p.muted');
+
+  function apply(id) {
+    var visible = 0;
+    cards.forEach(function (el) {
+      var cat = el.getAttribute('data-category') || '';
+      var show = id === 'all' || cat === id;
+      el.classList.toggle('is-hidden', !show);
+      if (show) visible++;
+    });
+    if (emptyAll) emptyAll.hidden = id !== 'all' || visible > 0;
+    if (empty) empty.hidden = !(id !== 'all' && visible === 0);
+  }
+
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      tabs.forEach(function (b) {
+        b.classList.toggle('is-active', b === btn);
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+      apply(btn.getAttribute('data-tab'));
+      if (history.replaceState) history.replaceState(null, '', '#' + btn.getAttribute('data-tab'));
+    });
+  });
+
+  var hash = (location.hash || '').replace('#', '');
+  if (hash && document.querySelector('.tab[data-tab="' + hash + '"]')) {
+    document.querySelector('.tab[data-tab="' + hash + '"]').click();
+  }
+})();
+</script>
 </body>
 </html>

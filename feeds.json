@@ -3,27 +3,32 @@
     {
       "name": "OpenAI Blog",
       "url": "https://www.openai.com/blog/rss.xml",
-      "category": "model-releases"
+      "category": "model-releases",
+      "maxPerRun": 12
     },
     {
       "name": "Google AI Blog",
       "url": "https://blog.google/technology/ai/rss/",
-      "category": "research"
+      "category": "research",
+      "maxPerRun": 8
     },
     {
       "name": "arXiv cs.AI",
       "url": "https://arxiv.org/rss/cs.AI",
-      "category": "research"
+      "category": "research",
+      "maxPerRun": 8
     },
     {
       "name": "TechCrunch AI",
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "category": "industry"
+      "category": "industry",
+      "maxPerRun": 12
     },
     {
       "name": "The Verge AI",
       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "category": "industry"
+      "category": "industry",
+      "maxPerRun": 12
     }
   ]
 }

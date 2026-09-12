@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
-import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS } from "../lib/constants.mjs";
+import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadIndexFile, appendIndex } from "../lib/hash.mjs";
@@ -139,6 +139,8 @@ async function main() {
         }
         candidates.push({
           sourceName: feed.name,
+          sourceCategory: feed.category || null,
+          maxPerRun: Number(feed.maxPerRun) > 0 ? Number(feed.maxPerRun) : DEFAULT_SOURCE_MAX_PER_RUN,
           link,
           title: it.title || "",
           pubDate: pubRaw,
@@ -151,11 +153,29 @@ async function main() {
     }
   }
 
-  // Newest first — surface current news, do not drain years of RSS archive
+  // Newest first within each source, then apply per-source caps
   candidates.sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
-  const batch = candidates.slice(0, FEED_MAX_NEW_PER_RUN);
+  const bySource = new Map();
+  const capped = [];
+  for (const c of candidates) {
+    const n = bySource.get(c.sourceName) || 0;
+    if (n >= (c.maxPerRun || DEFAULT_SOURCE_MAX_PER_RUN)) continue;
+    bySource.set(c.sourceName, n + 1);
+    capped.push(c);
+  }
+
+  // Non-research first so mixed feed stays balanced; research fills remaining budget
+  const researchBudget = Math.floor(FEED_MAX_NEW_PER_RUN * RESEARCH_RUN_SHARE_MAX);
+  const nonResearch = capped.filter((c) => !isResearchCategory(c.sourceCategory));
+  const research = capped.filter((c) => isResearchCategory(c.sourceCategory));
+  const batch = [
+    ...nonResearch.slice(0, FEED_MAX_NEW_PER_RUN),
+    ...research.slice(0, Math.max(0, researchBudget)),
+  ]
+    .sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0))
+    .slice(0, FEED_MAX_NEW_PER_RUN);
   log(
-    `candidates=${candidates.length} processing=${batch.length} skipped_stale=${skippedStale} skipped_no_date=${skippedNoDate}`,
+    `candidates=${candidates.length} after_source_cap=${capped.length} batch=${batch.length} (nonR=${nonResearch.length} R=${research.length} skipped_stale=${skippedStale} skipped_no_date=${skippedNoDate})`,
   );
 
   // Wall-clock budget so a hung provider cannot burn the full Actions job (6h)
