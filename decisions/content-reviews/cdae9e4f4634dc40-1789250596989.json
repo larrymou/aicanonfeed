@@ -1,0 +1,14 @@
+{
+  "urlHash": "cdae9e4f4634dc40",
+  "url": "https://www.marktechpost.com/2026/09/12/fly-language-model-flm-wires-the-full-fruit-fly-connectome-into-a-frozen-1-2b-llm-and-its-own-controls-show-the-wiring-does-not-help/",
+  "sourceName": "MarkTechPost",
+  "title": "Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help",
+  "summary": "The Fly Language Model (FLM) drives all 166,700 retained neurons and 25.6 million edges of the MaleCNS fruit fly connectome with token embeddings, then adds a small learned correction to a frozen LFM2.5-1.2B-Instruct backbone. Only 278,528 parameters train. The accompanying prepr",
+  "pubDate": "2026-09-12T18:51:24.000Z",
+  "decidedAt": "2026-09-12T22:02:58.709Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "Reports a technical preprint (Fly Language Model) that wires the full fruit fly connectome into a frozen 1.2B LLM, with self-controls and verifiable experimental results, matching R2 research coverage.",
+  "promptVersion": "1"
+}
