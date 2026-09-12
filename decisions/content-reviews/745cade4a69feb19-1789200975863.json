@@ -1,0 +1,14 @@
+{
+  "urlHash": "745cade4a69feb19",
+  "url": "https://openai.com/index/glow",
+  "sourceName": "OpenAI Blog",
+  "title": "Glow: Better reversible generative models",
+  "summary": "We introduce Glow, a reversible generative model which uses invertible 1x1 convolutions. It extends previous work on reversible generative models and simplifies the architecture. Our model can generate realistic high resolution images, supports efficient sampling, and discovers f",
+  "pubDate": "2018-07-09T07:00:00.000Z",
+  "decidedAt": "2026-09-12T08:15:52.985Z",
+  "include": true,
+  "categoryId": "model-releases",
+  "matchedRuleId": "R1",
+  "reason": "OpenAI's official blog announces Glow, a new reversible generative model, linking to the original announcement, matching R1 for a new model released by a research lab.",
+  "promptVersion": "1"
+}

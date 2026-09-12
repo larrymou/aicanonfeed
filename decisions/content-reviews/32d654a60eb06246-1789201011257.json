@@ -1,0 +1,14 @@
+{
+  "urlHash": "32d654a60eb06246",
+  "url": "https://openai.com/index/learning-concepts-with-energy-functions",
+  "sourceName": "OpenAI Blog",
+  "title": "Learning concepts with energy functions",
+  "summary": "We’ve developed an energy-based model that can quickly learn to identify and generate instances of concepts, such as near, above, between, closest, and furthest, expressed as sets of 2d points. Our model learns these concepts after only five demonstrations. We also show cross-dom",
+  "pubDate": "2018-11-07T08:00:00.000Z",
+  "decidedAt": "2026-09-12T08:15:52.985Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "OpenAI Blog reports research from a recognized lab on an energy-based model that learns concepts from few demonstrations, linking to the original announcement.",
+  "promptVersion": "1"
+}

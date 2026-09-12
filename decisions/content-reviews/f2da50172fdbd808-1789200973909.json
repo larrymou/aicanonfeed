@@ -1,0 +1,14 @@
+{
+  "urlHash": "f2da50172fdbd808",
+  "url": "https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration",
+  "sourceName": "OpenAI Blog",
+  "title": "Learning Montezuma’s Revenge from a single demonstration",
+  "summary": "We’ve trained an agent to achieve a high score of 74,500 on Montezuma’s Revenge from a single human demonstration, better than any previously published result. Our algorithm is simple: the agent plays a sequence of games starting from carefully chosen states from the demonstratio",
+  "pubDate": "2018-07-04T07:00:00.000Z",
+  "decidedAt": "2026-09-12T08:15:52.985Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "OpenAI reports verifiable benchmark results (74,500 score on Montezuma's Revenge from a single demonstration, beating prior published results), linking to the original OpenAI announcement.",
+  "promptVersion": "1"
+}
