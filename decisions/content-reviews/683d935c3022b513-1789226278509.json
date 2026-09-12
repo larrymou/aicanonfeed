@@ -1,0 +1,14 @@
+{
+  "urlHash": "683d935c3022b513",
+  "url": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/",
+  "sourceName": "MarkTechPost",
+  "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
+  "summary": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then writes the matching user query. Guided by textual \"gradients\" from a 4-module propose-execute-select-update loop, ToolGrad re",
+  "pubDate": "2026-09-11T06:01:25.000Z",
+  "decidedAt": "2026-09-12T15:17:22.825Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "Reports a peer-reviewed paper (ACL 2026 Findings) from Google Research, a recognized research lab, with a new framework and reported benchmark pass rate for tool-use data generation.",
+  "promptVersion": "1"
+}
