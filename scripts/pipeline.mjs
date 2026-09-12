@@ -136,6 +136,9 @@ async function main() {
   const batch = candidates.slice(0, FEED_MAX_NEW_PER_RUN);
   log(`candidates=${candidates.length} processing=${batch.length}`);
 
+  // Wall-clock budget so a hung provider cannot burn the full Actions job (6h)
+  const deadline = Date.now() + 20 * 60 * 1000;
+
   fs.mkdirSync(contentDir, { recursive: true });
   const decidedAt = new Date().toISOString();
   const promptVersionMatch = fs
@@ -146,6 +149,10 @@ async function main() {
   const indexRows = [];
 
   for (const item of batch) {
+    if (Date.now() > deadline) {
+      log(`deadline hit after ${batch.indexOf(item)}/${batch.length}; remaining deferred to next run`);
+      break;
+    }
     let result;
     try {
       result = await moderateOne(item, rules, promptBody);
