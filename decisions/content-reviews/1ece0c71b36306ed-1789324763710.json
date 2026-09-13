@@ -1,0 +1,14 @@
+{
+  "urlHash": "1ece0c71b36306ed",
+  "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Model-agnostic PII detection with LLMs",
+  "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity types without retraining, and it outperforms an off-the-shelf ",
+  "pubDate": "2026-09-10T16:02:16.000Z",
+  "decidedAt": "2026-09-13T18:39:17.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Technical AWS blog post describing a PII-detection approach with LLMs on Bedrock. It is not a model release (R1), paper/benchmark report (R2), financing/deal/product-launch market news (R3), policy event (R4), or an open-source project/tool release with a repo or release link (R5). No rule covers it",
+  "promptVersion": "1"
+}

@@ -1,0 +1,14 @@
+{
+  "urlHash": "c6ab3418f3e24678",
+  "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
+  "summary": "Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP spe",
+  "pubDate": "2026-09-09T22:26:29.000Z",
+  "decidedAt": "2026-09-13T18:39:17.915Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "R5",
+  "reason": "Official AWS write-up describing deployment of a large open-weight model on SageMaker HyperPod using vLLM, covering cluster provisioning, NVFP4 quantization and an OpenAI-compatible endpoint — a notable usage/official write-up of an open-source AI dev tool/infra.",
+  "promptVersion": "1"
+}
