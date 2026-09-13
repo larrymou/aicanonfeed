@@ -494,6 +494,41 @@ async function main() {
     padding-left: 1.1rem;
   }
   .about li { margin: 0.35rem 0; }
+  .canon {
+    margin: 0.25rem 0 1.25rem;
+    padding: 1rem 0 0.25rem;
+    border-top: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    display: grid;
+    gap: 0.85rem 1.25rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 42rem;
+  }
+  .canon-step .n {
+    display: block;
+    color: var(--accent);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 650;
+    margin-bottom: 0.2rem;
+  }
+  .canon-step .t {
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .canon-step .d {
+    color: var(--muted);
+    font-size: 0.875rem;
+    margin-top: 0.15rem;
+  }
+  .how {
+    margin: 0 0 1rem;
+    max-width: 40rem;
+    color: var(--muted);
+  }
+  .how strong { color: var(--ink); font-weight: 600; }
   .links {
     display: flex;
     flex-wrap: wrap;
@@ -511,13 +546,24 @@ async function main() {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     font-size: 0.85em;
   }
+  footer .tag { color: var(--accent); }
   :target { scroll-margin-top: 1.5rem; }
+  .hero-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.1rem;
+    margin: 1.5rem 0 0;
+    font-size: 0.9rem;
+  }
+  .hero-nav a { color: var(--muted); }
+  .hero-nav a:hover { color: var(--accent); }
 
   @media (max-width: 540px) {
     .wrap { width: min(100% - 1.5rem, var(--max)); }
     .hero { padding-top: 2.75rem; }
     .rule-tag { margin-left: 0; width: 100%; }
     .tab { padding-inline: 0.7rem; font-size: 0.9rem; }
+    .canon { grid-template-columns: 1fr; }
   }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
@@ -530,13 +576,19 @@ async function main() {
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
-      <p class="lede">Community-written rules. AI applied strictly. A calm, chronological feed of AI industry and research — no ranking, no pins.</p>
+      <p class="lede">Community writes the rules. AI applies them. GitHub executes — a calm, chronological CANON feed for AI industry and research. No ranking. No pins.</p>
       <p class="status">
         <strong>${esc(stageInfo.stage)}</strong>
         · ${esc(stars)} stars
         · quorum ${esc(stageInfo.quorum)}
         · last ${CONTENT_MAX_AGE_DAYS} days
       </p>
+      <nav class="hero-nav" aria-label="Sections">
+        <a href="#latest">Latest</a>
+        <a href="#vote">Vote</a>
+        <a href="#rules">Rules</a>
+        <a href="#about">CANON &amp; how to join</a>
+      </nav>
     </div>
   </header>
 
@@ -572,23 +624,46 @@ ${rulesHtml}
 
     <section class="block about" id="about">
       <div class="block-head">
-        <h2 class="block-title">About</h2>
+        <h2 class="block-title">About · CANON</h2>
       </div>
+      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
+      <div class="canon" role="list">
+        <div class="canon-step" role="listitem">
+          <span class="n">01</span>
+          <div class="t">Legislate</div>
+          <div class="d">Anyone can open a rule proposal on GitHub Issues. Meta-rules M1–M6 bound what may be proposed.</div>
+        </div>
+        <div class="canon-step" role="listitem">
+          <span class="n">02</span>
+          <div class="t">Adjudicate</div>
+          <div class="d">AI pre-reviews proposals and applies only ratified rules to RSS items — it never invents inclusion criteria.</div>
+        </div>
+        <div class="canon-step" role="listitem">
+          <span class="n">03</span>
+          <div class="t">Execute</div>
+          <div class="d">Votes, PRs, and <code>decisions/</code> are public. No ranking, no pins, no hidden human moderation of the feed.</div>
+        </div>
+      </div>
+      <p class="how"><strong>How to join</strong> — Propose a rule (template), vote 👍 / 👎 on issues labeled <code>voting</code>, or audit every call in <code>decisions/</code>. Rules take ~8–14 days.</p>
       <ul>
         <li>Strict reverse-chronological order. Tabs are filters, not rankings.</li>
         <li>Industry and research are both first-class; research volume is limited at ingest.</li>
-        <li>AI only applies ratified community rules. Uncovered items are rejected.</li>
-        <li>Rule proposals take about 8–14 days end to end.</li>
+        <li>Uncovered items are rejected by design.</li>
       </ul>
       <p class="links">
         <a href="https://github.com/${esc(repoSlugEnv)}">Repository</a>
         <a href="https://github.com/${esc(repoSlugEnv)}/blob/main/CONTRIBUTING.md">Contributing</a>
+        <a href="https://github.com/${esc(repoSlugEnv)}/blob/main/lib/meta-rules.md">Meta-rules</a>
         <a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a rule</a>
       </p>
     </section>
   </main>
 
-  <footer class="wrap">Auditable decisions live in <code>decisions/</code>.</footer>
+  <footer class="wrap">
+    <span class="tag">CANON</span>
+    · community legislates · AI adjudicates · GitHub executes ·
+    auditable in <code>decisions/</code>.
+  </footer>
 
 <script>
 (function () {

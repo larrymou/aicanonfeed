@@ -2,6 +2,8 @@
 
 Community writes the rules. AI applies them. GitHub is the platform.
 
+**CANON:** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in `decisions/`.
+
 A chronological feed of AI news items that match **community-ratified inclusion rules**. There is no ranking, no manual pin, and no content outside rule coverage.
 
 ## Principles
