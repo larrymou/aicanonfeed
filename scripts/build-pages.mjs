@@ -578,7 +578,8 @@ async function main() {
       </div>
       <p class="lede">Community writes the rules. AI applies them. GitHub executes — a calm, chronological CANON feed for AI industry and research. No ranking. No pins.</p>
       <p class="status">
-        <strong>${esc(stageInfo.stage)}</strong>
+        <strong>Experimental</strong>
+        · ${esc(stageInfo.stage)}
         · ${esc(stars)} stars
         · quorum ${esc(stageInfo.quorum)}
         · last ${CONTENT_MAX_AGE_DAYS} days
@@ -626,7 +627,7 @@ ${rulesHtml}
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
+      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor. This is an <strong>experimental</strong> project — rules, quotas, and automation may change as we learn.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">
           <span class="n">01</span>
