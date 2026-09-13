@@ -4,7 +4,7 @@
       "name": "OpenAI Blog",
       "url": "https://www.openai.com/blog/rss.xml",
       "category": "model-releases",
-      "maxPerRun": 10
+      "maxPerRun": 8
     },
     {
       "name": "Google DeepMind Blog",
@@ -16,41 +16,29 @@
       "name": "Google AI Blog",
       "url": "https://blog.google/technology/ai/rss/",
       "category": "research",
-      "maxPerRun": 8
-    },
-    {
-      "name": "Microsoft Research",
-      "url": "https://www.microsoft.com/en-us/research/feed/",
-      "category": "research",
-      "maxPerRun": 6
+      "maxPerRun": 4
     },
     {
       "name": "arXiv cs.AI",
       "url": "https://arxiv.org/rss/cs.AI",
       "category": "research",
-      "maxPerRun": 6
+      "maxPerRun": 4
     },
     {
       "name": "TechCrunch AI",
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "category": "industry",
-      "maxPerRun": 10
+      "maxPerRun": 8
     },
     {
       "name": "The Verge AI",
       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "category": "industry",
-      "maxPerRun": 8
+      "maxPerRun": 6
     },
     {
       "name": "Ars Technica AI",
       "url": "https://arstechnica.com/ai/feed/",
-      "category": "industry",
-      "maxPerRun": 8
-    },
-    {
-      "name": "MIT Technology Review AI",
-      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
       "category": "industry",
       "maxPerRun": 6
     },
@@ -58,7 +46,7 @@
       "name": "Wired AI",
       "url": "https://www.wired.com/feed/tag/ai/latest/rss",
       "category": "industry",
-      "maxPerRun": 6
+      "maxPerRun": 4
     },
     {
       "name": "IEEE Spectrum AI",
@@ -70,19 +58,13 @@
       "name": "AI News",
       "url": "https://www.artificialintelligence-news.com/feed/",
       "category": "industry",
-      "maxPerRun": 6
+      "maxPerRun": 5
     },
     {
-      "name": "Simon Willison",
-      "url": "https://simonwillison.net/atom/everything/",
+      "name": "AWS Machine Learning Blog",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
       "category": "tools-oss",
-      "maxPerRun": 8
-    },
-    {
-      "name": "MarkTechPost",
-      "url": "https://www.marktechpost.com/feed/",
-      "category": "research",
-      "maxPerRun": 6
+      "maxPerRun": 4
     }
   ]
 }
