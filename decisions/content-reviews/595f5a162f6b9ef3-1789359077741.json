@@ -1,0 +1,14 @@
+{
+  "urlHash": "595f5a162f6b9ef3",
+  "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
+  "summary": "TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision",
+  "pubDate": "2026-09-09T15:51:29.000Z",
+  "decidedAt": "2026-09-14T04:10:59.440Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "R5",
+  "reason": "Official AWS blog announcing/supporting a pre-built Ray Serve Deep Learning Container for deploying open-source Ray Serve inference workloads, a developer tool/infra write-up linking to the original announcement.",
+  "promptVersion": "1"
+}
