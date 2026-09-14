@@ -13,6 +13,7 @@ import {
   CATEGORIES,
   TAB_ORDER,
   isCategory,
+  PAGE_MAX_PER_CATEGORY,
 } from "../lib/constants.mjs";
 import { loadActiveRules } from "../lib/rules.mjs";
 import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
@@ -62,7 +63,17 @@ function loadIncluded() {
     const tb = new Date(b.pubDate || b.decidedAt || 0).getTime();
     return tb - ta;
   });
-  return rows.slice(0, 100);
+  // Per-category cap so research backfill cannot crowd out newer industry/tools items.
+  const byCat = new Map();
+  const picked = [];
+  for (const r of rows) {
+    const cat = isCategory(r.categoryId) ? r.categoryId : "uncategorized";
+    const n = byCat.get(cat) || 0;
+    if (n >= PAGE_MAX_PER_CATEGORY) continue;
+    byCat.set(cat, n + 1);
+    picked.push(r);
+  }
+  return picked;
 }
 
 function fmtDate(iso) {
@@ -714,7 +725,9 @@ ${rulesHtml}
   log(`wrote ${outFile} (${included.length} items; research=${counts.research || 0})`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main()
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
