@@ -1,0 +1,14 @@
+{
+  "urlHash": "2330810bf1e207b8",
+  "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
+  "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching",
+  "pubDate": "2026-09-15T16:01:47.000Z",
+  "decidedAt": "2026-09-15T19:35:33.571Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "R3",
+  "reason": "AWS announcement of a new Amazon SageMaker AI product feature (instance preference lists for training jobs), a product launch/update in the AI industry linked to the official company blog announcement.",
+  "promptVersion": "1"
+}

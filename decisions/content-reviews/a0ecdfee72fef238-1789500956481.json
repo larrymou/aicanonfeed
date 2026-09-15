@@ -1,0 +1,14 @@
+{
+  "urlHash": "a0ecdfee72fef238",
+  "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+  "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt caching scenarios using the Converse API: message content, system prompt, tool definition, mixed TT",
+  "pubDate": "2026-09-15T16:18:19.000Z",
+  "decidedAt": "2026-09-15T19:35:33.571Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "This AWS blog item is a technical how-to/tutorial on using the existing Amazon Bedrock prompt caching feature, not a new model or major version (R1), a paper/benchmark (R2), a financing/M&A/partnership/market-data event (R3), a policy action (R4), or an open-source project/tool release (R5). No acti",
+  "promptVersion": "1"
+}
