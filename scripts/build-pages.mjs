@@ -14,6 +14,7 @@ import {
   TAB_ORDER,
   isCategory,
   PAGE_MAX_PER_CATEGORY,
+  PAGE_MAX_RESEARCH,
 } from "../lib/constants.mjs";
 import { loadActiveRules } from "../lib/rules.mjs";
 import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
@@ -63,13 +64,14 @@ function loadIncluded() {
     const tb = new Date(b.pubDate || b.decidedAt || 0).getTime();
     return tb - ta;
   });
-  // Per-category cap so research backfill cannot crowd out newer industry/tools items.
+  // Per-category display caps: research tighter so one track cannot own the window.
   const byCat = new Map();
   const picked = [];
   for (const r of rows) {
     const cat = isCategory(r.categoryId) ? r.categoryId : "uncategorized";
+    const cap = cat === "research" ? PAGE_MAX_RESEARCH : PAGE_MAX_PER_CATEGORY;
     const n = byCat.get(cat) || 0;
-    if (n >= PAGE_MAX_PER_CATEGORY) continue;
+    if (n >= cap) continue;
     byCat.set(cat, n + 1);
     picked.push(r);
   }
@@ -134,8 +136,19 @@ function shortLabel(slug) {
 async function main() {
   const { active: rules } = loadActiveRules(path.join(ROOT, "rules"));
   const included = loadIncluded();
+  // No hardcoded fallback — wrong owner/name is worse than missing links.
   const repoSlugEnv =
-    process.env.GITHUB_REPOSITORY || process.env.GH_REPO || "larrymou/aicanonfeed";
+    process.env.GITHUB_REPOSITORY ||
+    process.env.GH_REPO ||
+    process.env.REPO_SLUG ||
+    null;
+  const gh = (suffix = "") =>
+    repoSlugEnv ? `https://github.com/${repoSlugEnv}${suffix}` : null;
+  const proposeHref = () => gh("/issues/new/choose");
+  const proposeHtml = (label = "Propose a rule") => {
+    const href = proposeHref();
+    return href ? `<a href="${esc(href)}">${esc(label)}</a>` : esc(label);
+  };
 
   const counts = { all: included.length };
   for (const id of Object.keys(CATEGORIES)) counts[id] = 0;
@@ -179,9 +192,7 @@ async function main() {
     }
     votingHtml = items.length
       ? `<ul class="list vote-list">${items.join("\n")}</ul>`
-      : '<p class="empty">No open proposals. <a href="https://github.com/' +
-        esc(repoSlugEnv) +
-        '/issues/new/choose">Propose a rule</a></p>';
+      : `<p class="empty">No open proposals. ${proposeHtml()}</p>`;
   } catch (err) {
     log("GitHub unavailable:", String(err.message || err));
     stageInfo = stageForStars(process.env.STARS || 0);
@@ -217,6 +228,7 @@ async function main() {
   </div>
   <h3 class="item-title">${titleHtml}</h3>
   <p class="item-summary">${esc(summary)}</p>
+  ${r.reason ? `<details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>${esc(rule || "?")}</code>${r.ruleFingerprint ? ` · ruleset <code>${esc(r.ruleFingerprint)}</code>` : ""} — ${esc(String(r.reason).slice(0, 300))}</p></details>` : ""}
 </article>`;
         })
         .join("\n")
@@ -230,7 +242,7 @@ async function main() {
     <span class="cat cat-${esc(r.category)}">${esc(shortLabel(r.category))}</span>
   </div>
   <p class="rule-body">${esc(r.body)}</p>
-  <p class="rule-cta"><a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a change</a></p>
+  <p class="rule-cta">${proposeHtml("Propose a change")}</p>
 </li>`,
     )
     .join("\n");
@@ -240,9 +252,9 @@ async function main() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed for AI industry and research.">
+<meta name="description" content="AICanonFeed — a CANON experiment: an AI editor under community rules. Same edition for everyone. No filter bubble. No ranking.">
 <meta name="color-scheme" content="dark">
-<title>AICanonFeed</title>
+<title>AICanonFeed · AI editor, not a recommender</title>
 <style>
   /* Deep blue system — minimal, modern */
   :root {
@@ -310,10 +322,47 @@ async function main() {
   }
   .lede {
     margin: 1.1rem 0 0;
-    max-width: 36rem;
+    max-width: 38rem;
     color: var(--muted);
     font-size: 1.05rem;
     line-height: 1.6;
+  }
+  .lede strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* —— Contract (anti–filter-bubble) —— */
+  .contract {
+    margin: 1.75rem 0 0;
+    padding: 1.1rem 0 0;
+    border-top: 1px solid var(--line-soft);
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem 1.25rem;
+    max-width: 46rem;
+  }
+  .contract-item .t {
+    display: block;
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 0.92rem;
+    letter-spacing: -0.01em;
+  }
+  .contract-item .d {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  .contract-item .n {
+    display: block;
+    color: var(--accent);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 650;
+    margin-bottom: 0.25rem;
   }
   .status {
     margin: 1.35rem 0 0;
@@ -441,6 +490,44 @@ async function main() {
     margin: 0;
     color: var(--muted);
     max-width: 42rem;
+  }
+  .item-why {
+    margin-top: 0.45rem;
+    font-size: 0.85rem;
+  }
+  .item-why summary {
+    color: var(--muted);
+    cursor: pointer;
+    list-style: none;
+    width: fit-content;
+    border-bottom: 1px solid transparent;
+  }
+  .item-why summary::-webkit-details-marker { display: none; }
+  .item-why summary::before {
+    content: "▸ ";
+    color: var(--accent);
+  }
+  .item-why[open] summary::before { content: "▾ "; }
+  .item-why summary:hover {
+    color: var(--accent-soft);
+    border-bottom-color: var(--line);
+  }
+  .item-why summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  .why-reason {
+    margin: 0.45rem 0 0;
+    color: var(--muted);
+    max-width: 40rem;
+    padding-left: 0.85rem;
+    border-left: 2px solid var(--line);
+  }
+  .why-reason code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    color: var(--accent-soft);
   }
   .empty {
     color: var(--muted);
@@ -575,6 +662,7 @@ async function main() {
     .rule-tag { margin-left: 0; width: 100%; }
     .tab { padding-inline: 0.7rem; font-size: 0.9rem; }
     .canon { grid-template-columns: 1fr; }
+    .contract { grid-template-columns: 1fr 1fr; }
   }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
@@ -587,7 +675,7 @@ async function main() {
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
-      <p class="lede">Community writes the rules. AI applies them. GitHub executes — a calm, chronological CANON feed for AI industry and research. No ranking. No pins.</p>
+      <p class="lede">Recommendation feeds learn your clicks and shrink your world. <strong>AICanonFeed is a CANON experiment:</strong> an <strong>AI editor</strong> bound by community rules — same edition for everyone, no personalization, every call auditable on GitHub.</p>
       <p class="status">
         <strong>Experimental</strong>
         · ${esc(stageInfo.stage)}
@@ -595,6 +683,28 @@ async function main() {
         · quorum ${esc(stageInfo.quorum)}
         · last ${CONTENT_MAX_AGE_DAYS} days
       </p>
+      <div class="contract" role="list" aria-label="Editorial contract">
+        <div class="contract-item" role="listitem">
+          <span class="n">01</span>
+          <span class="t">Same edition</span>
+          <p class="d">One shared rolling window — not a personal feed.</p>
+        </div>
+        <div class="contract-item" role="listitem">
+          <span class="n">02</span>
+          <span class="t">Rules, not recs</span>
+          <p class="d">Inclusion only under ratified rules. No click model.</p>
+        </div>
+        <div class="contract-item" role="listitem">
+          <span class="n">03</span>
+          <span class="t">Zero engagement</span>
+          <p class="d">No popularity rank, dwell signals, or “for you”.</p>
+        </div>
+        <div class="contract-item" role="listitem">
+          <span class="n">04</span>
+          <span class="t">Auditable</span>
+          <p class="d">Every decision is a public file in <code>decisions/</code>.</p>
+        </div>
+      </div>
       <nav class="hero-nav" aria-label="Sections">
         <a href="#latest">Latest</a>
         <a href="#vote">Vote</a>
@@ -607,7 +717,7 @@ async function main() {
   <main class="wrap">
     <section class="block" id="latest" aria-label="Latest included">
       <div class="block-head">
-        <h2 class="block-title">Latest included</h2>
+        <h2 class="block-title">Latest · last ${CONTENT_MAX_AGE_DAYS} days</h2>
       </div>
       <div class="rail" role="tablist" aria-label="Filter by category">
         ${tabsHtml}
@@ -638,12 +748,13 @@ ${rulesHtml}
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor. This is an <strong>experimental</strong> project — rules, quotas, and automation may change as we learn.</p>
+      <p class="how"><strong>Why this exists</strong> — Recommendation algorithms optimize engagement and shrink what you see. AICanonFeed is a <strong>CANON experiment</strong> in the opposite direction: an <strong>AI editor</strong> (not a recommender) that applies community-ratified rules and publishes <strong>one shared window</strong> on GitHub. This product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
+      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">
           <span class="n">01</span>
           <div class="t">Legislate</div>
-          <div class="d">Anyone can open a rule proposal on GitHub Issues. Meta-rules M1–M6 bound what may be proposed.</div>
+          <div class="d">Anyone can open a rule proposal on GitHub Issues. Meta-rules M1–M7 bound what may be proposed.</div>
         </div>
         <div class="canon-step" role="listitem">
           <span class="n">02</span>
@@ -653,27 +764,29 @@ ${rulesHtml}
         <div class="canon-step" role="listitem">
           <span class="n">03</span>
           <div class="t">Execute</div>
-          <div class="d">Votes, PRs, and <code>decisions/</code> are public. No ranking, no pins, no hidden human moderation of the feed.</div>
+          <div class="d">Votes, PRs, and <code>decisions/</code> are public. No ranking, no pins, no personalization — every inclusion can be audited.</div>
         </div>
       </div>
       <p class="how"><strong>How to join</strong> — Propose a rule (template), vote 👍 / 👎 on issues labeled <code>voting</code>, or audit every call in <code>decisions/</code>. Rules take ~8–14 days.</p>
       <ul>
         <li>Strict reverse-chronological order. Tabs are filters, not rankings.</li>
-        <li>Industry and research are both first-class; research volume is limited at ingest.</li>
+        <li>Research is capped on ingest and again on the page so industry/policy/tools stay visible.</li>
         <li>Uncovered items are rejected by design.</li>
+        <li>Meta-rule M7 forbids personalization: no per-user feeds, no engagement ranking.</li>
+        <li>Rules change over time; past decisions keep the rule version in effect when they were made.</li>
       </ul>
       <p class="links">
-        <a href="https://github.com/${esc(repoSlugEnv)}">Repository</a>
-        <a href="https://github.com/${esc(repoSlugEnv)}/blob/main/CONTRIBUTING.md">Contributing</a>
-        <a href="https://github.com/${esc(repoSlugEnv)}/blob/main/lib/meta-rules.md">Meta-rules</a>
-        <a href="https://github.com/${esc(repoSlugEnv)}/issues/new/choose">Propose a rule</a>
+        ${gh() ? `<a href="${esc(gh())}">Repository</a>` : ""}
+        ${gh("/blob/main/CONTRIBUTING.md") ? `<a href="${esc(gh("/blob/main/CONTRIBUTING.md"))}">Contributing</a>` : ""}
+        ${gh("/blob/main/lib/meta-rules.md") ? `<a href="${esc(gh("/blob/main/lib/meta-rules.md"))}">Meta-rules</a>` : ""}
+        ${proposeHref() ? `<a href="${esc(proposeHref())}">Propose a rule</a>` : ""}
       </p>
     </section>
   </main>
 
   <footer class="wrap">
     <span class="tag">CANON</span>
-    · community legislates · AI adjudicates · GitHub executes ·
+    · AI editor, not a recommender · community legislates · GitHub executes ·
     auditable in <code>decisions/</code>.
   </footer>
 

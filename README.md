@@ -1,19 +1,24 @@
 # AICanonFeed
 
-Community writes the rules. AI applies them. GitHub is the platform.
+**A CANON experiment:** an AI editor you can audit — not a feed that learns your clicks.
 
 > **Experimental project.** Governance thresholds, sources, and automation are expected to change. Expect rough edges; audits live in `decisions/`.
 
+Recommendation feeds optimize engagement and quietly build filter bubbles: same sources, same viewpoints, no shared record of what was left out. AICanonFeed puts an **AI editor** in that seat instead — bound by **community-ratified rules**, running on **GitHub**, producing **one edition for everyone**.
+
 **CANON:** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in `decisions/`.
 
-A chronological feed of AI news items that match **community-ratified inclusion rules**. There is no ranking, no manual pin, and no content outside rule coverage.
+## The contract (anti–filter-bubble)
 
-## Principles
+1. **Same edition for everyone** — one shared, chronological window (not a personal feed); no per-user state
+2. **Rules, not recommendations** — inclusion only under ratified rules; no click model
+3. **Zero engagement signals** — no ranking by popularity, dwell time, or “for you”
+4. **Auditable** — every include/reject is a file in `decisions/` (with prompt version + ruleset fingerprint); rules are public git
+5. **Balance by policy** — category/source caps at ingest and display, so one track cannot flood the page
 
-1. **Time-ordered only** — reverse chronological, no algorithmic ranking
-2. **Rules-only inclusion** — AI applies ratified rules; items with no matching rule are rejected
-3. **No human content moderation** — the platform does not hand-review feed items
-4. **Auditable** — Git history + Issues + `decisions/`
+AI here is an **editor**, not a recommender: it selects under public rules, it does not predict what you will click.
+
+**Designed forward.** The shared window is the last **5** days. Rules and quotas evolve through CANON; we do not retrofit history — past `decisions/` keep the rules in force when they were made.
 
 ## How it works
 
@@ -23,15 +28,27 @@ Rule proposal (Issue) → AI pre-review → Community vote → PR merges rules/
 RSS sources → dedupe → AI applies active rules → decisions/ + Latest Included page
 ```
 
+GitHub stays the platform: Issues legislate, Actions run the pipeline, Pages serve the edition, `decisions/` is the audit trail.
+
+## Principles
+
+1. **Time-ordered only** — reverse chronological, no algorithmic ranking
+2. **Rules-only inclusion** — AI applies ratified rules; items with no matching rule are rejected
+3. **No human content moderation** — the platform does not hand-review feed items
+4. **No personalization** — the product never learns the individual reader
+5. **Auditable** — Git history + Issues + `decisions/`
+
 ## Cold-start quorum
+
+Quorum never goes below **3**.
 
 | Stars | Valid votes required (quorum) |
 | ----- | ----------------------------- |
-| < 200 | 1 (must be a non-author 👍) |
+| < 200 | 3 |
 | 200–999 | 5 |
-| ≥ 1000 | `floor(stars/100)+1` (strictly >1% of stars) |
+| ≥ 1000 | `max(3, floor(stars/100)+1)` |
 
-Stage is evaluated at settlement time from the repository star count. Thresholds are code constants (`lib/constants.mjs`) and cannot be changed by proposals (meta-rule M5).
+Stage is evaluated at settlement time from the repository star count. Thresholds are code constants (`lib/constants.mjs`) and cannot be changed by proposals (meta-rule M5). At **S0**, ratified rule PRs are **not auto-merged** — a maintainer must merge.
 
 ## Participate
 
@@ -43,7 +60,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Site
 
-GitHub Pages shows **Latest Included**, **Open for Vote**, **Active Rules**.
+GitHub Pages shows the **editorial contract**, **Latest Included**, **Open for Vote**, **Active Rules**.
 
 ## Maintain
 

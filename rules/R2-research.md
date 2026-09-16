@@ -3,7 +3,7 @@ id: R2
 status: active
 source: seed
 category: research
-effective_at: 2026-09-09
+effective_at: 2026-09-14
 ---
 
-A post is included in research when it reports a peer-reviewed or preprint paper from a recognized venue or research lab, an official technical report, or verifiable benchmark results, and links to the original source.
+Include items that report a **primary research artifact**: a peer-reviewed or preprint paper, an official technical report from a research lab, or a new public benchmark **with a link to the paper/report/benchmark page itself**. Exclude marketing benchmark scores, blog summaries without the original paper/report link, and product announcements.

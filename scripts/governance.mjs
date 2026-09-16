@@ -14,16 +14,25 @@ import {
   closeIssue,
   upsertFilePr,
   getPull,
+  listPulls,
   mergePullRequest,
+  pullIsMerged,
   splitSlug,
   repoSlug,
 } from "../lib/github.mjs";
 import { stageForStars, LABELS, RULE_MAX_CHARS, isCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
-import { loadActiveRules, maxRuleId } from "../lib/rules.mjs";
+import {
+  loadActiveRules,
+  reservedRuleIds,
+  ruleIdsFromBranches,
+  nextFreeRuleId,
+} from "../lib/rules.mjs";
+import { scanRuleText } from "../lib/rule-guard.mjs";
 
 const ROOT = process.cwd();
 const decisionsDir = path.join(ROOT, "decisions", "rule-reviews");
+const snapshotsDir = path.join(ROOT, "decisions", "rule-snapshots");
 
 function log(...args) {
   console.log("[governance]", ...args);
@@ -35,9 +44,47 @@ function writeDecision(name, payload) {
   fs.writeFileSync(file, JSON.stringify(payload, null, 2) + "\n", "utf8");
 }
 
+function snapshotPath(issueNumber) {
+  return path.join(snapshotsDir, `${issueNumber}.json`);
+}
+
+function writeSnapshot(issueNumber, payload) {
+  fs.mkdirSync(snapshotsDir, { recursive: true });
+  fs.writeFileSync(snapshotPath(issueNumber), JSON.stringify(payload, null, 2) + "\n", "utf8");
+}
+
+function loadSnapshot(issueNumber) {
+  const file = snapshotPath(issueNumber);
+  if (!fs.existsSync(file)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+/** Latest pre-review decision for an issue (for error-comment dedupe). */
+function latestPreReview(issueNumber) {
+  if (!fs.existsSync(decisionsDir)) return null;
+  const files = fs
+    .readdirSync(decisionsDir)
+    .filter((f) => f.startsWith(`pre-review-${issueNumber}-`) && f.endsWith(".json"))
+    .sort();
+  if (!files.length) return null;
+  try {
+    return JSON.parse(
+      fs.readFileSync(path.join(decisionsDir, files[files.length - 1]), "utf8"),
+    );
+  } catch {
+    return null;
+  }
+}
+
 function parseProposalType(body) {
   const m = body.match(/^\s*##\s*Proposal Type\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
-  const raw = (m?.[1] || body).toLowerCase();
+  // Missing section → treat as new (template requires it; avoid full-body keyword false positives).
+  if (!m) return "new";
+  const raw = m[1].toLowerCase();
   if (raw.includes("revoke")) return "revoke";
   if (raw.includes("amend")) return "amend";
   return "new";
@@ -133,18 +180,20 @@ function guardRule({ text, category, nextId, existingIds }) {
   if (!text || text.length < 20) return "Rule text too short";
   if (text.length > RULE_MAX_CHARS) return "Rule text too long";
   if (/<script|javascript:|onerror=/i.test(text)) return "Rule text contains unsafe markup";
+  const unsafe = scanRuleText(text);
+  if (unsafe) return `Rule text rejected (${unsafe})`;
   if (!isCategory(category)) return "Invalid category";
   if (existingIds.has(nextId)) return `Rule ID ${nextId} already exists`;
   return null;
 }
 
-async function settlePhase({ stars, stageInfo, rules }) {
+async function settlePhase({ stars, stageInfo, reservedIds }) {
   const voting = await listOpenIssuesWithLabel(LABELS.voting);
   log(`settle: ${voting.length} voting issue(s), quorum=${stageInfo.quorum}`);
   const results = [];
   const { owner, repo } = splitSlug();
-  // Track IDs allocated this run so multi-ratify does not collide.
-  const usedIds = new Set((rules || []).map((r) => r.id));
+  // Include on-disk ids and open-PR branch ids so pending rules cannot be reallocated.
+  const usedIds = new Set(reservedIds);
 
   for (const issue of voting) {
     const reactions = await listIssueReactions(issue.number);
@@ -164,19 +213,31 @@ async function settlePhase({ stars, stageInfo, rules }) {
 
     if (outcome === "ratified") {
       const pType = parseProposalType(issue.body || "");
-      const category = parseCategory(issue.body || "");
-      const text = parseRuleText(issue.body || "");
+      let category = parseCategory(issue.body || "");
+      let text = parseRuleText(issue.body || "");
 
-      if (pType !== "new") {
+      // Prefer the pre-review snapshot so post-vote body edits cannot change the rule.
+      const snap = loadSnapshot(issue.number);
+      if (snap?.category && snap?.ruleText) {
+        const liveCategory = parseCategory(issue.body || "");
+        const liveText = parseRuleText(issue.body || "");
+        if (
+          (liveCategory && liveCategory !== snap.category) ||
+          (liveText && liveText.trim() !== String(snap.ruleText).trim())
+        ) {
+          guardError = "Issue body changed after pre-review snapshot";
+          outcome = "rejected_by_guard";
+        } else {
+          category = snap.category;
+          text = snap.ruleText;
+        }
+      }
+
+      if (outcome === "ratified" && pType !== "new") {
         guardError = `MVP supports new only (got ${pType})`;
         outcome = "rejected_by_guard";
-      } else {
-        let nextN = maxRuleId(rules) + 1;
-        let nextId = `R${nextN}`;
-        while (usedIds.has(nextId)) {
-          nextN += 1;
-          nextId = `R${nextN}`;
-        }
+      } else if (outcome === "ratified") {
+        const nextId = nextFreeRuleId(usedIds);
         const guardMsg = guardRule({
           text,
           category: isCategory(category) ? category : null,
@@ -203,9 +264,26 @@ async function settlePhase({ stars, stageInfo, rules }) {
           prNumber = pr.number;
           prUrl = pr.html_url;
           usedIds.add(nextId);
+          // Persist prNumber so recover can find the PR even if branch listing fails.
+          writeSnapshot(issue.number, {
+            issueNumber: issue.number,
+            category,
+            ruleText: text,
+            ruleId: nextId,
+            prNumber: pr.number,
+            branch,
+            snapshotAt: new Date().toISOString(),
+          });
           const prFull = await getPull(prNumber);
           const labels = (prFull.labels || []).map((l) => l.name);
-          if (labels.includes(LABELS.doNotMerge)) {
+          // S0: quorum is already ≥3; still require a human merge before the charter changes.
+          if (stageInfo.stage === "S0") {
+            skippedMerge = true;
+            await comment(
+              issue.number,
+              `S0 safety: PR #${prNumber} opened but **not auto-merged**. A maintainer must merge to activate ${nextId}.`,
+            );
+          } else if (labels.includes(LABELS.doNotMerge)) {
             skippedMerge = true;
             await comment(
               issue.number,
@@ -227,14 +305,21 @@ async function settlePhase({ stars, stageInfo, rules }) {
       }
     }
 
+    // Ratified only when the rule file is actually on main. Pending merge stays open.
+    if (outcome === "ratified" && skippedMerge) {
+      outcome = "ratified_pending_merge";
+    }
+
     const label =
-      outcome === "ratified" && !guardError
+      outcome === "ratified"
         ? LABELS.ratified
-        : outcome === "defeated"
-          ? LABELS.defeated
-          : outcome === "expired_no_quorum"
-            ? LABELS.expired
-            : LABELS.rejected;
+        : outcome === "ratified_pending_merge"
+          ? LABELS.pendingMerge
+          : outcome === "defeated"
+            ? LABELS.defeated
+            : outcome === "expired_no_quorum"
+              ? LABELS.expired
+              : LABELS.rejected;
 
     await setLabels(
       issue.number,
@@ -249,12 +334,16 @@ async function settlePhase({ stars, stageInfo, rules }) {
       `- 👍 ${tally.up} / 👎 ${tally.down} (void ${tally.voided})`,
       prUrl ? `- PR: ${prUrl}` : "",
       guardError ? `- guard: ${guardError}` : "",
-      skippedMerge ? "- merge skipped (kill switch or error)" : "",
+      outcome === "ratified_pending_merge"
+        ? "- rule is **not active** until the PR is merged"
+        : "",
     ]
       .filter(Boolean)
       .join("\n");
     await comment(issue.number, summary);
-    await closeIssue(issue.number);
+    if (outcome !== "ratified_pending_merge") {
+      await closeIssue(issue.number);
+    }
 
     writeDecision(`settlement-${issue.number}-${Date.now()}.json`, {
       issueNumber: issue.number,
@@ -265,9 +354,151 @@ async function settlePhase({ stars, stageInfo, rules }) {
       quorum: stageInfo.quorum,
       prNumber,
       guardError,
+      skippedMerge,
       settledAt: new Date().toISOString(),
     });
     results.push({ issueNumber: issue.number, outcome, prNumber });
+  }
+  return results;
+}
+
+/**
+ * Reconcile issues stuck in ratified_pending_merge:
+ * - open PR still waiting → (non-S0) try merge; else leave untouched
+ * - PR already merged → ratified + close
+ * - PR closed without merge → rejected + close
+ * Never throws — a listing/API failure must not abort the whole governance cycle.
+ */
+async function recoverPendingPhase({ stageInfo }) {
+  const results = [];
+  let pending;
+  try {
+    pending = await listOpenIssuesWithLabel(LABELS.pendingMerge);
+  } catch (err) {
+    log("recover-pending: list issues failed:", String(err.message || err));
+    return results;
+  }
+  if (!pending.length) {
+    log("recover-pending: none");
+    return results;
+  }
+  log(`recover-pending: ${pending.length} issue(s)`);
+
+  let openPulls = [];
+  let closedPulls = [];
+  try {
+    openPulls = await listPulls({ state: "open" });
+    closedPulls = await listPulls({ state: "closed" });
+  } catch (err) {
+    log("recover-pending: listPulls failed:", String(err.message || err));
+    // Still try per-issue getPull fallback below via snapshot prNumber when possible.
+  }
+
+  for (const issue of pending) {
+    try {
+      const branchRe = new RegExp(`rule/r\\d+-from-${issue.number}$`, "i");
+      const snap = loadSnapshot(issue.number);
+      let openPr = openPulls.find((p) => branchRe.test(p.head?.ref || ""));
+      let closedPr = closedPulls.find((p) => branchRe.test(p.head?.ref || ""));
+
+      // Fallback: snapshot records the PR number from settlement.
+      if (!openPr && !closedPr && snap?.prNumber) {
+        try {
+          const pr = await getPull(snap.prNumber);
+          if (pr.state === "open") openPr = pr;
+          else closedPr = pr;
+        } catch {
+          /* leave unset */
+        }
+      }
+
+      if (openPr) {
+        if (stageInfo.stage === "S0") {
+          results.push({ issueNumber: issue.number, outcome: "still_pending", prNumber: openPr.number });
+          continue;
+        }
+        let labels = [];
+        try {
+          const prFull = await getPull(openPr.number);
+          labels = (prFull.labels || []).map((l) => l.name);
+        } catch {
+          /* treat as unlabeled */
+        }
+        if (labels.includes(LABELS.doNotMerge)) {
+          results.push({ issueNumber: issue.number, outcome: "still_pending_killswitch", prNumber: openPr.number });
+          continue;
+        }
+        try {
+          await mergePullRequest(openPr.number);
+          await setLabels(issue.number, [LABELS.ratified], [LABELS.pendingMerge]);
+          await comment(
+            issue.number,
+            `✅ PR #${openPr.number} merged on a later cycle — rule is now active. Closing.`,
+          );
+          await closeIssue(issue.number);
+          writeDecision(`recover-${issue.number}-${Date.now()}.json`, {
+            issueNumber: issue.number,
+            outcome: "ratified",
+            prNumber: openPr.number,
+            recoveredAt: new Date().toISOString(),
+          });
+          results.push({ issueNumber: issue.number, outcome: "ratified", prNumber: openPr.number });
+        } catch (err) {
+          results.push({
+            issueNumber: issue.number,
+            outcome: "still_pending",
+            prNumber: openPr.number,
+            error: String(err.message).slice(0, 200),
+          });
+        }
+        continue;
+      }
+
+      if (closedPr && (await pullIsMerged(closedPr))) {
+        await setLabels(issue.number, [LABELS.ratified], [LABELS.pendingMerge]);
+        await comment(
+          issue.number,
+          `✅ PR #${closedPr.number} was merged outside the bot. Rule is active. Closing.`,
+        );
+        await closeIssue(issue.number);
+        writeDecision(`recover-${issue.number}-${Date.now()}.json`, {
+          issueNumber: issue.number,
+          outcome: "ratified",
+          prNumber: closedPr.number,
+          recoveredAt: new Date().toISOString(),
+        });
+        results.push({ issueNumber: issue.number, outcome: "ratified", prNumber: closedPr.number });
+        continue;
+      }
+
+      if (closedPr) {
+        await setLabels(issue.number, [LABELS.rejected], [LABELS.pendingMerge]);
+        await comment(
+          issue.number,
+          `❌ PR #${closedPr.number} was closed without merge. Rule is not active. Closing issue.`,
+        );
+        await closeIssue(issue.number);
+        writeDecision(`recover-${issue.number}-${Date.now()}.json`, {
+          issueNumber: issue.number,
+          outcome: "rejected_pr_closed",
+          prNumber: closedPr.number,
+          recoveredAt: new Date().toISOString(),
+        });
+        results.push({ issueNumber: issue.number, outcome: "rejected_pr_closed", prNumber: closedPr.number });
+        continue;
+      }
+
+      // No matching PR — do not close; maintainer may still open/fix one.
+      results.push({ issueNumber: issue.number, outcome: "no_pr_found" });
+      log(`  #${issue.number} pending but no PR matched branch rule/r*-from-${issue.number}`);
+    } catch (err) {
+      log(`  #${issue.number} recover error:`, String(err.message || err));
+      results.push({
+        issueNumber: issue.number,
+        outcome: "recover_error",
+        error: String(err.message).slice(0, 200),
+      });
+    }
   }
   return results;
 }
@@ -280,6 +511,25 @@ async function preReviewPhase({ metaRules, prompt }) {
 
   for (const issue of proposals) {
     // Structural gate before spending an LLM call
+    const pType = parseProposalType(issue.body || "");
+    if (pType !== "new") {
+      await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+      await comment(
+        issue.number,
+        `❌ Pre-review rejected: MVP accepts **new** rules only (got \`${pType}\`). Amend/revoke is not supported yet.`,
+      );
+      await closeIssue(issue.number);
+      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+        issueNumber: issue.number,
+        verdict: "reject",
+        reason: `unsupported_proposal_type:${pType}`,
+        matchedMetaRules: [],
+        reviewedAt: new Date().toISOString(),
+      });
+      results.push({ issueNumber: issue.number, verdict: "reject" });
+      continue;
+    }
+
     const category = parseCategory(issue.body || "");
     if (!category) {
       await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
@@ -299,6 +549,27 @@ async function preReviewPhase({ metaRules, prompt }) {
       continue;
     }
 
+    // Static jailbreak/injection scan before spending an LLM call.
+    const ruleText = parseRuleText(issue.body || "");
+    const unsafe = scanRuleText(ruleText);
+    if (unsafe) {
+      await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+      await comment(
+        issue.number,
+        `❌ Pre-review rejected: rule text failed static safety scan (\`${unsafe}\`). Rule bodies must be inclusion criteria, not instructions to the model.`,
+      );
+      await closeIssue(issue.number);
+      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+        issueNumber: issue.number,
+        verdict: "reject",
+        reason: unsafe,
+        matchedMetaRules: ["M5"],
+        reviewedAt: new Date().toISOString(),
+      });
+      results.push({ issueNumber: issue.number, verdict: "reject" });
+      continue;
+    }
+
     const filled = fillTemplate(promptBody, {
       META_RULES: metaRules,
       ISSUE_BODY: (issue.body || "").slice(0, 8000),
@@ -306,15 +577,49 @@ async function preReviewPhase({ metaRules, prompt }) {
     const verdictRes = await chatJSON({
       system: filled,
       user: "Apply the policy above to the untrusted content already included and return JSON.",
-    }).catch((err) => ({ verdict: "error", reason: String(err.message).slice(0, 300) }));
+    }).catch((err) => ({
+      verdict: "error",
+      reason: String(err.message).slice(0, 300),
+      error: true,
+    }));
+
+    // Infra/LLM failure: keep the proposal open for the next cycle — never hard-reject.
+    if (verdictRes.verdict === "error" || verdictRes.error === true) {
+      const errReason = String(verdictRes.reason || "unknown error").slice(0, 400);
+      const prev = latestPreReview(issue.number);
+      // Dedupe: only comment when the previous outcome was not also an error.
+      if (prev?.verdict !== "error") {
+        await comment(
+          issue.number,
+          `⚠️ Pre-review skipped (tooling error). Proposal stays in \`proposal\` and will retry next cycle.\n\n\`${errReason}\``,
+        );
+      }
+      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+        issueNumber: issue.number,
+        verdict: "error",
+        reason: errReason,
+        matchedMetaRules: [],
+        reviewedAt: new Date().toISOString(),
+      });
+      results.push({ issueNumber: issue.number, verdict: "error" });
+      continue;
+    }
 
     const verdict = verdictRes.verdict === "pass" ? "pass" : "reject";
     const reason = String(verdictRes.reason || "").slice(0, 400);
     const matched = Array.isArray(verdictRes.matchedMetaRules)
-      ? verdictRes.matchedMetaRules.filter((m) => /^M[1-6]$/.test(m))
+      ? verdictRes.matchedMetaRules.filter((m) => /^M[1-7]$/.test(m))
       : [];
 
     if (verdict === "pass") {
+      // Freeze the text the community will vote on.
+      writeSnapshot(issue.number, {
+        issueNumber: issue.number,
+        category,
+        ruleText: parseRuleText(issue.body || ""),
+        proposalType: pType,
+        snapshotAt: new Date().toISOString(),
+      });
       await setLabels(issue.number, [LABELS.voting], [LABELS.proposal]);
       await comment(
         issue.number,
@@ -357,14 +662,32 @@ async function main() {
     "utf8",
   );
 
-  // Settle first (uses freshly merged rules only after next run — fine for new-only)
-  const settled = await settlePhase({ stars, stageInfo, rules });
+  // Reserve ids from every rules/*.md plus open rule PR branches.
+  const diskIds = reservedRuleIds(path.join(ROOT, "rules"));
+  const openPulls = await listPulls({ state: "open" }).catch((err) => {
+    log("listPulls failed:", String(err.message || err));
+    return [];
+  });
+  const branchIds = ruleIdsFromBranches(openPulls.map((p) => p.head?.ref));
+  const reservedIds = new Set([...diskIds, ...branchIds]);
+  log(`reserved rule ids: ${[...reservedIds].sort().join(", ") || "(none)"}`);
+
+  // Recover pending merges first so ratified rules can activate before new settles.
+  // recoverPendingPhase never throws; still guard so main always reaches settle/pre-review.
+  let recovered = [];
+  try {
+    recovered = await recoverPendingPhase({ stageInfo });
+  } catch (err) {
+    log("recover-pending crashed (continuing):", String(err.message || err));
+  }
+  // Settle voting, then pre-review new proposals.
+  const settled = await settlePhase({ stars, stageInfo, reservedIds });
   const reviewed = await preReviewPhase({ metaRules, prompt });
 
-  // Combined summary commit payload for the workflow to commit if desired
   const summary = {
     ranAt: new Date().toISOString(),
     stage: stageInfo,
+    recovered,
     settled,
     reviewed,
   };

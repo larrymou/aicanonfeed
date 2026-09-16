@@ -9,6 +9,7 @@ import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadIndexFile, appendIndex } from "../lib/hash.mjs";
+import { rulesFingerprint } from "../lib/fingerprint.mjs";
 
 const ROOT = process.cwd();
 const contentDir = path.join(ROOT, "decisions", "content-reviews");
@@ -172,18 +173,18 @@ async function main() {
     capped.push(c);
   }
 
-  // Non-research first so mixed feed stays balanced; research fills remaining budget
-  const researchBudget = Math.floor(FEED_MAX_NEW_PER_RUN * RESEARCH_RUN_SHARE_MAX);
+  // Cap research at RESEARCH_RUN_SHARE_MAX of the run; fill the rest with non-research.
+  // (Not "non-research first then leftovers" — that could zero out research entirely.)
+  const maxResearch = Math.floor(FEED_MAX_NEW_PER_RUN * RESEARCH_RUN_SHARE_MAX);
   const nonResearch = capped.filter((c) => !isResearchCategory(c.sourceCategory));
   const research = capped.filter((c) => isResearchCategory(c.sourceCategory));
-  const batch = [
-    ...nonResearch.slice(0, FEED_MAX_NEW_PER_RUN),
-    ...research.slice(0, Math.max(0, researchBudget)),
-  ]
-    .sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0))
-    .slice(0, FEED_MAX_NEW_PER_RUN);
+  const researchPick = research.slice(0, Math.max(0, maxResearch));
+  const nonResearchPick = nonResearch.slice(0, FEED_MAX_NEW_PER_RUN - researchPick.length);
+  const batch = [...nonResearchPick, ...researchPick].sort(
+    (a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0),
+  );
   log(
-    `candidates=${candidates.length} after_source_cap=${capped.length} batch=${batch.length} (nonR=${nonResearch.length} R=${research.length} skipped_stale=${skippedStale} skipped_no_date=${skippedNoDate})`,
+    `candidates=${candidates.length} after_source_cap=${capped.length} batch=${batch.length} (nonR=${nonResearchPick.length} R=${researchPick.length} skipped_stale=${skippedStale} skipped_no_date=${skippedNoDate})`,
   );
 
   // Wall-clock budget so a hung provider cannot burn the full Actions job (6h)
@@ -195,6 +196,8 @@ async function main() {
     .readFileSync(path.join(ROOT, "lib", "prompts", "content-moderation.md"), "utf8")
     .match(/^version:\s*(\S+)/m);
   const promptVersion = promptVersionMatch ? promptVersionMatch[1] : "unknown";
+  const ruleFingerprint = rulesFingerprint(rules);
+  log(`ruleFingerprint=${ruleFingerprint}`);
   let included = 0;
   const indexRows = [];
 
@@ -230,6 +233,7 @@ async function main() {
       matchedRuleId: result.matchedRuleId,
       reason: result.reason,
       promptVersion,
+      ruleFingerprint,
     };
     const name = `${item.urlHash}.json`;
     if (result.error) {

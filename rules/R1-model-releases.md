@@ -3,7 +3,7 @@ id: R1
 status: active
 source: seed
 category: model-releases
-effective_at: 2026-09-09
+effective_at: 2026-09-14
 ---
 
-A post is included in model-releases when it reports a new model, major version update, significant capability, or major product launch from an AI company, research lab, or official product owner, and links to the official or original announcement.
+Include only items that announce a **new AI model, major model version, or material model capability** from the model owner (company, lab, or official product owner) **and** link to that owner's official announcement (blog, model card, or release page). Do **not** use R1 for generic product features, infra, partnerships, or media-only stories without an official owner link (those belong under R3 or R5).
