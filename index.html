@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — a CANON experiment: an AI editor under community rules. Same edition for everyone. No filter bubble. No ranking.">
+<meta name="description" content="AICanonFeed — a CANON experiment: one shared AI-news window. Community rules + an AI editor. No personalization. No ranking.">
 <meta name="color-scheme" content="dark">
 <title>AICanonFeed · AI editor, not a recommender</title>
 <style>
@@ -426,7 +426,7 @@
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
-      <p class="lede">Recommendation feeds learn your clicks and shrink your world. <strong>AICanonFeed is a CANON experiment:</strong> an <strong>AI editor</strong> bound by community rules — same edition for everyone, no personalization, every call auditable on GitHub.</p>
+      <p class="lede"><strong>AICanonFeed</strong> is a CANON experiment: one shared AI-news window for everyone. A community-ratified rulebook decides what makes the cut; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
       <p class="status">
         <strong>Experimental</strong>
         · S0
@@ -471,7 +471,7 @@
         <h2 class="block-title">Latest · last 5 days</h2>
       </div>
       <div class="rail" role="tablist" aria-label="Filter by category">
-        <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">All<span class="count">38</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">Model Releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">Industry<span class="count">15</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">Research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">Tools &amp; OSS<span class="count">4</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">Policy<span class="count">8</span></button>
+        <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">All<span class="count">37</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">Model Releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">Industry<span class="count">15</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">Research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">Tools &amp; OSS<span class="count">3</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">Policy<span class="count">8</span></button>
       </div>
       <div id="feed">
 <article class="item" data-category="industry">
@@ -955,19 +955,6 @@
   <p class="item-summary">Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.</p>
   <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> — Official AWS write-up showing how to build and deploy interactive MCP Apps on Amazon Bedrock AgentCore, a notable usage of the open-source MCP developer standard, with a link to the original documentation.</p></details>
 </article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T13:51:32.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/11/wrapture/" rel="noopener noreferrer" target="_blank">Don&#39;t sleep on wrapture</a></h3>
-  <p class="item-summary">Graham Dumpleton&#39;s new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I&#39;m not sure why I&#39;ve seen so little buzz about it! Graham has been posting new tutorials for it almost daily since the initial release on August 31st. Here&#39;s </p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> — Reports the release and rapid updates of wrapture, an open-source Python monkey-patching library/developer tool, with a write-up covering its capabilities and tutorials since its initial release.</p></details>
-</article>
       </div>
       <p class="empty" id="empty-filter" hidden>Nothing in this category for the current window.</p>
     </section>
@@ -1031,7 +1018,8 @@
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>Why this exists</strong> — Recommendation algorithms optimize engagement and shrink what you see. AICanonFeed is a <strong>CANON experiment</strong> in the opposite direction: an <strong>AI editor</strong> (not a recommender) that applies community-ratified rules and publishes <strong>one shared window</strong> on GitHub. This product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
+      <p class="how"><strong>What this is</strong> — A <strong>CANON experiment</strong>: the community legislates inclusion rules, an <strong>AI editor</strong> applies only those rules, and GitHub publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender.</p>
+      <p class="how"><strong>Why</strong> — Recommendation feeds optimize clicks and quietly build filter bubbles. AICanonFeed sits in the opposite seat: rules instead of personalization, a shared record in <code>decisions/</code> instead of a black box. The product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
       <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">
