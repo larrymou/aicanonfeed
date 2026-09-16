@@ -192,9 +192,11 @@ async function main() {
     }
     votingHtml = items.length
       ? `<ul class="list vote-list">${items.join("\n")}</ul>`
-      : `<p class="empty">No open proposals. ${proposeHtml()}</p>`;
+      : `<p class="empty"><strong>No open proposals.</strong> Ratified rules only change through Issues. ${proposeHtml()}</p>`;
   } catch (err) {
     log("GitHub unavailable:", String(err.message || err));
+    votingHtml =
+      '<p class="empty"><strong>Voting data unavailable.</strong> Local build without a GitHub token. On the live site this lists issues labeled <code>voting</code>.</p>';
     stageInfo = stageForStars(process.env.STARS || 0);
   }
 
@@ -232,7 +234,7 @@ async function main() {
 </article>`;
         })
         .join("\n")
-    : `<p class="empty" data-category="all">Nothing included in the last ${CONTENT_MAX_AGE_DAYS} days.</p>`;
+    : `<p class="empty" data-category="all"><strong>Empty window.</strong> Nothing included in the last ${CONTENT_MAX_AGE_DAYS} days. The pipeline runs every 4 hours — check Active rules for what the editor is allowed to pick.</p>`;
 
   const rulesHtml = rules
     .map(
@@ -275,7 +277,7 @@ async function main() {
     --tag-research: #4fc3f7;
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
   body {
     margin: 0;
     background:
@@ -291,6 +293,18 @@ async function main() {
   a:hover { color: var(--accent-soft); }
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
   .plain { color: inherit; }
+  .skip {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 100;
+    padding: 0.6rem 1rem;
+    background: var(--accent);
+    color: var(--bg-deep);
+    font-weight: 600;
+    border-radius: 0 0 6px 0;
+  }
+  .skip:focus { left: 0; color: var(--bg-deep); }
 
   .wrap {
     width: min(100% - 2.5rem, var(--max));
@@ -334,25 +348,31 @@ async function main() {
 
   /* —— Contract (anti–filter-bubble) —— */
   .contract {
-    margin: 1.75rem 0 0;
-    padding: 1.1rem 0 0;
+    margin: 1.5rem 0 0;
+    padding: 1rem 0 0;
     border-top: 1px solid var(--line-soft);
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem 1.25rem;
-    max-width: 46rem;
+    gap: 0.85rem 1rem;
+    max-width: 48rem;
+  }
+  .contract-item {
+    padding: 0.65rem 0.75rem 0.7rem;
+    border: 1px solid var(--line-soft);
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(11, 20, 38, 0.65), rgba(6, 11, 22, 0.2));
   }
   .contract-item .t {
     display: block;
     color: var(--ink);
     font-weight: 600;
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     letter-spacing: -0.01em;
   }
   .contract-item .d {
-    margin: 0.2rem 0 0;
+    margin: 0.25rem 0 0;
     color: var(--muted);
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     line-height: 1.45;
   }
   .contract-item .n {
@@ -362,18 +382,29 @@ async function main() {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 650;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .contract-item code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.85em;
+    color: var(--accent-soft);
   }
   .status {
-    margin: 1.35rem 0 0;
+    margin: 1.15rem 0 0;
     color: var(--muted);
-    font-size: 0.875rem;
-    letter-spacing: 0.01em;
+    font-size: 0.8125rem;
+    letter-spacing: 0.02em;
+    font-variant-numeric: tabular-nums;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.55rem;
+    align-items: center;
   }
   .status strong {
     color: var(--accent-soft);
     font-weight: 600;
   }
+  .status .sep { color: var(--line); }
 
   /* —— Sections —— */
   main { padding: 2rem 0 5rem; }
@@ -396,13 +427,23 @@ async function main() {
     opacity: 0.85;
   }
 
-  /* —— Tabs —— */
+  /* —— Tabs (sticky filter rail) —— */
+  .rail-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    margin: 0 0 0.25rem;
+    padding-top: 0.35rem;
+    background: linear-gradient(180deg, var(--bg) 70%, transparent);
+  }
   .rail {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.15rem 0;
-    margin: 0 0 0.5rem;
+    gap: 0.1rem 0;
+    margin: 0;
     border-bottom: 1px solid var(--line);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
   .tab {
     appearance: none;
@@ -410,26 +451,34 @@ async function main() {
     background: transparent;
     color: var(--muted);
     font: inherit;
-    font-size: 0.95rem;
-    padding: 0.7rem 0.9rem;
+    font-size: 0.9375rem;
+    padding: 0.75rem 0.85rem;
     cursor: pointer;
     border-bottom: 2px solid transparent;
     margin-bottom: -1px;
     min-height: 44px;
+    border-radius: 6px 6px 0 0;
   }
-  .tab:hover { color: var(--ink); }
+  .tab:hover { color: var(--ink); background: rgba(91, 157, 255, 0.06); }
   .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
   .tab.is-active {
     color: var(--ink);
     border-bottom-color: var(--accent);
+    background: rgba(91, 157, 255, 0.08);
   }
   .tab .count {
     margin-left: 0.4rem;
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-variant-numeric: tabular-nums;
+    padding: 0.1rem 0.35rem;
+    border-radius: 999px;
+    background: var(--line-soft);
   }
-  .tab.is-active .count { color: var(--accent); }
+  .tab.is-active .count {
+    color: var(--accent);
+    background: rgba(91, 157, 255, 0.15);
+  }
 
   /* —— Feed list —— */
   .list {
@@ -438,24 +487,45 @@ async function main() {
     padding: 0;
   }
   .item {
-    padding: 1.35rem 0;
+    padding: 1.25rem 0 1.25rem 0.85rem;
+    margin-left: -0.85rem;
     border-bottom: 1px solid var(--line-soft);
+    border-left: 2px solid transparent;
+    transition: border-color 0.15s ease, background 0.15s ease;
   }
   .item:first-child { padding-top: 1rem; }
+  .item:hover {
+    border-left-color: var(--accent);
+    background: linear-gradient(90deg, rgba(91, 157, 255, 0.06), transparent 55%);
+  }
   .item-kicker {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.35rem 0.45rem;
-    font-size: 0.8rem;
+    gap: 0.4rem 0.5rem;
+    font-size: 0.78rem;
     color: var(--muted);
     letter-spacing: 0.02em;
   }
   .cat {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
     font-weight: 650;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    font-size: 0.72rem;
+    font-size: 0.68rem;
+    padding: 0.18rem 0.45rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .cat::before {
+    content: "";
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: currentColor;
   }
   .cat-model-releases { color: var(--tag-model); }
   .cat-research { color: var(--tag-research); }
@@ -467,14 +537,18 @@ async function main() {
   .rule-tag a {
     color: var(--muted);
     font-size: 0.75rem;
-    border-bottom: 1px solid transparent;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    border: 1px solid transparent;
   }
   .rule-tag a:hover {
     color: var(--accent);
-    border-bottom-color: var(--accent);
+    border-color: var(--line);
+    background: rgba(91, 157, 255, 0.08);
   }
   .item-title {
-    margin: 0.45rem 0 0.35rem;
+    margin: 0.55rem 0 0.35rem;
     font-size: clamp(1.1rem, 2.2vw, 1.28rem);
     font-weight: 600;
     letter-spacing: -0.015em;
@@ -482,17 +556,26 @@ async function main() {
   }
   .item-title a { color: var(--ink); }
   .item-title a:hover { color: var(--accent); }
+  .item-title a[target="_blank"]::after {
+    content: "↗";
+    margin-left: 0.3rem;
+    font-size: 0.75em;
+    color: var(--muted);
+    vertical-align: 0.1em;
+  }
+  .item-title a[target="_blank"]:hover::after { color: var(--accent); }
   .item.is-research .item-title {
-    font-size: 1.02rem;
+    font-size: 1.04rem;
     font-weight: 550;
   }
   .item-summary {
     margin: 0;
     color: var(--muted);
     max-width: 42rem;
+    font-size: 0.95rem;
   }
   .item-why {
-    margin-top: 0.45rem;
+    margin-top: 0.55rem;
     font-size: 0.85rem;
   }
   .item-why summary {
@@ -500,29 +583,40 @@ async function main() {
     cursor: pointer;
     list-style: none;
     width: fit-content;
-    border-bottom: 1px solid transparent;
+    min-height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.45rem 0.2rem 0.15rem;
+    border-radius: 6px;
+    border: 1px solid transparent;
   }
   .item-why summary::-webkit-details-marker { display: none; }
   .item-why summary::before {
-    content: "▸ ";
+    content: "▸";
     color: var(--accent);
+    margin-right: 0.35rem;
+    font-size: 0.75rem;
   }
-  .item-why[open] summary::before { content: "▾ "; }
+  .item-why[open] summary::before { content: "▾"; }
   .item-why summary:hover {
     color: var(--accent-soft);
-    border-bottom-color: var(--line);
+    border-color: var(--line-soft);
+    background: rgba(91, 157, 255, 0.06);
   }
   .item-why summary:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: 6px;
   }
   .why-reason {
     margin: 0.45rem 0 0;
     color: var(--muted);
     max-width: 40rem;
-    padding-left: 0.85rem;
-    border-left: 2px solid var(--line);
+    padding: 0.55rem 0.75rem;
+    border-left: 2px solid var(--accent);
+    background: rgba(11, 20, 38, 0.55);
+    border-radius: 0 8px 8px 0;
+    line-height: 1.5;
   }
   .why-reason code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -531,8 +625,11 @@ async function main() {
   }
   .empty {
     color: var(--muted);
-    padding: 1.5rem 0;
+    padding: 1.75rem 0.25rem;
+    max-width: 36rem;
+    line-height: 1.55;
   }
+  .empty strong { color: var(--ink); font-weight: 600; }
 
   /* —— Vote —— */
   .vote-list li {
@@ -555,10 +652,13 @@ async function main() {
 
   /* —— Rules —— */
   .rule-row {
-    padding: 1.15rem 0;
+    padding: 1.15rem 0.75rem;
+    margin: 0 -0.75rem;
     border-bottom: 1px solid var(--line-soft);
+    border-radius: 8px;
     list-style: none;
   }
+  .rule-row:hover { background: rgba(91, 157, 255, 0.04); }
   ul.rules { margin: 0; padding: 0; }
   .rule-head {
     display: flex;
@@ -568,6 +668,9 @@ async function main() {
   .rule-id {
     font-weight: 650;
     letter-spacing: 0.04em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    color: var(--accent-soft);
   }
   .rule-body {
     margin: 0.45rem 0 0;
@@ -649,39 +752,63 @@ async function main() {
   .hero-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem 1.1rem;
-    margin: 1.5rem 0 0;
+    gap: 0.35rem 0.15rem;
+    margin: 1.35rem 0 0;
     font-size: 0.9rem;
   }
-  .hero-nav a { color: var(--muted); }
-  .hero-nav a:hover { color: var(--accent); }
+  .hero-nav a {
+    color: var(--muted);
+    padding: 0.45rem 0.7rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+  }
+  .hero-nav a:hover {
+    color: var(--accent);
+    border-color: var(--line);
+    background: rgba(91, 157, 255, 0.06);
+  }
 
+  @media (max-width: 720px) {
+    .contract { grid-template-columns: 1fr 1fr; }
+  }
   @media (max-width: 540px) {
     .wrap { width: min(100% - 1.5rem, var(--max)); }
-    .hero { padding-top: 2.75rem; }
+    .hero { padding-top: 2.5rem; }
     .rule-tag { margin-left: 0; width: 100%; }
-    .tab { padding-inline: 0.7rem; font-size: 0.9rem; }
+    .tab { padding-inline: 0.65rem; font-size: 0.875rem; }
     .canon { grid-template-columns: 1fr; }
-    .contract { grid-template-columns: 1fr 1fr; }
+    .contract { grid-template-columns: 1fr; }
+    .item { padding-left: 0.65rem; margin-left: -0.65rem; }
   }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
+    .item { transition: none; }
   }
 </style>
 </head>
 <body>
+  <a class="skip" href="#latest">Skip to latest</a>
   <header class="hero">
     <div class="wrap">
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
       <p class="lede"><strong>AICanonFeed</strong> is a CANON experiment: one shared AI-news window for everyone. A community-ratified rulebook decides what makes the cut; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
-      <p class="status">
+      <p class="status" aria-label="Project status">
         <strong>Experimental</strong>
-        · ${esc(stageInfo.stage)}
-        · ${esc(stars)} stars
-        · quorum ${esc(stageInfo.quorum)}
-        · last ${CONTENT_MAX_AGE_DAYS} days
+        <span class="sep" aria-hidden="true">·</span>
+        <span>${esc(stageInfo.stage)}</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span>${esc(stars)} stars</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span>quorum ${esc(stageInfo.quorum)}</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span>last ${CONTENT_MAX_AGE_DAYS} days</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span>${esc(included.length)} on this page</span>
       </p>
       <div class="contract" role="list" aria-label="Editorial contract">
         <div class="contract-item" role="listitem">
@@ -714,18 +841,20 @@ async function main() {
     </div>
   </header>
 
-  <main class="wrap">
+  <main class="wrap" id="main">
     <section class="block" id="latest" aria-label="Latest included">
       <div class="block-head">
         <h2 class="block-title">Latest · last ${CONTENT_MAX_AGE_DAYS} days</h2>
       </div>
-      <div class="rail" role="tablist" aria-label="Filter by category">
-        ${tabsHtml}
+      <div class="rail-wrap">
+        <div class="rail" role="tablist" aria-label="Filter by category">
+          ${tabsHtml}
+        </div>
       </div>
       <div id="feed">
 ${feedHtml}
       </div>
-      <p class="empty" id="empty-filter" hidden>Nothing in this category for the current window.</p>
+      <p class="empty" id="empty-filter" hidden><strong>Nothing here.</strong> No items in this category for the last ${CONTENT_MAX_AGE_DAYS} days. Try All, or check back after the next pipeline run.</p>
     </section>
 
     <section class="block" id="vote">
