@@ -252,7 +252,7 @@ async function main() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — a CANON experiment: an AI editor under community rules. Same edition for everyone. No filter bubble. No ranking.">
+<meta name="description" content="AICanonFeed — a CANON experiment: one shared AI-news window. Community rules + an AI editor. No personalization. No ranking.">
 <meta name="color-scheme" content="dark">
 <title>AICanonFeed · AI editor, not a recommender</title>
 <style>
@@ -675,7 +675,7 @@ async function main() {
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
-      <p class="lede">Recommendation feeds learn your clicks and shrink your world. <strong>AICanonFeed is a CANON experiment:</strong> an <strong>AI editor</strong> bound by community rules — same edition for everyone, no personalization, every call auditable on GitHub.</p>
+      <p class="lede"><strong>AICanonFeed</strong> is a CANON experiment: one shared AI-news window for everyone. A community-ratified rulebook decides what makes the cut; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
       <p class="status">
         <strong>Experimental</strong>
         · ${esc(stageInfo.stage)}
@@ -748,7 +748,8 @@ ${rulesHtml}
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>Why this exists</strong> — Recommendation algorithms optimize engagement and shrink what you see. AICanonFeed is a <strong>CANON experiment</strong> in the opposite direction: an <strong>AI editor</strong> (not a recommender) that applies community-ratified rules and publishes <strong>one shared window</strong> on GitHub. This product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
+      <p class="how"><strong>What this is</strong> — A <strong>CANON experiment</strong>: the community legislates inclusion rules, an <strong>AI editor</strong> applies only those rules, and GitHub publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender.</p>
+      <p class="how"><strong>Why</strong> — Recommendation feeds optimize clicks and quietly build filter bubbles. AICanonFeed sits in the opposite seat: rules instead of personalization, a shared record in <code>decisions/</code> instead of a black box. The product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
       <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">

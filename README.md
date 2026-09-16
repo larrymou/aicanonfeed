@@ -4,7 +4,7 @@
 
 > **Experimental project.** Governance thresholds, sources, and automation are expected to change. Expect rough edges; audits live in `decisions/`.
 
-Recommendation feeds optimize engagement and quietly build filter bubbles: same sources, same viewpoints, no shared record of what was left out. AICanonFeed puts an **AI editor** in that seat instead — bound by **community-ratified rules**, running on **GitHub**, producing **one edition for everyone**.
+**AICanonFeed** puts an **AI editor** in the seat recommendation algorithms usually take — bound by **community-ratified rules**, running on **GitHub**, producing **one shared edition for everyone**. Those algorithms optimize clicks and quietly build filter bubbles; this project does the opposite: rules, a shared window, and a public audit trail.
 
 **CANON:** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in `decisions/`.
 
