@@ -149,6 +149,11 @@ async function main() {
     const href = proposeHref();
     return href ? `<a href="${esc(href)}">${esc(label)}</a>` : esc(label);
   };
+  /** Inline GitHub link; falls back to plain text when repo slug is unknown. */
+  const ghLink = (suffix, label) => {
+    const href = gh(suffix);
+    return href ? `<a href="${esc(href)}">${esc(label)}</a>` : esc(label);
+  };
 
   const counts = { all: included.length };
   for (const id of Object.keys(CATEGORIES)) counts[id] = 0;
@@ -730,6 +735,22 @@ async function main() {
     color: var(--muted);
   }
   .how strong { color: var(--ink); font-weight: 600; }
+  .how a {
+    color: var(--accent-soft);
+    border-bottom: 1px solid rgba(158, 194, 255, 0.35);
+  }
+  .how a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .canon-step .d a {
+    color: var(--accent-soft);
+    border-bottom: 1px solid rgba(158, 194, 255, 0.35);
+  }
+  .canon-step .d a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
   .links {
     display: flex;
     flex-wrap: wrap;
@@ -877,27 +898,27 @@ ${rulesHtml}
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>What this is</strong> — A <strong>CANON experiment</strong>: the community legislates inclusion rules, an <strong>AI editor</strong> applies only those rules, and GitHub publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender.</p>
-      <p class="how"><strong>Why</strong> — Recommendation feeds optimize clicks and quietly build filter bubbles. AICanonFeed sits in the opposite seat: rules instead of personalization, a shared record in <code>decisions/</code> instead of a black box. The product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
-      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
+      <p class="how"><strong>What this is</strong> — A <strong>CANON experiment</strong> on ${ghLink("", "GitHub")}: the community legislates inclusion rules, an <strong>AI editor</strong> applies only those rules, and the repo publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender. Source: ${ghLink("", "github.com repo")}</p>
+      <p class="how"><strong>Why</strong> — Recommendation feeds optimize clicks and quietly build filter bubbles. AICanonFeed sits in the opposite seat: rules instead of personalization, a shared record in ${ghLink("/tree/main/decisions", "decisions/")} instead of a black box. The product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
+      <p class="how"><strong>CANON</strong> in three steps — community legislates on Issues, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">
           <span class="n">01</span>
           <div class="t">Legislate</div>
-          <div class="d">Anyone can open a rule proposal on GitHub Issues. Meta-rules M1–M7 bound what may be proposed.</div>
+          <div class="d">Open a rule proposal via ${proposeHtml("GitHub Issues")}. Bound by ${ghLink("/blob/main/lib/meta-rules.md", "meta-rules M1–M7")}.</div>
         </div>
         <div class="canon-step" role="listitem">
           <span class="n">02</span>
           <div class="t">Adjudicate</div>
-          <div class="d">AI pre-reviews proposals and applies only ratified rules to RSS items — it never invents inclusion criteria.</div>
+          <div class="d">AI pre-reviews proposals and applies only ratified rules in ${ghLink("/tree/main/rules", "rules/")} — it never invents inclusion criteria.</div>
         </div>
         <div class="canon-step" role="listitem">
           <span class="n">03</span>
           <div class="t">Execute</div>
-          <div class="d">Votes, PRs, and <code>decisions/</code> are public. No ranking, no pins, no personalization — every inclusion can be audited.</div>
+          <div class="d">Votes, PRs, and ${ghLink("/tree/main/decisions", "decisions/")} are public. No ranking, no pins — every inclusion can be audited.</div>
         </div>
       </div>
-      <p class="how"><strong>How to join</strong> — Propose a rule (template), vote 👍 / 👎 on issues labeled <code>voting</code>, or audit every call in <code>decisions/</code>. Rules take ~8–14 days.</p>
+      <p class="how"><strong>How to join</strong> — ${proposeHtml("Propose a rule")}, vote 👍 / 👎 on ${ghLink("/labels/voting", "issues labeled voting")}, or audit calls under ${ghLink("/tree/main/decisions", "decisions/")}. Full guide: ${ghLink("/blob/main/CONTRIBUTING.md", "CONTRIBUTING.md")}. Rules take ~8–14 days.</p>
       <ul>
         <li>Strict reverse-chronological order. Tabs are filters, not rankings.</li>
         <li>Research is capped on ingest and again on the page so industry/policy/tools stay visible.</li>
@@ -909,6 +930,8 @@ ${rulesHtml}
         ${gh() ? `<a href="${esc(gh())}">Repository</a>` : ""}
         ${gh("/blob/main/CONTRIBUTING.md") ? `<a href="${esc(gh("/blob/main/CONTRIBUTING.md"))}">Contributing</a>` : ""}
         ${gh("/blob/main/lib/meta-rules.md") ? `<a href="${esc(gh("/blob/main/lib/meta-rules.md"))}">Meta-rules</a>` : ""}
+        ${gh("/tree/main/rules") ? `<a href="${esc(gh("/tree/main/rules"))}">Active rules source</a>` : ""}
+        ${gh("/tree/main/decisions") ? `<a href="${esc(gh("/tree/main/decisions"))}">Decisions</a>` : ""}
         ${proposeHref() ? `<a href="${esc(proposeHref())}">Propose a rule</a>` : ""}
       </p>
     </section>

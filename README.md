@@ -6,7 +6,7 @@
 
 **AICanonFeed** puts an **AI editor** in the seat recommendation algorithms usually take — bound by **community-ratified rules**, running on **GitHub**, producing **one shared edition for everyone**. Those algorithms optimize clicks and quietly build filter bubbles; this project does the opposite: rules, a shared window, and a public audit trail.
 
-**CANON:** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in `decisions/`.
+**CANON:** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in [`decisions/`](./decisions).
 
 ## The contract (anti–filter-bubble)
 
