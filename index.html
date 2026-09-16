@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — community-written inclusion rules, AI-applied, chronological feed for AI industry and research.">
+<meta name="description" content="AICanonFeed — a CANON experiment: an AI editor under community rules. Same edition for everyone. No filter bubble. No ranking.">
 <meta name="color-scheme" content="dark">
-<title>AICanonFeed</title>
+<title>AICanonFeed · AI editor, not a recommender</title>
 <style>
   /* Deep blue system — minimal, modern */
   :root {
@@ -73,10 +73,47 @@
   }
   .lede {
     margin: 1.1rem 0 0;
-    max-width: 36rem;
+    max-width: 38rem;
     color: var(--muted);
     font-size: 1.05rem;
     line-height: 1.6;
+  }
+  .lede strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* —— Contract (anti–filter-bubble) —— */
+  .contract {
+    margin: 1.75rem 0 0;
+    padding: 1.1rem 0 0;
+    border-top: 1px solid var(--line-soft);
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem 1.25rem;
+    max-width: 46rem;
+  }
+  .contract-item .t {
+    display: block;
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 0.92rem;
+    letter-spacing: -0.01em;
+  }
+  .contract-item .d {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  .contract-item .n {
+    display: block;
+    color: var(--accent);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 650;
+    margin-bottom: 0.25rem;
   }
   .status {
     margin: 1.35rem 0 0;
@@ -204,6 +241,44 @@
     margin: 0;
     color: var(--muted);
     max-width: 42rem;
+  }
+  .item-why {
+    margin-top: 0.45rem;
+    font-size: 0.85rem;
+  }
+  .item-why summary {
+    color: var(--muted);
+    cursor: pointer;
+    list-style: none;
+    width: fit-content;
+    border-bottom: 1px solid transparent;
+  }
+  .item-why summary::-webkit-details-marker { display: none; }
+  .item-why summary::before {
+    content: "▸ ";
+    color: var(--accent);
+  }
+  .item-why[open] summary::before { content: "▾ "; }
+  .item-why summary:hover {
+    color: var(--accent-soft);
+    border-bottom-color: var(--line);
+  }
+  .item-why summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  .why-reason {
+    margin: 0.45rem 0 0;
+    color: var(--muted);
+    max-width: 40rem;
+    padding-left: 0.85rem;
+    border-left: 2px solid var(--line);
+  }
+  .why-reason code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    color: var(--accent-soft);
   }
   .empty {
     color: var(--muted);
@@ -338,6 +413,7 @@
     .rule-tag { margin-left: 0; width: 100%; }
     .tab { padding-inline: 0.7rem; font-size: 0.9rem; }
     .canon { grid-template-columns: 1fr; }
+    .contract { grid-template-columns: 1fr 1fr; }
   }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
@@ -350,14 +426,36 @@
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
-      <p class="lede">Community writes the rules. AI applies them. GitHub executes — a calm, chronological CANON feed for AI industry and research. No ranking. No pins.</p>
+      <p class="lede">Recommendation feeds learn your clicks and shrink your world. <strong>AICanonFeed is a CANON experiment:</strong> an <strong>AI editor</strong> bound by community rules — same edition for everyone, no personalization, every call auditable on GitHub.</p>
       <p class="status">
         <strong>Experimental</strong>
         · S0
         · 0 stars
-        · quorum 1
-        · last 14 days
+        · quorum 3
+        · last 5 days
       </p>
+      <div class="contract" role="list" aria-label="Editorial contract">
+        <div class="contract-item" role="listitem">
+          <span class="n">01</span>
+          <span class="t">Same edition</span>
+          <p class="d">One shared rolling window — not a personal feed.</p>
+        </div>
+        <div class="contract-item" role="listitem">
+          <span class="n">02</span>
+          <span class="t">Rules, not recs</span>
+          <p class="d">Inclusion only under ratified rules. No click model.</p>
+        </div>
+        <div class="contract-item" role="listitem">
+          <span class="n">03</span>
+          <span class="t">Zero engagement</span>
+          <p class="d">No popularity rank, dwell signals, or “for you”.</p>
+        </div>
+        <div class="contract-item" role="listitem">
+          <span class="n">04</span>
+          <span class="t">Auditable</span>
+          <p class="d">Every decision is a public file in <code>decisions/</code>.</p>
+        </div>
+      </div>
       <nav class="hero-nav" aria-label="Sections">
         <a href="#latest">Latest</a>
         <a href="#vote">Vote</a>
@@ -370,12 +468,38 @@
   <main class="wrap">
     <section class="block" id="latest" aria-label="Latest included">
       <div class="block-head">
-        <h2 class="block-title">Latest included</h2>
+        <h2 class="block-title">Latest · last 5 days</h2>
       </div>
       <div class="rail" role="tablist" aria-label="Filter by category">
-        <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">All<span class="count">100</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">Model Releases<span class="count">22</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">Industry<span class="count">25</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">Research<span class="count">25</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">Tools &amp; OSS<span class="count">14</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">Policy<span class="count">14</span></button>
+        <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">All<span class="count">38</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">Model Releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">Industry<span class="count">15</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">Research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">Tools &amp; OSS<span class="count">4</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">Policy<span class="count">8</span></button>
       </div>
       <div id="feed">
+<article class="item" data-category="industry">
+  <div class="item-kicker">
+    <span class="cat cat-industry">Industry</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">TechCrunch AI</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="2026-09-16T10:34:47.000Z">2026-09-16</time>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/" rel="noopener noreferrer" target="_blank">Amazon launches Alexa+ in India with Hindi support</a></h3>
+  <p class="item-summary">Amazon is letting all customers use Alexa+ assistant in early access period.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Alexa+ expansion to India is a non-model product launch covered by reputable media (TechCrunch); no official owner announcement link for a new model, so R3 applies rather than R1.</p></details>
+</article>
+<article class="item" data-category="industry">
+  <div class="item-kicker">
+    <span class="cat cat-industry">Industry</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">AI News</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="2026-09-16T10:31:09.000Z">2026-09-16</time>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="item-title"><a href="https://www.artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic/" rel="noopener noreferrer" target="_blank">ChatGPT pioneer launches Jev model for programmatic logic</a></h3>
+  <p class="item-summary">TypeSafe, founded by a ChatGPT co-inventor, has left stealth and is launching its Jev model to automate programmatic decisions with parallel sampling architecture. Software systems requiring automated deterministic logic can now bypass conversational language models following Typ</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media-only coverage of a new model launch (Jev by TypeSafe) with no official owner announcement link; R1 requires the owner&#39;s official link, so it falls under R3 industry news via reputable media report.</p></details>
+</article>
 <article class="item is-research" data-category="research">
   <div class="item-kicker">
     <span class="cat cat-research">Research</span>
@@ -387,6 +511,7 @@
   </div>
   <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16129" rel="noopener noreferrer" target="_blank">Optimal Pruning for Neural Architectures using Fisher Information Distances</a></h3>
   <p class="item-summary">arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric di</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> — arXiv preprint introducing a new parameter-pruning scheme derived from differential-geometric distance in model space; links to the original arXiv source (2609.16129).</p></details>
 </article>
 <article class="item is-research" data-category="research">
   <div class="item-kicker">
@@ -399,6 +524,7 @@
   </div>
   <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16145" rel="noopener noreferrer" target="_blank">Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation</a></h3>
   <p class="item-summary">arXiv:2609.16145v1 Announce Type: new Abstract: We study a practical question: can a small correction module fix errors in a frozen language</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> — arXiv preprint (arXiv:2609.16145) presenting a method for correcting frozen language model errors, with a link to the original source. Fits R2 research.</p></details>
 </article>
 <article class="item is-research" data-category="research">
   <div class="item-kicker">
@@ -411,6 +537,59 @@
   </div>
   <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16163" rel="noopener noreferrer" target="_blank">GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events</a></h3>
   <p class="item-summary">arXiv:2609.16163v1 Announce Type: new Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victi</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> — arXiv preprint (cs.AI) presenting a GNN-based PPO method for adaptive evacuation routing, linking to the original arXiv source; qualifies as a preprint paper under the research rule.</p></details>
+</article>
+<article class="item is-research" data-category="research">
+  <div class="item-kicker">
+    <span class="cat cat-research">Research</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">arXiv cs.AI</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="2026-09-16T04:00:00.000Z">2026-09-16</time>
+    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
+  </div>
+  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16206" rel="noopener noreferrer" target="_blank">Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving</a></h3>
+  <p class="item-summary">arXiv:2609.16206v1 Announce Type: new Abstract: Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate G</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact on learned request routing for disaggregated LLM serving, with a direct link to the paper.</p></details>
+</article>
+<article class="item is-research" data-category="research">
+  <div class="item-kicker">
+    <span class="cat cat-research">Research</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">arXiv cs.AI</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="2026-09-16T04:00:00.000Z">2026-09-16</time>
+    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
+  </div>
+  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16232" rel="noopener noreferrer" target="_blank">Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI</a></h3>
+  <p class="item-summary">arXiv:2609.16232v1 Announce Type: new Abstract: Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expand</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (narrative review) on governance, ethical, and privacy risks in LLM-enabled GeoAI, with a direct link to the paper. Qualifies as a primary research artifact (preprint) under R2; not a concrete official policy action under R4.</p></details>
+</article>
+<article class="item is-research" data-category="research">
+  <div class="item-kicker">
+    <span class="cat cat-research">Research</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">arXiv cs.AI</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="2026-09-16T04:00:00.000Z">2026-09-16</time>
+    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
+  </div>
+  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16213" rel="noopener noreferrer" target="_blank">Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance</a></h3>
+  <p class="item-summary">arXiv:2609.16213v1 Announce Type: new Abstract: Artificial intelligence is reshaping biological research across an increasingly connected di</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (primary research artifact) linking directly to the paper abstract page; qualifies under R2 for research papers/reports.</p></details>
+</article>
+<article class="item is-research" data-category="research">
+  <div class="item-kicker">
+    <span class="cat cat-research">Research</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <span class="src">arXiv cs.AI</span>
+    <span class="dot" aria-hidden="true">·</span>
+    <time datetime="2026-09-16T04:00:00.000Z">2026-09-16</time>
+    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
+  </div>
+  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16215" rel="noopener noreferrer" target="_blank">Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions</a></h3>
+  <p class="item-summary">arXiv:2609.16215v1 Announce Type: new Abstract: GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint reporting a primary research artifact (KV cache placement policies across GPU/CPU/SSD), with a direct link to the paper.</p></details>
 </article>
 <article class="item is-research" data-category="research">
   <div class="item-kicker">
@@ -423,6 +602,7 @@
   </div>
   <h3 class="item-title"><a href="https://arxiv.org/abs/2609.16189" rel="noopener noreferrer" target="_blank">Position: AI Is Not Ready for Strategic Conflicts</a></h3>
   <p class="item-summary">arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model advers</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> — arXiv preprint (cs.AI) position paper from a recognized preprint venue, linking to the original source at arxiv.org; qualifies as research under R2.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -435,6 +615,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/" rel="noopener noreferrer" target="_blank">Meta now lets AI agents handle the boring parts of WhatsApp Business setup</a></h3>
   <p class="item-summary">A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Reports a Meta product launch (WhatsApp Business MCP server letting AI coding agents handle setup) covered by reputable media outlet TechCrunch, matching industry product launch coverage.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -447,6 +628,7 @@
   </div>
   <h3 class="item-title"><a href="https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/" rel="noopener noreferrer" target="_blank">Agility’s new humanoid robot will stop, squat to avoid harming human coworkers</a></h3>
   <p class="item-summary">Robots can start working outside physical cages and without safety barriers.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Reports a product launch (Agility&#39;s new humanoid robot with safety capabilities) from an AI robotics company, covered by reputable media outlet Ars Technica.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -459,6 +641,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/" rel="noopener noreferrer" target="_blank">US data centers could consume more natural gas than Germany and Japan combined by 2035</a></h3>
   <p class="item-summary">The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — TechCrunch reports forecast that AI-driven U.S. data centers may consume more natural gas than Germany and Japan combined by 2035, representing market data/industry trend in AI, with reputable media link.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -471,6 +654,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/" rel="noopener noreferrer" target="_blank">AI agents now have a place to snitch</a></h3>
   <p class="item-summary">The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — TechCrunch reports on the launch of the AI Contact Hotline, a new AI-related product/service for agents to report misbehavior, qualifying as an AI industry product launch covered by reputable media.</p></details>
 </article>
 <article class="item" data-category="model-releases">
   <div class="item-kicker">
@@ -483,6 +667,7 @@
   </div>
   <h3 class="item-title"><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" rel="noopener noreferrer" target="_blank">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a></h3>
   <p class="item-summary">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R1</code> — Google DeepMind&#39;s official blog announces new Gemini 3.8 Live and 3.8 Live Extended Thinking models, linking to the original announcement, matching R1 for model releases.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -495,6 +680,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/" rel="noopener noreferrer" target="_blank">Meta expands subscription push with new AI-focused plans</a></h3>
   <p class="item-summary">Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Meta&#39;s new AI-focused subscription plans (Meta One) are a product launch and market move by an AI company, reported by reputable media outlet TechCrunch, matching R3 industry.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -507,6 +693,7 @@
   </div>
   <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/" rel="noopener noreferrer" target="_blank">Announcing instance preference lists for Amazon SageMaker AI training jobs</a></h3>
   <p class="item-summary">Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — AWS announcement of a new Amazon SageMaker AI product feature (instance preference lists for training jobs), a product launch/update in the AI industry linked to the official company blog announcement.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -519,6 +706,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/" rel="noopener noreferrer" target="_blank">OpenAI, Anthropic, Google have been in talks on AI safety for weeks</a></h3>
   <p class="item-summary">OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump&#39;s team dismisses safety concerns and pushes to keep pace with China.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Reports AI industry development: weeks of cross-company AI safety talks among OpenAI, Anthropic, and Google DeepMind, covered by reputable media (TechCrunch), matching R3&#39;s industry category.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -531,6 +719,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/" rel="noopener noreferrer" target="_blank">AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round</a></h3>
   <p class="item-summary">Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Reports AI startup Profound&#39;s $180M Series D financing at a $1.8B valuation via TechCrunch, a reputable media report, matching R3 industry financing coverage.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -543,6 +732,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.theverge.com/tech/995453/meta-one-subscriptions-ai" rel="noopener noreferrer" target="_blank">Meta&amp;#8217;s new One subscriptions put a price on social media and AI</a></h3>
   <p class="item-summary">Shortly after launching its new do-everything AI assistant Muse, Meta&#39;s launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Meta launched Meta One subscription bundles that pair app subscriptions with extra AI usage, reported by The Verge, a reputable media outlet. This is a product/business launch in the AI industry.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -555,6 +745,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/" rel="noopener noreferrer" target="_blank">Former TikTok execs built an app that uses AI to teach you how to pose for a photo</a></h3>
   <p class="item-summary">Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — TechCrunch reports the launch of Superpose, a new AI-powered camera app from former TikTok execs; a product launch in the AI industry covered by a reputable media outlet.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -567,6 +758,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/" rel="noopener noreferrer" target="_blank">Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents</a></h3>
   <p class="item-summary">Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A lound led by Ribbit Capital, with participation from First Harmonic.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Reports AI startup AIUC raising $40M Series A led by Ribbit Capital, a financing event in the AI industry, covered by reputable media (TechCrunch).</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -579,6 +771,7 @@
   </div>
   <h3 class="item-title"><a href="https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/" rel="noopener noreferrer" target="_blank">New insights from Google’s AI &amp; Economy ATLAS</a></h3>
   <p class="item-summary">We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Google&#39;s official blog announces the AI &amp; Economy ATLAS, an open-access interactive resource presenting global data on AI&#39;s economic impact—market data in the AI industry linked to the official announcement.</p></details>
 </article>
 <article class="item" data-category="industry">
   <div class="item-kicker">
@@ -591,30 +784,7 @@
   </div>
   <h3 class="item-title"><a href="https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/" rel="noopener noreferrer" target="_blank">Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost</a></h3>
   <p class="item-summary">Ars previewed Mozilla’s report on how cheap open models caught up on capability.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T12:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/" rel="noopener noreferrer" target="_blank">Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear</a></h3>
-  <p class="item-summary">Salesforce Koa is built on Nvidia&#39;s open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AI News</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T11:15:57.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.artificialintelligence-news.com/news/pony-ai-autonomous-electric-truck-for-logistics-fleets/" rel="noopener noreferrer" target="_blank">Pony.ai unveils autonomous electric truck for logistics fleets</a></h3>
-  <p class="item-summary">Pony.ai has unveiled an autonomous electric truck for logistics fleets, developed with GAC Commercial Vehicle for freight supply chains. Unveiled at IAA Transportation 2026, this Level 4 (L4) heavy rig marks the fourth-generation (Gen-4) iteration of Pony.ai’s Robotruck platform.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> — Article reports market data on cost and capability gap between frontier and open AI models, linking to a reputable media report (Ars Technica).</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -627,6 +797,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.artificialintelligence-news.com/news/the-ai-talent-britain-fought-to-hire-may-be-recalculating-its-future/" rel="noopener noreferrer" target="_blank">The AI Talent Britain Fought to Hire May Be Recalculating Its Future</a></h3>
   <p class="item-summary">A proposed overhaul of UK settlement rules would double the wait for permanent residence, and it reaches back to sponsored engineers already here. For AI employers, it is quietly becoming a retention problem. By Sunny Sandhu, Senior Immigration Associate, AY&amp;J Solicitors For year</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Reports a proposed UK government overhaul of settlement/immigration rules — regulatory action by an official body — framed around its impact on AI employers and talent retention, linking to reputable coverage.</p></details>
 </article>
 <article class="item is-research" data-category="research">
   <div class="item-kicker">
@@ -639,6 +810,7 @@
   </div>
   <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13475" rel="noopener noreferrer" target="_blank">Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports</a></h3>
   <p class="item-summary">arXiv:2609.13475v1 Announce Type: new Abstract: Existing pipelines for clinical timeline extraction from case reports are evaluated using an</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> — arXiv preprint (cs.AI) presenting a new method (GAVEL) with abstract, linked to the original source at arxiv.org, qualifying as a preprint research paper.</p></details>
 </article>
 <article class="item is-research" data-category="research">
   <div class="item-kicker">
@@ -651,174 +823,7 @@
   </div>
   <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13422" rel="noopener noreferrer" target="_blank">Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents</a></h3>
   <p class="item-summary">arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their rel</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13535" rel="noopener noreferrer" target="_blank">From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act&#39;s High-Risk Requirements</a></h3>
-  <p class="item-summary">arXiv:2609.13535v1 Announce Type: new Abstract: The EU AI Act introduces mandatory requirements for high-risk AI systems with the explicit g</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13356" rel="noopener noreferrer" target="_blank">ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search</a></h3>
-  <p class="item-summary">arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13470" rel="noopener noreferrer" target="_blank">OrchSLM: Probing the Dynamics of Small Language Model Orchestration</a></h3>
-  <p class="item-summary">arXiv:2609.13470v1 Announce Type: new Abstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their relia</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13396" rel="noopener noreferrer" target="_blank">Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation</a></h3>
-  <p class="item-summary">arXiv:2609.13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising e</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13457" rel="noopener noreferrer" target="_blank">TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models</a></h3>
-  <p class="item-summary">arXiv:2609.13457v1 Announce Type: new Abstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the re</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13463" rel="noopener noreferrer" target="_blank">Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures</a></h3>
-  <p class="item-summary">arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. </p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13466" rel="noopener noreferrer" target="_blank">Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement</a></h3>
-  <p class="item-summary">arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to </p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13548" rel="noopener noreferrer" target="_blank">AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents</a></h3>
-  <p class="item-summary">arXiv:2609.13548v1 Announce Type: new Abstract: Web agents can utilize reusable tools to reduce the cost and latency of low-level browser in</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13406" rel="noopener noreferrer" target="_blank">Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement</a></h3>
-  <p class="item-summary">arXiv:2609.13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechan</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13491" rel="noopener noreferrer" target="_blank">Token Efficient Task Execution via Application Behavior Modeling for Web Agents</a></h3>
-  <p class="item-summary">arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unpr</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13519" rel="noopener noreferrer" target="_blank">Fraglingo: Molecular Design via Attachment-Aware Autoregressive Fragment Generation</a></h3>
-  <p class="item-summary">arXiv:2609.13519v1 Announce Type: new Abstract: Molecular design is most effective when generation mirrors the edits chemists actually make:</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13436" rel="noopener noreferrer" target="_blank">Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?</a></h3>
-  <p class="item-summary">arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-t</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13543" rel="noopener noreferrer" target="_blank">Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents</a></h3>
-  <p class="item-summary">arXiv:2609.13543v1 Announce Type: new Abstract: LLM agents are predominantly benchmarked on short, single-task trajectories, yet real deploy</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T04:00:00.000Z">2026-09-15</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.13437" rel="noopener noreferrer" target="_blank">LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents</a></h3>
-  <p class="item-summary">arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed b</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> — arXiv preprint (cs.AI) presenting an end-to-end patent-drafting testbed for evaluating LLM judges, linking to the original arXiv source.</p></details>
 </article>
 <article class="item" data-category="tools-oss">
   <div class="item-kicker">
@@ -831,78 +836,7 @@
   </div>
   <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/" rel="noopener noreferrer" target="_blank">Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale</a></h3>
   <p class="item-summary">Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code In</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T20:44:14.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/" rel="noopener noreferrer" target="_blank">OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says</a></h3>
-  <p class="item-summary">Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple&#39;s Portrait Mode.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T20:35:45.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/" rel="noopener noreferrer" target="_blank">Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore</a></h3>
-  <p class="item-summary">Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO targets, and the end-user consent flow, and shows how to rev</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T19:45:13.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/" rel="noopener noreferrer" target="_blank">OpenAI stuck fighting Musk antitrust suit after Apple finds a way out</a></h3>
-  <p class="item-summary">Musk stops attacking Apple over ChatGPT integration but not OpenAI.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T19:38:46.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/" rel="noopener noreferrer" target="_blank">Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots</a></h3>
-  <p class="item-summary">Wang Xingxing micromanaged Unitree to success—will his leadership style scale?</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T19:28:42.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/" rel="noopener noreferrer" target="_blank">Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements</a></h3>
-  <p class="item-summary">This is also the last version of macOS to support Rosetta for Intel apps.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T17:10:30.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/" rel="noopener noreferrer" target="_blank">With iOS 27, I’m actually using Siri again</a></h3>
-  <p class="item-summary">Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> — AWS official write-up reporting notable usage of the Amazon Bedrock AgentCore Code Interpreter developer tool/infra by Abnormal AI for real-time agentic email threat detection, with sandbox design lessons, linking to the tool owner&#39;s announcement.</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -915,6 +849,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/" rel="noopener noreferrer" target="_blank">New York Seizes a Dozen Celebrity Deepfake Websites</a></h3>
   <p class="item-summary">In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Reports legal/regulatory enforcement action: Manhattan DA seized 12 deepfake websites, an official action against harmful AI deepfakes, covered by reputable media (Wired).</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -927,30 +862,7 @@
   </div>
   <h3 class="item-title"><a href="https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/" rel="noopener noreferrer" target="_blank">Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans</a></h3>
   <p class="item-summary">The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T14:45:44.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/" rel="noopener noreferrer" target="_blank">Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work</a></h3>
-  <p class="item-summary">Fathom said that it has over 400,000 monthly active users</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">IEEE Spectrum AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T14:06:31.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://spectrum.ieee.org/llms-for-chip-design" rel="noopener noreferrer" target="_blank">How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip</a></h3>
-  <p class="item-summary">On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most advanced memory available, linking to it at a blazing 15.4 terabytes per second. Benchmarks cited </p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Microsoft&#39;s new AI &#39;code of conduct&#39; setting principles and safety constraints for its models is an AI governance/compliance policy event, reported by reputable media (TechCrunch), matching R4.</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -963,6 +875,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct" rel="noopener noreferrer" target="_blank">Microsoft says ‘people matter more than AI’ following safety concerns</a></h3>
   <p class="item-summary">Microsoft is publishing a 37-page &quot;humanist AI code of conduct&quot; today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress c</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Reports Microsoft publishing a &#39;humanist AI code of conduct&#39; amid AI safety concerns—an AI policy/governance event, covered by reputable media (The Verge).</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -975,42 +888,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/" rel="noopener noreferrer" target="_blank">AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them</a></h3>
   <p class="item-summary">Sam Altman and Elon Musk this weekend backed a call for restraint, after Dario Amodei called on Washington to slow AI development. Donald Trump, meanwhile, wants the US to maintain its lead over China.</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AI News</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-14T08:04:35.000Z">2026-09-14</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.artificialintelligence-news.com/news/why-most-enterprise-agent-pilots-never-reach-deployment/" rel="noopener noreferrer" target="_blank">Why Most Enterprise Agent Pilots Never Reach Deployment</a></h3>
-  <p class="item-summary">Deloitte’s 2026 technology trends research puts the pilot-to-production failure rate for AI agents at 89%. A Teradata survey adds the shape of that gap: 78% of enterprises have at least one agent pilot running, but only 14% have scaled one to organisation-wide use. Adoption is ne</p>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">The Verge AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-12T21:16:28.000Z">2026-09-12</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised" rel="noopener noreferrer" target="_blank">Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’</a></h3>
-  <p class="item-summary">OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of buildi</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">MarkTechPost</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-12T18:51:24.000Z">2026-09-12</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.marktechpost.com/2026/09/12/fly-language-model-flm-wires-the-full-fruit-fly-connectome-into-a-frozen-1-2b-llm-and-its-own-controls-show-the-wiring-does-not-help/" rel="noopener noreferrer" target="_blank">Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help</a></h3>
-  <p class="item-summary">The Fly Language Model (FLM) drives all 166,700 retained neurons and 25.6 million edges of the MaleCNS fruit fly connectome with token embed</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Wired reports on AI policy debate: AI leaders calling for a slowdown and the Trump administration&#39;s stance, i.e., reputable coverage of AI policy positions from official bodies.</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -1023,54 +901,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa" rel="noopener noreferrer" target="_blank">Trump is giving data centers a pass to pollute</a></h3>
   <p class="item-summary">President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the </p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.11319" rel="noopener noreferrer" target="_blank">Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification</a></h3>
-  <p class="item-summary">arXiv:2609.11319v1 Announce Type: new Abstract: Most of mathematical knowledge has been communicated through so-called informal use of mathe</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.11615" rel="noopener noreferrer" target="_blank">Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models</a></h3>
-  <p class="item-summary">arXiv:2609.11615v1 Announce Type: new Abstract: This paper presents a novel approach for data-driven self-learning control of highly flexibl</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.10657" rel="noopener noreferrer" target="_blank">Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking</a></h3>
-  <p class="item-summary">arXiv:2609.10657v1 Announce Type: new Abstract: Neural networks trained past memorization frequently undergo a delayed transition to general</p>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-12T04:00:00.000Z">2026-09-12</time>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.11286" rel="noopener noreferrer" target="_blank">Generating a Consistent Enterprise: Synthesis and Reference-Free Evaluation of Multi-System Business Data</a></h3>
-  <p class="item-summary">arXiv:2609.11286v1 Announce Type: new Abstract: Synthetic relational data is normally produced by a model trained on a real dataset, and its</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — The Verge reports a regulatory action: the Trump administration weakening EPA environmental rules to speed AI data center construction, with former EPA officials&#39; report/briefing. This is reputable coverage of AI-related policy/regulatory events under R4.</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -1083,6 +914,7 @@
   </div>
   <h3 class="item-title"><a href="https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal" rel="noopener noreferrer" target="_blank">Lawyer fined $5K over AI-hallucinated witnesses in a murder case</a></h3>
   <p class="item-summary">New Mexico&#39;s Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client&#39;s murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in co</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Reports a judicial/regulatory action by New Mexico&#39;s Supreme Court fining a lawyer over AI-fabricated filings, covered by reputable media (The Verge/Reuters).</p></details>
 </article>
 <article class="item" data-category="policy">
   <div class="item-kicker">
@@ -1095,6 +927,7 @@
   </div>
   <h3 class="item-title"><a href="https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/" rel="noopener noreferrer" target="_blank">ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses</a></h3>
   <p class="item-summary">&quot;I didn&#39;t know that AI could hallucinate facts,&quot; New Mexico defense lawyer says.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R4</code> — Court sanctions a lawyer for citing AI-hallucinated fake testimony, a compliance/legal action by an official body, covered by reputable outlet Ars Technica.</p></details>
 </article>
 <article class="item" data-category="tools-oss">
   <div class="item-kicker">
@@ -1107,6 +940,7 @@
   </div>
   <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/" rel="noopener noreferrer" target="_blank">Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload</a></h3>
   <p class="item-summary">Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI model</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> — AWS ML Blog post shares an open-source benchmarking harness (a developer tool) for evaluating OpenAI models on Bedrock, with the link pointing to the official AWS write-up describing the tool&#39;s release and usage.</p></details>
 </article>
 <article class="item" data-category="tools-oss">
   <div class="item-kicker">
@@ -1119,6 +953,7 @@
   </div>
   <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/" rel="noopener noreferrer" target="_blank">Build interactive MCP Apps using Amazon Bedrock AgentCore</a></h3>
   <p class="item-summary">Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> — Official AWS write-up showing how to build and deploy interactive MCP Apps on Amazon Bedrock AgentCore, a notable usage of the open-source MCP developer standard, with a link to the original documentation.</p></details>
 </article>
 <article class="item" data-category="tools-oss">
   <div class="item-kicker">
@@ -1131,450 +966,7 @@
   </div>
   <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/11/wrapture/" rel="noopener noreferrer" target="_blank">Don&#39;t sleep on wrapture</a></h3>
   <p class="item-summary">Graham Dumpleton&#39;s new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I&#39;m not sure why I&#39;ve seen so little buzz about it! Graham has been posting new tutorials for it almost daily since the initial release on August 31st. Here&#39;s </p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">MarkTechPost</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T06:57:22.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/" rel="noopener noreferrer" target="_blank">Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages</a></h3>
-  <p class="item-summary">Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B parameters per token and scores 83.6 on Cohere&#39;s WMT26 evaluation. Weights are free for non-commercial use, with commercia</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">MarkTechPost</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T06:34:39.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/" rel="noopener noreferrer" target="_blank">Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration</a></h3>
-  <p class="item-summary">Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture. Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M tokens. Fugu Ultra v2 targets peak capability, scoring 48.3 on C</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T03:27:16.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/11/datasette-security/" rel="noopener noreferrer" target="_blank">Datasette 1.0a39 and 0.65.4 security releases</a></h3>
-  <p class="item-summary">Datasette 1.0a39 and 0.65.4 security releases Today we&#39;re releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datase</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T02:58:52.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/11/datasette-publish-fly/" rel="noopener noreferrer" target="_blank">datasette-publish-fly 1.4</a></h3>
-  <p class="item-summary">Release: datasette-publish-fly 1.4 Sets force_https=true in fly.toml . #31 Fix for Volume could not be found bug. #32 Compatible with app-scoped deploy tokens. #34 Tags: datasette , fly</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T00:06:55.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/11/datasette/" rel="noopener noreferrer" target="_blank">datasette 0.65.4</a></h3>
-  <p class="item-summary">Release: datasette 0.65.4 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-11T00:05:54.000Z">2026-09-11</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/11/datasette-2/" rel="noopener noreferrer" target="_blank">datasette 1.0a39</a></h3>
-  <p class="item-summary">Release: datasette 1.0a39 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette</p>
-</article>
-<article class="item" data-category="policy">
-  <div class="item-kicker">
-    <span class="cat cat-policy">Policy</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Wired AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T23:28:42.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/" rel="noopener noreferrer" target="_blank">OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal</a></h3>
-  <p class="item-summary">AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T21:37:49.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/" rel="noopener noreferrer" target="_blank">Reduce inference cold starts on Amazon SageMaker HyperPod with model caching</a></h3>
-  <p class="item-summary">Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T21:15:39.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/" rel="noopener noreferrer" target="_blank">Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0</a></h3>
-  <p class="item-summary">TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows how to build a knowledge base powered by Marengo 3.0 and run </p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T18:16:37.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/" rel="noopener noreferrer" target="_blank">Amazon Quick is now generally available on desktop</a></h3>
-  <p class="item-summary">Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is generally available on macOS and Windows. We’re also adding a new activity feed to the mobile experie</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T15:55:41.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/" rel="noopener noreferrer" target="_blank">Agent Evaluation Metric for multi-turn conversations</a></h3>
-  <p class="item-summary">Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure agent quality, applied to its first dimension, correctness, to pinpoint the</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T15:00:00.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/put-data-to-work" rel="noopener noreferrer" target="_blank">Now everyone can put data to work</a></h3>
-  <p class="item-summary">Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">MarkTechPost</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T07:31:01.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/" rel="noopener noreferrer" target="_blank">DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse</a></h3>
-  <p class="item-summary">Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact bottleneck. DeepSeek-V4.1-Flash is a multimo</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T07:00:00.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/introducing-chatgpt-financial-services" rel="noopener noreferrer" target="_blank">Introducing ChatGPT for Financial Services</a></h3>
-  <p class="item-summary">Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T00:00:00.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/introducing-the-agents-api" rel="noopener noreferrer" target="_blank">Introducing the Agents API</a></h3>
-  <p class="item-summary">Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-10T00:00:00.000Z">2026-09-10</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api" rel="noopener noreferrer" target="_blank">Build more natural voice experiences with GPT‑Live‑1 in the API</a></h3>
-  <p class="item-summary">GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T22:26:29.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/" rel="noopener noreferrer" target="_blank">Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM</a></h3>
-  <p class="item-summary">Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP spe</p>
-</article>
-<article class="item" data-category="policy">
-  <div class="item-kicker">
-    <span class="cat cat-policy">Policy</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Wired AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T21:15:27.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/" rel="noopener noreferrer" target="_blank">San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads</a></h3>
-  <p class="item-summary">The City Attorney’s Office has asked Meta to explain how the harmful ads repeatedly ran on Facebook and Instagram. The company claims the ads are not under the city’s jurisdiction.</p>
-</article>
-<article class="item" data-category="policy">
-  <div class="item-kicker">
-    <span class="cat cat-policy">Policy</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T20:06:28.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/" rel="noopener noreferrer" target="_blank">Six Chinese AI firms accused of aggressively copying US frontier models</a></h3>
-  <p class="item-summary">US urges AI firms to ID, then secretly switch, Chinese users to less-capable models.</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T20:01:03.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/" rel="noopener noreferrer" target="_blank">ICYMI: What landed for AI builders in August 2026</a></h3>
-  <p class="item-summary">A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agents that run for up to 14 days on dedicated compute, expanded AWS GovCloud availability, and Strands R</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T15:51:29.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/" rel="noopener noreferrer" target="_blank">Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers</a></h3>
-  <p class="item-summary">TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision</p>
-</article>
-<article class="item" data-category="policy">
-  <div class="item-kicker">
-    <span class="cat cat-policy">Policy</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T13:00:00.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/ai-policy-window" rel="noopener noreferrer" target="_blank">The AI policy window is open. We need to act.</a></h3>
-  <p class="item-summary">Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T11:00:00.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/gpt-6-astra-next-generation-work" rel="noopener noreferrer" target="_blank">GPT-6 Astra: The next generation in intelligence for work</a></h3>
-  <p class="item-summary">Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.</p>
-</article>
-<article class="item" data-category="policy">
-  <div class="item-kicker">
-    <span class="cat cat-policy">Policy</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">IEEE Spectrum AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-09T10:00:07.000Z">2026-09-09</time>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://spectrum.ieee.org/china-ai-chatbot-regulation" rel="noopener noreferrer" target="_blank">China’s Regulators Take Aim at “AI Boyfriends”</a></h3>
-  <p class="item-summary">In the first weeks of July, a wave of sad posts rolled through Chinese social media, as people lamented friends and lovers they were about to lose. “He has become a bond in my life, rooted deep in my heart, my spiritual pillar,” one user of Bytedance’s Douboa wrote, according to </p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-08T22:46:33.000Z">2026-09-08</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/" rel="noopener noreferrer" target="_blank">Introducing ChatGPT Images 2.5</a></h3>
-  <p class="item-summary">Introducing ChatGPT Images 2.5 OpenAI&#39;s image generation models are apparently used &quot;more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API&quot;. This latest release improves their instruction-following ability across multiple turns, responds faster, and</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-08T22:06:58.000Z">2026-09-08</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/" rel="noopener noreferrer" target="_blank">Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock</a></h3>
-  <p class="item-summary">GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It brings deeper reasoning and sharper judgment to your most demanding tasks, running on the Amazon Bedrock inference engine built for high performance, security, and scale.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-08T19:12:51.000Z">2026-09-08</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/pathway-s-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/" rel="noopener noreferrer" target="_blank">Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod</a></h3>
-  <p class="item-summary">Pathway&#39;s Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark o</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-08T17:03:50.000Z">2026-09-08</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/" rel="noopener noreferrer" target="_blank">Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2</a></h3>
-  <p class="item-summary">Governing models across accounts is the next step after automatic model registration. This post extends managed MLflow and Amazon SageMaker AI Model Registry sync to two cross-account governance topologies: a hub-and-spoke pattern that centralizes governance with AWS RAM, and a h</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Google DeepMind Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-08T14:00:15.000Z">2026-09-08</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/" rel="noopener noreferrer" target="_blank">AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</a></h3>
-  <p class="item-summary">AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-08T11:30:00.000Z">2026-09-08</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/introducing-chatgpt-images-2-5" rel="noopener noreferrer" target="_blank">Introducing ChatGPT Images 2.5</a></h3>
-  <p class="item-summary">ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.</p>
-</article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Simon Willison</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-07T23:54:54.000Z">2026-09-07</time>
-    <span class="rule-tag"><a href="#rule-R5">R5</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://simonwillison.net/2026/Sep/7/llm/" rel="noopener noreferrer" target="_blank">llm 0.35</a></h3>
-  <p class="item-summary">Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Google DeepMind Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-03T15:02:08.000Z">2026-09-03</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/" rel="noopener noreferrer" target="_blank">Introducing WeatherNext 3, our most advanced and accurate global weather AI model</a></h3>
-  <p class="item-summary">Introducing WeatherNext 3, our most advanced and accurate global weather AI model</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-03T11:00:00.000Z">2026-09-03</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/gpt-6-astra" rel="noopener noreferrer" target="_blank">GPT-6 Astra: A new generation of intelligence</a></h3>
-  <p class="item-summary">Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-03T00:00:00.000Z">2026-09-03</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://openai.com/index/safety-overview-gpt-6-astra" rel="noopener noreferrer" target="_blank">Safety overview: GPT-6 Astra</a></h3>
-  <p class="item-summary">GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-02T18:13:54.000Z">2026-09-02</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/" rel="noopener noreferrer" target="_blank">Google releases Gemini 3.8 Flash, its third Flash model in six weeks</a></h3>
-  <p class="item-summary">Google&#39;s Pro model updates are seemingly paused, but there&#39;s yet another Gemini Flash today.</p>
-</article>
-<article class="item" data-category="policy">
-  <div class="item-kicker">
-    <span class="cat cat-policy">Policy</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-02T17:58:33.000Z">2026-09-02</time>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/" rel="noopener noreferrer" target="_blank">Trump may be forced to reveal secret rules feds use for AI safety testing</a></h3>
-  <p class="item-summary">Trump’s secret reviews of frontier AI models may hide corruption, lawsuit says.</p>
-</article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
-    <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">Google DeepMind Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-02T16:18:31.000Z">2026-09-02</time>
-    <span class="rule-tag"><a href="#rule-R1">R1</a></span>
-  </div>
-  <h3 class="item-title"><a href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/" rel="noopener noreferrer" target="_blank">Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</a></h3>
-  <p class="item-summary">Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</p>
+  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> — Reports the release and rapid updates of wrapture, an open-source Python monkey-patching library/developer tool, with a write-up covering its capabilities and tutorials since its initial release.</p></details>
 </article>
       </div>
       <p class="empty" id="empty-filter" hidden>Nothing in this category for the current window.</p>
@@ -1597,7 +989,7 @@
     <span class="rule-id">R1</span>
     <span class="cat cat-model-releases">Models</span>
   </div>
-  <p class="rule-body">A post is included in model-releases when it reports a new model, major version update, significant capability, or major product launch from an AI company, research lab, or official product owner, and links to the official or original announcement.</p>
+  <p class="rule-body">Include only items that announce a **new AI model, major model version, or material model capability** from the model owner (company, lab, or official product owner) **and** link to that owner&#39;s official announcement (blog, model card, or release page). Do **not** use R1 for generic product features, infra, partnerships, or media-only stories without an official owner link (those belong under R3 or R5).</p>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
 <li class="rule-row" id="rule-R2">
@@ -1605,7 +997,7 @@
     <span class="rule-id">R2</span>
     <span class="cat cat-research">Research</span>
   </div>
-  <p class="rule-body">A post is included in research when it reports a peer-reviewed or preprint paper from a recognized venue or research lab, an official technical report, or verifiable benchmark results, and links to the original source.</p>
+  <p class="rule-body">Include items that report a **primary research artifact**: a peer-reviewed or preprint paper, an official technical report from a research lab, or a new public benchmark **with a link to the paper/report/benchmark page itself**. Exclude marketing benchmark scores, blog summaries without the original paper/report link, and product announcements.</p>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
 <li class="rule-row" id="rule-R3">
@@ -1613,7 +1005,7 @@
     <span class="rule-id">R3</span>
     <span class="cat cat-industry">Industry</span>
   </div>
-  <p class="rule-body">A post is included in industry when it reports financing, M&amp;A, partnerships, product launches, or market data in the AI industry, and links to a company announcement, deal announcement, or reputable media report.</p>
+  <p class="rule-body">Include items that report **AI industry business events**: financing, M&amp;A, partnerships, market/revenue data, or non-model product launches, with a link to a company announcement, deal announcement, or reputable media report. If the item is a model/capability release **with an official owner announcement**, use R1 instead; if it is open-source tooling, use R5. Media-only coverage of a model launch (no official owner link) stays under R3.</p>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
 <li class="rule-row" id="rule-R4">
@@ -1621,7 +1013,7 @@
     <span class="rule-id">R4</span>
     <span class="cat cat-policy">Policy</span>
   </div>
-  <p class="rule-body">A post is included in policy when it reports AI policy, regulatory action, or compliance events issued by official bodies, or links to reputable coverage of such an event.</p>
+  <p class="rule-body">Include items that report **AI policy, regulation, enforcement, or official compliance actions** by governments, courts, standards bodies, or regulators, with a link to the official document or to reputable coverage of that event. Exclude opinion pieces and general ethics commentary without a concrete official action or rule.</p>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
 <li class="rule-row" id="rule-R5">
@@ -1629,7 +1021,7 @@
     <span class="rule-id">R5</span>
     <span class="cat cat-tools-oss">Tools</span>
   </div>
-  <p class="rule-body">A post is included in tools-oss when it reports the release, major update, or notable usage of an open-source AI project or developer tool (libraries, agents, evals, infra), and links to the repository, release page, documentation, or official write-up.</p>
+  <p class="rule-body">Include items that report the **release or major update of an open-source AI developer project** (libraries, agents, evals, infra) and link to the repository, release page, or official maintainer write-up. &quot;Notable usage&quot; counts only when the primary link is that OSS project&#39;s repo/release/docs—not a cloud vendor marketing post about running someone else&#39;s tool.</p>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
       </ul>
@@ -1639,12 +1031,13 @@
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor. This is an <strong>experimental</strong> project — rules, quotas, and automation may change as we learn.</p>
+      <p class="how"><strong>Why this exists</strong> — Recommendation algorithms optimize engagement and shrink what you see. AICanonFeed is a <strong>CANON experiment</strong> in the opposite direction: an <strong>AI editor</strong> (not a recommender) that applies community-ratified rules and publishes <strong>one shared window</strong> on GitHub. This product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
+      <p class="how"><strong>CANON</strong> in three steps: the community legislates, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">
           <span class="n">01</span>
           <div class="t">Legislate</div>
-          <div class="d">Anyone can open a rule proposal on GitHub Issues. Meta-rules M1–M6 bound what may be proposed.</div>
+          <div class="d">Anyone can open a rule proposal on GitHub Issues. Meta-rules M1–M7 bound what may be proposed.</div>
         </div>
         <div class="canon-step" role="listitem">
           <span class="n">02</span>
@@ -1654,14 +1047,16 @@
         <div class="canon-step" role="listitem">
           <span class="n">03</span>
           <div class="t">Execute</div>
-          <div class="d">Votes, PRs, and <code>decisions/</code> are public. No ranking, no pins, no hidden human moderation of the feed.</div>
+          <div class="d">Votes, PRs, and <code>decisions/</code> are public. No ranking, no pins, no personalization — every inclusion can be audited.</div>
         </div>
       </div>
       <p class="how"><strong>How to join</strong> — Propose a rule (template), vote 👍 / 👎 on issues labeled <code>voting</code>, or audit every call in <code>decisions/</code>. Rules take ~8–14 days.</p>
       <ul>
         <li>Strict reverse-chronological order. Tabs are filters, not rankings.</li>
-        <li>Industry and research are both first-class; research volume is limited at ingest.</li>
+        <li>Research is capped on ingest and again on the page so industry/policy/tools stay visible.</li>
         <li>Uncovered items are rejected by design.</li>
+        <li>Meta-rule M7 forbids personalization: no per-user feeds, no engagement ranking.</li>
+        <li>Rules change over time; past decisions keep the rule version in effect when they were made.</li>
       </ul>
       <p class="links">
         <a href="https://github.com/larrymou/aicanonfeed">Repository</a>
@@ -1674,7 +1069,7 @@
 
   <footer class="wrap">
     <span class="tag">CANON</span>
-    · community legislates · AI adjudicates · GitHub executes ·
+    · AI editor, not a recommender · community legislates · GitHub executes ·
     auditable in <code>decisions/</code>.
   </footer>
 
