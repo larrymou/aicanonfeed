@@ -154,6 +154,10 @@ async function main() {
     const href = gh(suffix);
     return href ? `<a href="${esc(href)}">${esc(label)}</a>` : esc(label);
   };
+  /** Parent CANON paradigm repo (separate from this instance). */
+  const CANON_PARADIGM = "https://github.com/larrymou/canon";
+  const ghCanon = (label = "github.com/larrymou/canon") =>
+    `<a href="${CANON_PARADIGM}">${esc(label)}</a>`;
 
   const counts = { all: included.length };
   for (const id of Object.keys(CATEGORIES)) counts[id] = 0;
@@ -259,7 +263,7 @@ async function main() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="AICanonFeed — a CANON experiment: one shared AI-news window. Community rules + an AI editor. No personalization. No ranking.">
+<meta name="description" content="AICanonFeed — first live CANON instance: one shared AI-news window. Community rules + an AI editor. No personalization. No ranking.">
 <meta name="color-scheme" content="dark">
 <title>AICanonFeed · AI editor, not a recommender</title>
 <style>
@@ -817,7 +821,7 @@ async function main() {
       <div class="hero-top">
         <h1 class="wordmark">AICanon<span>Feed</span></h1>
       </div>
-      <p class="lede"><strong>AICanonFeed</strong> is a CANON experiment: one shared AI-news window for everyone. A community-ratified rulebook decides what makes the cut; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
+      <p class="lede"><strong>AICanonFeed</strong> is the first live <a href="${CANON_PARADIGM}">CANON</a> instance: one shared AI-news window for everyone. A community-ratified rulebook decides what makes the cut; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
       <p class="status" aria-label="Project status">
         <strong>Experimental</strong>
         <span class="sep" aria-hidden="true">·</span>
@@ -898,9 +902,9 @@ ${rulesHtml}
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>What this is</strong> — A <strong>CANON experiment</strong> on ${ghLink("", "GitHub")}: the community legislates inclusion rules, an <strong>AI editor</strong> applies only those rules, and the repo publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender. Source: ${ghLink("", "github.com repo")}</p>
+      <p class="how"><strong>What this is</strong> — The first live <strong>CANON</strong> instance (${ghCanon()}): constituents legislate inclusion rules on ${ghLink("", "this repo")}, an <strong>AI editor</strong> applies only ratified rules, and GitHub publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender.</p>
       <p class="how"><strong>Why</strong> — Recommendation feeds optimize clicks and quietly build filter bubbles. AICanonFeed sits in the opposite seat: rules instead of personalization, a shared record in ${ghLink("/tree/main/decisions", "decisions/")} instead of a black box. The product is designed forward — rules and quotas evolve; we do not rewrite history to match.</p>
-      <p class="how"><strong>CANON</strong> in three steps — community legislates on Issues, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
+      <p class="how"><strong>CANON</strong> (paradigm: ${ghCanon()}) in three steps here — community legislates on Issues, AI judges only by enacted rules, and GitHub (code + history) is the neutral executor.</p>
       <div class="canon" role="list">
         <div class="canon-step" role="listitem">
           <span class="n">01</span>
@@ -927,7 +931,8 @@ ${rulesHtml}
         <li>Rules change over time; past decisions keep the rule version in effect when they were made.</li>
       </ul>
       <p class="links">
-        ${gh() ? `<a href="${esc(gh())}">Repository</a>` : ""}
+        <a href="${CANON_PARADIGM}">CANON paradigm</a>
+        ${gh() ? `<a href="${esc(gh())}">This instance</a>` : ""}
         ${gh("/blob/main/CONTRIBUTING.md") ? `<a href="${esc(gh("/blob/main/CONTRIBUTING.md"))}">Contributing</a>` : ""}
         ${gh("/blob/main/lib/meta-rules.md") ? `<a href="${esc(gh("/blob/main/lib/meta-rules.md"))}">Meta-rules</a>` : ""}
         ${gh("/tree/main/rules") ? `<a href="${esc(gh("/tree/main/rules"))}">Active rules source</a>` : ""}
@@ -939,8 +944,8 @@ ${rulesHtml}
 
   <footer class="wrap">
     <span class="tag">CANON</span>
-    · AI editor, not a recommender · community legislates · GitHub executes ·
-    auditable in <code>decisions/</code>.
+    · first live instance of <a href="${CANON_PARADIGM}">github.com/larrymou/canon</a>
+    · AI editor, not a recommender · auditable in <code>decisions/</code>.
   </footer>
 
 <script>

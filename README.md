@@ -4,9 +4,10 @@
 
 > **Experimental project.** Governance thresholds, sources, and automation are expected to change. Expect rough edges; audits live in `decisions/`.
 
-**AICanonFeed** puts an **AI editor** in the seat recommendation algorithms usually take — bound by **community-ratified rules**, running on **GitHub**, producing **one shared edition for everyone**. Those algorithms optimize clicks and quietly build filter bubbles; this project does the opposite: rules, a shared window, and a public audit trail.
+**AICanonFeed** is the first live instance of the [**CANON** paradigm](https://github.com/larrymou/canon) — constituents legislate, AI agents execute only ratified rules, the platform stays neutral, and every action is on the record. Applied here: an **AI editor** in the seat recommendation algorithms usually take — bound by **community-ratified rules**, running on **GitHub**, producing **one shared edition for everyone**. Those algorithms optimize clicks and quietly build filter bubbles; this project does the opposite: rules, a shared window, and a public audit trail.
 
-**CANON:** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in [`decisions/`](./decisions).
+**CANON (paradigm):** [github.com/larrymou/canon](https://github.com/larrymou/canon) — five pillars and structural constraints.  
+**This repo (instance):** the community legislates (Issues + votes), AI adjudicates only by enacted rules, and GitHub executes — every call auditable in [`decisions/`](./decisions).
 
 ## The contract (anti–filter-bubble)
 
