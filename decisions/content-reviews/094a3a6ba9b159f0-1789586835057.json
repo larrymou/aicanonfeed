@@ -1,0 +1,15 @@
+{
+  "urlHash": "094a3a6ba9b159f0",
+  "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+  "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post covers async checkpointing, in-process restart, and ft_launcher in-job restart, with H100 benchmarks at ",
+  "pubDate": "2026-09-16T18:59:25.000Z",
+  "decidedAt": "2026-09-16T19:27:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog tutorial on integrating NVIDIA NVRx with PyTorch FSDP on EKS. It is a cloud vendor how-to/infra post, not an official model release (R1), research artifact (R2), industry business event (R3), policy action (R4), or an OSS project's own repo/release/docs (R5 explicitly excludes vendor posts ",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
