@@ -1,0 +1,15 @@
+{
+  "urlHash": "a6a39cb7eefe8f13",
+  "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
+  "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Service, Amazon Aurora PostgreSQL with pgvector, and Amazon S3 Vectors across three RAG use cases, with benchmarks and a prac",
+  "pubDate": "2026-09-17T15:53:13.000Z",
+  "decidedAt": "2026-09-17T19:37:55.516Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS vendor blog comparing managed vector store options for Bedrock Knowledge Bases; no new model release (R1), no primary research/paper artifact (R2), no business event (R3), and not an open-source project release (R5). No rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

@@ -1,0 +1,15 @@
+{
+  "urlHash": "1ff6d7f6dcfb6f21",
+  "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+  "sourceName": "Ars Technica AI",
+  "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+  "summary": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
+  "pubDate": "2026-09-17T18:33:13.000Z",
+  "decidedAt": "2026-09-17T19:37:55.516Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media-only coverage of a watermarking vulnerability study; the link is an Ars Technica article, not a primary paper/report, official model announcement, business event, policy action, or OSS release. No rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
