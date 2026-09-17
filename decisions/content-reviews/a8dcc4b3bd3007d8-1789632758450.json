@@ -1,0 +1,15 @@
+{
+  "urlHash": "a8dcc4b3bd3007d8",
+  "url": "https://arxiv.org/abs/2609.17695",
+  "sourceName": "arXiv cs.AI",
+  "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
+  "summary": "arXiv:2609.17695v1 Announce Type: new Abstract: A large language model (LLM) agent can follow more graph paths without acquiring more independent evidence. GraphEcho tests whether agents mistake these repeated encounters for additional corroboration. The benchmark varies path cou",
+  "pubDate": "2026-09-17T04:00:00.000Z",
+  "decidedAt": "2026-09-17T08:12:33.974Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint announcing GraphEcho, a new public benchmark for evaluating LLM graph agents, with a direct link to the paper. This is a primary research artifact (preprint/benchmark), matching R2.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

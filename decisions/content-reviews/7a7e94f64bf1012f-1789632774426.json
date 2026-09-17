@@ -1,0 +1,15 @@
+{
+  "urlHash": "7a7e94f64bf1012f",
+  "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation",
+  "summary": "Learn how to automate end-to-end PII detection and redaction from scanned documents at scale using Amazon Bedrock Data Automation with a custom blueprint, AWS Step Functions, and AWS Lambda. A custom blueprint redacts sensitive fields with field-level precision, and a token match",
+  "pubDate": "2026-09-16T15:17:37.000Z",
+  "decidedAt": "2026-09-17T08:12:33.974Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS how-to tutorial for building a PII redaction pipeline with Amazon Bedrock Data Automation. Not a model release (R1), research artifact (R2), industry business event (R3), policy action (R4), or open-source project release (R5).",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
