@@ -1,0 +1,15 @@
+{
+  "urlHash": "b328c9a2ac1d20f6",
+  "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+  "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs through an Amazon Bedrock AgentCore Gateway interceptor to apply per-user, per-tool role-based and att",
+  "pubDate": "2026-09-17T15:30:17.000Z",
+  "decidedAt": "2026-09-17T22:44:23.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS how-to/tutorial post on implementing authorization for MCP tools on Amazon Quick. It is not a model release (R1), research artifact (R2), industry business event (R3), policy action (R4), or an open-source project release (R5), so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

@@ -1,0 +1,15 @@
+{
+  "urlHash": "e6d23bfc9ccbf524",
+  "url": "https://arxiv.org/abs/2609.17865",
+  "sourceName": "arXiv cs.AI",
+  "title": "Do Frontier Models Seek Safety Evidence Before Acting?",
+  "summary": "arXiv:2609.17865v1 Announce Type: new Abstract: Frontier models are often evaluated on how they respond to safety information once it is already in context. We study an earlier decision point: whether models choose to acquire safety-relevant evidence before acting. We introduce S",
+  "pubDate": "2026-09-17T04:00:00.000Z",
+  "decidedAt": "2026-09-17T22:44:23.727Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint reporting a primary research artifact (study of whether frontier models seek safety evidence before acting), with a direct link to the paper. Fits R2.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

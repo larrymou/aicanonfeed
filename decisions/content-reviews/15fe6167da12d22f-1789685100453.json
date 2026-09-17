@@ -1,0 +1,15 @@
+{
+  "urlHash": "15fe6167da12d22f",
+  "url": "https://arxiv.org/abs/2609.17863",
+  "sourceName": "arXiv cs.AI",
+  "title": "The Inference Engineering Pareto Atlas: Which Optimizations Dominate the Cost, Quality, and Latency Frontier?",
+  "summary": "arXiv:2609.17863v1 Announce Type: new Abstract: LLM inference optimizations report speedups on different models, GPUs, prompts, and quality metrics, making them hard to compare or combine. We build a cost, quality, and latency Pareto atlas to identify the best configurations for ",
+  "pubDate": "2026-09-17T04:00:00.000Z",
+  "decidedAt": "2026-09-17T22:44:23.727Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint presenting a primary research artifact (inference optimization Pareto atlas) with a direct link to the paper page; fits R2 research.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
