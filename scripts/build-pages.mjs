@@ -167,7 +167,7 @@ async function main() {
   }
 
   let stars = 0;
-  let stageInfo = { stage: "S0", stars: 0, quorum: 1 };
+  let stageInfo = stageForStars(0);
   let votingHtml = '<p class="empty">Voting data unavailable (local build without token).</p>';
 
   try {
@@ -206,7 +206,7 @@ async function main() {
     log("GitHub unavailable:", String(err.message || err));
     votingHtml =
       '<p class="empty"><strong>Voting data unavailable.</strong> Local build without a GitHub token. On the live site this lists issues labeled <code>voting</code>.</p>';
-    stageInfo = stageForStars(process.env.STARS || 0);
+    stageInfo = stageForStars(stars);
   }
 
   const tabsHtml = TAB_ORDER.map((id, i) => {

@@ -8,7 +8,7 @@ import Parser from "rss-parser";
 import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory, isCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
-import { urlHash, loadIndexFile, appendIndex } from "../lib/hash.mjs";
+import { urlHash, loadSeenHashes, appendIndex } from "../lib/hash.mjs";
 import { rulesFingerprint } from "../lib/fingerprint.mjs";
 
 const ROOT = process.cwd();
@@ -112,8 +112,8 @@ async function main() {
   const promptBody = loadPrompt(
     fs.readFileSync(path.join(ROOT, "lib", "prompts", "content-moderation.md"), "utf8"),
   );
-  const seen = loadIndexFile(indexFile);
-  log(`index size=${seen.size}`);
+  const seen = loadSeenHashes(indexFile, contentDir);
+  log(`seen size=${seen.size}`);
 
   const candidates = [];
   const maxAgeMs = CONTENT_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
@@ -199,7 +199,6 @@ async function main() {
   const ruleFingerprint = rulesFingerprint(rules);
   log(`ruleFingerprint=${ruleFingerprint}`);
   let included = 0;
-  const indexRows = [];
 
   for (const item of batch) {
     if (Date.now() > deadline) {
@@ -246,14 +245,14 @@ async function main() {
       const errFile = path.join(ROOT, "decisions", "errors", name);
       if (fs.existsSync(errFile)) fs.unlinkSync(errFile);
       fs.writeFileSync(path.join(contentDir, `${item.urlHash}-${Date.now()}.json`), JSON.stringify(record, null, 2) + "\n");
-      indexRows.push({ urlHash: item.urlHash, url: item.link, decidedAt });
+      // Index immediately so a crash cannot leave decided files unindexed.
+      appendIndex(indexFile, [{ urlHash: item.urlHash, url: item.link, decidedAt }]);
     }
     log(
       `${result.include ? "IN " : "OUT"} ${item.sourceName} ${item.matchedRuleId || "-"} ${item.title.slice(0, 60)}`,
     );
   }
 
-  appendIndex(indexFile, indexRows);
   log(`done included=${included}/${batch.length}`);
 }
 
