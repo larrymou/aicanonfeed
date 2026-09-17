@@ -1,0 +1,15 @@
+{
+  "urlHash": "db60b5b112dd98a2",
+  "url": "https://arxiv.org/abs/2609.17757",
+  "sourceName": "arXiv cs.AI",
+  "title": "Imitation Learning for Autonomous Driving in CARLA",
+  "summary": "arXiv:2609.17757v1 Announce Type: new Abstract: Behavioral cloning trains a policy offline on expert demonstrations, but deployment is closed loop: each action affects the observations the policy receives next. We study how much closed-loop driving competence a compact multimodal",
+  "pubDate": "2026-09-17T04:00:00.000Z",
+  "decidedAt": "2026-09-17T13:13:22.229Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint (arXiv:2609.17757) reporting a primary research artifact on imitation learning for closed-loop autonomous driving, with a direct link to the paper itself. Fits R2.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
