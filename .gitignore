@@ -7,6 +7,9 @@ node_modules/
 # Pages build artifact lives on gh-pages; do not commit generated HTML
 docs/index.html
 
+# local compose/visual-companion scratch
+.compose/
+
 # local product specs (not for public repo)
 *aicanonfeed*mvp*.md
 *aicanonfeed-spec*
