@@ -20,7 +20,7 @@
     --accent-soft: #6a9fff;
     --live: #00d4aa;
     --tile: #1a1a1a;
-    --max: 68rem;
+    --max: 72rem;
     --tag-model: #7aa2ff;
     --tag-industry: #5ecf9a;
     --tag-policy: #e0b35e;
@@ -61,7 +61,7 @@
 
   /* —— Header / live status —— */
   .hero {
-    padding: 2.75rem 0 0.75rem;
+    padding: 3.25rem 0 1rem;
   }
   .wordmark {
     margin: 0;
@@ -152,9 +152,9 @@
   .hero-nav a:hover { color: #fff; background: #141414; }
 
   /* —— Sections —— */
-  main { padding: 2.25rem 0 5rem; }
-  .block { margin-top: 4rem; }
-  .block:first-child { margin-top: 1.25rem; }
+  main { padding: 2.75rem 0 5.5rem; }
+  .block { margin-top: 4.5rem; }
+  .block:first-child { margin-top: 1.5rem; }
   .block-head {
     display: flex;
     align-items: baseline;
@@ -176,7 +176,7 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    margin: 0 0 1.5rem;
+    margin: 0 0 1.75rem;
     padding-top: 0.5rem;
     background: rgba(10, 10, 10, 0.94);
     backdrop-filter: blur(8px);
@@ -231,23 +231,23 @@
   }
   #feed {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-auto-rows: minmax(13rem, auto);
-    gap: 1.15rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: minmax(14.5rem, auto);
+    gap: 1.5rem;
   }
   .tile {
     background: var(--tile);
     border: 1px solid var(--line-soft);
-    padding: 1.35rem 1.35rem 1.15rem;
+    padding: 1.6rem 1.6rem 1.35rem;
     display: flex;
     flex-direction: column;
-    gap: 0.65rem;
-    min-height: 13rem;
+    gap: 0.8rem;
+    min-height: 14.5rem;
     transition: background 0.12s ease;
   }
   .tile:hover { background: #202020; }
   .tile.is-hidden { display: none !important; }
-  .tile-wide { grid-column: span 2; min-height: 14rem; }
+  .tile-wide { grid-column: span 2; min-height: 15.5rem; }
   .tile-solid {
     background: var(--accent);
     border-color: var(--accent);
@@ -312,15 +312,15 @@
   .rule-tag a:hover { color: #fff; border-color: #fff; }
 
   .tile-title {
-    margin: 0.15rem 0 0;
-    font-size: 1.08rem;
+    margin: 0.2rem 0 0;
+    font-size: 1.15rem;
     font-weight: 600;
     letter-spacing: -0.01em;
     line-height: 1.35;
     flex: 1;
   }
-  .tile-wide .tile-title { font-size: 1.22rem; line-height: 1.3; }
-  .tile.is-research .tile-title { font-size: 1rem; font-weight: 600; }
+  .tile-wide .tile-title { font-size: 1.3rem; line-height: 1.3; }
+  .tile.is-research .tile-title { font-size: 1.05rem; font-weight: 600; }
   .tile-title a { color: #fff; }
   .tile-title a:hover { color: var(--accent-soft); }
   .tile-title a[target="_blank"]::after {
@@ -333,14 +333,14 @@
   .tile-summary {
     margin: 0;
     color: var(--muted);
-    font-size: 0.88rem;
-    line-height: 1.55;
+    font-size: 0.92rem;
+    line-height: 1.6;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  .tile-wide .tile-summary { -webkit-line-clamp: 4; font-size: 0.95rem; }
+  .tile-wide .tile-summary { -webkit-line-clamp: 5; font-size: 0.98rem; }
 
   .tile-foot {
     display: flex;
@@ -349,9 +349,9 @@
     justify-content: space-between;
     gap: 0.5rem 1rem;
     margin-top: auto;
-    padding-top: 0.75rem;
+    padding-top: 0.9rem;
     border-top: 1px solid var(--line-soft);
-    font-size: 0.75rem;
+    font-size: 0.78rem;
     color: var(--dim);
   }
   .tile-why { font-size: 0.8rem; }
@@ -520,14 +520,14 @@
   :target { scroll-margin-top: 3.5rem; }
 
   @media (max-width: 960px) {
-    #feed { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+    #feed { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
   }
   @media (max-width: 640px) {
     .wrap { width: min(100% - 1.5rem, var(--max)); }
-    #feed { grid-template-columns: 1fr; gap: 0.9rem; }
-    .tile { min-height: 0; padding: 1.15rem 1.1rem 1rem; }
+    #feed { grid-template-columns: 1fr; gap: 1rem; }
+    .tile { min-height: 0; padding: 1.25rem 1.15rem 1.1rem; }
     .tile-wide { grid-column: span 1; min-height: 0; }
-    .canon { grid-template-columns: 1fr; gap: 0.75rem; }
+    .canon { grid-template-columns: 1fr; gap: 0.85rem; }
     .tab { padding-inline: 0.85rem; font-size: 0.9rem; }
     .hero { padding-top: 1.75rem; }
     main { padding-top: 1.5rem; }
