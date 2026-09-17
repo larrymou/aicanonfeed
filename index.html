@@ -7,18 +7,20 @@
 <meta name="color-scheme" content="dark">
 <title>AICanonFeed · AI editor, not a recommender</title>
 <style>
-  /* Deep blue system — minimal, modern */
+  /* Metro shared-window — flat tiles, square, high contrast */
   :root {
-    --bg: #060b16;
-    --bg-deep: #040812;
-    --ink: #e8eef8;
-    --muted: #8a96ab;
-    --line: #17233a;
-    --line-soft: #101a2e;
-    --accent: #5b9dff;
-    --accent-soft: #9ec2ff;
-    --surface: #0b1426;
-    --max: 54rem;
+    --bg: #0a0a0a;
+    --bg-deep: #000000;
+    --ink: #ffffff;
+    --muted: #9a9a9a;
+    --dim: #6e6e6e;
+    --line: #2a2a2a;
+    --line-soft: #1f1f1f;
+    --accent: #0078d4;
+    --accent-soft: #6a9fff;
+    --live: #00d4aa;
+    --tile: #1a1a1a;
+    --max: 64rem;
     --tag-model: #7aa2ff;
     --tag-industry: #5ecf9a;
     --tag-policy: #e0b35e;
@@ -26,345 +28,351 @@
     --tag-research: #4fc3f7;
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  html { scroll-behavior: smooth; scroll-padding-top: 3.5rem; }
   body {
     margin: 0;
-    background:
-      radial-gradient(1200px 520px at 50% -120px, rgba(55, 110, 220, 0.18), transparent 60%),
-      linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 28%, var(--bg) 100%);
+    background: var(--bg);
     color: var(--ink);
-    font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font: 300 16px/1.55 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     min-height: 100%;
   }
   a { color: var(--ink); text-decoration: none; }
   a:hover { color: var(--accent-soft); }
-  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
   .plain { color: inherit; }
   .skip {
     position: absolute;
     left: -9999px;
     top: 0;
     z-index: 100;
-    padding: 0.6rem 1rem;
+    padding: 0.65rem 1rem;
     background: var(--accent);
-    color: var(--bg-deep);
+    color: #fff;
     font-weight: 600;
-    border-radius: 0 0 6px 0;
   }
-  .skip:focus { left: 0; color: var(--bg-deep); }
+  .skip:focus { left: 0; color: #fff; }
 
   .wrap {
-    width: min(100% - 2.5rem, var(--max));
+    width: min(100% - 2rem, var(--max));
     margin-inline: auto;
   }
 
-  /* —— Header —— */
+  /* —— Header / live status —— */
   .hero {
-    padding: 4.75rem 0 2.5rem;
-    border-bottom: 1px solid var(--line-soft);
-  }
-  .hero-top {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 0.75rem 1.5rem;
+    padding: 1.5rem 0 0.25rem;
   }
   .wordmark {
     margin: 0;
-    font-size: clamp(1.85rem, 3.8vw, 2.45rem);
-    font-weight: 650;
-    letter-spacing: -0.035em;
-    line-height: 1.08;
+    font-size: clamp(1.85rem, 3.6vw, 2.35rem);
+    font-weight: 200;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
   }
   .wordmark span {
-    color: var(--accent);
-    font-weight: 500;
+    color: var(--ink);
+    font-weight: 600;
   }
   .lede {
-    margin: 1.1rem 0 0;
+    margin: 0.55rem 0 0;
     max-width: 38rem;
     color: var(--muted);
-    font-size: 1.05rem;
-    line-height: 1.6;
+    font-size: 0.98rem;
+    line-height: 1.55;
   }
-  .lede strong {
-    color: var(--ink);
-    font-weight: 600;
-  }
+  .lede strong { color: var(--ink); font-weight: 600; }
 
-  /* —— Contract (anti–filter-bubble) —— */
-  .contract {
-    margin: 1.5rem 0 0;
-    padding: 1rem 0 0;
-    border-top: 1px solid var(--line-soft);
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.85rem 1rem;
-    max-width: 48rem;
-  }
-  .contract-item {
-    padding: 0.65rem 0.75rem 0.7rem;
-    border: 1px solid var(--line-soft);
-    border-radius: 10px;
-    background: linear-gradient(180deg, rgba(11, 20, 38, 0.65), rgba(6, 11, 22, 0.2));
-  }
-  .contract-item .t {
-    display: block;
-    color: var(--ink);
-    font-weight: 600;
-    font-size: 0.9rem;
-    letter-spacing: -0.01em;
-  }
-  .contract-item .d {
-    margin: 0.25rem 0 0;
-    color: var(--muted);
-    font-size: 0.8rem;
-    line-height: 1.45;
-  }
-  .contract-item .n {
-    display: block;
-    color: var(--accent);
-    font-size: 0.68rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: 650;
-    margin-bottom: 0.2rem;
-  }
-  .contract-item code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    font-size: 0.85em;
-    color: var(--accent-soft);
-  }
   .status {
-    margin: 1.15rem 0 0;
+    margin: 0.85rem 0 0;
     color: var(--muted);
-    font-size: 0.8125rem;
-    letter-spacing: 0.02em;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     font-variant-numeric: tabular-nums;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem 0.55rem;
+    gap: 0.4rem 0.85rem;
     align-items: center;
   }
-  .status strong {
-    color: var(--accent-soft);
-    font-weight: 600;
+  .status .live-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--live);
+    display: inline-block;
   }
-  .status .sep { color: var(--line); }
+  .status .live-label {
+    color: var(--live);
+    font-weight: 700;
+  }
+  .status strong { color: #fff; font-weight: 600; text-transform: none; letter-spacing: 0; font-size: 1rem; margin-right: -0.35rem; }
+  .status .sep { display: none; }
+  .status .gov { color: var(--accent-soft); }
+
+  .contract {
+    margin: 0.9rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    max-width: none;
+    border: 0;
+  }
+  .contract-item {
+    padding: 0.35rem 0.55rem;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--dim);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .contract-item .t { display: inline; font-weight: 400; color: var(--muted); font-size: inherit; letter-spacing: inherit; }
+  .contract-item .d { display: none; }
+  .contract-item .n { display: inline; margin: 0 0.35rem 0 0; color: var(--accent); font-size: inherit; }
+  .contract-item code { display: none; }
+
+  .hero-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem 0;
+    margin: 0.85rem 0 0;
+    padding: 0 0 0.15rem;
+    border-bottom: 1px solid var(--line-soft);
+    font-size: 0.9rem;
+  }
+  .hero-nav a {
+    color: var(--muted);
+    padding: 0.55rem 0.85rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 300;
+  }
+  .hero-nav a:hover { color: #fff; background: #141414; }
 
   /* —— Sections —— */
-  main { padding: 2rem 0 5rem; }
-  .block { margin-top: 3.5rem; }
-  .block:first-child { margin-top: 0; }
+  main { padding: 1.25rem 0 4rem; }
+  .block { margin-top: 2.75rem; }
+  .block:first-child { margin-top: 0.75rem; }
   .block-head {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     gap: 1rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.85rem;
   }
   .block-title {
     margin: 0;
-    font-size: 0.75rem;
+    font-size: 0.78rem;
     font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--accent-soft);
-    opacity: 0.85;
+    color: var(--muted);
   }
 
-  /* —— Tabs (sticky filter rail) —— */
+  /* —— Pivot tabs —— */
   .rail-wrap {
     position: sticky;
     top: 0;
     z-index: 20;
-    margin: 0 0 0.25rem;
-    padding-top: 0.35rem;
-    background: linear-gradient(180deg, var(--bg) 70%, transparent);
+    margin: 0 0 0.85rem;
+    background: rgba(10, 10, 10, 0.94);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
   .rail {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.1rem 0;
+    flex-wrap: nowrap;
+    gap: 0;
     margin: 0;
     border-bottom: 1px solid var(--line);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    overflow-x: auto;
+    scrollbar-width: none;
   }
+  .rail::-webkit-scrollbar { display: none; }
   .tab {
     appearance: none;
     border: 0;
     background: transparent;
-    color: var(--muted);
+    color: var(--dim);
     font: inherit;
-    font-size: 0.9375rem;
-    padding: 0.75rem 0.85rem;
+    font-size: 0.95rem;
+    font-weight: 300;
+    text-transform: lowercase;
+    padding: 0.7rem 0.95rem 0.55rem;
     cursor: pointer;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     margin-bottom: -1px;
     min-height: 44px;
-    border-radius: 6px 6px 0 0;
+    white-space: nowrap;
   }
-  .tab:hover { color: var(--ink); background: rgba(91, 157, 255, 0.06); }
-  .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .tab:hover { color: #fff; }
+  .tab:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
   .tab.is-active {
-    color: var(--ink);
+    color: #fff;
+    font-weight: 600;
     border-bottom-color: var(--accent);
-    background: rgba(91, 157, 255, 0.08);
   }
   .tab .count {
-    margin-left: 0.4rem;
-    color: var(--muted);
-    font-size: 0.75rem;
+    margin-left: 0.35rem;
+    color: inherit;
+    opacity: 0.7;
+    font-size: 0.8em;
     font-variant-numeric: tabular-nums;
-    padding: 0.1rem 0.35rem;
-    border-radius: 999px;
-    background: var(--line-soft);
-  }
-  .tab.is-active .count {
-    color: var(--accent);
-    background: rgba(91, 157, 255, 0.15);
   }
 
-  /* —— Feed list —— */
+  /* —— Tile grid —— */
   .list {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  .item {
-    padding: 1.25rem 0 1.25rem 0.85rem;
-    margin-left: -0.85rem;
-    border-bottom: 1px solid var(--line-soft);
-    border-left: 2px solid transparent;
-    transition: border-color 0.15s ease, background 0.15s ease;
+  #feed {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: minmax(9.5rem, auto);
+    gap: 0.45rem;
   }
-  .item:first-child { padding-top: 1rem; }
-  .item:hover {
-    border-left-color: var(--accent);
-    background: linear-gradient(90deg, rgba(91, 157, 255, 0.06), transparent 55%);
+  .tile {
+    background: var(--tile);
+    border: 1px solid var(--line-soft);
+    padding: 0.95rem 1rem 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-height: 9.5rem;
+    transition: background 0.12s ease;
   }
-  .item-kicker {
+  .tile:hover { background: #202020; }
+  .tile.is-hidden { display: none !important; }
+  .tile-wide { grid-column: span 2; min-height: 10rem; }
+  .tile-solid {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .tile-solid:hover { background: #1a86d8; }
+  .tile-solid .tile-title,
+  .tile-solid .tile-title a { color: #fff; }
+  .tile-solid .tile-summary,
+  .tile-solid .tile-meta,
+  .tile-solid .tile-foot,
+  .tile-solid .tile-foot time { color: rgba(255, 255, 255, 0.85); }
+  .tile-solid .cat {
+    background: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #fff;
+  }
+  .tile-solid .rule-tag a { color: rgba(255, 255, 255, 0.9); border-color: rgba(255,255,255,0.3); }
+  .tile-solid .tile-why summary { color: rgba(255, 255, 255, 0.9); }
+  .tile-solid .why-reason {
+    background: rgba(0, 0, 0, 0.25);
+    border-left-color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .tile-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.4rem 0.5rem;
-    font-size: 0.78rem;
-    color: var(--muted);
-    letter-spacing: 0.02em;
+    gap: 0.3rem 0.45rem;
+    font-size: 0.68rem;
+    color: var(--dim);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 600;
   }
   .cat {
     display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
-    font-weight: 650;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     font-size: 0.68rem;
-    padding: 0.18rem 0.45rem;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: var(--surface);
+    font-weight: 700;
   }
-  .cat::before {
-    content: "";
-    width: 0.4rem;
-    height: 0.4rem;
-    border-radius: 50%;
-    background: currentColor;
-  }
+  .cat::before { content: none; }
   .cat-model-releases { color: var(--tag-model); }
   .cat-research { color: var(--tag-research); }
   .cat-industry { color: var(--tag-industry); }
   .cat-policy { color: var(--tag-policy); }
   .cat-tools-oss { color: var(--tag-tools); }
-  .dot { color: var(--line); }
+  .src { color: inherit; font-weight: 400; text-transform: none; letter-spacing: 0; }
   .rule-tag { margin-left: auto; }
   .rule-tag a {
     color: var(--muted);
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    border: 1px solid transparent;
+    padding: 0 0.3rem;
+    border: 1px solid var(--line);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
   }
-  .rule-tag a:hover {
-    color: var(--accent);
-    border-color: var(--line);
-    background: rgba(91, 157, 255, 0.08);
-  }
-  .item-title {
-    margin: 0.55rem 0 0.35rem;
-    font-size: clamp(1.1rem, 2.2vw, 1.28rem);
+  .rule-tag a:hover { color: #fff; border-color: #fff; }
+
+  .tile-title {
+    margin: 0;
+    font-size: 1rem;
     font-weight: 600;
-    letter-spacing: -0.015em;
-    line-height: 1.35;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    flex: 1;
   }
-  .item-title a { color: var(--ink); }
-  .item-title a:hover { color: var(--accent); }
-  .item-title a[target="_blank"]::after {
-    content: "↗";
-    margin-left: 0.3rem;
-    font-size: 0.75em;
-    color: var(--muted);
-    vertical-align: 0.1em;
+  .tile-wide .tile-title { font-size: 1.12rem; line-height: 1.28; }
+  .tile.is-research .tile-title { font-size: 0.95rem; font-weight: 600; }
+  .tile-title a { color: #fff; }
+  .tile-title a:hover { color: var(--accent-soft); }
+  .tile-title a[target="_blank"]::after {
+    content: " ↗";
+    font-size: 0.7em;
+    color: var(--dim);
   }
-  .item-title a[target="_blank"]:hover::after { color: var(--accent); }
-  .item.is-research .item-title {
-    font-size: 1.04rem;
-    font-weight: 550;
-  }
-  .item-summary {
+  .tile-title a[target="_blank"]:hover::after { color: var(--accent-soft); }
+
+  .tile-summary {
     margin: 0;
     color: var(--muted);
-    max-width: 42rem;
-    font-size: 0.95rem;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
-  .item-why {
-    margin-top: 0.55rem;
-    font-size: 0.85rem;
+  .tile-wide .tile-summary { -webkit-line-clamp: 3; font-size: 0.88rem; }
+
+  .tile-foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.35rem 0.75rem;
+    margin-top: auto;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--line-soft);
+    font-size: 0.72rem;
+    color: var(--dim);
   }
-  .item-why summary {
-    color: var(--muted);
+  .tile-why { font-size: 0.8rem; }
+  .tile-why summary {
+    color: var(--accent-soft);
     cursor: pointer;
     list-style: none;
-    width: fit-content;
-    min-height: 2rem;
+    min-height: 1.75rem;
     display: inline-flex;
     align-items: center;
-    padding: 0.2rem 0.45rem 0.2rem 0.15rem;
-    border-radius: 6px;
-    border: 1px solid transparent;
+    font-weight: 600;
   }
-  .item-why summary::-webkit-details-marker { display: none; }
-  .item-why summary::before {
-    content: "▸";
-    color: var(--accent);
-    margin-right: 0.35rem;
-    font-size: 0.75rem;
-  }
-  .item-why[open] summary::before { content: "▾"; }
-  .item-why summary:hover {
-    color: var(--accent-soft);
-    border-color: var(--line-soft);
-    background: rgba(91, 157, 255, 0.06);
-  }
-  .item-why summary:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-    border-radius: 6px;
-  }
+  .tile-why summary::-webkit-details-marker { display: none; }
+  .tile-why summary::before { content: "+ "; font-weight: 700; }
+  .tile-why[open] summary::before { content: "− "; }
+  .tile-why summary:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
   .why-reason {
-    margin: 0.45rem 0 0;
+    margin: 0.45rem 0 0.25rem;
     color: var(--muted);
-    max-width: 40rem;
-    padding: 0.55rem 0.75rem;
+    padding: 0.55rem 0.7rem;
     border-left: 2px solid var(--accent);
-    background: rgba(11, 20, 38, 0.55);
-    border-radius: 0 8px 8px 0;
+    background: #111;
     line-height: 1.5;
   }
   .why-reason code {
@@ -374,15 +382,15 @@
   }
   .empty {
     color: var(--muted);
-    padding: 1.75rem 0.25rem;
+    padding: 1.5rem 0.15rem;
     max-width: 36rem;
     line-height: 1.55;
   }
-  .empty strong { color: var(--ink); font-weight: 600; }
+  .empty strong { color: #fff; font-weight: 600; }
 
   /* —— Vote —— */
   .vote-list li {
-    padding: 1rem 0;
+    padding: 0.95rem 0;
     border-bottom: 1px solid var(--line-soft);
   }
   .vote-title {
@@ -401,13 +409,11 @@
 
   /* —— Rules —— */
   .rule-row {
-    padding: 1.15rem 0.75rem;
-    margin: 0 -0.75rem;
+    padding: 1.05rem 0;
+    margin: 0;
     border-bottom: 1px solid var(--line-soft);
-    border-radius: 8px;
     list-style: none;
   }
-  .rule-row:hover { background: rgba(91, 157, 255, 0.04); }
   ul.rules { margin: 0; padding: 0; }
   .rule-head {
     display: flex;
@@ -415,23 +421,23 @@
     gap: 0.75rem;
   }
   .rule-id {
-    font-weight: 650;
+    font-weight: 700;
     letter-spacing: 0.04em;
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     font-size: 0.9em;
     color: var(--accent-soft);
   }
   .rule-body {
-    margin: 0.45rem 0 0;
-    color: var(--ink);
+    margin: 0.4rem 0 0;
+    color: #fff;
     max-width: 42rem;
   }
   .rule-cta {
-    margin: 0.5rem 0 0;
+    margin: 0.45rem 0 0;
     font-size: 0.875rem;
   }
   .rule-cta a { color: var(--muted); }
-  .rule-cta a:hover { color: var(--accent); }
+  .rule-cta a:hover { color: #fff; }
 
   /* —— About / footer —— */
   .about p,
@@ -446,111 +452,85 @@
   .about li { margin: 0.35rem 0; }
   .canon {
     margin: 0.25rem 0 1.25rem;
-    padding: 1rem 0 0.25rem;
-    border-top: 1px solid var(--line-soft);
-    border-bottom: 1px solid var(--line-soft);
+    padding: 0;
+    border: 0;
     display: grid;
-    gap: 0.85rem 1.25rem;
+    gap: 0.45rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    max-width: 42rem;
+    max-width: none;
+  }
+  .canon-step {
+    background: var(--tile);
+    border: 1px solid var(--line-soft);
+    padding: 0.9rem 0.95rem;
   }
   .canon-step .n {
     display: block;
     color: var(--accent);
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    font-weight: 650;
-    margin-bottom: 0.2rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
   }
   .canon-step .t {
-    color: var(--ink);
+    color: #fff;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.98rem;
   }
   .canon-step .d {
     color: var(--muted);
-    font-size: 0.875rem;
-    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
   }
   .how {
-    margin: 0 0 1rem;
+    margin: 0 0 0.9rem;
     max-width: 40rem;
     color: var(--muted);
   }
-  .how strong { color: var(--ink); font-weight: 600; }
+  .how strong { color: #fff; font-weight: 600; }
   .how a {
     color: var(--accent-soft);
-    border-bottom: 1px solid rgba(158, 194, 255, 0.35);
   }
-  .how a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-  }
+  .how a:hover { color: #fff; }
   .canon-step .d a {
     color: var(--accent-soft);
-    border-bottom: 1px solid rgba(158, 194, 255, 0.35);
   }
-  .canon-step .d a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-  }
+  .canon-step .d a:hover { color: #fff; }
   .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1.25rem;
-    font-size: 0.95rem;
+    gap: 0.35rem 1.1rem;
+    font-size: 0.92rem;
   }
   .links a { color: var(--muted); }
-  .links a:hover { color: var(--accent); }
+  .links a:hover { color: #fff; }
   footer {
-    padding: 0 0 3.5rem;
-    color: var(--muted);
-    font-size: 0.8rem;
+    padding: 0 0 3rem;
+    color: var(--dim);
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
   }
   footer code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     font-size: 0.85em;
   }
-  footer .tag { color: var(--accent); }
-  :target { scroll-margin-top: 1.5rem; }
-  .hero-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem 0.15rem;
-    margin: 1.35rem 0 0;
-    font-size: 0.9rem;
-  }
-  .hero-nav a {
-    color: var(--muted);
-    padding: 0.45rem 0.7rem;
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-    border-radius: 8px;
-    border: 1px solid transparent;
-  }
-  .hero-nav a:hover {
-    color: var(--accent);
-    border-color: var(--line);
-    background: rgba(91, 157, 255, 0.06);
-  }
+  footer .tag { color: var(--accent-soft); font-weight: 700; letter-spacing: 0.08em; }
+  :target { scroll-margin-top: 3.5rem; }
 
-  @media (max-width: 720px) {
-    .contract { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 960px) {
+    #feed { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
-  @media (max-width: 540px) {
-    .wrap { width: min(100% - 1.5rem, var(--max)); }
-    .hero { padding-top: 2.5rem; }
-    .rule-tag { margin-left: 0; width: 100%; }
-    .tab { padding-inline: 0.65rem; font-size: 0.875rem; }
+  @media (max-width: 640px) {
+    .wrap { width: min(100% - 1.25rem, var(--max)); }
+    #feed { grid-template-columns: 1fr; }
+    .tile-wide { grid-column: span 1; }
     .canon { grid-template-columns: 1fr; }
-    .contract { grid-template-columns: 1fr; }
-    .item { padding-left: 0.65rem; margin-left: -0.65rem; }
+    .tab { padding-inline: 0.7rem; font-size: 0.88rem; }
   }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
-    .item { transition: none; }
+    .tile { transition: none; }
   }
 </style>
 </head>
@@ -558,50 +538,27 @@
   <a class="skip" href="#latest">Skip to latest</a>
   <header class="hero">
     <div class="wrap">
-      <div class="hero-top">
-        <h1 class="wordmark">AICanon<span>Feed</span></h1>
-      </div>
-      <p class="lede"><strong>AICanonFeed</strong> is the first live <a href="https://github.com/larrymou/canon">CANON</a> instance: one shared AI-news window for everyone. A community-ratified rulebook decides what makes the cut; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
-      <p class="status" aria-label="Project status">
-        <strong>Experimental</strong>
-        <span class="sep" aria-hidden="true">·</span>
-        <span>S0</span>
-        <span class="sep" aria-hidden="true">·</span>
-        <span>0 stars</span>
-        <span class="sep" aria-hidden="true">·</span>
-        <span>quorum 3</span>
-        <span class="sep" aria-hidden="true">·</span>
-        <span>last 5 days</span>
-        <span class="sep" aria-hidden="true">·</span>
-        <span>24 on this page</span>
+      <h1 class="wordmark">AICanon<span>Feed</span></h1>
+      <p class="lede">One shared AI-news window for everyone. A community-ratified rulebook decides inclusion; an <strong>AI editor</strong> applies it — no personalization, no engagement ranking, every call auditable on GitHub.</p>
+      <p class="status" aria-label="Shared window status">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="live-label">Live</span>
+        <span>Shared window · last 5 days</span>
+        <strong>24</strong>
+        <span>included</span>
+        <span class="gov">S0 · quorum 3 · 0★</span>
       </p>
       <div class="contract" role="list" aria-label="Editorial contract">
-        <div class="contract-item" role="listitem">
-          <span class="n">01</span>
-          <span class="t">Same edition</span>
-          <p class="d">One shared rolling window — not a personal feed.</p>
-        </div>
-        <div class="contract-item" role="listitem">
-          <span class="n">02</span>
-          <span class="t">Rules, not recs</span>
-          <p class="d">Inclusion only under ratified rules. No click model.</p>
-        </div>
-        <div class="contract-item" role="listitem">
-          <span class="n">03</span>
-          <span class="t">Zero engagement</span>
-          <p class="d">No popularity rank, dwell signals, or “for you”.</p>
-        </div>
-        <div class="contract-item" role="listitem">
-          <span class="n">04</span>
-          <span class="t">Auditable</span>
-          <p class="d">Every decision is a public file in <code>decisions/</code>.</p>
-        </div>
+        <div class="contract-item" role="listitem"><span class="n">01</span><span class="t">Same window</span><p class="d">One shared rolling window — not a personal feed.</p></div>
+        <div class="contract-item" role="listitem"><span class="n">02</span><span class="t">Rules not recs</span><p class="d">Inclusion only under ratified rules.</p></div>
+        <div class="contract-item" role="listitem"><span class="n">03</span><span class="t">Zero engagement</span><p class="d">No popularity rank or “for you”.</p></div>
+        <div class="contract-item" role="listitem"><span class="n">04</span><span class="t">Auditable</span><p class="d">Every decision is a public file in decisions/.</p></div>
       </div>
       <nav class="hero-nav" aria-label="Sections">
-        <a href="#latest">Latest</a>
-        <a href="#vote">Vote</a>
-        <a href="#rules">Rules</a>
-        <a href="#about">CANON &amp; how to join</a>
+        <a href="#latest">latest</a>
+        <a href="#vote">vote</a>
+        <a href="#rules">rules</a>
+        <a href="#about">canon &amp; join</a>
       </nav>
     </div>
   </header>
@@ -609,328 +566,328 @@
   <main class="wrap" id="main">
     <section class="block" id="latest" aria-label="Latest included">
       <div class="block-head">
-        <h2 class="block-title">Latest · last 5 days</h2>
+        <h2 class="block-title">Shared window</h2>
       </div>
       <div class="rail-wrap">
         <div class="rail" role="tablist" aria-label="Filter by category">
-          <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">All<span class="count">24</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">Model Releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">Industry<span class="count">14</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">Research<span class="count">8</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">Tools &amp; OSS<span class="count">1</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">Policy<span class="count">0</span></button>
+          <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">24</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">14</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">8</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">1</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">0</span></button>
         </div>
       </div>
       <div id="feed">
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/" rel="noopener noreferrer" target="_blank">Iceland-based Treble raises $18 million for its voice simulation platform</a></h3>
+  <p class="tile-summary">Treble&#39;s voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T05:00:00.000Z">2026-09-17</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI industry financing event ($18M raise for voice simulation platform) via reputable media coverage (TechCrunch), matching R3&#39;s financing category.</p></details>
   </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/" rel="noopener noreferrer" target="_blank">Iceland-based Treble raises $18 million for its voice simulation platform</a></h3>
-  <p class="item-summary">Treble&#39;s voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI industry financing event ($18M raise for voice simulation platform) via reputable media coverage (TechCrunch), matching R3&#39;s financing category.</p></details>
 </article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
     <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17633" rel="noopener noreferrer" target="_blank">One Color Preprocessing Improves DSATUR</a></h3>
-  <p class="item-summary">arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristi</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact—a new semidefinite-based preprocessing method for the DSATUR graph coloring heuristic—with a direct link to the paper&#39;s arXiv page.</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17633" rel="noopener noreferrer" target="_blank">One Color Preprocessing Improves DSATUR</a></h3>
+  <p class="tile-summary">arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristi</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact—a new semidefinite-based preprocessing method for the DSATUR graph coloring heuristic—with a direct link to the paper&#39;s arXiv page.</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17635" rel="noopener noreferrer" target="_blank">Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees</a></h3>
-  <p class="item-summary">arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (arXiv:2609.17635) reporting a primary research artifact on physics-constrained digital twins for detecting false data injection in pedestrian flow; link points to the paper itself.</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17635" rel="noopener noreferrer" target="_blank">Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees</a></h3>
+  <p class="tile-summary">arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (arXiv:2609.17635) reporting a primary research artifact on physics-constrained digital twins for detecting false data injection in pedestrian flow; link points to the paper itself.</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17632" rel="noopener noreferrer" target="_blank">EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents</a></h3>
-  <p class="item-summary">arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable anal</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact with a direct link to the paper page; matches R2 research criteria.</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17632" rel="noopener noreferrer" target="_blank">EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents</a></h3>
+  <p class="tile-summary">arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable anal</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact with a direct link to the paper page; matches R2 research criteria.</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17631" rel="noopener noreferrer" target="_blank">Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records</a></h3>
-  <p class="item-summary">arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, pr</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact—a protocol for falsifiable publication records—with a direct link to the paper itself. Fits R2 (research).</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17631" rel="noopener noreferrer" target="_blank">Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records</a></h3>
+  <p class="tile-summary">arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, pr</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) presenting a primary research artifact—a protocol for falsifiable publication records—with a direct link to the paper itself. Fits R2 (research).</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17688" rel="noopener noreferrer" target="_blank">CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video</a></h3>
-  <p class="item-summary">arXiv:2609.17688v1 Announce Type: new Abstract: Wearable assistants require episodic memory over egocentric video, yet current vision-langua</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint presenting CapMem, a new public benchmark for caption-based episodic memory in egocentric video, with a direct link to the paper. This is a primary research artifact (preprint/benchmark), matching R2.</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17688" rel="noopener noreferrer" target="_blank">CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video</a></h3>
+  <p class="tile-summary">arXiv:2609.17688v1 Announce Type: new Abstract: Wearable assistants require episodic memory over egocentric video, yet current vision-langua</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint presenting CapMem, a new public benchmark for caption-based episodic memory in egocentric video, with a direct link to the paper. This is a primary research artifact (preprint/benchmark), matching R2.</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17695" rel="noopener noreferrer" target="_blank">GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents</a></h3>
-  <p class="item-summary">arXiv:2609.17695v1 Announce Type: new Abstract: A large language model (LLM) agent can follow more graph paths without acquiring more indepe</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint announcing GraphEcho, a new public benchmark for evaluating LLM graph agents, with a direct link to the paper. This is a primary research artifact (preprint/benchmark), matching R2.</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17695" rel="noopener noreferrer" target="_blank">GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents</a></h3>
+  <p class="tile-summary">arXiv:2609.17695v1 Announce Type: new Abstract: A large language model (LLM) agent can follow more graph paths without acquiring more indepe</p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint announcing GraphEcho, a new public benchmark for evaluating LLM graph agents, with a direct link to the paper. This is a primary research artifact (preprint/benchmark), matching R2.</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17696" rel="noopener noreferrer" target="_blank">GVD: Governed Versioning and Deduplication for Document Repositories</a></h3>
-  <p class="item-summary">arXiv:2609.17696v1 Announce Type: new Abstract: Document repositories evolve continuously. Guidelines and policies are revised, superseded, </p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — Item is an arXiv preprint (primary research artifact) with a direct link to the paper abstract page, satisfying R2 for preprint papers. No model release, business event, policy action, or OSS project is involved.</p></details>
-</article>
-<article class="item is-research" data-category="research">
-  <div class="item-kicker">
-    <span class="cat cat-research">Research</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17696" rel="noopener noreferrer" target="_blank">GVD: Governed Versioning and Deduplication for Document Repositories</a></h3>
+  <p class="tile-summary">arXiv:2609.17696v1 Announce Type: new Abstract: Document repositories evolve continuously. Guidelines and policies are revised, superseded, </p>
+  <div class="tile-foot">
     <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — Item is an arXiv preprint (primary research artifact) with a direct link to the paper abstract page, satisfying R2 for preprint papers. No model release, business event, policy action, or OSS project is involved.</p></details>
+  </div>
+</article>
+<article class="tile is-research" data-category="research">
+  <div class="tile-meta">
+    <span class="cat cat-research">Research</span>
+    <span class="src">arXiv cs.AI</span>
     <span class="rule-tag"><a href="#rule-R2">R2</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arxiv.org/abs/2609.17637" rel="noopener noreferrer" target="_blank">What You Can&#39;t See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization</a></h3>
-  <p class="item-summary">arXiv:2609.17637v1 Announce Type: new Abstract: Restricting what a module can read may improve what a system learns to compute. We test this</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint reporting a preregistered study on evidence masking and compositional generalization, with a direct link to the paper itself — a primary research artifact under R2.</p></details>
+  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.17637" rel="noopener noreferrer" target="_blank">What You Can&#39;t See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization</a></h3>
+  <p class="tile-summary">arXiv:2609.17637v1 Announce Type: new Abstract: Restricting what a module can read may improve what a system learns to compute. We test this</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T04:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint reporting a preregistered study on evidence masking and compositional generalization, with a direct link to the paper itself — a primary research artifact under R2.</p></details>
+  </div>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">The Verge AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac" rel="noopener noreferrer" target="_blank">Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac</a></h3>
+  <p class="tile-summary">Snap is introducing &quot;Specs Intelligence,&quot; a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta&#39;s Muse and Gemini&#39;s Spark, though Snap is pitching Spe</p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T23:40:00.000Z">2026-09-16</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Snap&#39;s Specs Intelligence is a non-model AI product/feature launch, not a new model with an official owner announcement (R1 excluded). Reported by reputable media (The Verge), so it falls under R3 industry product launch coverage.</p></details>
   </div>
-  <h3 class="item-title"><a href="https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac" rel="noopener noreferrer" target="_blank">Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac</a></h3>
-  <p class="item-summary">Snap is introducing &quot;Specs Intelligence,&quot; a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta&#39;s Muse and Gemini&#39;s Spark, though Snap is pitching Spe</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Snap&#39;s Specs Intelligence is a non-model AI product/feature launch, not a new model with an official owner announcement (R1 excluded). Reported by reputable media (The Verge), so it falls under R3 industry product launch coverage.</p></details>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-16T22:02:46.000Z">2026-09-16</time>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/" rel="noopener noreferrer" target="_blank">Apple reportedly building server packed with M-series Ultra chips for AI</a></h3>
-  <p class="item-summary">Planned 2029 debut could make this Apple’s first enterprise server in decades.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media report of an AI industry hardware/infrastructure plan (Apple building AI server with M-series Ultra chips), covered by reputable outlet Ars Technica. Not a model release (no official owner model announcement) and not open-source tooling, so R3 applies.</p></details>
+  <h3 class="tile-title"><a href="https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/" rel="noopener noreferrer" target="_blank">Apple reportedly building server packed with M-series Ultra chips for AI</a></h3>
+  <p class="tile-summary">Planned 2029 debut could make this Apple’s first enterprise server in decades.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-16T22:02:46.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media report of an AI industry hardware/infrastructure plan (Apple building AI server with M-series Ultra chips), covered by reputable outlet Ars Technica. Not a model release (no official owner model announcement) and not open-source tooling, so R3 applies.</p></details>
+  </div>
 </article>
-<article class="item" data-category="tools-oss">
-  <div class="item-kicker">
+<article class="tile" data-category="tools-oss">
+  <div class="tile-meta">
     <span class="cat cat-tools-oss">Tools</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">AWS Machine Learning Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-16T19:00:00.000Z">2026-09-16</time>
     <span class="rule-tag"><a href="#rule-R5">R5</a></span>
   </div>
-  <h3 class="item-title"><a href="https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/" rel="noopener noreferrer" target="_blank">Improving HCLS AI reasoning with open-source agent skills</a></h3>
-  <p class="item-summary">AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked u</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R5</code> · ruleset <code>ffc8ebab6b0a</code> — AWS official maintainer post releasing 38 open-source agent skills across 11 HCLS domains, with installation steps — a release of an open-source AI developer project announced by its maintainer, matching R5.</p></details>
+  <h3 class="tile-title"><a href="https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/" rel="noopener noreferrer" target="_blank">Improving HCLS AI reasoning with open-source agent skills</a></h3>
+  <p class="tile-summary">AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked u</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-16T19:00:00.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R5</code> · ruleset <code>ffc8ebab6b0a</code> — AWS official maintainer post releasing 38 open-source agent skills across 11 HCLS domains, with installation steps — a release of an open-source AI developer project announced by its maintainer, matching R5.</p></details>
+  </div>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">The Verge AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://www.theverge.com/tech/996321/apple-servers-ai-nvidia" rel="noopener noreferrer" target="_blank">Apple might make servers again to cash in on the AI rush</a></h3>
+  <p class="tile-summary">According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute p</p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T17:20:29.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media report on an AI industry business development: Apple reportedly re-entering the server market for AI compute and possibly partnering with Nvidia. Covers hardware/partnership business news via a reputable media outlet (The Verge), fitting R3.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://www.theverge.com/tech/996321/apple-servers-ai-nvidia" rel="noopener noreferrer" target="_blank">Apple might make servers again to cash in on the AI rush</a></h3>
-  <p class="item-summary">According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute p</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media report on an AI industry business development: Apple reportedly re-entering the server market for AI compute and possibly partnering with Nvidia. Covers hardware/partnership business news via a reputable media outlet (The Verge), fitting R3.</p></details>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/" rel="noopener noreferrer" target="_blank">Your AI agents can now control your Google Home devices</a></h3>
+  <p class="tile-summary">Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.</p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T17:00:00.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — TechCrunch coverage of Google&#39;s new MCP server for Google Home, a non-model product/feature launch reported by reputable media; not a model release (R1) or OSS project (R5).</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">The Verge AI</span>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/" rel="noopener noreferrer" target="_blank">Your AI agents can now control your Google Home devices</a></h3>
-  <p class="item-summary">Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — TechCrunch coverage of Google&#39;s new MCP server for Google Home, a non-model product/feature launch reported by reputable media; not a model release (R1) or OSS project (R5).</p></details>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">The Verge AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date" rel="noopener noreferrer" target="_blank">Google will now let any AI agent run your smart home</a></h3>
+  <p class="tile-summary">Google is inviting third-party agents, including Claude and Open Claw, into Google Home. | Photo by Jennifer Pattison Tuohy / The Verge Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze </p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T17:00:00.000Z">2026-09-16</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Google Home opening its smart home platform to third-party AI agents (Claude, Open Claw) via MCP is a non-model product/platform launch, covered by reputable media (The Verge). Not a new model announcement or research artifact, so R3 applies.</p></details>
   </div>
-  <h3 class="item-title"><a href="https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date" rel="noopener noreferrer" target="_blank">Google will now let any AI agent run your smart home</a></h3>
-  <p class="item-summary">Google is inviting third-party agents, including Claude and Open Claw, into Google Home. | Photo by Jennifer Pattison Tuohy / The Verge Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze </p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Google Home opening its smart home platform to third-party AI agents (Claude, Open Claw) via MCP is a non-model product/platform launch, covered by reputable media (The Verge). Not a new model announcement or research artifact, so R3 applies.</p></details>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-16T16:30:00.000Z">2026-09-16</time>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/" rel="noopener noreferrer" target="_blank">Anthropic merges Claude chat and Cowork in one interface</a></h3>
-  <p class="item-summary">Anthropic is initially releasing these features to Pro and Max plan subscribers.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media-only coverage (TechCrunch) of a non-model product/interface change for Claude, with no official owner announcement link. No new model or capability, so R1 does not apply; falls under R3 non-model product launch with reputable media report.</p></details>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/" rel="noopener noreferrer" target="_blank">Anthropic merges Claude chat and Cowork in one interface</a></h3>
+  <p class="tile-summary">Anthropic is initially releasing these features to Pro and Max plan subscribers.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-16T16:30:00.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media-only coverage (TechCrunch) of a non-model product/interface change for Claude, with no official owner announcement link. No new model or capability, so R1 does not apply; falls under R3 non-model product launch with reputable media report.</p></details>
+  </div>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">The Verge AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-16T16:30:00.000Z">2026-09-16</time>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides" rel="noopener noreferrer" target="_blank">Claude comes for Gemini with its own take on Docs and Slides</a></h3>
-  <p class="item-summary">Claude is getting a pair of new tools today: Docs and Slides. They&#39;ll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media coverage of Anthropic&#39;s non-model product launch (Claude Docs and Slides). Reputable media report of an AI industry product event; no official owner link provided, so R3 applies rather than R1.</p></details>
+  <h3 class="tile-title"><a href="https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides" rel="noopener noreferrer" target="_blank">Claude comes for Gemini with its own take on Docs and Slides</a></h3>
+  <p class="tile-summary">Claude is getting a pair of new tools today: Docs and Slides. They&#39;ll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-16T16:30:00.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media coverage of Anthropic&#39;s non-model product launch (Claude Docs and Slides). Reputable media report of an AI industry product event; no official owner link provided, so R3 applies rather than R1.</p></details>
+  </div>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/" rel="noopener noreferrer" target="_blank">SK Hynix reportedly in talks with Intel to build memory chips in US</a></h3>
+  <p class="tile-summary">SK Hynix told TechCrunch the company hasn&#39;t finalized any plans or arrangements yet.</p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T13:23:02.000Z">2026-09-16</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI-industry business event: reported partnership/talks between SK Hynix and Intel on US memory-chip production, covered by reputable media (TechCrunch). Fits R3 (partnerships, business events), not a model release, research artifact, policy action, or OSS project.</p></details>
   </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/" rel="noopener noreferrer" target="_blank">SK Hynix reportedly in talks with Intel to build memory chips in US</a></h3>
-  <p class="item-summary">SK Hynix told TechCrunch the company hasn&#39;t finalized any plans or arrangements yet.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI-industry business event: reported partnership/talks between SK Hynix and Intel on US memory-chip production, covered by reputable media (TechCrunch). Fits R3 (partnerships, business events), not a model release, research artifact, policy action, or OSS project.</p></details>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">OpenAI Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-16T13:00:00.000Z">2026-09-16</time>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://openai.com/index/reimagining-advertising-with-ai" rel="noopener noreferrer" target="_blank">Reimagining advertising with AI</a></h3>
-  <p class="item-summary">Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — OpenAI&#39;s official announcement of AI-powered advertising products (Sponsored Agents, marketer tools, HubSpot/Shopify integrations) is a non-model product launch with a company announcement link, matching R3 industry business events rather than a model release.</p></details>
-</article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
-    <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+  <h3 class="tile-title"><a href="https://openai.com/index/reimagining-advertising-with-ai" rel="noopener noreferrer" target="_blank">Reimagining advertising with AI</a></h3>
+  <p class="tile-summary">Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T13:00:00.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — OpenAI&#39;s official announcement of AI-powered advertising products (Sponsored Agents, marketer tools, HubSpot/Shopify integrations) is a non-model product launch with a company announcement link, matching R3 industry business events rather than a model release.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/" rel="noopener noreferrer" target="_blank">Former Infosys chief’s AI startup nabs another $53M</a></h3>
-  <p class="item-summary">The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI startup financing event (seed funding round) via reputable media coverage, matching R3&#39;s industry business events criteria.</p></details>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/" rel="noopener noreferrer" target="_blank">Former Infosys chief’s AI startup nabs another $53M</a></h3>
+  <p class="tile-summary">The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-16T13:00:00.000Z">2026-09-16</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI startup financing event (seed funding round) via reputable media coverage, matching R3&#39;s industry business events criteria.</p></details>
+  </div>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">TechCrunch AI</span>
-    <span class="dot" aria-hidden="true">·</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/" rel="noopener noreferrer" target="_blank">Amazon launches Alexa+ in India with Hindi support</a></h3>
+  <p class="tile-summary">Amazon is letting all customers use Alexa+ assistant in early access period.</p>
+  <div class="tile-foot">
     <time datetime="2026-09-16T10:34:47.000Z">2026-09-16</time>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media coverage of Amazon expanding its Alexa+ AI assistant to India (Hindi support), a non-model product launch. No official Amazon owner announcement link, so R1 does not apply; R3 covers non-model product launches with reputable media reports.</p></details>
   </div>
-  <h3 class="item-title"><a href="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/" rel="noopener noreferrer" target="_blank">Amazon launches Alexa+ in India with Hindi support</a></h3>
-  <p class="item-summary">Amazon is letting all customers use Alexa+ assistant in early access period.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media coverage of Amazon expanding its Alexa+ AI assistant to India (Hindi support), a non-model product launch. No official Amazon owner announcement link, so R1 does not apply; R3 covers non-model product launches with reputable media reports.</p></details>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">Ars Technica AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T18:33:02.000Z">2026-09-15</time>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/" rel="noopener noreferrer" target="_blank">Agility’s new humanoid robot will stop, squat to avoid harming human coworkers</a></h3>
-  <p class="item-summary">Robots can start working outside physical cages and without safety barriers.</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Non-model product launch (humanoid robot hardware with new safety behavior) reported by reputable media (Ars Technica); no official owner model announcement, so R1 does not apply. Fits R3 industry product launch.</p></details>
+  <h3 class="tile-title"><a href="https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/" rel="noopener noreferrer" target="_blank">Agility’s new humanoid robot will stop, squat to avoid harming human coworkers</a></h3>
+  <p class="tile-summary">Robots can start working outside physical cages and without safety barriers.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-15T18:33:02.000Z">2026-09-15</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Non-model product launch (humanoid robot hardware with new safety behavior) reported by reputable media (Ars Technica); no official owner model announcement, so R1 does not apply. Fits R3 industry product launch.</p></details>
+  </div>
 </article>
-<article class="item" data-category="model-releases">
-  <div class="item-kicker">
+<article class="tile tile-wide tile-solid" data-category="model-releases">
+  <div class="tile-meta">
     <span class="cat cat-model-releases">Models</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">Google DeepMind Blog</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T17:05:57.000Z">2026-09-15</time>
     <span class="rule-tag"><a href="#rule-R1">R1</a></span>
   </div>
-  <h3 class="item-title"><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" rel="noopener noreferrer" target="_blank">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a></h3>
-  <p class="item-summary">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R1</code> · ruleset <code>ffc8ebab6b0a</code> — Official Google DeepMind blog announcement of a new model version (Gemini 3.8 Live) from the model owner with a link to the official announcement, matching R1 model-releases.</p></details>
+  <h3 class="tile-title"><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" rel="noopener noreferrer" target="_blank">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a></h3>
+  <p class="tile-summary">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-15T17:05:57.000Z">2026-09-15</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R1</code> · ruleset <code>ffc8ebab6b0a</code> — Official Google DeepMind blog announcement of a new model version (Gemini 3.8 Live) from the model owner with a link to the official announcement, matching R1 model-releases.</p></details>
+  </div>
 </article>
-<article class="item" data-category="industry">
-  <div class="item-kicker">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
-    <span class="dot" aria-hidden="true">·</span>
     <span class="src">The Verge AI</span>
-    <span class="dot" aria-hidden="true">·</span>
-    <time datetime="2026-09-15T15:00:00.000Z">2026-09-15</time>
     <span class="rule-tag"><a href="#rule-R3">R3</a></span>
   </div>
-  <h3 class="item-title"><a href="https://www.theverge.com/tech/995453/meta-one-subscriptions-ai" rel="noopener noreferrer" target="_blank">Meta&amp;#8217;s new One subscriptions put a price on social media and AI</a></h3>
-  <p class="item-summary">Shortly after launching its new do-everything AI assistant Muse, Meta&#39;s launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today</p>
-  <details class="item-why"><summary>Why this is here</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Meta&#39;s launch of Meta One subscription bundles pairing app subscriptions with extra AI usage is a non-model product/business launch, covered by reputable media (The Verge). Not a model release under R1.</p></details>
+  <h3 class="tile-title"><a href="https://www.theverge.com/tech/995453/meta-one-subscriptions-ai" rel="noopener noreferrer" target="_blank">Meta&amp;#8217;s new One subscriptions put a price on social media and AI</a></h3>
+  <p class="tile-summary">Shortly after launching its new do-everything AI assistant Muse, Meta&#39;s launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-15T15:00:00.000Z">2026-09-15</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Meta&#39;s launch of Meta One subscription bundles pairing app subscriptions with extra AI usage is a non-model product/business launch, covered by reputable media (The Verge). Not a model release under R1.</p></details>
+  </div>
 </article>
       </div>
-      <p class="empty" id="empty-filter" hidden><strong>Nothing here.</strong> No items in this category for the last 5 days. Try All, or check back after the next pipeline run.</p>
+      <p class="empty" id="empty-filter" hidden><strong>Nothing here.</strong> No items in this category for the last 5 days. Try all, or check back after the next pipeline run.</p>
     </section>
 
     <section class="block" id="vote">
@@ -1041,7 +998,7 @@
 <script>
 (function () {
   var tabs = document.querySelectorAll('.tab');
-  var items = document.querySelectorAll('#feed .item');
+  var items = document.querySelectorAll('#feed .tile, #feed .item');
   var empty = document.getElementById('empty-filter');
   var emptyAll = document.querySelector('#feed p.empty');
 
