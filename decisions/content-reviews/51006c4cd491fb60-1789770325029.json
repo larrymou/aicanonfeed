@@ -1,0 +1,15 @@
+{
+  "urlHash": "51006c4cd491fb60",
+  "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Introducing Kimi K3 on Amazon Bedrock",
+  "summary": "Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs.",
+  "pubDate": "2026-09-18T16:52:01.000Z",
+  "decidedAt": "2026-09-18T22:24:26.026Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "R3",
+  "reason": "AWS announces availability of Kimi K3 on Amazon Bedrock; this is a cloud vendor product/partnership announcement, not the model owner's official release (R1) nor an OSS repo release (R5), so it falls under R3 industry business events.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

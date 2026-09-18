@@ -1,0 +1,15 @@
+{
+  "urlHash": "5cd3037856446865",
+  "url": "https://arxiv.org/abs/2609.19425",
+  "sourceName": "arXiv cs.AI",
+  "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
+  "summary": "arXiv:2609.19425v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents fail in a way no tool-selection or tool-security method addresses: they call tools that do not exist and pass arguments no schema declares. Existing defenses either pick the right too",
+  "pubDate": "2026-09-18T04:00:00.000Z",
+  "decidedAt": "2026-09-18T22:24:26.026Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint presenting a primary research artifact (a method for resolving tool hallucination in LLM agents), linked directly to the paper page. Fits R2 as a preprint with the original paper link.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

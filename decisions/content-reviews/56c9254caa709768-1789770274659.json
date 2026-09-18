@@ -1,0 +1,15 @@
+{
+  "urlHash": "56c9254caa709768",
+  "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+  "summary": "Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and",
+  "pubDate": "2026-09-18T20:52:14.000Z",
+  "decidedAt": "2026-09-18T22:24:26.026Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "R3",
+  "reason": "Vendor blog reviewing non-model SageMaker Inference product/infra launches, with link to the owner's official announcement; matches R3 for non-model product launches (R1 excludes generic product features and infra).",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
