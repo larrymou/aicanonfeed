@@ -1,0 +1,15 @@
+{
+  "urlHash": "da2cb17df8cb821c",
+  "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+  "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path.",
+  "pubDate": "2026-09-18T15:25:23.000Z",
+  "decidedAt": "2026-09-18T16:07:07.300Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "R3",
+  "reason": "AWS company blog announcing a non-model product capability (deploying Hugging Face models on SageMaker AI via coding agents), with a link to the vendor's official announcement. Not a model release (R1), paper (R2), policy (R4), or an OSS project's own repo/release (R5).",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

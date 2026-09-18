@@ -1,0 +1,15 @@
+{
+  "urlHash": "e2cc67e2ab197d07",
+  "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+  "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It reclaims memory as sessions release it and delivers consistent cold starts regardless of image size ",
+  "pubDate": "2026-09-18T15:31:34.000Z",
+  "decidedAt": "2026-09-18T16:07:07.300Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "R3",
+  "reason": "AWS announcement of a new AgentCore runtime capability (infra/product launch, not a model or OSS project) with an official company announcement link. R1 excludes infra and R5 requires open-source, so R3 applies.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

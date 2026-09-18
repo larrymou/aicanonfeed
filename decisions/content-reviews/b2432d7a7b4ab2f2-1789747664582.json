@@ -1,0 +1,15 @@
+{
+  "urlHash": "b2432d7a7b4ab2f2",
+  "url": "https://arxiv.org/abs/2609.19391",
+  "sourceName": "arXiv cs.AI",
+  "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
+  "summary": "arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LL",
+  "pubDate": "2026-09-18T04:00:00.000Z",
+  "decidedAt": "2026-09-18T16:07:07.300Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint presenting a primary research artifact (MAGS multi-agent auto-formalization method) with a direct link to the paper itself. Fits R2 for preprints/technical reports.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
