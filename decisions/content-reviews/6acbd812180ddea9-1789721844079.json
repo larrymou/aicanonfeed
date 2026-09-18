@@ -1,0 +1,15 @@
+{
+  "urlHash": "6acbd812180ddea9",
+  "url": "https://arxiv.org/abs/2609.19180",
+  "sourceName": "arXiv cs.AI",
+  "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+  "summary": "arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitativ",
+  "pubDate": "2026-09-18T04:00:00.000Z",
+  "decidedAt": "2026-09-18T08:57:21.996Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint announcing a new public benchmark (BioPhys-Bridge) with a direct link to the paper page, matching R2's primary research artifact criteria.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
