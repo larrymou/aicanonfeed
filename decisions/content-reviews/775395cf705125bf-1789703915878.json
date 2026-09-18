@@ -1,0 +1,15 @@
+{
+  "urlHash": "775395cf705125bf",
+  "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
+  "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon Quick that reconciles demand surges against live supplier availability and places replenishment orde",
+  "pubDate": "2026-09-14T15:42:06.000Z",
+  "decidedAt": "2026-09-18T03:58:23.357Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog is a how-to integration tutorial (MMF + Databricks Genie + Amazon Quick) building a replenishment workflow; it announces no new model/capability (R1), no primary research artifact (R2), no business event like funding/M&A/partnership (R3), no policy action (R4), and no OSS project release (R",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
