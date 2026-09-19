@@ -1,0 +1,15 @@
+{
+  "urlHash": "6c9b59770160ad85",
+  "url": "https://arxiv.org/abs/2609.19515",
+  "sourceName": "arXiv cs.AI",
+  "title": "LLM-as-an-Improver: Turning Verification into Better Candidates",
+  "summary": "arXiv:2609.19515v1 Announce Type: new Abstract: Verifier-based selection improves LLM performance by generating multiple candidate solutions and using a verifier to select the most promising one. However, existing methods typically treat verification only as a ranking step and di",
+  "pubDate": "2026-09-18T04:00:00.000Z",
+  "decidedAt": "2026-09-19T03:55:47.698Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint (2609.19515) reporting a primary research artifact on verifier-based LLM candidate selection, with a direct link to the paper abstract page.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
