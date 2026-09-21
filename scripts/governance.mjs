@@ -20,7 +20,8 @@ import {
   splitSlug,
   repoSlug,
 } from "../lib/github.mjs";
-import { stageForStars, LABELS, RULE_MAX_CHARS, isCategory } from "../lib/constants.mjs";
+import { stageForStars, LABELS, RULE_MAX_CHARS, isCategory, FOUNDER_LOGIN, FOUNDER_STAR_CEILING } from "../lib/constants.mjs";
+import { tallyVotes, settleOutcome, applyFounderVote } from "../lib/voting.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import {
   loadActiveRules,
@@ -111,51 +112,6 @@ function parseRuleText(body) {
   return text;
 }
 
-function isBot(login) {
-  return /\[bot\]$/i.test(login || "");
-}
-
-function tallyVotes(issue, reactions, authorLogin) {
-  const byUser = new Map();
-  for (const r of reactions) {
-    const login = r.user?.login;
-    const content = r.content;
-    if (!login || login.toLowerCase() === authorLogin?.toLowerCase()) continue;
-    if (isBot(login)) continue;
-    if (!byUser.has(login)) byUser.set(login, new Set());
-    byUser.get(login).add(content);
-  }
-  let up = 0;
-  let down = 0;
-  let voided = 0;
-  const detail = [];
-  for (const [login, set] of byUser) {
-    // Spec: 👍/👎 only
-    const hasUp = set.has("+1");
-    const hasDown = set.has("-1");
-    if (hasUp && hasDown) {
-      voided++;
-      detail.push({ login, vote: "void" });
-      continue;
-    }
-    if (hasUp) {
-      up++;
-      detail.push({ login, vote: "up" });
-    } else if (hasDown) {
-      down++;
-      detail.push({ login, vote: "down" });
-    }
-  }
-  const valid = up + down;
-  return { up, down, voided, valid, detail };
-}
-
-function settleOutcome({ up, down, valid, quorum }) {
-  if (valid < quorum) return "expired_no_quorum";
-  if (up > down) return "ratified";
-  return "defeated";
-}
-
 function ruleFileName(id, category) {
   return `rules/${id}-${category}.md`;
 }
@@ -197,14 +153,23 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
 
   for (const issue of voting) {
     const reactions = await listIssueReactions(issue.number);
-    const tally = tallyVotes(issue, reactions, issue.user?.login);
+    const tally = tallyVotes(reactions, issue.user?.login);
+    const { founderVote } = applyFounderVote({
+      stars,
+      reactions,
+      founderLogin: FOUNDER_LOGIN,
+      ceiling: FOUNDER_STAR_CEILING,
+    });
     let outcome = settleOutcome({
       up: tally.up,
       down: tally.down,
       valid: tally.valid,
       quorum: stageInfo.quorum,
+      founderVote,
     });
-    log(`  #${issue.number} → ${outcome} (👍${tally.up} 👎${tally.down})`);
+    log(
+      `  #${issue.number} → ${outcome} (👍${tally.up} 👎${tally.down}${founderVote ? " founderVote" : ""})`,
+    );
 
     let prNumber = null;
     let prUrl = null;
@@ -259,7 +224,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
             path: filePath,
             content,
             title: `Rule ${nextId}: ${category} (issue #${issue.number})`,
-            body: `Ratified community proposal #${issue.number}.\n\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}`,
+            body: `Ratified community proposal #${issue.number}.\n\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, stars < ${FOUNDER_STAR_CEILING})` : ""}`,
           });
           prNumber = pr.number;
           prUrl = pr.html_url;
@@ -332,6 +297,9 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
       "",
       `- valid votes: ${tally.valid} (quorum ${stageInfo.quorum}, stage ${stageInfo.stage}, stars ${stars})`,
       `- 👍 ${tally.up} / 👎 ${tally.down} (void ${tally.voided})`,
+      founderVote
+        ? `- **founder casting vote (F1):** yes — \`${FOUNDER_LOGIN}\` 👍 while stars < ${FOUNDER_STAR_CEILING}`
+        : "",
       prUrl ? `- PR: ${prUrl}` : "",
       guardError ? `- guard: ${guardError}` : "",
       outcome === "ratified_pending_merge"
@@ -352,6 +320,8 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
       stars,
       stage: stageInfo.stage,
       quorum: stageInfo.quorum,
+      founderVote,
+      founderLogin: founderVote ? FOUNDER_LOGIN : null,
       prNumber,
       guardError,
       skippedMerge,

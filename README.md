@@ -51,10 +51,17 @@ Quorum never goes below **3**.
 
 Stage is evaluated at settlement time from the repository star count. Thresholds are code constants (`lib/constants.mjs`) and cannot be changed by proposals (meta-rule M5). At **S0**, ratified rule PRs are **not auto-merged** — a maintainer must merge.
 
+### Founder casting vote (F1)
+
+While repository stars are **&lt; 100**, the founder login (`lib/constants.mjs` → `FOUNDER_LOGIN`) may 👍 a `voting` issue as a **casting vote**: settlement may ratify even when public quorum is not met. The founder is still excluded from the **public** tally (author/bot rules unchanged). 👎 or void from the founder does **not** cast. Settlement records `founderVote` / `founderLogin` in `decisions/rule-reviews/` and in the Issue/PR text.
+
+At **≥ 100 stars**, F1 turns off; normal quorum and majority apply. S0 still requires a human merge after any ratify.
+
 ## Participate
 
 - Open a **Rule Proposal** issue (template). English, actionable inclusion text only.
-- Vote on issues labeled `voting` with 👍 / 👎. Authors cannot count their own reactions.
+- Vote on issues labeled `voting` with 👍 / 👎. Authors cannot count their own reactions. **Ties are defeated.**
+- Under **&lt; 100 stars**, the founder may cast a single ratify vote (see F1 above).
 - Rules take effect only after vote settlement + PR merge (plan for **1–2 weeks** end-to-end).
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).

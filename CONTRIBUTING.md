@@ -20,7 +20,9 @@ All product surfaces are **English**: rules, proposals, issue comments from the 
 - Only issues labeled `voting` count.
 - One user: 👍 and 👍 is one up-vote; 👍 and 👎 together is a **void** vote.
 - Author and bots are excluded.
+- **Ties are defeated** (need `up > down` after quorum).
 - Quorum depends on repository stars (see README) and **never drops below 3**. Stage S0 still requires maintainer merge (no auto-merge).
+- **Founder seat (F1):** while stars **&lt; 100**, `FOUNDER_LOGIN` (see `lib/constants.mjs`) may 👍 as a casting vote that can ratify without public quorum. The founder remains excluded from the public tally; 👎/void does not cast. At **≥ 100 stars** F1 is inactive. Settlement audits `founderVote` in `decisions/`.
 
 ## Maintainers
 

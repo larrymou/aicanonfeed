@@ -54,6 +54,18 @@ In **Settings → Actions → General**:
 - Review any change to `.github/workflows/**` carefully before merging — workflows can read secrets on the next run.
 - Prefer squash-merging bot PRs; do not run unsandboxed third-party Actions you do not trust (pin major versions you recognize).
 
+## Cold-start founder seat (F1)
+
+Under **&lt; 100 stars**, `FOUNDER_LOGIN` may cast one ratify vote on `voting` issues (F1). This exists so the project can exercise the full governance loop before a community forms; it is **not** a hidden override:
+
+- Coded in `lib/constants.mjs` + `lib/voting.mjs` (not changeable by Rule Proposals — M5)
+- Public tally still excludes the founder-as-author; F1 is separate from quorum math
+- Every settlement writes `founderVote` / `founderLogin` into `decisions/rule-reviews/`
+- S0 still blocks auto-merge; a human must merge the rule PR
+- F1 deactivates automatically at **≥ 100 stars**
+
+If the founder key/account is compromised while F1 is active, assume rule ratify is compromised until stars are audited and accounts rotated.
+
 ## Labels (create before first production run)
 
 See [`.github/LABELS.md`](../.github/LABELS.md):
