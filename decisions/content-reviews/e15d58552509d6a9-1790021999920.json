@@ -1,0 +1,15 @@
+{
+  "urlHash": "e15d58552509d6a9",
+  "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Run Positron on Amazon SageMaker AI for data science workflows",
+  "summary": "Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XGBoost model in Python, deploys a real-time SageMaker AI endpoint, and reports results with Quarto, a",
+  "pubDate": "2026-09-21T16:34:21.000Z",
+  "decidedAt": "2026-09-21T20:19:38.258Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS how-to/tutorial showing Positron running on SageMaker AI. Not a model release (R1), research artifact (R2), business event like financing/M&A/partnership/non-model product launch (R3), policy action (R4), or OSS project release with a repo/release/docs primary link (R5). No rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

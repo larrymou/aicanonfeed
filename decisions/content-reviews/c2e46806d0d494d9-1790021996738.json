@@ -1,0 +1,15 @@
+{
+  "urlHash": "c2e46806d0d494d9",
+  "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+  "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, moving from reactive dashboards to proactive alerts using Prophet forecasting, AWS Step Functions, and a serverless pipelin",
+  "pubDate": "2026-09-21T16:36:10.000Z",
+  "decidedAt": "2026-09-21T20:19:38.258Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS customer case study about BMW's internal cost anomaly detection pipeline. Not a model release, research artifact, industry business event, policy action, or OSS project release, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

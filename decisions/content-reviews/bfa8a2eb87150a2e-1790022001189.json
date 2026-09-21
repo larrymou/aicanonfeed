@@ -1,0 +1,15 @@
+{
+  "urlHash": "bfa8a2eb87150a2e",
+  "url": "https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore",
+  "summary": "Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences tenants using Amazon Bedrock AgentCore Code Interpreter in VPC mode, combined with Amazon Route 53 Resolver DNS Firewall and V",
+  "pubDate": "2026-09-21T16:27:34.000Z",
+  "decidedAt": "2026-09-21T20:19:38.258Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS customer case study showcasing Bedrock AgentCore security architecture. Not a model release, research paper, business event, policy action, or OSS project release, so no rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
