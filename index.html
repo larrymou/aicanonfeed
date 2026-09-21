@@ -170,6 +170,13 @@
     text-transform: uppercase;
     color: var(--muted);
   }
+  .block-meta {
+    margin: 0.35rem 0 0;
+    color: var(--dim);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 
   /* —— Pivot tabs —— */
   .rail-wrap {
@@ -549,7 +556,7 @@
         <span class="live-dot" aria-hidden="true"></span>
         <span class="live-label">Live</span>
         <span>Shared window · last 5 days</span>
-        <strong>32</strong>
+        <strong>42</strong>
         <span>included</span>
         <span class="gov">S0 · quorum 3 · 0★</span>
       </p>
@@ -573,9 +580,10 @@
       <div class="block-head">
         <h2 class="block-title">Shared window</h2>
       </div>
+      <p class="block-meta">Display caps · 25 per category · research 10 · balance by policy</p>
       <div class="rail-wrap">
         <div class="rail" role="tablist" aria-label="Filter by category">
-          <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">32</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">0</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">15</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">1</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">6</span></button>
+          <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">42</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">0</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">25</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">1</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">6</span></button>
         </div>
       </div>
       <div id="feed">
@@ -891,6 +899,32 @@
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — AWS product launch (SageMaker HyperPod Inference Gateway), a non-model infrastructure feature announced via the vendor&#39;s official blog. Not a model release (R1), research artifact (R2), or open-source repo release (R5), so it falls under R3 industry product launches.</p></details>
   </div>
 </article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">AI News</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://www.artificialintelligence-news.com/news/fulcra-brings-universal-multiplayer-to-any-agents-you-choose/" rel="noopener noreferrer" target="_blank">Fulcra Brings Universal Multiplayer to Any Agents You Choose </a></h3>
+  <p class="tile-summary">The Instinct-to-Instinct model that is the talk of Silicon Valley presents too small a future for personal AI. With Fulcra’s multiplayer capabilities, people can get agent to agent collaboration without having to lock-in to any AI model. BOSTON, September 18, 2026 — Fulcra Dynami</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-18T09:15:15.000Z">2026-09-18</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Item reports a non-model product launch (Fulcra&#39;s multiplayer agent collaboration) via reputable media (AI News), matching industry business events under R3. No official owner model announcement link, so R1 does not apply.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">Wired AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers/" rel="noopener noreferrer" target="_blank">Napster Is Back, and It Wants to Digitally Clone Teachers</a></h3>
+  <p class="tile-summary">Once the music industry’s biggest headache, Napster’s next act is bringing AI to the classroom.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-18T09:15:00.000Z">2026-09-18</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reputable media report on Napster&#39;s relaunch as an AI education product—a non-model product/business event, covered by R3 industry rules.</p></details>
+  </div>
+</article>
 <article class="tile is-research" data-category="research">
   <div class="tile-meta">
     <span class="cat cat-research">Research</span>
@@ -969,6 +1003,97 @@
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint presenting a primary research artifact (a method for resolving tool hallucination in LLM agents), linked directly to the paper page. Fits R2 as a preprint with the original paper link.</p></details>
   </div>
 </article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/" rel="noopener noreferrer" target="_blank">Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’</a></h3>
+  <p class="tile-summary">The round values the data center giant at $30.9 billion.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T23:25:52.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports an AI industry financing event: Crusoe raises $3.9B at a $30.9B valuation, covered by reputable media (TechCrunch). Matches R3 industry business events.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/" rel="noopener noreferrer" target="_blank">PrismML hopes its tiny LLM could change how we all use AI</a></h3>
+  <p class="tile-summary">If AI lab PrismML isn&#39;t on your radar yet, it should be.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T22:34:09.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — TechCrunch media coverage of PrismML&#39;s tiny LLM launch; no official owner announcement link, so per rules media-only model-launch coverage falls under R3 industry.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/" rel="noopener noreferrer" target="_blank">The FAA’s plan to fix air traffic? $875 million worth of AI</a></h3>
+  <p class="tile-summary">A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America&#39;s skies.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T22:14:59.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports a concrete AI industry business event: the FAA&#39;s $875M plan/procurement to deploy AI air-traffic software, covered by reputable media (TechCrunch). It is a funding/deal event, not a model release, research artifact, regulation, or OSS project.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">Ars Technica AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/" rel="noopener noreferrer" target="_blank">Small AI models let drones autonomously identify and attack battlefield targets</a></h3>
+  <p class="tile-summary">Scaleout deploys decentralized AI-driven learning to military bases and drones.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T22:12:58.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Ars Technica coverage of NATO-backed startup Scaleout deploying AI-driven autonomy for military drones and bases; a company product/deployment event reported by reputable media, with no official model owner announcement (R1/R2 inapplicable).</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">Ars Technica AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/" rel="noopener noreferrer" target="_blank">Google announces new experimental &quot;CC&quot; AI agent for families</a></h3>
+  <p class="tile-summary">Multiple family members can share data to help the agent make plans and complete tasks.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T20:24:34.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Media-only coverage of a Google product launch (an experimental family AI agent) with no official owner link; per R1 guidance such media-only stories belong under R3 non-model product launches via a reputable media report.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/" rel="noopener noreferrer" target="_blank">UN turns to Google to make its global data ready for AI agents</a></h3>
+  <p class="tile-summary">The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T20:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Reports a partnership/business initiative between the UN and Google on preparing global data for AI agents, covered by reputable media (TechCrunch), matching R3 for AI industry business events.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">Google AI Blog</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/" rel="noopener noreferrer" target="_blank">Making global data easier to explore</a></h3>
+  <p class="tile-summary">Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T20:00:00.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Google and the UN launched the UN System Data Commons platform, a non-model product launch announced on Google&#39;s official blog, matching R3 industry business/product events.</p></details>
+  </div>
+</article>
 <article class="tile" data-category="policy">
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
@@ -980,6 +1105,19 @@
   <div class="tile-foot">
     <time datetime="2026-09-17T19:46:08.000Z">2026-09-17</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R4</code> · ruleset <code>ffc8ebab6b0a</code> — Reports a concrete court action — newly unsealed filings in AI data-scraping litigation — with reputable coverage of the legal/enforcement event, fitting AI enforcement/legal actions by courts.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">The Verge AI</span>
+    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects" rel="noopener noreferrer" target="_blank">Claude Code relaunches Projects to manage multiple AI agents in the cloud</a></h3>
+  <p class="tile-summary">The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has &quot;threads&quot; running different</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-17T18:58:05.000Z">2026-09-17</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R3</code> · ruleset <code>ffc8ebab6b0a</code> — Verge coverage of a non-model product launch (Claude Code Projects feature for managing multiple agents). Not a new model/capability release with owner link (R1 inapplicable) and not OSS tooling (R5). Fits R3 as a non-model product launch reported by reputable media.</p></details>
   </div>
 </article>
 <article class="tile" data-category="tools-oss">
