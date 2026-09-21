@@ -1,0 +1,15 @@
+{
+  "urlHash": "4ecf381bc5488209",
+  "url": "https://arxiv.org/abs/2609.21139",
+  "sourceName": "arXiv cs.AI",
+  "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+  "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framewo",
+  "pubDate": "2026-09-21T04:00:00.000Z",
+  "decidedAt": "2026-09-21T10:21:23.270Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint link to a primary research artifact (TinyCeNN-LM conversion framework), satisfying R2 which covers preprints with a direct link to the paper.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

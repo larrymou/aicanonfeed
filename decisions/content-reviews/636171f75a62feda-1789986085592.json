@@ -1,0 +1,15 @@
+{
+  "urlHash": "636171f75a62feda",
+  "url": "https://arxiv.org/abs/2609.21096",
+  "sourceName": "arXiv cs.AI",
+  "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+  "summary": "arXiv:2609.21096v1 Announce Type: new Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural pattern",
+  "pubDate": "2026-09-21T04:00:00.000Z",
+  "decidedAt": "2026-09-21T10:21:23.270Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint presenting a primary research artifact (paper) on detecting LLM hallucination via attention-graph topology, with a direct link to the paper page.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
