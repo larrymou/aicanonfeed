@@ -1,0 +1,15 @@
+{
+  "urlHash": "7517c50358dbe9ce",
+  "url": "https://arxiv.org/abs/2609.20971",
+  "sourceName": "arXiv cs.AI",
+  "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+  "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
+  "pubDate": "2026-09-21T04:00:00.000Z",
+  "decidedAt": "2026-09-21T04:10:46.324Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint (arXiv:2609.20971) presenting a primary research artifact: a radius-bounded sparse prefill method for long-context LLM inference, with a direct link to the paper page.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}

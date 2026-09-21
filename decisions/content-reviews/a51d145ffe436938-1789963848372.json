@@ -1,0 +1,15 @@
+{
+  "urlHash": "a51d145ffe436938",
+  "url": "https://arxiv.org/abs/2609.20974",
+  "sourceName": "arXiv cs.AI",
+  "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+  "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router",
+  "pubDate": "2026-09-21T04:00:00.000Z",
+  "decidedAt": "2026-09-21T04:10:46.324Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "R2",
+  "reason": "arXiv preprint announcing a primary research artifact (Attention-Aware Routing method for MoE models) with a direct link to the paper itself. Fits R2 research.",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
