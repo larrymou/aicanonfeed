@@ -11,7 +11,7 @@
     "governance": "node scripts/governance.mjs",
     "pipeline": "node scripts/pipeline.mjs",
     "build-pages": "node scripts/build-pages.mjs",
-    "test": "node --test test/constants-hash.test.mjs"
+    "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"

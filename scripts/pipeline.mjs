@@ -10,6 +10,7 @@ import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadSeenHashes, appendIndex } from "../lib/hash.mjs";
 import { rulesFingerprint } from "../lib/fingerprint.mjs";
+import { fetchFeedText, sanitizeRssXml } from "../lib/feed-xml.mjs";
 
 const ROOT = process.cwd();
 const contentDir = path.join(ROOT, "decisions", "content-reviews");
@@ -122,13 +123,8 @@ async function main() {
   let skippedNoDate = 0;
   for (const feed of feeds.rss || []) {
     try {
-      // rss-parser timeout is unreliable for some hosts; enforce our own
-      const parsed = await Promise.race([
-        parser.parseURL(feed.url),
-        new Promise((_, reject) =>
-          setTimeout(() => reject(new Error(`feed timeout: ${feed.name}`)), 25000),
-        ),
-      ]);
+      const xml = sanitizeRssXml(await fetchFeedText(feed.url, { timeoutMs: 25000 }));
+      const parsed = await parser.parseString(xml);
       const items = parsed.items || [];
       log(`${feed.name}: ${items.length} items`);
       for (const it of items) {
