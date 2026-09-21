@@ -94,7 +94,6 @@ async function moderateOne(item, rules, promptBody) {
 
 async function main() {
   const parser = new Parser({
-    timeout: 20000,
     customFields: {
       item: [
         ["media:content", "mediaContent", { keepArray: true }],
