@@ -45,7 +45,7 @@ test("content window is 5 days", () => {
 test("display caps keep research tighter than other categories", () => {
   assert.ok(PAGE_MAX_RESEARCH < PAGE_MAX_PER_CATEGORY);
   assert.equal(PAGE_MAX_RESEARCH, 10);
-  assert.equal(PAGE_MAX_PER_CATEGORY, 15);
+  assert.equal(PAGE_MAX_PER_CATEGORY, 25);
 });
 
 test("scanRuleText blocks injection patterns", async () => {
