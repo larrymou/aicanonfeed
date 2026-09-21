@@ -7,13 +7,17 @@ All product surfaces are **English**: rules, proposals, issue comments from the 
 ## Propose a rule
 
 1. Open a **Rule Proposal** issue.
-2. Write a complete, executable inclusion determination (or keep it rejected under meta-rules).
-3. The next governance cycle runs AI pre-review against meta-rules M1–M7. Tooling errors leave the proposal open for retry (they do not reject it).
-4. If it passes, the issue is labeled `voting`. React 👍 or 👎.
-5. Proposals that add personalization, engagement ranking, or per-user feeds fail under meta-rule **M7**.
-6. The following cycle settles the vote using the **pre-review snapshot** of category/rule text. If the issue body was edited after pre-review, settlement rejects it. If ratified, a bot PR adds a rule file and merges it (S0 requires a maintainer merge).
+2. Set **Proposal Type**:
+   - `new` — create a rule
+   - `amend` — **replace** rule text (and optionally category) for an existing `## Target Rule` (e.g. `R3`)
+   - `revoke` — mark the target rule `status: revoked` (pipeline stops using it); Rule Text is the public justification
+3. Write a complete, executable inclusion determination (or keep it rejected under meta-rules). For `amend`, paste the **full new rule text**, not a diff.
+4. The next governance cycle runs AI pre-review against meta-rules M1–M7. Structural failures (bad type, missing target) reject without an LLM call. Tooling errors leave the proposal open for retry (they do not reject it).
+5. If it passes, the issue is labeled `voting`. React 👍 or 👎.
+6. Proposals that add personalization, engagement ranking, or per-user feeds fail under meta-rule **M7**.
+7. The following cycle settles the vote using the **pre-review snapshot** of type/target/category/rule text. If the issue body was edited after pre-review, settlement rejects it. If ratified, a bot PR updates the rule file on `main` (S0 requires a maintainer merge).
 
-**Timeline:** expect about 8–14 days from proposal to an active rule.
+**Timeline:** expect about 8–14 days from proposal to an active rule (shorter when the founder casting vote applies — see Vote).
 
 ## Vote
 

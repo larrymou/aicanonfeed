@@ -28,6 +28,9 @@ import {
   reservedRuleIds,
   ruleIdsFromBranches,
   nextFreeRuleId,
+  findRuleFile,
+  parseTargetRule,
+  buildRuleFile,
 } from "../lib/rules.mjs";
 import { scanRuleText } from "../lib/rule-guard.mjs";
 
@@ -116,22 +119,6 @@ function ruleFileName(id, category) {
   return `rules/${id}-${category}.md`;
 }
 
-function buildRuleFile({ id, category, text }) {
-  const today = new Date().toISOString().slice(0, 10);
-  return [
-    "---",
-    `id: ${id}`,
-    "status: active",
-    "source: community",
-    `category: ${category}`,
-    `effective_at: ${today}`,
-    "---",
-    "",
-    text,
-    "",
-  ].join("\n");
-}
-
 function guardRule({ text, category, nextId, existingIds }) {
   if (!text || text.length < 20) return "Rule text too short";
   if (text.length > RULE_MAX_CHARS) return "Rule text too long";
@@ -177,95 +164,201 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
     let guardError = null;
 
     if (outcome === "ratified") {
-      const pType = parseProposalType(issue.body || "");
+      const snap = loadSnapshot(issue.number);
+      const pType = snap?.proposalType || parseProposalType(issue.body || "");
       let category = parseCategory(issue.body || "");
       let text = parseRuleText(issue.body || "");
+      let targetRuleId = snap?.targetRuleId || parseTargetRule(issue.body || "");
 
       // Prefer the pre-review snapshot so post-vote body edits cannot change the rule.
-      const snap = loadSnapshot(issue.number);
-      if (snap?.category && snap?.ruleText) {
+      if (snap?.ruleText) {
         const liveCategory = parseCategory(issue.body || "");
         const liveText = parseRuleText(issue.body || "");
+        const liveTarget = parseTargetRule(issue.body || "");
         if (
-          (liveCategory && liveCategory !== snap.category) ||
-          (liveText && liveText.trim() !== String(snap.ruleText).trim())
+          (liveCategory && snap.category && liveCategory !== snap.category) ||
+          (liveText && liveText.trim() !== String(snap.ruleText).trim()) ||
+          (liveTarget && snap.targetRuleId && liveTarget !== snap.targetRuleId)
         ) {
           guardError = "Issue body changed after pre-review snapshot";
           outcome = "rejected_by_guard";
-        } else {
-          category = snap.category;
-          text = snap.ruleText;
+        } else if (snap.category || snap.ruleText) {
+          category = snap.category || category;
+          text = snap.ruleText || text;
+          targetRuleId = snap.targetRuleId || targetRuleId;
         }
       }
 
-      if (outcome === "ratified" && pType !== "new") {
-        guardError = `MVP supports new only (got ${pType})`;
+      if (outcome === "ratified" && !["new", "amend", "revoke"].includes(pType)) {
+        guardError = `Unsupported proposal type (${pType})`;
         outcome = "rejected_by_guard";
       } else if (outcome === "ratified") {
-        const nextId = nextFreeRuleId(usedIds);
-        const guardMsg = guardRule({
-          text,
-          category: isCategory(category) ? category : null,
-          nextId,
-          existingIds: usedIds,
-        });
-        if (guardMsg) {
-          guardError = guardMsg;
-          outcome = "rejected_by_guard";
-        } else {
-          const filePath = ruleFileName(nextId, category);
-          const content = buildRuleFile({ id: nextId, category, text });
-          const branch = `rule/${nextId.toLowerCase()}-from-${issue.number}`;
-          const pr = await upsertFilePr({
-            owner,
-            repo,
-            branch,
-            base: "main",
-            path: filePath,
-            content,
-            title: `Rule ${nextId}: ${category} (issue #${issue.number})`,
-            body: `Ratified community proposal #${issue.number}.\n\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, stars < ${FOUNDER_STAR_CEILING})` : ""}`,
+        if (pType === "new") {
+          const nextId = nextFreeRuleId(usedIds);
+          const guardMsg = guardRule({
+            text,
+            category: isCategory(category) ? category : null,
+            nextId,
+            existingIds: usedIds,
           });
-          prNumber = pr.number;
-          prUrl = pr.html_url;
-          usedIds.add(nextId);
-          // Persist prNumber so recover can find the PR even if branch listing fails.
-          writeSnapshot(issue.number, {
-            issueNumber: issue.number,
-            category,
-            ruleText: text,
-            ruleId: nextId,
-            prNumber: pr.number,
-            branch,
-            snapshotAt: new Date().toISOString(),
-          });
-          const prFull = await getPull(prNumber);
-          const labels = (prFull.labels || []).map((l) => l.name);
-          // S0: quorum is already ≥3; still require a human merge before the charter changes.
-          if (stageInfo.stage === "S0") {
-            skippedMerge = true;
-            await comment(
-              issue.number,
-              `S0 safety: PR #${prNumber} opened but **not auto-merged**. A maintainer must merge to activate ${nextId}.`,
-            );
-          } else if (labels.includes(LABELS.doNotMerge)) {
-            skippedMerge = true;
-            await comment(
-              issue.number,
-              `Maintainer kill switch: PR #${prNumber} has \`do-not-merge\`. Not auto-merging.`,
-            );
+          if (guardMsg) {
+            guardError = guardMsg;
+            outcome = "rejected_by_guard";
           } else {
-            try {
-              await mergePullRequest(prNumber);
-              await comment(issue.number, `Merged PR #${prNumber} — rule ${nextId} is now active.`);
-            } catch (err) {
-              skippedMerge = true;
-              await comment(
-                issue.number,
-                `PR #${prNumber} opened but merge failed: ${String(err.message).slice(0, 200)}`,
-              );
+            const filePath = ruleFileName(nextId, category);
+            const content = buildRuleFile({
+              id: nextId,
+              category,
+              text,
+              status: "active",
+              source: "community",
+            });
+            const branch = `rule/${nextId.toLowerCase()}-from-${issue.number}`;
+            const pr = await upsertFilePr({
+              owner,
+              repo,
+              branch,
+              base: "main",
+              path: filePath,
+              content,
+              title: `Rule ${nextId}: ${category} (issue #${issue.number})`,
+              body: `Ratified community proposal #${issue.number}.\n\n**type:** new\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, stars < ${FOUNDER_STAR_CEILING})` : ""}`,
+            });
+            prNumber = pr.number;
+            prUrl = pr.html_url;
+            usedIds.add(nextId);
+            writeSnapshot(issue.number, {
+              issueNumber: issue.number,
+              category,
+              ruleText: text,
+              proposalType: "new",
+              ruleId: nextId,
+              prNumber: pr.number,
+              branch,
+              snapshotAt: new Date().toISOString(),
+            });
+            await finishPr({ issue, prNumber, nextId, type: "new" });
+          }
+        } else {
+          // amend | revoke — same R# file path on disk
+          if (!targetRuleId || !/^R\d+$/.test(targetRuleId)) {
+            guardError = "Missing or invalid ## Target Rule (e.g. R3)";
+            outcome = "rejected_by_guard";
+          } else {
+            const existing = findRuleFile(path.join(ROOT, "rules"), targetRuleId);
+            if (!existing) {
+              guardError = `Target rule ${targetRuleId} not found on disk`;
+              outcome = "rejected_by_guard";
+            } else {
+              const ruleCategory =
+                pType === "revoke"
+                  ? existing.category
+                  : isCategory(category)
+                    ? category
+                    : existing.category;
+              if (pType === "amend") {
+                if (!text || text.length < 20 || text.length > RULE_MAX_CHARS) {
+                  guardError = "Amend rule text length invalid";
+                  outcome = "rejected_by_guard";
+                } else if (!isCategory(ruleCategory)) {
+                  guardError = "Invalid category";
+                  outcome = "rejected_by_guard";
+                } else if (scanRuleText(text)) {
+                  guardError = `Rule text rejected (${scanRuleText(text)})`;
+                  outcome = "rejected_by_guard";
+                }
+              } else {
+                // revoke: Rule Text is the public justification
+                if (!text || text.length < 20 || text.length > RULE_MAX_CHARS) {
+                  guardError = "Revoke justification length invalid";
+                  outcome = "rejected_by_guard";
+                } else if (scanRuleText(text)) {
+                  guardError = "Revoke justification failed safety scan";
+                  outcome = "rejected_by_guard";
+                }
+              }
+
+              if (outcome === "ratified") {
+                const today = new Date().toISOString().slice(0, 10);
+                const content =
+                  pType === "amend"
+                    ? buildRuleFile({
+                        id: targetRuleId,
+                        category: ruleCategory,
+                        text,
+                        status: "active",
+                        source: "community",
+                      })
+                    : buildRuleFile({
+                        id: targetRuleId,
+                        category: ruleCategory,
+                        text,
+                        status: "revoked",
+                        source: "community-revoke",
+                        revokedAt: today,
+                      });
+                const n = targetRuleId.replace(/^R/i, "");
+                const branch = `rule/r${n}-from-${issue.number}`;
+                const pr = await upsertFilePr({
+                  owner,
+                  repo,
+                  branch,
+                  base: "main",
+                  path: existing.path,
+                  content,
+                  title: `Rule ${targetRuleId}: ${pType} (issue #${issue.number})`,
+                  body: `Ratified community proposal #${issue.number}.\n\n**type:** ${pType}\n**target:** ${targetRuleId}\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, stars < ${FOUNDER_STAR_CEILING})` : ""}`,
+                });
+                prNumber = pr.number;
+                prUrl = pr.html_url;
+                writeSnapshot(issue.number, {
+                  issueNumber: issue.number,
+                  category: ruleCategory,
+                  ruleText: text,
+                  proposalType: pType,
+                  targetRuleId,
+                  prNumber: pr.number,
+                  branch,
+                  snapshotAt: new Date().toISOString(),
+                });
+                await finishPr({
+                  issue,
+                  prNumber,
+                  nextId: targetRuleId,
+                  type: pType,
+                });
+              }
             }
           }
+        }
+      }
+    }
+
+    async function finishPr({ issue, prNumber, nextId, type }) {
+      const prFull = await getPull(prNumber);
+      const labels = (prFull.labels || []).map((l) => l.name);
+      if (stageInfo.stage === "S0") {
+        skippedMerge = true;
+        await comment(
+          issue.number,
+          `S0 safety: PR #${prNumber} opened but **not auto-merged**. A maintainer must merge to apply ${type} ${nextId}.`,
+        );
+      } else if (labels.includes(LABELS.doNotMerge)) {
+        skippedMerge = true;
+        await comment(
+          issue.number,
+          `Maintainer kill switch: PR #${prNumber} has \`do-not-merge\`. Not auto-merging.`,
+        );
+      } else {
+        try {
+          await mergePullRequest(prNumber);
+          await comment(issue.number, `Merged PR #${prNumber} — ${type} ${nextId} applied.`);
+        } catch (err) {
+          skippedMerge = true;
+          await comment(
+            issue.number,
+            `PR #${prNumber} opened but merge failed: ${String(err.message).slice(0, 200)}`,
+          );
         }
       }
     }
@@ -327,7 +420,12 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
       skippedMerge,
       settledAt: new Date().toISOString(),
     });
-    results.push({ issueNumber: issue.number, outcome, prNumber });
+    results.push({
+      issueNumber: issue.number,
+      outcome,
+      prNumber,
+      founderVote,
+    });
   }
   return results;
 }
@@ -480,13 +578,13 @@ async function preReviewPhase({ metaRules, prompt }) {
   const promptBody = loadPrompt(prompt);
 
   for (const issue of proposals) {
-    // Structural gate before spending an LLM call
+    // Structural gates before spending an LLM call
     const pType = parseProposalType(issue.body || "");
-    if (pType !== "new") {
+    if (!["new", "amend", "revoke"].includes(pType)) {
       await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
       await comment(
         issue.number,
-        `❌ Pre-review rejected: MVP accepts **new** rules only (got \`${pType}\`). Amend/revoke is not supported yet.`,
+        `❌ Pre-review rejected: Proposal Type must be \`new\`, \`amend\`, or \`revoke\` (got \`${pType}\`).`,
       );
       await closeIssue(issue.number);
       writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
@@ -500,8 +598,47 @@ async function preReviewPhase({ metaRules, prompt }) {
       continue;
     }
 
-    const category = parseCategory(issue.body || "");
-    if (!category) {
+    const targetRuleId = parseTargetRule(issue.body || "");
+    if (pType !== "new") {
+      if (!targetRuleId || !/^R\d+$/.test(targetRuleId)) {
+        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+        await comment(
+          issue.number,
+          "❌ Pre-review rejected: \u0060amend\u0060/\u0060revoke\u0060 proposals need `## Target Rule` with an id like `R3`.",
+        );
+        await closeIssue(issue.number);
+        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+          issueNumber: issue.number,
+          verdict: "reject",
+          reason: "missing_target_rule",
+          matchedMetaRules: ["M1"],
+          reviewedAt: new Date().toISOString(),
+        });
+        results.push({ issueNumber: issue.number, verdict: "reject" });
+        continue;
+      }
+      const existing = findRuleFile(path.join(ROOT, "rules"), targetRuleId);
+      if (!existing) {
+        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+        await comment(
+          issue.number,
+          `❌ Pre-review rejected: target rule \`${targetRuleId}\` not found under \`rules/\`.`,
+        );
+        await closeIssue(issue.number);
+        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+          issueNumber: issue.number,
+          verdict: "reject",
+          reason: `target_not_found:${targetRuleId}`,
+          matchedMetaRules: [],
+          reviewedAt: new Date().toISOString(),
+        });
+        results.push({ issueNumber: issue.number, verdict: "reject" });
+        continue;
+      }
+    }
+
+    let category = parseCategory(issue.body || "");
+    if (!category && pType !== "revoke") {
       await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
       await comment(
         issue.number,
@@ -517,6 +654,10 @@ async function preReviewPhase({ metaRules, prompt }) {
       });
       results.push({ issueNumber: issue.number, verdict: "reject" });
       continue;
+    }
+    if (pType === "revoke" && !category) {
+      const existing = findRuleFile(path.join(ROOT, "rules"), targetRuleId);
+      category = existing?.category || null;
     }
 
     // Static jailbreak/injection scan before spending an LLM call.
@@ -588,12 +729,13 @@ async function preReviewPhase({ metaRules, prompt }) {
         category,
         ruleText: parseRuleText(issue.body || ""),
         proposalType: pType,
+        targetRuleId: targetRuleId || null,
         snapshotAt: new Date().toISOString(),
       });
       await setLabels(issue.number, [LABELS.voting], [LABELS.proposal]);
       await comment(
         issue.number,
-        `✅ Pre-review passed. Entered this cycle's vote. Settles next governance cycle.`,
+        `✅ Pre-review passed (\`${pType}\`${targetRuleId ? ` → ${targetRuleId}` : ""}). Entered this cycle's vote. Settles next governance cycle.`,
       );
     } else {
       await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
@@ -608,6 +750,8 @@ async function preReviewPhase({ metaRules, prompt }) {
       issueNumber: issue.number,
       verdict,
       reason,
+      proposalType: pType,
+      targetRuleId: targetRuleId || null,
       matchedMetaRules: matched,
       reviewedAt: new Date().toISOString(),
     });

@@ -60,6 +60,7 @@ At **≥ 100 stars**, F1 turns off; normal quorum and majority apply. S0 still r
 ## Participate
 
 - Open a **Rule Proposal** issue (template). English, actionable inclusion text only.
+- **Proposal types:** `new` (add), `amend` (full replacement text + `## Target Rule`), `revoke` (deactivate target; justification in Rule Text).
 - Vote on issues labeled `voting` with 👍 / 👎. Authors cannot count their own reactions. **Ties are defeated.**
 - Under **&lt; 100 stars**, the founder may cast a single ratify vote (see F1 above).
 - Rules take effect only after vote settlement + PR merge (plan for **1–2 weeks** end-to-end).
