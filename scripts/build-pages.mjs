@@ -432,6 +432,13 @@ async function main() {
     text-transform: uppercase;
     color: var(--muted);
   }
+  .block-meta {
+    margin: 0.35rem 0 0;
+    color: var(--dim);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 
   /* —— Pivot tabs —— */
   .rail-wrap {
@@ -835,6 +842,7 @@ async function main() {
       <div class="block-head">
         <h2 class="block-title">Shared window</h2>
       </div>
+      <p class="block-meta">Display caps · ${PAGE_MAX_PER_CATEGORY} per category · research ${PAGE_MAX_RESEARCH} · balance by policy</p>
       <div class="rail-wrap">
         <div class="rail" role="tablist" aria-label="Filter by category">
           ${tabsHtml}
