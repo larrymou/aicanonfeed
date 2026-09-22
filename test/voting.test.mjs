@@ -99,6 +99,23 @@ test("applyFounderVote false on founder down or void", () => {
   assert.equal(voided.founderVote, false);
 });
 
+test("parseProposalType strips HTML comments (stock template)", () => {
+  // Inline regex matching governance.mjs parseProposalType (avoid importing side-effect module)
+  function parse(body) {
+    const m = body.match(/^\s*##\s*Proposal Type\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
+    if (!m) return "new";
+    const raw = m[1].replace(/<!--[\s\S]*?-->/g, "").toLowerCase().trim();
+    if (raw.includes("revoke")) return "revoke";
+    if (raw.includes("amend")) return "amend";
+    return "new";
+  }
+  const stock = `## Proposal Type\n\n<!-- pick one value below: new / amend / revoke -->\n\nnew\n\n## Category\nmodel-releases`;
+  assert.equal(parse(stock), "new");
+  assert.equal(parse("## Proposal Type\n\namend\n"), "amend");
+  assert.equal(parse("## Proposal Type\n\nrevoke\n"), "revoke");
+  assert.equal(parse("no section"), "new");
+});
+
 test("settleOutcome founderVote ratifies with zero public votes", () => {
   assert.equal(
     settleOutcome({ up: 0, down: 0, valid: 0, quorum: 3, founderVote: true }),

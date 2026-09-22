@@ -86,9 +86,8 @@ function latestPreReview(issueNumber) {
 
 function parseProposalType(body) {
   const m = body.match(/^\s*##\s*Proposal Type\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
-  // Missing section → treat as new (template requires it; avoid full-body keyword false positives).
   if (!m) return "new";
-  const raw = m[1].toLowerCase();
+  const raw = m[1].replace(/<!--[\s\S]*?-->/g, "").toLowerCase().trim();
   if (raw.includes("revoke")) return "revoke";
   if (raw.includes("amend")) return "amend";
   return "new";
@@ -170,19 +169,25 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
       let text = parseRuleText(issue.body || "");
       let targetRuleId = snap?.targetRuleId || parseTargetRule(issue.body || "");
 
-      // Prefer the pre-review snapshot so post-vote body edits cannot change the rule.
-      if (snap?.ruleText) {
+      // C3: reject if no snapshot — prevents pre-review bypass via manual `voting` label
+      if (!snap || !snap.proposalType || !snap.ruleText) {
+        guardError = "Missing or incomplete pre-review snapshot";
+        outcome = "rejected_by_guard";
+      } else {
+        // Prefer the pre-review snapshot so post-vote body edits cannot change the rule.
         const liveCategory = parseCategory(issue.body || "");
         const liveText = parseRuleText(issue.body || "");
         const liveTarget = parseTargetRule(issue.body || "");
+        const liveType = parseProposalType(issue.body || "");
         if (
+          (liveType && liveType !== snap.proposalType) ||
           (liveCategory && snap.category && liveCategory !== snap.category) ||
           (liveText && liveText.trim() !== String(snap.ruleText).trim()) ||
           (liveTarget && snap.targetRuleId && liveTarget !== snap.targetRuleId)
         ) {
           guardError = "Issue body changed after pre-review snapshot";
           outcome = "rejected_by_guard";
-        } else if (snap.category || snap.ruleText) {
+        } else {
           category = snap.category || category;
           text = snap.ruleText || text;
           targetRuleId = snap.targetRuleId || targetRuleId;
@@ -227,7 +232,8 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
             prNumber = pr.number;
             prUrl = pr.html_url;
             usedIds.add(nextId);
-            writeSnapshot(issue.number, {
+            // Preserve pre-review snapshot; write settlement info separately
+            writeDecision(`settlement-snapshot-${issue.number}-${Date.now()}.json`, {
               issueNumber: issue.number,
               category,
               ruleText: text,
@@ -311,7 +317,8 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
                 });
                 prNumber = pr.number;
                 prUrl = pr.html_url;
-                writeSnapshot(issue.number, {
+                // Preserve pre-review snapshot; write settlement info separately
+                writeDecision(`settlement-snapshot-${issue.number}-${Date.now()}.json`, {
                   issueNumber: issue.number,
                   category: ruleCategory,
                   ruleText: text,

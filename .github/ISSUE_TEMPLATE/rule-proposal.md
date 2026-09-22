@@ -8,7 +8,7 @@ assignees: ''
 
 ## Proposal Type
 
-<!-- new | amend | revoke -->
+<!-- pick one value below: new / amend / revoke -->
 
 new
 
