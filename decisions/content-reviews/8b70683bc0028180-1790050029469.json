@@ -1,0 +1,15 @@
+{
+  "urlHash": "8b70683bc0028180",
+  "url": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
+  "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medical records at enterprise scale and cut claims review time f",
+  "pubDate": "2026-09-21T16:24:40.000Z",
+  "decidedAt": "2026-09-22T04:06:56.938Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS vendor blog case study describing a customer solution built on existing AWS services (SageMaker, Bedrock). It announces no new model (R1), no primary research artifact (R2), no financing/M&A/partnership/market event (R3), no policy action (R4), and no open-source project release (R5).",
+  "promptVersion": "2",
+  "ruleFingerprint": "ffc8ebab6b0a"
+}
