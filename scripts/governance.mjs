@@ -27,7 +27,6 @@ import {
   loadActiveRules,
   reservedRuleIds,
   ruleIdsFromBranches,
-  nextFreeRuleId,
   findRuleFile,
   parseTargetRule,
   parseTargetGroup,
@@ -202,7 +201,9 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
         outcome = "rejected_by_guard";
       } else if (outcome === "ratified") {
         if (pType === "new") {
-          const nextId = nextFreeRuleId(usedIds);
+          const targetGroup = parseTargetGroup(issue.body || "") || "1";
+          const nextItem = nextFreeItemNumber(targetGroup, ...usedIds ? [[...usedIds].map((id) => ({ id }))] : []);
+          const nextId = `${targetGroup}-${nextItem}`;
           const guardMsg = guardRule({
             text,
             category: isCategory(category) ? category : null,
@@ -221,7 +222,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
               status: "active",
               source: "community",
             });
-            const branch = `rule/${nextId.toLowerCase()}-from-${issue.number}`;
+            const branch = `rule/${nextId}-from-${issue.number}`;
             const pr = await upsertFilePr({
               owner,
               repo,
@@ -250,8 +251,8 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
           }
         } else {
           // amend | revoke — same R# file path on disk
-          if (!targetRuleId || !/^R\d+$/.test(targetRuleId)) {
-            guardError = "Missing or invalid ## Target Rule (e.g. R3)";
+          if (!targetRuleId || !/^\d+-\d+$/.test(targetRuleId)) {
+            guardError = "Missing or invalid ## Target Rule (e.g., 3-1)";
             outcome = "rejected_by_guard";
           } else {
             const existing = findRuleFile(path.join(ROOT, "rules"), targetRuleId);
@@ -306,8 +307,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
                         source: "community-revoke",
                         revokedAt: today,
                       });
-                const n = targetRuleId.replace(/^R/i, "");
-                const branch = `rule/r${n}-from-${issue.number}`;
+                const branch = `rule/${targetRuleId}-from-${issue.number}`;
                 const pr = await upsertFilePr({
                   owner,
                   repo,
@@ -474,7 +474,7 @@ async function recoverPendingPhase({ stageInfo }) {
 
   for (const issue of pending) {
     try {
-      const branchRe = new RegExp(`rule/r\\d+-from-${issue.number}$`, "i");
+      const branchRe = new RegExp(`rule/\\d+-\\d+-from-${issue.number}$`, "i");
       const snap = loadSnapshot(issue.number);
       let openPr = openPulls.find((p) => branchRe.test(p.head?.ref || ""));
       let closedPr = closedPulls.find((p) => branchRe.test(p.head?.ref || ""));
@@ -610,11 +610,11 @@ async function preReviewPhase({ metaRules, prompt }) {
 
     const targetRuleId = parseTargetRule(issue.body || "");
     if (pType !== "new") {
-      if (!targetRuleId || !/^R\d+$/.test(targetRuleId)) {
+      if (!targetRuleId || !/^\d+-\d+$/.test(targetRuleId)) {
         await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
         await comment(
           issue.number,
-          "❌ Pre-review rejected: \u0060amend\u0060/\u0060revoke\u0060 proposals need `## Target Rule` with an id like `R3`.",
+          "❌ Pre-review rejected: \u0060amend\u0060/\u0060revoke\u0060 proposals need `## Target Rule` with an id like `3-1`.",
         );
         await closeIssue(issue.number);
         writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
@@ -776,8 +776,9 @@ async function main() {
   const stageInfo = stageForStars(stars);
   log(`repo=${repoSlug()} stars=${stars} stage=${stageInfo.stage} quorum=${stageInfo.quorum}`);
 
-  const { active: rules, skipped } = loadActiveRules(path.join(ROOT, "rules"));
-  log(`active rules: ${rules.map((r) => r.id).join(", ") || "(none)"}`);
+  const { groups, items, skipped } = loadActiveRules(path.join(ROOT, "rules"));
+  log(`active items: ${items.map((r) => r.id).join(", ") || "(none)"}`);
+  log(`active groups: ${groups.map((g) => g.id).join(", ") || "(none)"}`);
   if (skipped.length) log("skipped rules:", skipped);
 
   const metaRules = fs.readFileSync(path.join(ROOT, "lib", "meta-rules.md"), "utf8");

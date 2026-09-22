@@ -16,7 +16,7 @@ import {
   PAGE_MAX_PER_CATEGORY,
   PAGE_MAX_RESEARCH,
 } from "../lib/constants.mjs";
-import { loadActiveItems, loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
+import { loadActiveRules } from "../lib/rules.mjs";
 import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
 
 const ROOT = process.cwd();
@@ -134,9 +134,7 @@ function shortLabel(slug) {
 }
 
 async function main() {
-  const { active: rules } = loadActiveRules(path.join(ROOT, "rules"));
-  const items = loadActiveItems(path.join(ROOT, "rules"));
-  const { groups } = loadActiveRules(path.join(ROOT, "rules"));
+  const { groups, items } = loadActiveRules(path.join(ROOT, "rules"));
   const included = loadIncluded();
   // No hardcoded fallback — wrong owner/name is worse than missing links.
   const repoSlugEnv =
@@ -722,6 +720,32 @@ async function main() {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+  }
+  .rule-group {
+    padding: 1.4rem 0;
+    margin: 0;
+    border-bottom: 1px solid var(--line-soft);
+    list-style: none;
+  }
+  .rule-group-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .rule-item {
+    padding: 0.75rem 0 0.75rem 1.5rem;
+    border-left: 2px solid var(--line);
+    margin-top: 0.5rem;
+  }
+  .rule-item-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .rule-version {
+    color: var(--dim);
+    font-size: 0.75rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   }
   .rule-id {
     font-weight: 700;
