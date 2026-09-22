@@ -1,0 +1,15 @@
+{
+  "urlHash": "9469d61eed933e89",
+  "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Extending public sector intelligence with Agentforce and AWS",
+  "summary": "Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface the",
+  "pubDate": "2026-09-22T15:17:45.000Z",
+  "decidedAt": "2026-09-22T22:48:57.535Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS how-to post showing integration of existing services (Bedrock Data Automation with MCP) for public sector. Not a new model/capability release, research artifact, industry business event, policy action, or new OSS tool/framework release. No rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "9e82b7779170"
+}

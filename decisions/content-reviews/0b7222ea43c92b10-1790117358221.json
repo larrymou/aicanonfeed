@@ -1,0 +1,15 @@
+{
+  "urlHash": "0b7222ea43c92b10",
+  "url": "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "How Tata Elxsi detects industrial safety risks in seconds on AWS",
+  "summary": "Learn how Tata Elxsi built IRIS, a real-time industrial safety platform on AWS. IRIS filters camera video at the edge, streams metadata through Amazon Kinesis, runs computer vision on Amazon SageMaker AI, and correlates detections into high-confidence alerts, detecting unsafe con",
+  "pubDate": "2026-09-22T15:19:54.000Z",
+  "decidedAt": "2026-09-22T22:48:57.535Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study/technical blog about Tata Elxsi's IRIS safety platform on AWS. It announces no new model, research artifact, business deal, policy action, or open-source tool, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "9e82b7779170"
+}

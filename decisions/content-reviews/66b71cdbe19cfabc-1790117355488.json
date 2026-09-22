@@ -1,0 +1,15 @@
+{
+  "urlHash": "66b71cdbe19cfabc",
+  "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
+  "summary": "Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load levels. This post walks through deploying a model, running automated concurrency sweeps with the CreateAIBenchmarkJob API, and using the res",
+  "pubDate": "2026-09-22T15:35:53.000Z",
+  "decidedAt": "2026-09-22T22:48:57.535Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog how-to on benchmarking/right-sizing SageMaker endpoints using an existing API. Not a new model release, research artifact, industry business event, policy action, or open-source tool/framework launch, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "9e82b7779170"
+}
