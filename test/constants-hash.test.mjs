@@ -9,9 +9,14 @@ import {
   CONTENT_MAX_AGE_DAYS,
   PAGE_MAX_PER_CATEGORY,
   PAGE_MAX_RESEARCH,
+  RULE_ID_RE,
+  RULE_MAX_CHARS,
+  RULE_MAX_CHARS_GROUP,
+  parseRuleId,
+  isGroupRule,
 } from "../lib/constants.mjs";
 import { urlHash, normalizeUrl } from "../lib/hash.mjs";
-import { nextFreeRuleId, ruleIdsFromBranches, reservedRuleIds } from "../lib/rules.mjs";
+import { nextFreeItemNumber, nextFreeGroupNumber, reservedRuleIds } from "../lib/rules.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -103,29 +108,40 @@ test("meta-rule id filter keeps M7", () => {
   assert.deepEqual(matched, ["M1", "M7"]);
 });
 
-test("ruleIdsFromBranches parses bot PR branches", () => {
-  const ids = ruleIdsFromBranches([
-    "rule/r6-from-12",
-    "rule/r7-from-99",
-    "feature/other",
-    undefined,
-  ]);
-  assert.equal(ids.has("R6"), true);
-  assert.equal(ids.has("R7"), true);
-  assert.equal(ids.has("R5"), false);
+test("RULE_ID_RE matches x-y format", () => {
+  assert.equal(RULE_ID_RE.test("1-0"), true);
+  assert.equal(RULE_ID_RE.test("1-1"), true);
+  assert.equal(RULE_ID_RE.test("5-12"), true);
+  assert.equal(RULE_ID_RE.test("R1"), false);
+  assert.equal(RULE_ID_RE.test("1"), false);
 });
 
-test("nextFreeRuleId skips reserved disk + branch ids", () => {
-  const disk = new Set(["R1", "R2", "R3", "R4", "R5"]);
-  const branch = new Set(["R6"]);
-  assert.equal(nextFreeRuleId(disk, branch), "R7");
-  assert.equal(nextFreeRuleId(new Set()), "R1");
+test("parseRuleId and isGroupRule", () => {
+  assert.deepEqual(parseRuleId("1-0"), { group: 1, item: 0 });
+  assert.deepEqual(parseRuleId("3-2"), { group: 3, item: 2 });
+  assert.equal(parseRuleId("R1"), null);
+  assert.equal(isGroupRule("1-0"), true);
+  assert.equal(isGroupRule("1-1"), false);
 });
 
-test("reservedRuleIds sees seed rule files on disk", () => {
+test("RULE_MAX_CHARS is 1500 and group is 500", () => {
+  assert.equal(RULE_MAX_CHARS, 1500);
+  assert.equal(RULE_MAX_CHARS_GROUP, 500);
+});
+
+test("reservedRuleIds sees x-y rule files on disk", () => {
   const ids = reservedRuleIds(path.join(ROOT, "rules"));
-  assert.equal(ids.has("R1"), true);
-  assert.equal(ids.has("R5"), true);
+  assert.equal(ids.has("1-0"), true);
+  assert.equal(ids.has("5-1"), true);
+});
+
+test("nextFreeItemNumber skips used item numbers", () => {
+  assert.equal(nextFreeItemNumber("1", [{ id: "1-0" }, { id: "1-1" }]), 2);
+  assert.equal(nextFreeItemNumber("2", []), 1);
+});
+
+test("nextFreeGroupNumber returns max group + 1", () => {
+  assert.equal(nextFreeGroupNumber([{ id: "1-0" }, { id: "3-0" }]), 4);
 });
 
 test("pullIsMerged trusts merged_at from list API", async () => {

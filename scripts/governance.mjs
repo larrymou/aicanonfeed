@@ -20,7 +20,7 @@ import {
   splitSlug,
   repoSlug,
 } from "../lib/github.mjs";
-import { stageForStars, LABELS, RULE_MAX_CHARS, isCategory, FOUNDER_LOGIN, FOUNDER_STAR_CEILING } from "../lib/constants.mjs";
+import { stageForStars, LABELS, RULE_MAX_CHARS, RULE_MAX_CHARS_GROUP, isCategory, parseRuleId, isGroupRule, FOUNDER_LOGIN, FOUNDER_STAR_CEILING } from "../lib/constants.mjs";
 import { tallyVotes, settleOutcome, applyFounderVote } from "../lib/voting.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import {
@@ -30,7 +30,10 @@ import {
   nextFreeRuleId,
   findRuleFile,
   parseTargetRule,
+  parseTargetGroup,
   buildRuleFile,
+  nextFreeItemNumber,
+  nextFreeGroupNumber,
 } from "../lib/rules.mjs";
 import { scanRuleText } from "../lib/rule-guard.mjs";
 
@@ -115,7 +118,7 @@ function parseRuleText(body) {
 }
 
 function ruleFileName(id, category) {
-  return `rules/${id}-${category}.md`;
+  return `rules/${id}.md`;
 }
 
 function guardRule({ text, category, nextId, existingIds }) {

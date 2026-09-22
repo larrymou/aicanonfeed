@@ -21,14 +21,12 @@ model-releases
 
 ## Target Rule
 
-<!-- Required for amend and revoke. Example: R3 -->
-<!-- Leave empty for new proposals. -->
-
-
+<!-- Required for amend and revoke. Format: group-item (e.g., 3-1) -->
+<!-- For new: leave empty to create new group, or specify group number (e.g., 3) to add item -->
 
 ## Rule Text
 
 <!-- English. Actionable inclusion determination (amend = full replacement text). -->
 <!-- revoke: public justification (min 20 chars) -->
-<!-- Good: "Posts reporting new AI models with >1B parameters from established AI companies, with official release links, are included in model-releases" -->
+<!-- Good: "Include items that announce a new AI model from the model owner with an official announcement link" -->
 <!-- Bad: "Good AI news should be included" -->

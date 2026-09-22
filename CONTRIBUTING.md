@@ -8,14 +8,14 @@ All product surfaces are **English**: rules, proposals, issue comments from the 
 
 1. Open a **Rule Proposal** issue.
 2. Set **Proposal Type**:
-   - `new` — create a rule
-   - `amend` — **replace** rule text (and optionally category) for an existing `## Target Rule` (e.g. `R3`)
-   - `revoke` — mark the target rule `status: revoked` (pipeline stops using it); Rule Text is the public justification
-3. Write a complete, executable inclusion determination (or keep it rejected under meta-rules). For `amend`, paste the **full new rule text**, not a diff.
-4. The next governance cycle runs AI pre-review against meta-rules M1–M7. Structural failures (bad type, missing target) reject without an LLM call. Tooling errors leave the proposal open for retry (they do not reject it).
-5. If it passes, the issue is labeled `voting`. React 👍 or 👎.
-6. Proposals that add personalization, engagement ranking, or per-user feeds fail under meta-rule **M7**.
-7. The following cycle settles the vote using the **pre-review snapshot** of type/target/category/rule text. If the issue body was edited after pre-review, settlement rejects it. If ratified, a bot PR updates the rule file on `main` (S0 requires a maintainer merge).
+   - `new` — create a rule item in an existing group (specify `## Target Group`, e.g., `3`) or create a new group
+   - `amend` — **replace** rule text for an existing rule (specify `## Target Rule`, e.g., `3-1`)
+   - `revoke` — mark the target rule `status: revoked` (specify `## Target Rule`)
+3. Rule IDs use `<group>-<item>` format: `1-0` = group definition, `1-1` = first rule in group 1. Item numbers auto-increment and are never reused after deletion.
+4. Write a complete, executable inclusion determination. For `amend`, paste the **full new rule text**, not a diff.
+5. The next governance cycle runs AI pre-review against meta-rules M1–M7.
+6. If it passes, the issue is labeled `voting`. React 👍 or 👎.
+7. The following cycle settles the vote. If ratified, a bot PR updates the rule file.
 
 **Timeline:** expect about 8–14 days from proposal to an active rule (shorter when the founder casting vote applies — see Vote).
 

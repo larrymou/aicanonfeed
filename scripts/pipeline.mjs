@@ -7,7 +7,7 @@ import path from "node:path";
 import Parser from "rss-parser";
 import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory, isCategory } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
-import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
+import { loadActiveItems, rulesForPrompt, loadActiveRules } from "../lib/rules.mjs";
 import { urlHash, loadSeenHashes, appendIndex } from "../lib/hash.mjs";
 import { rulesFingerprint } from "../lib/fingerprint.mjs";
 import { fetchFeedText, sanitizeRssXml } from "../lib/feed-xml.mjs";
@@ -39,7 +39,7 @@ function summarize(item) {
   return stripHtml(item.title || "").slice(0, SUMMARY_MAX_CHARS);
 }
 
-async function moderateOne(item, rules, promptBody) {
+async function moderateOne(item, items, promptBody, groups) {
   const content = [
     `source: ${item.sourceName}`,
     `title: ${stripHtml(item.title)}`,
@@ -49,7 +49,7 @@ async function moderateOne(item, rules, promptBody) {
   ].join("\n");
 
   const filled = fillTemplate(promptBody, {
-    RULES: rulesForPrompt(rules),
+    RULES: rulesForPrompt(groups, items),
     CONTENT: content,
   });
 
@@ -62,7 +62,7 @@ async function moderateOne(item, rules, promptBody) {
   let matchedRuleId = res.matchedRuleId || null;
   let categoryId = res.categoryId || null;
   if (include) {
-    const rule = rules.find((r) => r.id === matchedRuleId);
+    const rule = items.find((r) => r.id === matchedRuleId);
     if (!rule) {
       return {
         include: false,
@@ -104,8 +104,10 @@ async function main() {
 
   const feeds = JSON.parse(fs.readFileSync(path.join(ROOT, "feeds.json"), "utf8"));
   const { active: rules, skipped } = loadActiveRules(path.join(ROOT, "rules"));
-  log(`rules=${rules.length}`, skipped.length ? `skipped=${JSON.stringify(skipped)}` : "");
-  if (!rules.length) {
+  const items = loadActiveItems(path.join(ROOT, "rules"));
+  const { groups } = loadActiveRules(path.join(ROOT, "rules"));
+  log(`rules=${items.length}`, skipped.length ? `skipped=${JSON.stringify(skipped)}` : "");
+  if (!items.length) {
     throw new Error("No active rules");
   }
 
@@ -113,6 +115,7 @@ async function main() {
     fs.readFileSync(path.join(ROOT, "lib", "prompts", "content-moderation.md"), "utf8"),
   );
   const seen = loadSeenHashes(indexFile, contentDir);
+  log(`seen size=${seen.size}`);
   log(`seen size=${seen.size}`);
 
   const candidates = [];
@@ -202,7 +205,7 @@ async function main() {
     }
     let result;
     try {
-      result = await moderateOne(item, rules, promptBody);
+      result = await moderateOne(item, items, promptBody, groups);
     } catch (err) {
       result = {
         include: false,

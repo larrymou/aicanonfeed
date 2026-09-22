@@ -16,7 +16,7 @@ import {
   PAGE_MAX_PER_CATEGORY,
   PAGE_MAX_RESEARCH,
 } from "../lib/constants.mjs";
-import { loadActiveRules } from "../lib/rules.mjs";
+import { loadActiveItems, loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
 
 const ROOT = process.cwd();
@@ -135,6 +135,8 @@ function shortLabel(slug) {
 
 async function main() {
   const { active: rules } = loadActiveRules(path.join(ROOT, "rules"));
+  const items = loadActiveItems(path.join(ROOT, "rules"));
+  const { groups } = loadActiveRules(path.join(ROOT, "rules"));
   const included = loadIncluded();
   // No hardcoded fallback — wrong owner/name is worse than missing links.
   const repoSlugEnv =
@@ -247,17 +249,28 @@ async function main() {
         .join("\n")
     : `<p class="empty" data-category="all"><strong>Empty window.</strong> Nothing included in the last ${CONTENT_MAX_AGE_DAYS} days. The pipeline runs every 4 hours — check Active rules for what the editor is allowed to pick.</p>`;
 
-  const rulesHtml = rules
-    .map(
-      (r) => `<li class="rule-row" id="rule-${esc(r.id)}">
-  <div class="rule-head">
-    <span class="rule-id">${esc(r.id)}</span>
-    <span class="cat cat-${esc(r.category)}">${esc(shortLabel(r.category))}</span>
+  const rulesHtml = groups
+    .sort((a, b) => Number(String(a.id).split("-")[0]) - Number(String(b.id).split("-")[0]))
+    .map((g) => {
+      const gid = String(g.id).split("-")[0];
+      const groupItems = items.filter((r) => String(r.group) === gid);
+      return `<li class="rule-group" id="rule-${esc(g.id)}">
+  <div class="rule-group-head">
+    <span class="rule-id">${esc(g.id)}</span>
+    <span class="cat cat-${esc(g.category)}">${esc(g.name)}</span>
+    <span class="rule-version">v${esc(g.version)}</span>
   </div>
-  <p class="rule-body">${esc(r.body)}</p>
+  <p class="rule-body">${esc(g.description)}</p>
+  ${groupItems.map((r) => `<div class="rule-item" id="rule-${esc(r.id)}">
+    <div class="rule-item-head">
+      <span class="rule-id">${esc(r.id)}</span>
+      <span class="rule-version">v${esc(r.version)}</span>
+    </div>
+    <p class="rule-body">${esc(r.body)}</p>
+  </div>`).join("\n")}
   <p class="rule-cta">${proposeHtml("Propose a change")}</p>
-</li>`,
-    )
+</li>`;
+    })
     .join("\n");
 
   const html = `<!DOCTYPE html>
@@ -678,11 +691,31 @@ async function main() {
   }
 
   /* —— Rules —— */
-  .rule-row {
+  .rule-group {
     padding: 1.4rem 0;
     margin: 0;
     border-bottom: 1px solid var(--line-soft);
     list-style: none;
+  }
+  .rule-group-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .rule-item {
+    padding: 0.75rem 0 0.75rem 1.5rem;
+    border-left: 2px solid var(--line);
+    margin-top: 0.5rem;
+  }
+  .rule-item-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .rule-version {
+    color: var(--dim);
+    font-size: 0.75rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   }
   ul.rules { margin: 0; padding: 0; }
   .rule-head {
