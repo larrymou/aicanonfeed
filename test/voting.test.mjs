@@ -144,9 +144,15 @@ test("parseTargetGroup/parseTargetRule match split template sections", () => {
   );
   assert.equal(parseTargetGroup("## Rule Text\n\nno group section\n"), null);
   assert.equal(parseTargetRule("## Rule Text\n\nno rule section\n"), null);
-  // Filled values parse as expected
+  // Filled values parse as expected, including after template HTML comments
   assert.equal(parseTargetGroup("## Target Group\n\n3\n"), "3");
   assert.equal(parseTargetRule("## Target Rule\n\n3-1\n"), "3-1");
+  assert.equal(
+    parseTargetRule(
+      "## Target Rule\n\n<!-- Existing rule id to replace. Format: group-item (e.g., 3-1). -->\n1-1\n",
+    ),
+    "1-1",
+  );
 });
 
 test("split rule-proposal templates expose only their target field", async () => {

@@ -40,11 +40,24 @@ test("parseTargetRule reads ## Target Rule x-y line", () => {
   assert.equal(parseTargetRule("## Target Rule\n\n3-1\n"), "3-1");
   assert.equal(parseTargetRule("## Proposal Type\n\namend\n\n## Target Rule\n1-0"), "1-0");
   assert.equal(parseTargetRule("no target"), null);
+  // Template HTML comments before the value must not hide it
+  assert.equal(
+    parseTargetRule(
+      "## Target Rule\n\n<!-- Existing rule id to replace. Format: group-item (e.g., 3-1). -->\n1-1\n",
+    ),
+    "1-1",
+  );
 });
 
 test("parseTargetGroup reads ## Target Group N line", () => {
   assert.equal(parseTargetGroup("## Target Group\n\n3\n"), "3");
   assert.equal(parseTargetGroup("no target"), null);
+  assert.equal(
+    parseTargetGroup(
+      "## Target Group\n\n<!-- Group number to add the item to (e.g., 3). -->\n3\n",
+    ),
+    "3",
+  );
 });
 
 test("loadActiveRules returns groups and items", () => {
