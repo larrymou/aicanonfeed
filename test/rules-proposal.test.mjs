@@ -127,3 +127,59 @@ test("nextFreeGroupNumber increments max group", () => {
   assert.equal(nextFreeGroupNumber(groups), 4);
   fs.rmSync(dir, { recursive: true, force: true });
 });
+
+test("buildRuleFile preserves effectiveAt and writes revokedReason", () => {
+  const amended = buildRuleFile({
+    id: "1-1",
+    type: "item",
+    group: "1",
+    category: "model-releases",
+    text: "Include official model launches.",
+    status: "active",
+    source: "seed",
+    version: 2,
+    amendedAt: "2026-09-23",
+    effectiveAt: "2026-09-14",
+  });
+  const a = parseFrontmatter(amended);
+  assert.equal(a.data.effective_at, "2026-09-14");
+  assert.equal(a.data.amended_at, "2026-09-23");
+  assert.equal(a.data.version, "2");
+  assert.equal(a.data.source, "seed");
+  assert.match(a.body, /Include official model launches/);
+
+  const revoked = buildRuleFile({
+    id: "3-1",
+    type: "item",
+    group: "3",
+    category: "industry",
+    text: "Industry business events.",
+    status: "revoked",
+    source: "seed",
+    version: 2,
+    effectiveAt: "2026-09-14",
+    revokedAt: "2026-09-23",
+    revokedReason: "Superseded by 3-2\nsecond line",
+  });
+  const r = parseFrontmatter(revoked);
+  assert.equal(r.data.status, "revoked");
+  assert.equal(r.data.revoked_at, "2026-09-23");
+  assert.equal(r.data.revoked_reason, "Superseded by 3-2 second line");
+  // original rule text kept; justification lives in frontmatter
+  assert.match(r.body, /Industry business events/);
+  assert.doesNotMatch(r.body, /Superseded by/);
+});
+
+test("buildRuleFile defaults effective_at to today when omitted", () => {
+  const md = buildRuleFile({
+    id: "1-2",
+    type: "item",
+    group: "1",
+    category: "model-releases",
+    text: "Include new model launches.",
+  });
+  const { data } = parseFrontmatter(md);
+  assert.match(data.effective_at, /^\d{4}-\d{2}-\d{2}$/);
+  assert.equal(data.amended_at, "null");
+  assert.equal(data.revoked_reason, undefined);
+});

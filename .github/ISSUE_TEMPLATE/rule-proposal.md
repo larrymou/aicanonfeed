@@ -19,10 +19,16 @@ new
 
 model-releases
 
+## Target Group
+
+<!-- Required for new: group number to add the item to (e.g., 3). -->
+<!-- Leave empty for amend and revoke. -->
+<!-- MVP: items go into existing groups only; new groups are not created. -->
+
 ## Target Rule
 
-<!-- Required for amend and revoke. Format: group-item (e.g., 3-1) -->
-<!-- For new: leave empty to create new group, or specify group number (e.g., 3) to add item -->
+<!-- Required for amend and revoke. Format: group-item (e.g., 3-1). -->
+<!-- Leave empty for new proposals (use ## Target Group instead). -->
 
 ## Rule Text
 

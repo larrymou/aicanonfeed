@@ -3,6 +3,10 @@ import assert from "node:assert/strict";
 import {
   isCategory,
   stageForStars,
+  quorumForStars,
+  canAutoMerge,
+  AUTO_MERGE_MIN_STARS,
+  MIN_ACCOUNT_AGE_DAYS,
   CATEGORIES,
   LABELS,
   MIN_QUORUM,
@@ -31,16 +35,50 @@ test("isCategory only accepts known slugs", () => {
   assert.equal(isCategory(null), false);
 });
 
-test("stageForStars thresholds; quorum never below MIN_QUORUM", () => {
+test("stageForStars thresholds; unified quorum formula", () => {
   assert.equal(MIN_QUORUM, 3);
+  // 0 stars → quorum 3
   assert.deepEqual(stageForStars(0), { stage: "S0", stars: 0, quorum: 3 });
-  assert.deepEqual(stageForStars(199).quorum, 3);
-  assert.deepEqual(stageForStars(200), { stage: "S1", stars: 200, quorum: 5 });
-  assert.deepEqual(stageForStars(999).quorum, 5);
-  assert.equal(stageForStars(1500).stage, "S2");
-  assert.equal(stageForStars(1500).quorum, Math.max(3, Math.floor(1500 / 100) + 1));
-  // S2 at the boundary (1000 stars): floor(1000/100)+1 = 11, still ≥ MIN_QUORUM
-  assert.equal(stageForStars(1000).quorum, 11);
+  // 100 stars → floor(2*log2(101))-7 = floor(13.29)-7 = 6 (kept low after F1 exit)
+  assert.equal(stageForStars(100).quorum, 6);
+  // 199 stars → S0
+  assert.equal(stageForStars(199).stage, "S0");
+  assert.equal(stageForStars(199).quorum, 8);
+  // 200 stars → S1
+  assert.equal(stageForStars(200).stage, "S1");
+  // 1000 stars → S2, floor(2*log2(1001))-7 = floor(19.93)-7 = 12
+  assert.equal(stageForStars(1000).stage, "S2");
+  assert.equal(stageForStars(1000).quorum, 12);
+  // 10000 stars → floor(2*log2(10001))-7 = floor(26.57)-7 = 19
+  assert.equal(stageForStars(10000).quorum, 19);
+  // 100000 stars → already at cap 25 (floor(2*log2(1e5+1))-7 = 26)
+  assert.equal(stageForStars(100000).quorum, 25);
+  // cap 25 from ~65k★ up
+  assert.equal(stageForStars(65535).quorum, 25);
+  assert.equal(stageForStars(1e9).quorum, 25);
+  // negative / junk input clamps to 0, never NaN
+  assert.equal(stageForStars(-2).quorum, 3);
+  assert.equal(quorumForStars(-2), 3);
+  assert.equal(quorumForStars(NaN), 3);
+  // monotonic: more stars → quorum never decreases
+  let prev = 0;
+  for (const s of [0, 10, 50, 100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000]) {
+    const q = stageForStars(s).quorum;
+    assert.ok(q >= prev, `quorum at ${s}=${q} should be >= ${prev}`);
+    assert.ok(q >= MIN_QUORUM, `quorum at ${s}=${q} should be >= ${MIN_QUORUM}`);
+    assert.ok(q <= 25, `quorum at ${s}=${q} should be <= 25`);
+    prev = q;
+  }
+});
+
+test("canAutoMerge is a pure star gate at AUTO_MERGE_MIN_STARS", () => {
+  assert.equal(AUTO_MERGE_MIN_STARS, 200);
+  assert.equal(MIN_ACCOUNT_AGE_DAYS, 30);
+  assert.equal(canAutoMerge(0), false);
+  assert.equal(canAutoMerge(199), false);
+  assert.equal(canAutoMerge(200), true);
+  assert.equal(canAutoMerge(10000), true);
+  assert.equal(canAutoMerge(-5), false);
 });
 
 test("content window is 5 days", () => {

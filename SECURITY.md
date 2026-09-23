@@ -59,9 +59,13 @@ In **Settings → Actions → General**:
 Under **&lt; 100 stars**, `FOUNDER_LOGIN` may cast one ratify vote on `voting` issues (F1). This exists so the project can exercise the full governance loop before a community forms; it is **not** a hidden override:
 
 - Coded in `lib/constants.mjs` + `lib/voting.mjs` (not changeable by Rule Proposals — M5)
-- Public tally still excludes the founder-as-author; F1 is separate from quorum math
+- Public tally still excludes the founder-as-author; F1 is separate from quorum math (approve-count)
 - Every settlement writes `founderVote` / `founderLogin` into `decisions/rule-reviews/`
-- S0 still blocks auto-merge; a human must merge the rule PR
+- S0 / stars **&lt; 200** still block auto-merge; a human must merge the rule PR
+- Votes require account age ≥ 30 days (`MIN_ACCOUNT_AGE_DAYS`). Confirmed-too-young and unknown/lookup-failed are both not counted (fail-closed for auto-merge), but settlement and Pages report them separately (`droppedYoung` vs `droppedUnknown`).
+- F1 deactivates automatically at **≥ 100 starsAtVotingStart** (frozen when the issue entered `voting`)
+- Settlement JSON includes per-voter `detail` (login + vote) under public `decisions/` — GitHub reactions are public ballots, not a secret ballot
+- F1 deactivates automatically at **≥ 100 stars**
 - F1 deactivates automatically at **≥ 100 stars**
 
 If the founder key/account is compromised while F1 is active, assume rule ratify is compromised until stars are audited and accounts rotated.
@@ -90,4 +94,4 @@ See [`.github/LABELS.md`](../.github/LABELS.md):
 
 ## Out of scope for MVP
 
-Account-age vote verification, multi-provider LLM failover, and external audit logging are post-MVP (see product spec). They do not change the secrets model above.
+Multi-provider LLM failover and external audit logging are post-MVP (see product spec). Account-age vote filtering is implemented (`MIN_ACCOUNT_AGE_DAYS`) and required before auto-merge.

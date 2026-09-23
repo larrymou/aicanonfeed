@@ -20,7 +20,9 @@ Content must not include hate incitement, targeted harassment of individuals, or
 
 ## M5 Boundary
 
-Proposals must not modify or circumvent hard constraints: meta-rules themselves, fixed categories, display method, account system, or voting mechanics (quorum thresholds, star stages). No content may claim exemption from review.
+Proposals must not modify or circumvent hard constraints: meta-rules themselves, fixed categories, display method, account system, or voting mechanics (quorum formula/thresholds, star stages, F1, auto-merge star gate). No content may claim exemption from review.
+
+**Experimental lock:** while this project is an experiment, voting-mechanism parameters live only in code (`lib/constants.mjs`). Community proposals cannot amend quorum or related mechanics — only maintainers changing code can. Do not treat this as a permanent constitutional choice; it is a temporary product decision.
 
 ## M6 Neutrality
 

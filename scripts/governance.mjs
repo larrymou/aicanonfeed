@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 /**
  * Governance cycle: settle previous voting batch, then pre-review new proposals.
- * MVP: proposal type "new" only.
+ * Voting math freezes at voting entry (starsAtVotingStart / quorumAtVotingStart).
+ * Vote deadline = this settle run. Account age ≥ MIN_ACCOUNT_AGE_DAYS required.
  */
 import fs from "node:fs";
 import path from "node:path";
 import {
   getRepo,
+  resolveUserCreatedAts,
   listOpenIssuesWithLabel,
   listIssueReactions,
   setLabels,
@@ -20,7 +22,7 @@ import {
   splitSlug,
   repoSlug,
 } from "../lib/github.mjs";
-import { stageForStars, LABELS, RULE_MAX_CHARS, RULE_MAX_CHARS_GROUP, isCategory, parseRuleId, isGroupRule, FOUNDER_LOGIN, FOUNDER_STAR_CEILING } from "../lib/constants.mjs";
+import { stageForStars, quorumForStars, canAutoMerge, AUTO_MERGE_MIN_STARS, MIN_ACCOUNT_AGE_DAYS, LABELS, RULE_MAX_CHARS, RULE_MAX_CHARS_GROUP, isCategory, parseRuleId, isGroupRule, FOUNDER_LOGIN, FOUNDER_STAR_CEILING } from "../lib/constants.mjs";
 import { tallyVotes, settleOutcome, applyFounderVote } from "../lib/voting.mjs";
 import { chatJSON, loadPrompt, fillTemplate } from "../lib/llm.mjs";
 import {
@@ -29,6 +31,7 @@ import {
   ruleIdsFromBranches,
   findRuleFile,
   parseTargetRule,
+  parseProposalType,
   parseTargetGroup,
   buildRuleFile,
   nextFreeItemNumber,
@@ -86,15 +89,6 @@ function latestPreReview(issueNumber) {
   }
 }
 
-function parseProposalType(body) {
-  const m = body.match(/^\s*##\s*Proposal Type\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
-  if (!m) return "new";
-  const raw = m[1].replace(/<!--[\s\S]*?-->/g, "").toLowerCase().trim();
-  if (raw.includes("revoke")) return "revoke";
-  if (raw.includes("amend")) return "amend";
-  return "new";
-}
-
 function parseCategory(body) {
   const m = body.match(/^\s*##\s*Category\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
   if (!m) return null;
@@ -131,6 +125,15 @@ function guardRule({ text, category, nextId, existingIds }) {
   return null;
 }
 
+/** created_at map for reaction logins. Lookup failure → { ok: false } (unknown ≠ young). */
+async function resolveCreatedAt(reactions) {
+  const logins = [];
+  for (const r of reactions || []) {
+    if (r.user?.login) logins.push(r.user.login);
+  }
+  return resolveUserCreatedAts(logins);
+}
+
 async function settlePhase({ stars, stageInfo, reservedIds }) {
   const voting = await listOpenIssuesWithLabel(LABELS.voting);
   log(`settle: ${voting.length} voting issue(s), quorum=${stageInfo.quorum}`);
@@ -140,10 +143,18 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
   const usedIds = new Set(reservedIds);
 
   for (const issue of voting) {
+    const snap0 = loadSnapshot(issue.number);
+    // Quorum + F1 freeze at voting entry (starsAtVotingStart). Fall back to live stars for legacy issues.
+    const starsForVote = snap0?.starsAtVotingStart ?? stars;
+    const quorumForVote = snap0?.quorumAtVotingStart ?? stageInfo.quorum;
     const reactions = await listIssueReactions(issue.number);
-    const tally = tallyVotes(reactions, issue.user?.login);
+    const createdAtByLogin = await resolveCreatedAt(reactions);
+    const tally = tallyVotes(reactions, issue.user?.login, {
+      minAccountAgeDays: MIN_ACCOUNT_AGE_DAYS,
+      getCreatedAt: (login) => createdAtByLogin.get(login) ?? { ok: false, createdAt: null },
+    });
     const { founderVote } = applyFounderVote({
-      stars,
+      stars: starsForVote,
       reactions,
       founderLogin: FOUNDER_LOGIN,
       ceiling: FOUNDER_STAR_CEILING,
@@ -151,12 +162,11 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
     let outcome = settleOutcome({
       up: tally.up,
       down: tally.down,
-      valid: tally.valid,
-      quorum: stageInfo.quorum,
+      quorum: quorumForVote,
       founderVote,
     });
     log(
-      `  #${issue.number} → ${outcome} (👍${tally.up} 👎${tally.down}${founderVote ? " founderVote" : ""})`,
+      `  #${issue.number} → ${outcome} (👍${tally.up} 👎${tally.down} quorum=${quorumForVote} stars=${starsForVote}${founderVote ? " founderVote" : ""})`,
     );
 
     let prNumber = null;
@@ -165,11 +175,12 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
     let guardError = null;
 
     if (outcome === "ratified") {
-      const snap = loadSnapshot(issue.number);
+      const snap = snap0;
       const pType = snap?.proposalType || parseProposalType(issue.body || "");
       let category = parseCategory(issue.body || "");
       let text = parseRuleText(issue.body || "");
       let targetRuleId = snap?.targetRuleId || parseTargetRule(issue.body || "");
+      let targetGroup = snap?.targetGroup || parseTargetGroup(issue.body || "");
 
       // C3: reject if no snapshot — prevents pre-review bypass via manual `voting` label
       if (!snap || !snap.proposalType || !snap.ruleText) {
@@ -181,11 +192,13 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
         const liveText = parseRuleText(issue.body || "");
         const liveTarget = parseTargetRule(issue.body || "");
         const liveType = parseProposalType(issue.body || "");
+        const liveTargetGroup = parseTargetGroup(issue.body || "");
         if (
           (liveType && liveType !== snap.proposalType) ||
           (liveCategory && snap.category && liveCategory !== snap.category) ||
           (liveText && liveText.trim() !== String(snap.ruleText).trim()) ||
-          (liveTarget && snap.targetRuleId && liveTarget !== snap.targetRuleId)
+          (liveTarget && snap.targetRuleId && liveTarget !== snap.targetRuleId) ||
+          (liveTargetGroup && snap.targetGroup && liveTargetGroup !== snap.targetGroup)
         ) {
           guardError = "Issue body changed after pre-review snapshot";
           outcome = "rejected_by_guard";
@@ -193,6 +206,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
           category = snap.category || category;
           text = snap.ruleText || text;
           targetRuleId = snap.targetRuleId || targetRuleId;
+          targetGroup = snap.targetGroup || targetGroup;
         }
       }
 
@@ -201,56 +215,69 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
         outcome = "rejected_by_guard";
       } else if (outcome === "ratified") {
         if (pType === "new") {
-          const targetGroup = parseTargetGroup(issue.body || "") || "1";
-          const nextItem = nextFreeItemNumber(targetGroup, ...usedIds ? [[...usedIds].map((id) => ({ id }))] : []);
-          const nextId = `${targetGroup}-${nextItem}`;
-          const guardMsg = guardRule({
-            text,
-            category: isCategory(category) ? category : null,
-            nextId,
-            existingIds: usedIds,
-          });
-          if (guardMsg) {
-            guardError = guardMsg;
+          if (!targetGroup || !/^\d+$/.test(targetGroup)) {
+            guardError = "Missing or invalid ## Target Group (e.g., 3)";
             outcome = "rejected_by_guard";
           } else {
-            const filePath = ruleFileName(nextId, category);
-            const content = buildRuleFile({
-              id: nextId,
-              category,
-              text,
-              status: "active",
-              source: "community",
-            });
-            const branch = `rule/${nextId}-from-${issue.number}`;
-            const pr = await upsertFilePr({
-              owner,
-              repo,
-              branch,
-              base: "main",
-              path: filePath,
-              content,
-              title: `Rule ${nextId}: ${category} (issue #${issue.number})`,
-              body: `Ratified community proposal #${issue.number}.\n\n**type:** new\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, stars < ${FOUNDER_STAR_CEILING})` : ""}`,
-            });
-            prNumber = pr.number;
-            prUrl = pr.html_url;
-            usedIds.add(nextId);
-            // Preserve pre-review snapshot; write settlement info separately
-            writeDecision(`settlement-snapshot-${issue.number}-${Date.now()}.json`, {
-              issueNumber: issue.number,
-              category,
-              ruleText: text,
-              proposalType: "new",
-              ruleId: nextId,
-              prNumber: pr.number,
-              branch,
-              snapshotAt: new Date().toISOString(),
-            });
-            await finishPr({ issue, prNumber, nextId, type: "new" });
+            const groupDef = findRuleFile(path.join(ROOT, "rules"), `${targetGroup}-0`);
+            if (!groupDef) {
+              guardError = `Target group ${targetGroup} not found on disk (need ${targetGroup}-0)`;
+              outcome = "rejected_by_guard";
+            } else {
+              const nextItem = nextFreeItemNumber(targetGroup, ...usedIds ? [[...usedIds].map((id) => ({ id }))] : []);
+              const nextId = `${targetGroup}-${nextItem}`;
+              const guardMsg = guardRule({
+                text,
+                category: isCategory(category) ? category : null,
+                nextId,
+                existingIds: usedIds,
+              });
+              if (guardMsg) {
+                guardError = guardMsg;
+                outcome = "rejected_by_guard";
+              } else {
+                const filePath = ruleFileName(nextId, category);
+                const content = buildRuleFile({
+                  id: nextId,
+                  type: "item",
+                  group: targetGroup,
+                  category,
+                  text,
+                  status: "active",
+                  source: "community",
+                });
+                const branch = `rule/${nextId}-from-${issue.number}`;
+                const pr = await upsertFilePr({
+                  owner,
+                  repo,
+                  branch,
+                  base: "main",
+                  path: filePath,
+                  content,
+                  title: `Rule ${nextId}: ${category} (issue #${issue.number})`,
+                  body: `Ratified community proposal #${issue.number}.\n\n**type:** new\n**targetGroup:** ${targetGroup}\n**quorum:** ${quorumForVote} (starsAtVotingStart=${starsForVote}, stage=${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**voteDeadline:** settle run\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, starsAtVotingStart < ${FOUNDER_STAR_CEILING})` : ""}`,
+                });
+                prNumber = pr.number;
+                prUrl = pr.html_url;
+                usedIds.add(nextId);
+                // Preserve pre-review snapshot; write settlement info separately
+                writeDecision(`settlement-snapshot-${issue.number}-${Date.now()}.json`, {
+                  issueNumber: issue.number,
+                  category,
+                  ruleText: text,
+                  proposalType: "new",
+                  ruleId: nextId,
+                  targetGroup,
+                  prNumber: pr.number,
+                  branch,
+                  snapshotAt: new Date().toISOString(),
+                });
+                await finishPr({ issue, prNumber, nextId, type: "new" });
+              }
+            }
           }
         } else {
-          // amend | revoke — same R# file path on disk
+          // amend | revoke — same x-y file path on disk; preserve metadata
           if (!targetRuleId || !/^\d+-\d+$/.test(targetRuleId)) {
             guardError = "Missing or invalid ## Target Rule (e.g., 3-1)";
             outcome = "rejected_by_guard";
@@ -266,8 +293,9 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
                   : isCategory(category)
                     ? category
                     : existing.category;
+              const maxChars = isGroupRule(targetRuleId) ? RULE_MAX_CHARS_GROUP : RULE_MAX_CHARS;
               if (pType === "amend") {
-                if (!text || text.length < 20 || text.length > RULE_MAX_CHARS) {
+                if (!text || text.length < 20 || text.length > maxChars) {
                   guardError = "Amend rule text length invalid";
                   outcome = "rejected_by_guard";
                 } else if (!isCategory(ruleCategory)) {
@@ -278,7 +306,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
                   outcome = "rejected_by_guard";
                 }
               } else {
-                // revoke: Rule Text is the public justification
+                // revoke: Rule Text is the public justification (body keeps the original rule text)
                 if (!text || text.length < 20 || text.length > RULE_MAX_CHARS) {
                   guardError = "Revoke justification length invalid";
                   outcome = "rejected_by_guard";
@@ -290,22 +318,31 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
 
               if (outcome === "ratified") {
                 const today = new Date().toISOString().slice(0, 10);
+                const preserve = {
+                  id: targetRuleId,
+                  type: existing.type,
+                  group: existing.group || targetRuleId.split("-")[0],
+                  category: ruleCategory,
+                  name: existing.data?.name || null,
+                  source: existing.data?.source || "community",
+                  version: (Number(existing.data?.version) || 1) + 1,
+                  amendedAt: today,
+                  effectiveAt: existing.data?.effective_at || null,
+                };
                 const content =
                   pType === "amend"
                     ? buildRuleFile({
-                        id: targetRuleId,
-                        category: ruleCategory,
+                        ...preserve,
                         text,
                         status: "active",
-                        source: "community",
                       })
                     : buildRuleFile({
-                        id: targetRuleId,
-                        category: ruleCategory,
-                        text,
+                        ...preserve,
+                        text: existing.body,
                         status: "revoked",
-                        source: "community-revoke",
+                        source: existing.data?.source || "community",
                         revokedAt: today,
+                        revokedReason: text,
                       });
                 const branch = `rule/${targetRuleId}-from-${issue.number}`;
                 const pr = await upsertFilePr({
@@ -316,7 +353,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
                   path: existing.path,
                   content,
                   title: `Rule ${targetRuleId}: ${pType} (issue #${issue.number})`,
-                  body: `Ratified community proposal #${issue.number}.\n\n**type:** ${pType}\n**target:** ${targetRuleId}\n**quorum:** ${stageInfo.quorum} (stars=${stars}, ${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, stars < ${FOUNDER_STAR_CEILING})` : ""}`,
+                  body: `Ratified community proposal #${issue.number}.\n\n**type:** ${pType}\n**target:** ${targetRuleId}\n**quorum:** ${quorumForVote} (starsAtVotingStart=${starsForVote}, stage=${stageInfo.stage})\n**votes:** 👍${tally.up} 👎${tally.down}\n**voteDeadline:** settle run\n**founderVote:** ${founderVote}${founderVote ? ` (F1 casting vote, starsAtVotingStart < ${FOUNDER_STAR_CEILING})` : ""}`,
                 });
                 prNumber = pr.number;
                 prUrl = pr.html_url;
@@ -347,11 +384,11 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
     async function finishPr({ issue, prNumber, nextId, type }) {
       const prFull = await getPull(prNumber);
       const labels = (prFull.labels || []).map((l) => l.name);
-      if (stageInfo.stage === "S0") {
+      if (!canAutoMerge(stars)) {
         skippedMerge = true;
         await comment(
           issue.number,
-          `S0 safety: PR #${prNumber} opened but **not auto-merged**. A maintainer must merge to apply ${type} ${nextId}.`,
+          `stars ${stars} < ${AUTO_MERGE_MIN_STARS}: PR #${prNumber} opened but **not auto-merged**. A maintainer must merge to apply ${type} ${nextId}.`,
         );
       } else if (labels.includes(LABELS.doNotMerge)) {
         skippedMerge = true;
@@ -398,8 +435,10 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
     const summary = [
       `### Settlement — ${outcome}`,
       "",
-      `- valid votes: ${tally.valid} (quorum ${stageInfo.quorum}, stage ${stageInfo.stage}, stars ${stars})`,
-      `- 👍 ${tally.up} / 👎 ${tally.down} (void ${tally.voided})`,
+      `- 👍 ${tally.up} / 👎 ${tally.down} (void ${tally.voided}, valid ${tally.valid})`,
+      `- quorum (approve-count): ${quorumForVote} · starsAtVotingStart ${starsForVote} · stage ${stageInfo.stage}`,
+      `- vote deadline: this settle run (reactions after are not counted)`,
+      `- account age gate: ≥ ${MIN_ACCOUNT_AGE_DAYS} days · dropped young ${tally.droppedYoung ?? 0} · dropped unknown/lookup-failed ${tally.droppedUnknown ?? 0}`,
       founderVote
         ? `- **founder casting vote (F1):** yes — \`${FOUNDER_LOGIN}\` 👍 while stars < ${FOUNDER_STAR_CEILING}`
         : "",
@@ -420,9 +459,14 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
       issueNumber: issue.number,
       outcome,
       votes: tally,
-      stars,
+      stars: starsForVote,
+      starsAtVotingStart: starsForVote,
+      liveStars: stars,
       stage: stageInfo.stage,
-      quorum: stageInfo.quorum,
+      quorum: quorumForVote,
+      quorumAtVotingStart: quorumForVote,
+      voteDeadline: "settle",
+      minAccountAgeDays: MIN_ACCOUNT_AGE_DAYS,
       founderVote,
       founderLogin: founderVote ? FOUNDER_LOGIN : null,
       prNumber,
@@ -447,7 +491,7 @@ async function settlePhase({ stars, stageInfo, reservedIds }) {
  * - PR closed without merge → rejected + close
  * Never throws — a listing/API failure must not abort the whole governance cycle.
  */
-async function recoverPendingPhase({ stageInfo }) {
+async function recoverPendingPhase({ stars }) {
   const results = [];
   let pending;
   try {
@@ -491,7 +535,7 @@ async function recoverPendingPhase({ stageInfo }) {
       }
 
       if (openPr) {
-        if (stageInfo.stage === "S0") {
+        if (!canAutoMerge(stars)) {
           results.push({ issueNumber: issue.number, outcome: "still_pending", prNumber: openPr.number });
           continue;
         }
@@ -581,7 +625,7 @@ async function recoverPendingPhase({ stageInfo }) {
   return results;
 }
 
-async function preReviewPhase({ metaRules, prompt }) {
+async function preReviewPhase({ metaRules, prompt, stars }) {
   const proposals = await listOpenIssuesWithLabel(LABELS.proposal);
   log(`pre-review: ${proposals.length} proposal(s)`);
   const results = [];
@@ -639,6 +683,46 @@ async function preReviewPhase({ metaRules, prompt }) {
           issueNumber: issue.number,
           verdict: "reject",
           reason: `target_not_found:${targetRuleId}`,
+          matchedMetaRules: [],
+          reviewedAt: new Date().toISOString(),
+        });
+        results.push({ issueNumber: issue.number, verdict: "reject" });
+        continue;
+      }
+    }
+
+    // new: require an existing group (MVP does not create groups)
+    if (pType === "new") {
+      const tg = parseTargetGroup(issue.body || "");
+      if (!tg) {
+        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+        await comment(
+          issue.number,
+          "❌ Pre-review rejected: `new` proposals need `## Target Group` with a group number like `3` (existing group only).",
+        );
+        await closeIssue(issue.number);
+        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+          issueNumber: issue.number,
+          verdict: "reject",
+          reason: "missing_target_group",
+          matchedMetaRules: ["M1"],
+          reviewedAt: new Date().toISOString(),
+        });
+        results.push({ issueNumber: issue.number, verdict: "reject" });
+        continue;
+      }
+      const groupDef = findRuleFile(path.join(ROOT, "rules"), `${tg}-0`);
+      if (!groupDef) {
+        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+        await comment(
+          issue.number,
+          `❌ Pre-review rejected: target group \`${tg}\` not found (need \`${tg}-0\`). MVP only accepts items in existing groups.`,
+        );
+        await closeIssue(issue.number);
+        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+          issueNumber: issue.number,
+          verdict: "reject",
+          reason: `target_group_not_found:${tg}`,
           matchedMetaRules: [],
           reviewedAt: new Date().toISOString(),
         });
@@ -733,19 +817,23 @@ async function preReviewPhase({ metaRules, prompt }) {
       : [];
 
     if (verdict === "pass") {
-      // Freeze the text the community will vote on.
+      // Freeze the text the community will vote on + voting-math inputs.
       writeSnapshot(issue.number, {
         issueNumber: issue.number,
         category,
         ruleText: parseRuleText(issue.body || ""),
         proposalType: pType,
         targetRuleId: targetRuleId || null,
+        targetGroup: parseTargetGroup(issue.body || "") || null,
+        starsAtVotingStart: stars,
+        quorumAtVotingStart: quorumForStars(stars),
+        voteDeadline: "settle",
         snapshotAt: new Date().toISOString(),
       });
       await setLabels(issue.number, [LABELS.voting], [LABELS.proposal]);
       await comment(
         issue.number,
-        `✅ Pre-review passed (\`${pType}\`${targetRuleId ? ` → ${targetRuleId}` : ""}). Entered this cycle's vote. Settles next governance cycle.`,
+        `✅ Pre-review passed (\`${pType}\`${targetRuleId ? ` → ${targetRuleId}` : ""}). Entered this cycle's vote.\n\n**Vote deadline:** the next governance settle run (Mon 03:00 UTC) — reactions after that are not counted.\n**Quorum (frozen at voting start):** ${quorumForStars(stars)} approvals · starsAtVotingStart=${stars} · account age ≥ ${MIN_ACCOUNT_AGE_DAYS} days required.\nSettles next governance cycle.`,
       );
     } else {
       await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
@@ -801,13 +889,13 @@ async function main() {
   // recoverPendingPhase never throws; still guard so main always reaches settle/pre-review.
   let recovered = [];
   try {
-    recovered = await recoverPendingPhase({ stageInfo });
+    recovered = await recoverPendingPhase({ stars });
   } catch (err) {
     log("recover-pending crashed (continuing):", String(err.message || err));
   }
   // Settle voting, then pre-review new proposals.
   const settled = await settlePhase({ stars, stageInfo, reservedIds });
-  const reviewed = await preReviewPhase({ metaRules, prompt });
+  const reviewed = await preReviewPhase({ metaRules, prompt, stars });
 
   const summary = {
     ranAt: new Date().toISOString(),

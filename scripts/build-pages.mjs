@@ -15,9 +15,16 @@ import {
   isCategory,
   PAGE_MAX_PER_CATEGORY,
   PAGE_MAX_RESEARCH,
+  MIN_ACCOUNT_AGE_DAYS,
 } from "../lib/constants.mjs";
 import { loadActiveRules } from "../lib/rules.mjs";
-import { listOpenIssuesWithLabel, listIssueReactions, getRepo } from "../lib/github.mjs";
+import { tallyVotes } from "../lib/voting.mjs";
+import {
+  listOpenIssuesWithLabel,
+  listIssueReactions,
+  getRepo,
+  resolveUserCreatedAts,
+} from "../lib/github.mjs";
 
 const ROOT = process.cwd();
 const OUT_DIR = path.join(ROOT, "docs");
@@ -92,25 +99,26 @@ function fmtDateTime(iso) {
   return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
 }
 
-function tallyDisplayVotes(reactions, authorLogin) {
-  const byUser = new Map();
-  for (const r of reactions) {
-    const login = r.user?.login;
-    if (!login || login.toLowerCase() === String(authorLogin || "").toLowerCase()) continue;
-    if (/\[bot\]$/i.test(login)) continue;
-    if (!byUser.has(login)) byUser.set(login, new Set());
-    byUser.get(login).add(r.content);
+function tallyDisplayVotes(reactions, authorLogin, getCreatedAt) {
+  // Same rules as settle: author/bot out, account age gate, void on +1&-1.
+  return tallyVotes(reactions, authorLogin, {
+    minAccountAgeDays: MIN_ACCOUNT_AGE_DAYS,
+    getCreatedAt,
+  });
+}
+
+function loadVotingSnapshot(issueNumber) {
+  const file = path.join(
+    ROOT,
+    "decisions",
+    "rule-snapshots",
+    `${issueNumber}.json`,
+  );
+  try {
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return null;
   }
-  let up = 0;
-  let down = 0;
-  for (const set of byUser.values()) {
-    const hasUp = set.has("+1");
-    const hasDown = set.has("-1");
-    if (hasUp && hasDown) continue;
-    if (hasUp) up++;
-    else if (hasDown) down++;
-  }
-  return { up, down };
 }
 
 function categoryName(slug) {
@@ -179,28 +187,45 @@ async function main() {
     for (const issue of voting) {
       let up = 0;
       let down = 0;
+      let droppedYoung = 0;
+      let droppedUnknown = 0;
+      // Prefer quorum frozen at voting entry (same as settle).
+      const snap = loadVotingSnapshot(issue.number);
+      const quorum = snap?.quorumAtVotingStart ?? stageInfo.quorum;
+      const quorumSource = snap?.quorumAtVotingStart != null ? "frozen" : "live";
       try {
         const reactions = await listIssueReactions(issue.number);
-        const t = tallyDisplayVotes(reactions, issue.user?.login);
+        const logins = reactions.map((r) => r.user?.login).filter(Boolean);
+        const createdAtByLogin = await resolveUserCreatedAts(logins);
+        const t = tallyDisplayVotes(reactions, issue.user?.login, (login) => {
+          return createdAtByLogin.get(login) ?? { ok: false, createdAt: null };
+        });
         up = t.up;
         down = t.down;
+        droppedYoung = t.droppedYoung ?? 0;
+        droppedUnknown = t.droppedUnknown ?? 0;
       } catch {
         /* ignore */
       }
-      const need = Math.max(0, stageInfo.quorum - (up + down));
+      const need = Math.max(0, quorum - up);
+      const dropNote =
+        droppedYoung || droppedUnknown
+          ? ` · −${droppedYoung} young −${droppedUnknown} unknown`
+          : "";
       const needText =
-        up + down < stageInfo.quorum
-          ? `${need} more vote${need === 1 ? "" : "s"} needed · quorum ${stageInfo.quorum}`
+        up < quorum
+          ? `${need} more approval${need === 1 ? "" : "s"} needed · quorum ${quorum}${quorumSource === "frozen" ? "" : " (live)"}`
           : up > down
             ? "Leading"
             : "Tied or behind";
       items.push(`<li class="vote-item">
         <a class="vote-title" href="${esc(issue.html_url)}">${esc(issue.title)}</a>
-        <div class="vote-meta"><span>👍 ${up} · 👎 ${down}</span><span>${esc(needText)}</span></div>
+        <div class="vote-meta"><span>👍 ${up} · 👎 ${down}${esc(dropNote)}</span><span>${esc(needText)}</span></div>
       </li>`);
     }
     votingHtml = items.length
-      ? `<ul class="list vote-list">${items.join("\n")}</ul>`
+      ? `<ul class="list vote-list">${items.join("\n")}</ul>
+        <p class="vote-note">Votes are tallied at the <strong>next settlement run</strong> (Mon 03:00 UTC). Reactions after that are not counted. Quorum and counts match settle: frozen at voting entry where available, accounts ≥ ${MIN_ACCOUNT_AGE_DAYS} days (young / unknown age not counted).</p>`
       : `<p class="empty"><strong>No open proposals.</strong> Ratified rules only change through Issues. ${proposeHtml()}</p>`;
   } catch (err) {
     log("GitHub unavailable:", String(err.message || err));
@@ -679,6 +704,15 @@ async function main() {
     font-weight: 600;
     letter-spacing: -0.01em;
   }
+  .vote-note {
+    margin: 0.75rem 0 0;
+    padding: 0.65rem 0.75rem;
+    border-left: 2px solid #3d4a5c;
+    color: #9aa7b8;
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
   .vote-meta {
     margin-top: 0.3rem;
     display: flex;
