@@ -1,0 +1,15 @@
+{
+  "urlHash": "3bf3a05e5f7925d3",
+  "url": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Agentic conversational video intelligence built on AWS",
+  "summary": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedrock, Amazon Rekognition, and Amazon Transcribe at runtime, deciding which service to call so you can ask natural languag",
+  "pubDate": "2026-09-23T18:21:54.000Z",
+  "decidedAt": "2026-09-23T19:34:07.849Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog is a how-to tutorial on building a conversational video solution using existing services (Strands Agents SDK, Bedrock, Rekognition, Transcribe). It announces no new model, research artifact, business event, policy action, or new OSS tool/framework release, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "9e82b7779170"
+}
