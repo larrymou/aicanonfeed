@@ -6,15 +6,15 @@ All product surfaces are **English**: rules, proposals, issue comments from the 
 
 ## Propose a rule
 
-1. Open a **Rule Proposal** issue.
-2. Set **Proposal Type**:
+1. Open a **Rule Proposal** issue and pick the template for your type (**New** / **Amend** / **Revoke**).
+2. **Proposal Type** is pre-filled by the template:
    - `new` — add a rule item to an **existing** group (`## Target Group` = group number, e.g., `3`). MVP does not create new groups.
    - `amend` — **replace** rule text for an existing rule (`## Target Rule` = `group-item`, e.g., `3-1`)
    - `revoke` — mark the target rule `status: revoked` (`## Target Rule` = `group-item`)
-3. Fill only the fields for that type: `new` → `## Target Group`; `amend`/`revoke` → `## Target Rule`. Leave the other empty.
+3. Fill the target field in your template: **New** → `## Target Group`; **Amend** / **Revoke** → `## Target Rule`. The unused target field is not in the template.
 4. Rule IDs use `<group>-<item>` format: `1-0` = group definition, `1-1` = first rule in group 1. Item numbers auto-increment and are never reused after deletion.
-5. Suggested issue title: `[RULE] <type> <target>` (e.g. `[RULE] amend 3-1`).
-6. Write a complete, executable inclusion determination. For `amend`, paste the **full new rule text**, not a diff.
+5. Suggested issue title: `[RULE] <type> <target>` (e.g. `[RULE] amend 3-1`). Templates pre-fill the prefix.
+6. Write a complete, executable inclusion determination. For `amend`, paste the **full new rule text**, not a diff. For `revoke`, write the public justification (min 20 chars).
 7. The next governance cycle runs AI pre-review against meta-rules M1–M7.
 8. If it passes, the issue is labeled `voting`. React 👍 or 👎.
 9. The following cycle settles the vote. If ratified, a bot PR updates the rule file.

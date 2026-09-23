@@ -132,40 +132,39 @@ test("parseProposalType strips HTML comments (stock template)", () => {
   );
 });
 
-test("parseTargetGroup/parseTargetRule match stock template sections", () => {
-  // Stock template: Target Group is comment-only (null), Target Rule is comment-only (null)
-  const stock = [
-    "## Proposal Type",
-    "",
-    "<!-- pick one value below: new / amend / revoke -->",
-    "",
-    "new",
-    "",
-    "## Category",
-    "",
-    "<!-- model-releases / research / industry / policy / tools-oss -->",
-    "",
-    "model-releases",
-    "",
-    "## Target Group",
-    "",
-    "<!-- Required for new: group number to add the item to (e.g., 3). -->",
-    "<!-- Leave empty for amend and revoke. -->",
-    "",
-    "## Target Rule",
-    "",
-    "<!-- Required for amend and revoke. Format: group-item (e.g., 3-1). -->",
-    "<!-- Leave empty for new proposals (use ## Target Group instead). -->",
-    "",
-    "## Rule Text",
-    "",
-    "<!-- English. Actionable inclusion determination. -->",
-  ].join("\n");
-  assert.equal(parseTargetGroup(stock), null);
-  assert.equal(parseTargetRule(stock), null);
+test("parseTargetGroup/parseTargetRule match split template sections", () => {
+  // Unfilled target sections (comment-only) and missing sections both parse as null
+  assert.equal(
+    parseTargetGroup("## Target Group\n\n<!-- Group number (e.g., 3). -->\n"),
+    null,
+  );
+  assert.equal(
+    parseTargetRule("## Target Rule\n\n<!-- Format: group-item (e.g., 3-1). -->\n"),
+    null,
+  );
+  assert.equal(parseTargetGroup("## Rule Text\n\nno group section\n"), null);
+  assert.equal(parseTargetRule("## Rule Text\n\nno rule section\n"), null);
   // Filled values parse as expected
   assert.equal(parseTargetGroup("## Target Group\n\n3\n"), "3");
   assert.equal(parseTargetRule("## Target Rule\n\n3-1\n"), "3-1");
+});
+
+test("split rule-proposal templates expose only their target field", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const dir = new URL("../.github/ISSUE_TEMPLATE/", import.meta.url);
+  const cases = [
+    { file: "rule-proposal-new.md", type: "new", has: "## Target Group", lacks: "## Target Rule" },
+    { file: "rule-proposal-amend.md", type: "amend", has: "## Target Rule", lacks: "## Target Group" },
+    { file: "rule-proposal-revoke.md", type: "revoke", has: "## Target Rule", lacks: "## Target Group" },
+  ];
+  for (const c of cases) {
+    const body = await readFile(new URL(c.file, dir), "utf8");
+    // Strip YAML frontmatter before parsing body fields
+    const text = body.replace(/^---\n[\s\S]*?\n---\n/, "");
+    assert.equal(parseProposalType(text), c.type, c.file);
+    assert.ok(text.includes(c.has), `${c.file} should include ${c.has}`);
+    assert.ok(!text.includes(c.lacks), `${c.file} should not include ${c.lacks}`);
+  }
 });
 
 test("account age gate drops young and unknown accounts", () => {
