@@ -972,7 +972,7 @@ ${rulesHtml}
         <div class="canon-step" role="listitem">
           <span class="n">01</span>
           <div class="t">Legislate</div>
-          <div class="d">Open a rule proposal via ${proposeHtml("GitHub Issues")}. Bound by ${ghLink("/blob/main/lib/meta-rules.md", "meta-rules M1–M7")}.</div>
+          <div class="d">Open a rule proposal via ${proposeHtml("GitHub Issues")}. Bound by ${ghLink("/blob/main/lib/meta-rules.md", "meta-rules M1–M7")} (M1 complete form · M2 objective wording · M5 no edits to voting mechanics — plain-language table in CONTRIBUTING).</div>
         </div>
         <div class="canon-step" role="listitem">
           <span class="n">02</span>
