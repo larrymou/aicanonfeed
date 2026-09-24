@@ -1,0 +1,12 @@
+{
+  "issueNumber": 4,
+  "category": "model-releases",
+  "ruleText": "Include an item when ALL of the following hold:\n\n1. Named model. The title or summary names a specific AI model or model line from a named lab, company, or product owner. A generic phrase such as \"our new model\" is not a name.\n\n2. Release action. The item announces availability of (a) a new model, (b) a major version, or (c) a new model capability. For this rule, \"major version\" means a version the owner labels as major on the announcement page, or a version number of the form N.0 (N >= 1). For this rule, \"new model capability\" means a change to what the model can do (new modality, tool use, or context-length class), not a UI, pricing, hiring, or partnership update.\n\n3. Evidence link. The item links to either (a) an official announcement page on the owner's site (blog, model card, or release page), or (b) a full news article on a domain that is not the owner's domain, with a named author and a publication date. If both (a) and (b) exist, classify under this rule using (a).\n\nExclude generic product features, infrastructure, financing, and partnerships (those belong under group 3 or 5). Media-only launches with no official owner link stay under this rule; do not also count a media repost when an official owner link is present.",
+  "proposalType": "amend",
+  "targetRuleId": "1-1",
+  "targetGroup": null,
+  "starsAtVotingStart": 0,
+  "quorumAtVotingStart": 3,
+  "voteDeadline": "settle",
+  "snapshotAt": "2026-09-24T08:12:51.057Z"
+}
