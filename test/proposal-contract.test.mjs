@@ -428,6 +428,22 @@ test("gate matrix: missing or wrong targets are hard-rejected with stable codes"
   const unsafeGate = evaluateProposalBody(unsafe, { rulesDir: RULES_DIR });
   assert.equal(unsafeGate.code, "rule_text_unsafe");
   assert.match(unsafeGate.reason, /^forbidden_pattern:|^empty$/);
+
+  const emptyText = naturalFill(readTemplate("amend"), {
+    "Target Rule": "1-1",
+    Category: "model-releases",
+    "Rule Text": "<!-- only a comment -->",
+  });
+  const emptyGate = evaluateProposalBody(emptyText, { rulesDir: RULES_DIR });
+  assert.equal(emptyGate.code, "rule_text_unsafe");
+  assert.equal(emptyGate.reason, "empty");
+
+  const blankText = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": "\n\n  \n",
+  });
+  assert.equal(evaluateProposalBody(blankText, { rulesDir: RULES_DIR }).reason, "empty");
 });
 
 test("revoke may omit category and inherits it from the target rule", () => {

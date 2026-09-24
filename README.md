@@ -73,6 +73,7 @@ At **≥ 100 stars**, F1 turns off; normal quorum (approve-count) and majority a
 
 - Open a **Rule Proposal** issue (template). English, actionable inclusion text only.
 - **Proposal types:** `new` (add item to an existing group via `## Target Group`), `amend` (full replacement text + `## Target Rule`), `revoke` (deactivate target; justification in Rule Text). MVP does not create new groups.
+- **Proposal quota:** 1 open proposal and 1 new proposal per UTC day per author. While stars are **< 100**, `FOUNDER_LOGIN` is exempt (same star gate as F1).
 - Vote on issues labeled `voting` with 👍 / 👎. Authors cannot count their own reactions. Duplicate reactions count once. **Ties are defeated.** Votes close at the next settle run; accounts must be ≥ 30 days old.
 - Under **&lt; 100 stars**, the founder may cast a single ratify vote (see F1 above).
 - Rules take effect only after vote settlement + PR merge (plan for **1–2 weeks** end-to-end).

@@ -10,6 +10,7 @@ import {
   getRepo,
   resolveUserCreatedAts,
   listOpenIssuesWithLabel,
+  listIssues,
   listIssueReactions,
   setLabels,
   comment,
@@ -36,6 +37,8 @@ import {
   parseCategory,
   parseRuleText,
   evaluateProposalBody,
+  evaluateProposalQuota,
+  startOfUtcDay,
   maxRuleChars,
   buildRuleFile,
   nextFreeItemNumber,
@@ -614,7 +617,55 @@ async function preReviewPhase({ metaRules, prompt, stars }) {
   const results = [];
   const promptBody = loadPrompt(prompt);
 
+  // Proposal quota facts (in-flight slot + UTC-day budget) before shape/LLM gates.
+  const openByAuthor = new Map();
   for (const issue of proposals) {
+    const key = String(issue.user?.login || "").toLowerCase();
+    if (!openByAuthor.has(key)) openByAuthor.set(key, []);
+    openByAuthor.get(key).push({
+      number: issue.number,
+      createdAt: issue.created_at || null,
+    });
+  }
+  const dayStart = startOfUtcDay();
+  const todayCache = new Map();
+  async function createdTodayFor(login) {
+    const key = String(login || "").toLowerCase();
+    if (!todayCache.has(key)) {
+      const issues = await listIssues({ creator: login, state: "all", since: dayStart });
+      const rows = issues
+        .filter((i) => (i.created_at || "") >= dayStart)
+        .map((i) => ({ number: i.number, createdAt: i.created_at || null }));
+      todayCache.set(key, rows);
+    }
+    return todayCache.get(key);
+  }
+
+  for (const issue of proposals) {
+    const login = issue.user?.login || "";
+    const openList = openByAuthor.get(String(login).toLowerCase()) || [];
+    const quota = evaluateProposalQuota({
+      login,
+      stars,
+      issueNumber: issue.number,
+      openByAuthor: openList,
+      createdTodayByAuthor: await createdTodayFor(login),
+    });
+    if (!quota.ok) {
+      await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
+      await comment(issue.number, quota.message);
+      await closeIssue(issue.number);
+      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
+        issueNumber: issue.number,
+        verdict: "reject",
+        reason: quota.reason,
+        matchedMetaRules: ["M3"],
+        reviewedAt: new Date().toISOString(),
+      });
+      results.push({ issueNumber: issue.number, verdict: "reject" });
+      continue;
+    }
+
     // Hard shape gates (shared with tests via evaluateProposalBody) before any LLM call.
     const gate = evaluateProposalBody(issue.body || "", {
       rulesDir: path.join(ROOT, "rules"),

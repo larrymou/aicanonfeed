@@ -15,9 +15,10 @@ All product surfaces are **English**: rules, proposals, issue comments from the 
 4. Rule IDs use `<group>-<item>` format: `1-0` = group definition, `1-1` = first rule in group 1. Item numbers auto-increment and are never reused after deletion.
 5. Suggested issue title: `[RULE] <type> <target>` (e.g. `[RULE] amend 3-1`). Templates pre-fill the prefix.
 6. Write a complete, executable inclusion determination. For `amend`, paste the **full new rule text**, not a diff. For `revoke`, write the public justification (min 20 chars).
-7. The next governance cycle runs AI pre-review against meta-rules M1–M7.
-8. If it passes, the issue is labeled `voting`. React 👍 or 👎.
-9. The following cycle settles the vote. If ratified, a bot PR updates the rule file.
+7. **Proposal quota:** at most **1 open** proposal and **1 new proposal per UTC day** per author. Extra filings are closed in pre-review. While repo stars are **< 100**, `FOUNDER_LOGIN` is exempt (same star gate as F1) so cold-start can exercise the loop.
+8. The next governance cycle runs AI pre-review against meta-rules M1–M7.
+9. If it passes, the issue is labeled `voting`. React 👍 or 👎.
+10. The following cycle settles the vote. If ratified, a bot PR updates the rule file.
 
 **Timeline:** expect about 8–14 days from proposal to an active rule (shorter when the founder casting vote applies — see Vote).
 
