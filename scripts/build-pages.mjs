@@ -992,6 +992,7 @@ ${rulesHtml}
         <li>Uncovered items are rejected by design.</li>
         <li>Meta-rule M7 forbids personalization: no per-user feeds, no engagement ranking.</li>
         <li>Rules change over time; past decisions keep the rule version in effect when they were made.</li>
+        <li>CANON experiment: voting parameters (quorum, F1, proposal quota, …) are code-locked for now — more of them are meant to move to community votes as the loop matures.</li>
       </ul>
       <p class="links">
         <a href="${CANON_PARADIGM}">CANON paradigm</a>

@@ -20,9 +20,17 @@ Content must not include hate incitement, targeted harassment of individuals, or
 
 ## M5 Boundary
 
-Proposals must not modify or circumvent hard constraints: meta-rules themselves, fixed categories, display method, account system, or voting mechanics (quorum formula/thresholds, star stages, F1, auto-merge star gate). No content may claim exemption from review.
+Proposals must not modify or circumvent hard constraints:
 
-**Experimental lock:** while this project is an experiment, voting-mechanism parameters live only in code (`lib/constants.mjs`). Community proposals cannot amend quorum or related mechanics — only maintainers changing code can. Do not treat this as a permanent constitutional choice; it is a temporary product decision.
+- **meta-rules** (this file) themselves
+- **fixed categories** — the five slugs `model-releases`, `research`, `industry`, `policy`, `tools-oss` (and their display tabs)
+- **display method** — one shared reverse-chronological window (`CONTENT_MAX_AGE_DAYS`), per-category / research display caps, no ranking
+- **account system** — GitHub accounts as identity; `MIN_ACCOUNT_AGE_DAYS` for votes
+- **voting mechanics** — quorum formula/thresholds, star stages, F1, auto-merge star gate, proposal quota
+
+No content may claim exemption from review.
+
+**Experimental lock (temporary):** while this mechanism is being validated, voting and filing parameters live only in code (`lib/constants.mjs`). Community proposals cannot amend them yet — only maintainers changing code can. This is a product experiment choice, not a permanent constitutional rule. The CANON direction of travel is to open more of these parameters to community legislation over time (for example daily proposal counts or quorum size) once the loop is trustworthy enough to amend itself.
 
 ## M6 Neutrality
 
