@@ -13,7 +13,7 @@
     --bg-deep: #000000;
     --ink: #ffffff;
     --muted: #9a9a9a;
-    --dim: #6e6e6e;
+    --dim: #8a8a8a;
     --line: #2a2a2a;
     --line-soft: #1f1f1f;
     --accent: #0078d4;
@@ -28,7 +28,7 @@
     --tag-research: #4fc3f7;
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; scroll-padding-top: 3.5rem; }
+  html { scroll-behavior: smooth; scroll-padding-top: 3.5rem; overflow-x: clip; }
   body {
     margin: 0;
     background: var(--bg);
@@ -37,6 +37,9 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     min-height: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    overflow-wrap: break-word;
   }
   a { color: var(--ink); text-decoration: none; }
   a:hover { color: var(--accent-soft); }
@@ -56,6 +59,7 @@
 
   .wrap {
     width: min(100% - 3rem, var(--max));
+    max-width: 100%;
     margin-inline: auto;
   }
 
@@ -80,6 +84,7 @@
     color: var(--muted);
     font-size: 1rem;
     line-height: 1.65;
+    overflow-wrap: anywhere;
   }
   .lede strong { color: var(--ink); font-weight: 600; }
 
@@ -94,7 +99,9 @@
     flex-wrap: wrap;
     gap: 0.5rem 1.1rem;
     align-items: center;
+    max-width: 100%;
   }
+  .status > * { min-width: 0; }
   .status .live-dot {
     width: 8px;
     height: 8px;
@@ -115,7 +122,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
-    max-width: none;
+    max-width: 100%;
     border: 0;
   }
   .contract-item {
@@ -126,9 +133,19 @@
     font-size: 0.7rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    max-width: min(100%, 18rem);
   }
   .contract-item .t { display: inline; font-weight: 400; color: var(--muted); font-size: inherit; letter-spacing: inherit; }
-  .contract-item .d { display: none; }
+  .contract-item .d {
+    display: block;
+    margin: 0.35rem 0 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    color: var(--muted);
+    font-weight: 400;
+  }
   .contract-item .n { display: inline; margin: 0 0.35rem 0 0; color: var(--accent); font-size: inherit; }
   .contract-item code { display: none; }
 
@@ -188,6 +205,9 @@
     background: rgba(10, 10, 10, 0.94);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
   .rail {
     display: flex;
@@ -196,6 +216,8 @@
     margin: 0;
     border-bottom: 1px solid var(--line);
     overflow-x: auto;
+    max-width: 100%;
+    min-width: 0;
     scrollbar-width: none;
   }
   .rail::-webkit-scrollbar { display: none; }
@@ -250,6 +272,8 @@
     flex-direction: column;
     gap: 0.8rem;
     min-height: 14.5rem;
+    min-width: 0;
+    max-width: 100%;
     transition: background 0.12s ease;
   }
   .tile:hover { background: #202020; }
@@ -265,18 +289,19 @@
   .tile-solid .tile-summary,
   .tile-solid .tile-meta,
   .tile-solid .tile-foot,
-  .tile-solid .tile-foot time { color: rgba(255, 255, 255, 0.85); }
+  .tile-solid .tile-foot time { color: #fff; }
   .tile-solid .cat {
     background: rgba(0, 0, 0, 0.25);
     border-color: rgba(255, 255, 255, 0.35);
     color: #fff;
   }
-  .tile-solid .rule-tag a { color: rgba(255, 255, 255, 0.9); border-color: rgba(255,255,255,0.3); }
-  .tile-solid .tile-why summary { color: rgba(255, 255, 255, 0.9); }
+  .tile-solid .rule-tag a,
+  .tile-solid .rule-tag-plain { color: #fff; border-color: rgba(255,255,255,0.45); }
+  .tile-solid .tile-why summary { color: #fff; }
   .tile-solid .why-reason {
     background: rgba(0, 0, 0, 0.25);
     border-left-color: #fff;
-    color: rgba(255, 255, 255, 0.9);
+    color: #fff;
   }
 
   .tile-meta {
@@ -306,7 +331,8 @@
   .cat-tools-oss { color: var(--tag-tools); }
   .src { color: inherit; font-weight: 400; text-transform: none; letter-spacing: 0; }
   .rule-tag { margin-left: auto; }
-  .rule-tag a {
+  .rule-tag a,
+  .rule-tag-plain {
     color: var(--muted);
     font-size: 0.72rem;
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -317,6 +343,11 @@
     letter-spacing: 0;
   }
   .rule-tag a:hover { color: #fff; border-color: #fff; }
+  .rule-tag-plain {
+    color: var(--dim);
+    border-style: dashed;
+    cursor: default;
+  }
 
   .tile-title {
     margin: 0.2rem 0 0;
@@ -325,6 +356,8 @@
     letter-spacing: -0.01em;
     line-height: 1.35;
     flex: 1;
+    overflow-wrap: anywhere;
+    min-width: 0;
   }
   .tile-wide .tile-title { font-size: 1.3rem; line-height: 1.3; }
   .tile.is-research .tile-title { font-size: 1.05rem; font-weight: 600; }
@@ -346,6 +379,8 @@
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    overflow-wrap: anywhere;
+    min-width: 0;
   }
   .tile-wide .tile-summary { -webkit-line-clamp: 5; font-size: 0.98rem; }
 
@@ -382,6 +417,7 @@
     border-left: 2px solid var(--accent);
     background: #111;
     line-height: 1.5;
+    overflow-wrap: anywhere;
   }
   .why-reason code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -494,6 +530,8 @@
     margin: 0.4rem 0 0;
     color: #fff;
     max-width: 42rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
   }
   .rule-cta {
     margin: 0.45rem 0 0;
@@ -613,7 +651,7 @@
         <span>Shared window · last 5 days</span>
         <strong>38</strong>
         <span>included</span>
-        <span class="gov">S0 · quorum 3 · 0★</span>
+        <span class="gov" title="Governance stage · approve votes needed to pass (quorum) · GitHub stars">S0 · quorum 3 · 0★</span>
       </p>
       <div class="contract" role="list" aria-label="Editorial contract">
         <div class="contract-item" role="listitem"><span class="n">01</span><span class="t">Same window</span><p class="d">One shared rolling window — not a personal feed.</p></div>
@@ -637,7 +675,7 @@
       </div>
       <p class="block-meta">Display caps · 25 per category · research 10 · balance by policy</p>
       <div class="rail-wrap">
-        <div class="rail" role="tablist" aria-label="Filter by category">
+        <div class="rail" role="group" aria-label="Filter by category">
           <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">38</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">21</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">0</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">6</span></button>
         </div>
       </div>
@@ -649,7 +687,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.26891" rel="noopener noreferrer" target="_blank">Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity</a></h3>
-  <p class="tile-summary">arXiv:2609.26891v1 Announce Type: new Abstract: Modern language-model agents are built around the \textit{agent loop}, where the LLM is plac</p>
+  <p class="tile-summary">Modern language-model agents are built around the agent loop, where the LLM is placed in an environment exposing a set of tools, and the LLM</p>
   <div class="tile-foot">
     <time datetime="2026-09-24T04:00:00.000Z">2026-09-24</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>c0cf654fb353</code> — arXiv preprint reporting a new minimalist agent framework (research artifact) with a link to the original paper on arXiv; matches the research rule for new AI research results.</p></details>
@@ -675,7 +713,7 @@
     <span class="rule-tag"><a href="#rule-3-1">3-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features" rel="noopener noreferrer" target="_blank">Muse is coming to Meta smart glasses</a></h3>
-  <p class="tile-summary">Just a couple of weeks after launching Muse, Meta announced that it&#39;s &quot;working on&quot; bringing the agent to its smart glasses, including the new glasses it unveiled at Meta Connect. Users will be able to activate Muse from their glasses by saying its name and ask it to handle tasks </p>
+  <p class="tile-summary">Just a couple of weeks after launching Muse, Meta announced that it&#39;s &quot;working on&quot; bringing the agent to its smart glasses, including the new glasses it unveiled at Meta Connect. Users will be able to activate Muse from their glasses by saying its name and ask it to handle tasks</p>
   <div class="tile-foot">
     <time datetime="2026-09-23T23:40:56.000Z">2026-09-23</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>9e82b7779170</code> — Meta&#39;s announcement that its Muse agent is coming to Meta smart glasses is a non-model product feature/integration, covered by the industry rule via a reputable media report (The Verge); not a new model or open-source tool.</p></details>
@@ -740,7 +778,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.22512" rel="noopener noreferrer" target="_blank">Agreement Overstates Evidence: Error Dependence in LLM Judge Consensus</a></h3>
-  <p class="tile-summary">arXiv:2609.22512v1 Announce Type: new Abstract: Consensus among LLM judges is often taken as strong evidence that a decision is correct. Thi</p>
+  <p class="tile-summary">Consensus among LLM judges is often taken as strong evidence that a decision is correct. This assumes that judges make their errors independ</p>
   <div class="tile-foot">
     <time datetime="2026-09-23T04:00:00.000Z">2026-09-23</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>9e82b7779170</code> — arXiv preprint (2609.22512) reporting new research results on error dependence in LLM judge consensus, with link to the original paper. Fits the research rule for new AI research artifacts.</p></details>
@@ -753,7 +791,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.22277" rel="noopener noreferrer" target="_blank">An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users</a></h3>
-  <p class="tile-summary">arXiv:2609.22277v1 Announce Type: new Abstract: Visual impairment affects over 2.2 billion people worldwide, yet conventional white canes ca</p>
+  <p class="tile-summary">Visual impairment affects over 2.2 billion people worldwide, yet conventional white canes cannot detect elevated hazards or provide semantic</p>
   <div class="tile-foot">
     <time datetime="2026-09-23T04:00:00.000Z">2026-09-23</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>9e82b7779170</code> — arXiv preprint (arXiv:2609.22277) reporting new AI research on an AI-integrated smart cane, with a link to the original paper on arXiv. Matches rule 2-1 for new AI research results with an original paper link.</p></details>
@@ -766,7 +804,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.22353" rel="noopener noreferrer" target="_blank">PAANI : On Device Visual Evidence Fusion and Explainable Guidance for River Robot Simulation</a></h3>
-  <p class="tile-summary">arXiv:2609.22353v1 Announce Type: new Abstract: Mobile river monitoring robots must interpret obstacles and water boundaries that geographic</p>
+  <p class="tile-summary">Mobile river monitoring robots must interpret obstacles and water boundaries that geographic waypoints alone cannot describe. On resource co</p>
   <div class="tile-foot">
     <time datetime="2026-09-23T04:00:00.000Z">2026-09-23</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>9e82b7779170</code> — arXiv preprint (arXiv:2609.22353) reporting new AI research on on-device visual evidence fusion and explainable guidance, with a link to the original paper. Matches rule 2-1 for new AI research results.</p></details>
@@ -779,7 +817,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.22408" rel="noopener noreferrer" target="_blank">Social Influence and the Allocation of Scientific Attention in AI Populations</a></h3>
-  <p class="tile-summary">arXiv:2609.22408v1 Announce Type: new Abstract: AI systems are becoming participants in the evaluation and use of scientific research. They </p>
+  <p class="tile-summary">AI systems are becoming participants in the evaluation and use of scientific research. They encounter citation counts, download statistics a</p>
   <div class="tile-foot">
     <time datetime="2026-09-23T04:00:00.000Z">2026-09-23</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>9e82b7779170</code> — arXiv preprint (arXiv:2609.22408) reporting new AI research on social influence and scientific attention allocation, with a link to the original paper source; matches the research rule for new research results with an original-source link.</p></details>
@@ -792,7 +830,7 @@
     <span class="rule-tag"><a href="#rule-3-1">3-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3" rel="noopener noreferrer" target="_blank">Rabbit’s new AI agent doesn’t need an R1 to run</a></h3>
-  <p class="tile-summary">Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don&#39;t need its hardware to use, as reported earlier by Wired. The startup says its new OS3 &quot;agentic operating system&quot; runs in the cloud but operates locally across Windows, Mac, </p>
+  <p class="tile-summary">Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don&#39;t need its hardware to use, as reported earlier by Wired. The startup says its new OS3 &quot;agentic operating system&quot; runs in the cloud but operates locally across Windows, Mac,</p>
   <div class="tile-foot">
     <time datetime="2026-09-22T20:52:40.000Z">2026-09-22</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>9e82b7779170</code> — Rabbit&#39;s OS3 standalone AI agent is a non-model product launch covered by The Verge, a reputable media outlet, with no official owner announcement, so it falls under industry business/product news rather than model releases.</p></details>
@@ -870,7 +908,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.21432" rel="noopener noreferrer" target="_blank">GVPO++: Group Variance Policy Optimization for LLM Post-Training and On-Policy Distillation</a></h3>
-  <p class="tile-summary">arXiv:2609.21432v1 Announce Type: new Abstract: Post-training plays a pivotal role in enhancing the reasoning capabilities and task-specific</p>
+  <p class="tile-summary">Post-training plays a pivotal role in enhancing the reasoning capabilities and task-specific expertise of large language models (LLMs). Desp</p>
   <div class="tile-foot">
     <time datetime="2026-09-22T04:00:00.000Z">2026-09-22</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>9e82b7779170</code> — arXiv preprint announcing new AI research results (GVPO++ policy optimization method for LLM post-training) with a link to the original paper on arXiv, matching rule 2-1.</p></details>
@@ -883,7 +921,7 @@
     <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.21492" rel="noopener noreferrer" target="_blank">LogicTrack: Auditing Reasoning Trajectories of Large Language Models with Formal Logic Solvers</a></h3>
-  <p class="tile-summary">arXiv:2609.21492v1 Announce Type: new Abstract: Chain-of-Thought (CoT) reasoning has been shown to improve the performance of large language</p>
+  <p class="tile-summary">Chain-of-Thought (CoT) reasoning has been shown to improve the performance of large language models (LLMs), yet existing optimization method</p>
   <div class="tile-foot">
     <time datetime="2026-09-22T04:00:00.000Z">2026-09-22</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>9e82b7779170</code> — arXiv preprint presenting new AI research on auditing LLM chain-of-thought reasoning with formal logic solvers, with link to the original paper. Fits rule 2-1 for new research results.</p></details>
@@ -893,10 +931,10 @@
   <div class="tile-meta">
     <span class="cat cat-research">Research</span>
     <span class="src">arXiv cs.AI</span>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R2</span></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.21325" rel="noopener noreferrer" target="_blank">LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces</a></h3>
-  <p class="tile-summary">arXiv:2609.21325v1 Announce Type: new Abstract: Agentic marketplaces are emerging where AI agents with varying capabilities autonomously com</p>
+  <p class="tile-summary">Agentic marketplaces are emerging where AI agents with varying capabilities autonomously complete specialized tasks for buyers. A major chal</p>
   <div class="tile-foot">
     <time datetime="2026-09-22T04:00:00.000Z">2026-09-22</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (arXiv:2609.21325) presenting a primary research artifact — a credentialing protocol for trustworthy AI agent marketplaces — with a direct link to the paper.</p></details>
@@ -906,10 +944,10 @@
   <div class="tile-meta">
     <span class="cat cat-research">Research</span>
     <span class="src">arXiv cs.AI</span>
-    <span class="rule-tag"><a href="#rule-R2">R2</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R2</span></span>
   </div>
   <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.21267" rel="noopener noreferrer" target="_blank">Efficient Benchmarking in Production: A Study of an Evolving LLM Agent</a></h3>
-  <p class="tile-summary">arXiv:2609.21267v1 Announce Type: new Abstract: Production LLM agents are evaluated repeatedly as they evolve, but full agent benchmarks are</p>
+  <p class="tile-summary">Production LLM agents are evaluated repeatedly as they evolve, but full agent benchmarks are costly to rerun. We study efficient recurring e</p>
   <div class="tile-foot">
     <time datetime="2026-09-22T04:00:00.000Z">2026-09-22</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R2</code> · ruleset <code>ffc8ebab6b0a</code> — arXiv preprint (cs.AI) reporting a primary research study on efficient recurring evaluation of a production LLM agent, with a direct link to the paper itself.</p></details>
@@ -919,7 +957,7 @@
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
     <span class="src">The Verge AI</span>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R4</span></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills" rel="noopener noreferrer" target="_blank">California tightens rules on AI data center energy and water use</a></h3>
   <p class="tile-summary">California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classif</p>
@@ -932,7 +970,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/" rel="noopener noreferrer" target="_blank">Meta’s Muse is outpacing ChatGPT’s early mobile launch</a></h3>
   <p class="tile-summary">Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.</p>
@@ -945,7 +983,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">AWS Machine Learning Blog</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/" rel="noopener noreferrer" target="_blank">xAI’s Grok 4.6 is now available in Amazon Bedrock</a></h3>
   <p class="tile-summary">xAI&#39;s Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort levels. It runs on both the bedrock-mantle and bedrock-runtime endpoints, with Converse API and cros</p>
@@ -958,7 +996,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/" rel="noopener noreferrer" target="_blank">Meta’s AI agent has been blocked from using Amazon.com</a></h3>
   <p class="tile-summary">Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they&#39;re under no legal obligation to open the doors to Muse, why would they?</p>
@@ -971,7 +1009,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/" rel="noopener noreferrer" target="_blank">With Tabby, a former accountant is using AI to make accountants obsolete</a></h3>
   <p class="tile-summary">Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.</p>
@@ -984,7 +1022,7 @@
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
     <span class="src">Ars Technica AI</span>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R4</span></span>
   </div>
   <h3 class="tile-title"><a href="https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/" rel="noopener noreferrer" target="_blank">Trump rejects AI slowdown calls, launches &quot;AI Force&quot; instead</a></h3>
   <p class="tile-summary">The president offered few details on what his proposed new AI Force would do.</p>
@@ -997,7 +1035,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/" rel="noopener noreferrer" target="_blank">Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini</a></h3>
   <p class="tile-summary">Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.</p>
@@ -1010,10 +1048,10 @@
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
     <span class="src">The Verge AI</span>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R4</span></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement" rel="noopener noreferrer" target="_blank">iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement</a></h3>
-  <p class="tile-summary">Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, </p>
+  <p class="tile-summary">Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024,</p>
   <div class="tile-foot">
     <time datetime="2026-09-21T13:36:52.000Z">2026-09-21</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R4</code> · ruleset <code>ffc8ebab6b0a</code> — Reports a court-approved class-action settlement resolving claims that Apple failed to deliver promised AI-powered Siri features; a concrete legal/enforcement action by courts, covered by reputable media.</p></details>
@@ -1023,7 +1061,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">OpenAI Blog</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://openai.com/index/higgsfield-from-prompt-to-production-with-astra" rel="noopener noreferrer" target="_blank">Higgsfield AI ships new video features in a day with GPT-6 Astra</a></h3>
   <p class="tile-summary">With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.</p>
@@ -1036,7 +1074,7 @@
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
     <span class="src">Wired AI</span>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R4</span></span>
   </div>
   <h3 class="tile-title"><a href="https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/" rel="noopener noreferrer" target="_blank">US and China Discuss Alerting Each Other to AI National Security Threats</a></h3>
   <p class="tile-summary">Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.</p>
@@ -1049,10 +1087,10 @@
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
     <span class="src">The Verge AI</span>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R4</span></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle" rel="noopener noreferrer" target="_blank">UN says AI safeguards can’t wait for certainty</a></h3>
-  <p class="tile-summary">The United Nations logo at the UN headquarters in New York. | Getty Images Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization&#39;s first major assessment of OpenAI&#39;s </p>
+  <p class="tile-summary">The United Nations logo at the UN headquarters in New York. | Getty Images Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization&#39;s first major assessment of OpenAI&#39;s</p>
   <div class="tile-foot">
     <time datetime="2026-09-21T10:18:06.000Z">2026-09-21</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>R4</code> · ruleset <code>ffc8ebab6b0a</code> — UN scientific panel&#39;s first major assessment warns governments to rein in capable AI agents before risks are understood — an official policy/regulatory body action reported by reputable media (The Verge), matching R4.</p></details>
@@ -1062,7 +1100,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">The Verge AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping" rel="noopener noreferrer" target="_blank">Amazon blocks Meta’s Muse AI agent</a></h3>
   <p class="tile-summary">Meta&#39;s Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that &quot;continued access by an unauthorized AI agent violates Amazon&#39;s Conditions of Use, to which our customers ha</p>
@@ -1075,7 +1113,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">OpenAI Blog</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://openai.com/index/expanding-openai-academy-with-new-learning-paths" rel="noopener noreferrer" target="_blank">Expanding OpenAI Academy with new learning paths</a></h3>
   <p class="tile-summary">Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.</p>
@@ -1088,7 +1126,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/" rel="noopener noreferrer" target="_blank">Vocci’s ring adds a new form factor to meeting note-taking</a></h3>
   <p class="tile-summary">Vocci&#39;s lightweight ring costs $249, and might pose some privacy questions</p>
@@ -1101,7 +1139,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/" rel="noopener noreferrer" target="_blank">ScrollEd wants to turn textbooks into TikTok</a></h3>
   <p class="tile-summary">ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.</p>
@@ -1114,7 +1152,7 @@
   <div class="tile-meta">
     <span class="cat cat-policy">Policy</span>
     <span class="src">The Verge AI</span>
-    <span class="rule-tag"><a href="#rule-R4">R4</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R4</span></span>
   </div>
   <h3 class="tile-title"><a href="https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar" rel="noopener noreferrer" target="_blank">Trump now says he wants to form an ‘AI Force’</a></h3>
   <p class="tile-summary">The president posted on Truth Social that he wanted to appoint an &quot;AI czar&quot; to lead a new &quot;AI force.&quot; He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administratio</p>
@@ -1127,7 +1165,7 @@
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
     <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-R3">R3</a></span>
+    <span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">R3</span></span>
   </div>
   <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/" rel="noopener noreferrer" target="_blank">Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking</a></h3>
   <p class="tile-summary">Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.</p>
@@ -1158,7 +1196,7 @@
     <span class="cat cat-model-releases">Model Releases</span>
     <span class="rule-version">v1</span>
   </div>
-  <p class="rule-body"># Model Releases
+  <p class="rule-body"><strong>Model Releases</strong>
 
 New AI models, major versions, and capability announcements from model owners.</p>
   <div class="rule-item" id="rule-1-1">
@@ -1184,7 +1222,7 @@ Exclude generic product features, infrastructure, financing, and partnerships (t
     <span class="cat cat-research">Research</span>
     <span class="rule-version">v1</span>
   </div>
-  <p class="rule-body"># Research
+  <p class="rule-body"><strong>Research</strong>
 
 AI research papers, preprints, and academic publications.</p>
   <div class="rule-item" id="rule-2-1">
@@ -1192,7 +1230,7 @@ AI research papers, preprints, and academic publications.</p>
       <span class="rule-id">2-1</span>
       <span class="rule-version">v1</span>
     </div>
-    <p class="rule-body">Include items that report **new AI research results**: peer-reviewed papers, arXiv preprints, or major benchmark releases, with a link to the original paper or official source. Do **not** use this rule for industry news, product launches, or commentary without a research artifact.</p>
+    <p class="rule-body">Include items that report <strong>new AI research results</strong>: peer-reviewed papers, arXiv preprints, or major benchmark releases, with a link to the original paper or official source. Do <strong>not</strong> use this rule for industry news, product launches, or commentary without a research artifact.</p>
   </div>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
@@ -1202,7 +1240,7 @@ AI research papers, preprints, and academic publications.</p>
     <span class="cat cat-industry">Industry</span>
     <span class="rule-version">v1</span>
   </div>
-  <p class="rule-body"># Industry
+  <p class="rule-body"><strong>Industry</strong>
 
 AI industry business events: financing, M&amp;A, partnerships, product launches.</p>
   <div class="rule-item" id="rule-3-1">
@@ -1210,7 +1248,7 @@ AI industry business events: financing, M&amp;A, partnerships, product launches.
       <span class="rule-id">3-1</span>
       <span class="rule-version">v1</span>
     </div>
-    <p class="rule-body">Include items that report **AI industry business events**: financing, M&amp;A, partnerships, market/revenue data, or non-model product launches, with a link to a company announcement, deal announcement, or reputable media report. If the item is a model/capability release **with an official owner announcement**, use group 1 instead; if it is open-source tooling, use group 5. Media-only coverage of a model launch (no official owner link) stays under this group.</p>
+    <p class="rule-body">Include items that report <strong>AI industry business events</strong>: financing, M&amp;A, partnerships, market/revenue data, or non-model product launches, with a link to a company announcement, deal announcement, or reputable media report. If the item is a model/capability release <strong>with an official owner announcement</strong>, use group 1 instead; if it is open-source tooling, use group 5. Media-only coverage of a model launch (no official owner link) stays under this group.</p>
   </div>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
@@ -1220,7 +1258,7 @@ AI industry business events: financing, M&amp;A, partnerships, product launches.
     <span class="cat cat-policy">Policy</span>
     <span class="rule-version">v1</span>
   </div>
-  <p class="rule-body"># Policy
+  <p class="rule-body"><strong>Policy</strong>
 
 AI regulation, government actions, and policy developments.</p>
   <div class="rule-item" id="rule-4-1">
@@ -1228,7 +1266,7 @@ AI regulation, government actions, and policy developments.</p>
       <span class="rule-id">4-1</span>
       <span class="rule-version">v1</span>
     </div>
-    <p class="rule-body">Include items that report **AI policy, regulation, or government action**: new laws, executive orders, regulatory enforcement, or official policy announcements, with a link to the official document or reputable source. Do **not** use this rule for industry self-regulation or commentary without a policy action.</p>
+    <p class="rule-body">Include items that report <strong>AI policy, regulation, or government action</strong>: new laws, executive orders, regulatory enforcement, or official policy announcements, with a link to the official document or reputable source. Do <strong>not</strong> use this rule for industry self-regulation or commentary without a policy action.</p>
   </div>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
@@ -1238,7 +1276,7 @@ AI regulation, government actions, and policy developments.</p>
     <span class="cat cat-tools-oss">Tools &amp; OSS</span>
     <span class="rule-version">v1</span>
   </div>
-  <p class="rule-body"># Tools &amp; OSS
+  <p class="rule-body"><strong>Tools &amp; OSS</strong>
 
 Open-source AI tools, frameworks, and developer resources.</p>
   <div class="rule-item" id="rule-5-1">
@@ -1246,7 +1284,7 @@ Open-source AI tools, frameworks, and developer resources.</p>
       <span class="rule-id">5-1</span>
       <span class="rule-version">v1</span>
     </div>
-    <p class="rule-body">Include items that announce **new open-source AI tools, frameworks, or developer resources**: library releases, framework updates, or developer tool launches, with a link to the repository or official announcement. Do **not** use this rule for proprietary product features or industry business events.</p>
+    <p class="rule-body">Include items that announce <strong>new open-source AI tools, frameworks, or developer resources</strong>: library releases, framework updates, or developer tool launches, with a link to the repository or official announcement. Do <strong>not</strong> use this rule for proprietary product features or industry business events.</p>
   </div>
   <p class="rule-cta"><a href="https://github.com/larrymou/aicanonfeed/issues/new/choose">Propose a change</a></p>
 </li>
