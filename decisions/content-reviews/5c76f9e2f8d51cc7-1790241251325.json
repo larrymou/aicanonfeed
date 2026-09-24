@@ -1,0 +1,15 @@
+{
+  "urlHash": "5c76f9e2f8d51cc7",
+  "url": "https://arxiv.org/abs/2609.26891",
+  "sourceName": "arXiv cs.AI",
+  "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+  "summary": "arXiv:2609.26891v1 Announce Type: new Abstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LLM has full control over the workflow by alternating between tool calls and observing",
+  "pubDate": "2026-09-24T04:00:00.000Z",
+  "decidedAt": "2026-09-24T09:14:05.719Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint reporting a new minimalist agent framework (research artifact) with a link to the original paper on arXiv; matches the research rule for new AI research results.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}
