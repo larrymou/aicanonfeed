@@ -1,0 +1,11 @@
+{
+  "issueNumber": 3,
+  "verdict": "reject",
+  "reason": "Rule text relies on subjective qualifiers such as 'major model version', 'material model capability', and 'reputable media report' that lack objective thresholds or specific sources. The AI cannot consistently verify these conditions, violating M2.",
+  "proposalType": "amend",
+  "targetRuleId": "1-1",
+  "matchedMetaRules": [
+    "M2"
+  ],
+  "reviewedAt": "2026-09-24T07:30:03.597Z"
+}
