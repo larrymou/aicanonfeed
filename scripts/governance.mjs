@@ -35,6 +35,8 @@ import {
   parseTargetGroup,
   parseCategory,
   parseRuleText,
+  evaluateProposalBody,
+  maxRuleChars,
   buildRuleFile,
   nextFreeItemNumber,
   nextFreeGroupNumber,
@@ -613,148 +615,29 @@ async function preReviewPhase({ metaRules, prompt, stars }) {
   const promptBody = loadPrompt(prompt);
 
   for (const issue of proposals) {
-    // Structural gates before spending an LLM call
-    const pType = parseProposalType(issue.body || "");
-    if (!["new", "amend", "revoke"].includes(pType)) {
+    // Hard shape gates (shared with tests via evaluateProposalBody) before any LLM call.
+    const gate = evaluateProposalBody(issue.body || "", {
+      rulesDir: path.join(ROOT, "rules"),
+    });
+    if (!gate.ok) {
       await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-      await comment(
-        issue.number,
-        `❌ Pre-review rejected: Proposal Type must be \`new\`, \`amend\`, or \`revoke\` (got \`${pType}\`).`,
-      );
+      await comment(issue.number, gate.message);
       await closeIssue(issue.number);
       writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
         issueNumber: issue.number,
         verdict: "reject",
-        reason: `unsupported_proposal_type:${pType}`,
-        matchedMetaRules: [],
+        reason: gate.reason,
+        matchedMetaRules: gate.matchedMetaRules,
         reviewedAt: new Date().toISOString(),
       });
       results.push({ issueNumber: issue.number, verdict: "reject" });
       continue;
     }
 
-    const targetRuleId = parseTargetRule(issue.body || "");
-    if (pType !== "new") {
-      if (!targetRuleId || !/^\d+-\d+$/.test(targetRuleId)) {
-        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-        await comment(
-          issue.number,
-          "❌ Pre-review rejected: \u0060amend\u0060/\u0060revoke\u0060 proposals need `## Target Rule` with an id like `3-1`.",
-        );
-        await closeIssue(issue.number);
-        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
-          issueNumber: issue.number,
-          verdict: "reject",
-          reason: "missing_target_rule",
-          matchedMetaRules: ["M1"],
-          reviewedAt: new Date().toISOString(),
-        });
-        results.push({ issueNumber: issue.number, verdict: "reject" });
-        continue;
-      }
-      const existing = findRuleFile(path.join(ROOT, "rules"), targetRuleId);
-      if (!existing) {
-        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-        await comment(
-          issue.number,
-          `❌ Pre-review rejected: target rule \`${targetRuleId}\` not found under \`rules/\`.`,
-        );
-        await closeIssue(issue.number);
-        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
-          issueNumber: issue.number,
-          verdict: "reject",
-          reason: `target_not_found:${targetRuleId}`,
-          matchedMetaRules: [],
-          reviewedAt: new Date().toISOString(),
-        });
-        results.push({ issueNumber: issue.number, verdict: "reject" });
-        continue;
-      }
-    }
-
-    // new: require an existing group (MVP does not create groups)
-    if (pType === "new") {
-      const tg = parseTargetGroup(issue.body || "");
-      if (!tg) {
-        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-        await comment(
-          issue.number,
-          "❌ Pre-review rejected: `new` proposals need `## Target Group` with a group number like `3` (existing group only).",
-        );
-        await closeIssue(issue.number);
-        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
-          issueNumber: issue.number,
-          verdict: "reject",
-          reason: "missing_target_group",
-          matchedMetaRules: ["M1"],
-          reviewedAt: new Date().toISOString(),
-        });
-        results.push({ issueNumber: issue.number, verdict: "reject" });
-        continue;
-      }
-      const groupDef = findRuleFile(path.join(ROOT, "rules"), `${tg}-0`);
-      if (!groupDef) {
-        await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-        await comment(
-          issue.number,
-          `❌ Pre-review rejected: target group \`${tg}\` not found (need \`${tg}-0\`). MVP only accepts items in existing groups.`,
-        );
-        await closeIssue(issue.number);
-        writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
-          issueNumber: issue.number,
-          verdict: "reject",
-          reason: `target_group_not_found:${tg}`,
-          matchedMetaRules: [],
-          reviewedAt: new Date().toISOString(),
-        });
-        results.push({ issueNumber: issue.number, verdict: "reject" });
-        continue;
-      }
-    }
-
-    let category = parseCategory(issue.body || "");
-    if (!category && pType !== "revoke") {
-      await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-      await comment(
-        issue.number,
-        "❌ Pre-review rejected: Category must be one of `model-releases`, `research`, `industry`, `policy`, `tools-oss` (first line under ## Category).",
-      );
-      await closeIssue(issue.number);
-      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
-        issueNumber: issue.number,
-        verdict: "reject",
-        reason: "invalid_category",
-        matchedMetaRules: [],
-        reviewedAt: new Date().toISOString(),
-      });
-      results.push({ issueNumber: issue.number, verdict: "reject" });
-      continue;
-    }
-    if (pType === "revoke" && !category) {
-      const existing = findRuleFile(path.join(ROOT, "rules"), targetRuleId);
-      category = existing?.category || null;
-    }
-
-    // Static jailbreak/injection scan before spending an LLM call.
-    const ruleText = parseRuleText(issue.body || "");
-    const unsafe = scanRuleText(ruleText);
-    if (unsafe) {
-      await setLabels(issue.number, [LABELS.rejected], [LABELS.proposal]);
-      await comment(
-        issue.number,
-        `❌ Pre-review rejected: rule text failed static safety scan (\`${unsafe}\`). Rule bodies must be inclusion criteria, not instructions to the model.`,
-      );
-      await closeIssue(issue.number);
-      writeDecision(`pre-review-${issue.number}-${Date.now()}.json`, {
-        issueNumber: issue.number,
-        verdict: "reject",
-        reason: unsafe,
-        matchedMetaRules: ["M5"],
-        reviewedAt: new Date().toISOString(),
-      });
-      results.push({ issueNumber: issue.number, verdict: "reject" });
-      continue;
-    }
+    const pType = gate.fields.proposalType;
+    const targetRuleId = gate.fields.targetRuleId;
+    let category = gate.fields.category;
+    const ruleText = gate.fields.ruleText;
 
     const filled = fillTemplate(promptBody, {
       META_RULES: metaRules,
