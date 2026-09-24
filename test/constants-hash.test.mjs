@@ -6,6 +6,7 @@ import {
   quorumForStars,
   canAutoMerge,
   AUTO_MERGE_MIN_STARS,
+  FOUNDER_STAR_CEILING,
   MIN_ACCOUNT_AGE_DAYS,
   CATEGORIES,
   LABELS,
@@ -39,7 +40,7 @@ test("stageForStars thresholds; unified quorum formula", () => {
   assert.equal(MIN_QUORUM, 3);
   // 0 stars → quorum 3
   assert.deepEqual(stageForStars(0), { stage: "S0", stars: 0, quorum: 3 });
-  // 100 stars → floor(2*log2(101))-7 = floor(13.29)-7 = 6 (kept low after F1 exit)
+  // 100 stars → floor(2*log2(101))-7 = floor(13.29)-7 = 6
   assert.equal(stageForStars(100).quorum, 6);
   // 199 stars → S0
   assert.equal(stageForStars(199).stage, "S0");
@@ -73,6 +74,8 @@ test("stageForStars thresholds; unified quorum formula", () => {
 
 test("canAutoMerge is a pure star gate at AUTO_MERGE_MIN_STARS", () => {
   assert.equal(AUTO_MERGE_MIN_STARS, 200);
+  // F1 / proposal-quota ceiling tracks the auto-merge star gate
+  assert.equal(FOUNDER_STAR_CEILING, AUTO_MERGE_MIN_STARS);
   assert.equal(MIN_ACCOUNT_AGE_DAYS, 30);
   assert.equal(canAutoMerge(0), false);
   assert.equal(canAutoMerge(199), false);

@@ -10,6 +10,7 @@ import {
   FOUNDER_STAR_CEILING,
   PROPOSAL_OPEN_LIMIT,
   PROPOSAL_DAILY_LIMIT,
+  AUTO_MERGE_MIN_STARS,
 } from "../lib/constants.mjs";
 
 const T0 = "2026-09-24T08:00:00.000Z";
@@ -19,14 +20,16 @@ const T_YESTERDAY = "2026-09-23T20:00:00.000Z";
 test("quota constants stay aligned with the seriousness gate", () => {
   assert.equal(PROPOSAL_OPEN_LIMIT, 1);
   assert.equal(PROPOSAL_DAILY_LIMIT, 1);
-  assert.equal(FOUNDER_STAR_CEILING, 100);
+  assert.equal(FOUNDER_STAR_CEILING, 200);
+  assert.equal(FOUNDER_STAR_CEILING, AUTO_MERGE_MIN_STARS);
   assert.equal(FOUNDER_LOGIN, "larrymou");
 });
 
 test("founder is exempt below the F1 star ceiling, case-insensitive", () => {
   assert.equal(isProposalQuotaExempt({ login: "larrymou", stars: 0 }), true);
-  assert.equal(isProposalQuotaExempt({ login: "LarryMou", stars: 99 }), true);
-  assert.equal(isProposalQuotaExempt({ login: "larrymou", stars: 100 }), false);
+  assert.equal(isProposalQuotaExempt({ login: "LarryMou", stars: 199 }), true);
+  assert.equal(isProposalQuotaExempt({ login: "larrymou", stars: 100 }), true);
+  assert.equal(isProposalQuotaExempt({ login: "larrymou", stars: 200 }), false);
   assert.equal(isProposalQuotaExempt({ login: "someone", stars: 0 }), false);
   assert.equal(isProposalQuotaExempt({ login: "", stars: 0 }), false);
 });

@@ -65,17 +65,17 @@ Pass = `up >= quorum` **and** `up > down`. Ties are defeated. Stage labels (disp
 
 ### Founder casting vote (F1)
 
-While `starsAtVotingStart` is **&lt; 100**, the founder login (`lib/constants.mjs` → `FOUNDER_LOGIN`) may 👍 a `voting` issue as a **casting vote**: settlement may ratify even when public quorum is not met. (Author/bot rules unchanged — when the founder is the issue author they are excluded from the public tally like any author.) 👎 or void from the founder does **not** cast. Settlement records `founderVote` / `founderLogin` in `decisions/rule-reviews/` and in the Issue/PR text. Per-voter detail in `decisions/` is public.
+While `starsAtVotingStart` is **&lt; 200**, the founder login (`lib/constants.mjs` → `FOUNDER_LOGIN`) may 👍 a `voting` issue as a **casting vote**: settlement may ratify even when public quorum is not met. (Author/bot rules unchanged — when the founder is the issue author they are excluded from the public tally like any author.) 👎 or void from the founder does **not** cast. Settlement records `founderVote` / `founderLogin` in `decisions/rule-reviews/` and in the Issue/PR text. Per-voter detail in `decisions/` is public.
 
-At **≥ 100 stars**, F1 turns off; normal quorum (approve-count) and majority apply. Below **200 stars**, rule PRs still need a human merge.
+At **≥ 200 stars**, F1 turns off (same gate as auto-merge); normal quorum (approve-count) and majority apply. Below **200 stars**, rule PRs still need a human merge.
 
 ## Participate
 
 - Open a **Rule Proposal** issue (template). English, actionable inclusion text only.
 - **Proposal types:** `new` (add item to an existing group via `## Target Group`), `amend` (full replacement text + `## Target Rule`), `revoke` (deactivate target; justification in Rule Text). MVP does not create new groups.
-- **Proposal quota:** 1 open proposal and 1 new proposal per UTC day per author. While stars are **< 100**, `FOUNDER_LOGIN` is exempt (same star gate as F1).
+- **Proposal quota:** 1 open proposal and 1 new proposal per UTC day per author. While stars are **< 200**, `FOUNDER_LOGIN` is exempt (same star gate as F1 / auto-merge).
 - Vote on issues labeled `voting` with 👍 / 👎. Authors cannot count their own reactions. Duplicate reactions count once. **Ties are defeated.** Votes close at the next settle run; accounts must be ≥ 30 days old.
-- Under **&lt; 100 stars**, the founder may cast a single ratify vote (see F1 above).
+- Under **&lt; 200 stars**, the founder may cast a single ratify vote (see F1 above).
 - Rules take effect only after vote settlement + PR merge (plan for **1–2 weeks** end-to-end).
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
