@@ -42,6 +42,35 @@ function esc(s) {
     .replace(/'/g, "&#39;");
 }
 
+/** Strip arXiv announce boilerplate and LaTeX commands for tile display. */
+function cleanSummary(s) {
+  let t = String(s ?? "");
+  t = t.replace(/^arXiv:\S+(?:\s+v\d+)?\s+Announce Type:\s*\S+\s+Abstract:\s*/i, "");
+  t = t.replace(/\\textit\{([^}]*)\}/g, "$1");
+  t = t.replace(/\\textbf\{([^}]*)\}/g, "$1");
+  t = t.replace(/\\[a-zA-Z]+\{([^}]*)\}/g, "$1");
+  t = t.replace(/\\[a-zA-Z]+/g, "");
+  return t.replace(/\s+/g, " ").trim();
+}
+
+/** Escape then apply a tiny safe subset of Markdown (headings + bold). */
+function formatRuleText(text) {
+  let s = esc(text);
+  s = s.replace(/^# +(.+)$/gm, "<strong>$1</strong>");
+  s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  return s;
+}
+
+/** Link rule tags only when an Active Rules anchor can exist (e.g. 3-1). */
+function ruleTagHtml(rule) {
+  const id = String(rule || "");
+  if (!id) return '<span class="rule-tag"></span>';
+  if (!/^\d+-\d+$/.test(id)) {
+    return `<span class="rule-tag"><span class="rule-tag-plain" title="Legacy rule id from an earlier ruleset">${esc(id)}</span></span>`;
+  }
+  return `<span class="rule-tag"><a href="#rule-${esc(id)}">${esc(id)}</a></span>`;
+}
+
 function safeHref(url) {
   const u = String(url || "").trim();
   if (/^https?:\/\//i.test(u)) return u;
@@ -251,7 +280,7 @@ async function main() {
           const cat = isCategory(r.categoryId) ? r.categoryId : "";
           const isResearch = cat === "research";
           const rule = r.matchedRuleId || "";
-          const summary = (r.summary || "").slice(0, isResearch ? 140 : SUMMARY_MAX_CHARS);
+          const summary = cleanSummary(r.summary || "").slice(0, isResearch ? 140 : SUMMARY_MAX_CHARS);
           const date = fmtDate(r.pubDate || r.decidedAt || "");
           const wide = cat === "model-releases" ? " tile-wide" : "";
           const solid = cat === "model-releases" ? " tile-solid" : "";
@@ -259,7 +288,7 @@ async function main() {
   <div class="tile-meta">
     <span class="cat cat-${esc(cat)}">${esc(cat ? shortLabel(cat) : "Uncategorized")}</span>
     <span class="src">${esc(r.sourceName || "")}</span>
-    <span class="rule-tag"><a href="#rule-${esc(rule)}">${esc(rule || "")}</a></span>
+    ${ruleTagHtml(rule)}
   </div>
   <h3 class="tile-title">${titleHtml}</h3>
   <p class="tile-summary">${esc(summary)}</p>
@@ -283,13 +312,13 @@ async function main() {
     <span class="cat cat-${esc(g.category)}">${esc(g.name)}</span>
     <span class="rule-version">v${esc(g.version)}</span>
   </div>
-  <p class="rule-body">${esc(g.description)}</p>
+  <p class="rule-body">${formatRuleText(g.description)}</p>
   ${groupItems.map((r) => `<div class="rule-item" id="rule-${esc(r.id)}">
     <div class="rule-item-head">
       <span class="rule-id">${esc(r.id)}</span>
       <span class="rule-version">v${esc(r.version)}</span>
     </div>
-    <p class="rule-body">${esc(r.body)}</p>
+    <p class="rule-body">${formatRuleText(r.body)}</p>
   </div>`).join("\n")}
   <p class="rule-cta">${proposeHtml("Propose a change")}</p>
 </li>`;
@@ -311,7 +340,7 @@ async function main() {
     --bg-deep: #000000;
     --ink: #ffffff;
     --muted: #9a9a9a;
-    --dim: #6e6e6e;
+    --dim: #8a8a8a;
     --line: #2a2a2a;
     --line-soft: #1f1f1f;
     --accent: #0078d4;
@@ -326,7 +355,7 @@ async function main() {
     --tag-research: #4fc3f7;
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; scroll-padding-top: 3.5rem; }
+  html { scroll-behavior: smooth; scroll-padding-top: 3.5rem; overflow-x: clip; }
   body {
     margin: 0;
     background: var(--bg);
@@ -335,6 +364,9 @@ async function main() {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     min-height: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    overflow-wrap: break-word;
   }
   a { color: var(--ink); text-decoration: none; }
   a:hover { color: var(--accent-soft); }
@@ -354,6 +386,7 @@ async function main() {
 
   .wrap {
     width: min(100% - 3rem, var(--max));
+    max-width: 100%;
     margin-inline: auto;
   }
 
@@ -378,6 +411,7 @@ async function main() {
     color: var(--muted);
     font-size: 1rem;
     line-height: 1.65;
+    overflow-wrap: anywhere;
   }
   .lede strong { color: var(--ink); font-weight: 600; }
 
@@ -392,7 +426,9 @@ async function main() {
     flex-wrap: wrap;
     gap: 0.5rem 1.1rem;
     align-items: center;
+    max-width: 100%;
   }
+  .status > * { min-width: 0; }
   .status .live-dot {
     width: 8px;
     height: 8px;
@@ -413,7 +449,7 @@ async function main() {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
-    max-width: none;
+    max-width: 100%;
     border: 0;
   }
   .contract-item {
@@ -424,9 +460,19 @@ async function main() {
     font-size: 0.7rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    max-width: min(100%, 18rem);
   }
   .contract-item .t { display: inline; font-weight: 400; color: var(--muted); font-size: inherit; letter-spacing: inherit; }
-  .contract-item .d { display: none; }
+  .contract-item .d {
+    display: block;
+    margin: 0.35rem 0 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    color: var(--muted);
+    font-weight: 400;
+  }
   .contract-item .n { display: inline; margin: 0 0.35rem 0 0; color: var(--accent); font-size: inherit; }
   .contract-item code { display: none; }
 
@@ -486,6 +532,9 @@ async function main() {
     background: rgba(10, 10, 10, 0.94);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
   .rail {
     display: flex;
@@ -494,6 +543,8 @@ async function main() {
     margin: 0;
     border-bottom: 1px solid var(--line);
     overflow-x: auto;
+    max-width: 100%;
+    min-width: 0;
     scrollbar-width: none;
   }
   .rail::-webkit-scrollbar { display: none; }
@@ -548,6 +599,8 @@ async function main() {
     flex-direction: column;
     gap: 0.8rem;
     min-height: 14.5rem;
+    min-width: 0;
+    max-width: 100%;
     transition: background 0.12s ease;
   }
   .tile:hover { background: #202020; }
@@ -563,18 +616,19 @@ async function main() {
   .tile-solid .tile-summary,
   .tile-solid .tile-meta,
   .tile-solid .tile-foot,
-  .tile-solid .tile-foot time { color: rgba(255, 255, 255, 0.85); }
+  .tile-solid .tile-foot time { color: #fff; }
   .tile-solid .cat {
     background: rgba(0, 0, 0, 0.25);
     border-color: rgba(255, 255, 255, 0.35);
     color: #fff;
   }
-  .tile-solid .rule-tag a { color: rgba(255, 255, 255, 0.9); border-color: rgba(255,255,255,0.3); }
-  .tile-solid .tile-why summary { color: rgba(255, 255, 255, 0.9); }
+  .tile-solid .rule-tag a,
+  .tile-solid .rule-tag-plain { color: #fff; border-color: rgba(255,255,255,0.45); }
+  .tile-solid .tile-why summary { color: #fff; }
   .tile-solid .why-reason {
     background: rgba(0, 0, 0, 0.25);
     border-left-color: #fff;
-    color: rgba(255, 255, 255, 0.9);
+    color: #fff;
   }
 
   .tile-meta {
@@ -604,7 +658,8 @@ async function main() {
   .cat-tools-oss { color: var(--tag-tools); }
   .src { color: inherit; font-weight: 400; text-transform: none; letter-spacing: 0; }
   .rule-tag { margin-left: auto; }
-  .rule-tag a {
+  .rule-tag a,
+  .rule-tag-plain {
     color: var(--muted);
     font-size: 0.72rem;
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -615,6 +670,11 @@ async function main() {
     letter-spacing: 0;
   }
   .rule-tag a:hover { color: #fff; border-color: #fff; }
+  .rule-tag-plain {
+    color: var(--dim);
+    border-style: dashed;
+    cursor: default;
+  }
 
   .tile-title {
     margin: 0.2rem 0 0;
@@ -623,6 +683,8 @@ async function main() {
     letter-spacing: -0.01em;
     line-height: 1.35;
     flex: 1;
+    overflow-wrap: anywhere;
+    min-width: 0;
   }
   .tile-wide .tile-title { font-size: 1.3rem; line-height: 1.3; }
   .tile.is-research .tile-title { font-size: 1.05rem; font-weight: 600; }
@@ -644,6 +706,8 @@ async function main() {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    overflow-wrap: anywhere;
+    min-width: 0;
   }
   .tile-wide .tile-summary { -webkit-line-clamp: 5; font-size: 0.98rem; }
 
@@ -680,6 +744,7 @@ async function main() {
     border-left: 2px solid var(--accent);
     background: #111;
     line-height: 1.5;
+    overflow-wrap: anywhere;
   }
   .why-reason code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -792,6 +857,8 @@ async function main() {
     margin: 0.4rem 0 0;
     color: #fff;
     max-width: 42rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
   }
   .rule-cta {
     margin: 0.45rem 0 0;
@@ -911,7 +978,7 @@ async function main() {
         <span>Shared window · last ${CONTENT_MAX_AGE_DAYS} days</span>
         <strong>${esc(included.length)}</strong>
         <span>included</span>
-        <span class="gov">${esc(stageInfo.stage)} · quorum ${esc(stageInfo.quorum)} · ${esc(stars)}★</span>
+        <span class="gov" title="Governance stage · approve votes needed to pass (quorum) · GitHub stars">${esc(stageInfo.stage)} · quorum ${esc(stageInfo.quorum)} · ${esc(stars)}★</span>
       </p>
       <div class="contract" role="list" aria-label="Editorial contract">
         <div class="contract-item" role="listitem"><span class="n">01</span><span class="t">Same window</span><p class="d">One shared rolling window — not a personal feed.</p></div>
@@ -935,7 +1002,7 @@ async function main() {
       </div>
       <p class="block-meta">Display caps · ${PAGE_MAX_PER_CATEGORY} per category · research ${PAGE_MAX_RESEARCH} · balance by policy</p>
       <div class="rail-wrap">
-        <div class="rail" role="tablist" aria-label="Filter by category">
+        <div class="rail" role="group" aria-label="Filter by category">
           ${tabsHtml}
         </div>
       </div>
