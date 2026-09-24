@@ -1,0 +1,15 @@
+{
+  "urlHash": "0483f47aaf2d83c4",
+  "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+  "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their ",
+  "pubDate": "2026-09-24T16:12:47.000Z",
+  "decidedAt": "2026-09-24T16:49:08.547Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog is a how-to tutorial for building a multi-account agent with existing services (AgentCore Gateway, MCP). It is not a model release, research artifact, industry business event, policy action, or announcement of a new open-source tool/framework release, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}

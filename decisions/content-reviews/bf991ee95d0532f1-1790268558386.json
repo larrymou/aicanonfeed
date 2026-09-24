@@ -1,0 +1,15 @@
+{
+  "urlHash": "bf991ee95d0532f1",
+  "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+  "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn how to deploy it to Amazon SageMaker AI real-time and asynchronous endpoints for word-level, speaker-labeled transcription, plus the product",
+  "pubDate": "2026-09-24T16:20:12.000Z",
+  "decidedAt": "2026-09-24T16:49:08.547Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "AWS official blog announces the WhisperX Deep Learning Container for SageMaker AI, a developer resource/tool packaging open-source Whisper, wav2vec2 alignment, and speaker diarization for deployment, covered by the open-source tools/dev resources rule.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}
