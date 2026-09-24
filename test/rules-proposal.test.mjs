@@ -7,6 +7,8 @@ import {
   findRuleFile,
   parseTargetRule,
   parseTargetGroup,
+  parseCategory,
+  parseRuleText,
   buildRuleFile,
   parseFrontmatter,
   loadActiveRules,
@@ -47,6 +49,43 @@ test("parseTargetRule reads ## Target Rule x-y line", () => {
     ),
     "1-1",
   );
+});
+
+test("parseCategory accepts template comments before the slug", () => {
+  const body = [
+    "## Proposal Type",
+    "",
+    "amend",
+    "",
+    "## Category",
+    "",
+    "<!-- model-releases / research / industry / policy / tools-oss -->",
+    "<!-- Informational; the target rule keeps its category. -->",
+    "",
+    "model-releases",
+    "",
+    "## Target Rule",
+    "",
+    "<!-- Existing rule id to replace. Format: group-item (e.g., 3-1). -->",
+    "1-1",
+  ].join("\n");
+  assert.equal(parseCategory(body), "model-releases");
+  assert.equal(parseCategory("## Category\n\nindustry\n"), "industry");
+  assert.equal(parseCategory("## Category\n\n<!-- only a comment -->\n"), null);
+  assert.equal(parseCategory("## Category\n\nnot-a-slug\n"), null);
+  assert.equal(parseCategory("no section"), null);
+});
+
+test("parseRuleText strips template comments and keeps prose", () => {
+  const body = [
+    "## Rule Text",
+    "",
+    "<!-- English. Full replacement text (not a diff). -->",
+    '<!-- Good: "Include items..." -->',
+    "Include items that announce a new AI model.",
+  ].join("\n");
+  assert.equal(parseRuleText(body), "Include items that announce a new AI model.");
+  assert.equal(parseRuleText("## Rule Text\n\n\n"), "");
 });
 
 test("parseTargetGroup reads ## Target Group N line", () => {

@@ -33,6 +33,8 @@ import {
   parseTargetRule,
   parseProposalType,
   parseTargetGroup,
+  parseCategory,
+  parseRuleText,
   buildRuleFile,
   nextFreeItemNumber,
   nextFreeGroupNumber,
@@ -87,27 +89,6 @@ function latestPreReview(issueNumber) {
   } catch {
     return null;
   }
-}
-
-function parseCategory(body) {
-  const m = body.match(/^\s*##\s*Category\s*\n+([\s\S]*?)(?=\n\s*##\s|\n*$)/im);
-  if (!m) return null;
-  // First non-empty, non-comment line only — exact slug match
-  const line = m[1]
-    .split(/\r?\n/)
-    .map((s) => s.replace(/<!--[\s\S]*?-->/g, "").trim())
-    .find((s) => s && !s.startsWith("#"));
-  if (!line) return null;
-  const token = line.toLowerCase().split(/[^a-z0-9-]+/).filter(Boolean)[0];
-  return isCategory(token) ? token : null;
-}
-
-function parseRuleText(body) {
-  const m = body.match(/^\s*##\s*Rule Text\s*\n+([\s\S]*)$/im);
-  let text = (m?.[1] || "").trim();
-  text = text.replace(/<!--[\s\S]*?-->/g, "").trim();
-  // Strip common headings accidentally included
-  return text;
 }
 
 function ruleFileName(id, category) {
