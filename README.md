@@ -95,6 +95,8 @@ At **≥ 200 stars**, F1 turns off (same gate as auto-merge); normal quorum (app
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+**Meta-rules M1–M7** gate every proposal (form complete, objectively checkable, no spam/abuse, no constitutional edits, neutral, anti-personalization). Plain-language table in [CONTRIBUTING](./CONTRIBUTING.md); full text in [`lib/meta-rules.md`](./lib/meta-rules.md).
+
 ## Site
 
 GitHub Pages shows the **editorial contract**, **Latest Included**, **Open for Vote**, **Active Rules**.

@@ -2,6 +2,18 @@
 
 These constraints are **hard**. The content and governance AI must not invent rules beyond them, and community proposals that modify or circumvent them are rejected.
 
+They judge **rule proposals** (Issues), not day-to-day news items. Plain-language summary is also in [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+| ID | Name | One-line |
+| -- | ---- | -------- |
+| M1 | Form | Complete, executable include/exclude determination |
+| M2 | Unambiguous | Objectively verifiable conditions only |
+| M3 | Anti-spam | No ads, self-promo, or identical resubmits |
+| M4 | Safety | No hate, harassment, or unlawful calls to action |
+| M5 | Boundary | No edits to meta-rules, fixed categories, display method, accounts, or voting mechanics |
+| M6 | Neutrality | No favoring/targeting companies, people, or viewpoints |
+| M7 | Anti-personalization | No per-user feeds or engagement ranking |
+
 ## M1 Form
 
 A proposal must be a complete inclusion/exclusion determination that an AI can execute and a human can audit. Slogans, fragments, or non-actionable demands are rejected.

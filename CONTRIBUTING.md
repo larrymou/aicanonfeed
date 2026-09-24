@@ -22,6 +22,20 @@ All product surfaces are **English**: rules, proposals, issue comments from the 
 9. If it passes, the issue is labeled `voting`. React 👍 or 👎.
 10. The following cycle settles the vote. If ratified, a bot PR updates the rule file.
 
+### Meta-rules (M1–M7) in plain words
+
+Full text: [`lib/meta-rules.md`](./lib/meta-rules.md). These judge the **proposal**, not individual news items.
+
+| ID | Name | What it means when you file |
+| -- | ---- | --------------------------- |
+| **M1** | Form | Write a complete include/exclude rule an AI can run and a human can audit — not a slogan or a wish. |
+| **M2** | Unambiguous | Use objectively checkable conditions (named entity, named action, link class, or a number). Bare “reputable”, “major”, “good news” fail unless you define them. |
+| **M3** | Anti-spam | No ads, self-promo, unrelated meta-talk, or resubmitting a near-copy of something already rejected. |
+| **M4** | Safety | No hate incitement, targeted harassment, or clearly unlawful calls to action. |
+| **M5** | Boundary | Do not rewrite the constitution: meta-rules, the five fixed categories, the shared-window display method, the GitHub account system, or voting mechanics (quorum, F1, auto-merge, proposal quota). |
+| **M6** | Neutrality | Do not order the editor to favor or punish specific companies, people, or viewpoints (narrow factual scope is fine). |
+| **M7** | Anti-personalization | No “for you”, engagement ranking, click models, or interest profiles — one shared rule-based edition only. |
+
 ### Writing rule text that can pass (M2)
 
 M2 rejects **undefined** subjectivity, not every judgment. Use this shape:
