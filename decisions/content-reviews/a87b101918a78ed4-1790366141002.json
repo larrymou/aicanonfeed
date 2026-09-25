@@ -1,0 +1,15 @@
+{
+  "urlHash": "a87b101918a78ed4",
+  "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+  "summary": "Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post presents an architecture that combines Amazon EKS, EFA, and Amazon S3 and increased aggregate reinforcement learning rollout throughput by 40%",
+  "pubDate": "2026-09-25T16:29:50.000Z",
+  "decidedAt": "2026-09-25T19:55:10.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Technical how-to/architecture post on AWS EKS+EFA+DeepEP throughput optimization. Not a model release, research paper/benchmark, industry business event, policy action, or a new OSS tool/framework release, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}

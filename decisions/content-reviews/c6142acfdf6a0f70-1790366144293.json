@@ -1,0 +1,15 @@
+{
+  "urlHash": "c6142acfdf6a0f70",
+  "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+  "summary": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and m",
+  "pubDate": "2026-09-25T16:18:07.000Z",
+  "decidedAt": "2026-09-25T19:55:10.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "This is a how-to walkthrough for running the existing open-source SkyRL framework on SageMaker HyperPod; it announces no new tool/library release, model release, research artifact, business event, or policy action, so no active rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}

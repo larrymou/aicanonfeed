@@ -1,0 +1,15 @@
+{
+  "urlHash": "9f15985d4d9e9654",
+  "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+  "summary": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip. Cross-lingual cloning preserves the speaker's identity across languages.",
+  "pubDate": "2026-09-25T16:09:46.000Z",
+  "decidedAt": "2026-09-25T19:55:10.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS tutorial on deploying the existing Qwen3-TTS model via SageMaker JumpStart. Not a new model/capability release (1-1), research result (2-1), industry business event (3-1), policy action (4-1), or new OSS tool/framework announcement (5-1). No rule covers how-to deployment posts.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}
