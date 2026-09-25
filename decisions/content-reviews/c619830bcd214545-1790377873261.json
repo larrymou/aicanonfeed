@@ -1,0 +1,15 @@
+{
+  "urlHash": "c619830bcd214545",
+  "url": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
+  "summary": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. This post shares the architecture and validation results from a cross-Region training run, where a remote cluster matched a co-located cluster",
+  "pubDate": "2026-09-25T15:49:44.000Z",
+  "decidedAt": "2026-09-25T23:10:55.576Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Technical architecture post about multi-Region training with SageMaker HyperPod and Qumulo. Not a named model release (1-1), research artifact (2-1), business event (3-1), policy action (4-1), or open-source tool (5-1). No rule covers it.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}
