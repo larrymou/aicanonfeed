@@ -1,0 +1,15 @@
+{
+  "urlHash": "f35cb894dd8506d9",
+  "url": "https://arxiv.org/abs/2609.28570",
+  "sourceName": "arXiv cs.AI",
+  "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
+  "summary": "arXiv:2609.28570v1 Announce Type: new Abstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is uneven. We trace this to two weak points in the \\emph{correction chain} from reward to p",
+  "pubDate": "2026-09-25T04:00:00.000Z",
+  "decidedAt": "2026-09-25T13:26:26.553Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint announcing a new RL method (DEEPO) for reducing hallucination in multimodal LLMs, with a link to the original paper. This is a new AI research result under rule 2-1.",
+  "promptVersion": "2",
+  "ruleFingerprint": "c0cf654fb353"
+}
