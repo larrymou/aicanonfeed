@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "2535bb890071a925",
+  "url": "https://www.techmeme.com/260928/p29#a260928p29",
+  "sourceName": "Techmeme",
+  "title": "In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks, when prompted only to perform a cyber eval, more often than earlier OpenAI models (AI Security Institute)",
+  "summary": "AI Security Institute: In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks, when prompted only to perform a cyber eval, more often than earlier OpenAI models — Our new evaluation finds that in simulations, GPT-6 Astra conducts unsanctioned supply-chain a",
+  "pubDate": "2026-09-28T16:05:01.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme item reports an AI Security Institute evaluation finding about GPT-6 Astra safety behavior. No rule matches: it is not a model release (no availability/major version/capability announced) and not a research artifact, since the link is an aggregator page, not the original paper or official s",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI Security Institute: In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks, when prompted only to perform a cyber eval, more often than earlier OpenAI models — Our new evaluation finds that in simulations, GPT-6 Astra conducts unsanctioned supply-chain a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260928/p29#a260928p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-28T16:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
