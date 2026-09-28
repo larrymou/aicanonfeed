@@ -13,6 +13,12 @@ import {
   PAGE_FACTS_MAX_PER_RUN,
   PAGE_FACTS_TIMEOUT_MS,
 } from "../lib/constants.mjs";
+import { EVIDENCE_ENGINE_VERSION } from "../lib/fingerprint.mjs";
+
+test("evidence engine version pins page-fact adjudication semantics", () => {
+  // v3: linked_page_* observations + citation aliases (must bump on further semantic change)
+  assert.equal(EVIDENCE_ENGINE_VERSION, "3");
+});
 
 const ITEM = {
   link: "https://blog.example.com/post",
@@ -93,6 +99,167 @@ test("citation aliases accept token and camelCase names", () => {
     );
     assert.equal(result.include, true, `${citations.join(",")}: ${result.reason}`);
   }
+});
+
+test("unobserved page-fact citations are dropped, not a platform veto", () => {
+  // Contract only needs link; model also names page fields that were not fetched.
+  const observed = buildObservedEvidence(ITEM);
+  const rule = { id: "1-1", requiresEvidence: ["link"], evidenceAny: [] };
+  const result = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "1-1",
+      categoryId: "model-releases",
+      reason: "owner site",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["title", "official_domain", "linked_page_author", "page_content"],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(result.include, true, result.reason);
+  assert.deepEqual(result.evidenceCitations, ["title"]);
+
+  // Only unobserved page-fact cites → still no include (no observed support).
+  const onlyPage = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "1-1",
+      categoryId: "model-releases",
+      reason: "x",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["official_domain"],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(onlyPage.include, false);
+  assert.match(String(onlyPage.reason), /without citations/);
+
+  // Invented field names remain fatal.
+  const invented = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "1-1",
+      categoryId: "model-releases",
+      reason: "x",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["title", "trust_me_bro"],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(invented.include, false);
+  assert.match(String(invented.reason), /citation not observed/);
+});
+
+test("repo_link citation aliases to link and does not force-reject", () => {
+  const observed = buildObservedEvidence(ITEM);
+  const rule = {
+    id: "5-1",
+    requiresEvidence: [],
+    evidenceAny: [["repo_link"], ["official_domain"]],
+  };
+  // Use a repo-shaped link for the alias path.
+  const repoObserved = buildObservedEvidence({
+    ...ITEM,
+    link: "https://github.com/openai/openai-python",
+  });
+  const out = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "5-1",
+      categoryId: "tools-oss",
+      reason: "oss",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["repo_link", "title"],
+    },
+    repoObserved,
+    rule,
+  );
+  assert.equal(out.include, true, out.reason);
+  assert.deepEqual(out.evidenceCitations, ["repo_link", "title"]);
+
+  // Non-repo link: contract must still fail (token gate unchanged).
+  const deny = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "5-1",
+      categoryId: "tools-oss",
+      reason: "x",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["repo_link", "title"],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(deny.include, false);
+  assert.match(String(deny.reason), /evidence contract unmet/);
+});
+
+test("false repo_link citation is invalid even when contract only needs link", () => {
+  // Audit boundary: do not record repo_link on a non-repo URL.
+  const observed = buildObservedEvidence(ITEM); // blog.example.com
+  const rule = { id: "x", requiresEvidence: ["link"], evidenceAny: [] };
+  const out = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "x",
+      categoryId: "industry",
+      reason: "r",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["repo_link", "title"],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(out.include, false);
+  assert.match(String(out.reason), /citation not observed/);
+});
+
+test("non-string citation entries are dropped, not coerced", () => {
+  const observed = buildObservedEvidence(ITEM);
+  const rule = { id: "x", requiresEvidence: ["link"], evidenceAny: [] };
+  const out = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "x",
+      categoryId: "industry",
+      reason: "r",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["title", null, undefined, "", 0],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(out.include, true, out.reason);
+  assert.deepEqual(out.evidenceCitations, ["title"]);
+});
+
+test("duplicate citations are collapsed in order", () => {
+  const observed = buildObservedEvidence(ITEM);
+  const rule = { id: "x", requiresEvidence: ["link"], evidenceAny: [] };
+  const out = enforceEvidence(
+    {
+      include: true,
+      matchedRuleId: "x",
+      categoryId: "industry",
+      reason: "r",
+      evidenceStatus: "sufficient",
+      evidenceCitations: ["title", "link", "title", "link"],
+    },
+    observed,
+    rule,
+  );
+  assert.equal(out.include, true, out.reason);
+  assert.deepEqual(out.evidenceCitations, ["title", "link"]);
+});
+
+test("parsePageFacts accepts unquoted meta author content", () => {
+  const html = "<html><head><meta name=author content=Ada></head></html>";
+  const facts = parsePageFacts(html, "https://example.com/p");
+  assert.equal(facts.ok, true);
+  assert.equal(facts.author, "Ada");
 });
 
 test("page facts unlock official_domain and page_author tokens", () => {
@@ -200,16 +367,65 @@ test("isBlockedHostname blocks loopback, private, and metadata hosts", () => {
   assert.equal(isBlockedHostname("github.com"), false);
 });
 
+test("isBlockedHostname blocks DNS names that map to loopback", () => {
+  for (const h of [
+    "localtest.me",
+    "www.localtest.me",
+    "127.0.0.1.nip.io",
+    "foo.nip.io",
+    "nip.io",
+    "vcap.me",
+    "app.vcap.me",
+    "x.lvh.me",
+    "127.0.0.1.sslip.io",
+    "a.xip.io",
+    "localho.st",
+  ]) {
+    assert.equal(isBlockedHostname(h), true, h);
+  }
+  assert.equal(isBlockedHostname("example.com"), false);
+  assert.equal(isBlockedHostname("github.io"), false);
+});
+
+test("parsePageFacts refuses localhost-mapper hosts", () => {
+  const facts = parsePageFacts("<html></html>", "https://localtest.me/");
+  assert.equal(facts.ok, false);
+  assert.equal(facts.reason, "blocked-host");
+  const nip = parsePageFacts("<html></html>", "https://127.0.0.1.nip.io/");
+  assert.equal(nip.ok, false);
+  assert.equal(nip.reason, "blocked-host");
+});
+
+test("isBlockedHostname treats trailing-dot hosts as the same host", () => {
+  for (const h of [
+    "localtest.me.",
+    "www.localtest.me.",
+    "127.0.0.1.nip.io.",
+    "localhost.",
+    "127.0.0.1.",
+    "169.254.169.254.",
+  ]) {
+    assert.equal(isBlockedHostname(h), true, h);
+  }
+  assert.equal(isBlockedHostname("example.com."), false);
+  assert.equal(isBlockedHostname("github.com.."), false);
+});
+
 test("fetchPageFacts refuses blocked hosts before any request", async () => {
   for (const url of [
     "http://127.0.0.1/",
     "http://localhost/x",
     "https://169.254.169.254/latest/meta-data/",
     "http://192.168.0.1/admin",
+    "https://localtest.me/",
+    "https://localtest.me./",
+    "https://www.localtest.me./",
+    "https://127.0.0.1.nip.io/",
+    "https://app.vcap.me/",
   ]) {
     const res = await fetchPageFacts(url);
     assert.equal(res.ok, false);
-    assert.equal(res.reason, "blocked-host");
+    assert.equal(res.reason, "blocked-host", url);
     assert.equal(res.fetched, false);
   }
 });
