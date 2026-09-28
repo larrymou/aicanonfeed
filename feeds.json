@@ -65,6 +65,42 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
       "category": "tools-oss",
       "maxPerRun": 4
+    },
+    {
+      "name": "Hacker News Front Page",
+      "url": "https://hnrss.org/frontpage",
+      "category": "industry",
+      "maxPerRun": 4
+    },
+    {
+      "name": "Techmeme",
+      "url": "https://www.techmeme.com/feed.xml",
+      "category": "industry",
+      "maxPerRun": 5
+    },
+    {
+      "name": "r/MachineLearning new",
+      "url": "https://www.reddit.com/r/MachineLearning/new.rss",
+      "category": "research",
+      "maxPerRun": 3
+    },
+    {
+      "name": "r/LocalLLaMA new",
+      "url": "https://www.reddit.com/r/LocalLLaMA/new.rss",
+      "category": "tools-oss",
+      "maxPerRun": 3
+    },
+    {
+      "name": "Ollama releases",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "category": "tools-oss",
+      "maxPerRun": 2
+    },
+    {
+      "name": "vLLM releases",
+      "url": "https://github.com/vllm-project/vllm/releases.atom",
+      "category": "tools-oss",
+      "maxPerRun": 2
     }
   ]
 }

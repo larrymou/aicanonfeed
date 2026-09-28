@@ -5,12 +5,13 @@
 import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
-import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, CONTENT_MAX_AGE_DAYS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory, isCategory } from "../lib/constants.mjs";
+import { FEED_MAX_NEW_PER_RUN, SUMMARY_MAX_CHARS, DEFAULT_SOURCE_MAX_PER_RUN, RESEARCH_RUN_SHARE_MAX, isResearchCategory, isCategory, effectiveMaxAgeDays, PAGE_FACTS_MAX_PER_RUN, PAGE_FACTS_TIMEOUT_MS } from "../lib/constants.mjs";
 import { chatJSON, loadPrompt, fillTemplate, llmEnv, sanitizeUntrusted } from "../lib/llm.mjs";
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadSeenHashes, appendIndex, claimUrlHash } from "../lib/hash.mjs";
 import { rulesFingerprint, promptBodyHash, EVIDENCE_ENGINE_VERSION } from "../lib/fingerprint.mjs";
 import { buildObservedEvidence, enforceEvidence, FUTURE_SKEW_MS } from "../lib/evidence.mjs";
+import { fetchPageFacts } from "../lib/page-facts.mjs";
 import { fetchFeedText, sanitizeRssXml } from "../lib/feed-xml.mjs";
 import { normalizeContentVerdict } from "../lib/voting.mjs";
 import { researchAdmission, researchCandidateCap, countsAsResearch } from "../lib/pipeline-policy.mjs";
@@ -111,7 +112,9 @@ async function moderateOne(item, items, promptBody, groups, observed) {
     `pubDate: ${item.pubDate || "unknown"}`,
     `summary: ${sanitizeUntrusted(item.summary)}`,
     `summarySource: ${observed.summarySource || "unknown"}`,
-    `observedNote: only these fields are available; linked page content/author/owner-domain are not observed`,
+    `linkedPageOwnerDomain: ${sanitizeUntrusted(observed.linked_page_owner_domain || "not observed")}`,
+    `linkedPageAuthor: ${sanitizeUntrusted(observed.linked_page_author || "not observed")}`,
+    `observedNote: only these fields are available; linked page body content and version labels are not observed`,
   ].join("\n");
 
   const filled = fillTemplate(promptBody, {
@@ -282,8 +285,8 @@ async function main() {
   };
 
   const candidates = [];
-  const maxAgeMs = CONTENT_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
   const now = Date.now();
+  const dayMs = 24 * 60 * 60 * 1000;
   const dropped = []; // not entered review: { urlHash, url, reason, sourceName }
   const quotaDeferredResearch = [];
 
@@ -328,6 +331,7 @@ async function main() {
           continue;
         }
         const pubMs = new Date(pubRaw).getTime();
+        const maxAgeMs = effectiveMaxAgeDays(feed) * dayMs;
         if (!Number.isFinite(pubMs) || now - pubMs > maxAgeMs) {
           bump(name, "skipped_stale");
           dropped.push({ urlHash: h, url: link, reason: "stale", sourceName: name });
@@ -552,6 +556,8 @@ async function main() {
   let deferredByResearchShare = 0;
   let researchSlotsUsed = 0;
   let researchIncludedCount = 0;
+  let pageFactsFetched = 0;
+  let pageFactsOk = 0;
   const pendingResearchIncludes = [];
 
   for (let i = 0; i < batch.length; i++) {
@@ -569,7 +575,15 @@ async function main() {
       log(`deadline hit at ${i}/${batch.length}; ${batch.length - i} item(s) deferred to next run`);
       break;
     }
-    const observed = buildObservedEvidence(item);
+    // Linked-page facts (host + author only) — capped so Actions stays inside budget.
+    let pageFacts = null;
+    if (pageFactsFetched < PAGE_FACTS_MAX_PER_RUN) {
+      pageFactsFetched++;
+      pageFacts = await fetchPageFacts(item.link, { timeoutMs: PAGE_FACTS_TIMEOUT_MS });
+      if (pageFacts?.ok) pageFactsOk++;
+      else log(`page-facts miss ${item.link}: ${pageFacts?.reason || "unknown"}`);
+    }
+    const observed = buildObservedEvidence(item, pageFacts);
     let result;
     try {
       result = await moderateOne(item, items, promptBody, groups, observed);
@@ -768,6 +782,8 @@ async function main() {
     deferredByDeadline,
     deferredByResearchShare,
     modelReviewed: runAudit.modelReviewedCount,
+    pageFactsFetched,
+    pageFactsOk,
     notReviewed: dropped,
     // notReviewed vs decided: items in notReviewed never entered the model;
     // decided items have include true|false records under content-reviews/.

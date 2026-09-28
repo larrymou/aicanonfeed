@@ -135,6 +135,10 @@ Maintainers may `workflow_dispatch` any workflow to run early.
 | `DEFAULT_SOURCE_MAX_PER_RUN` | 12 | Per-source ingest cap |
 | `SUMMARY_MAX_CHARS` | 280 | Tile summary length |
 
+`feeds.json` entries may set `maxAgeDays` to **tighten** ingest for a source (never past `CONTENT_MAX_AGE_DAYS`, so display never drops what ingest accepted). Community RSS (HN, Techmeme, Reddit `new`, GitHub Releases) stays capped low via `maxPerRun` so it cannot flood research.
+
+Linked-page facts (HTML only: final host + meta author) may satisfy `official_domain` / `page_author` evidence tokens. Capped per run (`PAGE_FACTS_MAX_PER_RUN` / `PAGE_FACTS_TIMEOUT_MS`); page body and version labels stay unobserved. No third-party reader.
+
 **Secrets, permissions, and public-repo hygiene:** see [SECURITY.md](./SECURITY.md).
 
 Local scripts (Node 20+):
