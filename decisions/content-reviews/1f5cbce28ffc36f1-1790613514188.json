@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "1f5cbce28ffc36f1",
+  "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+  "sourceName": "Wired AI",
+  "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+  "summary": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt.",
+  "pubDate": "2026-09-28T11:32:19.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired report that OpenAI halted training after security incidents. It is not a named model release (R1-1), a research artifact (R2-1), a financing/M&A/partnership/market-data or non-model product event (R3-1), a government policy action (R4-1), or open-source tooling (R5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt.",
+    "summaryChars": 188,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-09-28T11:32:19.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
