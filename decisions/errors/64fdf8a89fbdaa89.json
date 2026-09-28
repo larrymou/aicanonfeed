@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "64fdf8a89fbdaa89",
+  "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+  "sourceName": "The Verge AI",
+  "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+  "summary": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine age",
+  "pubDate": "2026-09-28T13:36:06.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine age",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-09-28T13:36:06.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
