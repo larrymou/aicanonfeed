@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "6410cca90472fe20",
+  "url": "https://www.techmeme.com/260928/p28#a260928p28",
+  "sourceName": "Techmeme",
+  "title": "Meta says MongoDB CEO Chirantan Desai will serve as Chief Enterprise Platform Officer; MongoDB appoints ex-CEO Dev Ittycheria as interim CEO (Harshita Mary Varghese/Reuters)",
+  "summary": "Harshita Mary Varghese / Reuters: Meta says MongoDB CEO Chirantan Desai will serve as Chief Enterprise Platform Officer; MongoDB appoints ex-CEO Dev Ittycheria as interim CEO — Meta Platforms (META.O) has poached MongoDB (MDB.O) CEO Chirantan “CJ” Desai to spearhead a new busines",
+  "pubDate": "2026-09-28T15:45:01.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an executive personnel change (Meta hiring MongoDB's CEO); rule 3-1 lists financing, M&A, partnerships, market/revenue data, or non-model product launches, none of which cover executive appointments, so no rule matches.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Harshita Mary Varghese / Reuters: Meta says MongoDB CEO Chirantan Desai will serve as Chief Enterprise Platform Officer; MongoDB appoints ex-CEO Dev Ittycheria as interim CEO — Meta Platforms (META.O) has poached MongoDB (MDB.O) CEO Chirantan “CJ” Desai to spearhead a new busines",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260928/p28#a260928p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-28T15:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
