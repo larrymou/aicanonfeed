@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "712d15cbc2bf0057",
+  "url": "https://www.techmeme.com/260928/p26#a260928p26",
+  "sourceName": "Techmeme",
+  "title": "Boston-based Modulate, which uses small AI models to offer enterprises transcription, emotional analysis, deepfake and AI music detection, and more, raised $25M (Ivan Mehta/TechCrunch)",
+  "summary": "Ivan Mehta / TechCrunch: Boston-based Modulate, which uses small AI models to offer enterprises transcription, emotional analysis, deepfake and AI music detection, and more, raised $25M — Boston-based voice intelligence startup Modulate has raised $25 in new funding for its platf",
+  "pubDate": "2026-09-28T14:35:02.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ivan Mehta / TechCrunch: Boston-based Modulate, which uses small AI models to offer enterprises transcription, emotional analysis, deepfake and AI music detection, and more, raised $25M — Boston-based voice intelligence startup Modulate has raised $25 in new funding for its platf",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260928/p26#a260928p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-28T14:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
