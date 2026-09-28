@@ -62,7 +62,9 @@ test("commitPaths sets identity and succeeds with untracked noise (no dirty trac
     assert.equal(log, "chore: freeze snapshot");
     // Identity is embedded in commitPaths; author may be overwritten by repo config,
     // but the commit must exist on origin.
-    const remoteLog = execFileSync("git", ["log", "-1", "--pretty=%s"], {
+    // Bare origin HEAD may still point at `master` after a push to `main` —
+    // always resolve the branch tip explicitly (CI default-branch differs).
+    const remoteLog = execFileSync("git", ["log", "-1", "--pretty=%s", "main"], {
       cwd: originDirFrom(base),
       encoding: "utf8",
     }).trim();
