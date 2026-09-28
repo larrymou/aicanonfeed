@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' https: data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="AICanonFeed — first live CANON instance. Against AI filter bubbles and opaque editorial desks: community-ratified rules, an AI editor that only executes, every call auditable.">
 <meta name="color-scheme" content="dark">
@@ -674,6 +675,7 @@
         <h2 class="block-title">Shared window</h2>
       </div>
       <p class="block-meta">Display caps · 25 per category · research 10 · balance by policy</p>
+      <p class="block-meta" title="Items that never entered the model are logged under decisions/content-runs/. Rejected-after-review records live under decisions/content-reviews/ with include=false.">Run audit appears after the first pipeline write to decisions/content-runs/.</p>
       <div class="rail-wrap">
         <div class="rail" role="group" aria-label="Filter by category">
           <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">25</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">0</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">13</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">1</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">1</span></button>
@@ -1212,7 +1214,8 @@ Open-source AI tools, frameworks, and developer resources.</p>
   });
 
   var hash = (location.hash || '').replace('#', '');
-  if (hash && document.querySelector('.tab[data-tab="' + hash + '"]')) {
+  // Whitelist tab ids — never interpolate raw location.hash into a selector.
+  if (hash && /^[a-z0-9-]+$/.test(hash) && document.querySelector('.tab[data-tab="' + hash + '"]')) {
     document.querySelector('.tab[data-tab="' + hash + '"]').click();
   }
 })();
