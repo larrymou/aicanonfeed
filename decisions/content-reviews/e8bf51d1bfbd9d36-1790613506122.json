@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "e8bf51d1bfbd9d36",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wsejb7/functional_gradient_descent_with_adaptive/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Functional Gradient Descent with Adaptive Representations [R]",
+  "summary": "Sharing our recent work, now accepted at NeurIPS: Functional Gradient Descent with Adaptive Representations. Functional GD algorithms generally outperform neural nets, but are hard to accurately implement. This is because functional gradients are infinite-dimensional, and therefo",
+  "pubDate": "2026-09-28T13:23:54.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports new AI research (NeurIPS-accepted work), but rule 2-1 requires a link to the original paper or official source; the link is only a Reddit post (linkHost www.reddit.com), so the evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sharing our recent work, now accepted at NeurIPS: Functional Gradient Descent with Adaptive Representations. Functional GD algorithms generally outperform neural nets, but are hard to accurately implement. This is because functional gradients are infinite-dimensional, and therefo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wsejb7/functional_gradient_descent_with_adaptive/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T13:23:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
