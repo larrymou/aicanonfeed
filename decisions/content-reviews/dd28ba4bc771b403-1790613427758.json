@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "dd28ba4bc771b403",
+  "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Automating Amazon Textract adapter lifecycle management across accounts",
+  "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security co",
+  "pubDate": "2026-09-28T15:49:04.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Technical how-to blog on operationalizing Amazon Textract adapters using CloudFormation/Terraform. No new model release (G1), no research artifact (G2), no business event (G3), no policy action (G4), and no new open-source tool/framework release announcement (G5). No rule covers this tutorial.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-09-28T15:49:04.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
