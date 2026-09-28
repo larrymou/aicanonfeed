@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "317821fe717ab973",
+  "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Hijacking the PS5's RTMP Stream",
+  "summary": "Article URL: https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/ Comments URL: https://news.ycombinator.com/item?id=49879702 Points: 10 # Comments: 0",
+  "pubDate": "2026-09-28T15:35:23.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a PS5 RTMP stream hijacking/security write-up, not an AI model release, research result, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/ Comments URL: https://news.ycombinator.com/item?id=49879702 Points: 10 # Comments: 0",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+    "linkHost": "yashgarg.dev",
+    "pubDate": "2026-09-28T15:35:23.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
