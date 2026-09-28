@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "f46677849afd584a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wsdrrb/what_if_attention_needs_a_noncompensatory_way_to/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What if attention needs a non-compensatory way to combine relevance scores? (Multi-Key Attention idea, looking for holes) [D]",
+  "summary": "One-sentence version: what if, within an attention head, we replaced a single Q–K compatibility score with a learned, potentially non-compensatory combination of several compatibility scores before the softmax — and tested whether that helps with multi-constraint retrieval? Stand",
+  "pubDate": "2026-09-28T12:52:04.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [D] discussion post proposing a speculative attention idea; no named model release, no research artifact (paper/arXiv/benchmark) link, no policy or business event, and no OSS tool release link. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "One-sentence version: what if, within an attention head, we replaced a single Q–K compatibility score with a learned, potentially non-compensatory combination of several compatibility scores before the softmax — and tested whether that helps with multi-constraint retrieval? Stand",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wsdrrb/what_if_attention_needs_a_noncompensatory_way_to/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T12:52:04.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
