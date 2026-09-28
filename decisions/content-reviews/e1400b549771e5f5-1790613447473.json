@@ -1,0 +1,40 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "e1400b549771e5f5",
+  "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+  "sourceName": "TechCrunch AI",
+  "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+  "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the companies competing in",
+  "pubDate": "2026-09-28T15:00:00.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Founder profile of deepfake-detection startup DetectifAI. No named model release (1-1), no research artifact (2-1), no financing/M&A/partnership/market data or concrete product launch (3-1), no policy action (4-1), and no open-source tool release (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the companies competing in",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-28T15:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
