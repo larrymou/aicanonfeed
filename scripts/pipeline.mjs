@@ -10,7 +10,7 @@ import { chatJSON, loadPrompt, fillTemplate, llmEnv, sanitizeUntrusted } from ".
 import { loadActiveRules, rulesForPrompt } from "../lib/rules.mjs";
 import { urlHash, loadSeenHashes, appendIndex, claimUrlHash } from "../lib/hash.mjs";
 import { rulesFingerprint, promptBodyHash, EVIDENCE_ENGINE_VERSION } from "../lib/fingerprint.mjs";
-import { buildObservedEvidence, enforceEvidence, FUTURE_SKEW_MS } from "../lib/evidence.mjs";
+import { buildObservedEvidence, enforceEvidence, FUTURE_SKEW_MS, ruleEvidenceContract, contractNeedsPageFacts } from "../lib/evidence.mjs";
 import { fetchPageFacts } from "../lib/page-facts.mjs";
 import { fetchFeedText, sanitizeRssXml } from "../lib/feed-xml.mjs";
 import { normalizeContentVerdict } from "../lib/voting.mjs";
@@ -112,8 +112,8 @@ async function moderateOne(item, items, promptBody, groups, observed) {
     `pubDate: ${item.pubDate || "unknown"}`,
     `summary: ${sanitizeUntrusted(item.summary)}`,
     `summarySource: ${observed.summarySource || "unknown"}`,
-    `linkedPageOwnerDomain: ${sanitizeUntrusted(observed.linked_page_owner_domain || "not observed")}`,
-    `linkedPageAuthor: ${sanitizeUntrusted(observed.linked_page_author || "not observed")}`,
+    `linked_page_owner_domain: ${sanitizeUntrusted(observed.linked_page_owner_domain || "not observed")}`,
+    `linked_page_author: ${sanitizeUntrusted(observed.linked_page_author || "not observed")}`,
     `observedNote: only these fields are available; linked page body content and version labels are not observed`,
   ].join("\n");
 
@@ -558,6 +558,12 @@ async function main() {
   let researchIncludedCount = 0;
   let pageFactsFetched = 0;
   let pageFactsOk = 0;
+  // Only fetch linked pages when some active rule contract mentions page-fact
+  // tokens. Enforcement semantics are unchanged — this is a fetch gate only.
+  const needsPageFacts = items.some((r) => contractNeedsPageFacts(ruleEvidenceContract(r)));
+  if (!needsPageFacts) {
+    log("page-facts: skipped (no active rule contract needs page-fact tokens)");
+  }
   const pendingResearchIncludes = [];
 
   for (let i = 0; i < batch.length; i++) {
@@ -577,7 +583,7 @@ async function main() {
     }
     // Linked-page facts (host + author only) — capped so Actions stays inside budget.
     let pageFacts = null;
-    if (pageFactsFetched < PAGE_FACTS_MAX_PER_RUN) {
+    if (needsPageFacts && pageFactsFetched < PAGE_FACTS_MAX_PER_RUN) {
       pageFactsFetched++;
       pageFacts = await fetchPageFacts(item.link, { timeoutMs: PAGE_FACTS_TIMEOUT_MS });
       if (pageFacts?.ok) pageFactsOk++;

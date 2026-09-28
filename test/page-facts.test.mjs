@@ -1,11 +1,13 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parsePageFacts, fetchPageFacts } from "../lib/page-facts.mjs";
+import { parsePageFacts, fetchPageFacts, isBlockedHostname } from "../lib/page-facts.mjs";
 import {
   buildObservedEvidence,
   enforceEvidence,
   isTokenSatisfied,
   NOT_OBSERVED_FROM_RSS,
+  contractNeedsPageFacts,
+  ruleEvidenceContract,
 } from "../lib/evidence.mjs";
 import {
   PAGE_FACTS_MAX_PER_RUN,
@@ -45,6 +47,52 @@ test("parsePageFacts rejects bad url / empty body", () => {
   assert.equal(parsePageFacts("<html></html>", "not a url").reason, "invalid-url");
   assert.equal(parsePageFacts("   ", "https://example.com/").reason, "empty-body");
   assert.equal(parsePageFacts("<html>x</html>", "ftp://example.com/").reason, "invalid-url");
+});
+
+test("parsePageFacts rejects non-HTML bodies even with a valid URL", () => {
+  // Empty/missing content-type must not treat JSON/text as observed page facts.
+  assert.equal(parsePageFacts('{"ok":true}', "https://example.com/api").reason, "not_html");
+  assert.equal(parsePageFacts("just plain text", "https://example.com/t").reason, "not_html");
+  assert.equal(parsePageFacts("PK\u0003\u0004binary", "https://example.com/f").reason, "not_html");
+  const html = "<!DOCTYPE html><html><head><title>t</title></head></html>";
+  assert.equal(parsePageFacts(html, "https://example.com/").ok, true);
+});
+
+test("parsePageFacts accepts HTML with long prolog/comment before root", () => {
+  const long = `<!-- ${"x".repeat(4000)} -->\n<!DOCTYPE html><html><head>
+    <meta name="author" content="Ada"></head></html>`;
+  const facts = parsePageFacts(long, "https://example.com/p");
+  assert.equal(facts.ok, true);
+  assert.equal(facts.author, "Ada");
+  const xml = `<?xml version="1.0"?><!DOCTYPE html><html><head></head></html>`;
+  assert.equal(parsePageFacts(xml, "https://example.com/p").ok, true);
+});
+
+test("citation aliases accept token and camelCase names", () => {
+  const observed = buildObservedEvidence(ITEM, {
+    ok: true,
+    ownerDomain: "openai.com",
+    author: "OpenAI",
+  });
+  for (const citations of [
+    ["official_domain", "page_author"],
+    ["linkedPageOwnerDomain", "linkedPageAuthor"],
+    ["linked_page_owner_domain", "linked_page_author"],
+  ]) {
+    const result = enforceEvidence(
+      {
+        include: true,
+        matchedRuleId: "1-1",
+        categoryId: "model-releases",
+        reason: "official",
+        evidenceStatus: "sufficient",
+        evidenceCitations: citations,
+      },
+      observed,
+      { id: "1-1", requiresEvidence: ["official_domain", "page_author"], evidenceAny: [] },
+    );
+    assert.equal(result.include, true, `${citations.join(",")}: ${result.reason}`);
+  }
 });
 
 test("page facts unlock official_domain and page_author tokens", () => {
@@ -131,4 +179,51 @@ test("fetchPageFacts rejects non-http without network", async () => {
   assert.equal(res.ok, false);
   assert.equal(res.reason, "invalid-url");
   assert.equal(res.fetched, false);
+});
+
+test("isBlockedHostname blocks loopback, private, and metadata hosts", () => {
+  for (const h of [
+    "localhost",
+    "127.0.0.1",
+    "0.0.0.0",
+    "10.0.0.5",
+    "192.168.1.1",
+    "172.16.0.1",
+    "169.254.169.254",
+    "metadata.google.internal",
+    "[::1]",
+    "fe80::1",
+  ]) {
+    assert.equal(isBlockedHostname(h), true, h);
+  }
+  assert.equal(isBlockedHostname("example.com"), false);
+  assert.equal(isBlockedHostname("github.com"), false);
+});
+
+test("fetchPageFacts refuses blocked hosts before any request", async () => {
+  for (const url of [
+    "http://127.0.0.1/",
+    "http://localhost/x",
+    "https://169.254.169.254/latest/meta-data/",
+    "http://192.168.0.1/admin",
+  ]) {
+    const res = await fetchPageFacts(url);
+    assert.equal(res.ok, false);
+    assert.equal(res.reason, "blocked-host");
+    assert.equal(res.fetched, false);
+  }
+});
+
+test("contractNeedsPageFacts only when page-fact tokens appear", () => {
+  assert.equal(contractNeedsPageFacts({ all: ["title"], any: [["link"]] }), false);
+  assert.equal(contractNeedsPageFacts({ all: ["official_domain"], any: [] }), true);
+  assert.equal(contractNeedsPageFacts({ all: [], any: [["repo_link"], ["page_author"]] }), true);
+  assert.equal(contractNeedsPageFacts(ruleEvidenceContract({
+    requiresEvidence: ["link"],
+    evidenceAny: [["summary", "official_domain"]],
+  })), true);
+  assert.equal(contractNeedsPageFacts(ruleEvidenceContract({
+    requiresEvidence: ["link"],
+    evidenceAny: [["summary"]],
+  })), false);
 });
