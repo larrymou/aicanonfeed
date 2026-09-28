@@ -15,8 +15,11 @@ permissions:
 
 jobs:
   build:
+    # Publish only after the triggering workflow actually succeeded.
+    # A failed content-pipeline must not push a half-built edition.
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,14 +27,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - name: Build site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/build-pages.mjs
+      - name: Stage publish dir (site only)
+        # docs/ also holds internal compose plans/specs — never publish those.
+        run: |
+          set -e
+          mkdir -p /tmp/pages-publish
+          cp docs/index.html /tmp/pages-publish/
+          if [ -f docs/CNAME ]; then cp docs/CNAME /tmp/pages-publish/; fi
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: /tmp/pages-publish

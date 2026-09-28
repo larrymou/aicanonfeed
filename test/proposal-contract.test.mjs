@@ -8,6 +8,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 import { fileURLToPath } from "node:url";
 import {
   parseProposalType,
@@ -362,7 +363,15 @@ test("golden live-rejected bodies now pass evaluateProposalBody against repo rul
 
 test("natural-filled templates pass evaluateProposalBody against repo rules", () => {
   const cases = [
-    ["new", { "Target Group": "3", Category: "industry", "Rule Text": RULE_TEXT }],
+    [
+      "new",
+      {
+        "Target Group": "3",
+        Category: "industry",
+        "Rule Text": RULE_TEXT,
+        "Evidence Contract": "evidence_any: repo_link; official_domain",
+      },
+    ],
     ["amend", { "Target Rule": "1-1", Category: "model-releases", "Rule Text": RULE_TEXT }],
     [
       "revoke",
@@ -377,6 +386,13 @@ test("natural-filled templates pass evaluateProposalBody against repo rules", ()
     const gate = evaluateProposalBody(body, { rulesDir: RULES_DIR });
     assert.equal(gate.ok, true, `${name}: ${JSON.stringify(gate)}`);
     assert.equal(gate.fields.proposalType, name);
+    if (name === "new") {
+      assert.deepEqual(gate.fields.evidenceContract.evidenceAny, [["repo_link"], ["official_domain"]]);
+      assert.equal(gate.fields.evidenceContract.declared, true);
+    }
+    if (name === "amend") {
+      assert.equal(gate.fields.evidenceContract.declared, false, "amend may omit and inherit");
+    }
   }
 });
 
@@ -407,6 +423,7 @@ test("gate matrix: missing or wrong targets are hard-rejected with stable codes"
     "Target Group": "9",
     Category: "industry",
     "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: title; summary",
   });
   assert.equal(
     evaluateProposalBody(newMissingGroup, { rulesDir: RULES_DIR }).code,
@@ -417,6 +434,7 @@ test("gate matrix: missing or wrong targets are hard-rejected with stable codes"
     "Target Group": "3",
     Category: "not-a-slug",
     "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: title; summary",
   });
   assert.equal(evaluateProposalBody(badCategory, { rulesDir: RULES_DIR }).code, "invalid_category");
 
@@ -442,8 +460,54 @@ test("gate matrix: missing or wrong targets are hard-rejected with stable codes"
     "Target Group": "3",
     Category: "industry",
     "Rule Text": "\n\n  \n",
+    "Evidence Contract": "evidence_any: title; summary",
   });
   assert.equal(evaluateProposalBody(blankText, { rulesDir: RULES_DIR }).reason, "empty");
+
+  const newNoContract = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "<!-- only comments; declare requires_evidence or evidence_any -->",
+  });
+  assert.equal(evaluateProposalBody(newNoContract, { rulesDir: RULES_DIR }).code, "missing_evidence_contract");
+
+  const badToken = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: magic_facts",
+  });
+  assert.equal(evaluateProposalBody(badToken, { rulesDir: RULES_DIR }).code, "invalid_evidence_contract");
+
+  const typoKey = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: title; summary\nrequires_evidnce: page_author",
+  });
+  const typoGate = evaluateProposalBody(typoKey, { rulesDir: RULES_DIR });
+  assert.equal(typoGate.code, "invalid_evidence_contract");
+  assert.match(String(typoGate.reason), /unknown_key/);
+
+  const groupMismatch = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "research",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: title; summary",
+  });
+  assert.equal(
+    evaluateProposalBody(groupMismatch, { rulesDir: RULES_DIR }).code,
+    "category_group_mismatch",
+  );
+
+  const tooShort = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": "Too short.",
+    "Evidence Contract": "evidence_any: title; summary",
+  });
+  assert.equal(evaluateProposalBody(tooShort, { rulesDir: RULES_DIR }).code, "rule_text_too_short");
 });
 
 test("revoke may omit category and inherits it from the target rule", () => {
@@ -557,4 +621,69 @@ test("category slugs used in templates are exactly CATEGORIES keys", () => {
       `${name} template should mention known slugs`,
     );
   }
+});
+
+test("new proposals may declare a page-fact-only evidence contract", () => {
+  // Platform must not veto a legislative contract (e.g. ahead of a fetcher).
+  const body = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: official_domain; page_author",
+  });
+  const gate = evaluateProposalBody(body, { rulesDir: RULES_DIR });
+  assert.equal(gate.ok, true, JSON.stringify(gate));
+});
+
+test("new proposals accept a contract that keeps one RSS-observable branch", () => {
+  const body = naturalFill(readTemplate("new"), {
+    "Target Group": "3",
+    Category: "industry",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: link; official_domain",
+  });
+  const gate = evaluateProposalBody(body, { rulesDir: RULES_DIR });
+  assert.equal(gate.ok, true, JSON.stringify(gate));
+});
+
+test("parseFrontmatter maps YAML null to real null", () => {
+  const { data } = parseFrontmatter(
+    ["---", "id: 1-1", "amended_at: null", "version: 2", "---", "body"].join("\n"),
+  );
+  assert.equal(data.amended_at, null);
+  assert.equal(data.version, "2");
+});
+
+test("revoke of an item in a revoked parent group is rejected at pre-review", () => {
+  // Mirrors settle's guard so a revoke cannot burn a vote then die as rejected_by_guard.
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "rules-revoke-"));
+  fs.writeFileSync(
+    path.join(dir, "3-0.md"),
+    ["---", "id: 3-0", "type: group", "status: revoked", "category: industry", "---", "Group"].join("\n"),
+  );
+  fs.writeFileSync(
+    path.join(dir, "3-1.md"),
+    ["---", "id: 3-1", "type: item", "group: 3", "status: active", "category: industry", "---", "Item"].join("\n"),
+  );
+  const body = naturalFill(readTemplate("revoke"), {
+    "Target Rule": "3-1",
+    "Rule Text": "Cleaning up an inactive industry rule after the group was retired.",
+  });
+  const gate = evaluateProposalBody(body, { rulesDir: dir });
+  assert.equal(gate.ok, false);
+  assert.ok(["target_is_revoked", "target_not_active", "target_group_inactive"].includes(gate.code), gate.code);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("amend may declare a page-fact-only contract (legislative choice)", () => {
+  // Platform only blocks dead-on-arrival *new* rules; amending a rule's
+  // evidence contract is community legislation and must not be pre-empted.
+  const body = naturalFill(readTemplate("amend"), {
+    "Target Rule": "3-1",
+    Category: "industry",
+    "Rule Text": RULE_TEXT,
+    "Evidence Contract": "evidence_any: official_domain; page_author",
+  });
+  const gate = evaluateProposalBody(body, { rulesDir: RULES_DIR });
+  assert.equal(gate.ok, true, JSON.stringify(gate));
 });

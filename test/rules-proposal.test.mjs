@@ -10,11 +10,13 @@ import {
   parseCategory,
   parseRuleText,
   buildRuleFile,
+  evidenceMetaFromRuleFile,
   parseFrontmatter,
   loadActiveRules,
   loadActiveItems,
   nextFreeItemNumber,
   nextFreeGroupNumber,
+  evaluateProposalBody,
 } from "../lib/rules.mjs";
 
 function tmpRules() {
@@ -49,6 +51,86 @@ test("parseTargetRule reads ## Target Rule x-y line", () => {
     ),
     "1-1",
   );
+});
+
+test("evaluateProposalBody rejects a revision targeting a revoked rule", () => {
+  const rulesDir = tmpRules();
+  const rulePath = path.join(rulesDir, "1-1.md");
+  fs.writeFileSync(
+    rulePath,
+    fs.readFileSync(rulePath, "utf8").replace("status: active", "status: revoked"),
+  );
+  const body = [
+    "## Proposal Type",
+    "amend",
+    "",
+    "## Category",
+    "model-releases",
+    "",
+    "## Target Rule",
+    "1-1",
+    "",
+    "## Rule Text",
+    "Include official announcements of newly released models.",
+  ].join("\n");
+  const result = evaluateProposalBody(body, { rulesDir });
+  assert.equal(result.ok, false);
+  assert.equal(result.code, "target_is_revoked");
+});
+
+test("evaluateProposalBody rejects amending an item in a revoked parent group", () => {
+  const rulesDir = tmpRules();
+  const groupPath = path.join(rulesDir, "3-0.md");
+  fs.writeFileSync(
+    groupPath,
+    fs.readFileSync(groupPath, "utf8").replace("status: active", "status: revoked"),
+  );
+  const body = [
+    "## Proposal Type",
+    "amend",
+    "",
+    "## Category",
+    "industry",
+    "",
+    "## Target Rule",
+    "3-1",
+    "",
+    "## Rule Text",
+    "Include documented industry events with a clear primary source.",
+  ].join("\n");
+  const result = evaluateProposalBody(body, { rulesDir });
+  assert.equal(result.ok, false);
+  assert.equal(result.code, "target_group_inactive");
+  fs.rmSync(rulesDir, { recursive: true, force: true });
+});
+
+test("evaluateProposalBody rejects a new rule when target group status is missing", () => {
+  const rulesDir = tmpRules();
+  const groupPath = path.join(rulesDir, "3-0.md");
+  fs.writeFileSync(
+    groupPath,
+    fs.readFileSync(groupPath, "utf8").replace("status: active\n", ""),
+  );
+  const body = [
+    "## Proposal Type",
+    "new",
+    "",
+    "## Category",
+    "industry",
+    "",
+    "## Target Group",
+    "3",
+    "",
+    "## Rule Text",
+    "Include documented industry events with a clear primary source.",
+    "",
+    "## Evidence Contract",
+    "evidence_any: title; summary",
+  ].join("\n");
+  const result = evaluateProposalBody(body, { rulesDir });
+  assert.equal(result.ok, false);
+  assert.equal(result.code, "target_group_inactive");
+  fs.rmSync(rulesDir, { recursive: true, force: true });
 });
 
 test("parseCategory accepts template comments before the slug", () => {
@@ -119,6 +201,37 @@ test("loadActiveItems maps items with group category", () => {
   assert.equal(items[0].id, "1-1");
   assert.equal(items[0].category, "model-releases");
   assert.equal(items[0].groupName, "Model Releases");
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("loadActiveRules drops items whose parent group is not active", () => {
+  const dir = tmpRules();
+  // Revoke group 3; its child 3-1 must not enter items even though still active.
+  fs.writeFileSync(
+    path.join(dir, "3-0.md"),
+    ["---", "id: 3-0", "type: group", "status: revoked", "source: seed", "category: industry", "name: Industry", "effective_at: 2026-09-14", "amended_at: null", "version: 2", "revoked_at: 2026-09-25", "revoked_reason: group retired", "---", "", "Industry group."].join("\n"),
+  );
+  const { groups, items, skipped } = loadActiveRules(dir);
+  assert.equal(groups.length, 1);
+  assert.equal(groups[0].id, "1-0");
+  assert.equal(items.length, 1);
+  assert.equal(items[0].id, "1-1");
+  assert.ok(skipped.some((s) => s.reason === "parent_group_inactive:3"));
+  const flat = loadActiveItems(dir);
+  assert.equal(flat.length, 1);
+  assert.equal(flat[0].id, "1-1");
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("loadActiveRules drops items with a missing parent group", () => {
+  const dir = tmpRules();
+  fs.writeFileSync(
+    path.join(dir, "4-1.md"),
+    ["---", "id: 4-1", "type: item", "group: 4", "status: active", "source: community", "category: industry", "effective_at: 2026-09-14", "amended_at: null", "version: 1", "---", "", "Orphan item without group."].join("\n"),
+  );
+  const { items, skipped } = loadActiveRules(dir);
+  assert.ok(!items.some((i) => i.id === "4-1"));
+  assert.ok(skipped.some((s) => s.reason === "parent_group_inactive:4"));
   fs.rmSync(dir, { recursive: true, force: true });
 });
 
@@ -222,6 +335,45 @@ test("buildRuleFile preserves effectiveAt and writes revokedReason", () => {
   assert.doesNotMatch(r.body, /Superseded by/);
 });
 
+test("buildRuleFile writes and preserves evidence contract metadata", () => {
+  const md = buildRuleFile({
+    id: "1-1",
+    type: "item",
+    group: "1",
+    category: "model-releases",
+    text: "Include official model launches.",
+    status: "active",
+    source: "seed",
+    version: 3,
+    amendedAt: "2026-09-25",
+    requiresEvidence: ["page_content"],
+    evidenceAny: [["official_domain"], ["page_author"]],
+  });
+  const { data } = parseFrontmatter(md);
+  assert.equal(data.requires_evidence, "page_content");
+  assert.equal(data.evidence_any, "official_domain; page_author");
+
+  const meta = evidenceMetaFromRuleFile({ data });
+  assert.deepEqual(meta.requiresEvidence, ["page_content"]);
+  assert.deepEqual(meta.evidenceAny, [["official_domain"], ["page_author"]]);
+
+  // Amend rebuild keeps the contract when preserve carries the meta.
+  const rebuilt = buildRuleFile({
+    id: "1-1",
+    type: "item",
+    group: "1",
+    category: "model-releases",
+    text: "Include official model launches (amended).",
+    status: "active",
+    source: "seed",
+    version: 4,
+    ...meta,
+  });
+  const b = parseFrontmatter(rebuilt);
+  assert.equal(b.data.requires_evidence, "page_content");
+  assert.equal(b.data.evidence_any, "official_domain; page_author");
+});
+
 test("buildRuleFile defaults effective_at to today when omitted", () => {
   const md = buildRuleFile({
     id: "1-2",
@@ -232,6 +384,24 @@ test("buildRuleFile defaults effective_at to today when omitted", () => {
   });
   const { data } = parseFrontmatter(md);
   assert.match(data.effective_at, /^\d{4}-\d{2}-\d{2}$/);
-  assert.equal(data.amended_at, "null");
+  // YAML `null` must round-trip as a real null, not the string "null"
+  assert.equal(data.amended_at, null);
   assert.equal(data.revoked_reason, undefined);
+});
+
+test("buildRuleFile quotes frontmatter values that contain YAML specials", () => {
+  const md = buildRuleFile({
+    id: "1-1",
+    type: "item",
+    group: "1",
+    category: "model-releases",
+    text: "Include official model launches.",
+    status: "revoked",
+    source: "seed",
+    version: 2,
+    revokedAt: "2026-09-24",
+    revokedReason: 'Note: "quoted" and: colon',
+  });
+  const { data } = parseFrontmatter(md);
+  assert.equal(data.revoked_reason, 'Note: "quoted" and: colon');
 });

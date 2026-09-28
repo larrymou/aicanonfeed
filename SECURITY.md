@@ -35,9 +35,10 @@ Scheduled `content-pipeline` / `governance-cycle` and `workflow_run` Pages build
 
 Each workflow should declare minimal permissions, for example:
 
-- `content-pipeline`: `contents: write`, `issues: write`
+- `content-pipeline`: `contents: write` (commit `decisions/` only)
 - `governance-cycle`: `contents: write`, `issues: write`, `pull-requests: write`
-- `build-pages`: `contents: write`
+- `build-pages`: `contents: write` (deploy `gh-pages` from a staged site dir — never publish `docs/compose/`)
+- `ci`: `contents: read` (run `npm test`)
 
 In **Settings → Actions → General**:
 
@@ -52,7 +53,7 @@ In **Settings → Actions → General**:
 - Rule PRs are constrained by path allowlist (`rules/*.md` only) and must pass code guards.
 - Maintainer kill switch: label a bot PR **`do-not-merge`** to block auto-merge.
 - Review any change to `.github/workflows/**` carefully before merging — workflows can read secrets on the next run.
-- Prefer squash-merging bot PRs; do not run unsandboxed third-party Actions you do not trust (pin major versions you recognize).
+- Prefer squash-merging bot PRs; do not run unsandboxed third-party Actions you do not trust. Prefer pinning Actions to a full commit SHA (tag-moving risk), especially third-party deploy actions such as `peaceiris/actions-gh-pages`.
 
 ## Cold-start founder seat (F1)
 

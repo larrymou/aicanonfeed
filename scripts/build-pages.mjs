@@ -18,13 +18,27 @@ import {
   MIN_ACCOUNT_AGE_DAYS,
 } from "../lib/constants.mjs";
 import { loadActiveRules } from "../lib/rules.mjs";
-import { tallyVotes } from "../lib/voting.mjs";
+import {
+  tallyVotes,
+  filterReactionsByWindow,
+  pickVoteWindow,
+  extractReactionList,
+  latestSettleDeferredInWindow,
+  sortDecisionRecordsByEventTime,
+  accountAgeVoteLogins,
+} from "../lib/voting.mjs";
 import {
   listOpenIssuesWithLabel,
   listIssueReactions,
   getRepo,
   resolveUserCreatedAts,
 } from "../lib/github.mjs";
+import {
+  latestRunAudit as selectLatestRunAudit,
+  researchJournalIsNewer,
+  summarizeRunAudit,
+  summarizeResearchEvents,
+} from "../lib/pipeline-policy.mjs";
 
 const ROOT = process.cwd();
 const OUT_DIR = path.join(ROOT, "docs");
@@ -88,13 +102,24 @@ function loadIncluded() {
     try {
       const obj = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
       if (obj.include !== true) continue;
-      const t = new Date(obj.pubDate || obj.decidedAt || 0).getTime();
+      // Missing/invalid pubDate must not hide a valid include — fall back to decidedAt.
+      // (`|| 0` would produce epoch and skip the fallback.)
+      let t = obj.pubDate ? new Date(obj.pubDate).getTime() : NaN;
+      if (!Number.isFinite(t)) t = obj.decidedAt ? new Date(obj.decidedAt).getTime() : NaN;
       if (!Number.isFinite(t) || now - t > maxAgeMs) continue;
       rows.push(obj);
     } catch {
       /* skip */
     }
   }
+  // One tile per urlHash — duplicate include records must not double-render.
+  const byHash = new Map();
+  for (const r of rows) {
+    const key = r.urlHash || `${r.url}|${r.decidedAt}`;
+    if (!byHash.has(key)) byHash.set(key, r);
+  }
+  rows.length = 0;
+  rows.push(...byHash.values());
   rows.sort((a, b) => {
     const ta = new Date(a.pubDate || a.decidedAt || 0).getTime();
     const tb = new Date(b.pubDate || b.decidedAt || 0).getTime();
@@ -114,6 +139,47 @@ function loadIncluded() {
   return picked;
 }
 
+/** Latest content-pipeline run summary: distinguishes not-reviewed vs rejected. */
+function loadLatestRunAudit() {
+  const dir = path.join(ROOT, "decisions", "content-runs");
+  if (!fs.existsSync(dir)) return null;
+  const records = [];
+  for (const file of fs.readdirSync(dir).filter((name) => name.endsWith(".json"))) {
+    try {
+      records.push(JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")));
+    } catch {
+      // Ignore incomplete audit files; select the newest valid run record.
+    }
+  }
+  return selectLatestRunAudit(records);
+}
+
+function loadLatestResearchAudit(runId = null) {
+  const dir = path.join(ROOT, "decisions", "content-runs");
+  if (!fs.existsSync(dir)) return null;
+  const files = fs
+    .readdirSync(dir)
+    .filter((name) => /^run-\d+-[a-z0-9]+-research-events\.jsonl$/.test(name))
+    .sort((a, b) => Number(b.match(/^run-(\d+)-/)[1]) - Number(a.match(/^run-(\d+)-/)[1]));
+  const file = runId
+    ? files.find((name) => name === `${runId}-research-events.jsonl`)
+    : files[0];
+  if (!file) return null;
+  const events = [];
+  for (const line of fs.readFileSync(path.join(dir, file), "utf8").split("\n")) {
+    if (!line.trim()) continue;
+    try {
+      events.push(JSON.parse(line));
+    } catch {
+      // A hard stop can leave a partial final JSONL line; ignore only that line.
+    }
+  }
+  return {
+    runId: file.replace(/-research-events\.jsonl$/, ""),
+    ...summarizeResearchEvents(events),
+  };
+}
+
 function fmtDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -128,11 +194,14 @@ function fmtDateTime(iso) {
   return d.toISOString().slice(0, 16).replace("T", " ") + " UTC";
 }
 
-function tallyDisplayVotes(reactions, authorLogin, getCreatedAt) {
+function tallyDisplayVotes(reactions, authorLogin, getCreatedAt, { now } = {}) {
   // Same rules as settle: author/bot out, account age gate, void on +1&-1.
+  // `now` must be the frozen vote deadline so deferred settles do not age
+  // voters in after the window closed.
   return tallyVotes(reactions, authorLogin, {
     minAccountAgeDays: MIN_ACCOUNT_AGE_DAYS,
     getCreatedAt,
+    ...(now ? { now } : {}),
   });
 }
 
@@ -145,6 +214,56 @@ function loadVotingSnapshot(issueNumber) {
   );
   try {
     return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+/** Decision records that freeze or reset a vote deadline for an issue. */
+function loadVoteDeadlineRecords(issueNumber) {
+  const dir = path.join(ROOT, "decisions", "rule-reviews");
+  if (!fs.existsSync(dir)) return [];
+  const files = fs
+    .readdirSync(dir)
+    .filter(
+      (f) =>
+        (f.startsWith(`settle-vote-deadline-${issueNumber}-`) ||
+          f.startsWith(`settle-deferred-${issueNumber}-`) ||
+          f.startsWith(`settlement-${issueNumber}-`)) &&
+        !f.startsWith(`settlement-snapshot-${issueNumber}-`) &&
+        f.endsWith(".json"),
+    )
+    .sort();
+  const recs = [];
+  for (const f of files) {
+    try {
+      recs.push(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
+    } catch {
+      /* ignore */
+    }
+  }
+  return sortDecisionRecordsByEventTime(recs);
+}
+
+function isSettlementDeferred(issueNumber) {
+  // Scoped to the current voting window — a prior window's settle-deferred
+  // must not keep the UI deferred after openVoteWindow reset.
+  return latestSettleDeferredInWindow(loadVoteDeadlineRecords(issueNumber));
+}
+
+/**
+ * Frozen reactions for the current vote window, if settle already captured them.
+ * Matches governance's settle-reactions-<issue>-<windowKey>.json naming.
+ */
+function loadFrozenReactions(issueNumber, windowStartAt) {
+  const dir = path.join(ROOT, "decisions", "rule-reviews");
+  if (!fs.existsSync(dir)) return null;
+  const windowKey = (windowStartAt || "open").replace(/[^0-9A-Za-z_-]/g, "");
+  const file = path.join(dir, `settle-reactions-${issueNumber}-${windowKey}.json`);
+  if (!fs.existsSync(file)) return null;
+  try {
+    const rec = JSON.parse(fs.readFileSync(file, "utf8"));
+    return extractReactionList(rec);
   } catch {
     return null;
   }
@@ -173,6 +292,15 @@ function shortLabel(slug) {
 async function main() {
   const { groups, items } = loadActiveRules(path.join(ROOT, "rules"));
   const included = loadIncluded();
+  const runAudit = loadLatestRunAudit();
+  const runCounts = summarizeRunAudit(runAudit);
+  const latestResearchAudit = loadLatestResearchAudit();
+  const researchRunIncomplete = researchJournalIsNewer(latestResearchAudit, runAudit);
+  const researchAudit = researchRunIncomplete
+    ? latestResearchAudit
+    : runAudit?.runId
+      ? loadLatestResearchAudit(runAudit.runId)
+      : null;
   // No hardcoded fallback — wrong owner/name is worse than missing links.
   const repoSlugEnv =
     process.env.GITHUB_REPOSITORY ||
@@ -218,43 +346,73 @@ async function main() {
       let down = 0;
       let droppedYoung = 0;
       let droppedUnknown = 0;
+      let lookupFailed = 0;
+      let reactionsUnavailable = false;
       // Prefer quorum frozen at voting entry (same as settle).
       const snap = loadVotingSnapshot(issue.number);
       const quorum = snap?.quorumAtVotingStart ?? stageInfo.quorum;
       const quorumSource = snap?.quorumAtVotingStart != null ? "frozen" : "live";
+      // Match settle: freeze/filter by the vote window (start + deadline) and
+      // prefer the frozen reaction snapshot when one exists.
+      const deadlineRecs = loadVoteDeadlineRecords(issue.number);
+      const window = pickVoteWindow(deadlineRecs);
+      const voteDeadlineAt = window.endAt;
+      const deferred = isSettlementDeferred(issue.number);
       try {
-        const reactions = await listIssueReactions(issue.number);
-        const logins = reactions.map((r) => r.user?.login).filter(Boolean);
-        const createdAtByLogin = await resolveUserCreatedAts(logins);
-        const t = tallyDisplayVotes(reactions, issue.user?.login, (login) => {
-          return createdAtByLogin.get(login) ?? { ok: false, createdAt: null };
+        const raw =
+          loadFrozenReactions(issue.number, window.startAt) ??
+          (await listIssueReactions(issue.number));
+        const reactions = filterReactionsByWindow(raw, {
+          startAt: window.startAt,
+          endAt: voteDeadlineAt,
         });
+        const logins = accountAgeVoteLogins(reactions, issue.user?.login);
+        const createdAtByLogin = await resolveUserCreatedAts(logins);
+        const tallyNow = voteDeadlineAt ? Date.parse(voteDeadlineAt) : undefined;
+        const t = tallyDisplayVotes(
+          reactions,
+          issue.user?.login,
+          (login) => {
+            return createdAtByLogin.get(login) ?? { ok: false, createdAt: null };
+          },
+          { now: tallyNow },
+        );
         up = t.up;
         down = t.down;
         droppedYoung = t.droppedYoung ?? 0;
         droppedUnknown = t.droppedUnknown ?? 0;
+        lookupFailed = t.lookupFailed ?? 0;
       } catch {
-        /* ignore */
+        reactionsUnavailable = true;
       }
       const need = Math.max(0, quorum - up);
       const dropNote =
         droppedYoung || droppedUnknown
           ? ` · −${droppedYoung} young −${droppedUnknown} unknown`
           : "";
+      const lookupNote = lookupFailed
+        ? ` · ${lookupFailed} account-age lookup${lookupFailed === 1 ? "" : "s"} unavailable; tally incomplete`
+        : "";
+      const deferredNote = deferred ? " · <strong>settlement deferred</strong>" : "";
       const needText =
-        up < quorum
+        reactionsUnavailable
+          ? "Reaction data unavailable"
+          : up < quorum
           ? `${need} more approval${need === 1 ? "" : "s"} needed · quorum ${quorum}${quorumSource === "frozen" ? "" : " (live)"}`
           : up > down
             ? "Leading"
             : "Tied or behind";
+      const voteCountText = reactionsUnavailable
+        ? "Vote counts unavailable"
+        : `👍 ${up} · 👎 ${down}${esc(dropNote)}${esc(lookupNote)}`;
       items.push(`<li class="vote-item">
         <a class="vote-title" href="${esc(issue.html_url)}">${esc(issue.title)}</a>
-        <div class="vote-meta"><span>👍 ${up} · 👎 ${down}${esc(dropNote)}</span><span>${esc(needText)}</span></div>
+        <div class="vote-meta"><span>${voteCountText}${deferredNote}</span><span>${esc(needText)}</span></div>
       </li>`);
     }
     votingHtml = items.length
       ? `<ul class="list vote-list">${items.join("\n")}</ul>
-        <p class="vote-note">Votes are tallied at the <strong>next settlement run</strong> (Mon 03:00 UTC). Reactions after that are not counted. Quorum and counts match settle: frozen at voting entry where available, accounts ≥ ${MIN_ACCOUNT_AGE_DAYS} days (young / unknown age not counted).</p>`
+        <p class="vote-note">Votes are tallied at the <strong>next settlement run</strong> (Mon 03:00 UTC). Reactions after that are not counted. Quorum and counts match settle: frozen at voting entry where available, accounts ≥ ${MIN_ACCOUNT_AGE_DAYS} days (young / unknown age not counted). Proposals marked <strong>settlement deferred</strong> use the frozen vote deadline and eligibility snapshot from the deferred settle.</p>`
       : `<p class="empty"><strong>No open proposals.</strong> Ratified rules only change through Issues. ${proposeHtml()}</p>`;
   } catch (err) {
     log("GitHub unavailable:", String(err.message || err));
@@ -329,6 +487,7 @@ async function main() {
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' https: data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="AICanonFeed — first live CANON instance. Against AI filter bubbles and opaque editorial desks: community-ratified rules, an AI editor that only executes, every call auditable.">
 <meta name="color-scheme" content="dark">
@@ -1001,6 +1160,15 @@ async function main() {
         <h2 class="block-title">Shared window</h2>
       </div>
       <p class="block-meta">Display caps · ${PAGE_MAX_PER_CATEGORY} per category · research ${PAGE_MAX_RESEARCH} · balance by policy</p>
+      <p class="block-meta" title="Items that never entered the model are logged under decisions/content-runs/. Rejected-after-review records live under decisions/content-reviews/ with include=false.">${
+        researchRunIncomplete
+          ? `Latest content run ended before its summary was written — research decisions ${researchAudit.reviewed} (${researchAudit.admitted} admitted, ${researchAudit.deferred} quota-deferred, ${researchAudit.pending} pending) · audit in <code>decisions/content-runs/</code>`
+          : runAudit?.aborted
+            ? `Last run <strong>aborted</strong> — ${runCounts.modelReviewed} model attempts, ${runCounts.errors} retryable errors, ${runCounts.pending} research decisions pending quota settlement · ${esc(String(runAudit.error || "error").slice(0, 120))} · see <code>decisions/content-runs/</code>`
+          : runAudit
+            ? `Last run · <strong>${runCounts.modelReviewed}</strong> model attempts (<strong>${runCounts.decided}</strong> finalized: ${runCounts.included} included / ${Math.max(0, runCounts.decided - runCounts.included)} rejected; ${runCounts.quotaDeferred} deferred by research quota; ${runCounts.errors} retryable errors) · research journal: ${researchAudit?.reviewed ?? 0} (${researchAudit?.admitted ?? 0} admitted / ${researchAudit?.deferred ?? 0} deferred / ${researchAudit?.pending ?? 0} pending) · <strong>${runCounts.notReviewed}</strong> not entered review (age, caps, duplicates) · audit in <code>decisions/content-runs/</code>`
+            : "Run audit appears after the first pipeline write to decisions/content-runs/."
+      }</p>
       <div class="rail-wrap">
         <div class="rail" role="group" aria-label="Filter by category">
           ${tabsHtml}
@@ -1032,7 +1200,7 @@ ${rulesHtml}
       <div class="block-head">
         <h2 class="block-title">About · CANON</h2>
       </div>
-      <p class="how"><strong>What this is</strong> — The first live <strong>CANON</strong> instance (${ghCanon()}): constituents legislate inclusion rules on ${ghLink("", "this repo")}, an <strong>AI editor</strong> applies only ratified rules, and GitHub publishes <strong>one shared 5-day window</strong> for everyone. Not a recommender.</p>
+      <p class="how"><strong>What this is</strong> — The first live <strong>CANON</strong> instance (${ghCanon()}): constituents legislate inclusion rules on ${ghLink("", "this repo")}, an <strong>AI editor</strong> applies only ratified rules, and GitHub publishes <strong>one shared ${CONTENT_MAX_AGE_DAYS}-day window</strong> for everyone. Not a recommender.</p>
       <p class="how"><strong>Why this exists</strong> — Three failures we design against:</p>
       <ul>
         <li><strong>AI recommendation builds filter bubbles.</strong> Engagement-optimized feeds learn your clicks and quietly narrow what you see. Personalization is the product; the bubble is the side effect.</li>
@@ -1118,7 +1286,8 @@ ${rulesHtml}
   });
 
   var hash = (location.hash || '').replace('#', '');
-  if (hash && document.querySelector('.tab[data-tab="' + hash + '"]')) {
+  // Whitelist tab ids — never interpolate raw location.hash into a selector.
+  if (hash && /^[a-z0-9-]+$/.test(hash) && document.querySelector('.tab[data-tab="' + hash + '"]')) {
     document.querySelector('.tab[data-tab="' + hash + '"]').click();
   }
 })();
@@ -1129,7 +1298,9 @@ ${rulesHtml}
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const outFile = path.join(OUT_DIR, "index.html");
-  fs.writeFileSync(outFile, html, "utf8");
+  const tmpFile = `${outFile}.tmp-${process.pid}`;
+  fs.writeFileSync(tmpFile, html, "utf8");
+  fs.renameSync(tmpFile, outFile);
   log(`wrote ${outFile} (${included.length} items; research=${counts.research || 0})`);
 }
 

@@ -278,3 +278,118 @@ test("startOfUtcDay anchors the daily budget to UTC midnight", () => {
   assert.equal(startOfUtcDay(Date.parse("2026-09-24T23:00:00.000Z")), "2026-09-24T00:00:00.000Z");
   assert.equal(startOfUtcDay(Date.parse("2026-09-25T00:00:00.000Z")), "2026-09-25T00:00:00.000Z");
 });
+
+import { endOfUtcDay, filterCreatedOnUtcDay } from "../lib/rules.mjs";
+
+test("endOfUtcDay is exclusive next UTC midnight", () => {
+  assert.equal(endOfUtcDay(Date.parse("2026-09-24T07:59:59.999Z")), "2026-09-25T00:00:00.000Z");
+  assert.equal(endOfUtcDay(Date.parse("2026-09-24T23:00:00.000Z")), "2026-09-25T00:00:00.000Z");
+  assert.equal(endOfUtcDay(Date.parse("2026-12-31T23:59:59.000Z")), "2027-01-01T00:00:00.000Z");
+});
+
+test("filterCreatedOnUtcDay uses the proposal's creation day, not the run day", () => {
+  const rows = [
+    { number: 1, createdAt: "2026-09-23T20:00:00.000Z" }, // yesterday
+    { number: 2, createdAt: "2026-09-24T08:00:00.000Z" }, // same day as anchor
+    { number: 3, createdAt: "2026-09-24T23:30:00.000Z" }, // same day, late
+    { number: 4, createdAt: "2026-09-25T01:00:00.000Z" }, // next day
+    { number: 5, created_at: "2026-09-24T12:00:00.000Z" }, // GitHub field name
+  ];
+  // Anchor is a proposal created 2026-09-24 even if "now" is already 09-25.
+  const same = filterCreatedOnUtcDay(rows, "2026-09-24T09:00:00.000Z", {
+    now: Date.parse("2026-09-25T15:00:00.000Z"),
+  });
+  assert.deepEqual(
+    same.map((r) => r.number).sort((a, b) => a - b),
+    [2, 3, 5],
+  );
+});
+
+test("two same-day proposals stay on the same quota day when pre-review is delayed", () => {
+  const filedYesterday = [
+    { number: 7, createdAt: "2026-09-23T10:00:00.000Z" },
+    { number: 8, createdAt: "2026-09-23T11:00:00.000Z" },
+  ];
+  // Processed on 09-24: both still count against 09-23's daily slot.
+  const same = filterCreatedOnUtcDay(filedYesterday, "2026-09-23T11:00:00.000Z", {
+    now: Date.parse("2026-09-24T03:00:00.000Z"),
+  });
+  assert.equal(same.length, 2);
+  const second = evaluateProposalQuota({
+    login: "alice",
+    stars: 12,
+    issueNumber: 8,
+    openByAuthor: [{ number: 8, createdAt: "2026-09-23T11:00:00.000Z" }],
+    createdTodayByAuthor: same,
+  });
+  assert.equal(second.ok, false);
+  assert.equal(second.code, "daily_limit");
+});
+
+import { isRuleProposalBody, countsTowardProposalQuota } from "../lib/voting.mjs";
+
+test("daily quota counts only rule proposals (not ordinary issues)", () => {
+  const dayStart = startOfUtcDay(Date.parse("2026-09-25T12:00:00Z"));
+  const allIssues = [
+    { number: 1, createdAt: dayStart, body: "Just feedback, no heading" },
+    { number: 2, createdAt: dayStart, body: "## Proposal Type\n\nnew\n" },
+    { number: 3, createdAt: dayStart, body: "## Proposal Type\n\namend\n" },
+  ];
+  const ruleOnly = allIssues.filter((i) => isRuleProposalBody(i.body));
+  assert.equal(ruleOnly.length, 2);
+  // With only the first rule proposal counted as "today's first", #2 is first.
+  const q2 = evaluateProposalQuota({
+    login: "alice",
+    stars: 100,
+    issueNumber: 2,
+    openByAuthor: [{ number: 2, createdAt: dayStart }],
+    createdTodayByAuthor: ruleOnly.filter((i) => i.number === 2),
+  });
+  assert.equal(q2.ok, true);
+  // A second rule proposal the same day is over the limit of 1.
+  const q3 = evaluateProposalQuota({
+    login: "alice",
+    stars: 100,
+    issueNumber: 3,
+    openByAuthor: [{ number: 3, createdAt: dayStart }],
+    createdTodayByAuthor: ruleOnly,
+  });
+  assert.equal(q3.ok, false);
+  assert.equal(q3.code, "daily_limit");
+  // Ordinary issues alone never trip the daily rule-proposal limit.
+  const qFeedback = evaluateProposalQuota({
+    login: "alice",
+    stars: 100,
+    issueNumber: 1,
+    openByAuthor: [{ number: 1, createdAt: dayStart }],
+    createdTodayByAuthor: allIssues.filter((i) => !isRuleProposalBody(i.body)),
+  });
+  assert.equal(qFeedback.ok, true);
+});
+
+test("body edit cannot uncount a same-day sibling when a process label remains", () => {
+  const dayStart = startOfUtcDay(Date.parse("2026-09-25T12:00:00Z"));
+  // #7 was a rule proposal; author stripped the heading after filing.
+  const siblings = [
+    {
+      number: 7,
+      createdAt: dayStart,
+      body: "Edited: no longer looks like a proposal",
+      labels: [{ name: "rejected" }],
+    },
+    { number: 8, createdAt: dayStart, body: "## Proposal Type\n\nnew\n", labels: [{ name: "proposal" }] },
+  ];
+  const counted = siblings.filter((i) =>
+    countsTowardProposalQuota({ body: i.body, labels: i.labels }),
+  );
+  assert.equal(counted.length, 2);
+  const second = evaluateProposalQuota({
+    login: "alice",
+    stars: 12,
+    issueNumber: 8,
+    openByAuthor: [{ number: 8, createdAt: dayStart }],
+    createdTodayByAuthor: counted.map((i) => ({ number: i.number, createdAt: i.createdAt })),
+  });
+  assert.equal(second.ok, false);
+  assert.equal(second.code, "daily_limit");
+});

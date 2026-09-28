@@ -24,7 +24,7 @@ Applied here: an **AI editor** in the seat recommendation algorithms usually tak
 1. **Same edition for everyone** — one shared, chronological window (not a personal feed); no per-user state
 2. **Rules, not recommendations** — inclusion only under ratified rules; no click model
 3. **Zero engagement signals** — no ranking by popularity, dwell time, or “for you”
-4. **Auditable** — every include/reject is a file in `decisions/` (with prompt version + ruleset fingerprint); rules are public git. **Fingerprint** = stable hash of active rule texts at decision time; **prompt version** = the pipeline/pre-review prompt revision. Both pin each judgment to the rules and prompt that produced it.
+4. **Auditable** — every include/reject is a file in `decisions/` (with prompt version, prompt hash, model id, observed evidence, and judgment fingerprint); rules are public git. **Judgment fingerprint** = stable hash of group defs + active rule texts (incl. `group` membership and evidence contract) + final rules context + prompt body + model at decision time. **Prompt version** = the pipeline/pre-review prompt revision. Together they pin each judgment to the contract that produced it. Items that never entered review (age, caps, duplicates, deadline) are logged per run under `decisions/content-runs/`. Rules declare evidence needs in frontmatter: `requires_evidence` (all must hold) and `evidence_any` (any one branch). Branches may use RSS-checkable tokens (`repo_link`, `link`, …) or page facts (`official_domain`, `page_author`, …). The community may legislate any of these; the evidence engine then **enforces what was ratified** (page-fact tokens stay unobserved until a fetcher exists and can hard-deny under a declared contract).
 5. **Balance by policy** — category/source caps at ingest and display, so one track cannot flood the page
 
 AI here is an **editor**, not a recommender: it selects under public rules, it does not predict what you will click.
@@ -83,12 +83,14 @@ At **≥ 200 stars**, F1 turns off (same gate as auto-merge); normal quorum (app
 
 | Path | What it records |
 | ---- | --------------- |
-| `content-reviews/` | Per-item include/reject with rule id + reason |
+| `content-reviews/` | Per-item include/reject with rule id + reason + observed evidence + judgment fingerprint |
+| `content-runs/` | Per-run skip reasons and caps (**not reviewed**) vs model decisions |
 | `rule-reviews/pre-review-*.json` | AI pre-review verdict per proposal |
 | `rule-reviews/settlement-*.json` | Vote tally, `founderVote`, outcome |
 | `rule-reviews/recover-*.json` | Pending-merge reconciliation after a rule PR |
+| `rule-reviews/reconcile-snapshot-*.json` | Voting label restored to `proposal` when the freeze snapshot was lost |
 | `rule-reviews/cycle-summary-*.json` | One governance run summary |
-| `rule-snapshots/<issue>.json` | Frozen proposal fields + quorum at voting entry |
+| `rule-snapshots/<issue>.json` | Frozen proposal fields + quorum at voting entry (committed **before** the `voting` label) |
 | `index.jsonl` | Content ingest index (dedupe) |
 | `errors/` | Pipeline/tooling errors |
 

@@ -10,6 +10,12 @@ docs/index.html
 # local compose/visual-companion scratch
 .compose/
 
+# local agent toolchain state — not for the public repo
+.mimocode/
+
+# atomic-write temp leftovers
+*.tmp-*
+
 # local product specs (not for public repo)
 *aicanonfeed*mvp*.md
 *aicanonfeed-spec*
