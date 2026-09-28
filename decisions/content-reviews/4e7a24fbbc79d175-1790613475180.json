@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "4e7a24fbbc79d175",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wsfkwg/browser_demo_of_our_clash_royale_rl_environment_a/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Browser demo of our Clash Royale RL environment: a 5.6k-parameter REINFORCE policy learns defensive placement against a brute-force optimum [P]",
+  "summary": "Yesterday I shared our open-source Clash Royale simulator and its recurrent PPO agent here. A training loop is easier to understand when you can watch it, so we put a small interactive version online: https://itzik123.github.io/ClashRoyaleAi/lab/ The task is one decision. An atta",
+  "pubDate": "2026-09-28T14:06:42.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Announces an open-source Clash Royale RL environment/demo, but the item's link is a Reddit post (linkHost www.reddit.com), not the repository or an official owner announcement as R5 requires; no repo/official link is observed in the Content fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yesterday I shared our open-source Clash Royale simulator and its recurrent PPO agent here. A training loop is easier to understand when you can watch it, so we put a small interactive version online: https://itzik123.github.io/ClashRoyaleAi/lab/ The task is one decision. An atta",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wsfkwg/browser_demo_of_our_clash_royale_rl_environment_a/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T14:06:42.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
