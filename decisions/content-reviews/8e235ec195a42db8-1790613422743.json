@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "8e235ec195a42db8",
+  "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+  "sourceName": "Hacker News Front Page",
+  "title": "Pirating the Pirates",
+  "summary": "Article URL: https://mubi.com/en/notebook/posts/pirating-the-pirates Comments URL: https://news.ycombinator.com/item?id=49880036 Points: 23 # Comments: 2",
+  "pubDate": "2026-09-28T15:54:15.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a MUBI Notebook article 'Pirating the Pirates' from Hacker News; no AI model release, research, industry, policy, or OSS tool content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://mubi.com/en/notebook/posts/pirating-the-pirates Comments URL: https://news.ycombinator.com/item?id=49880036 Points: 23 # Comments: 2",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+    "linkHost": "mubi.com",
+    "pubDate": "2026-09-28T15:54:15.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
