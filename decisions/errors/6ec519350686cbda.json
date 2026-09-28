@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "6ec519350686cbda",
+  "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+  "sourceName": "TechCrunch AI",
+  "title": "Modulate raises $25M for its voice models and analysis suite",
+  "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+  "pubDate": "2026-09-28T14:05:00.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+    "summaryChars": 62,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-28T14:05:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
