@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790613389476-zczzdb",
+  "urlHash": "64173d21278d95dc",
+  "url": "https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+  "summary": "Article URL: https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49879883 Points: 29 # Comments: 40",
+  "pubDate": "2026-09-28T15:46:36.000Z",
+  "decidedAt": "2026-09-28T16:36:37.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item links only to a third-party personal blog (madrobot.blog), not an official owner announcement, repository, or reputable media report with a named author. No named model/version release, research artifact, policy action, or verified OSS announcement is established from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49879883 Points: 29 # Comments: 40",
+    "summaryChars": 199,
+    "summarySource": "summary",
+    "link": "https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents/",
+    "linkHost": "madrobot.blog",
+    "pubDate": "2026-09-28T15:46:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
