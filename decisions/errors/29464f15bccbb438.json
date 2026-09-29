@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "29464f15bccbb438",
+  "url": "https://www.techmeme.com/260929/p11#a260929p11",
+  "sourceName": "Techmeme",
+  "title": "OpenAI reopens sign-ups for its $200/month Pro tier while halving the API credits provided per dollar to encourage pay-per-use, and removes the five-hour cap (Matthias Bastian/The Decoder)",
+  "summary": "Matthias Bastian / The Decoder: OpenAI reopens sign-ups for its $200/month Pro tier while halving the API credits provided per dollar to encourage pay-per-use, and removes the five-hour cap — The 5-hour usage cap is gone for good: subscribers can spread their weekly allotment how",
+  "pubDate": "2026-09-29T10:25:31.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matthias Bastian / The Decoder: OpenAI reopens sign-ups for its $200/month Pro tier while halving the API credits provided per dollar to encourage pay-per-use, and removes the five-hour cap — The 5-hour usage cap is gone for good: subscribers can spread their weekly allotment how",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p11#a260929p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T10:25:31.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
