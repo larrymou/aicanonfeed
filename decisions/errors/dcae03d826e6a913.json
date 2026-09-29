@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "dcae03d826e6a913",
+  "url": "https://github.com/firelex/jeff",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+  "summary": "Article URL: https://github.com/firelex/jeff Comments URL: https://news.ycombinator.com/item?id=49883844 Points: 205 # Comments: 67",
+  "pubDate": "2026-09-28T20:23:36.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/firelex/jeff Comments URL: https://news.ycombinator.com/item?id=49883844 Points: 205 # Comments: 67",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://github.com/firelex/jeff",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-28T20:23:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
