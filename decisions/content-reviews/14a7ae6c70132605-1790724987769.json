@@ -1,0 +1,40 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "14a7ae6c70132605",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wt54tz/advice_on_choosing_university_for_phd_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Advice on choosing university for PhD [D]",
+  "summary": "Hey guys, I got really into research a year ago during my final year of undergrad and maneged to get a first author paper accepted at Neurips 2026. It is a pretty impressive achievement obviously but my background is pretty shit lol. Before my final year I got slightly above aver",
+  "pubDate": "2026-09-29T09:02:43.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit advice-seeking post about choosing a PhD university; no named model release, research artifact link, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey guys, I got really into research a year ago during my final year of undergrad and maneged to get a first author paper accepted at Neurips 2026. It is a pretty impressive achievement obviously but my background is pretty shit lol. Before my final year I got slightly above aver",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wt54tz/advice_on_choosing_university_for_phd_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-29T09:02:43.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
