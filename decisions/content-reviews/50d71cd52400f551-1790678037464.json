@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "50d71cd52400f551",
+  "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+  "sourceName": "OpenAI Blog",
+  "title": "How we will do better for Australia",
+  "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+  "pubDate": "2026-09-28T19:00:00.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Corporate apology/security-safeguard statement about incidents affecting Australian government sites. Not a model release, research artifact, business event (financing/M&A/partnership/product), government policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+    "linkHost": "openai.com",
+    "pubDate": "2026-09-28T19:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
