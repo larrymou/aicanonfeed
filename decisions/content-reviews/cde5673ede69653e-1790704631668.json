@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "cde5673ede69653e",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wt77wj/neurips_education_track_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "NeurIPS Education Track [D]",
+  "summary": "Any other one have applied for the Education Track? It seems they'll announce the result soon. submitted by /u/Sufficient-Dream7676 [link] [comments]",
+  "pubDate": "2026-09-29T11:08:09.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post asking whether others applied to the NeurIPS Education Track; no named model release, research artifact, industry business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Any other one have applied for the Education Track? It seems they'll announce the result soon. submitted by /u/Sufficient-Dream7676 [link] [comments]",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wt77wj/neurips_education_track_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-29T11:08:09.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
