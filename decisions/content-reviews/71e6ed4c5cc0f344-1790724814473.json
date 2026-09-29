@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "71e6ed4c5cc0f344",
+  "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+  "sourceName": "TechCrunch AI",
+  "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+  "summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+  "pubDate": "2026-09-29T23:30:55.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Quirky commentary about America.gov chatbot responses to Minecraft questions; no named model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-29T23:30:55.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
