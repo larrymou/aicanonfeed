@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "509f64549de1dc7d",
+  "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Introducing Claude Sonnet 5.5 on AWS",
+  "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get start",
+  "pubDate": "2026-09-28T18:57:13.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": true,
+  "categoryId": "model-releases",
+  "matchedRuleId": "1-1",
+  "reason": "Title names a specific model line (Claude Sonnet 5.5) and summary announces its availability on Amazon Bedrock, an official announcement page hosted on the named company's own domain (aws.amazon.com).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get start",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-09-28T18:57:13.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
