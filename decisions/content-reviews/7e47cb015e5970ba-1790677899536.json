@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "7e47cb015e5970ba",
+  "url": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog",
+  "summary": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologies enabling silicon design autonomy Understand how autonomous",
+  "pubDate": "2026-09-29T10:00:06.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Webinar/event promo about AI-assisted silicon design autonomy; no named model release (R1), no research artifact (R2), no business event (R3), no policy action (R4), and no open-source tool/framework (R5). No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologies enabling silicon design autonomy Understand how autonomous",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
+    "linkHost": "event.on24.com",
+    "pubDate": "2026-09-29T10:00:06.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
