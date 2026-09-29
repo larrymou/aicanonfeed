@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "61360ab89772ff44",
+  "url": "https://www.techmeme.com/260929/p38#a260929p38",
+  "sourceName": "Techmeme",
+  "title": "OpenAI unveils Decisions API, which returns predefined answers with confidence scores, available in limited preview with no pricing details (Frederic Lardinois/The New Stack)",
+  "summary": "Frederic Lardinois / The New Stack: OpenAI unveils Decisions API, which returns predefined answers with confidence scores, available in limited preview with no pricing details — OpenAI's Decision API, built on its small Luna model, returns predefined answers with confidence score",
+  "pubDate": "2026-09-29T17:50:01.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Techmeme item reports OpenAI unveiling Decisions API, a non-model product launch in limited preview, with a link to Techmeme (reputable media report) and a publication date; fits industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Frederic Lardinois / The New Stack: OpenAI unveils Decisions API, which returns predefined answers with confidence scores, available in limited preview with no pricing details — OpenAI's Decision API, built on its small Luna model, returns predefined answers with confidence score",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p38#a260929p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T17:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
