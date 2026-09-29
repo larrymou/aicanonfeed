@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "71c108e468b11f9a",
+  "url": "https://www.techmeme.com/260929/p8#a260929p8",
+  "sourceName": "Techmeme",
+  "title": "Meta launches Muse for Small Business, integrating the AI agent with Asana, Zoom, Intuit, Box, Canva, Slack, and other apps, alongside its own ad accounts (Isabel O'Brien/CNBC)",
+  "summary": "Isabel O'Brien / CNBC: Meta launches Muse for Small Business, integrating the AI agent with Asana, Zoom, Intuit, Box, Canva, Slack, and other apps, alongside its own ad accounts — Coming off the successful launch of its Muse AI agent, Meta is now pushing its new artificial intell",
+  "pubDate": "2026-09-29T10:00:00.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Isabel O'Brien / CNBC: Meta launches Muse for Small Business, integrating the AI agent with Asana, Zoom, Intuit, Box, Canva, Slack, and other apps, alongside its own ad accounts — Coming off the successful launch of its Muse AI agent, Meta is now pushing its new artificial intell",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p8#a260929p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T10:00:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
