@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "9cd679de3bd6c56c",
+  "url": "https://www.techmeme.com/260929/p10#a260929p10",
+  "sourceName": "Techmeme",
+  "title": "Oura says it is delaying its Nasdaq IPO due to uncertainty in the market, despite \"strong demand\" and a strengthening of its business since the process started (April Roach/CNBC)",
+  "summary": "April Roach / CNBC: Oura says it is delaying its Nasdaq IPO due to uncertainty in the market, despite “strong demand” and a strengthening of its business since the process started — Oura has said that it is delaying plans for its public listing on the Nasdaq due to uncertainty in",
+  "pubDate": "2026-09-29T10:20:01.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is Oura (consumer smart-ring maker) delaying its Nasdaq IPO. Content shows no AI model, research, policy, or open-source tool. Rule 3-1 covers AI industry business events; nothing in Content establishes AI-industry relevance, so no active rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "April Roach / CNBC: Oura says it is delaying its Nasdaq IPO due to uncertainty in the market, despite “strong demand” and a strengthening of its business since the process started — Oura has said that it is delaying plans for its public listing on the Nasdaq due to uncertainty in",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p10#a260929p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T10:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
