@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "ca930995b2c3182c",
+  "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Grok 4.7 is now available on Amazon Bedrock",
+  "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
+  "pubDate": "2026-09-28T22:13:16.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names model Grok 4.7 (xAI) with a release action, but the link is the AWS blog (aws.amazon.com), not the owner's domain (linked_page_owner_domain not observed), and no named author/date is observed to satisfy the news-article alternative, so rule 1-1's evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
+    "summaryChars": 275,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-09-28T22:13:16.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
