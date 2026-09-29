@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "c6256842b8ca10bf",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wsbqni/qwen3vl_8b_on_a_laptop_vs_opus_55_sonnet_5_gpt56/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Qwen3-VL 8B on a laptop vs Opus 5.5 / Sonnet 5 / GPT-5.6 on 137 messy documents: beat GPT-5.6 on tax forms, lost badly on Indian date formats[R]",
+  "summary": "I benchmarked Qwen3-VL 8B Instruct (Q4_K_M, Ollama, M5 24GB, ~30s/doc) against Claude Opus 5.5, Sonnet 5 and GPT-5.6 Terra on: - receipts: CORD (Indonesia) and SROIE (Malaysia), 30 each - 20 scanned 1980s-90s invoices , answer keys human-verified - 32 real IRS forms, 4 damage lev",
+  "pubDate": "2026-09-28T11:11:59.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post with a personal model comparison, not a paper/arXiv preprint or major benchmark release, and links only to Reddit rather than an original paper or official source. No named-lab official model release. Fails R2 (no research artifact/official source); no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I benchmarked Qwen3-VL 8B Instruct (Q4_K_M, Ollama, M5 24GB, ~30s/doc) against Claude Opus 5.5, Sonnet 5 and GPT-5.6 Terra on: - receipts: CORD (Indonesia) and SROIE (Malaysia), 30 each - 20 scanned 1980s-90s invoices , answer keys human-verified - 32 real IRS forms, 4 damage lev",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wsbqni/qwen3vl_8b_on_a_laptop_vs_opus_55_sonnet_5_gpt56/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T11:11:59.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
