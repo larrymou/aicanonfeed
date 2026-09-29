@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "21aea061ef987697",
+  "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+  "sourceName": "The Verge AI",
+  "title": "Elon Musk&#8217;s AI-powered Grokipedia is updating again",
+  "summary": "Elon Musk | Image: Laura Normand / The Verge Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause. In August, Lawfare reported that articles on Grokipedia hadn't reviewed edits since April, but the plat",
+  "pubDate": "2026-09-29T21:49:09.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is media coverage that Grokipedia (AI encyclopedia) resumed updating articles, not a model release (1-1), research artifact (2-1), policy action (4-1), OSS tool (5-1), or an industry business event like financing/M&A/partnership/product launch (3-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Elon Musk | Image: Laura Normand / The Verge Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause. In August, Lawfare reported that articles on Grokipedia hadn't reviewed edits since April, but the plat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-09-29T21:49:09.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
