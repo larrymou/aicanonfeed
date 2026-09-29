@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "ee06504550af9bb9",
+  "url": "https://railcode.dev/blog/vibe-coded-website",
+  "sourceName": "Hacker News Front Page",
+  "title": "How our vibe coded website looks like a designer made it",
+  "summary": "Article URL: https://railcode.dev/blog/vibe-coded-website Comments URL: https://news.ycombinator.com/item?id=49901973 Points: 13 # Comments: 13",
+  "pubDate": "2026-09-29T22:59:28.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about making a vibe-coded website look designer-made. No named AI model release, research artifact, industry business event, policy action, or open-source AI tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://railcode.dev/blog/vibe-coded-website Comments URL: https://news.ycombinator.com/item?id=49901973 Points: 13 # Comments: 13",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://railcode.dev/blog/vibe-coded-website",
+    "linkHost": "railcode.dev",
+    "pubDate": "2026-09-29T22:59:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
