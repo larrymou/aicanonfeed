@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "db713ef86bd59ea8",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+  "sourceName": "Google AI Blog",
+  "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+  "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+  "pubDate": "2026-09-28T19:00:00.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a winning trailer for the Future Vision XPRIZE, a creative contest video. It announces no named AI model/version/capability, no research paper or benchmark, no business event, no policy action, and no open-source tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+    "summaryChars": 68,
+    "summarySource": "summary",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-09-28T19:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
