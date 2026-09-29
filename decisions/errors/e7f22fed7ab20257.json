@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "e7f22fed7ab20257",
+  "url": "https://www.techmeme.com/260929/p51#a260929p51",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says GLM-5.3 can autonomously build end-to-end cyber exploits, like Claude Mythos Preview, but was released without robust safeguards against misuse (Anthropic)",
+  "summary": "Anthropic: Anthropic says GLM-5.3 can autonomously build end-to-end cyber exploits, like Claude Mythos Preview, but was released without robust safeguards against misuse — GLM-5.3 can develop working exploits end to end — Five months ago, we announced Claude Mythos Preview, the f",
+  "pubDate": "2026-09-29T22:35:00.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic says GLM-5.3 can autonomously build end-to-end cyber exploits, like Claude Mythos Preview, but was released without robust safeguards against misuse — GLM-5.3 can develop working exploits end to end — Five months ago, we announced Claude Mythos Preview, the f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p51#a260929p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T22:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
