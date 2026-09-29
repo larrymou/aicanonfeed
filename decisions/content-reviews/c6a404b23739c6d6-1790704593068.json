@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "c6a404b23739c6d6",
+  "url": "https://openai.com/index/devday-2026-recap/",
+  "sourceName": "Hacker News Front Page",
+  "title": "DevDay 2026 Recap",
+  "summary": "Article URL: https://openai.com/index/devday-2026-recap/ Comments URL: https://news.ycombinator.com/item?id=49896600 Points: 12 # Comments: 1",
+  "pubDate": "2026-09-29T17:07:45.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary name no specific AI model and state no release action; a recap/devday item with only URL metadata matches no rule. Official OpenAI link alone is insufficient.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openai.com/index/devday-2026-recap/ Comments URL: https://news.ycombinator.com/item?id=49896600 Points: 12 # Comments: 1",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/devday-2026-recap/",
+    "linkHost": "openai.com",
+    "pubDate": "2026-09-29T17:07:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
