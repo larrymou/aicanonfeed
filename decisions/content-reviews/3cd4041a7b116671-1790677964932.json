@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "3cd4041a7b116671",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/",
+  "sourceName": "r/MachineLearning new",
+  "title": "CoWindow and MassAlloc Attention: collective causal coverage and distribution-adaptive compute [R]",
+  "summary": "I'm one of the authors of two recent papers exploring different sources of redundant computation in attention. I'd like to share the ideas and hear feedback from people working on long-context models and attention kernels. CoWindow Attention (CoWA) distributes distant context acr",
+  "pubDate": "2026-09-29T05:16:54.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Post describes two attention research papers shared by an author, but the only observed link is a Reddit thread (linkHost www.reddit.com); no link to the original paper/arXiv or official source is observed, so rule 2-1's evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm one of the authors of two recent papers exploring different sources of redundant computation in attention. I'd like to share the ideas and hear feedback from people working on long-context models and attention kernels. CoWindow Attention (CoWA) distributes distant context acr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-29T05:16:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
