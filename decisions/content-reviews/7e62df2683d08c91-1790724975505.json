@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "7e62df2683d08c91",
+  "url": "https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/",
+  "sourceName": "Ars Technica AI",
+  "title": "Here's what actually happened in OpenAI's Australian gov't server hack",
+  "summary": "Without a \"full set of safeguards,\" agent accessed \"system information and source code.\"",
+  "pubDate": "2026-09-29T18:11:09.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ars Technica report on a security incident/agent breach at OpenAI; no named model release, research paper, business event (financing/M&A/partnership/revenue/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Without a \"full set of safeguards,\" agent accessed \"system information and source code.\"",
+    "summaryChars": 88,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-29T18:11:09.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
