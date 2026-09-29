@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "e4cef31d0720ad52",
+  "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+  "sourceName": "Wired AI",
+  "title": "OpenAI Gets Sued Over the Hugging Face Hack",
+  "summary": "A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.",
+  "pubDate": "2026-09-29T19:05:00.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A lawsuit against OpenAI over the Hugging Face hack is litigation, not a model release, research artifact, listed industry business event (financing/M&A/partnership/product), or government policy action. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-09-29T19:05:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
