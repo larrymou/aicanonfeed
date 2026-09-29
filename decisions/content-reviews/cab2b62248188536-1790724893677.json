@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "cab2b62248188536",
+  "url": "https://lucumr.pocoo.org/2026/9/29/deser/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Deser: Rethinking Rust Serialization",
+  "summary": "Article URL: https://lucumr.pocoo.org/2026/9/29/deser/ Comments URL: https://news.ycombinator.com/item?id=49901149 Points: 8 # Comments: 2",
+  "pubDate": "2026-09-29T21:48:27.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general programming blog post on Rust serialization; no AI model release, research artifact, industry event, policy action, or open-source AI tool is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lucumr.pocoo.org/2026/9/29/deser/ Comments URL: https://news.ycombinator.com/item?id=49901149 Points: 8 # Comments: 2",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://lucumr.pocoo.org/2026/9/29/deser/",
+    "linkHost": "lucumr.pocoo.org",
+    "pubDate": "2026-09-29T21:48:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
