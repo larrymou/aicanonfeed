@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "2ee3a81db13a93bd",
+  "url": "https://www.techmeme.com/260929/p37#a260929p37",
+  "sourceName": "Techmeme",
+  "title": "OpenAI announces ChatGPT Space, a collaborative workspace for users and ChatGPT and Dots, available on Pro, Business and Enterprise plans (Kris Holt/Engadget)",
+  "summary": "Kris Holt / Engadget: OpenAI announces ChatGPT Space, a collaborative workspace for users and ChatGPT and Dots, available on Pro, Business and Enterprise plans — ChatGPT is coming to Slack and Microsoft Teams too. — OpenAI unveiled several work-related tools at its Dev Day event ",
+  "pubDate": "2026-09-29T17:45:02.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kris Holt / Engadget: OpenAI announces ChatGPT Space, a collaborative workspace for users and ChatGPT and Dots, available on Pro, Business and Enterprise plans — ChatGPT is coming to Slack and Microsoft Teams too. — OpenAI unveiled several work-related tools at its Dev Day event ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p37#a260929p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T17:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
