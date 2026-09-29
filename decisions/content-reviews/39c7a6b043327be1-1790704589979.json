@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "39c7a6b043327be1",
+  "url": "https://openai.com/index/introducing-dots/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Dots",
+  "summary": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 135 # Comments: 70",
+  "pubDate": "2026-09-29T17:07:57.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'Dots' names no specific AI model and the summary only contains Hacker News metadata, so no rule's conditions are met from the observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 135 # Comments: 70",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-dots/",
+    "linkHost": "openai.com",
+    "pubDate": "2026-09-29T17:07:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
