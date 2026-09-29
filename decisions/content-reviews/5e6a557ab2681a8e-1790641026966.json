@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "5e6a557ab2681a8e",
+  "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI reportedly ditches model over safety concerns",
+  "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+  "pubDate": "2026-09-28T23:39:20.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1 fails: no release action named (item reports ditching a model) and no official owner link; media link lacks observed author (linked_page_author not observed). Not a listed industry event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-28T23:39:20.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
