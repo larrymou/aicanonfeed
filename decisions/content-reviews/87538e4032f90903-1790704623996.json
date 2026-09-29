@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "87538e4032f90903",
+  "url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
+  "sourceName": "Ars Technica AI",
+  "title": "OpenAI says planned GPT-6.1 is too insecure to release",
+  "summary": "Similar performance, security trade-offs also seen in current public models.",
+  "pubDate": "2026-09-29T14:22:31.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports OpenAI deciding GPT-6.1 is too insecure to release, i.e. a non-release. Rule 1-1 requires announcing availability of a new model/major version/capability. No official owner link and linked_page_author not observed, and it is not research, policy, financing/M&A, or OSS tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Similar performance, security trade-offs also seen in current public models.",
+    "summaryChars": 76,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-29T14:22:31.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
