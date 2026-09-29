@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "d22fa48862e8ee76",
+  "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+  "sourceName": "TechCrunch AI",
+  "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+  "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+  "pubDate": "2026-09-29T05:13:43.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Anthropic prospectus reporting financial losses, growth, and risk disclosure is an AI industry business/financing event, covered via a reputable media report (TechCrunch). Not a model release, research paper, policy action, or OSS tool, so group 3 rule 3-1 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+    "summaryChars": 196,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-29T05:13:43.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
