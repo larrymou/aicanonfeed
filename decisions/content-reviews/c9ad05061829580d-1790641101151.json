@@ -1,0 +1,40 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "c9ad05061829580d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wsockf/what_are_the_trending_topics_in_medical_imaging_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What are the trending topics in medical imaging? [D]",
+  "summary": "Hello everyone, I hope you're doing well. I'm a new PhD candidate, and my thesis is about the meta-learning paradigm in medical imaging. Right now, I don't have a specific problem to work on, and my supervisor told me to explore the field and find one myself. I've done some resea",
+  "pubDate": "2026-09-28T19:30:56.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for advice on trending medical imaging topics; no model release, research artifact, industry event, policy action, or OSS tool announced. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello everyone, I hope you're doing well. I'm a new PhD candidate, and my thesis is about the meta-learning paradigm in medical imaging. Right now, I don't have a specific problem to work on, and my supervisor told me to explore the field and find one myself. I've done some resea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wsockf/what_are_the_trending_topics_in_medical_imaging_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T19:30:56.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
