@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "d2c084a60a75763a",
+  "url": "https://www.techmeme.com/260928/p39#a260928p39",
+  "sourceName": "Techmeme",
+  "title": "Internal memo: FBI said it is \"operating under the premise\" that a threat actor stole PII of all employees; ShinyHunters set a Tuesday deadline tied to demands (New York Times)",
+  "summary": "New York Times: Internal memo: FBI said it is “operating under the premise” that a threat actor stole PII of all employees; ShinyHunters set a Tuesday deadline tied to demands — In an internal memo, the F.B.I. said it believed the hackers may have stolen sensitive information on ",
+  "pubDate": "2026-09-28T23:30:00.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an FBI cybersecurity incident (PII theft by ShinyHunters), not an AI model release, AI research result, AI industry business event, AI policy/regulation, or open-source AI tool. No active rule covers non-AI security news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Internal memo: FBI said it is “operating under the premise” that a threat actor stole PII of all employees; ShinyHunters set a Tuesday deadline tied to demands — In an internal memo, the F.B.I. said it believed the hackers may have stolen sensitive information on ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260928/p39#a260928p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-28T23:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
