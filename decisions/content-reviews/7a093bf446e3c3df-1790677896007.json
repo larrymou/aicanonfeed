@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "7a093bf446e3c3df",
+  "url": "https://www.techmeme.com/260929/p9#a260929p9",
+  "sourceName": "Techmeme",
+  "title": "Pope Leo XIV rebukes Jensen Huang for downplaying AI risks, saying \"the concerns raised by many of the experts, specialists in AI, should be taken seriously\" (Michael Acton/Financial Times)",
+  "summary": "Michael Acton / Financial Times: Pope Leo XIV rebukes Jensen Huang for downplaying AI risks, saying “the concerns raised by many of the experts, specialists in AI, should be taken seriously” — Rare intervention from head of Catholic Church comes as top executives are due to meet ",
+  "pubDate": "2026-09-29T10:10:31.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a religious leader's commentary rebuking an executive over AI risk messaging. It is not a named model release (1-1), has no research artifact (2-1), no business event (3-1), no law/regulation/enforcement or official policy action (4-1), and no OSS tooling (5-1). No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Michael Acton / Financial Times: Pope Leo XIV rebukes Jensen Huang for downplaying AI risks, saying “the concerns raised by many of the experts, specialists in AI, should be taken seriously” — Rare intervention from head of Catholic Church comes as top executives are due to meet ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p9#a260929p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T10:10:31.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
