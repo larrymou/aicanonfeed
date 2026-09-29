@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "e06185c2c32b636b",
+  "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+  "sourceName": "Hacker News Front Page",
+  "title": "ChatGPT Pro 500",
+  "summary": "Article URL: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers Comments URL: https://news.ycombinator.com/item?id=49896975 Points: 42 # Comments: 21",
+  "pubDate": "2026-09-29T17:26:27.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item points to an OpenAI help article about ChatGPT Pro subscription tiers. No observed evidence of a new model, major version, or new model capability (pricing/tier help page), so rule 1-1's release-action condition is unmet and no other rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers Comments URL: https://news.ycombinator.com/item?id=49896975 Points: 42 # Comments: 21",
+    "summaryChars": 166,
+    "summarySource": "summary",
+    "link": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+    "linkHost": "help.openai.com",
+    "pubDate": "2026-09-29T17:26:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
