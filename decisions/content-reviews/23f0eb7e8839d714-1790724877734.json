@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "23f0eb7e8839d714",
+  "url": "https://github.com/hmofet/unodos",
+  "sourceName": "Hacker News Front Page",
+  "title": "UnoDOS",
+  "summary": "Article URL: https://github.com/hmofet/unodos Comments URL: https://news.ycombinator.com/item?id=49901437 Points: 8 # Comments: 2",
+  "pubDate": "2026-09-29T22:10:23.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "UnoDOS appears to be a hobby/non-AI project on GitHub; no rule covers it. No named AI model, research artifact, industry business event, policy action, or AI OSS tool is established from the observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/hmofet/unodos Comments URL: https://news.ycombinator.com/item?id=49901437 Points: 8 # Comments: 2",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://github.com/hmofet/unodos",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-29T22:10:23.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
