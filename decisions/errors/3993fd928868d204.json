@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "3993fd928868d204",
+  "url": "https://www.techmeme.com/260929/p50#a260929p50",
+  "sourceName": "Techmeme",
+  "title": "President Trump signs an executive order requiring federal government agencies to refer to AI as \"Super Intelligence\" or \"SI\" in all official communications (Michael Shepard/Bloomberg)",
+  "summary": "Michael Shepard / Bloomberg: President Trump signs an executive order requiring federal government agencies to refer to AI as “Super Intelligence” or “SI” in all official communications — President Donald Trump sees artificial intelligence as suffering from a branding problem …",
+  "pubDate": "2026-09-29T22:10:01.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Michael Shepard / Bloomberg: President Trump signs an executive order requiring federal government agencies to refer to AI as “Super Intelligence” or “SI” in all official communications — President Donald Trump sees artificial intelligence as suffering from a branding problem …",
+    "summaryChars": 278,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p50#a260929p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T22:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
