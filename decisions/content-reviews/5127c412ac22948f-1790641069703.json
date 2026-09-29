@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "5127c412ac22948f",
+  "url": "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
+  "summary": "Article URL: https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/ Comments URL: https://news.ycombinator.com/item?id=49884363 Points: 150 # Comments: 68",
+  "pubDate": "2026-09-28T21:08:10.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Flock surveillance camera mapping/surveillance coverage, not an AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/ Comments URL: https://news.ycombinator.com/item?id=49884363 Points: 150 # Comments: 68",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/",
+    "linkHost": "theintercept.com",
+    "pubDate": "2026-09-28T21:08:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
