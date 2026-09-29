@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "4faa6b89e6d8bbb0",
+  "url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+  "sourceName": "Ars Technica AI",
+  "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+  "summary": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
+  "pubDate": "2026-09-28T21:49:10.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/market event (Nvidia chip sales in China, ByteDance/Alibaba purchases) via a reputable media report on Ars Technica, a non-owner domain; no official model/capability release involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-28T21:49:10.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
