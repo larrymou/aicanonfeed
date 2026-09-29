@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "415ead361481175d",
+  "url": "https://www.techmeme.com/260928/p43#a260928p43",
+  "sourceName": "Techmeme",
+  "title": "Sen. Blumenthal-led report: Tether's USDT is central to Iran's shadow banking system; 87% of 757 \"terrorism\"-related wallets predominantly transacted in USDT (Sarah Wynn/The Block)",
+  "summary": "Sarah Wynn / The Block: Sen. Blumenthal-led report: Tether's USDT is central to Iran's shadow banking system; 87% of 757 “terrorism”-related wallets predominantly transacted in USDT — In the 28-page report, Sen. Blumenthal said the panel's Democratic investigators analyzed blockc",
+  "pubDate": "2026-09-29T00:15:01.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns a Senate report on Tether/USDT and Iran's shadow banking, not AI. No active rule (model release, AI research, AI industry, AI policy, or OSS tooling) covers this non-AI content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Wynn / The Block: Sen. Blumenthal-led report: Tether's USDT is central to Iran's shadow banking system; 87% of 757 “terrorism”-related wallets predominantly transacted in USDT — In the 28-page report, Sen. Blumenthal said the panel's Democratic investigators analyzed blockc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260928/p43#a260928p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T00:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
