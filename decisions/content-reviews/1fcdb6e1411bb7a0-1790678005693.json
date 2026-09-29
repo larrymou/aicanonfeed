@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "1fcdb6e1411bb7a0",
+  "url": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "A Day in the Life of a Roboticist: Charlie Kemp",
+  "summary": "Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and support greater independence. In this Robots Guid",
+  "pubDate": "2026-09-28T21:48:56.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Profile/interview of roboticist Charlie Kemp about assistive robotics; no model release, research artifact, industry business event, policy action, or OSS tool announced. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and support greater independence. In this Robots Guid",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
+    "linkHost": "robotsguide.com",
+    "pubDate": "2026-09-28T21:48:56.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
