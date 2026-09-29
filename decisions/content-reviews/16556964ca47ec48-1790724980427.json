@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "16556964ca47ec48",
+  "url": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
+  "sourceName": "Wired AI",
+  "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+  "summary": "“The experiments are still in the queue. The PR is already live,” says one expert.",
+  "pubDate": "2026-09-29T18:03:01.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired media report/commentary about an Anthropic research claim, not a named model release, a paper/preprint link, a business event, a policy action, or an OSS tool. No official owner announcement or research artifact link (linkHost is wired.com); linked_page_owner_domain and linked_page_author not ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "“The experiments are still in the queue. The PR is already live,” says one expert.",
+    "summaryChars": 82,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-09-29T18:03:01.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
