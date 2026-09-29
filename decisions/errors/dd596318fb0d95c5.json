@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "dd596318fb0d95c5",
+  "url": "https://www.techmeme.com/260929/p34#a260929p34",
+  "sourceName": "Techmeme",
+  "title": "OpenAI unveils a $500/month Pro plan, offering its highest usage allowance and access to its new Ultrafast tier, with up to 8x faster token generation in Codex (Igor Bonifacic/Engadget)",
+  "summary": "Igor Bonifacic / Engadget: OpenAI unveils a $500/month Pro plan, offering its highest usage allowance and access to its new Ultrafast tier, with up to 8x faster token generation in Codex — The company also announced a new version of its Sol model. — Announced during the company's",
+  "pubDate": "2026-09-29T17:31:32.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Igor Bonifacic / Engadget: OpenAI unveils a $500/month Pro plan, offering its highest usage allowance and access to its new Ultrafast tier, with up to 8x faster token generation in Codex — The company also announced a new version of its Sol model. — Announced during the company's",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p34#a260929p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T17:31:32.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
