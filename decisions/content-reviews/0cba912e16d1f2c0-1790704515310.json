@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "0cba912e16d1f2c0",
+  "url": "https://www.techmeme.com/260929/p35#a260929p35",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says users can message Dots through ChatGPT, Slack, and Microsoft Teams and join a waitlist to text via iMessage or RCS messaging on Android (Reece Rogers/Wired)",
+  "summary": "Reece Rogers / Wired: OpenAI says users can message Dots through ChatGPT, Slack, and Microsoft Teams and join a waitlist to text via iMessage or RCS messaging on Android — OpenAI's Dots are powered by the startup's GPT-6 Astra model. A core selling point is their “always-on” desi",
+  "pubDate": "2026-09-29T17:35:01.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Announcement that users can message OpenAI's Dots via ChatGPT, Slack, Teams and join a waitlist for iMessage/RCS is a non-model product/feature launch reported by media. Rule 1-1 excludes product features, so it fits 3-1 (industry), with a non-owner media link.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reece Rogers / Wired: OpenAI says users can message Dots through ChatGPT, Slack, and Microsoft Teams and join a waitlist to text via iMessage or RCS messaging on Android — OpenAI's Dots are powered by the startup's GPT-6 Astra model. A core selling point is their “always-on” desi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p35#a260929p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T17:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
