@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "7111adc7355e9814",
+  "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Tcl/Tk 9.1 Released",
+  "summary": "Article URL: https://www.tcl-lang.org/software/tcltk/9.1.html Comments URL: https://news.ycombinator.com/item?id=49896712 Points: 21 # Comments: 2",
+  "pubDate": "2026-09-29T17:13:38.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Tcl/Tk 9.1 is a general-purpose programming language GUI toolkit release, not an AI model, research, industry, policy, or AI/OSS tooling item. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.tcl-lang.org/software/tcltk/9.1.html Comments URL: https://news.ycombinator.com/item?id=49896712 Points: 21 # Comments: 2",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+    "linkHost": "www.tcl-lang.org",
+    "pubDate": "2026-09-29T17:13:38.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
