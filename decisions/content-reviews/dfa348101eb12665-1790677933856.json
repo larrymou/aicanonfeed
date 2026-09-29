@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "dfa348101eb12665",
+  "url": "https://www.techmeme.com/260929/p7#a260929p7",
+  "sourceName": "Techmeme",
+  "title": "Sources: Anthropic dedicated nearly a third of its IPO prospectus to detailing \"risk factors\", including that its AI may pose \"existential risks to humanity\" (Financial Times)",
+  "summary": "Financial Times: Sources: Anthropic dedicated nearly a third of its IPO prospectus to detailing “risk factors”, including that its AI may pose “existential risks to humanity” — Long-awaited S1 filing reports Claude maker lost $8bn last year on $4.6bn in revenue",
+  "pubDate": "2026-09-29T09:50:01.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Techmeme/FT report on Anthropic's IPO prospectus, risk factors, and financials (lost $8bn on $4.6bn revenue) — an AI industry business/financing event with a reputable media report link, per rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: Anthropic dedicated nearly a third of its IPO prospectus to detailing “risk factors”, including that its AI may pose “existential risks to humanity” — Long-awaited S1 filing reports Claude maker lost $8bn last year on $4.6bn in revenue",
+    "summaryChars": 261,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p7#a260929p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T09:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
