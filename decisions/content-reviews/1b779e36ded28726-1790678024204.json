@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "1b779e36ded28726",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+  "sourceName": "Ollama releases",
+  "title": "v0.35.0-rc1",
+  "summary": "mlx: bound pull stall retries and let the watchdog interrupt them (#1…",
+  "pubDate": "2026-09-28T20:31:38.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama v0.35.0-rc1 is an open-source AI tool/framework release published on its official GitHub repository (link host github.com, source 'Ollama releases'), matching tools-oss rule 5-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "mlx: bound pull stall retries and let the watchdog interrupt them (#1…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-28T20:31:38.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
