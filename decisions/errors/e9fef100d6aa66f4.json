@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "e9fef100d6aa66f4",
+  "url": "https://www.techmeme.com/260928/p40#a260928p40",
+  "sourceName": "Techmeme",
+  "title": "IPO prospectus: Anthropic reports a net loss of $42B in 2025 and plans to spend $518B on cloud, computing, and infrastructure obligations in the coming year (Echo Wang/Reuters)",
+  "summary": "Echo Wang / Reuters: IPO prospectus: Anthropic reports a net loss of $42B in 2025 and plans to spend $518B on cloud, computing, and infrastructure obligations in the coming year — Anthropic is making a massive bet that AI will transform the global economy more profoundly than ind",
+  "pubDate": "2026-09-28T23:40:10.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Echo Wang / Reuters: IPO prospectus: Anthropic reports a net loss of $42B in 2025 and plans to spend $518B on cloud, computing, and infrastructure obligations in the coming year — Anthropic is making a massive bet that AI will transform the global economy more profoundly than ind",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260928/p40#a260928p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-28T23:40:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
