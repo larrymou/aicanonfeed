@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "895a3473a1329ce5",
+  "url": "https://www.techmeme.com/260929/p54#a260929p54",
+  "sourceName": "Techmeme",
+  "title": "At the unBoxed conference, Amazon moves AI from being a feature to playing a more central role in ad-buying and brings previously separate ad workflows together (Ronan Shields/Digiday)",
+  "summary": "Ronan Shields / Digiday: At the unBoxed conference, Amazon moves AI from being a feature to playing a more central role in ad-buying and brings previously separate ad workflows together — Amazon's dominance in retail media budgets is hardly a surprise, with Madison Avenue observe",
+  "pubDate": "2026-09-29T23:15:01.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Media report (Ronan Shields/Digiday via Techmeme) on Amazon's unBoxed conference announcement that AI now plays a central role in ad-buying, with previously separate ad workflows merged. This is a non-model product/business event, covered by a reputable media report link (linkHost techmeme.com), mat",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ronan Shields / Digiday: At the unBoxed conference, Amazon moves AI from being a feature to playing a more central role in ad-buying and brings previously separate ad workflows together — Amazon's dominance in retail media budgets is hardly a surprise, with Madison Avenue observe",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p54#a260929p54",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-29T23:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
