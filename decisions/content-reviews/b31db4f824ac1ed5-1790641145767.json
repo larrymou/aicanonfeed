@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "b31db4f824ac1ed5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1ws7z0e/how_can_i_turn_an_industry_ml_project_into_a/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How can I turn an industry ML project into a publication? [R]",
+  "summary": "Hi, I work as a Data Engineer at a manufacturing company where we build engines. A significant part of my work involves ML/DL-related tasks, and I’d like to turn one of my projects into a research publication. The problem is that I have no previous publication or academic researc",
+  "pubDate": "2026-09-28T07:23:38.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for advice on turning an industry ML project into a publication; no named model release, no new research artifact, no business event, policy action, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi, I work as a Data Engineer at a manufacturing company where we build engines. A significant part of my work involves ML/DL-related tasks, and I’d like to turn one of my projects into a research publication. The problem is that I have no previous publication or academic researc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ws7z0e/how_can_i_turn_an_industry_ml_project_into_a/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T07:23:38.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
