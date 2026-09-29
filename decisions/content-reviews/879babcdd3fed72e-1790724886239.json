@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "879babcdd3fed72e",
+  "url": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
+  "sourceName": "Ars Technica AI",
+  "title": "Protests against OpenAI get increasingly creative",
+  "summary": "New sculpture depicts AI leaders escaping a sinking ship.",
+  "pubDate": "2026-09-29T21:52:58.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers creative protests/art targeting OpenAI; no rule covers activism or commentary. Not a model release, research artifact, industry business event, policy action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New sculpture depicts AI leaders escaping a sinking ship.",
+    "summaryChars": 57,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-29T21:52:58.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
