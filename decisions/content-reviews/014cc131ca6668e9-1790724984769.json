@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790724801721-wuf6w4",
+  "urlHash": "014cc131ca6668e9",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I wrote a free, open-source book on making ML models actually fast, from silicon to agents [P]",
+  "summary": "I’ve spent the last few months writing something I wish I had when I started working on ML performance engineering. It’s called How to Make Your Model Fast: A Systems View of Efficient Machine Learning, from Silicon to Agents. The basic idea is that reducing FLOPs doesn’t necessa",
+  "pubDate": "2026-09-29T10:35:53.000Z",
+  "decidedAt": "2026-09-29T23:33:33.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post announcing a free open-source book on ML performance engineering. It is not a named model release (1-1), a peer-reviewed/arXiv research artifact (2-1), an industry business event (3-1), a policy action (4-1), nor a library/framework/developer-tool launch (5-1). No rule covers an educatio",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I’ve spent the last few months writing something I wish I had when I started working on ML performance engineering. It’s called How to Make Your Model Fast: A Systems View of Efficient Machine Learning, from Silicon to Agents. The basic idea is that reducing FLOPs doesn’t necessa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-29T10:35:53.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
