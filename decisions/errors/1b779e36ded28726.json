@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "1b779e36ded28726",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+  "sourceName": "Ollama releases",
+  "title": "v0.35.0",
+  "summary": "What's Changed app: sync macOS update menu and icon at startup by @hoyyeva in #18622 app: defer Settings model discovery by @ParthSareen in #18598 app: isolate cloud-setting tests from Windows user config by @drifkin in #18626 api: deprecate typical_p by @dhiltgen in #18627 bench",
+  "pubDate": "2026-09-28T21:23:22.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed app: sync macOS update menu and icon at startup by @hoyyeva in #18622 app: defer Settings model discovery by @ParthSareen in #18598 app: isolate cloud-setting tests from Windows user config by @drifkin in #18626 api: deprecate typical_p by @dhiltgen in #18627 bench",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-28T21:23:22.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
