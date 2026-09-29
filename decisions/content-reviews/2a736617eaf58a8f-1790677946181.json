@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790677858805-f6fi85",
+  "urlHash": "2a736617eaf58a8f",
+  "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Using any C++ library in Godot",
+  "summary": "Article URL: https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html Comments URL: https://news.ycombinator.com/item?id=49890051 Points: 32 # Comments: 8",
+  "pubDate": "2026-09-29T08:40:37.000Z",
+  "decidedAt": "2026-09-29T10:31:11.292Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a C++/Godot game-dev tutorial; no named AI model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html Comments URL: https://news.ycombinator.com/item?id=49890051 Points: 32 # Comments: 8",
+    "summaryChars": 196,
+    "summarySource": "summary",
+    "link": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+    "linkHost": "blog.conan.io",
+    "pubDate": "2026-09-29T08:40:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
