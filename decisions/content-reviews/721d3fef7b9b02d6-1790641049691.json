@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790640994226-wvu7xk",
+  "urlHash": "721d3fef7b9b02d6",
+  "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+  "sourceName": "The Verge AI",
+  "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+  "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 ",
+  "pubDate": "2026-09-28T21:31:35.000Z",
+  "decidedAt": "2026-09-29T00:16:40.587Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "The Verge reports AMD is acquiring AI research lab World Labs in an all-stock deal worth ~$8.2B, an M&A/industry business event covered by a reputable media report, matching industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-09-28T21:31:35.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
