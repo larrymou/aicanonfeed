@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790704430321-5n85oy",
+  "urlHash": "e567bc54aa182b01",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wt9w3s/limited_compute_targeting_cvpr_rerun_experiments/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Limited compute, targeting CVPR: rerun experiments for statistically strong numbers or focus on writing? [D]",
+  "summary": "Hi everyone, I'm preparing a submission for CVPR and would appreciate your advice. I am happy with my current results, but compute is a real constraint. My institute isn't a research-focused one, and the systems available to me are slow and unreliable. A single set of runs alread",
+  "pubDate": "2026-09-29T13:18:06.000Z",
+  "decidedAt": "2026-09-29T17:53:58.625Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post seeking advice on CVPR experiment planning. No named model release, no research artifact (paper/preprint/benchmark), no industry business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi everyone, I'm preparing a submission for CVPR and would appreciate your advice. I am happy with my current results, but compute is a real constraint. My institute isn't a research-focused one, and the systems available to me are slow and unreliable. A single set of runs alread",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wt9w3s/limited_compute_targeting_cvpr_rerun_experiments/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-29T13:18:06.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
