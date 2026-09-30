@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "348f0c13d3c0b9bc",
+  "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+  "summary": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+  "pubDate": "2026-09-30T19:00:57.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/analysis about OpenAI's 'Decisions API' (an API, not a named model). No official owner link; media article lacks observed author/date. Does not satisfy any rule's conditions.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+    "summaryChars": 97,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-30T19:00:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
