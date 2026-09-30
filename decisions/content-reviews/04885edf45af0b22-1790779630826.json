@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "04885edf45af0b22",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+  "sourceName": "The Verge AI",
+  "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+  "summary": "Anyone else getting “The Last Supper” vibes from this photo taken at the White House tech gathering? | Photographer: Tierney L. Cross/The Washington Post/Bloomberg via Getty Images We now have the full details of the \"morally binding\" AI safety deal announced by President Trump y",
+  "pubDate": "2026-09-30T12:24:32.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a voluntary 'morally binding' AI safety self-regulation deal among tech leaders under Trump. Rule 4-1 explicitly excludes industry self-regulation, and no government policy action, research artifact, model release, or OSS tool is reported. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anyone else getting “The Last Supper” vibes from this photo taken at the White House tech gathering? | Photographer: Tierney L. Cross/The Washington Post/Bloomberg via Getty Images We now have the full details of the \"morally binding\" AI safety deal announced by President Trump y",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-09-30T12:24:32.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
