@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "f0eaec654f7f1f43",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2",
+  "sourceName": "vLLM releases",
+  "title": "v0.31.0rc2",
+  "summary": "[Bugfix][Mamba] Keep the prompt-end prefill checkpoint under sparse r…",
+  "pubDate": "2026-09-30T00:33:58.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "vLLM v0.31.0rc2 is a release of an open-source AI inference framework, announced with a link to its official repository release page on github.com, matching the tools & OSS rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[Bugfix][Mamba] Keep the prompt-end prefill checkpoint under sparse r…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-30T00:33:58.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
