@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "faeb363f3320d4d3",
+  "url": "https://nltimes.nl/2026/09/30/data-centers-refusing-say-much-water-electricity-use",
+  "sourceName": "Hacker News Front Page",
+  "title": "Most data centers refusing to say how much water, electricity they use",
+  "summary": "Article URL: https://nltimes.nl/2026/09/30/data-centers-refusing-say-much-water-electricity-use Comments URL: https://news.ycombinator.com/item?id=49907057 Points: 138 # Comments: 148",
+  "pubDate": "2026-09-30T10:49:32.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers data centers declining to disclose water/electricity use; no named AI model release, research artifact, business event (financing/M&A/partnership/market data/product launch), or policy action established from Content. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nltimes.nl/2026/09/30/data-centers-refusing-say-much-water-electricity-use Comments URL: https://news.ycombinator.com/item?id=49907057 Points: 138 # Comments: 148",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://nltimes.nl/2026/09/30/data-centers-refusing-say-much-water-electricity-use",
+    "linkHost": "nltimes.nl",
+    "pubDate": "2026-09-30T10:49:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
