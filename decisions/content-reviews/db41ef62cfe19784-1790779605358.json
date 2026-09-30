@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "db41ef62cfe19784",
+  "url": "https://ubuntu.com/blog/upgrade-your-desktop-ubuntu-26-04-lts",
+  "sourceName": "Hacker News Front Page",
+  "title": "Upgrade your desktop: Ubuntu 26.04.1 LTS is now available",
+  "summary": "Article URL: https://ubuntu.com/blog/upgrade-your-desktop-ubuntu-26-04-lts Comments URL: https://news.ycombinator.com/item?id=49908757 Points: 43 # Comments: 26",
+  "pubDate": "2026-09-30T13:36:37.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ubuntu 26.04.1 LTS desktop release is a general-purpose OS announcement, not an AI model, research artifact, AI industry event, AI policy action, or AI open-source tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ubuntu.com/blog/upgrade-your-desktop-ubuntu-26-04-lts Comments URL: https://news.ycombinator.com/item?id=49908757 Points: 43 # Comments: 26",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://ubuntu.com/blog/upgrade-your-desktop-ubuntu-26-04-lts",
+    "linkHost": "ubuntu.com",
+    "pubDate": "2026-09-30T13:36:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
