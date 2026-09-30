@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "589d9290e30bcb61",
+  "url": "https://www.techmeme.com/260929/p59#a260929p59",
+  "sourceName": "Techmeme",
+  "title": "A profile of Travis Kalanick, CEO of Atoms, whom Silicon Valley has welcomed back with VC support despite his unapologetic stance on his 2017 ouster from Uber (Jeff John Roberts/Fortune)",
+  "summary": "Jeff John Roberts / Fortune: A profile of Travis Kalanick, CEO of Atoms, whom Silicon Valley has welcomed back with VC support despite his unapologetic stance on his 2017 ouster from Uber — Kalanick, when he was still CEO of Uber, photographed in 2016 at a conference on innovatio",
+  "pubDate": "2026-09-30T02:15:00.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media personality profile of Travis Kalanick (CEO of Atoms) and Silicon Valley's reception of him. No named model release (1-1), no research artifact (2-1), no concrete financing/M&A/partnership/market data or product launch (3-1), no policy action (4-1), and no OSS tool/framework (5-1). N",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jeff John Roberts / Fortune: A profile of Travis Kalanick, CEO of Atoms, whom Silicon Valley has welcomed back with VC support despite his unapologetic stance on his 2017 ouster from Uber — Kalanick, when he was still CEO of Uber, photographed in 2016 at a conference on innovatio",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p59#a260929p59",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T02:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
