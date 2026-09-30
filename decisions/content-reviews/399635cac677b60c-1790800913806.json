@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "399635cac677b60c",
+  "url": "https://www.mattkeeter.com/projects/halfspace/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Halfspace experimental IDE for solid modeling with distance fields",
+  "summary": "Article URL: https://www.mattkeeter.com/projects/halfspace/ Comments URL: https://news.ycombinator.com/item?id=49913350 Points: 17 # Comments: 1",
+  "pubDate": "2026-09-30T19:44:37.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an experimental IDE for solid modeling with distance fields; no evidence it is an AI model, AI research, AI industry event, AI policy, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.mattkeeter.com/projects/halfspace/ Comments URL: https://news.ycombinator.com/item?id=49913350 Points: 17 # Comments: 1",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://www.mattkeeter.com/projects/halfspace/",
+    "linkHost": "www.mattkeeter.com",
+    "pubDate": "2026-09-30T19:44:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
