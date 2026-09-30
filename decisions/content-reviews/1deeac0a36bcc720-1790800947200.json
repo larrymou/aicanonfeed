@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "1deeac0a36bcc720",
+  "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
+  "sourceName": "Wired AI",
+  "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+  "summary": "In her new book on biological warfare, Annie Jacobsen didn’t even discuss AI because scientists can already warp Mother Nature to create extinction-level events.",
+  "pubDate": "2026-09-30T19:00:00.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary on a book about bioweapons development; not a model release, research paper, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In her new book on biological warfare, Annie Jacobsen didn’t even discuss AI because scientists can already warp Mother Nature to create extinction-level events.",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-09-30T19:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
