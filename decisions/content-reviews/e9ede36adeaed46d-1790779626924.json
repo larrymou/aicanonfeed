@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "e9ede36adeaed46d",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0",
+  "sourceName": "vLLM releases",
+  "title": "proto-v0.4.0",
+  "summary": "Release vllm-proto 0.4.0",
+  "pubDate": "2026-09-30T12:52:24.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Announces release vllm-proto 0.4.0 of the open-source vLLM project, with a link to the GitHub repository release page—a library/framework release for AI developers.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Release vllm-proto 0.4.0",
+    "summaryChars": 24,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.4.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-30T12:52:24.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
