@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "d7a8b0578bb03262",
+  "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+  "sourceName": "Ars Technica AI",
+  "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+  "summary": "OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+  "pubDate": "2026-09-30T18:25:04.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Nonprofit lawsuit against OpenAI over a hack is private litigation/legal commentary, not a model release, research artifact, business event (financing/M&A/partnership/product), government policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-30T18:25:04.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
