@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "8f6835f3780f1be0",
+  "url": "https://www.techmeme.com/260929/p60#a260929p60",
+  "sourceName": "Techmeme",
+  "title": "A profile of Mariano-Florentino Cuéllar, Anthropic's first global affairs chief, who had helped shape California's first AI safety law in 2025 (Brandon Pho/Mission Local)",
+  "summary": "Brandon Pho / Mission Local: A profile of Mariano-Florentino Cuéllar, Anthropic's first global affairs chief, who had helped shape California's first AI safety law in 2025 — In a hot and dry border town at the base of California's Imperial Valley, the list of powerful alumni at C",
+  "pubDate": "2026-09-30T03:45:05.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media profile of an Anthropic executive who helped shape a prior AI law; it reports no new law, executive order, enforcement, or official policy announcement (rule 4-1 unmet). No model release, research artifact, business event, or OSS tool is present, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brandon Pho / Mission Local: A profile of Mariano-Florentino Cuéllar, Anthropic's first global affairs chief, who had helped shape California's first AI safety law in 2025 — In a hot and dry border town at the base of California's Imperial Valley, the list of powerful alumni at C",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p60#a260929p60",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T03:45:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
