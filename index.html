@@ -650,7 +650,7 @@
         <span class="live-dot" aria-hidden="true"></span>
         <span class="live-label">Live</span>
         <span>Shared window · last 5 days</span>
-        <strong>24</strong>
+        <strong>26</strong>
         <span>included</span>
         <span class="gov" title="Governance stage · approve votes needed to pass (quorum) · GitHub stars">S0 · quorum 3 · 0★</span>
       </p>
@@ -675,13 +675,39 @@
         <h2 class="block-title">Shared window</h2>
       </div>
       <p class="block-meta">Display caps · 25 per category · research 10 · balance by policy</p>
-      <p class="block-meta" title="Items that never entered the model are logged under decisions/content-runs/. Rejected-after-review records live under decisions/content-reviews/ with include=false.">Last run · <strong>30</strong> model attempts (<strong>17</strong> finalized: 2 included / 15 rejected; 0 deferred by research quota; 13 retryable errors) · research journal: 1 (1 admitted / 0 deferred / 0 pending) · <strong>1851</strong> not entered review (age, caps, duplicates) · audit in <code>decisions/content-runs/</code></p>
+      <p class="block-meta" title="Items that never entered the model are logged under decisions/content-runs/. Rejected-after-review records live under decisions/content-reviews/ with include=false.">Last run · <strong>30</strong> model attempts (<strong>16</strong> finalized: 3 included / 13 rejected; 0 deferred by research quota; 14 retryable errors) · research journal: 0 (0 admitted / 0 deferred / 0 pending) · <strong>2245</strong> not entered review (age, caps, duplicates) · audit in <code>decisions/content-runs/</code></p>
       <div class="rail-wrap">
         <div class="rail" role="group" aria-label="Filter by category">
-          <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">24</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">10</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">10</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">2</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">1</span></button>
+          <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">26</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">12</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">9</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">3</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">1</span></button>
         </div>
       </div>
       <div id="feed">
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">AWS Machine Learning Blog</span>
+    <span class="rule-tag"><a href="#rule-3-1">3-1</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/" rel="noopener noreferrer" target="_blank">Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore</a></h3>
+  <p class="tile-summary">Amazon Bedrock now supports Anthropic&#39;s Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inferen</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-30T01:13:12.000Z">2026-09-30</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — AWS official blog announces Anthropic Claude models on Amazon Bedrock for in-region inference in Seoul/Singapore. This is a cloud platform product/partnership business event, not a new model capability release, so it falls under industry.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="tools-oss">
+  <div class="tile-meta">
+    <span class="cat cat-tools-oss">Tools</span>
+    <span class="src">vLLM releases</span>
+    <span class="rule-tag"><a href="#rule-5-1">5-1</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2" rel="noopener noreferrer" target="_blank">v0.31.0rc2</a></h3>
+  <p class="tile-summary">[Bugfix][Mamba] Keep the prompt-end prefill checkpoint under sparse r…</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-30T00:33:58.000Z">2026-09-30</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>5-1</code> · ruleset <code>e6b37238cc27</code> — vLLM v0.31.0rc2 is a release of an open-source AI inference framework, announced with a link to its official repository release page on github.com, matching the tools &amp; OSS rule.</p></details>
+  </div>
+</article>
 <article class="tile" data-category="industry">
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
@@ -693,6 +719,19 @@
   <div class="tile-foot">
     <time datetime="2026-09-29T23:15:01.000Z">2026-09-29</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — Media report (Ronan Shields/Digiday via Techmeme) on Amazon&#39;s unBoxed conference announcement that AI now plays a central role in ad-buying, with previously separate ad workflows merged. This is a non-model product/business event, covered by a reputable media report link (linkHost techmeme.com), mat</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">TechCrunch AI</span>
+    <span class="rule-tag"><a href="#rule-3-1">3-1</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/" rel="noopener noreferrer" target="_blank">Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents</a></h3>
+  <p class="tile-summary">OpenAI isn&#39;t a public supporter of Nvidia&#39;s Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.</p>
+  <div class="tile-foot">
+    <time datetime="2026-09-29T18:35:00.000Z">2026-09-29</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — TechCrunch report on Nvidia&#39;s industry-wide Open Agent Safety Platform and OpenAI&#39;s private involvement — an AI industry partnership/initiative event covered by a reputable media outlet (techcrunch.com), with no model release or research artifact.</p></details>
   </div>
 </article>
 <article class="tile" data-category="industry">
@@ -979,19 +1018,6 @@
   <div class="tile-foot">
     <time datetime="2026-09-25T17:57:37.000Z">2026-09-25</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>c0cf654fb353</code> — Reports an AI industry product event: Microsoft&#39;s new Surface laptops drop Copilot+ PC branding, a non-model product launch covered by a reputable media report (Ars Technica).</p></details>
-  </div>
-</article>
-<article class="tile is-research" data-category="research">
-  <div class="tile-meta">
-    <span class="cat cat-research">Research</span>
-    <span class="src">arXiv cs.AI</span>
-    <span class="rule-tag"><a href="#rule-2-1">2-1</a></span>
-  </div>
-  <h3 class="tile-title"><a href="https://arxiv.org/abs/2609.28475" rel="noopener noreferrer" target="_blank">When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing</a></h3>
-  <p class="tile-summary">Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each b</p>
-  <div class="tile-foot">
-    <time datetime="2026-09-25T04:00:00.000Z">2026-09-25</time>
-    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>2-1</code> · ruleset <code>c0cf654fb353</code> — arXiv preprint reporting a new AI research result (behavioral stress tests for forecasting-agent reliability) with a link to the original paper, matching rule 2-1 for new research results.</p></details>
   </div>
 </article>
       </div>
