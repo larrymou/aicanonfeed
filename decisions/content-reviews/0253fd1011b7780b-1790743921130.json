@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "0253fd1011b7780b",
+  "url": "https://www.techmeme.com/260929/p56#a260929p56",
+  "sourceName": "Techmeme",
+  "title": "Robinhood plans to let users trade some US stocks round-the-clock during weekends, wager on specific corporate earnings metrics, and trade perpetual futures (Reuters)",
+  "summary": "Reuters: Robinhood plans to let users trade some US stocks round-the-clock during weekends, wager on specific corporate earnings metrics, and trade perpetual futures — Robinhood said on Tuesday it will let users trade some US stocks round-the-clock during weekends, marking its la",
+  "pubDate": "2026-09-30T00:00:49.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Robinhood's trading-product expansion (round-the-clock stock trading, earnings wagers, perpetual futures). It is not AI research, a model release, AI open-source tooling, or AI policy, and rule 3-1 covers AI industry business events only; no rule covers this non-AI finance news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Robinhood plans to let users trade some US stocks round-the-clock during weekends, wager on specific corporate earnings metrics, and trade perpetual futures — Robinhood said on Tuesday it will let users trade some US stocks round-the-clock during weekends, marking its la",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p56#a260929p56",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T00:00:49.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
