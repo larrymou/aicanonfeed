@@ -1,0 +1,40 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "dc390a25da2676f6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wud1fa/how_should_i_follow_up_with_tmlr_submission_once/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How should I follow up with TMLR submission once all review responses are submitted [D]",
+  "summary": "I have responded to all the reviewers with proper rebuttals and modified draft. One interacted with me and after acknowledging the response kinda disappeared again after asking additional questions. I have replied to his additional questions too but he hasn't raised his score. Wh",
+  "pubDate": "2026-09-30T18:39:43.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking how to follow up on a TMLR submission review. No named model release, no research artifact/paper link, no business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I have responded to all the reviewers with proper rebuttals and modified draft. One interacted with me and after acknowledging the response kinda disappeared again after asking additional questions. I have replied to his additional questions too but he hasn't raised his score. Wh",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wud1fa/how_should_i_follow_up_with_tmlr_submission_once/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-30T18:39:43.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
