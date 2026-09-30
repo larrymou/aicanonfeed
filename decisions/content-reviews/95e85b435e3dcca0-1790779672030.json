@@ -1,18 +1,22 @@
 {
-  "runId": "run-1790743820578-2yj9z0",
+  "runId": "run-1790779530878-jodkmm",
   "urlHash": "95e85b435e3dcca0",
   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
   "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or wit",
   "pubDate": "2026-09-30T01:13:14.000Z",
-  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Item is a regional availability/geographic inference expansion for existing Claude models on Bedrock, not a new model, major version, or new model capability (rule 1-1 fails), and not financing/M&A/partnership/market data or a non-model product launch (rule 3-1 fails). No rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or wit",
