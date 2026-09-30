@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "287fcf32f60d11e4",
+  "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+  "sourceName": "Wired AI",
+  "title": "The Battle to Be Your Personal AI Agent Is Here",
+  "summary": "OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
+  "pubDate": "2026-09-30T19:30:00.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary/review of OpenAI's Dots and Meta's Muse; no named author observed (linked_page_author not observed), no official owner link, and no verifiable new-model/major-version release action. Rule 1-1 conditions unmet; no other rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
+    "summaryChars": 114,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-09-30T19:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
