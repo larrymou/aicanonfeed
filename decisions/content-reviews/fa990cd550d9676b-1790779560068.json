@@ -1,0 +1,40 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "fa990cd550d9676b",
+  "url": "https://www.techmeme.com/260930/p29#a260930p29",
+  "sourceName": "Techmeme",
+  "title": "The UK's MI5 issues a rare espionage alert urging UK universities to cut ties with the China General Technology Research Institute, which funded AI research (Financial Times)",
+  "summary": "Financial Times: The UK's MI5 issues a rare espionage alert urging UK universities to cut ties with the China General Technology Research Institute, which funded AI research — China General Technology Research Institute has ‘very strong ties’ to Chinese intelligence, says UK agen",
+  "pubDate": "2026-09-30T14:35:01.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "MI5 espionage alert urging universities to cut ties with a Chinese institute is a national-security/geopolitical story. It is not an AI law, executive order, regulatory enforcement, or official AI policy announcement (R4), nor a model release, research artifact, industry business event, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: The UK's MI5 issues a rare espionage alert urging UK universities to cut ties with the China General Technology Research Institute, which funded AI research — China General Technology Research Institute has ‘very strong ties’ to Chinese intelligence, says UK agen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p29#a260930p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T14:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
