@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "cf64edd36b9e7709",
+  "url": "https://github.com/Sparticle62ops/pssa",
+  "sourceName": "Hacker News Front Page",
+  "title": "PSSA: A non-transformer language model written from scratch in Rust",
+  "summary": "Article URL: https://github.com/Sparticle62ops/pssa Comments URL: https://news.ycombinator.com/item?id=49903993 Points: 26 # Comments: 6",
+  "pubDate": "2026-09-30T03:19:54.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/Sparticle62ops/pssa Comments URL: https://news.ycombinator.com/item?id=49903993 Points: 26 # Comments: 6",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/Sparticle62ops/pssa",
+    "linkHost": "github.com",
+    "pubDate": "2026-09-30T03:19:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
