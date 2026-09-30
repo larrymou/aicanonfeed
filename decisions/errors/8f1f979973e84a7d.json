@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "8f1f979973e84a7d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wtyl5m/concurrent_image_understanding_and_generation/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes [R]",
+  "summary": "coupled-jump.github.io Hi everyone, I’m happy to share our recent NeurIPS 2026 paper, a collaboration across Google, Google DeepMind and Stony Brook University. We study a mismatch in joint text and image generation: a model can describe the correct solution to a maze while drawi",
+  "pubDate": "2026-09-30T07:28:34.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "coupled-jump.github.io Hi everyone, I’m happy to share our recent NeurIPS 2026 paper, a collaboration across Google, Google DeepMind and Stony Brook University. We study a mismatch in joint text and image generation: a model can describe the correct solution to a maze while drawi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wtyl5m/concurrent_image_understanding_and_generation/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-30T07:28:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
