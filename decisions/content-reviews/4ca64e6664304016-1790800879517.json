@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "4ca64e6664304016",
+  "url": "https://www.techmeme.com/260930/p43#a260930p43",
+  "sourceName": "Techmeme",
+  "title": "Google rolls out Gemini 4 Argon to a small group of cybersecurity partners and says it outperforms GPT-6 Astra on certain coding and knowledge work benchmarks (Madison Mills/Axios)",
+  "summary": "Madison Mills / Axios: Google rolls out Gemini 4 Argon to a small group of cybersecurity partners and says it outperforms GPT-6 Astra on certain coding and knowledge work benchmarks — Google is unveiling its long-awaited next-generation AI model, Gemini 4 Argon, to a small group ",
+  "pubDate": "2026-09-30T20:10:01.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names Gemini 4 Argon and a rollout action, but the link is a Techmeme aggregator page, not an official Google announcement. No full news article with observed named author and publication date on a non-owner domain; linked_page_author is not observed, so rule 1-1 evidence is insufficient.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Madison Mills / Axios: Google rolls out Gemini 4 Argon to a small group of cybersecurity partners and says it outperforms GPT-6 Astra on certain coding and knowledge work benchmarks — Google is unveiling its long-awaited next-generation AI model, Gemini 4 Argon, to a small group ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p43#a260930p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T20:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
