@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "c5a40c45187cf3f9",
+  "url": "https://lfm.xiffy.nl/",
+  "sourceName": "Hacker News Front Page",
+  "title": "RSS Feeds for Last.fm",
+  "summary": "Article URL: https://lfm.xiffy.nl/ Comments URL: https://news.ycombinator.com/item?id=49903862 Points: 7 # Comments: 2",
+  "pubDate": "2026-09-30T03:00:05.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an RSS feed tool for Last.fm (music scrobbling), not an AI model release, research paper, industry event, policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lfm.xiffy.nl/ Comments URL: https://news.ycombinator.com/item?id=49903862 Points: 7 # Comments: 2",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://lfm.xiffy.nl/",
+    "linkHost": "lfm.xiffy.nl",
+    "pubDate": "2026-09-30T03:00:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
