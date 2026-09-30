@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "a8a02f2961d12e63",
+  "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+  "sourceName": "Hacker News Front Page",
+  "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+  "summary": "Article URL: https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/ Comments URL: https://news.ycombinator.com/item?id=49908962 Points: 9 # Comments: 7",
+  "pubDate": "2026-09-30T13:50:50.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general GPU text-rendering technical article, not a named AI model release, AI research result, AI industry business event, AI policy action, or open-source AI tool/framework announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/ Comments URL: https://news.ycombinator.com/item?id=49908962 Points: 9 # Comments: 7",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+    "linkHost": "alphapixeldev.com",
+    "pubDate": "2026-09-30T13:50:50.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
