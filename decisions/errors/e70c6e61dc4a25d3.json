@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "e70c6e61dc4a25d3",
+  "url": "https://www.techmeme.com/260930/p26#a260930p26",
+  "sourceName": "Techmeme",
+  "title": "Amazon says Fire TV now offers integrated live content from 40+ apps, like YouTube TV and DirecTV, and plans a Music app with podcasts and concerts in the fall (Mariella Moon/Engadget)",
+  "summary": "Mariella Moon / Engadget: Amazon says Fire TV now offers integrated live content from 40+ apps, like YouTube TV and DirecTV, and plans a Music app with podcasts and concerts in the fall — Alexa+ will be able to process more complex questions. — Starting in November, Fire TV users",
+  "pubDate": "2026-09-30T13:20:03.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mariella Moon / Engadget: Amazon says Fire TV now offers integrated live content from 40+ apps, like YouTube TV and DirecTV, and plans a Music app with podcasts and concerts in the fall — Alexa+ will be able to process more complex questions. — Starting in November, Fire TV users",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p26#a260930p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T13:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
