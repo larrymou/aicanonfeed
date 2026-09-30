@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "56b06a17d9bdb192",
+  "url": "https://www.techmeme.com/260930/p25#a260930p25",
+  "sourceName": "Techmeme",
+  "title": "Amazon unveils a faster, slimmer $60 Fire TV Stick 4K, simplifies its Fire TV Stick lineup, and plans to roll out an upgraded Alexa+ living room hub in November (Chris Welch/Bloomberg)",
+  "summary": "Chris Welch / Bloomberg: Amazon unveils a faster, slimmer $60 Fire TV Stick 4K, simplifies its Fire TV Stick lineup, and plans to roll out an upgraded Alexa+ living room hub in November — Amazon.com Inc. announced a faster, slimmer Fire TV Stick 4K streaming device alongside a re",
+  "pubDate": "2026-09-30T13:15:01.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Amazon's Fire TV Stick 4K and Alexa+ hub launch is a non-model product/company news event reported via media (Bloomberg via Techmeme), matching the industry rule for non-model product launches with a media report link.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Welch / Bloomberg: Amazon unveils a faster, slimmer $60 Fire TV Stick 4K, simplifies its Fire TV Stick lineup, and plans to roll out an upgraded Alexa+ living room hub in November — Amazon.com Inc. announced a faster, slimmer Fire TV Stick 4K streaming device alongside a re",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p25#a260930p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T13:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
