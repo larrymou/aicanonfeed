@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "6aad582452f87b30",
+  "url": "https://www.techmeme.com/260930/p28#a260930p28",
+  "sourceName": "Techmeme",
+  "title": "Sources: the US FTC is expanding a sweeping probe of Anthropic, OpenAI, and other frontier AI labs, and plans to issue formal demands to turn over information (New York Post)",
+  "summary": "New York Post: Sources: the US FTC is expanding a sweeping probe of Anthropic, OpenAI, and other frontier AI labs, and plans to issue formal demands to turn over information — WASHINGTON — The Federal Trade Commission is ramping up a sweeping probe of Anthropic, OpenAI and other ",
+  "pubDate": "2026-09-30T14:15:01.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Post: Sources: the US FTC is expanding a sweeping probe of Anthropic, OpenAI, and other frontier AI labs, and plans to issue formal demands to turn over information — WASHINGTON — The Federal Trade Commission is ramping up a sweeping probe of Anthropic, OpenAI and other ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p28#a260930p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T14:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
