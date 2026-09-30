@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "3da976ef64051ea9",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6g1p/are_there_any_good_research_papers_around_text/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Are there any good research papers around Text clustering using LLMs [R]",
+  "summary": "Hi, same as the title, I am currently trying to begin with some research on clustering using LLMs. So my requirement is as follows: I will be given some 100 document files, the end goal is to have clusters in such a way that documents with similar procedures or content should be ",
+  "pubDate": "2026-09-28T05:52:29.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit question asking for paper recommendations; no actual research artifact, model release, industry event, policy action, or OSS tool is announced. No rule covers this.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi, same as the title, I am currently trying to begin with some research on clustering using LLMs. So my requirement is as follows: I will be given some 100 document files, the end goal is to have clusters in such a way that documents with similar procedures or content should be ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ws6g1p/are_there_any_good_research_papers_around_text/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-28T05:52:29.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
