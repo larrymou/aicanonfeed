@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "9daf4614c924543b",
+  "url": "https://www.techmeme.com/260930/p44#a260930p44",
+  "sourceName": "Techmeme",
+  "title": "Sources: some Google employees say Gemini 4 performs well on benchmarks but struggles with some real-world coding tasks; Google disputes that characterization (Bloomberg)",
+  "summary": "Bloomberg: Sources: some Google employees say Gemini 4 performs well on benchmarks but struggles with some real-world coding tasks; Google disputes that characterization — As Alphabet Inc.'s Google prepares for the coming launch of Gemini 4, it's grappling with internal skepticis",
+  "pubDate": "2026-09-30T20:25:02.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: some Google employees say Gemini 4 performs well on benchmarks but struggles with some real-world coding tasks; Google disputes that characterization — As Alphabet Inc.'s Google prepares for the coming launch of Gemini 4, it's grappling with internal skepticis",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p44#a260930p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T20:25:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
