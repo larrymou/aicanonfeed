@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "a3b9dad44086bb86",
+  "url": "https://edgcpp.org/#transition",
+  "sourceName": "Hacker News Front Page",
+  "title": "EDG C++ front-end goes public",
+  "summary": "Article URL: https://edgcpp.org/#transition Comments URL: https://news.ycombinator.com/item?id=49913192 Points: 51 # Comments: 19",
+  "pubDate": "2026-09-30T19:26:37.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces the EDG C++ compiler front-end, a general programming-language tool, not an AI model release, AI research artifact, AI industry business event, AI policy action, or an open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://edgcpp.org/#transition Comments URL: https://news.ycombinator.com/item?id=49913192 Points: 51 # Comments: 19",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://edgcpp.org/#transition",
+    "linkHost": "edgcpp.org",
+    "pubDate": "2026-09-30T19:26:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
