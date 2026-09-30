@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "9f0b7cb95b7ed453",
+  "url": "https://www.techmeme.com/260930/p42#a260930p42",
+  "sourceName": "Techmeme",
+  "title": "Reddit says it is ending support for RSS feeds on November 13 because the feeds are a target for abuse by AI bots and is ending its public API access in March (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Reddit says it is ending support for RSS feeds on November 13 because the feeds are a target for abuse by AI bots and is ending its public API access in March — Amid a number of updates for moderators and developers announced Wednesday comes bad news for",
+  "pubDate": "2026-09-30T19:35:01.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit ending RSS support and public API due to AI bot abuse is a platform/self-regulatory decision, not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), government policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Reddit says it is ending support for RSS feeds on November 13 because the feeds are a target for abuse by AI bots and is ending its public API access in March — Amid a number of updates for moderators and developers announced Wednesday comes bad news for",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p42#a260930p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T19:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
