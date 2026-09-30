@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "6d0f4335f341eac9",
+  "url": "https://www.techmeme.com/260930/p41#a260930p41",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says individuals associated with Moonshot AI played a significant role in a coordinated model-distillation campaign that began in early July (Maggie Eastland/Bloomberg)",
+  "summary": "Maggie Eastland / Bloomberg: OpenAI says individuals associated with Moonshot AI played a significant role in a coordinated model-distillation campaign that began in early July — OpenAI accused its Chinese rival Moonshot AI of being responsible for a wide-scale effort to extract ",
+  "pubDate": "2026-09-30T19:20:02.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an allegation about a model-distillation campaign, not a model release, research artifact, listed industry business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No rule covers it; link is an aggregator page with no observed author.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Maggie Eastland / Bloomberg: OpenAI says individuals associated with Moonshot AI played a significant role in a coordinated model-distillation campaign that began in early July — OpenAI accused its Chinese rival Moonshot AI of being responsible for a wide-scale effort to extract ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p41#a260930p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T19:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
