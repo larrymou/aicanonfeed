@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "5b111082801eddbf",
+  "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+  "sourceName": "Wired AI",
+  "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+  "summary": "Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
+  "pubDate": "2026-09-30T20:30:09.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a voluntary White House 'accord' signed by AI companies, which is industry self-regulation/commentary rather than a law, executive order, regulatory enforcement, or official policy action; rule 4-1 explicitly excludes self-regulation. No other rule (model release, research artifact, busi",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-09-30T20:30:09.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
