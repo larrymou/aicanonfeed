@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "25f44a147239909a",
+  "url": "https://agmai.org/general-sep29/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Responsible Release of AI-Generated Mathematics",
+  "summary": "Article URL: https://agmai.org/general-sep29/ Comments URL: https://news.ycombinator.com/item?id=49903713 Points: 4 # Comments: 0",
+  "pubDate": "2026-09-30T02:36:12.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title suggests commentary on AI-generated mathematics; no named model, no research artifact, no policy action, no OSS tool observed. linked_page_owner_domain/author not observed, so no rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://agmai.org/general-sep29/ Comments URL: https://news.ycombinator.com/item?id=49903713 Points: 4 # Comments: 0",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://agmai.org/general-sep29/",
+    "linkHost": "agmai.org",
+    "pubDate": "2026-09-30T02:36:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
