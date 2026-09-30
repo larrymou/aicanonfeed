@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "9d0cd3e06e9ac75d",
+  "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+  "sourceName": "TechCrunch AI",
+  "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+  "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+  "pubDate": "2026-09-30T17:45:00.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit ending RSS feeds and public API access is a company access-policy change, not a model release, research artifact, industry business event (no financing/M&A/partnership/market data/product launch), government policy action, or open-source tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-30T17:45:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
