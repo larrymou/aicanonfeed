@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "ecee7b20064e2761",
+  "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+  "sourceName": "TechCrunch AI",
+  "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+  "summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+  "pubDate": "2026-09-30T18:23:57.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+    "summaryChars": 76,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-30T18:23:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
