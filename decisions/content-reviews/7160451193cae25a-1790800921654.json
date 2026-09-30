@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "7160451193cae25a",
+  "url": "https://america.gov/chat",
+  "sourceName": "Hacker News Front Page",
+  "title": "America.gov goes crazy on \"play Minecraft\"",
+  "summary": "Article URL: https://america.gov/chat Comments URL: https://news.ycombinator.com/item?id=49913255 Points: 39 # Comments: 13",
+  "pubDate": "2026-09-30T19:34:03.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN item about america.gov/chat with no named AI model, no research artifact, no industry business event, no policy action, and no OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://america.gov/chat Comments URL: https://news.ycombinator.com/item?id=49913255 Points: 39 # Comments: 13",
+    "summaryChars": 123,
+    "summarySource": "summary",
+    "link": "https://america.gov/chat",
+    "linkHost": "america.gov",
+    "pubDate": "2026-09-30T19:34:03.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
