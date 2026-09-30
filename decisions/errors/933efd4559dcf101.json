@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "933efd4559dcf101",
+  "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+  "sourceName": "Ars Technica AI",
+  "title": "OpenAI delays IPO over AI safety concerns",
+  "summary": "OpenAI is seeking another $30 billion privately as its IPO plans slip.",
+  "pubDate": "2026-09-30T14:06:15.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is seeking another $30 billion privately as its IPO plans slip.",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-30T14:06:15.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
