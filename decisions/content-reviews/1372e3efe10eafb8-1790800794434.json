@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "1372e3efe10eafb8",
+  "url": "https://www.techmeme.com/260930/p45#a260930p45",
+  "sourceName": "Techmeme",
+  "title": "DOD taps Elon Musk, Palmer Luckey, and former House Speaker Newt Gingrich for Project Meridian, a 120-day study of capabilities the US may need in future wars (Luke Fountain/CNBC)",
+  "summary": "Luke Fountain / CNBC: DOD taps Elon Musk, Palmer Luckey, and former House Speaker Newt Gingrich for Project Meridian, a 120-day study of capabilities the US may need in future wars — The Pentagon is tapping Tesla and SpaceX CEO Elon Musk, defense technology entrepreneur and Andur",
+  "pubDate": "2026-09-30T20:35:00.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes a DOD defense study (Project Meridian) on future war capabilities; no named AI model release, research artifact, AI business event, AI policy/regulation action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Luke Fountain / CNBC: DOD taps Elon Musk, Palmer Luckey, and former House Speaker Newt Gingrich for Project Meridian, a 120-day study of capabilities the US may need in future wars — The Pentagon is tapping Tesla and SpaceX CEO Elon Musk, defense technology entrepreneur and Andur",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p45#a260930p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T20:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
