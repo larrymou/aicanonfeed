@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "0072874f3262ff57",
+  "url": "https://www.techmeme.com/260929/p58#a260929p58",
+  "sourceName": "Techmeme",
+  "title": "An interview with Bill Gates about the need for more than natural incentives under capitalism to regulate AI's risks, the effects AI will have on jobs, and more (New York Times)",
+  "summary": "New York Times: An interview with Bill Gates about the need for more than natural incentives under capitalism to regulate AI's risks, the effects AI will have on jobs, and more — This is an edited transcript of “The Ezra Klein Show.” You can listen to the episode wherever you get",
+  "pubDate": "2026-09-30T01:20:01.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media interview/commentary with Bill Gates on AI risks, regulation philosophy, and jobs; it reports no new model release, research artifact, industry business event, official policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: An interview with Bill Gates about the need for more than natural incentives under capitalism to regulate AI's risks, the effects AI will have on jobs, and more — This is an edited transcript of “The Ezra Klein Show.” You can listen to the episode wherever you get",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p58#a260929p58",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T01:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
