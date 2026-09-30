@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "b039f703ebf7885f",
+  "url": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
+  "sourceName": "Ars Technica AI",
+  "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+  "summary": "AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.",
+  "pubDate": "2026-09-30T19:31:25.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary piece on RFK Jr.'s views about AI and medical facts. No named model release, research artifact, industry business event, policy action, or open-source tooling. No active rule covers this item, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.",
+    "summaryChars": 81,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-30T19:31:25.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
