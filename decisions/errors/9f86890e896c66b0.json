@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "9f86890e896c66b0",
+  "url": "https://arxiv.org/abs/2609.35868",
+  "sourceName": "arXiv cs.AI",
+  "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+  "summary": "arXiv:2609.35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a human-readable textu",
+  "pubDate": "2026-09-30T04:00:00.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2609.35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a human-readable textu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2609.35868",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-09-30T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
