@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "2892bf7d82a0061d",
+  "url": "https://www.techmeme.com/260929/p57#a260929p57",
+  "sourceName": "Techmeme",
+  "title": "AI infrastructure company Accelevation and backer Olympus raise $540M in a US IPO after selling 30M shares for $18 each, below its marketed $20-$24 range (Bloomberg)",
+  "summary": "Bloomberg: AI infrastructure company Accelevation and backer Olympus raise $540M in a US IPO after selling 30M shares for $18 each, below its marketed $20-$24 range — Accelevation Holdings Corp., a data center infrastructure company, and backer Olympus Partners raised $540 millio",
+  "pubDate": "2026-09-30T00:35:01.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: AI infrastructure company Accelevation and backer Olympus raise $540M in a US IPO after selling 30M shares for $18 each, below its marketed $20-$24 range — Accelevation Holdings Corp., a data center infrastructure company, and backer Olympus Partners raised $540 millio",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260929/p57#a260929p57",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-09-30T00:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
