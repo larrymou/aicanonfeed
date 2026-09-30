@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790743820578-2yj9z0",
+  "urlHash": "ba5ddd4b6ca22a3d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wtsn3s/i_cut_cost_and_latency_on_my_search_engine_with/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I cut cost and latency on my search engine with Jev [D]",
+  "summary": "I built indiedex.gg, a hidden-gems game search engine on steam data. Search is the front door: type something like “a game like Hades that feels cozier and is co-op,” and it should actually understand that mix of reference + vibe + filters. Those compound queries used to go throu",
+  "pubDate": "2026-09-30T01:55:29.000Z",
+  "decidedAt": "2026-09-30T04:50:26.418Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about optimizing a personal search engine using 'Jev'; no named lab model release, no research artifact, no industry business event, no policy action, and no linked OSS repository/official tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I built indiedex.gg, a hidden-gems game search engine on steam data. Search is the front door: type something like “a game like Hades that feels cozier and is co-op,” and it should actually understand that mix of reference + vibe + filters. Those compound queries used to go throu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wtsn3s/i_cut_cost_and_latency_on_my_search_engine_with/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-30T01:55:29.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
