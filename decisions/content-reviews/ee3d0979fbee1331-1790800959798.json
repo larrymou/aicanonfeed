@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "ee3d0979fbee1331",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wuctrt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Qwen-family LLMs are quietly becoming the backbone of modern audio models; One chart for the architectures of 100+ audio models [R]",
+  "summary": "I started mapping the building blocks shared across all the models in audio.cpp. The result ended up being more interesting than I expected. Qwen has become by far the most common language backbone in this collection: 32 audio model families use a Qwen-family architecture, and 20",
+  "pubDate": "2026-09-30T18:31:31.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this. It is a Reddit chart/analysis of shared architectures across audio models; it announces no model release (R1), links no paper or official research artifact (R2), reports no business event (R3) or policy action (R4), and releases no tool/framework (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I started mapping the building blocks shared across all the models in audio.cpp. The result ended up being more interesting than I expected. Qwen has become by far the most common language backbone in this collection: 32 audio model families use a Qwen-family architecture, and 20",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wuctrt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-30T18:31:31.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
