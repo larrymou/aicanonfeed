@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "9f141f0312c12aa9",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wu6o6l/have_decisions_for_neurips_machine_learning_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Have decisions for NeurIps: Machine Learning for Systems 2026 come out? [D]",
+  "summary": "It is a couple hours past the EOD deadline for the workshop, but as of yet I still haven't recieved an indication of whether my paper has been accepted or not. I got a review (rating 6, confidence 4) early yesterday but nothing else. Is there anyone else in the same situation? su",
+  "pubDate": "2026-09-30T14:38:44.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking whether NeurIPS workshop acceptance decisions are out; it reports no new AI research result, paper link, product release, industry event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It is a couple hours past the EOD deadline for the workshop, but as of yet I still haven't recieved an indication of whether my paper has been accepted or not. I got a review (rating 6, confidence 4) early yesterday but nothing else. Is there anyone else in the same situation? su",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wu6o6l/have_decisions_for_neurips_machine_learning_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-09-30T14:38:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
