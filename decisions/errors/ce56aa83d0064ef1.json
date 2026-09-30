@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "ce56aa83d0064ef1",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "summary": "Gemini 4 Argon: our next era of frontier intelligence",
+  "pubDate": "2026-09-30T20:01:45.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gemini 4 Argon: our next era of frontier intelligence",
+    "summaryChars": 53,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-09-30T20:01:45.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
