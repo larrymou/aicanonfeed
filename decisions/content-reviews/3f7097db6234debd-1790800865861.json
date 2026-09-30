@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790800784040-6toc7i",
+  "urlHash": "3f7097db6234debd",
+  "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+  "summary": "So much for Gemini 3.5 Pro.",
+  "pubDate": "2026-09-30T20:11:08.000Z",
+  "decidedAt": "2026-09-30T20:39:51.495Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Ars Technica media-only coverage of Google announcing Gemini 4 Argon model; no official owner link or observed author, so group 1 not met; falls under industry as media-only model launch coverage.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "So much for Gemini 3.5 Pro.",
+    "summaryChars": 27,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-30T20:11:08.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
