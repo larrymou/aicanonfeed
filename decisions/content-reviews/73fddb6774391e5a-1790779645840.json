@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790779530878-jodkmm",
+  "urlHash": "73fddb6774391e5a",
+  "url": "https://earendil.com/posts/you-said-no-mcp/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Pi.dev: You Said No MCP",
+  "summary": "Article URL: https://earendil.com/posts/you-said-no-mcp/ Comments URL: https://news.ycombinator.com/item?id=49906637 Points: 315 # Comments: 157",
+  "pubDate": "2026-09-30T09:55:23.000Z",
+  "decidedAt": "2026-09-30T14:45:42.586Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary blog post shared from Hacker News; no named model release, research artifact, industry business event, policy action, or OSS tool/framework announcement evidenced in Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://earendil.com/posts/you-said-no-mcp/ Comments URL: https://news.ycombinator.com/item?id=49906637 Points: 315 # Comments: 157",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://earendil.com/posts/you-said-no-mcp/",
+    "linkHost": "earendil.com",
+    "pubDate": "2026-09-30T09:55:23.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
