@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790888022093-ab2tor",
+  "urlHash": "7f938778420c03ad",
+  "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+  "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+  "pubDate": "2026-10-01T18:14:42.000Z",
+  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-01T18:14:42.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
