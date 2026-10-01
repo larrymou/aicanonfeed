@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "8f7327ee80b1efed",
+  "url": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+  "sourceName": "TechCrunch AI",
+  "title": "Instinct’s new product recommendations are giving some users the ick",
+  "summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
+  "pubDate": "2026-09-30T15:56:28.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a consumer-app feature rollout/backlash story; Content does not establish an AI model release, research artifact, policy action, OSS tool, or AI industry business event (financing/M&A/partnership/market data). No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-30T15:56:28.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
