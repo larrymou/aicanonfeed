@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "0de5978e2c8eb330",
+  "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+  "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+  "pubDate": "2026-09-30T23:43:07.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+    "summaryChars": 107,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-30T23:43:07.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
