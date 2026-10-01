@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "b6c4aecb42a87943",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wumgyy/how_to_address_novelty_concerns_in_top_ai/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How to address novelty concerns in top ai conference? [D]",
+  "summary": "Hi, I’m a researcher working in computer vision. Over the past few years, I’ve submitted several papers to top-tier conferences such as NeurIPS, ICLR, and CVPR, and one concern that seems to come up repeatedly is 'novelty'. Given that thousands of papers are published every year ",
+  "pubDate": "2026-10-01T01:20:35.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post seeking advice on novelty concerns; no named model release, research artifact (paper/benchmark link), industry business event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi, I’m a researcher working in computer vision. Over the past few years, I’ve submitted several papers to top-tier conferences such as NeurIPS, ICLR, and CVPR, and one concern that seems to come up repeatedly is 'novelty'. Given that thousands of papers are published every year ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wumgyy/how_to_address_novelty_concerns_in_top_ai/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T01:20:35.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
