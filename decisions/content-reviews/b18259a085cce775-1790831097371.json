@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "b18259a085cce775",
+  "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+  "sourceName": "The Verge AI",
+  "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+  "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according t",
+  "pubDate": "2026-09-30T20:41:41.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names model 'Gemini 4 Argon' and a release action, but the only link is www.theverge.com, not an official Google owner page, and linked_page_author is not observed, so rule 1-1 condition 3(b) (named author + date) is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-09-30T20:41:41.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
