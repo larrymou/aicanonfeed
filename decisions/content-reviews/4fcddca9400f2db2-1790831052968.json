@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "4fcddca9400f2db2",
+  "url": "https://cmungall.github.io/jevotron/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jevotron: Multiple Jev integrations from the command line",
+  "summary": "Article URL: https://cmungall.github.io/jevotron/ Comments URL: https://news.ycombinator.com/item?id=49916865 Points: 7 # Comments: 1",
+  "pubDate": "2026-10-01T02:12:38.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Hacker News link to 'Jevotron' CLI integrations; Content does not establish that it is an AI model, research result, industry event, policy action, or AI open-source tool. No rule conditions are met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://cmungall.github.io/jevotron/ Comments URL: https://news.ycombinator.com/item?id=49916865 Points: 7 # Comments: 1",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://cmungall.github.io/jevotron/",
+    "linkHost": "cmungall.github.io",
+    "pubDate": "2026-10-01T02:12:38.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
