@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "6954c2918556f038",
+  "url": "https://github.com/TantrixAuto/yantra",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Yantra – an LALR(1) parser generator for C++",
+  "summary": "Yantra is a C++ parser generator: lexer, parser, and AST walker all generated from one tool. It builds the whole AST first, then walks it. Most LALR parser generators (Yacc, Bison, Lemon) run your semantic actions during parsing, as each rule reduces, bottom-up. That means at the",
+  "pubDate": "2026-10-01T02:30:48.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN item is a general-purpose C++ LALR(1) parser generator, not an AI model, research artifact, industry business event, policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yantra is a C++ parser generator: lexer, parser, and AST walker all generated from one tool. It builds the whole AST first, then walks it. Most LALR parser generators (Yacc, Bison, Lemon) run your semantic actions during parsing, as each rule reduces, bottom-up. That means at the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/TantrixAuto/yantra",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-01T02:30:48.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
