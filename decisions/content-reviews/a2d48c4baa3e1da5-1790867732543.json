@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790867722314-rghqbw",
+  "urlHash": "a2d48c4baa3e1da5",
+  "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+  "sourceName": "TechCrunch AI",
+  "title": "Brian Chesky interview: AI agents need their own operating system",
+  "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
+  "pubDate": "2026-10-01T15:12:00.000Z",
+  "decidedAt": "2026-10-01T15:15:30.763Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/commentary piece on AI agents and an AI-native OS. No named model release (1-1), no research artifact (2-1), no financing/M&A/partnership/product launch (3-1), no policy action (4-1), and no open-source tool/framework (5-1). No rule covers commentary, so reject.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
+    "summaryChars": 126,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-01T15:12:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
