@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "e6cc95308a86d838",
+  "url": "https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Cities Are Forced to Funnel License Plate Data to a Federal Surveillance Program",
+  "summary": "Article URL: https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/ Comments URL: https://news.ycombinator.com/item?id=49916955 Points: 72 # Comments: 18",
+  "pubDate": "2026-10-01T02:26:17.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns license plate data funneled to a federal surveillance program. It reports no AI model release, AI research, AI industry business event, AI policy/regulation, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/ Comments URL: https://news.ycombinator.com/item?id=49916955 Points: 72 # Comments: 18",
+    "summaryChars": 222,
+    "summarySource": "summary",
+    "link": "https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/",
+    "linkHost": "www.404media.co",
+    "pubDate": "2026-10-01T02:26:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
