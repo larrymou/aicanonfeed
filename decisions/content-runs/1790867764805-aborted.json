@@ -1,0 +1,15 @@
+{
+  "runId": "run-1790867722314-rghqbw",
+  "aborted": true,
+  "error": "Content audit checkpoint failed: push/rebase failed: Command failed: git push origin HEAD\nremote: Internal Server Error        \nremote: Request ID B84C:B2082:3E6273:5066EF:6ABE7932        \nremote: Time 2026-10-01T15:16:04Z\nTo https://github.com/larrymou/aicanonfeed\n ! [remote rejected] HEAD -",
+  "abortedAt": "2026-10-01T15:16:04.806Z",
+  "decidedCount": 5,
+  "includedCount": 1,
+  "quotaDeferredCount": 0,
+  "errorCount": 2,
+  "modelReviewedCount": 7,
+  "batchSize": 30,
+  "notReviewedCount": 2134,
+  "pendingResearchCount": 0,
+  "pendingResearchJournal": "decisions/content-runs/run-1790867722314-rghqbw-research-events.jsonl"
+}
