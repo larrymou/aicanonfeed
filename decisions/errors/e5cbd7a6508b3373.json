@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790888022093-ab2tor",
+  "urlHash": "e5cbd7a6508b3373",
+  "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+  "sourceName": "Ars Technica AI",
+  "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+  "summary": "The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
+  "pubDate": "2026-10-01T20:11:55.000Z",
+  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
+    "summaryChars": 90,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-01T20:11:55.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
