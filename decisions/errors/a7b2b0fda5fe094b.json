@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790867722314-rghqbw",
+  "urlHash": "a7b2b0fda5fe094b",
+  "url": "https://www.techmeme.com/261001/p21#a261001p21",
+  "sourceName": "Techmeme",
+  "title": "IPO prospectus: Broadcom agreed to lend Anthropic up to $42B via convertible notes that could help finance Anthropic's $125.2B, five-year TPU lease commitment (Reuters)",
+  "summary": "Reuters: IPO prospectus: Broadcom agreed to lend Anthropic up to $42B via convertible notes that could help finance Anthropic's $125.2B, five-year TPU lease commitment — Anthropic's IPO prospectus documents extensive partnerships with a handful of big tech firms. One stands out: ",
+  "pubDate": "2026-10-01T13:20:03.000Z",
+  "decidedAt": "2026-10-01T15:15:30.763Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: IPO prospectus: Broadcom agreed to lend Anthropic up to $42B via convertible notes that could help finance Anthropic's $125.2B, five-year TPU lease commitment — Anthropic's IPO prospectus documents extensive partnerships with a handful of big tech firms. One stands out: ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p21#a261001p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T13:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
