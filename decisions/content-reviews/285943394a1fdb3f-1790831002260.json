@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "285943394a1fdb3f",
+  "url": "https://www.techmeme.com/261001/p1#a261001p1",
+  "sourceName": "Techmeme",
+  "title": "Sources: Tencent signed a ~$7B, five-year deal with Oracle this year for access to ~100K advanced AI chips unavailable in China via Southeast Asian data centers (Zijing Wu/Financial Times)",
+  "summary": "Zijing Wu / Financial Times: Sources: Tencent signed a ~$7B, five-year deal with Oracle this year for access to ~100K advanced AI chips unavailable in China via Southeast Asian data centers — WeChat owner strikes deal to access US group's south-east Asia data centres amid race wi",
+  "pubDate": "2026-10-01T04:50:00.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Techmeme/FT reports Tencent's ~$7B five-year Oracle deal for AI chips via Southeast Asian data centers — a partnership/business event covered by reputable media, matching rule 3-1 (industry).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Zijing Wu / Financial Times: Sources: Tencent signed a ~$7B, five-year deal with Oracle this year for access to ~100K advanced AI chips unavailable in China via Southeast Asian data centers — WeChat owner strikes deal to access US group's south-east Asia data centres amid race wi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p1#a261001p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T04:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
