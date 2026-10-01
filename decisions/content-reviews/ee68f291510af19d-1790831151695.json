@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "ee68f291510af19d",
+  "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google figures out how to watermark AI-designed proteins",
+  "summary": "Intended to help with biosecurity, it works with a popular AI protein design tool.",
+  "pubDate": "2026-09-30T15:54:52.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media report (Ars Technica) on watermarking AI-designed proteins. No named model release (R1-1); R2-1 requires a link to the original paper or official source, but the link is a news article, so unmet. No industry, policy, or OSS tool event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Intended to help with biosecurity, it works with a popular AI protein design tool.",
+    "summaryChars": 82,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-30T15:54:52.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
