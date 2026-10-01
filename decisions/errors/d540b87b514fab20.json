@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790888022093-ab2tor",
+  "urlHash": "d540b87b514fab20",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]",
+  "summary": "Can training of nonlinear RNNs be efficiently parallelized, ensuring fast convergence even on very long time series from chaotic systems? In our #NeurIPS2026 spotlight “Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems (DS) Reconstruction (DSR)” (prepri",
+  "pubDate": "2026-10-01T13:12:08.000Z",
+  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Can training of nonlinear RNNs be efficiently parallelized, ensuring fast convergence even on very long time series from chaotic systems? In our #NeurIPS2026 spotlight “Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems (DS) Reconstruction (DSR)” (prepri",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T13:12:08.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
