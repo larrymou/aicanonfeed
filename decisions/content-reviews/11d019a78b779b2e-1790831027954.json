@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "11d019a78b779b2e",
+  "url": "https://www.techmeme.com/260930/p56#a260930p56",
+  "sourceName": "Techmeme",
+  "title": "Flow, a hardware development platform for AI agents, raised a $50M Series B led by Valor's Antonio Gracias and Atreides' Gavin Baker at a $750M valuation (Julie Bort/TechCrunch)",
+  "summary": "Julie Bort / TechCrunch: Flow, a hardware development platform for AI agents, raised a $50M Series B led by Valor's Antonio Gracias and Atreides' Gavin Baker at a $750M valuation — Flow Engineering, a startup that offers AI tools for hardware design, has raised a $50 million Seri",
+  "pubDate": "2026-10-01T02:55:00.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Flow raised a $50M Series B at a $750M valuation, covered by a reputable media report (TechCrunch via Techmeme) with a named author and publication date. Fits rule 3-1 (financing).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Julie Bort / TechCrunch: Flow, a hardware development platform for AI agents, raised a $50M Series B led by Valor's Antonio Gracias and Atreides' Gavin Baker at a $750M valuation — Flow Engineering, a startup that offers AI tools for hardware design, has raised a $50 million Seri",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p56#a260930p56",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T02:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
