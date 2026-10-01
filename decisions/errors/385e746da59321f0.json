@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790888022093-ab2tor",
+  "urlHash": "385e746da59321f0",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wv4yji/whats_up_with_aaai_round_2_reviews_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What's up with AAAI round 2 reviews? [D]",
+  "summary": "Has anyone received papers to review for round 2? submitted by /u/coconut-wasabi [link] [comments]",
+  "pubDate": "2026-10-01T17:03:08.000Z",
+  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Has anyone received papers to review for round 2? submitted by /u/coconut-wasabi [link] [comments]",
+    "summaryChars": 98,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wv4yji/whats_up_with_aaai_round_2_reviews_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T17:03:08.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
