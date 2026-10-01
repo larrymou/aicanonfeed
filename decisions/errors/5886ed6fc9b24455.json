@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790888022093-ab2tor",
+  "urlHash": "5886ed6fc9b24455",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wv2jpi/wm_pai_workshop_at_neurips_confused_about_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "WM PAI Workshop at NeurIPS — confused about the acceptance/rejection process [D]",
+  "summary": "I submitted a paper to the WM PAI workshop at NeurIPS and can now see the reviews and decision on OpenReview, but I didn't receive an official acceptance/rejection email. My reviewer scores were 8, 5, and 4, all with confidence 4, and the paper was ultimately rejected. What I fin",
+  "pubDate": "2026-10-01T15:31:49.000Z",
+  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I submitted a paper to the WM PAI workshop at NeurIPS and can now see the reviews and decision on OpenReview, but I didn't receive an official acceptance/rejection email. My reviewer scores were 8, 5, and 4, all with confidence 4, and the paper was ultimately rejected. What I fin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wv2jpi/wm_pai_workshop_at_neurips_confused_about_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T15:31:49.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
