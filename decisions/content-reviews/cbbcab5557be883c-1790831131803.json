@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "cbbcab5557be883c",
+  "url": "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google's early attempt to pay websites for AI answers is struggling",
+  "summary": "Many sites see just one-tenth of one percent of their advertising revenue from AI payments.",
+  "pubDate": "2026-09-30T16:03:48.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/market event: Google's payment program to websites for AI answers, with revenue data, covered by a reputable media report (Ars Technica). Matches rule 3-1; no official model/capability release.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Many sites see just one-tenth of one percent of their advertising revenue from AI payments.",
+    "summaryChars": 91,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-30T16:03:48.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
