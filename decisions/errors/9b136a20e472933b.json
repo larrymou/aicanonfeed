@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790888022093-ab2tor",
+  "urlHash": "9b136a20e472933b",
+  "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Car Is a Smartphone on Wheels. Here's Who's Listening",
+  "summary": "Article URL: https://automatictransmission.khoury.northeastern.edu/index.html Comments URL: https://news.ycombinator.com/item?id=49926628 Points: 5 # Comments: 2",
+  "pubDate": "2026-10-01T20:23:27.000Z",
+  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://automatictransmission.khoury.northeastern.edu/index.html Comments URL: https://news.ycombinator.com/item?id=49926628 Points: 5 # Comments: 2",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://automatictransmission.khoury.northeastern.edu/index.html",
+    "linkHost": "automatictransmission.khoury.northeastern.edu",
+    "pubDate": "2026-10-01T20:23:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
