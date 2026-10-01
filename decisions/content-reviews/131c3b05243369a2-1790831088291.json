@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "131c3b05243369a2",
+  "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+  "sourceName": "TechCrunch AI",
+  "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+  "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+  "pubDate": "2026-09-30T21:07:40.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry financing event: VCs backing AI startup Flow Engineering at a $750M valuation, covered by TechCrunch, a reputable media source. Matches industry rule 3-1 (financing).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-09-30T21:07:40.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
