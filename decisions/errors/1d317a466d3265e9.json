@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "1d317a466d3265e9",
+  "url": "https://www.techmeme.com/260930/p55#a260930p55",
+  "sourceName": "Techmeme",
+  "title": "Gemini 4 Argon has a 1M-token output limit, up from 64K for prior models; it initially costs $2/1M input and $10/1M output tokens, rising to $4 and $20 later (Matthias Bastian/The Decoder)",
+  "summary": "Matthias Bastian / The Decoder: Gemini 4 Argon has a 1M-token output limit, up from 64K for prior models; it initially costs $2/1M input and $10/1M output tokens, rising to $4 and $20 later — Key Points … Ask about this article... Argon is Google's first frontier model in more th",
+  "pubDate": "2026-10-01T02:15:04.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matthias Bastian / The Decoder: Gemini 4 Argon has a 1M-token output limit, up from 64K for prior models; it initially costs $2/1M input and $10/1M output tokens, rising to $4 and $20 later — Key Points … Ask about this article... Argon is Google's first frontier model in more th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p55#a260930p55",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T02:15:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
