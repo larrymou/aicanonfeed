@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790867722314-rghqbw",
+  "urlHash": "8f87352dd1d6ae02",
+  "url": "https://www.techmeme.com/261001/p23#a261001p23",
+  "sourceName": "Techmeme",
+  "title": "Miami-based Doxx.net, whose platform enables serverless P2P calling, messaging, and file transfers for humans and AI agents, raised a $38M Series A led by a16z (Chris Metinko/Axios)",
+  "summary": "Chris Metinko / Axios: Miami-based Doxx.net, whose platform enables serverless P2P calling, messaging, and file transfers for humans and AI agents, raised a $38M Series A led by a16z — Doxx.net has raised a $38 million Series A led by Andreessen Horowitz as its private agentic de",
+  "pubDate": "2026-10-01T14:50:00.000Z",
+  "decidedAt": "2026-10-01T15:15:30.763Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry financing event: Doxx.net raised a $38M Series A led by a16z, covered by Techmeme/Axios (reputable media). Fits industry rule 3-1 (financing), not a model release.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Metinko / Axios: Miami-based Doxx.net, whose platform enables serverless P2P calling, messaging, and file transfers for humans and AI agents, raised a $38M Series A led by a16z — Doxx.net has raised a $38 million Series A led by Andreessen Horowitz as its private agentic de",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p23#a261001p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T14:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
