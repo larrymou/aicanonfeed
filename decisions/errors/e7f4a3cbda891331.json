@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "e7f4a3cbda891331",
+  "url": "https://www.techmeme.com/260930/p57#a260930p57",
+  "sourceName": "Techmeme",
+  "title": "Amazon signs a 20-year deal to buy power from Constellation Energy, including boosting capacity at its Maryland nuclear plant, supporting $3B+ in investments (Will Wade/Bloomberg)",
+  "summary": "Will Wade / Bloomberg: Amazon signs a 20-year deal to buy power from Constellation Energy, including boosting capacity at its Maryland nuclear plant, supporting $3B+ in investments — Amazon.com Inc. has agreed to purchase 690 megawatts of power from Constellation Energy Corp. in ",
+  "pubDate": "2026-10-01T03:15:04.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will Wade / Bloomberg: Amazon signs a 20-year deal to buy power from Constellation Energy, including boosting capacity at its Maryland nuclear plant, supporting $3B+ in investments — Amazon.com Inc. has agreed to purchase 690 megawatts of power from Constellation Energy Corp. in ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p57#a260930p57",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T03:15:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
