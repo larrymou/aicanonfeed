@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790830990644-5yrwdt",
+  "urlHash": "3f958d3a8c99bd2f",
+  "url": "https://www.techmeme.com/260930/p58#a260930p58",
+  "sourceName": "Techmeme",
+  "title": "Docs and sources: Google researchers worried about AI risks to children, including potential cognitive and emotional harm, as the company pushed AI into schools (Wall Street Journal)",
+  "summary": "Wall Street Journal: Docs and sources: Google researchers worried about AI risks to children, including potential cognitive and emotional harm, as the company pushed AI into schools — The risks of cognitive and emotional dependence, along with falling test scores, are fueling a b",
+  "pubDate": "2026-10-01T03:35:01.000Z",
+  "decidedAt": "2026-10-01T05:03:20.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report on Google researchers' internal concerns about AI risks to children. No model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Docs and sources: Google researchers worried about AI risks to children, including potential cognitive and emotional harm, as the company pushed AI into schools — The risks of cognitive and emotional dependence, along with falling test scores, are fueling a b",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/260930/p58#a260930p58",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-01T03:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
