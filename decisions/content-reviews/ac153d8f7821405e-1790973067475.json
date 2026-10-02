@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "ac153d8f7821405e",
+  "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+  "sourceName": "The Verge AI",
+  "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+  "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level o",
+  "pubDate": "2026-10-02T20:08:40.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this. No named model/release (R1), no research artifact (R2), no AI business event like financing/M&A/partnership/market data and not an AI product launch (R3), no government policy action (R4), and no OSS tool (R5). Apple's Mac disk-access control change fits none.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-02T20:08:40.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
