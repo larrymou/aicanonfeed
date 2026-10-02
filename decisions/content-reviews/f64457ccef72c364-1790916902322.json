@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "f64457ccef72c364",
+  "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+  "sourceName": "TechCrunch AI",
+  "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+  "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+  "pubDate": "2026-10-01T21:08:11.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media report about Grok influencing a political/military decision. No model release, research artifact, business event, policy action, or OSS tool launch is announced, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+    "summaryChars": 107,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-01T21:08:11.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
