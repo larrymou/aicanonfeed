@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "249765ad8e959e02",
+  "url": "https://www.techmeme.com/261001/p48#a261001p48",
+  "sourceName": "Techmeme",
+  "title": "Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B (Brandon Vigliarolo/The Register)",
+  "summary": "Brandon Vigliarolo / The Register: Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B — Sure, it costs more, but it can handle images and video and it's available on Hugg",
+  "pubDate": "2026-10-02T02:35:00.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brandon Vigliarolo / The Register: Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B — Sure, it costs more, but it can handle images and video and it's available on Hugg",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p48#a261001p48",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T02:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
