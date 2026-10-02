@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "d22e5df54d2b6a88",
+  "url": "https://www.wired.com/story/whatever-ai-safety-looks-like-its-not-this/",
+  "sourceName": "Wired AI",
+  "title": "Whatever AI Safety Is, It’s Not This",
+  "summary": "Asking AI companies to self-regulate is a great way to pretend like you’ve accomplished something.",
+  "pubDate": "2026-10-01T22:10:42.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired opinion/commentary arguing against AI self-regulation; no research artifact, policy action, product launch, or OSS release. No active rule covers commentary, so reject.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Asking AI companies to self-regulate is a great way to pretend like you’ve accomplished something.",
+    "summaryChars": 98,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/whatever-ai-safety-looks-like-its-not-this/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-01T22:10:42.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
