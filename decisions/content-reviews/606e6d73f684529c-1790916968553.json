@@ -1,18 +1,21 @@
 {
-  "runId": "run-1790888022093-ab2tor",
+  "runId": "run-1790916777263-la6h6j",
   "urlHash": "606e6d73f684529c",
   "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
   "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory pro",
   "pubDate": "2026-10-01T17:34:56.000Z",
-  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "How-to tutorial showing integration of Amazon S3 Vectors with NVIDIA NeMo Agent Toolkit; it announces no new model, research artifact, business event, policy action, or new open-source tool/framework release, so no active rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory pro",
