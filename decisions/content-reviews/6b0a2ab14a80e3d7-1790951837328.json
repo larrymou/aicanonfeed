@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "6b0a2ab14a80e3d7",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wvg09c/for_academiaindustry_do_huggingface_model/",
+  "sourceName": "r/MachineLearning new",
+  "title": "For academia/industry, do HuggingFace model downloads mean anything for academic job market? [D]",
+  "summary": "I am applying to academic jobs. We are told to include a section on \"impact\". I am wondering if the total number of HuggingFace downloads of custom models I have trained would be considered legit impact, or if people would think this was all bots. Relatedly, for industry (AI labs",
+  "pubDate": "2026-10-02T00:36:57.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking whether HuggingFace download counts count as career impact. It announces no model release, research artifact, business event, policy action, or OSS tool, so no group rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I am applying to academic jobs. We are told to include a section on \"impact\". I am wondering if the total number of HuggingFace downloads of custom models I have trained would be considered legit impact, or if people would think this was all bots. Relatedly, for industry (AI labs",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wvg09c/for_academiaindustry_do_huggingface_model/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-02T00:36:57.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
