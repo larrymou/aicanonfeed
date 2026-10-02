@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "94e89ccf4902b086",
+  "url": "https://www.deepseek.com/en/harness/",
+  "sourceName": "Hacker News Front Page",
+  "title": "DeepSeek Harness Desktop for macOS and Windows",
+  "summary": "Article URL: https://www.deepseek.com/en/harness/ Comments URL: https://news.ycombinator.com/item?id=49929489 Points: 28 # Comments: 10",
+  "pubDate": "2026-10-02T03:11:20.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names 'DeepSeek Harness Desktop', a desktop app, not a specific named model/model line, and no release action or new capability is stated. No evidence it is open-source tooling, a research artifact, a business event, or a policy action. No rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.deepseek.com/en/harness/ Comments URL: https://news.ycombinator.com/item?id=49929489 Points: 28 # Comments: 10",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://www.deepseek.com/en/harness/",
+    "linkHost": "www.deepseek.com",
+    "pubDate": "2026-10-02T03:11:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
