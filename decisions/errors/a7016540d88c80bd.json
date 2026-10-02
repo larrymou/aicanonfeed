@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "a7016540d88c80bd",
+  "url": "https://www.techmeme.com/261002/p12#a261002p12",
+  "sourceName": "Techmeme",
+  "title": "Sources: an EU investigation is set to find that Azure and AWS meet DMA thresholds, as the EU strengthens its regulatory scrutiny of the cloud sector (Bloomberg)",
+  "summary": "Bloomberg: Sources: an EU investigation is set to find that Azure and AWS meet DMA thresholds, as the EU strengthens its regulatory scrutiny of the cloud sector — Microsoft Corp.'s Azure and Amazon Web Services are set to be designated under the European Union's strict rulebook f",
+  "pubDate": "2026-10-02T13:45:02.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: an EU investigation is set to find that Azure and AWS meet DMA thresholds, as the EU strengthens its regulatory scrutiny of the cloud sector — Microsoft Corp.'s Azure and Amazon Web Services are set to be designated under the European Union's strict rulebook f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p12#a261002p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T13:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
