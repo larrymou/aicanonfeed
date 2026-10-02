@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "73acf79a6121c8d4",
+  "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Memory executives expect RAM shortage to continue through 2028",
+  "summary": "Article URL: https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/ Comments URL: https://news.ycombinator.com/item?id=49932499 Points: 18 # Comments: 15",
+  "pubDate": "2026-10-02T11:58:33.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a memory/RAM supply commentary with no named AI model, research artifact, policy action, open-source tooling, or AI business event (financing/M&A/partnership/revenue) evidenced in Content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/ Comments URL: https://news.ycombinator.com/item?id=49932499 Points: 18 # Comments: 15",
+    "summaryChars": 211,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-02T11:58:33.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
