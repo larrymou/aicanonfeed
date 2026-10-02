@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "5df53955db3259eb",
+  "url": "https://www.techmeme.com/261001/p46#a261001p46",
+  "sourceName": "Techmeme",
+  "title": "Sources: Jay Clayton will likely be the White House's pick for AI czar, and he may remain in his current role as director of national intelligence (Jennifer Jacobs/CBS News)",
+  "summary": "Jennifer Jacobs / CBS News: Sources: Jay Clayton will likely be the White House's pick for AI czar, and he may remain in his current role as director of national intelligence — Jay Clayton will likely be the White House's pick for AI czar, and the Trump administration has been di",
+  "pubDate": "2026-10-02T01:30:03.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a speculative report on a possible AI czar personnel pick, not one of rule 4-1's enumerated policy actions (new law, executive order, regulatory enforcement, official policy announcement). No other rule covers it, so reject.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jennifer Jacobs / CBS News: Sources: Jay Clayton will likely be the White House's pick for AI czar, and he may remain in his current role as director of national intelligence — Jay Clayton will likely be the White House's pick for AI czar, and the Trump administration has been di",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p46#a261001p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T01:30:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
