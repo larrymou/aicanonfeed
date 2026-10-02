@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "4805756b99237b8b",
+  "url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+  "sourceName": "The Verge AI",
+  "title": "AI hallucinations are making entitled customers even worse",
+  "summary": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked",
+  "pubDate": "2026-10-02T12:00:00.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/report on AI hallucinations affecting customer-service workers. No named model release, no research artifact, no business event (financing/M&A/partnership/product), no policy action, and no OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-02T12:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
