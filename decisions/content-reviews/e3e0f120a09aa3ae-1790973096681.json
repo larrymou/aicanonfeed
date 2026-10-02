@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "e3e0f120a09aa3ae",
+  "url": "https://www.techmeme.com/261002/p21#a261002p21",
+  "sourceName": "Techmeme",
+  "title": "TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and \"we were at a trillion tokens per day about a week ago\" (Elias Schisgall/Wall Street Journal)",
+  "summary": "Elias Schisgall / Wall Street Journal: TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and “we were at a trillion tokens per day about a week ago” — The Jev model, which TypeSafe's CEO considers at the forefront of a ‘new class of AI,’ has set Silic",
+  "pubDate": "2026-10-02T19:25:15.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Media-only coverage reporting AI market/usage data (Jev model used by ~25% of Fortune 500, ~1T tokens/day) via a reputable media report (Techmeme linking WSJ, author Elias Schisgall) with a date. No official owner link, so it fits industry market-data rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Elias Schisgall / Wall Street Journal: TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and “we were at a trillion tokens per day about a week ago” — The Jev model, which TypeSafe's CEO considers at the forefront of a ‘new class of AI,’ has set Silic",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p21#a261002p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T19:25:15.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
