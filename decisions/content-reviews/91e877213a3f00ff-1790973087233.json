@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "91e877213a3f00ff",
+  "url": "https://gadgets.muse.ai",
+  "sourceName": "Hacker News Front Page",
+  "title": "Muse Gadgets",
+  "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 12 # Comments: 2",
+  "pubDate": "2026-10-02T19:26:54.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'Muse Gadgets' and link to gadgets.muse.ai give no named AI model, release action, research artifact, industry business event, policy action, or open-source tool. No rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 12 # Comments: 2",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://gadgets.muse.ai",
+    "linkHost": "gadgets.muse.ai",
+    "pubDate": "2026-10-02T19:26:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
