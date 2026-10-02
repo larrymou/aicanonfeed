@@ -1,18 +1,22 @@
 {
-  "runId": "run-1790888022093-ab2tor",
+  "runId": "run-1790916777263-la6h6j",
   "urlHash": "27cf807eaea3145e",
   "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Serve live, governed data in AI-built apps with Amazon Quick",
   "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish",
   "pubDate": "2026-10-01T19:49:06.000Z",
-  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Item describes a proprietary product feature (Live Data in Apps in Amazon Quick) for governed data querying. No named AI model release (1-1), no research artifact (2-1), no business event (3-1), no policy action (4-1), and not open-source tooling (5-1). No rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish",
