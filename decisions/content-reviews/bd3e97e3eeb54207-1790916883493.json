@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "bd3e97e3eeb54207",
+  "url": "https://www.techmeme.com/261001/p45#a261001p45",
+  "sourceName": "Techmeme",
+  "title": "Survey of 37 countries: the share of people who say social media is bad for democracy has risen significantly since 2022 or 2023; a median 55% say it's good (Pew Research Center)",
+  "summary": "Pew Research Center: Survey of 37 countries: the share of people who say social media is bad for democracy has risen significantly since 2022 or 2023; a median 55% say it's good — Most think social media leads to manipulation and division, but they also say it informs people and ",
+  "pubDate": "2026-10-02T00:30:00.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Pew survey on social media and democracy is not an AI model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tooling; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Pew Research Center: Survey of 37 countries: the share of people who say social media is bad for democracy has risen significantly since 2022 or 2023; a median 55% say it's good — Most think social media leads to manipulation and division, but they also say it informs people and ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p45#a261001p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T00:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
