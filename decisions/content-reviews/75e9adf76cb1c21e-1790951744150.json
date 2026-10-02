@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "75e9adf76cb1c21e",
+  "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Legend of von Neumann [pdf]",
+  "summary": "Article URL: https://gwern.net/doc/math/1973-halmos.pdf Comments URL: https://news.ycombinator.com/item?id=49933235 Points: 28 # Comments: 10",
+  "pubDate": "2026-10-02T13:18:32.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A gwern.net-hosted PDF about von Neumann is a historical math document, not an AI model release, research artifact, industry event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gwern.net/doc/math/1973-halmos.pdf Comments URL: https://news.ycombinator.com/item?id=49933235 Points: 28 # Comments: 10",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://gwern.net/doc/math/1973-halmos.pdf",
+    "linkHost": "gwern.net",
+    "pubDate": "2026-10-02T13:18:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
