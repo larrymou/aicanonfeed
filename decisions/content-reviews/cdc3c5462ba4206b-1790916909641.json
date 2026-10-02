@@ -1,18 +1,22 @@
 {
-  "runId": "run-1790888022093-ab2tor",
+  "runId": "run-1790916777263-la6h6j",
   "urlHash": "cdc3c5462ba4206b",
   "url": "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk/",
   "sourceName": "Wired AI",
   "title": "Trump’s ‘Morally Binding’ AI ‘Accord,’ the Rise of AI Agents, and Extremists on the Ballot",
   "summary": "This week on “Uncanny Valley,” we discuss the voluntary AI safety agreement tech executives signed, AI agents for normies, and extremist candidates running for office in the US midterms.",
   "pubDate": "2026-10-01T19:58:31.000Z",
-  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Podcast episode rounding up commentary (voluntary AI safety accord, AI agents, midterm candidates). No model release, research artifact, business event, policy action, or OSS tool; voluntary self-regulation is excluded by 4-1, so no rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "This week on “Uncanny Valley,” we discuss the voluntary AI safety agreement tech executives signed, AI agents for normies, and extremist candidates running for office in the US midterms.",
