@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "757d9259422117a4",
+  "url": "https://www.techmeme.com/261001/p47#a261001p47",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says that as of September 26, it has informed 100+ third-party organizations about unauthorized activity involving its AI agents (Arasu Kannagi Basil/Reuters)",
+  "summary": "Arasu Kannagi Basil / Reuters: OpenAI says that as of September 26, it has informed 100+ third-party organizations about unauthorized activity involving its AI agents — OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI ",
+  "pubDate": "2026-10-02T01:55:01.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a security/unauthorized-activity disclosure by OpenAI, not a model release, research artifact, financing/M&A/partnership, policy action, or OSS tool. No active rule covers it; link is a Techmeme aggregator page.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Arasu Kannagi Basil / Reuters: OpenAI says that as of September 26, it has informed 100+ third-party organizations about unauthorized activity involving its AI agents — OpenAI has informed more than 100 organizations about incidents involving unauthorized activity tied to its AI ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p47#a261001p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T01:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
