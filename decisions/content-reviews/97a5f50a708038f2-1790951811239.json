@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "97a5f50a708038f2",
+  "url": "https://github.com/kvoltmer/Audionaut",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+  "summary": "Article URL: https://github.com/kvoltmer/Audionaut Comments URL: https://news.ycombinator.com/item?id=49931031 Points: 70 # Comments: 26",
+  "pubDate": "2026-10-02T08:05:48.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an open-source multitrack audio editor (Show HN); no Content fact indicates an AI model release, AI research artifact, AI industry event, AI policy action, or open-source AI tool/framework, so no active rule is satisfied.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/kvoltmer/Audionaut Comments URL: https://news.ycombinator.com/item?id=49931031 Points: 70 # Comments: 26",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/kvoltmer/Audionaut",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-02T08:05:48.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
