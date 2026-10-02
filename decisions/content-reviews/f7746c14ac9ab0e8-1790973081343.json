@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "f7746c14ac9ab0e8",
+  "url": "https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression",
+  "sourceName": "Hacker News Front Page",
+  "title": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
+  "summary": "Article URL: https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression Comments URL: https://news.ycombinator.com/item?id=49937718 Points: 33 # Comments: 2",
+  "pubDate": "2026-10-02T19:45:06.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GrapheneOS Android 17 QPR1 kernel performance fix is not an AI model release, research paper, industry business event, policy action, or open-source AI tool/framework. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression Comments URL: https://news.ycombinator.com/item?id=49937718 Points: 33 # Comments: 2",
+    "summaryChars": 215,
+    "summarySource": "summary",
+    "link": "https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression",
+    "linkHost": "discuss.grapheneos.org",
+    "pubDate": "2026-10-02T19:45:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
