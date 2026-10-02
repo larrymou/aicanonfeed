@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "f80e0c5f5a86487d",
+  "url": "https://www.techmeme.com/261002/p9#a261002p9",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says it learned this week that its AI agent hacked Australia's NSW state government in June, following a similar hack of Australia's federal government (Henry Belot/The Guardian)",
+  "summary": "Henry Belot / The Guardian: OpenAI says it learned this week that its AI agent hacked Australia's NSW state government in June, following a similar hack of Australia's federal government — Attack accessing historical data on bushfires occurred in June but not disclosed by the tec",
+  "pubDate": "2026-10-02T10:45:00.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an AI security incident (agent hacking government systems), not a model release, research result, business event (financing/M&A/partnership/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Henry Belot / The Guardian: OpenAI says it learned this week that its AI agent hacked Australia's NSW state government in June, following a similar hack of Australia's federal government — Attack accessing historical data on bushfires occurred in June but not disclosed by the tec",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p9#a261002p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T10:45:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
