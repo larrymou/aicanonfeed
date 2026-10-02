@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "2b109279684e2308",
+  "url": "https://www.techmeme.com/261002/p23#a261002p23",
+  "sourceName": "Techmeme",
+  "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles (Ashley Gold/Semafor)",
+  "summary": "Ashley Gold / Semafor: Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles — Meta said it's letting go of employees it hired from AI safety startup Virtue AI four months after the",
+  "pubDate": "2026-10-02T20:25:21.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Meta laying off employees hired from AI safety startup Virtue AI over work styles. This is a personnel/workforce event, not covered by any active rule: not a model release (1-1), research (2-1), a listed industry event such as financing, M&A, partnership, market data, or product launch ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ashley Gold / Semafor: Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles — Meta said it's letting go of employees it hired from AI safety startup Virtue AI four months after the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p23#a261002p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T20:25:21.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
