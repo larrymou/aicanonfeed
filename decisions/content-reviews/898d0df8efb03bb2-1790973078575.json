@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "898d0df8efb03bb2",
+  "url": "https://www.techmeme.com/261002/p22#a261002p22",
+  "sourceName": "Techmeme",
+  "title": "Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects (Colin Demarest/Axios)",
+  "summary": "Colin Demarest / Axios: Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects — The U.S. Army is creating a new autonomous systems command and appointing an acquisition execu",
+  "pubDate": "2026-10-02T20:00:13.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "US Army creating a new autonomous systems command and Defense Secretary announcing robotic warfare projects is a government action; reported via Techmeme citing Axios, matching the policy rule for government action.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Colin Demarest / Axios: Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects — The U.S. Army is creating a new autonomous systems command and appointing an acquisition execu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p22#a261002p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T20:00:13.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
