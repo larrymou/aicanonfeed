@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "cf70b820a4644966",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wvk3cw/a_video_about_adversarial_objectives_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "A video about Adversarial Objectives [P]",
+  "summary": "I made this video about adversarial objectives, which I used to do research on back in the day. I'm trying to explore how adversarial approaches transcend GANs and self-play into modern technology. https://youtu.be/W7CiAeQ0f5w?si=g0tLrQn2wuFzuN2M submitted by /u/manicman1999 [lin",
+  "pubDate": "2026-10-02T04:02:56.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post sharing an explanatory video on adversarial objectives; no named model release, no peer-reviewed paper/arXiv preprint or benchmark artifact, no industry event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I made this video about adversarial objectives, which I used to do research on back in the day. I'm trying to explore how adversarial approaches transcend GANs and self-play into modern technology. https://youtu.be/W7CiAeQ0f5w?si=g0tLrQn2wuFzuN2M submitted by /u/manicman1999 [lin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wvk3cw/a_video_about_adversarial_objectives_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-02T04:02:56.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
