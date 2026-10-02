@@ -1,18 +1,22 @@
 {
-  "runId": "run-1790888022093-ab2tor",
+  "runId": "run-1790973048339-lhqily",
   "urlHash": "5886ed6fc9b24455",
   "url": "https://www.reddit.com/r/MachineLearning/comments/1wv2jpi/wm_pai_workshop_at_neurips_confused_about_the/",
   "sourceName": "r/MachineLearning new",
   "title": "WM PAI Workshop at NeurIPS — confused about the acceptance/rejection process [D]",
   "summary": "I submitted a paper to the WM PAI workshop at NeurIPS and can now see the reviews and decision on OpenReview, but I didn't receive an official acceptance/rejection email. My reviewer scores were 8, 5, and 4, all with confidence 4, and the paper was ultimately rejected. What I fin",
   "pubDate": "2026-10-01T15:31:49.000Z",
-  "decidedAt": "2026-10-01T20:53:49.801Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Reddit discussion asking about a NeurIPS workshop's acceptance/rejection process. No new AI research artifact, model release, business event, policy action, or OSS tool announced; no rule covers this commentary.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "I submitted a paper to the WM PAI workshop at NeurIPS and can now see the reviews and decision on OpenReview, but I didn't receive an official acceptance/rejection email. My reviewer scores were 8, 5, and 4, all with confidence 4, and the paper was ultimately rejected. What I fin",
