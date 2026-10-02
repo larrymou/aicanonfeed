@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "86745252420db893",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+  "sourceName": "Ollama releases",
+  "title": "v0.35.1",
+  "summary": "Clef decision models Ollama now supports Clef and Clef Flash, Cloudflare's new open-source decision models, through /v1/systemone. Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly w",
+  "pubDate": "2026-10-02T18:28:37.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama v0.35.1 is an open-source developer tool/framework release announced on its GitHub repository release page, matching rule 5-1 (library/framework update with repository link). Model-owner official announcement link is absent, so model-release rule does not apply.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Clef decision models Ollama now supports Clef and Clef Flash, Cloudflare's new open-source decision models, through /v1/systemone. Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-02T18:28:37.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
