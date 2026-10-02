@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "d315aa5bb99e76d8",
+  "url": "https://lwn.net/Articles/1097401/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Several vulnerabilities have been discovered in the Linux kernel",
+  "summary": "Article URL: https://lwn.net/Articles/1097401/ Comments URL: https://news.ycombinator.com/item?id=49928121 Points: 192 # Comments: 114",
+  "pubDate": "2026-10-01T23:10:44.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Linux kernel vulnerabilities; not an AI model release, research result, industry business event, policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lwn.net/Articles/1097401/ Comments URL: https://news.ycombinator.com/item?id=49928121 Points: 192 # Comments: 114",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://lwn.net/Articles/1097401/",
+    "linkHost": "lwn.net",
+    "pubDate": "2026-10-01T23:10:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
