@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "6a7bb4e3e69d69f5",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+  "sourceName": "Google AI Blog",
+  "title": "The latest AI news we announced in September 2026",
+  "summary": "Here are Google’s latest AI updates from September 2026",
+  "pubDate": "2026-10-02T15:00:00.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Monthly roundup of Google AI updates; no specific named model or release action, no research artifact, no business/policy event. Generic aggregation not covered by any active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Here are Google’s latest AI updates from September 2026",
+    "summaryChars": 55,
+    "summarySource": "summary",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-10-02T15:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
