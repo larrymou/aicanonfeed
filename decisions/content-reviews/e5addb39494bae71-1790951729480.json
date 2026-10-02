@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "e5addb39494bae71",
+  "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Don't be fooled–LLMs don't reason",
+  "summary": "Article URL: https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/ Comments URL: https://news.ycombinator.com/item?id=49933459 Points: 40 # Comments: 41",
+  "pubDate": "2026-10-02T13:45:42.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "MIT Tech Review commentary/opinion piece arguing LLMs don't reason; no named model release, no research artifact (paper/preprint/benchmark), no business event, policy action, or OSS tool. No active rule covers commentary, so reject.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/ Comments URL: https://news.ycombinator.com/item?id=49933459 Points: 40 # Comments: 41",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+    "linkHost": "www.technologyreview.com",
+    "pubDate": "2026-10-02T13:45:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
