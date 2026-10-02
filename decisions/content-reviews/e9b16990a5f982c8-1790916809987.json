@@ -1,0 +1,43 @@
+{
+  "runId": "run-1790916777263-la6h6j",
+  "urlHash": "e9b16990a5f982c8",
+  "url": "https://www.techmeme.com/261001/p49#a261001p49",
+  "sourceName": "Techmeme",
+  "title": "Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly pointing to gaps in Nvidia's due diligence (Mackenzie Hawkins/Bloomberg)",
+  "summary": "Mackenzie Hawkins / Bloomberg: Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly pointing to gaps in Nvidia's due diligence — Nvidia's AI chips keep making their way to China despite US curbs. Officials are asking",
+  "pubDate": "2026-10-02T03:30:08.000Z",
+  "decidedAt": "2026-10-02T04:53:06.450Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report on gaps in Nvidia's export-control due diligence, not a named model release (1-1), research artifact (2-1), financing/M&A/partnership/product event (3-1), concrete policy action such as a new law, order, or enforcement action (4-1), or OSS/developer tool (5-1). No rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mackenzie Hawkins / Bloomberg: Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly pointing to gaps in Nvidia's due diligence — Nvidia's AI chips keep making their way to China despite US curbs. Officials are asking",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261001/p49#a261001p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T03:30:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
