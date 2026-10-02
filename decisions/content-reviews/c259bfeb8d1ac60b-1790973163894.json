@@ -1,0 +1,44 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "c259bfeb8d1ac60b",
+  "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+  "sourceName": "TechCrunch AI",
+  "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+  "summary": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding",
+  "pubDate": "2026-10-02T17:48:16.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "TechCrunch reports White House AI safety pledge and a Trump executive order on AI, i.e., government action/policy announcement, with a link to a reputable media source.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-02T17:48:16.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
