@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "1d9153a945914bf1",
+  "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+  "sourceName": "The Verge AI",
+  "title": "Amazon writes scary blog warning communities not to block data centers",
+  "summary": "Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public concerns around the impact that data centers m",
+  "pubDate": "2026-10-02T11:52:20.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Verge report on an Amazon/AWS blog urging support for data centers. It is advocacy/commentary, not a model release (1-1), research artifact (2-1), business event like financing/M&A/partnership/product launch (3-1), government policy action (4-1), or OSS tool (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public concerns around the impact that data centers m",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-02T11:52:20.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
