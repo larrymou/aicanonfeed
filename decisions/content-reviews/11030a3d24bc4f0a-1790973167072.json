@@ -1,0 +1,42 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "11030a3d24bc4f0a",
+  "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+  "sourceName": "The Verge AI",
+  "title": "Breaking up (with Elon Musk) is hard to do",
+  "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what accounts are following ",
+  "pubDate": "2026-10-02T17:37:36.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is celebrity/personal gossip about Elon Musk and Shivon Zilis breaking up on X. It reports no AI model release, research artifact, industry business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what accounts are following ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-02T17:37:36.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
