@@ -1,0 +1,40 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "31ca769a4f986394",
+  "url": "https://www.techmeme.com/261002/p19#a261002p19",
+  "sourceName": "Techmeme",
+  "title": "Apple says it is adding additional controls around \"Full Disk Access\" on macOS as AI agents have increased \"the risks associated with this level of access\" (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Apple says it is adding additional controls around “Full Disk Access” on macOS as AI agents have increased “the risks associated with this level of access” — Days after a journalist claimed that Meta's Muse app on Mac read their private messages — a clai",
+  "pubDate": "2026-10-02T18:30:00.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Apple adding OS security controls (Full Disk Access) around AI agents. It is not a named AI model release, research artifact, industry business event, government policy action, or open-source developer tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Apple says it is adding additional controls around “Full Disk Access” on macOS as AI agents have increased “the risks associated with this level of access” — Days after a journalist claimed that Meta's Muse app on Mac read their private messages — a clai",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p19#a261002p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T18:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
