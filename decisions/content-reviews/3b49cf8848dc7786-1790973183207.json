@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790973048339-lhqily",
+  "urlHash": "3b49cf8848dc7786",
+  "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+  "sourceName": "Wired AI",
+  "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+  "summary": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.",
+  "pubDate": "2026-10-02T16:00:00.000Z",
+  "decidedAt": "2026-10-02T20:30:58.753Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired story is commentary on Trillium Labs' open research approach; no named model release, no research artifact (paper/preprint/benchmark), no policy action, no OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-02T16:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
