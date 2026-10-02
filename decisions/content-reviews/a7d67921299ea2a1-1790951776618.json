@@ -1,0 +1,41 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "a7d67921299ea2a1",
+  "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+  "sourceName": "The Verge AI",
+  "title": "If a data center is camouflaged in the woods, will anyone hate it?",
+  "summary": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions",
+  "pubDate": "2026-10-02T12:00:00.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Feature story on data center siting/environmental impact. No named model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-02T12:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
