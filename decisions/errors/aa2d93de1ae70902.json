@@ -1,0 +1,37 @@
+{
+  "runId": "run-1790951707271-q5r6jl",
+  "urlHash": "aa2d93de1ae70902",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4",
+  "sourceName": "vLLM releases",
+  "title": "v0.31.0rc4",
+  "summary": "[Bugfix][HiSparse] Fix MTP acceptance collapse under FULL graphs with…",
+  "pubDate": "2026-10-02T06:06:56.000Z",
+  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[Bugfix][HiSparse] Fix MTP acceptance collapse under FULL graphs with…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc4",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-02T06:06:56.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
