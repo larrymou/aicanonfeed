@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "c696e8b1f3422473",
+  "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Introducing SynthID Bio",
+  "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+  "pubDate": "2026-09-30T15:03:07.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "SynthID Bio is a watermarking proof of concept for AI-generated proteins, not a named model release, research paper/benchmark, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+    "summaryChars": 93,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-09-30T15:03:07.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
