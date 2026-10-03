@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "038134d95b4f933e",
+  "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+  "sourceName": "The Verge AI",
+  "title": "Meta open sources code to let you make Muse AI gadgets",
+  "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big sc",
+  "pubDate": "2026-10-02T21:08:37.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media-only Verge coverage of Meta open-sourcing Muse AI agent code. No official owner announcement/repo link (linkHost is theverge.com) and no observed author/owner domain, so no rule's link conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big sc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-02T21:08:37.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
