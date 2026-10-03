@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "061338e668ed6974",
+  "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+  "sourceName": "OpenAI Blog",
+  "title": "Helping small businesses put AI to work",
+  "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+  "pubDate": "2026-09-30T10:00:00.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "linkHost": "openai.com",
+    "pubDate": "2026-09-30T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
