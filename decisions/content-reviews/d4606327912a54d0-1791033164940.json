@@ -1,18 +1,22 @@
 {
-  "runId": "run-1790951707271-q5r6jl",
+  "runId": "run-1791033026512-qwhz5l",
   "urlHash": "d4606327912a54d0",
   "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
   "sourceName": "The Verge AI",
   "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
   "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta ",
   "pubDate": "2026-10-01T17:12:21.000Z",
-  "decidedAt": "2026-10-02T14:35:18.735Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "reason": "Item reports a judge dismissing antitrust lawsuits over Google's AI Overviews. This is a judicial/legal development, not a model release, new research artifact, financing/M&A/partnership or product launch, open-source tool, or a new law/regulation/regulatory enforcement action. No active rule covers",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta ",
