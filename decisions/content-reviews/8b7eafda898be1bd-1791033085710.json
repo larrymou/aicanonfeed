@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "8b7eafda898be1bd",
+  "url": "https://offrun.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Offrun – manage every coding agent from one workspace",
+  "summary": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 14 # Comments: 5",
+  "pubDate": "2026-10-03T08:40:17.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Show HN launch of Offrun, a non-model proprietary developer workspace product, linking to its own site (offrun.dev) as announcement. No official model release or open-source evidence, so it fits industry non-model product launches.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 14 # Comments: 5",
+    "summaryChars": 210,
+    "summarySource": "summary",
+    "link": "https://offrun.dev/",
+    "linkHost": "offrun.dev",
+    "pubDate": "2026-10-03T08:40:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
