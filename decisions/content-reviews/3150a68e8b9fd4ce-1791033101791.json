@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "3150a68e8b9fd4ce",
+  "url": "https://www.techmeme.com/261003/p3#a261003p3",
+  "sourceName": "Techmeme",
+  "title": "Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona (Tim Culpan/Culpium)",
+  "summary": "Tim Culpan / Culpium: Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona — [Exclusive] Taiwanese foundry giant may use Terafab as anchor client for a future Texas semiconduct",
+  "pubDate": "2026-10-03T05:30:02.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is speculative semiconductor foundry expansion news (TSMC/Terafab, Texas). Content never establishes an AI industry business event, model release, research artifact, policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tim Culpan / Culpium: Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona — [Exclusive] Taiwanese foundry giant may use Terafab as anchor client for a future Texas semiconduct",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p3#a261003p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T05:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
