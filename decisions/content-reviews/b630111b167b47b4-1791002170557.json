@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "b630111b167b47b4",
+  "url": "https://www.techmeme.com/261002/p31#a261002p31",
+  "sourceName": "Techmeme",
+  "title": "A US judge rules an officer's use of Flock to search a car's license plate was a form of \"indiscriminate mass surveillance\", and violated the Fourth Amendment (Jason Koebler/404 Media)",
+  "summary": "Jason Koebler / 404 Media: A US judge rules an officer's use of Flock to search a car's license plate was a form of “indiscriminate mass surveillance”, and violated the Fourth Amendment — Flock's nationwide network is quickly “approaching dragnet-type law enforcement practice” an",
+  "pubDate": "2026-10-03T01:40:52.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "US judge's Fourth Amendment ruling on Flock license-plate surveillance is government/judicial action on AI surveillance tech, reported with a link to a reputable media source (404 Media/Techmeme), matching policy rule 4-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jason Koebler / 404 Media: A US judge rules an officer's use of Flock to search a car's license plate was a form of “indiscriminate mass surveillance”, and violated the Fourth Amendment — Flock's nationwide network is quickly “approaching dragnet-type law enforcement practice” an",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p31#a261002p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T01:40:52.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
