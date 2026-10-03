@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "d4f823a1a6f15053",
+  "url": "https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/",
+  "sourceName": "Ars Technica AI",
+  "title": "Interview: Firefox's chief on why he hopes a redesign will help win users from Chrome",
+  "summary": "Mozilla's Ajit Varma explains why a redesign suits the fight for the open web.",
+  "pubDate": "2026-09-29T13:00:19.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/commentary about Firefox redesign and AI skepticism; no model release, research artifact, industry business event, policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mozilla's Ajit Varma explains why a redesign suits the fight for the open web.",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-29T13:00:19.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
