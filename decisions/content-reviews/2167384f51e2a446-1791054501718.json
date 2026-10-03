@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "2167384f51e2a446",
+  "url": "https://openai.com/index/the-den-family-social",
+  "sourceName": "OpenAI Blog",
+  "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+  "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+  "pubDate": "2026-10-01T00:00:00.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about a social club using ChatGPT Work; no named new model or major version release, no research artifact, no business/financing event, no policy action, no OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/the-den-family-social",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
