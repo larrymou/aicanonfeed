@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "4954f1a6cbc0fc44",
+  "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+  "sourceName": "Ars Technica AI",
+  "title": "With most information hidden, the game Stratego had stumped AI—until now",
+  "summary": "Adding in a second neural network that guesses the identity of hidden pieces was key.",
+  "pubDate": "2026-10-01T16:28:04.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports new AI research (Stratego-playing AI), but the link is an Ars Technica media article, not the original paper or official source required by rule 2-1; linked_page_owner_domain/author not observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Adding in a second neural network that guesses the identity of hidden pieces was key.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-01T16:28:04.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
