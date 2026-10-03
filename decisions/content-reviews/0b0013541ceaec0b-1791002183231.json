@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "0b0013541ceaec0b",
+  "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+  "sourceName": "TechCrunch AI",
+  "title": "Meta wants your next gadget to be Muse-infused",
+  "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+  "pubDate": "2026-10-03T00:45:39.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes Meta open-sourcing Muse code (developer tooling), but rule 5-1 requires a link to the repository or official announcement; only a TechCrunch media article (linkHost techcrunch.com) is given, with no official owner link. No other rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-03T00:45:39.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
