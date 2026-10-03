@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "5d15134f70e01ea9",
+  "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+  "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease",
+  "pubDate": "2026-10-02T15:48:26.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Technical how-to describing a reference architecture/pattern (Adjudicated Query) with a CDK sample; it is not a named model release, research artifact, industry business event, policy action, or an open-source library/framework/developer-tool launch under rule 5-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-02T15:48:26.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
