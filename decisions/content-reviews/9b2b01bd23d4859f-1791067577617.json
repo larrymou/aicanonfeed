@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "9b2b01bd23d4859f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wwz403/accepted_papers_must_be_imported_deadline_neurips/",
+  "sourceName": "r/MachineLearning new",
+  "title": "\"Accepted papers must be imported\" deadline NeurIPS 2026 [D]",
+  "summary": "On the NeurIPS 2026 Dates site it says that there is 1 day remaining for the \"Accepted papers must be imported\" deadline. This is my first research paper ever and I couldn't find anything about how to do this on the internet. Could someone help me out on what to do? submitted by ",
+  "pubDate": "2026-10-03T21:55:48.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit help request about a NeurIPS 2026 deadline for importing accepted papers. No new model release, no research paper/preprint/benchmark artifact, no industry business event, no policy action, and no open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On the NeurIPS 2026 Dates site it says that there is 1 day remaining for the \"Accepted papers must be imported\" deadline. This is my first research paper ever and I couldn't find anything about how to do this on the internet. Could someone help me out on what to do? submitted by ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wwz403/accepted_papers_must_be_imported_deadline_neurips/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-03T21:55:48.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
