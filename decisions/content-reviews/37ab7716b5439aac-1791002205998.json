@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "37ab7716b5439aac",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1ww5ijc/r_would_you_keep_a_robot_demonstration_if_hand/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[R] Would you keep a robot demonstration if hand tracking missed the moment the plug went in?",
+  "summary": "Suppose you’re recording a human plugging a cable into a socket to collect demonstrations for robot learning. The hand tracker captures the approach accurately. Then occlusion causes the hand estimates to disappear during insertion. Tracking returns after the connector is already",
+  "pubDate": "2026-10-02T21:18:22.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion question about hand-tracking occlusion in robot demonstration data. No named model release, no research paper/benchmark artifact link, no industry business event, policy action, or OSS tool announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Suppose you’re recording a human plugging a cable into a socket to collect demonstrations for robot learning. The hand tracker captures the approach accurately. Then occlusion causes the hand estimates to disappear during insertion. Tracking returns after the connector is already",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ww5ijc/r_would_you_keep_a_robot_demonstration_if_hand/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-02T21:18:22.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
