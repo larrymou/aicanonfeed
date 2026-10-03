@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "18e0ced397a6bac1",
+  "url": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
+  "sourceName": "Hacker News Front Page",
+  "title": "Great Question (YC W21) Is Hiring Product Engineers in Canada (Remote)",
+  "summary": "Article URL: https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack Comments URL: https://news.ycombinator.com/item?id=49943524 Points: 0 # Comments: 0",
+  "pubDate": "2026-10-03T12:02:10.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a job posting (YC company hiring engineers), not a model release, research result, industry business event, policy action, or open-source tool. No active rule covers hiring announcements.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack Comments URL: https://news.ycombinator.com/item?id=49943524 Points: 0 # Comments: 0",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
+    "linkHost": "www.ycombinator.com",
+    "pubDate": "2026-10-03T12:02:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
