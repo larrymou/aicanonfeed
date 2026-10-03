@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "3d62d6105e2cef65",
+  "url": "http://whereistheplanet.com",
+  "sourceName": "Hacker News Front Page",
+  "title": "Where Is the Planet",
+  "summary": "Article URL: http://whereistheplanet.com Comments URL: https://news.ycombinator.com/item?id=49940233 Points: 16 # Comments: 0",
+  "pubDate": "2026-10-03T00:26:19.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a generic link titled 'Where Is the Planet' with no AI model, research, industry, policy, or OSS tooling content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: http://whereistheplanet.com Comments URL: https://news.ycombinator.com/item?id=49940233 Points: 16 # Comments: 0",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "http://whereistheplanet.com",
+    "linkHost": "whereistheplanet.com",
+    "pubDate": "2026-10-03T00:26:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
