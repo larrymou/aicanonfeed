@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "ab27b4b243e43275",
+  "url": "https://www.techmeme.com/261002/p27#a261002p27",
+  "sourceName": "Techmeme",
+  "title": "Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums (Molly Taft/Wired)",
+  "summary": "Molly Taft / Wired: Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums — In a blog post published Friday, CEO Matt Garman detailed the steps the company says it's already t",
+  "pubDate": "2026-10-02T23:20:01.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Amazon's use of NDAs with county officials and data center moratoriums—a corporate/PR matter. It names no AI model (group 1), reports no research artifact (2), no financing/M&A/partnership/revenue/product launch (3), and no law, EO, or regulatory action (4), and no OSS tooling (5). No ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Molly Taft / Wired: Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums — In a blog post published Friday, CEO Matt Garman detailed the steps the company says it's already t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p27#a261002p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T23:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
