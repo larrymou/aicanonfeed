@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "629a447a611eeed6",
+  "url": "https://www.techmeme.com/261003/p9#a261003p9",
+  "sourceName": "Techmeme",
+  "title": "OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially disrupt the traditional app store model (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially disrupt the traditional app store model — The focus of OpenAI's Dev Day on Tuesday may have been on its agentic assistants known as Do",
+  "pubDate": "2026-10-03T15:10:01.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially disrupt the traditional app store model — The focus of OpenAI's Dev Day on Tuesday may have been on its agentic assistants known as Do",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p9#a261003p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T15:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
