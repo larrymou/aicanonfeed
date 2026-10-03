@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "66a5be11d54aeae4",
+  "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+  "sourceName": "Hacker News Front Page",
+  "title": "GitHub's new dashboard experience now the default",
+  "summary": "Article URL: https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/ Comments URL: https://news.ycombinator.com/item?id=49942818 Points: 39 # Comments: 54",
+  "pubDate": "2026-10-03T09:59:01.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a GitHub dashboard UI changelog, not an AI model release, research result, industry business event, policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/ Comments URL: https://news.ycombinator.com/item?id=49942818 Points: 39 # Comments: 54",
+    "summaryChars": 181,
+    "summarySource": "summary",
+    "link": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+    "linkHost": "github.blog",
+    "pubDate": "2026-10-03T09:59:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
