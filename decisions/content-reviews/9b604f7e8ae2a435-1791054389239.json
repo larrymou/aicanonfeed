@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "9b604f7e8ae2a435",
+  "url": "https://notoriousbfg.com/hole-punch/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Hole Punch: Sling your spaceship around gravitational fields",
+  "summary": "Article URL: https://notoriousbfg.com/hole-punch/ Comments URL: https://news.ycombinator.com/item?id=49946393 Points: 15 # Comments: 1",
+  "pubDate": "2026-10-03T18:06:45.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Hacker News link to a game/space tool page, not an AI model release, research paper, industry event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://notoriousbfg.com/hole-punch/ Comments URL: https://news.ycombinator.com/item?id=49946393 Points: 15 # Comments: 1",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://notoriousbfg.com/hole-punch/",
+    "linkHost": "notoriousbfg.com",
+    "pubDate": "2026-10-03T18:06:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
