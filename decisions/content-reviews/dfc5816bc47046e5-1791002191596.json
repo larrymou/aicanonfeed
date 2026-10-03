@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "dfc5816bc47046e5",
+  "url": "https://www.techmeme.com/261002/p28#a261002p28",
+  "sourceName": "Techmeme",
+  "title": "Leaked Slack messages show OpenAI employees' pushback in June to Greg Brockman's Leading the Future ties, contributing to Brockman reneging on a $25M donation (Garrison Lovely/Semafor)",
+  "summary": "Garrison Lovely / Semafor: Leaked Slack messages show OpenAI employees' pushback in June to Greg Brockman's Leading the Future ties, contributing to Brockman reneging on a $25M donation — THE SCOOP — On June 1, OpenAI chief strategy officer Jason Kwon gave employees a preview of ",
+  "pubDate": "2026-10-02T23:50:01.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports internal OpenAI Slack pushback and a reneged $25M donation tied to political ties; it is not a model release, research paper, policy action, OSS tool, nor a financing/M&A/partnership or revenue event under rule 3-1. No active rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Garrison Lovely / Semafor: Leaked Slack messages show OpenAI employees' pushback in June to Greg Brockman's Leading the Future ties, contributing to Brockman reneging on a $25M donation — THE SCOOP — On June 1, OpenAI chief strategy officer Jason Kwon gave employees a preview of ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p28#a261002p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T23:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
