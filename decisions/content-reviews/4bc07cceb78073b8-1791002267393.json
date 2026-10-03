@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "4bc07cceb78073b8",
+  "url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
+  "sourceName": "Wired AI",
+  "title": "Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked",
+  "summary": "For years these billionaires gushed obsessively about AI. But they meekly went along when Trump canceled the term.",
+  "pubDate": "2026-10-02T15:00:00.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary on tech execs' reaction to a political AI rebrand. No named model release, no research artifact, no financing/M&A/partnership or product launch, no official policy action or document, and no OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "For years these billionaires gushed obsessively about AI. But they meekly went along when Trump canceled the term.",
+    "summaryChars": 114,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-02T15:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
