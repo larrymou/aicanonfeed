@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "23c507f121cabd1e",
+  "url": "https://github.com/nicobrenner/jeffy",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Local pretrained classifiers, GPU not needed",
+  "summary": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom. Jeffy is currently a collection of simple classifiers that can do spam detection, intent routing, topic classification, sentiment analysis and even play Doom Jeffy works locally on a reg",
+  "pubDate": "2026-10-03T20:19:09.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom. Jeffy is currently a collection of simple classifiers that can do spam detection, intent routing, topic classification, sentiment analysis and even play Doom Jeffy works locally on a reg",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/nicobrenner/jeffy",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-03T20:19:09.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
