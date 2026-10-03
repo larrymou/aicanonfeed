@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "dca4102c0cfdbd9d",
+  "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Cloudflare Ohttp Gateway",
+  "summary": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 9 # Comments: 2",
+  "pubDate": "2026-10-03T03:15:05.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Cloudflare OHTTP Gateway is a privacy/networking tool, not an AI model release, research result, AI industry event, policy action, or AI open-source tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 9 # Comments: 2",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+    "linkHost": "blog.cloudflare.com",
+    "pubDate": "2026-10-03T03:15:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
