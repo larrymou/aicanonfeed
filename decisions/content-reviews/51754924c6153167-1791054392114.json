@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "51754924c6153167",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wwtpg6/the_principles_of_diffusion_models_by_lai_et_al/",
+  "sourceName": "r/MachineLearning new",
+  "title": "The Principles of Diffusion Models by Lai et al.: thoughts on the monograph [D]",
+  "summary": "I recently finished The Principles of Diffusion Models, and honestly I think it’s exceptional. The authors strike a really good balance between mathematical rigor and intuition, with dedicated appendices for anyone who wants to go deeper into the math. It’s aimed at researchers, ",
+  "pubDate": "2026-10-03T18:04:32.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/review of a diffusion-models monograph; no new model release, no original research artifact (paper/preprint/benchmark), no business, policy, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I recently finished The Principles of Diffusion Models, and honestly I think it’s exceptional. The authors strike a really good balance between mathematical rigor and intuition, with dedicated appendices for anyone who wants to go deeper into the math. It’s aimed at researchers, ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wwtpg6/the_principles_of_diffusion_models_by_lai_et_al/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-03T18:04:32.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
