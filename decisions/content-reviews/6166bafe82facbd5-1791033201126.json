@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "6166bafe82facbd5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Gemini 4 Argon - 1 Million Output Headroom. Hype or a Leap? [D]",
+  "summary": "I rarely write about benchmarks; a competitor always beats them next week. But I care about 'Leaps'. Gemini 4 Argon feels like one to me. While Opus 5.5 and Astra cap output at 128-300K tokens (~90-180 pages), Argon hits 1 Million (~1400 pages). \"Context glue\" ruins agentic workf",
+  "pubDate": "2026-10-01T10:12:56.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1 near-match: title/summary name Gemini 4 Argon and cite a 1M output-token capability, but the link is a Reddit discussion post (linkHost reddit.com), not an official owner announcement page, and no named author or official owner domain is observed, so the evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I rarely write about benchmarks; a competitor always beats them next week. But I care about 'Leaps'. Gemini 4 Argon feels like one to me. While Opus 5.5 and Astra cap output at 128-300K tokens (~90-180 pages), Argon hits 1 Million (~1400 pages). \"Context glue\" ruins agentic workf",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T10:12:56.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
