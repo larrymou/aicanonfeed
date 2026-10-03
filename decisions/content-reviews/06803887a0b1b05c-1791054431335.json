@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "06803887a0b1b05c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wwqzxy/iclr_2027_reviewing_scores_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR 2027 Reviewing Scores [D]",
+  "summary": "I got my three papers to review, and it seems like they have changed the review score range again this year? It is now: –––––––––––––––––––––––––––––––––––– Based on your overall assessment of the submission, what is your recommended decision? Consider the paper’s overall soundne",
+  "pubDate": "2026-10-03T16:10:08.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion about ICLR 2027 review score ranges; it is community commentary, not a new model release, research result with paper link, industry business event, policy action, or open-source tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I got my three papers to review, and it seems like they have changed the review score range again this year? It is now: –––––––––––––––––––––––––––––––––––– Based on your overall assessment of the submission, what is your recommended decision? Consider the paper’s overall soundne",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wwqzxy/iclr_2027_reviewing_scores_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-03T16:10:08.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
