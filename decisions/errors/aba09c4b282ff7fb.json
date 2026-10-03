@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "aba09c4b282ff7fb",
+  "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+  "sourceName": "Ars Technica AI",
+  "title": "Anthropic’s IPO pitch includes a warning about human extinction",
+  "summary": "The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.",
+  "pubDate": "2026-09-29T14:10:00.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.",
+    "summaryChars": 89,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-09-29T14:10:00.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
