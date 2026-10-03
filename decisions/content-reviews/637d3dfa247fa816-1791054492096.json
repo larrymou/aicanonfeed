@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "637d3dfa247fa816",
+  "url": "https://openai.com/index/albertsons-reimagining-retail",
+  "sourceName": "OpenAI Blog",
+  "title": "How Albertsons Companies is reimagining retail from the inside out",
+  "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+  "pubDate": "2026-10-01T16:00:00.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Albertsons using ChatGPT Enterprise/OpenAI API. No named model release (R1), no research artifact (R2), not a financing/M&A/partnership/market/product-launch business event (R3), no policy action (R4), no OSS tool (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/albertsons-reimagining-retail",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-01T16:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
