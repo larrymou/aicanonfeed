@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "a4e13cb8332f2d80",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wuxcwd/does_tmlr_confirmation_email_take_timed/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Does TMLR Confirmation email take time?[D]",
+  "summary": "I can see the submission on Openreview but didn't get any email/notif. It's been 2 hours, I heard I'm supposed to choose action editor or smth. Am I missing something? First publication ever pls be kind to the noob. submitted by /u/Audaticreddit [link] [comments]",
+  "pubDate": "2026-10-01T11:49:52.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking about TMLR confirmation email timing; no named model release, research artifact, industry business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I can see the submission on Openreview but didn't get any email/notif. It's been 2 hours, I heard I'm supposed to choose action editor or smth. Am I missing something? First publication ever pls be kind to the noob. submitted by /u/Audaticreddit [link] [comments]",
+    "summaryChars": 263,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wuxcwd/does_tmlr_confirmation_email_take_timed/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T11:49:52.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
