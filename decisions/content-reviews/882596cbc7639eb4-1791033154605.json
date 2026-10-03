@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "882596cbc7639eb4",
+  "url": "https://openai.com/index/chatham-financial",
+  "sourceName": "OpenAI Blog",
+  "title": "Chatham scales its capital markets expertise with OpenAI",
+  "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+  "pubDate": "2026-10-02T00:00:00.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Chatham Financial using Codex/GPT-5.6; no new model availability/major version/capability announced (R1-1 unmet), no research artifact (R2-1), no financing/M&A/partnership deal/product launch or market data (R3-1), no policy action, no OSS/tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/chatham-financial",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-02T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
