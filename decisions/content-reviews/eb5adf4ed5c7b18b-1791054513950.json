@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "eb5adf4ed5c7b18b",
+  "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
+  "summary": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a file",
+  "pubDate": "2026-09-30T15:21:57.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog is a how-to tutorial building a music production pipeline on Bedrock AgentCore Runtime, not a model release (1-1), research artifact (2-1), industry business event (3-1), policy action (4-1), or new OSS tool/framework release (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a file",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-09-30T15:21:57.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
