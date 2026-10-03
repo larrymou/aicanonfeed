@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "d3e5e8c1a81ab330",
+  "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+  "summary": "Article URL: https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/ Comments URL: https://news.ycombinator.com/item?id=49948254 Points: 23 # Comments: 5",
+  "pubDate": "2026-10-03T22:07:13.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a judge's comment on Flock surveillance tech; no AI policy/regulation action or official document is established from Content, and no model, research, industry deal, or OSS artifact is present. No rule condition met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/ Comments URL: https://news.ycombinator.com/item?id=49948254 Points: 23 # Comments: 5",
+    "summaryChars": 191,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-03T22:07:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
