@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "4be7cfcbd6cc6cf1",
+  "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+  "sourceName": "Ars Technica AI",
+  "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+  "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+  "pubDate": "2026-10-02T23:03:16.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple changing full-disk access permissions is a platform/security product change, not a model release, research artifact, business event, policy action, or open-source tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-02T23:03:16.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
