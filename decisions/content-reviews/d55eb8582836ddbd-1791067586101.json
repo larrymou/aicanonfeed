@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "d55eb8582836ddbd",
+  "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Surely you have ultra-wideband radios on your bins too?",
+  "summary": "Article URL: https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/ Comments URL: https://news.ycombinator.com/item?id=49947472 Points: 21 # Comments: 5",
+  "pubDate": "2026-10-03T20:27:44.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hacker News item about ultra-wideband radios for bins; not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/ Comments URL: https://news.ycombinator.com/item?id=49947472 Points: 21 # Comments: 5",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+    "linkHost": "sjg.io",
+    "pubDate": "2026-10-03T20:27:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
