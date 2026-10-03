@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "67dac9f5f51307d8",
+  "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+  "sourceName": "TechCrunch AI",
+  "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+  "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+  "pubDate": "2026-10-03T18:43:57.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports AWS CEO comments pushing back on data center backlash and NDA use; no model release, research artifact, business event (financing/M&A/partnership/revenue), policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+    "summaryChars": 95,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-03T18:43:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
