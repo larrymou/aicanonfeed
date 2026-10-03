@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "46c63a0311a23e0d",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+  "sourceName": "The Verge AI",
+  "title": "An OpenAI safety employee has quit and is sounding the alarm",
+  "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly comi",
+  "pubDate": "2026-10-03T14:31:56.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No active rule covers this item. It is news/commentary about an OpenAI safety employee resigning and publishing an editorial, not a model release, research artifact, industry business event, policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly comi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-03T14:31:56.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
