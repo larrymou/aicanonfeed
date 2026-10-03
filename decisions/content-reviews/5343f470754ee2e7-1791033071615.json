@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "5343f470754ee2e7",
+  "url": "https://www.techmeme.com/261003/p7#a261003p7",
+  "sourceName": "Techmeme",
+  "title": "Center for Technology & Statecraft: Chinese fabs had acquired ~343 DUVi tools by early 2026, with ~270 from ASML; DUVi can be adapted to make 7nm chips and HBM (Howard Liu/South China Morning Post)",
+  "summary": "Howard Liu / South China Morning Post: Center for Technology & Statecraft: Chinese fabs had acquired ~343 DUVi tools by early 2026, with ~270 from ASML; DUVi can be adapted to make 7nm chips and HBM — DUV tools, though not as advanced as EUV, can be adapted to manufacture 7-nm lo",
+  "pubDate": "2026-10-03T09:41:06.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports semiconductor fab equipment (DUVi tool) acquisitions via a think-tank report; it is neither a model release (R1), research artifact (R2), an AI industry business event like financing/M&A/partnership/market data/non-model product launch (R3), a policy action (R4), nor OSS tooling (R5). N",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Howard Liu / South China Morning Post: Center for Technology & Statecraft: Chinese fabs had acquired ~343 DUVi tools by early 2026, with ~270 from ASML; DUVi can be adapted to make 7nm chips and HBM — DUV tools, though not as advanced as EUV, can be adapted to manufacture 7-nm lo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p7#a261003p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T09:41:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
