@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "99805f8d7d27e661",
+  "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Reasons I didn't become an EMT, ranked",
+  "summary": "Article URL: https://ben.stolovitz.com/posts/reasons-not-emt-ranked/ Comments URL: https://news.ycombinator.com/item?id=49947631 Points: 23 # Comments: 5",
+  "pubDate": "2026-10-03T20:49:15.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal essay about becoming an EMT; no AI model, research, industry, policy, or OSS tooling content. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ben.stolovitz.com/posts/reasons-not-emt-ranked/ Comments URL: https://news.ycombinator.com/item?id=49947631 Points: 23 # Comments: 5",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+    "linkHost": "ben.stolovitz.com",
+    "pubDate": "2026-10-03T20:49:15.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
