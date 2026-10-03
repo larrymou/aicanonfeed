@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "e85bc2b8845c622a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wum2z7/neurips_slm_agents_or_robopad_workshops_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "NeurIPS SLM Agents or RoboPAD Workshops [D]",
+  "summary": "Hey, just got a papers accepted at both these workshops! Would love to connect with others also attending the workshop submitted by /u/General_Pin476 [link] [comments]",
+  "pubDate": "2026-10-01T01:01:42.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about NeurIPS workshop paper acceptances and networking; no named model release, no research artifact/paper link, no industry business event, no policy action, and no OSS tool. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey, just got a papers accepted at both these workshops! Would love to connect with others also attending the workshop submitted by /u/General_Pin476 [link] [comments]",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wum2z7/neurips_slm_agents_or_robopad_workshops_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T01:01:42.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
