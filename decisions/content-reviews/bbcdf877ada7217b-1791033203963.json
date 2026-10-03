@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "bbcdf877ada7217b",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wupjq0/paper_accepted_to_neurips_musiml_workshop_poster/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Paper accepted to NeurIPS MusIML Workshop (Poster), but I can't afford to go. Any funding advice? [D]",
+  "summary": "Hi everyone, My paper just got accepted for a poster presentation at the Muslims in ML (MusIML) workshop at NeurIPS 2026 which will be held in Sydney, Australia. I'm really proud, but I'm a UG student and completely lack the funds for travel, registration, and accommodation. This",
+  "pubDate": "2026-10-01T03:58:17.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post asking for travel funding advice after a workshop poster acceptance. No new research artifact (no paper/official source link), no model release, industry, policy, or OSS tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi everyone, My paper just got accepted for a poster presentation at the Muslims in ML (MusIML) workshop at NeurIPS 2026 which will be held in Sydney, Australia. I'm really proud, but I'm a UG student and completely lack the funds for travel, registration, and accommodation. This",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wupjq0/paper_accepted_to_neurips_musiml_workshop_poster/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-01T03:58:17.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
