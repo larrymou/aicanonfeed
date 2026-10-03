@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "3988acace0bd0359",
+  "url": "https://www.techmeme.com/261003/p4#a261003p4",
+  "sourceName": "Techmeme",
+  "title": "Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M (Meir Orbach/CTech)",
+  "summary": "Meir Orbach / CTech: Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M — The Israeli startup, which was founded by former Granulate executives and employs 17 people, built technol",
+  "pubDate": "2026-10-03T05:45:00.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Nebius acquiring Inferize is an M&A/industry business event reported by reputable media (CTech via Techmeme), matching group 3 rule 3-1. Not a model/capability release, policy action, research paper, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meir Orbach / CTech: Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M — The Israeli startup, which was founded by former Granulate executives and employs 17 people, built technol",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p4#a261003p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T05:45:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
