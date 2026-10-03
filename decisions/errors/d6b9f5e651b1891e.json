@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "d6b9f5e651b1891e",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "sourceName": "OpenAI Blog",
+  "title": "Introducing GPT-6.1 Sol",
+  "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+  "pubDate": "2026-09-29T10:00:00.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "linkHost": "openai.com",
+    "pubDate": "2026-09-29T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
