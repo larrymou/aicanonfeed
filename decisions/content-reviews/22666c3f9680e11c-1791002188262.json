@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "22666c3f9680e11c",
+  "url": "https://www.techmeme.com/261002/p29#a261002p29",
+  "sourceName": "Techmeme",
+  "title": "David Robinson, who worked on OpenAI's Safety Systems team and had previously led policy planning, left OpenAI last week (Stephen Council/Business Insider)",
+  "summary": "Stephen Council / Business Insider: David Robinson, who worked on OpenAI's Safety Systems team and had previously led policy planning, left OpenAI last week — David Robinson, a leader on OpenAI's Safety Systems team, has resigned from the company. — An OpenAI spokesperson told Bu",
+  "pubDate": "2026-10-02T23:55:35.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a personnel departure (safety team leader leaving OpenAI), not a model release, research artifact, business event (financing/M&A/partnership/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Stephen Council / Business Insider: David Robinson, who worked on OpenAI's Safety Systems team and had previously led policy planning, left OpenAI last week — David Robinson, a leader on OpenAI's Safety Systems team, has resigned from the company. — An OpenAI spokesperson told Bu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261002/p29#a261002p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-02T23:55:35.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
