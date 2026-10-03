@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "65e197857c0ee43a",
+  "url": "https://www.techmeme.com/261003/p11#a261003p11",
+  "sourceName": "Techmeme",
+  "title": "Sources: ShinyHunters member Saif al-Din Khader, aka \"Rey,\" was detained in Jordan and is cooperating to identify other hackers involved in the FBI breach (Reuters)",
+  "summary": "Reuters: Sources: ShinyHunters member Saif al-Din Khader, aka “Rey,” was detained in Jordan and is cooperating to identify other hackers involved in the FBI breach — A key member of the ShinyHunters hacking group, which claims to have stolen data on every FBI employee …",
+  "pubDate": "2026-10-03T16:45:00.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a ShinyHunters hacking-group member's detention and the FBI breach; it reports no AI model release, AI research, AI industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: ShinyHunters member Saif al-Din Khader, aka “Rey,” was detained in Jordan and is cooperating to identify other hackers involved in the FBI breach — A key member of the ShinyHunters hacking group, which claims to have stolen data on every FBI employee …",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p11#a261003p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T16:45:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
