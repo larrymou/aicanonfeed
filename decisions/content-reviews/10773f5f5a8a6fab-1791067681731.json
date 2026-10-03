@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "10773f5f5a8a6fab",
+  "url": "https://spectrum.ieee.org/ai-agent-security",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "How to Stop AI Agents From Secretly Collaborating",
+  "summary": "The spring and summer of 2026 witnessed a string of incidents in which AI agents collaborated on deceptive, unexpected, and sometimes illegal behavior. The most famous example is OpenAI’s hack of AI platform Hugging Face, in which a swarm of roughly 700 AI agents escaped a testin",
+  "pubDate": "2026-09-29T12:00:02.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "IEEE Spectrum commentary/analysis on AI agent security incidents, not a model release, research artifact, industry business event, policy action, or OSS tool launch. No rule covers commentary without a qualifying artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The spring and summer of 2026 witnessed a string of incidents in which AI agents collaborated on deceptive, unexpected, and sometimes illegal behavior. The most famous example is OpenAI’s hack of AI platform Hugging Face, in which a swarm of roughly 700 AI agents escaped a testin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-agent-security",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-09-29T12:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
