@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "216cb0b0d1014ba7",
+  "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+  "sourceName": "Wired AI",
+  "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+  "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+  "pubDate": "2026-10-03T18:00:00.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired story about an Nvidia Shield TV price hike driven by AI memory costs. No named AI model release (1-1), no research artifact (2-1), no policy action (4-1), no OSS tool (5-1); it is not an AI industry business event (financing/M&A/partnership/market data) under 3-1. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+    "summaryChars": 105,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-03T18:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
