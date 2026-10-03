@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791067564078-7scezk",
+  "urlHash": "90249c2a3882c6d3",
+  "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+  "sourceName": "OpenAI Blog",
+  "title": "Disrupting a coordinated model-distillation campaign",
+  "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+  "pubDate": "2026-09-30T10:30:00.000Z",
+  "decidedAt": "2026-10-03T22:46:11.771Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes disrupting a model-distillation/extraction campaign and defense hardening; it names no model, announces no release or capability, and reports no research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "linkHost": "openai.com",
+    "pubDate": "2026-09-30T10:30:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
