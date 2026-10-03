@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791033026512-qwhz5l",
+  "urlHash": "1ef1b38c39d01608",
+  "url": "https://tej.as/blog/aleph-alpha-kolibri",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Germany's new sovereign AI model Kolibri",
+  "summary": "Article URL: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49943034 Points: 17 # Comments: 7",
+  "pubDate": "2026-10-03T10:43:51.000Z",
+  "decidedAt": "2026-10-03T13:10:40.078Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names a model (Kolibri) but the link is a blog on tej.as, not the owner's official domain, and no author/owner domain is observed. So rule 1-1's evidence-link conditions and rule 3-1's reputable-media-report condition cannot be established from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49943034 Points: 17 # Comments: 7",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://tej.as/blog/aleph-alpha-kolibri",
+    "linkHost": "tej.as",
+    "pubDate": "2026-10-03T10:43:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
