@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "321d061d644bb7eb",
+  "url": "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/",
+  "sourceName": "Wired AI",
+  "title": "AI Is Making a Mess of Nurses’ Schedules. They Say It’s a Safety Issue",
+  "summary": "A hospital giant and radiology network turned to Palantir to streamline scheduling, but nurses and other staff say the new software is causing errors, burnout, and frustration.",
+  "pubDate": "2026-10-02T09:30:00.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary on Palantir scheduling software causing nurse errors/burnout. No named AI model release (R1), no research artifact (R2), not a financing/M&A/partnership/market or product-launch business event (R3), no policy action (R4), no open-source tool (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A hospital giant and radiology network turned to Palantir to streamline scheduling, but nurses and other staff say the new software is causing errors, burnout, and frustration.",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-02T09:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
