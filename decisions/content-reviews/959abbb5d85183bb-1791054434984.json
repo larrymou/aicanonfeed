@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791054373025-57xrq9",
+  "urlHash": "959abbb5d85183bb",
+  "url": "https://www.techmeme.com/261003/p10#a261003p10",
+  "sourceName": "Techmeme",
+  "title": "YouTube says it is adjusting its Shorts recommendations to prioritize \"original content\" and reduce the reach of channels re-uploading others' content (Andrew Romero/9to5Google)",
+  "summary": "Andrew Romero / 9to5Google: YouTube says it is adjusting its Shorts recommendations to prioritize “original content” and reduce the reach of channels re-uploading others' content — YouTube says it wants to ‘focus on originality’ in a push to surface better Shorts recommendations ",
+  "pubDate": "2026-10-03T15:50:01.000Z",
+  "decidedAt": "2026-10-03T19:06:21.835Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports YouTube adjusting Shorts recommendation algorithms for originality. It is a platform feature/content-moderation change, not a model release, new AI research artifact, business event (financing/M&A/partnership/revenue), policy action, or open-source tool release. No active rule covers it",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew Romero / 9to5Google: YouTube says it is adjusting its Shorts recommendations to prioritize “original content” and reduce the reach of channels re-uploading others' content — YouTube says it wants to ‘focus on originality’ in a push to surface better Shorts recommendations ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p10#a261003p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-03T15:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
