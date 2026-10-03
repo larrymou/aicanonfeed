@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791002152811-wyi84u",
+  "urlHash": "8b69c3ba05ec6ae6",
+  "url": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+  "summary": "Article URL: https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf Comments URL: https://news.ycombinator.com/item?id=49940467 Points: 27 # Comments: 10",
+  "pubDate": "2026-10-03T01:09:01.000Z",
+  "decidedAt": "2026-10-03T04:35:59.803Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "NTSB preliminary report on a Prime Air 767 runway overrun is an aviation accident investigation, not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf Comments URL: https://news.ycombinator.com/item?id=49940467 Points: 27 # Comments: 10",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+    "linkHost": "www.ntsb.gov",
+    "pubDate": "2026-10-03T01:09:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
