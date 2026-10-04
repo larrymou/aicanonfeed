@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "b683911c4c9267fc",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wxe9qx/the_official_iclr_template_bib_has_had_bengio/",
+  "sourceName": "r/MachineLearning new",
+  "title": "the official ICLR template .bib has had Bengio listed twice since 2019 [D]",
+  "summary": "i work on reference checking stuff so i was reading through the ICLR 2027 author guidelines and style files this week the sample .bib that ships with the template has the Deep Learning book as \"Goodfellow, Bengio, Courville, Bengio\" plus a volume 1 that doesn't exist checked thei",
+  "pubDate": "2026-10-04T12:15:28.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about duplicate Bengio entry in ICLR template .bib. It is not a model release, research result, industry business event, policy action, or new open-source tool announcement; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "i work on reference checking stuff so i was reading through the ICLR 2027 author guidelines and style files this week the sample .bib that ships with the template has the Deep Learning book as \"Goodfellow, Bengio, Courville, Bengio\" plus a volume 1 that doesn't exist checked thei",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wxe9qx/the_official_iclr_template_bib_has_had_bengio/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-04T12:15:28.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
