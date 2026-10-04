@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "cdf8a81e713cfe49",
+  "url": "https://www.techmeme.com/261003/p13#a261003p13",
+  "sourceName": "Techmeme",
+  "title": "Sources: AI czar Jay Clayton to chair the WH's AI task force, called \"Super Intelligence Force\", to pen a report on AI's risks and opportunities within 120 days (Alex Leary/Wall Street Journal)",
+  "summary": "Alex Leary / Wall Street Journal: Sources: AI czar Jay Clayton to chair the WH's AI task force, called “Super Intelligence Force”, to pen a report on AI's risks and opportunities within 120 days — The White House group will be led by Director of National Intelligence Jay Clayton ",
+  "pubDate": "2026-10-04T00:00:47.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alex Leary / Wall Street Journal: Sources: AI czar Jay Clayton to chair the WH's AI task force, called “Super Intelligence Force”, to pen a report on AI's risks and opportunities within 120 days — The White House group will be led by Director of National Intelligence Jay Clayton ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261003/p13#a261003p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T00:00:47.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
