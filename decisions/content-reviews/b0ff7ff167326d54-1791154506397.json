@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791154450484-2z2qgy",
+  "urlHash": "b0ff7ff167326d54",
+  "url": "https://github.com/omlahore/RemoveMacAI",
+  "sourceName": "Hacker News Front Page",
+  "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+  "summary": "Article URL: https://github.com/omlahore/RemoveMacAI Comments URL: https://news.ycombinator.com/item?id=49957116 Points: 233 # Comments: 132",
+  "pubDate": "2026-10-04T19:42:25.000Z",
+  "decidedAt": "2026-10-04T22:54:17.985Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Hacker News post pointing to a GitHub utility that disables Apple Intelligence on macOS. It is not a model release, research artifact, industry business event, or policy action, and it is not a new AI tool/library/framework release under tools-oss. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/omlahore/RemoveMacAI Comments URL: https://news.ycombinator.com/item?id=49957116 Points: 233 # Comments: 132",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://github.com/omlahore/RemoveMacAI",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-04T19:42:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
