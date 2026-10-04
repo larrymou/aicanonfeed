@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "16d7d1f33ea5355f",
+  "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Religious scholars met with Anthropic",
+  "summary": "https://archive.is/y8FW0 Comments URL: https://news.ycombinator.com/item?id=49950052 Points: 53 # Comments: 77",
+  "pubDate": "2026-10-04T02:34:22.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "NYT story about religious scholars meeting Anthropic re: Claude morals is commentary/ethics, not a model release, research artifact, industry business event (financing/M&A/partnership/product), policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://archive.is/y8FW0 Comments URL: https://news.ycombinator.com/item?id=49950052 Points: 53 # Comments: 77",
+    "summaryChars": 110,
+    "summarySource": "summary",
+    "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+    "linkHost": "www.nytimes.com",
+    "pubDate": "2026-10-04T02:34:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
