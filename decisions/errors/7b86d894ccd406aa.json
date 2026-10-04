@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "7b86d894ccd406aa",
+  "url": "https://www.techmeme.com/261004/p11#a261004p11",
+  "sourceName": "Techmeme",
+  "title": "Trump announces a new Super Intelligence Force, to be led by DNI Jay Clayton, along with FTC's Andrew Ferguson, DOD's Emil Michael, and OPM's Scott Kupor (Politico)",
+  "summary": "Politico: Trump announces a new Super Intelligence Force, to be led by DNI Jay Clayton, along with FTC's Andrew Ferguson, DOD's Emil Michael, and OPM's Scott Kupor — President Donald Trump said Sunday that Director of National Intelligence Jay Clayton will assume the newly create",
+  "pubDate": "2026-10-04T14:25:01.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Politico: Trump announces a new Super Intelligence Force, to be led by DNI Jay Clayton, along with FTC's Andrew Ferguson, DOD's Emil Michael, and OPM's Scott Kupor — President Donald Trump said Sunday that Director of National Intelligence Jay Clayton will assume the newly create",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p11#a261004p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T14:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
