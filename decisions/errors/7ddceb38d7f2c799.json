@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "7ddceb38d7f2c799",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wxex8n/a_minimal_interpretable_architecture_for_zeroshot/",
+  "sourceName": "r/MachineLearning new",
+  "title": "A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems [R]",
+  "summary": "In our #NeurIPS2026 paper “A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems (DS)” (preprint: https://arxiv.org/abs/2607.14937) we reduce a DS foundation model to the ingredients minimally necessary to faithfully reproduce long-term statistica",
+  "pubDate": "2026-10-04T12:49:40.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In our #NeurIPS2026 paper “A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems (DS)” (preprint: https://arxiv.org/abs/2607.14937) we reduce a DS foundation model to the ingredients minimally necessary to faithfully reproduce long-term statistica",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wxex8n/a_minimal_interpretable_architecture_for_zeroshot/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-04T12:49:40.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
