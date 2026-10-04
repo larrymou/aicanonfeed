@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "050af4419607132c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wxm5p3/interactive_demonstration_of_prefix_injection/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Interactive Demonstration of Prefix Injection attacks on LLMs for jailbreaking [N]",
+  "summary": "please refresh if stuck, can be slow sometimes so need patience submitted by /u/big_hole_energy [link] [comments]",
+  "pubDate": "2026-10-04T18:03:08.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post demonstrating prefix injection jailbreaks; no link to an original paper, preprint, benchmark, or official source. Rule 2-1's research-artifact condition is unmet, and no other rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "please refresh if stuck, can be slow sometimes so need patience submitted by /u/big_hole_energy [link] [comments]",
+    "summaryChars": 113,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wxm5p3/interactive_demonstration_of_prefix_injection/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-04T18:03:08.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
