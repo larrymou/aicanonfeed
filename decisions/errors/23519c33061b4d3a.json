@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "23519c33061b4d3a",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.0-rc1: mlx: match publisher tokenizer semantics (#18779)",
+  "summary": "mlx: match publisher tokenizer semantics Honor pretokenizer stage order, split behavior, Unicode boundaries, Add shared Go/Python reference cases using published tokenizers, pulling address comments",
+  "pubDate": "2026-10-04T14:45:15.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "mlx: match publisher tokenizer semantics Honor pretokenizer stage order, split behavior, Unicode boundaries, Add shared Go/Python reference cases using published tokenizers, pulling address comments",
+    "summaryChars": 198,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-04T14:45:15.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
