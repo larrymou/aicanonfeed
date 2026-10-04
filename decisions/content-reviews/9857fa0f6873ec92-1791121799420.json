@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "9857fa0f6873ec92",
+  "url": "https://www.techmeme.com/261004/p10#a261004p10",
+  "sourceName": "Techmeme",
+  "title": "A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse (Meghan Bobrowsky/Wall Street Journal)",
+  "summary": "Meghan Bobrowsky / Wall Street Journal: A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse — Alexandr Wang drove Muse to the top of the charts, putting the company back in the AI rac",
+  "pubDate": "2026-10-04T12:00:43.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media profile of Meta's Chief AI Officer and hype around Muse; it is executive commentary, not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meghan Bobrowsky / Wall Street Journal: A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse — Alexandr Wang drove Muse to the top of the charts, putting the company back in the AI rac",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p10#a261004p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T12:00:43.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
