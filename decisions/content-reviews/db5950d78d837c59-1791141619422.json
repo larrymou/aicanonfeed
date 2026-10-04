@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "db5950d78d837c59",
+  "url": "https://www.techmeme.com/261004/p14#a261004p14",
+  "sourceName": "Techmeme",
+  "title": "In an X reply, Elon Musk says that SpaceX will rename its AI unit SpaceXAI to SpaceXSI, following Trump's push to replace \"artificial\" intelligence with \"super\" (Chandni Shah/Reuters)",
+  "summary": "Chandni Shah / Reuters: In an X reply, Elon Musk says that SpaceX will rename its AI unit SpaceXAI to SpaceXSI, following Trump's push to replace “artificial” intelligence with “super” — SpaceX CEO Elon Musk posted on Sunday that he would rename the company's AI unit to SpaceXSI ",
+  "pubDate": "2026-10-04T17:55:02.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a corporate renaming of SpaceX's AI unit, not a named model release, research artifact, financing/M&A/partnership/product launch, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chandni Shah / Reuters: In an X reply, Elon Musk says that SpaceX will rename its AI unit SpaceXAI to SpaceXSI, following Trump's push to replace “artificial” intelligence with “super” — SpaceX CEO Elon Musk posted on Sunday that he would rename the company's AI unit to SpaceXSI ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p14#a261004p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T17:55:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
