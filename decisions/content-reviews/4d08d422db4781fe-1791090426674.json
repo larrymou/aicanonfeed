@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "4d08d422db4781fe",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wx1knr/jev_not_frontier_but_still_worth_your_attention_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Jev: Not Frontier, But Still Worth Your Attention [R]",
+  "summary": "\"TypeSafe AI sells Jev as a frontier-class reasoner that cannot hallucinate, built by the co-inventor of ChatGPT - fast, and almost free. We ran it live on 16,379 benchmark requests, measured its latency and billing, and probed what it is underneath. The result is a smaller, humb",
+  "pubDate": "2026-10-03T23:57:28.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No active rule covers this Reddit post: it is commentary/benchmark evaluation of Jev, not an official model release, research paper/preprint/benchmark release, industry business event, policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "\"TypeSafe AI sells Jev as a frontier-class reasoner that cannot hallucinate, built by the co-inventor of ChatGPT - fast, and almost free. We ran it live on 16,379 benchmark requests, measured its latency and billing, and probed what it is underneath. The result is a smaller, humb",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wx1knr/jev_not_frontier_but_still_worth_your_attention_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-03T23:57:28.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
