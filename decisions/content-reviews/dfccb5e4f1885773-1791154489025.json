@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791154450484-2z2qgy",
+  "urlHash": "dfccb5e4f1885773",
+  "url": "https://www.techmeme.com/261004/p17#a261004p17",
+  "sourceName": "Techmeme",
+  "title": "Sources: Schneider Electric is in advanced talks to buy US engineering software firm PTC for ~$20B, its largest acquisition; a deal could come as soon as Monday (Financial Times)",
+  "summary": "Financial Times: Sources: Schneider Electric is in advanced talks to buy US engineering software firm PTC for ~$20B, its largest acquisition; a deal could come as soon as Monday — Acquisition would be French conglomerate's largest and enhance its products focused on manufacturers",
+  "pubDate": "2026-10-04T21:05:12.000Z",
+  "decidedAt": "2026-10-04T22:54:17.985Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "M&A industry news: Schneider Electric in advanced talks to acquire engineering software firm PTC for ~$20B, sourced to Financial Times via Techmeme. Matches the industry rule for M&A reported by a reputable media outlet; no model/research/policy/tooling artifact involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: Schneider Electric is in advanced talks to buy US engineering software firm PTC for ~$20B, its largest acquisition; a deal could come as soon as Monday — Acquisition would be French conglomerate's largest and enhance its products focused on manufacturers",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p17#a261004p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T21:05:12.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
