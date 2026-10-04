@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "c28dd56875309832",
+  "url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+  "sourceName": "Hacker News Front Page",
+  "title": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
+  "summary": "Article URL: https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and Comments URL: https://news.ycombinator.com/item?id=49953116 Points: 35 # Comments: 7",
+  "pubDate": "2026-10-04T11:58:47.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a non-AI parenting/psychology article about rejection sensitivity in gifted children. It is not a model release, AI research, industry business event, AI policy, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and Comments URL: https://news.ycombinator.com/item?id=49953116 Points: 35 # Comments: 7",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+    "linkHost": "teachyourkids.substack.com",
+    "pubDate": "2026-10-04T11:58:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
