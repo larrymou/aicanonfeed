@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "1d9e0fedc80d5604",
+  "url": "https://github.com/allenv0/SCM",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: AI search for every photo and every frame of video on macOS",
+  "summary": "Article URL: https://github.com/allenv0/SCM Comments URL: https://news.ycombinator.com/item?id=49952111 Points: 20 # Comments: 8",
+  "pubDate": "2026-10-04T09:24:52.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Show HN announcing a new open-source AI photo/video search tool hosted on GitHub (repository link), matching the open-source AI tool release rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/allenv0/SCM Comments URL: https://news.ycombinator.com/item?id=49952111 Points: 20 # Comments: 8",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://github.com/allenv0/SCM",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-04T09:24:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
