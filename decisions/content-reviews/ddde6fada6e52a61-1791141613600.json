@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "ddde6fada6e52a61",
+  "url": "https://www.techmeme.com/261004/p15#a261004p15",
+  "sourceName": "Techmeme",
+  "title": "Sources: Apple and Google pitch state bills with self-attested age checks and no private lawsuits; Meta backs ones making app stores, not platforms, verify ages (Owen Dahlkamp/Politico)",
+  "summary": "Owen Dahlkamp / Politico: Sources: Apple and Google pitch state bills with self-attested age checks and no private lawsuits; Meta backs ones making app stores, not platforms, verify ages — Google and Apple lobbyists are engaged in a massive effort to press state lawmakers to adop",
+  "pubDate": "2026-10-04T18:55:01.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers state age-verification lobbying by Apple, Google, and Meta, not AI policy or government action on AI, nor an AI research artifact, model release, business event, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Owen Dahlkamp / Politico: Sources: Apple and Google pitch state bills with self-attested age checks and no private lawsuits; Meta backs ones making app stores, not platforms, verify ages — Google and Apple lobbyists are engaged in a massive effort to press state lawmakers to adop",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p15#a261004p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T18:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
