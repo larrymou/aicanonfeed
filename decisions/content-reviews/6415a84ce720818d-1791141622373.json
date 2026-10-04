@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "6415a84ce720818d",
+  "url": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Building a RAG Pipeline for Semantic Code Search",
+  "summary": "Article URL: https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/ Comments URL: https://news.ycombinator.com/item?id=49956148 Points: 18 # Comments: 1",
+  "pubDate": "2026-10-04T17:51:48.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Developer-diary blog post/ tutorial on building a RAG pipeline for semantic code search. No named model release (1-1), no research paper or benchmark artifact (2-1), no business event (3-1), no policy action (4-1), and no open-source tool/framework release announcement (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/ Comments URL: https://news.ycombinator.com/item?id=49956148 Points: 18 # Comments: 1",
+    "summaryChars": 219,
+    "summarySource": "summary",
+    "link": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
+    "linkHost": "blog.jetbrains.com",
+    "pubDate": "2026-10-04T17:51:48.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
