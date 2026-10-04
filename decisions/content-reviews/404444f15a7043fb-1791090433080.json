@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "404444f15a7043fb",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
+  "sourceName": "vLLM releases",
+  "title": "v0.31.0rc3: [Model Runner V2] Support randomized dummy inputs (#58411)",
+  "summary": "Signed-off-by: Robert Shaw robshaw@redhat.com robshaw@redhat.com noreply@anthropic.com nickhill123@gmail.com e5e38ba)",
+  "pubDate": "2026-10-01T07:54:39.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "vLLM release v0.31.0rc3 is a new version of an open-source AI framework, linked to its official GitHub repository release page, matching rule 5-1 for OSS tool/framework releases.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Signed-off-by: Robert Shaw robshaw@redhat.com robshaw@redhat.com noreply@anthropic.com nickhill123@gmail.com e5e38ba)",
+    "summaryChars": 117,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-01T07:54:39.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
