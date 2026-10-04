@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "0442d61e927e0726",
+  "url": "https://www.techmeme.com/261004/p7#a261004p7",
+  "sourceName": "Techmeme",
+  "title": "Google prepares to defend a £1.2B UK class action lawsuit over claims it levied \"excessive\" charges on Android apps downloaded from Google Play since 2015 (Financial Times)",
+  "summary": "Financial Times: Google prepares to defend a £1.2B UK class action lawsuit over claims it levied “excessive” charges on Android apps downloaded from Google Play since 2015 — British claim over Google Play Store is latest effort to challenge market power of Big Tech groups",
+  "pubDate": "2026-10-04T05:45:00.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a UK competition class action over Google Play app charges, not AI-related. No rule covers it: not a model release, research artifact, AI policy/government action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Google prepares to defend a £1.2B UK class action lawsuit over claims it levied “excessive” charges on Android apps downloaded from Google Play since 2015 — British claim over Google Play Store is latest effort to challenge market power of Big Tech groups",
+    "summaryChars": 272,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p7#a261004p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T05:45:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
