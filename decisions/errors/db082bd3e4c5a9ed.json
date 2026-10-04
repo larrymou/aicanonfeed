@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "db082bd3e4c5a9ed",
+  "url": "https://www.techmeme.com/261004/p13#a261004p13",
+  "sourceName": "Techmeme",
+  "title": "DigitalBridge CEO Marc Ganzi says his data center investment group will become SoftBank's \"third-party infrastructure arm\" after SoftBank's ~$4B takeover closed (Financial Times)",
+  "summary": "Financial Times: DigitalBridge CEO Marc Ganzi says his data center investment group will become SoftBank's “third-party infrastructure arm” after SoftBank's ~$4B takeover closed — DigitalBridge CEO Marc Ganzi says his data centre investment group will be SoftBank's ‘third-party i",
+  "pubDate": "2026-10-04T17:00:42.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: DigitalBridge CEO Marc Ganzi says his data center investment group will become SoftBank's “third-party infrastructure arm” after SoftBank's ~$4B takeover closed — DigitalBridge CEO Marc Ganzi says his data centre investment group will be SoftBank's ‘third-party i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p13#a261004p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T17:00:42.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
