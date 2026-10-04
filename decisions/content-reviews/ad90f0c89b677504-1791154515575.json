@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791154450484-2z2qgy",
+  "urlHash": "ad90f0c89b677504",
+  "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Build with Python – a beginner course where your code draws",
+  "summary": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI/terminal output. No need to worry about python installation, package versions, venv etc. The lab runs with Pyodide",
+  "pubDate": "2026-10-04T18:59:25.000Z",
+  "decidedAt": "2026-10-04T22:54:17.985Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN beginner Python course with browser visuals; not an AI model, research, industry business event, policy action, or open-source AI tool/framework. No active rule covers this general programming education item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI/terminal output. No need to worry about python installation, package versions, venv etc. The lab runs with Pyodide",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+    "linkHost": "scimigo.com",
+    "pubDate": "2026-10-04T18:59:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
