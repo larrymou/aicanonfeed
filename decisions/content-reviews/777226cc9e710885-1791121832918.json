@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "777226cc9e710885",
+  "url": "https://gamehistory.org/5k-magazines/",
+  "sourceName": "Hacker News Front Page",
+  "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+  "summary": "Article URL: https://gamehistory.org/5k-magazines/ Comments URL: https://news.ycombinator.com/item?id=49952029 Points: 52 # Comments: 5",
+  "pubDate": "2026-10-04T09:07:11.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns a video game history magazine archive, not AI models, research, industry, policy, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gamehistory.org/5k-magazines/ Comments URL: https://news.ycombinator.com/item?id=49952029 Points: 52 # Comments: 5",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://gamehistory.org/5k-magazines/",
+    "linkHost": "gamehistory.org",
+    "pubDate": "2026-10-04T09:07:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
