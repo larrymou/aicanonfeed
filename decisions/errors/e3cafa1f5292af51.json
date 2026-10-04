@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "e3cafa1f5292af51",
+  "url": "https://www.techmeme.com/261004/p1#a261004p1",
+  "sourceName": "Techmeme",
+  "title": "Q&A with Brian Chesky on Airbnb's plans for agent-to-agent interactions, why chatbots fail at travel e-commerce, the need for an AI-native OS, and more (Ivan Mehta/TechCrunch)",
+  "summary": "Ivan Mehta / TechCrunch: Q&A with Brian Chesky on Airbnb's plans for agent-to-agent interactions, why chatbots fail at travel e-commerce, the need for an AI-native OS, and more — Airbnb rolled out its new AI-powered search this week as part of its fall update, a significant step ",
+  "pubDate": "2026-10-04T04:00:50.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ivan Mehta / TechCrunch: Q&A with Brian Chesky on Airbnb's plans for agent-to-agent interactions, why chatbots fail at travel e-commerce, the need for an AI-native OS, and more — Airbnb rolled out its new AI-powered search this week as part of its fall update, a significant step ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p1#a261004p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T04:00:50.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
