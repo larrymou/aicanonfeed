@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "8cc3cfdc7e1adde3",
+  "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What's the future for pure math research in the age of AI?",
+  "summary": "Article URL: https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/ Comments URL: https://news.ycombinator.com/item?id=49951641 Points: 46 # Comments: 31",
+  "pubDate": "2026-10-04T07:53:45.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay on the future of pure math research amid AI, not a paper, preprint, or benchmark release. No rule covers commentary without a research artifact; no industry, policy, or OSS event either.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/ Comments URL: https://news.ycombinator.com/item?id=49951641 Points: 46 # Comments: 31",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+    "linkHost": "writings.stephenwolfram.com",
+    "pubDate": "2026-10-04T07:53:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
