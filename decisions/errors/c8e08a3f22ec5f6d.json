@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "c8e08a3f22ec5f6d",
+  "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+  "sourceName": "Wired AI",
+  "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+  "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
+  "pubDate": "2026-10-04T10:00:00.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-04T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
