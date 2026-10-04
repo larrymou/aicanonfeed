@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "173bc9a3dc14cfa9",
+  "url": "https://www.techmeme.com/261004/p9#a261004p9",
+  "sourceName": "Techmeme",
+  "title": "Q&A with OpenAI VP of Hardware Richard Ho on its Jalapeño inference chip co-designed with Broadcom, using internal OpenAI models to design the chip, and more (Dr. Ian Cutress/More Than Moore)",
+  "summary": "Dr. Ian Cutress / More Than Moore: Q&A with OpenAI VP of Hardware Richard Ho on its Jalapeño inference chip co-designed with Broadcom, using internal OpenAI models to design the chip, and more — VP Hardware for Jalapeño … In June 2026, OpenAI confirmed what the industry had assum",
+  "pubDate": "2026-10-04T09:00:41.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Q&A interview about OpenAI's Jalapeño hardware chip; no model release, research artifact, policy action, or OSS tool. Not a reported business event (launch/deal), just commentary, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dr. Ian Cutress / More Than Moore: Q&A with OpenAI VP of Hardware Richard Ho on its Jalapeño inference chip co-designed with Broadcom, using internal OpenAI models to design the chip, and more — VP Hardware for Jalapeño … In June 2026, OpenAI confirmed what the industry had assum",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p9#a261004p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T09:00:41.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
