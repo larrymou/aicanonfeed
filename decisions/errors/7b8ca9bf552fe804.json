@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791121769592-usgcsf",
+  "urlHash": "7b8ca9bf552fe804",
+  "url": "https://www.techmeme.com/261004/p6#a261004p6",
+  "sourceName": "Techmeme",
+  "title": "Toshiba plans to double HDD production capacity for AI data centers within FY2027 from its 2025 level, targeting a 30% share by storage capacity, up from ~10% (Keigo Yoshida/Nikkei Asia)",
+  "summary": "Keigo Yoshida / Nikkei Asia: Toshiba plans to double HDD production capacity for AI data centers within FY2027 from its 2025 level, targeting a 30% share by storage capacity, up from ~10% — MANILA — Japanese technology group Toshiba plans to double production capacity for hard-di",
+  "pubDate": "2026-10-04T05:40:01.000Z",
+  "decidedAt": "2026-10-04T13:49:43.108Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Keigo Yoshida / Nikkei Asia: Toshiba plans to double HDD production capacity for AI data centers within FY2027 from its 2025 level, targeting a 30% share by storage capacity, up from ~10% — MANILA — Japanese technology group Toshiba plans to double production capacity for hard-di",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p6#a261004p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T05:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
