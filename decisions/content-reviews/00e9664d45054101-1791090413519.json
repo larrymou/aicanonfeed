@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "00e9664d45054101",
+  "url": "https://play.runescape.com/4",
+  "sourceName": "Hacker News Front Page",
+  "title": "We're working on a new RuneScape MMO",
+  "summary": "Article URL: https://play.runescape.com/4 Comments URL: https://news.ycombinator.com/item?id=49949588 Points: 9 # Comments: 3",
+  "pubDate": "2026-10-04T01:12:22.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces a new RuneScape MMO, a video game, not an AI model, research, industry, policy, or OSS AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://play.runescape.com/4 Comments URL: https://news.ycombinator.com/item?id=49949588 Points: 9 # Comments: 3",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://play.runescape.com/4",
+    "linkHost": "play.runescape.com",
+    "pubDate": "2026-10-04T01:12:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
