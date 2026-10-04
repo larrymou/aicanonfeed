@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791141602837-mne4sg",
+  "urlHash": "78239cd208372aef",
+  "url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+  "sourceName": "Hacker News Front Page",
+  "title": "Blindsight (Watts Novel)",
+  "summary": "Article URL: https://en.wikipedia.org/wiki/Blindsight_(Watts_novel) Comments URL: https://news.ycombinator.com/item?id=49955297 Points: 52 # Comments: 41",
+  "pubDate": "2026-10-04T16:25:17.000Z",
+  "decidedAt": "2026-10-04T19:20:11.795Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Wikipedia article about a science-fiction novel (Blindsight by Watts); it is not an AI model release, research result, industry event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://en.wikipedia.org/wiki/Blindsight_(Watts_novel) Comments URL: https://news.ycombinator.com/item?id=49955297 Points: 52 # Comments: 41",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+    "linkHost": "en.wikipedia.org",
+    "pubDate": "2026-10-04T16:25:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
