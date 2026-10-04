@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791090379275-15dgpy",
+  "urlHash": "bebe6dfa03be9cfd",
+  "url": "https://www.techmeme.com/261004/p2#a261004p2",
+  "sourceName": "Techmeme",
+  "title": "Valley National Bancorp agrees to acquire New Jersey-based Bluevine, which provides digital banking and payments services for 175K SMBs in the US, for $340M (Meir Orbach/CTech)",
+  "summary": "Meir Orbach / CTech: Valley National Bancorp agrees to acquire New Jersey-based Bluevine, which provides digital banking and payments services for 175K SMBs in the US, for $340M — The acquisition will give the bank a digital small business platform while accelerating its technolo",
+  "pubDate": "2026-10-04T04:40:01.000Z",
+  "decidedAt": "2026-10-04T05:06:26.563Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a fintech/banking M&A (Valley National Bancorp acquiring Bluevine, digital banking/payments for SMBs) with no AI model, research, policy, or OSS artifact. Rule 3-1 covers AI industry events; this is non-AI industry news, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meir Orbach / CTech: Valley National Bancorp agrees to acquire New Jersey-based Bluevine, which provides digital banking and payments services for 175K SMBs in the US, for $340M — The acquisition will give the bank a digital small business platform while accelerating its technolo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p2#a261004p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T04:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
