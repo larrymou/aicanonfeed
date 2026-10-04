@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791154450484-2z2qgy",
+  "urlHash": "1bc2a02077a92756",
+  "url": "https://www.techmeme.com/261004/p16#a261004p16",
+  "sourceName": "Techmeme",
+  "title": "Extracted system prompts show Meta's Muse compiles \"a page for every person in the user's life\", with facts, history, tips to improve relationships, and more (Wired)",
+  "summary": "Wired: Extracted system prompts show Meta's Muse compiles “a page for every person in the user's life”, with facts, history, tips to improve relationships, and more — Millions have downloaded Meta's AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+  "pubDate": "2026-10-04T19:30:01.000Z",
+  "decidedAt": "2026-10-04T22:54:17.985Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme/Wired report on Meta's Muse system prompts and privacy costs. No new model release action, no research artifact, no policy action, no OSS tool; not an industry business event (financing/M&A/partnership/revenue). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wired: Extracted system prompts show Meta's Muse compiles “a page for every person in the user's life”, with facts, history, tips to improve relationships, and more — Millions have downloaded Meta's AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+    "summaryChars": 273,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p16#a261004p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T19:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
