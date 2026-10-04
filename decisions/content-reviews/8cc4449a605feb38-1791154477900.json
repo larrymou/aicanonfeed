@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791154450484-2z2qgy",
+  "urlHash": "8cc4449a605feb38",
+  "url": "https://www.techmeme.com/261004/p18#a261004p18",
+  "sourceName": "Techmeme",
+  "title": "Sources: Anthropic's stock match of employee charity gifts hit $660M+ in the six months through March, likely to reach billions post-IPO, diluting shareholders (Cory Weinberg/The Information)",
+  "summary": "Cory Weinberg / The Information: Sources: Anthropic's stock match of employee charity gifts hit $660M+ in the six months through March, likely to reach billions post-IPO, diluting shareholders — When Anthropic shared financial figures recently with prospective investors in its pl",
+  "pubDate": "2026-10-04T21:35:10.000Z",
+  "decidedAt": "2026-10-04T22:54:17.985Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/financial event: Anthropic's stock match of employee charity gifts ($660M+) diluting shareholders, via a reputable media report (The Information summarized by Techmeme). Fits group 3 industry business events, not a model release, research artifact, policy action, or O",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cory Weinberg / The Information: Sources: Anthropic's stock match of employee charity gifts hit $660M+ in the six months through March, likely to reach billions post-IPO, diluting shareholders — When Anthropic shared financial figures recently with prospective investors in its pl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p18#a261004p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-04T21:35:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
