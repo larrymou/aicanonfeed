@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "228c67116e0ab041",
+  "url": "https://www.techmeme.com/261005/p24#a261005p24",
+  "sourceName": "Techmeme",
+  "title": "To comply with the EU AI Act, OpenAI plans to add text watermarking for ChatGPT and Codex users in the EU and an opt-in setting for API customers globally (OpenAI)",
+  "summary": "OpenAI: To comply with the EU AI Act, OpenAI plans to add text watermarking for ChatGPT and Codex users in the EU and an opt-in setting for API customers globally — - Starting today, API customers globally will be able to opt in to text watermarking for select models.",
+  "pubDate": "2026-10-05T16:21:02.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: To comply with the EU AI Act, OpenAI plans to add text watermarking for ChatGPT and Codex users in the EU and an opt-in setting for API customers globally — - Starting today, API customers globally will be able to opt in to text watermarking for select models.",
+    "summaryChars": 268,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261005/p24#a261005p24",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T16:21:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
