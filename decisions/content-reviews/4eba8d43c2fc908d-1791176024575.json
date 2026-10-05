@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "4eba8d43c2fc908d",
+  "url": "https://frn.sh/go-gc/",
+  "sourceName": "Hacker News Front Page",
+  "title": "A 40ms Go garbage collector pause caused by swap",
+  "summary": "Article URL: https://frn.sh/go-gc/ Comments URL: https://news.ycombinator.com/item?id=49959654 Points: 19 # Comments: 3",
+  "pubDate": "2026-10-05T01:11:56.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Go runtime/garbage collector performance article. It is not an AI model release, research result, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://frn.sh/go-gc/ Comments URL: https://news.ycombinator.com/item?id=49959654 Points: 19 # Comments: 3",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://frn.sh/go-gc/",
+    "linkHost": "frn.sh",
+    "pubDate": "2026-10-05T01:11:56.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
