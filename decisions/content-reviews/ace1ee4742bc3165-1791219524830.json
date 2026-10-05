@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "ace1ee4742bc3165",
+  "url": "https://dosdays.co.uk/topics/Software/borland_turbo_basic.php",
+  "sourceName": "Hacker News Front Page",
+  "title": "Borland Turbo Basic",
+  "summary": "Article URL: https://dosdays.co.uk/topics/Software/borland_turbo_basic.php Comments URL: https://news.ycombinator.com/item?id=49965894 Points: 63 # Comments: 32",
+  "pubDate": "2026-10-05T15:11:31.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a retro article about Borland Turbo Basic, unrelated to any AI model release, research, industry event, policy, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://dosdays.co.uk/topics/Software/borland_turbo_basic.php Comments URL: https://news.ycombinator.com/item?id=49965894 Points: 63 # Comments: 32",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://dosdays.co.uk/topics/Software/borland_turbo_basic.php",
+    "linkHost": "dosdays.co.uk",
+    "pubDate": "2026-10-05T15:11:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
