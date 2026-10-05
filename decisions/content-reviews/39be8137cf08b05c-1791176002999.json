@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "39be8137cf08b05c",
+  "url": "https://www.techmeme.com/261004/p24#a261004p24",
+  "sourceName": "Techmeme",
+  "title": "Sources: several Western open-weight models are set to launch this month, including Reflection AI's first model, which will rival top Chinese open-weight models (Bradley Olson/Axios)",
+  "summary": "Bradley Olson / Axios: Sources: several Western open-weight models are set to launch this month, including Reflection AI's first model, which will rival top Chinese open-weight models — A closely watched Nvidia-backed startup called Reflection is preparing to shake up the AI race",
+  "pubDate": "2026-10-05T03:30:01.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Techmeme/Axios media-only report on upcoming Western open-weight model launches (incl. Reflection AI's first model). No named specific model and no official owner link, so group 1 fails; media-only coverage of a model launch stays under industry per rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bradley Olson / Axios: Sources: several Western open-weight models are set to launch this month, including Reflection AI's first model, which will rival top Chinese open-weight models — A closely watched Nvidia-backed startup called Reflection is preparing to shake up the AI race",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p24#a261004p24",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T03:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
