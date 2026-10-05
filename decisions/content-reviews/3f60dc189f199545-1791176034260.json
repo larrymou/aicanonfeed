@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "3f60dc189f199545",
+  "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+  "sourceName": "Hacker News Front Page",
+  "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+  "summary": "Article URL: https://vincent.bernat.ch/en/blog/2026-http-over-ssh Comments URL: https://news.ycombinator.com/item?id=49958569 Points: 97 # Comments: 27",
+  "pubDate": "2026-10-04T22:25:10.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Content is a technical blog post about self-hosted HTTP tunnels via SSH and Nginx, not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://vincent.bernat.ch/en/blog/2026-http-over-ssh Comments URL: https://news.ycombinator.com/item?id=49958569 Points: 97 # Comments: 27",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+    "linkHost": "vincent.bernat.ch",
+    "pubDate": "2026-10-04T22:25:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
