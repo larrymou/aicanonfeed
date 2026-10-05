@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "6aafd78ad6359642",
+  "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
+  "summary": "A crucial safeguard against AI agents going rogue—keeping humans in the loop to review and approve their decisions—will fail unless designers and users change their current practices, a trio of leading AI ethics researchers argue. Though most autonomous agents have systems to kee",
+  "pubDate": "2026-10-05T15:57:11.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece on AI agent safeguards from ethics researchers; no new research artifact, model release, business event, policy action, or OSS tool announced. No active rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A crucial safeguard against AI agents going rogue—keeping humans in the loop to review and approve their decisions—will fail unless designers and users change their current practices, a trio of leading AI ethics researchers argue. Though most autonomous agents have systems to kee",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-05T15:57:11.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
