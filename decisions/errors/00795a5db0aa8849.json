@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "00795a5db0aa8849",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.0",
+  "summary": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4, qwen3.6 and qwen3.5 Dec",
+  "pubDate": "2026-10-05T00:17:06.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4, qwen3.6 and qwen3.5 Dec",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-05T00:17:06.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
