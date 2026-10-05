@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "616afaf76617f3c8",
+  "url": "https://arxiv.org/abs/2610.02330",
+  "sourceName": "arXiv cs.AI",
+  "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+  "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provid",
+  "pubDate": "2026-10-05T04:00:00.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provid",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.02330",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-05T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
