@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "df294a11bdb6826b",
+  "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+  "sourceName": "TechCrunch AI",
+  "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+  "summary": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+  "pubDate": "2026-10-05T14:35:09.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch report on researchers tracking an alleged Chinese agent swarm. No named model release, no paper/preprint or benchmark link (rule 2-1), no financing/M&A/partnership/market event (3-1), no policy action (4-1), and no OSS tool (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-05T14:35:09.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
