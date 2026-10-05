@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "d2b5b29b4c815525",
+  "url": "https://openai.com/index/eu-text-provenance",
+  "sourceName": "OpenAI Blog",
+  "title": "Our approach to EU text provenance rules",
+  "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+  "pubDate": "2026-10-05T15:00:00.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI's post describes its own approach to EU text provenance/watermarking rules, i.e. company commentary/self-regulation, not a new law, enforcement action, or official policy document (rule 4-1 excludes commentary without a policy action). No model release, research, industry deal, or OSS tool ei",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/eu-text-provenance",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-05T15:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
