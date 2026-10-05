@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "aff51c472f631795",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Distilling Stockfish on a Billion Positions, Full 3.9B Dataset Available [P]",
+  "summary": "In this project, I distilled the Stockfish value function into a ResNet/ViT model using 1 billion positions from the Gigafish dataset. The 3.9 billion position dataset is available on huggingface: https://huggingface.co/datasets/lukesalamone/gigafish-3.8b-d10 . It is built from t",
+  "pubDate": "2026-10-05T04:11:48.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In this project, I distilled the Stockfish value function into a ResNet/ViT model using 1 billion positions from the Gigafish dataset. The 3.9 billion position dataset is available on huggingface: https://huggingface.co/datasets/lukesalamone/gigafish-3.8b-d10 . It is built from t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-05T04:11:48.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
