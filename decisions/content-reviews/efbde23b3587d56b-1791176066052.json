@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "efbde23b3587d56b",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wxa2bs/nonobench_an_open_benchmark_of_49_llms_on/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Nonobench: an open benchmark of 49 LLMs on nonogram puzzles, public and open source [P]",
+  "summary": "Nonobench measures how well LLMs solve nonograms (picross). Each model gets the row and column clues once and returns the full grid. No tools, one attempt per puzzle. Method: - Standard mode: 30 puzzles from 5x5 to 15x15 (from the Nonograms dataset by Moyà-Alcover, CC BY 4.0). - ",
+  "pubDate": "2026-10-04T07:57:28.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an open benchmark of 49 LLMs on nonograms, but the only observed link is a Reddit discussion post (linkHost www.reddit.com), not the original paper, official source, repository, or official owner announcement required by R2-1 or R5-1. No rule's link condition is met from observed Conten",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nonobench measures how well LLMs solve nonograms (picross). Each model gets the row and column clues once and returns the full grid. No tools, one attempt per puzzle. Method: - Standard mode: 30 puzzles from 5x5 to 15x15 (from the Nonograms dataset by Moyà-Alcover, CC BY 4.0). - ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wxa2bs/nonobench_an_open_benchmark_of_49_llms_on/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-04T07:57:28.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
