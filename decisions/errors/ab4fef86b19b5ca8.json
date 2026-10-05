@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "ab4fef86b19b5ca8",
+  "url": "https://www.techmeme.com/261005/p23#a261005p23",
+  "sourceName": "Techmeme",
+  "title": "In a first-of-its-kind pilot in the US, Nolla Health will use AI to diagnose and prescribe acne medications to Utah patients without direct human oversight (Annika Inampudi/Bloomberg)",
+  "summary": "Annika Inampudi / Bloomberg: In a first-of-its-kind pilot in the US, Nolla Health will use AI to diagnose and prescribe acne medications to Utah patients without direct human oversight — In a first-of-its-kind pilot, Nolla Health lets AI diagnose and issue prescriptions. — An AI-",
+  "pubDate": "2026-10-05T16:10:01.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Annika Inampudi / Bloomberg: In a first-of-its-kind pilot in the US, Nolla Health will use AI to diagnose and prescribe acne medications to Utah patients without direct human oversight — In a first-of-its-kind pilot, Nolla Health lets AI diagnose and issue prescriptions. — An AI-",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261005/p23#a261005p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T16:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
