@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "6102b8ee6b1f9802",
+  "url": "https://blog.metabrainz.org/2026/10/04/picard-3-0-released/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Picard 3.0",
+  "summary": "Article URL: https://blog.metabrainz.org/2026/10/04/picard-3-0-released/ Comments URL: https://news.ycombinator.com/item?id=49965047 Points: 42 # Comments: 25",
+  "pubDate": "2026-10-05T14:03:01.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Picard 3.0 is MusicBrainz's open-source music tagger, not an AI model, research paper, industry business event, policy action, or AI developer tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.metabrainz.org/2026/10/04/picard-3-0-released/ Comments URL: https://news.ycombinator.com/item?id=49965047 Points: 42 # Comments: 25",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://blog.metabrainz.org/2026/10/04/picard-3-0-released/",
+    "linkHost": "blog.metabrainz.org",
+    "pubDate": "2026-10-05T14:03:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
