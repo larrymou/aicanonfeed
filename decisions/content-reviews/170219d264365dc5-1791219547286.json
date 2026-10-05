@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791219464254-h7xfcu",
+  "urlHash": "170219d264365dc5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wy9cty/language_barrier_shadier_terms_and_jargon_fog_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Language barrier, shadier terms and jargon fog [D]",
+  "summary": "Hey all, I don't know if you guys are experiencing the same thing, but there is this behaviour that i have been noticing on the latest models on openAI (since sol 5.6) and Anthropic since Fable 5.1 and opus 5.5 .. Basically the models use more \"complexe\" terms and words, not just",
+  "pubDate": "2026-10-05T14:02:04.000Z",
+  "decidedAt": "2026-10-05T16:57:51.545Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about vague/complex model wording; no named-model release, no research artifact, no industry/policy action, and no OSS tool announcement. No active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey all, I don't know if you guys are experiencing the same thing, but there is this behaviour that i have been noticing on the latest models on openAI (since sol 5.6) and Anthropic since Fable 5.1 and opus 5.5 .. Basically the models use more \"complexe\" terms and words, not just",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wy9cty/language_barrier_shadier_terms_and_jargon_fog_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-05T14:02:04.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
