@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791175942723-oxn8cj",
+  "urlHash": "a1a5c23452135ce1",
+  "url": "https://www.techmeme.com/261004/p21#a261004p21",
+  "sourceName": "Techmeme",
+  "title": "Q&A with Google SVP and DeepMind Institute co-director James Manyika on AI risks and why responsibility must be shared across industry, government, and society (Mishal Husain/Bloomberg)",
+  "summary": "Mishal Husain / Bloomberg: Q&A with Google SVP and DeepMind Institute co-director James Manyika on AI risks and why responsibility must be shared across industry, government, and society — The accord, which carries no legal weight, commits Anthropic, OpenAI, Nvidia, Meta, SpacexA",
+  "pubDate": "2026-10-05T00:55:01.000Z",
+  "decidedAt": "2026-10-05T04:52:33.469Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Q&A/commentary interview with Google's James Manyika on AI risks and shared responsibility; it reports no new model release, research artifact, business event, policy action, or OSS tool. Rule 4-1 excludes industry self-regulation/commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mishal Husain / Bloomberg: Q&A with Google SVP and DeepMind Institute co-director James Manyika on AI risks and why responsibility must be shared across industry, government, and society — The accord, which carries no legal weight, commits Anthropic, OpenAI, Nvidia, Meta, SpacexA",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261004/p21#a261004p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T00:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
