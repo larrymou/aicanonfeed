@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "6e44ab04ef72c346",
+  "url": "https://www.techmeme.com/261006/p30#a261006p30",
+  "sourceName": "Techmeme",
+  "title": "Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners (Sean O'Kane/TechCrunch)",
+  "summary": "Sean O'Kane / TechCrunch: Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners — When Flai was raising its seed round last year, it was just a team of three people pounding the pavement to get car d",
+  "pubDate": "2026-10-06T18:05:00.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Flai raised a $27M Series A led by Base10 Partners; this is an AI industry business financing event with a link to a reputable media report (Techmeme citing TechCrunch), matching rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sean O'Kane / TechCrunch: Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners — When Flai was raising its seed round last year, it was just a team of three people pounding the pavement to get car d",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p30#a261006p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T18:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
