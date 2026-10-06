@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "0e2fbbd86cd0b1ab",
+  "url": "https://www.techmeme.com/261006/p27#a261006p27",
+  "sourceName": "Techmeme",
+  "title": "Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit (Ryan Lawler/Axios)",
+  "summary": "Ryan Lawler / Axios: Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit — Navra, the newest startup from SoFi and Figure co-founder Mike Cagney, has raised $19 million in S",
+  "pubDate": "2026-10-06T16:35:01.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a fintech/on-chain lending startup financing round (Navra, $19M Series A). No AI model, research, policy, or OSS artifact is present, so it is not an AI industry event and no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ryan Lawler / Axios: Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit — Navra, the newest startup from SoFi and Figure co-founder Mike Cagney, has raised $19 million in S",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p27#a261006p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T16:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
