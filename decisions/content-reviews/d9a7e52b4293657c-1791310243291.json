@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "d9a7e52b4293657c",
+  "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+  "sourceName": "Wired AI",
+  "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
+  "summary": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+  "pubDate": "2026-10-06T13:15:23.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Named model Le Chonk and release action are present, but the link is a Wired article on a non-owner domain with no observed author, so the rule's evidence-link condition (official owner page or authored news article) is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-06T13:15:23.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
