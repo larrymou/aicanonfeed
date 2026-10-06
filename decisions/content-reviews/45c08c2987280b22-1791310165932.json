@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "45c08c2987280b22",
+  "url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
+  "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
+  "pubDate": "2026-10-06T15:47:02.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "AWS announces a non-model product feature launch (managing SageMaker HyperPod Spaces from SageMaker Studio) with a link to the company's own announcement blog on aws.amazon.com, matching industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-06T15:47:02.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
