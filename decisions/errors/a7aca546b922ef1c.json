@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "a7aca546b922ef1c",
+  "url": "https://www.techmeme.com/261006/p44#a261006p44",
+  "sourceName": "Techmeme",
+  "title": "Sources: SpaceX is seeking to raise $40B, including ~$10B in bank loans and ~$30B in investment-grade debt, to purchase Nvidia chips, in a deal led by Apollo (Financial Times)",
+  "summary": "Financial Times: Sources: SpaceX is seeking to raise $40B, including ~$10B in bank loans and ~$30B in investment-grade debt, to purchase Nvidia chips, in a deal led by Apollo — Blockbuster debt deal is the latest sign of the vast spending on chips and other infrastructure underpi",
+  "pubDate": "2026-10-06T23:15:00.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: SpaceX is seeking to raise $40B, including ~$10B in bank loans and ~$30B in investment-grade debt, to purchase Nvidia chips, in a deal led by Apollo — Blockbuster debt deal is the latest sign of the vast spending on chips and other infrastructure underpi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p44#a261006p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T23:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
