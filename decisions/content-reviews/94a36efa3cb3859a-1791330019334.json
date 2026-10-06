@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "94a36efa3cb3859a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wzhpnz/neurips_workshop_registration_for_registered/",
+  "sourceName": "r/MachineLearning new",
+  "title": "NeurIPS workshop registration for registered author [D]",
+  "summary": "For NeurIPS, I already registered a few months ago (for Atlanta) when there were news that Sydney is sold out. However, I forgot to register for the workshop. Now, when I go to register just for the workshop, it just says that \"This session is sold out to the general public. Auth",
+  "pubDate": "2026-10-06T23:36:51.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about NeurIPS workshop registration logistics; no model release, research result, industry business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "For NeurIPS, I already registered a few months ago (for Atlanta) when there were news that Sydney is sold out. However, I forgot to register for the workshop. Now, when I go to register just for the workshop, it just says that \"This session is sold out to the general public. Auth",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wzhpnz/neurips_workshop_registration_for_registered/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T23:36:51.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
