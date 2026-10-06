@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "a1fde7c4151f3c90",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc4",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.0-rc4: MLX: version bump (#18720)",
+  "summary": "MLX: version bump add scopes for unit tests to reduce memory usage",
+  "pubDate": "2026-10-06T00:41:51.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama release v0.40.0-rc4 is a version bump/release of an open-source AI developer tool, linked to the project's GitHub release page, matching rule 5-1 (OSS tooling release).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "MLX: version bump add scopes for unit tests to reduce memory usage",
+    "summaryChars": 66,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc4",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-06T00:41:51.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
