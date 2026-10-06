@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "1c621f0a19b2a450",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wyw0my/swerace_a_codingagent_benchmark_of_188_real/",
+  "sourceName": "r/MachineLearning new",
+  "title": "SWE-Race: a coding-agent benchmark of 188 real concurrency bugs, with results from three models [P]",
+  "summary": "We've been building a benchmark out of real concurrency bugs (race conditions, deadlocks, cancellation issues) taken from merged PRs in about 100 Python projects. Each task gets graded by the project's own tests, in a container with no network, and the repo is cut down to a singl",
+  "pubDate": "2026-10-06T07:03:22.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes a new coding-agent benchmark (research artifact), but the only link is a reddit.com community post; no original paper or official source/repo link is observed, and linked_page_owner_domain is 'not observed', so rule 2-1's official-source condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We've been building a benchmark out of real concurrency bugs (race conditions, deadlocks, cancellation issues) taken from merged PRs in about 100 Python projects. Each task gets graded by the project's own tests, in a container with no network, and the repo is cut down to a singl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wyw0my/swerace_a_codingagent_benchmark_of_188_real/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T07:03:22.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
