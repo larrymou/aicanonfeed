@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "2f48f6407f2c02a2",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wz71g3/transformers_vs_rnns_vs_ssms_where_does_memory/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Transformers vs RNNs vs SSMs: Where Does Memory Actually Live? [D]",
+  "summary": "Someone who has always loved looking at the space between different AI techniques, this time I went a little deeper into the memory trade-offs between RNNs, Transformers and SSMs. I found it interesting because once you start looking at these architectures through the lens of wor",
+  "pubDate": "2026-10-06T16:27:09.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [D] discussion post on memory trade-offs in RNNs/Transformers/SSMs. No named model release, no paper or official research artifact link, no industry/policy/tooling event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Someone who has always loved looking at the space between different AI techniques, this time I went a little deeper into the memory trade-offs between RNNs, Transformers and SSMs. I found it interesting because once you start looking at these architectures through the lens of wor",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wz71g3/transformers_vs_rnns_vs_ssms_where_does_memory/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T16:27:09.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
