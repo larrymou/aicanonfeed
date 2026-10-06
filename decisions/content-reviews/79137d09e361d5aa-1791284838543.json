@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "79137d09e361d5aa",
+  "url": "https://www.techmeme.com/261006/p11#a261006p11",
+  "sourceName": "Techmeme",
+  "title": "Sources: Kuaishou's Kling selects banks to lead a Hong Kong IPO aiming to raise $1B+ as early as 2027; Kling hit a $15B valuation after raising $2.8B in July (Bloomberg)",
+  "summary": "Bloomberg: Sources: Kuaishou's Kling selects banks to lead a Hong Kong IPO aiming to raise $1B+ as early as 2027; Kling hit a $15B valuation after raising $2.8B in July — Kuaishou Technology's Kling AI has picked banks for a Hong Kong initial public offering that could raise at l",
+  "pubDate": "2026-10-06T10:40:00.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Bloomberg/Techmeme report on Kuaishou's Kling selecting banks for a Hong Kong IPO raising $1B+, a financing/market event; covered by reputable media with a link, matching industry business events rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Kuaishou's Kling selects banks to lead a Hong Kong IPO aiming to raise $1B+ as early as 2027; Kling hit a $15B valuation after raising $2.8B in July — Kuaishou Technology's Kling AI has picked banks for a Hong Kong initial public offering that could raise at l",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p11#a261006p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T10:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
