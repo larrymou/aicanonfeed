@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "3dec8d85fd7dba63",
+  "url": "https://www.techmeme.com/261006/p12#a261006p12",
+  "sourceName": "Techmeme",
+  "title": "SignSplit, which offers infrastructure to let people digitally sign datasets, likenesses, and creative works, raised $400M from W Group at a $1B valuation (Mike Wheatley/SiliconANGLE)",
+  "summary": "Mike Wheatley / SiliconANGLE: SignSplit, which offers infrastructure to let people digitally sign datasets, likenesses, and creative works, raised $400M from W Group at a $1B valuation — Few technology companies can help users to protect and monetize their personal data for artif",
+  "pubDate": "2026-10-06T10:45:02.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mike Wheatley / SiliconANGLE: SignSplit, which offers infrastructure to let people digitally sign datasets, likenesses, and creative works, raised $400M from W Group at a $1B valuation — Few technology companies can help users to protect and monetize their personal data for artif",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p12#a261006p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T10:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
