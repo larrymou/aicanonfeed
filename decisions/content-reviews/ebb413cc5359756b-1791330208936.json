@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "ebb413cc5359756b",
+  "url": "https://openai.com/index/jump-trading",
+  "sourceName": "OpenAI Blog",
+  "title": "How Jump Trading is scaling quant research with ChatGPT",
+  "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+  "pubDate": "2026-10-06T12:00:00.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Jump Trading using ChatGPT. No named model release, no research artifact, no business event (financing/M&A/partnership/product launch), no policy action, and no open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/jump-trading",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
