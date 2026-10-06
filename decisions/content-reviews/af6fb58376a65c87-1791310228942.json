@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "af6fb58376a65c87",
+  "url": "https://peterszentkiralyi.eu/darkplug/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+  "summary": "I am a film photographer and do some darkroom printing and always wanted one of the proper, advanced f-stop timers, but never really wanted to spend a couple hundred dollars on one. Eventually I figured my phone was already perfectly capable of doing the timing, it just needed a ",
+  "pubDate": "2026-10-06T13:58:07.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN project is a film-photography darkroom f-stop timer built with an iPhone and smart plug; it is not an AI model release, research result, AI industry event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I am a film photographer and do some darkroom printing and always wanted one of the proper, advanced f-stop timers, but never really wanted to spend a couple hundred dollars on one. Eventually I figured my phone was already perfectly capable of doing the timing, it just needed a ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://peterszentkiralyi.eu/darkplug/",
+    "linkHost": "peterszentkiralyi.eu",
+    "pubDate": "2026-10-06T13:58:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
