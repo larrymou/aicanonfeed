@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "f0d6fc75a6496520",
+  "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Resurrecting iChat Audio and Video Conferencing",
+  "summary": "Article URL: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/ Comments URL: https://news.ycombinator.com/item?id=49973878 Points: 56 # Comments: 13",
+  "pubDate": "2026-10-06T03:39:01.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers resurrecting Apple iChat audio/video conferencing, a retro-computing blog post. It is not an AI model release, research, industry, policy, or open-source AI tooling item, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/ Comments URL: https://news.ycombinator.com/item?id=49973878 Points: 56 # Comments: 13",
+    "summaryChars": 186,
+    "summarySource": "summary",
+    "link": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+    "linkHost": "blog.pipetogrep.org",
+    "pubDate": "2026-10-06T03:39:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
