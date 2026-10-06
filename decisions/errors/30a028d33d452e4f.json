@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "30a028d33d452e4f",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.0",
+  "summary": "routes: fix embed 413 vs 400 routing (#18822)",
+  "pubDate": "2026-10-06T17:46:39.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "routes: fix embed 413 vs 400 routing (#18822)",
+    "summaryChars": 45,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-06T17:46:39.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
