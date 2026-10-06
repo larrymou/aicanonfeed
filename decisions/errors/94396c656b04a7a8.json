@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "94396c656b04a7a8",
+  "url": "https://www.techmeme.com/261006/p45#a261006p45",
+  "sourceName": "Techmeme",
+  "title": "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions \"across the board\"; pricing is ~50% lower vs. Nano Banana 2 (Matthias Bastian/The Decoder)",
+  "summary": "Matthias Bastian / The Decoder: Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions “across the board”; pricing is ~50% lower vs. Nano Banana 2 — Google has released Nano Banana 2.1, a new model for image generation and editing.",
+  "pubDate": "2026-10-06T23:20:01.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matthias Bastian / The Decoder: Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions “across the board”; pricing is ~50% lower vs. Nano Banana 2 — Google has released Nano Banana 2.1, a new model for image generation and editing.",
+    "summaryChars": 276,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p45#a261006p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T23:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
