@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "df9e799a874b2dab",
+  "url": "https://edworkingpapers.com/ai26-1551",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI Tutoring with Khanmigo in a Two-Year School Experiment",
+  "summary": "Article URL: https://edworkingpapers.com/ai26-1551 Comments URL: https://news.ycombinator.com/item?id=49972419 Points: 20 # Comments: 9",
+  "pubDate": "2026-10-06T00:00:45.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://edworkingpapers.com/ai26-1551 Comments URL: https://news.ycombinator.com/item?id=49972419 Points: 20 # Comments: 9",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://edworkingpapers.com/ai26-1551",
+    "linkHost": "edworkingpapers.com",
+    "pubDate": "2026-10-06T00:00:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
