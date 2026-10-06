@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "eca4ea10059ec850",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wzbe6r/afpgic_controllable_generative_image_compression_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "AFP-GIC: Controllable Generative Image Compression [R]",
+  "summary": "Hi ML Community, I am excited to share our latest framework, AFP-GIC, officially published in IEEE Access (2026). We have released the deployment codebase and hosted an interactive visual playground. GitHub Repository: https://github.com/yifeipet/AFP_GIC Hugging Face Interactive ",
+  "pubDate": "2026-10-06T19:12:58.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "Item reports a new AI research result (AFP-GIC framework published in IEEE Access 2026) with an official source link to the authors' GitHub repository in the summary, matching rule 2-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi ML Community, I am excited to share our latest framework, AFP-GIC, officially published in IEEE Access (2026). We have released the deployment codebase and hosted an interactive visual playground. GitHub Repository: https://github.com/yifeipet/AFP_GIC Hugging Face Interactive ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wzbe6r/afpgic_controllable_generative_image_compression_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T19:12:58.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
