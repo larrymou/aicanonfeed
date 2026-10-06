@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "c22e611841e5fd12",
+  "url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+  "sourceName": "Wired AI",
+  "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+  "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”",
+  "pubDate": "2026-10-06T10:30:00.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Podcast interview about an author not using AI to write his book. No named model release, research artifact, business event, policy action, or OSS tool; no active rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”",
+    "summaryChars": 114,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-06T10:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
