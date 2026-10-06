@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "823f5806e1392bfb",
+  "url": "https://www.techmeme.com/261006/p41#a261006p41",
+  "sourceName": "Techmeme",
+  "title": "Gurman: Apple's upcoming smart home products co-developed with LG are \"at least a few more months\" away; LG is handling manufacturing and product support (Marcus Mendes/9to5Mac)",
+  "summary": "Marcus Mendes / 9to5Mac: Gurman: Apple's upcoming smart home products co-developed with LG are “at least a few more months” away; LG is handling manufacturing and product support — Bloomberg reports that Apple's plans for smart home products include devices, sensors, and cameras ",
+  "pubDate": "2026-10-06T21:50:03.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Apple smart home hardware co-developed with LG, not an AI model release, AI research, AI policy, or open-source tooling; it is not an AI industry business event, and the link is an aggregator (Techmeme), not an official or original-source announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Marcus Mendes / 9to5Mac: Gurman: Apple's upcoming smart home products co-developed with LG are “at least a few more months” away; LG is handling manufacturing and product support — Bloomberg reports that Apple's plans for smart home products include devices, sensors, and cameras ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p41#a261006p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T21:50:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
