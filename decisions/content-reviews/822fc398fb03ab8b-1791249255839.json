@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "822fc398fb03ab8b",
+  "url": "https://armstr.ng/writing/worth-building",
+  "sourceName": "Hacker News Front Page",
+  "title": "Worth Building",
+  "summary": "Article URL: https://armstr.ng/writing/worth-building Comments URL: https://news.ycombinator.com/item?id=49971952 Points: 32 # Comments: 19",
+  "pubDate": "2026-10-05T22:59:24.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'Worth Building' and link to a personal blog give no evidence of a named AI model release, research artifact, industry business event, policy action, or open-source tool. No active rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://armstr.ng/writing/worth-building Comments URL: https://news.ycombinator.com/item?id=49971952 Points: 32 # Comments: 19",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://armstr.ng/writing/worth-building",
+    "linkHost": "armstr.ng",
+    "pubDate": "2026-10-05T22:59:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
