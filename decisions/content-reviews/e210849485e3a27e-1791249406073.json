@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "e210849485e3a27e",
+  "url": "https://arxiv.org/abs/2610.02331",
+  "sourceName": "arXiv cs.AI",
+  "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+  "summary": "arXiv:2610.02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as intervening on an existi",
+  "pubDate": "2026-10-05T04:00:00.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (cs.AI) presenting a new research formulation of world editing for executable world models; link points to the original arXiv paper, satisfying rule 2-1 for new AI research results.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as intervening on an existi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.02331",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-05T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
