@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "26ad167a3d506a67",
+  "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+  "sourceName": "Ars Technica AI",
+  "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+  "summary": "The tool can free up over 12GB of storage.",
+  "pubDate": "2026-10-05T19:14:44.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a third-party CLI utility removing Apple Intelligence; no named AI model release (R1), no research artifact (R2), no industry business event (R3), no policy action (R4), and R5 requires a repository/official announcement link, but link is a media article with no open-source/repo evidence",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The tool can free up over 12GB of storage.",
+    "summaryChars": 42,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-05T19:14:44.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
