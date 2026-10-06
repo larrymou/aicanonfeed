@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "2896758265cec81d",
+  "url": "https://openai.com/index/atlassian-partnership",
+  "sourceName": "OpenAI Blog",
+  "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+  "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+  "pubDate": "2026-10-06T16:00:00.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: Atlassian and OpenAI expanding their partnership, with a link to the official announcement on openai.com. This is a partnership, covered by rule 3-1 (not a model/capability release or OSS tooling).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/atlassian-partnership",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-06T16:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
