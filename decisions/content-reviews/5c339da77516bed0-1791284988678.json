@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "5c339da77516bed0",
+  "url": "https://spectrum.ieee.org/millennium-prize-ai",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+  "summary": "On 13 September, leading luminaries and up-and-coming talents in mathematics and computer science congregated at the annual Heidelberg Laureate Forum in Germany for a week of discussion, networking, and—naturally—wurst. Having attended several of these events in the past, the mat",
+  "pubDate": "2026-10-05T12:00:02.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media news article (IEEE Spectrum) about AI solving a math problem, but no named model release (R1), no link to an original paper/arXiv/official research source (R2), and no business, policy, or OSS tooling event (R3/R4/R5). No rule conditions met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On 13 September, leading luminaries and up-and-coming talents in mathematics and computer science congregated at the annual Heidelberg Laureate Forum in Germany for a week of discussion, networking, and—naturally—wurst. Having attended several of these events in the past, the mat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/millennium-prize-ai",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-05T12:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
