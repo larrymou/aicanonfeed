@@ -1,18 +1,23 @@
 {
-  "runId": "run-1791310069086-88bcp2",
+  "runId": "run-1791330001000-g9m8uv",
   "urlHash": "183fcacc2014829e",
   "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
   "sourceName": "TechCrunch AI",
   "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
   "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
   "pubDate": "2026-10-06T14:33:16.000Z",
-  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
-  "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "reason": "Title/summary name Mistral Large 4 from Mistral AI and state it was released (multimodal), so a model release is indicated. But the link is techcrunch.com, not Mistral's own domain, and linked_page_author is not observed, so rule 1-1's evidence-link condition (named author for a non-owner news artic",
+  "evidenceStatus": "needs_verification",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
