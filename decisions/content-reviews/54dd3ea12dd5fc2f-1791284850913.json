@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "54dd3ea12dd5fc2f",
+  "url": "https://www.techmeme.com/261006/p9#a261006p9",
+  "sourceName": "Techmeme",
+  "title": "At an Australian hearing, OpenAI Chief Strategy Officer Jason Kwon pledged faster safety incident disclosures; Anthropic representatives made similar pledges (ABC)",
+  "summary": "ABC: At an Australian hearing, OpenAI Chief Strategy Officer Jason Kwon pledged faster safety incident disclosures; Anthropic representatives made similar pledges — By national AI reporter Cam Wilson and the Specialist Reporting Team's Miwa Blumer — abc.net.au/news/openai-hearing",
+  "pubDate": "2026-10-06T10:11:38.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports company pledges at an Australian hearing, i.e. voluntary industry self-regulation, not a new law, executive order, enforcement action, or official policy announcement under rule 4-1. No model release, research artifact, business event, or OSS tool applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ABC: At an Australian hearing, OpenAI Chief Strategy Officer Jason Kwon pledged faster safety incident disclosures; Anthropic representatives made similar pledges — By national AI reporter Cam Wilson and the Specialist Reporting Team's Miwa Blumer — abc.net.au/news/openai-hearing",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p9#a261006p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T10:11:38.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
