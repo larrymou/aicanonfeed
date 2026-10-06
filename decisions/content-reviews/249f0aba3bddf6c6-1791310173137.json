@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "249f0aba3bddf6c6",
+  "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+  "sourceName": "TechCrunch AI",
+  "title": "LibreOffice says ‘no AI’ is now a software feature",
+  "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+  "pubDate": "2026-10-06T15:25:00.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "LibreOffice announcing it will not add AI is commentary/product stance, not a model release, research artifact, business event, policy action, or new open-source AI tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-06T15:25:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
