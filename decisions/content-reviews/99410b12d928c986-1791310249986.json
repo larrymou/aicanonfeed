@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "99410b12d928c986",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wz0fzf/neurips_2026_financial_assistance_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "NeurIPS 2026 Financial Assistance [D]",
+  "summary": "Is anyone else unable to open the form for financial assistance despite the deadline still being in the future? submitted by /u/lcj29 [link] [comments]",
+  "pubDate": "2026-10-06T11:44:36.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about a NeurIPS 2026 financial assistance form/deadline. No named model release, no research artifact, no industry business event, no policy action, no open-source tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Is anyone else unable to open the form for financial assistance despite the deadline still being in the future? submitted by /u/lcj29 [link] [comments]",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wz0fzf/neurips_2026_financial_assistance_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T11:44:36.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
