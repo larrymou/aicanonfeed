@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "1777bce77094a924",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wy2irf/withdrawing_an_accepted_paper_before_cameraready/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Withdrawing an accepted paper before camera-ready due to zero funding? (ACML 2026 / OpenReview) [D]",
+  "summary": "Hi everyone, I recently had a paper accepted at ACML 2026, but I just found out that I have absolutely no funding to cover the registration fee or travel expenses. Because of this, I need to withdraw the paper before the camera-ready deadline. I am unsure how common this is or th",
+  "pubDate": "2026-10-05T07:40:27.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about withdrawing an accepted ACML 2026 paper due to lack of funding. No new AI model release, research artifact/paper link, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi everyone, I recently had a paper accepted at ACML 2026, but I just found out that I have absolutely no funding to cover the registration fee or travel expenses. Because of this, I need to withdraw the paper before the camera-ready deadline. I am unsure how common this is or th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wy2irf/withdrawing_an_accepted_paper_before_cameraready/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-05T07:40:27.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
