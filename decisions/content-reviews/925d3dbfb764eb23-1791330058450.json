@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "925d3dbfb764eb23",
+  "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+  "sourceName": "TechCrunch AI",
+  "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+  "summary": "The startup crossed over $1 million in anualized revenue within two months of its post-pivot launch.",
+  "pubDate": "2026-10-06T22:34:03.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a startup financing round (Melius raising $20M), but Content provides no evidence the company or platform is AI-related. The 'AI industry business event' condition of rule 3-1 cannot be established, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The startup crossed over $1 million in anualized revenue within two months of its post-pivot launch.",
+    "summaryChars": 100,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-06T22:34:03.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
