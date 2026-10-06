@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "67d2baa10e8a3ba5",
+  "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+  "sourceName": "Ars Technica AI",
+  "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+  "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+  "pubDate": "2026-10-06T20:50:32.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report that OpenAI will watermark ChatGPT outputs by default in the EU. No named-model release/major version/new capability (1-1), no research artifact (2-1), not financing/M&A/partnership/product launch (3-1), no government policy action (4-1), and no OSS tool (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+    "summaryChars": 81,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-06T20:50:32.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
