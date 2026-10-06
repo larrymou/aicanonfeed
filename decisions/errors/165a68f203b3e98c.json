@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "165a68f203b3e98c",
+  "url": "https://www.techmeme.com/261006/p26#a261006p26",
+  "sourceName": "Techmeme",
+  "title": "Anthropic expands its Claude Startups program, including up to $45K in discounts and credits via the Claude Startup Stack and a one-time $1,000 API credit (Ashley Capoot/CNBC)",
+  "summary": "Ashley Capoot / CNBC: Anthropic expands its Claude Startups program, including up to $45K in discounts and credits via the Claude Startup Stack and a one-time $1,000 API credit — Anthropic on Tuesday announced it's expanding its Claude Startups program, the artificial intelligenc",
+  "pubDate": "2026-10-06T16:30:02.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ashley Capoot / CNBC: Anthropic expands its Claude Startups program, including up to $45K in discounts and credits via the Claude Startup Stack and a one-time $1,000 API credit — Anthropic on Tuesday announced it's expanding its Claude Startups program, the artificial intelligenc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p26#a261006p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T16:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
