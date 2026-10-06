@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "c16bdce783746578",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wypbnf/embedding_every_font_with_neural_networks_makes/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Embedding Every Font with Neural Networks makes some Nice Structures (including a flower) [P]",
+  "summary": "I've been working on a font searching tool for about a year now, and my investigations have centered around pre-training neural networks to produce embeddings of each font. I usually then need to post-train the networks to adapt them to the task of font searching. However, the mo",
+  "pubDate": "2026-10-06T00:51:26.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit project showcase about font embeddings; no named model release, no paper/arXiv or benchmark link, and no repository or official announcement link, so no rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I've been working on a font searching tool for about a year now, and my investigations have centered around pre-training neural networks to produce embeddings of each font. I usually then need to post-train the networks to adapt them to the task of font searching. However, the mo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wypbnf/embedding_every_font_with_neural_networks_makes/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T00:51:26.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
