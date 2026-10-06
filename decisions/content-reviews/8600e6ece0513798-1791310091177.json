@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "8600e6ece0513798",
+  "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+  "sourceName": "Wired AI",
+  "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
+  "summary": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems.",
+  "pubDate": "2026-10-06T17:28:33.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media commentary about OpenAI and mathematicians; no model release, no paper/official research link, no business/policy action. No rule conditions met from observed Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems.",
+    "summaryChars": 179,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-06T17:28:33.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
