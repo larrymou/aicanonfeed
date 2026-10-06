@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "f2e7d38e6a8b0b90",
+  "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+  "sourceName": "TechCrunch AI",
+  "title": "Hark releases an AI personal assistant with a focus on privacy",
+  "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+  "pubDate": "2026-10-06T18:22:45.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-06T18:22:45.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
