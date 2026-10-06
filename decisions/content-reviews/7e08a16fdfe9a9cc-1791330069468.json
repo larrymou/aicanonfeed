@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "7e08a16fdfe9a9cc",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wzeszo/ml_phd_without_a_publications_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ML PHD without A* Publications [D]",
+  "summary": "I know top ML PhD admissions are insanely competitive, so I’m trying to figure out if it’s even worth applying or if I should just focus seriously on jobs instead. For context, I’m doing my MS at a top-15 US university and have been doing ML research for a while. I’m first author",
+  "pubDate": "2026-10-06T21:26:18.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for advice on ML PhD admissions without top publications; no named model release, research artifact, industry business event, policy action, or open-source tool announced. No rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I know top ML PhD admissions are insanely competitive, so I’m trying to figure out if it’s even worth applying or if I should just focus seriously on jobs instead. For context, I’m doing my MS at a top-15 US university and have been doing ML research for a while. I’m first author",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wzeszo/ml_phd_without_a_publications_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-06T21:26:18.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
