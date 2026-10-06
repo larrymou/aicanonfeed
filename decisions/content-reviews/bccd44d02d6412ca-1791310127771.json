@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "bccd44d02d6412ca",
+  "url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
+  "sourceName": "The Verge AI",
+  "title": "We can’t just change the definition of ‘recording’",
+  "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much",
+  "pubDate": "2026-10-06T16:29:44.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion column about AI hardware and the definition of 'recording'. No named model release, no research artifact, no business event, no policy action, and no OSS tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-06T16:29:44.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
