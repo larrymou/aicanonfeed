@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "cd2dbe2a09fbd911",
+  "url": "https://www.techmeme.com/261005/p32#a261005p32",
+  "sourceName": "Techmeme",
+  "title": "SpaceX stock closes up 7.6% after Morgan Stanley called SPCX \"cheap\", reaching its highest level since mid-June and returning Elon Musk to trillionaire status (Lora Kolodny/CNBC)",
+  "summary": "Lora Kolodny / CNBC: SpaceX stock closes up 7.6% after Morgan Stanley called SPCX “cheap”, reaching its highest level since mid-June and returning Elon Musk to trillionaire status — SpaceX shares rose almost 8% on Monday, reaching their highest since mid-June, shortly after Elon ",
+  "pubDate": "2026-10-05T20:45:01.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a stock-market report about SpaceX shares rising after a Morgan Stanley note. It is not an AI model release, AI research, AI policy, AI tooling, nor an AI industry business event, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lora Kolodny / CNBC: SpaceX stock closes up 7.6% after Morgan Stanley called SPCX “cheap”, reaching its highest level since mid-June and returning Elon Musk to trillionaire status — SpaceX shares rose almost 8% on Monday, reaching their highest since mid-June, shortly after Elon ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261005/p32#a261005p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T20:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
