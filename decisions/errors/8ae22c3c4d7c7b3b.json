@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "8ae22c3c4d7c7b3b",
+  "url": "https://www.techmeme.com/261005/p30#a261005p30",
+  "sourceName": "Techmeme",
+  "title": "NY-based Reflection unveils Beam, an open model it claims rivals GLM 5.2 on reasoning while using 3x-4x less compute and approaches Qwen3.8-Max on agentic tasks (Semafor)",
+  "summary": "Semafor: NY-based Reflection unveils Beam, an open model it claims rivals GLM 5.2 on reasoning while using 3x-4x less compute and approaches Qwen3.8-Max on agentic tasks — Reflection AI, the startup billing itself as America's answer to open-source Chinese AI, is releasing its fi",
+  "pubDate": "2026-10-05T19:25:01.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Semafor: NY-based Reflection unveils Beam, an open model it claims rivals GLM 5.2 on reasoning while using 3x-4x less compute and approaches Qwen3.8-Max on agentic tasks — Reflection AI, the startup billing itself as America's answer to open-source Chinese AI, is releasing its fi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261005/p30#a261005p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T19:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
