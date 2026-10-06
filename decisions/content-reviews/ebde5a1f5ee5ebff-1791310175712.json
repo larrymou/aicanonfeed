@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791310069086-88bcp2",
+  "urlHash": "ebde5a1f5ee5ebff",
+  "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Early History of Smalltalk (1993)",
+  "summary": "Article URL: https://worrydream.com/EarlyHistoryOfSmalltalk/ Comments URL: https://news.ycombinator.com/item?id=49979845 Points: 56 # Comments: 12",
+  "pubDate": "2026-10-06T15:19:57.000Z",
+  "decidedAt": "2026-10-06T18:07:59.820Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Historical article on Smalltalk (1993); not an AI model release, research result, industry event, policy action, or OSS AI tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://worrydream.com/EarlyHistoryOfSmalltalk/ Comments URL: https://news.ycombinator.com/item?id=49979845 Points: 56 # Comments: 12",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+    "linkHost": "worrydream.com",
+    "pubDate": "2026-10-06T15:19:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
