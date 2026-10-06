@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "d0c284cb68a2d3c1",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
+  "sourceName": "vLLM releases",
+  "title": "v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
+  "summary": "Signed-off-by: Cam Quilici cjquilici@gmail.com cameron@semianalysis.com cameron@semianalysis.com nickhill123@gmail.com yifanqiao@inferact.ai",
+  "pubDate": "2026-10-06T18:52:05.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Signed-off-by: Cam Quilici cjquilici@gmail.com cameron@semianalysis.com cameron@semianalysis.com nickhill123@gmail.com yifanqiao@inferact.ai",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-06T18:52:05.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
