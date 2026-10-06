@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "c11a83f73b42d756",
+  "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+  "summary": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+  "pubDate": "2026-10-06T19:57:04.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Forced reject: citation not observed (summary)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "summaryChars": 65,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-06T19:57:04.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
