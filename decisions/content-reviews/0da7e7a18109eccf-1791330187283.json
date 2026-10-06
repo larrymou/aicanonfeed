@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "0da7e7a18109eccf",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.0-rc6: model: add multimodal embeddings (#18820)",
+  "summary": "Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.",
+  "pubDate": "2026-10-06T15:08:38.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama open-source framework update (v0.40.0-rc6) adding EmbeddingGemma2Model multimodal embeddings and /api/embed media input; the link is the project's GitHub repository release page, matching the OSS/framework release rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.",
+    "summaryChars": 222,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-06T15:08:38.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
