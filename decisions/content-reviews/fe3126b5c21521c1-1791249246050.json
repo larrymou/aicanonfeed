@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791249183837-bos8wf",
+  "urlHash": "fe3126b5c21521c1",
+  "url": "https://www.techmeme.com/261005/p34#a261005p34",
+  "sourceName": "Techmeme",
+  "title": "Sources: AI inference-chip startup Etched is in early talks to raise funding at a $40B-$50B valuation, up from $21B in August (Marina Temkin/TechCrunch)",
+  "summary": "Marina Temkin / TechCrunch: Sources: AI inference-chip startup Etched is in early talks to raise funding at a $40B-$50B valuation, up from $21B in August — Although it's only been a couple of months since Etched raised $700 million at a $21 billion valuation, the AI chip startup ",
+  "pubDate": "2026-10-05T23:25:02.000Z",
+  "decidedAt": "2026-10-06T01:13:13.871Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports AI industry business event: AI inference-chip startup Etched in early talks to raise funding at a $40B-$50B valuation, citing TechCrunch sources. Financing event, covered by industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Marina Temkin / TechCrunch: Sources: AI inference-chip startup Etched is in early talks to raise funding at a $40B-$50B valuation, up from $21B in August — Although it's only been a couple of months since Etched raised $700 million at a $21 billion valuation, the AI chip startup ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261005/p34#a261005p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-05T23:25:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
