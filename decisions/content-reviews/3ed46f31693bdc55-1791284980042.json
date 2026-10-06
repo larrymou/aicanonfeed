@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791284813189-c0j8b4",
+  "urlHash": "3ed46f31693bdc55",
+  "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+  "sourceName": "Ars Technica AI",
+  "title": "AI glasses face their first major government crackdown",
+  "summary": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+  "pubDate": "2026-10-05T13:39:30.000Z",
+  "decidedAt": "2026-10-06T11:07:03.748Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "Item reports government regulatory action: Norway's crackdown and intent to write permanent rules for AI glasses that can record bystanders. This is an official policy/regulatory event covered by reputable source Ars Technica, matching rule 4-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+    "summaryChars": 82,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-05T13:39:30.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
