@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791330001000-g9m8uv",
+  "urlHash": "93f8bddd14f057c3",
+  "url": "https://www.techmeme.com/261006/p42#a261006p42",
+  "sourceName": "Techmeme",
+  "title": "OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage (OpenAI)",
+  "summary": "OpenAI: OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage — We're releasing a broad range of new mathematical results produced by an internal frontier model.",
+  "pubDate": "2026-10-06T22:30:01.000Z",
+  "decidedAt": "2026-10-06T23:40:18.312Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule matches. Rule 1-1 fails: no specific model name ('internal model') and link is Techmeme, not an official owner announcement; no named author/date for a qualifying news article. Rule 2-1 fails: link is a Techmeme aggregator, not the original paper or official source.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage — We're releasing a broad range of new mathematical results produced by an internal frontier model.",
+    "summaryChars": 267,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p42#a261006p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-06T22:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
