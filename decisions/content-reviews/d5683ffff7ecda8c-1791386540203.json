@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "d5683ffff7ecda8c",
+  "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI-assisted proof of optimal packing for 11 squares",
+  "summary": "Article URL: https://github.com/Queuingtheorydotcom/11SquaresFormalized Comments URL: https://news.ycombinator.com/item?id=49993121 Points: 15 # Comments: 8",
+  "pubDate": "2026-10-07T14:10:55.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub repo link for an AI-assisted formalized packing proof is not a named-model release (1-1), not a peer-reviewed paper/arXiv preprint/benchmark release (2-1), not an industry business event (3-1), not policy (4-1), and not an open-source tool/framework/dev resource (5-1). No active rule covers i",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/Queuingtheorydotcom/11SquaresFormalized Comments URL: https://news.ycombinator.com/item?id=49993121 Points: 15 # Comments: 8",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-07T14:10:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
