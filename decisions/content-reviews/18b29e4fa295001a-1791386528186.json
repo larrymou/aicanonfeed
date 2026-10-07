@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "18b29e4fa295001a",
+  "url": "https://www.techmeme.com/261007/p22#a261007p22",
+  "sourceName": "Techmeme",
+  "title": "Amazon's Ring unveils the $249 Ring Smart Lock, which uses a physical dial to recharge the battery when turned, set for a Q1 2027 launch, and five new cameras (Chris Welch/Bloomberg)",
+  "summary": "Chris Welch / Bloomberg: Amazon's Ring unveils the $249 Ring Smart Lock, which uses a physical dial to recharge the battery when turned, set for a Q1 2027 launch, and five new cameras — Amazon.com Inc.'s Ring brand unveiled its first smart lock, with an innovative feature that ad",
+  "pubDate": "2026-10-07T14:15:05.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Amazon Ring's consumer smart lock and cameras, not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool. No active rule covers this non-AI product announcement, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Welch / Bloomberg: Amazon's Ring unveils the $249 Ring Smart Lock, which uses a physical dial to recharge the battery when turned, set for a Q1 2027 launch, and five new cameras — Amazon.com Inc.'s Ring brand unveiled its first smart lock, with an innovative feature that ad",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p22#a261007p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T14:15:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
