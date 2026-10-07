@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "bc5e8eb1fb6de52e",
+  "url": "https://www.techmeme.com/261006/p51#a261006p51",
+  "sourceName": "Techmeme",
+  "title": "A September 24 cyberattack on Arizona's court system stole PII for 1.3M people, including 30K orders of protection and 150K reports from a foster care board (Associated Press)",
+  "summary": "Associated Press: A September 24 cyberattack on Arizona's court system stole PII for 1.3M people, including 30K orders of protection and 150K reports from a foster care board — A cyberattack on Arizona's court system stole personal information for more than a million people and i",
+  "pubDate": "2026-10-07T03:10:01.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a cyberattack on Arizona's court system stealing PII. It is not a model release, AI research, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Associated Press: A September 24 cyberattack on Arizona's court system stole PII for 1.3M people, including 30K orders of protection and 150K reports from a foster care board — A cyberattack on Arizona's court system stole personal information for more than a million people and i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p51#a261006p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T03:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
