@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "9edf7f9e06fbe155",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.0-rc5",
+  "summary": "mlx: fix patch for recent mlx update (#18812)",
+  "pubDate": "2026-10-06T01:15:59.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama v0.40.0-rc5 is a release of an open-source AI developer tool, linked to its GitHub repository, matching the tools-oss rule for library releases/framework updates (5-1).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "mlx: fix patch for recent mlx update (#18812)",
+    "summaryChars": 45,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-06T01:15:59.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
