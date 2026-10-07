@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "4d634fa786c51a21",
+  "url": "https://www.techmeme.com/261007/p23#a261007p23",
+  "sourceName": "Techmeme",
+  "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno\" (Grace Kay/The Information)",
+  "summary": "Grace Kay / The Information: Elon Musk says Grok Bot will use the “best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno” — Elon Musk announced on Tuesday night that SpaceX's AI unit will now use some AI models from competitors to power Grok Bot, sig",
+  "pubDate": "2026-10-07T14:40:01.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule applies. Item reports Grok Bot using competitor models, not a model release, research, industry business event, policy action, or open-source tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Grace Kay / The Information: Elon Musk says Grok Bot will use the “best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno” — Elon Musk announced on Tuesday night that SpaceX's AI unit will now use some AI models from competitors to power Grok Bot, sig",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p23#a261007p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T14:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
