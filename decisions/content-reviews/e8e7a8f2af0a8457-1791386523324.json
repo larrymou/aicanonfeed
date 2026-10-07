@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "e8e7a8f2af0a8457",
+  "url": "https://synthid.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "SynthID Detector",
+  "summary": "Article URL: https://synthid.com/ Comments URL: https://news.ycombinator.com/item?id=49993188 Points: 39 # Comments: 26",
+  "pubDate": "2026-10-07T14:16:44.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'SynthID Detector' with only an HN submission link; no named model, research artifact, business event, policy action, or OSS release is established from Content. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://synthid.com/ Comments URL: https://news.ycombinator.com/item?id=49993188 Points: 39 # Comments: 26",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://synthid.com/",
+    "linkHost": "synthid.com",
+    "pubDate": "2026-10-07T14:16:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
