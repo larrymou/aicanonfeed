@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "ee6d7c1448c79bfd",
+  "url": "https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml",
+  "sourceName": "Hacker News Front Page",
+  "title": "Calling It Quits on ServerFault",
+  "summary": "Article URL: https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml Comments URL: https://news.ycombinator.com/item?id=49988142 Points: 17 # Comments: 4",
+  "pubDate": "2026-10-07T04:22:04.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a personal blog post about quitting ServerFault moderation; it reports no AI model release, research result, AI industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml Comments URL: https://news.ycombinator.com/item?id=49988142 Points: 17 # Comments: 4",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml",
+    "linkHost": "sysadmin1138.net",
+    "pubDate": "2026-10-07T04:22:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
