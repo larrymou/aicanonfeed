@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "907849c341487736",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wzrj5l/neurips_26_event_metadata_deadline_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "NeurIPS 26 Event Metadata Deadline [D]",
+  "summary": "Hi All, Does anyone know when is the deadline to fill in event metadata? (the screenshot below) Is it the same time as camera-ready? Or there is a deadline for it? And is everyone's topic None? The main area of my paper during submission was AI4SocialScience (Economics and Financ",
+  "pubDate": "2026-10-07T08:52:39.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit question about NeurIPS event metadata deadline; no model release, research artifact, industry business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi All, Does anyone know when is the deadline to fill in event metadata? (the screenshot below) Is it the same time as camera-ready? Or there is a deadline for it? And is everyone's topic None? The main area of my paper during submission was AI4SocialScience (Economics and Financ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wzrj5l/neurips_26_event_metadata_deadline_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-07T08:52:39.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
