@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "24157dcdb45d26ae",
+  "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google’s new SynthID website can identify AI-generated media",
+  "summary": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+  "pubDate": "2026-10-07T14:00:00.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports Google's launch of a non-model product (SynthID verification website) via a reputable media report (TechCrunch), matching industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-07T14:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
