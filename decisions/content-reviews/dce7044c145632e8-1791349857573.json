@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "dce7044c145632e8",
+  "url": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
+  "sourceName": "Hacker News Front Page",
+  "title": "Xbox has secured exclusive GTA 6 streaming rights",
+  "summary": "Article URL: https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights Comments URL: https://news.ycombinator.com/item?id=49987245 Points: 22 # Comments: 19",
+  "pubDate": "2026-10-07T02:22:42.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Not an AI item. Xbox/GTA 6 streaming rights is a gaming media-business report with no AI model release, research artifact, AI policy action, or open-source tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights Comments URL: https://news.ycombinator.com/item?id=49987245 Points: 22 # Comments: 19",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-07T02:22:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
