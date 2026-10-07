@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "e37bd00497d784fe",
+  "url": "https://nanochess.org/la_cueva_bbs.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "La Cueva BBS in Mexico in 1993 (session replay)",
+  "summary": "Article URL: https://nanochess.org/la_cueva_bbs.html Comments URL: https://news.ycombinator.com/item?id=49987675 Points: 19 # Comments: 2",
+  "pubDate": "2026-10-07T03:16:45.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a retro-computing article about a 1993 Mexican BBS, with no AI model release, research, industry, policy, or open-source AI tool content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nanochess.org/la_cueva_bbs.html Comments URL: https://news.ycombinator.com/item?id=49987675 Points: 19 # Comments: 2",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://nanochess.org/la_cueva_bbs.html",
+    "linkHost": "nanochess.org",
+    "pubDate": "2026-10-07T03:16:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
