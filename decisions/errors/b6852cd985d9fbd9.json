@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "b6852cd985d9fbd9",
+  "url": "https://www.techmeme.com/261007/p20#a261007p20",
+  "sourceName": "Techmeme",
+  "title": "Nous Research, which makes the open-source Hermes AI agent that has hit 22M+ downloads since February, raised $90M at a $1.2B valuation to expand to enterprises (Yuliya Chernova/Wall Street Journal)",
+  "summary": "Yuliya Chernova / Wall Street Journal: Nous Research, which makes the open-source Hermes AI agent that has hit 22M+ downloads since February, raised $90M at a $1.2B valuation to expand to enterprises — The startup's Hermes tool has been downloaded more than 22 million times since",
+  "pubDate": "2026-10-07T14:05:01.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yuliya Chernova / Wall Street Journal: Nous Research, which makes the open-source Hermes AI agent that has hit 22M+ downloads since February, raised $90M at a $1.2B valuation to expand to enterprises — The startup's Hermes tool has been downloaded more than 22 million times since",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p20#a261007p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T14:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
