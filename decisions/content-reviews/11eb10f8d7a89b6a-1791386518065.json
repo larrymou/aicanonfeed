@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "11eb10f8d7a89b6a",
+  "url": "https://www.minut.com/features/occupancy-monitoring",
+  "sourceName": "Hacker News Front Page",
+  "title": "Device detection and occupancy monitoring for Airbnb hosts",
+  "summary": "Article URL: https://www.minut.com/features/occupancy-monitoring Comments URL: https://news.ycombinator.com/item?id=49993231 Points: 8 # Comments: 24",
+  "pubDate": "2026-10-07T14:19:12.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns device detection and occupancy monitoring for Airbnb hosts; no AI model, research artifact, AI industry event, policy action, or open-source AI tool is present, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.minut.com/features/occupancy-monitoring Comments URL: https://news.ycombinator.com/item?id=49993231 Points: 8 # Comments: 24",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://www.minut.com/features/occupancy-monitoring",
+    "linkHost": "www.minut.com",
+    "pubDate": "2026-10-07T14:19:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
