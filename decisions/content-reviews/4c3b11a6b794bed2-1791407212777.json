@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "4c3b11a6b794bed2",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x0854j/split_the_differences_pool_the_rest_provably/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Split the Differences, Pool the Rest: Provably Efficient Multi-Objective Imitation [R]",
+  "summary": "https://preview.redd.it/i2c0cdkg04uh1.png?width=2532&format=png&auto=webp&s=fdfed9fe7ed2cef8e45791110a5152ff163a0ce8 TLDR: The question we answer: how do you learn from experts with different objectives? Pooling all their data can lose their trade-offs; learning from each expert ",
+  "pubDate": "2026-10-07T20:58:31.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title suggests a new research paper on multi-objective imitation learning, but the observed link is a Reddit discussion post on www.reddit.com (and a preview.redd.it image), not the original paper or an official source. Rule 2-1's link-to-original-paper condition is unmet from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://preview.redd.it/i2c0cdkg04uh1.png?width=2532&format=png&auto=webp&s=fdfed9fe7ed2cef8e45791110a5152ff163a0ce8 TLDR: The question we answer: how do you learn from experts with different objectives? Pooling all their data can lose their trade-offs; learning from each expert ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x0854j/split_the_differences_pool_the_rest_provably/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-07T20:58:31.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
