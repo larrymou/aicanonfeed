@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "065fc54fabb6e73e",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x04235/uploaded_56_billion_tiktok_videos_metadata_on/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Uploaded 5.6 billion TikTok videos metadata on Hugging Face, spanning from 2014 to October 2026 [P]",
+  "summary": "Dataset: https://huggingface.co/datasets/datasocial/tiktok-5.6B-videos If you want to explore the data without downloading billions of rows, you can query my ClickHouse database directly. It includes: Creators table - 4.5 billion rows Videos table - 5.6 billion rows Sounds table ",
+  "pubDate": "2026-10-07T18:20:01.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces a TikTok metadata dataset upload, not a model release, research paper/benchmark, industry business event, policy action, or open-source tool/framework. The link points to a Reddit post, not a repository or official announcement, so no rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dataset: https://huggingface.co/datasets/datasocial/tiktok-5.6B-videos If you want to explore the data without downloading billions of rows, you can query my ClickHouse database directly. It includes: Creators table - 4.5 billion rows Videos table - 5.6 billion rows Sounds table ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x04235/uploaded_56_billion_tiktok_videos_metadata_on/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-07T18:20:01.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
