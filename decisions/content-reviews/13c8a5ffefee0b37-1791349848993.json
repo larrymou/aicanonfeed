@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "13c8a5ffefee0b37",
+  "url": "https://www.techmeme.com/261006/p52#a261006p52",
+  "sourceName": "Techmeme",
+  "title": "Japanese chipmaker Rapidus is partnering with 17 companies, including US-based Synopsys, to help customers design chips; Rapidus has $15B+ in state funding (Reuters)",
+  "summary": "Reuters: Japanese chipmaker Rapidus is partnering with 17 companies, including US-based Synopsys, to help customers design chips; Rapidus has $15B+ in state funding — Japan's Rapidus, with $15 billion in state backing, is tying up with chip design firms as it seeks to answer a ma",
+  "pubDate": "2026-10-07T03:35:00.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI/chip industry business event: Rapidus partnering with 17 companies including Synopsys, plus $15B+ state funding. Matches rule 3-1 (partnership/financing via reputable media report, Techmeme/Reuters). No official model release, research artifact, policy action, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Japanese chipmaker Rapidus is partnering with 17 companies, including US-based Synopsys, to help customers design chips; Rapidus has $15B+ in state funding — Japan's Rapidus, with $15 billion in state backing, is tying up with chip design firms as it seeks to answer a ma",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p52#a261006p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T03:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
