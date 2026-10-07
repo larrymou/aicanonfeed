@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "d1e689f02f08698a",
+  "url": "https://www.techmeme.com/261007/p32#a261007p32",
+  "sourceName": "Techmeme",
+  "title": "OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes graphics and interactive elements like charts, buttons, and forms in answers (OpenAI)",
+  "summary": "OpenAI: OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes graphics and interactive elements like charts, buttons, and forms in answers — Last month we introduced the first GPT-6 models for paid customers and today we're bringing that next generati",
+  "pubDate": "2026-10-07T18:40:02.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GPT-6 is a named model and the item announces a rollout/capability, but the link is a Techmeme aggregator page (linkHost www.techmeme.com). No official owner announcement link is observed and linked_page_author is not observed, so the evidence-link condition of rule 1-1 is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: OpenAI rolls out GPT-6 in ChatGPT with Intelligent UI, a new feature that includes graphics and interactive elements like charts, buttons, and forms in answers — Last month we introduced the first GPT-6 models for paid customers and today we're bringing that next generati",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p32#a261007p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T18:40:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
