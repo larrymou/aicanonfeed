@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "19bbd8a9667ab114",
+  "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+  "sourceName": "Ars Technica AI",
+  "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+  "summary": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
+  "pubDate": "2026-10-07T14:12:37.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Le Chonk is a named Mistral model release, but the only link is Ars Technica media coverage (not the owner's domain) and linked_page_author is not observed, so rule 1-1's evidence-link condition (named author) is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-07T14:12:37.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
