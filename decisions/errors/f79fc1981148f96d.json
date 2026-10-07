@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "f79fc1981148f96d",
+  "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+  "sourceName": "TechCrunch AI",
+  "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+  "summary": "The developer of Hermes agent raised a $90 million Series B.",
+  "pubDate": "2026-10-07T20:48:45.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The developer of Hermes agent raised a $90 million Series B.",
+    "summaryChars": 60,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-07T20:48:45.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
