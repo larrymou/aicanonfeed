@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "2ba72ff428da09b4",
+  "url": "https://arxiv.org/abs/2610.06928",
+  "sourceName": "arXiv cs.AI",
+  "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
+  "summary": "arXiv:2610.06928v1 Announce Type: new Abstract: We study how Vision Transformers ground abstract concepts (e.g., angry) when training data provide limited direct referential evidence. We hypothesize a metonymic grounding mechanism in which abstract predictions are driven by concr",
+  "pubDate": "2026-10-07T04:00:00.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (link to arxiv.org original source) reporting new AI research results on metonymic grounding mechanisms in Vision Transformers, matching the research rule for arXiv preprints.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.06928v1 Announce Type: new Abstract: We study how Vision Transformers ground abstract concepts (e.g., angry) when training data provide limited direct referential evidence. We hypothesize a metonymic grounding mechanism in which abstract predictions are driven by concr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.06928",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-07T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}

@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "b6aec8c05cfc3e2f",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+  "sourceName": "Google AI Blog",
+  "title": "Introducing Playground: Create and play custom games",
+  "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+  "pubDate": "2026-10-07T12:00:00.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Google's official announcement of Playground, a new experimental gaming platform product launch (non-model product), linked to the company's own blog. Matches industry rule for non-model product launches.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+    "summaryChars": 100,
+    "summarySource": "summary",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-10-07T12:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
