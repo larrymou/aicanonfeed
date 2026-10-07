@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "f03395b1d010517f",
+  "url": "https://www.claix.dev/blog/rag-for-ai-agents-agentic-retrieval",
+  "sourceName": "Hacker News Front Page",
+  "title": "We Built an Alternative to Vector RAG for AI Agent Memory",
+  "summary": "Article URL: https://www.claix.dev/blog/rag-for-ai-agents-agentic-retrieval Comments URL: https://news.ycombinator.com/item?id=49993820 Points: 3 # Comments: 0",
+  "pubDate": "2026-10-07T15:02:57.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Only a blog article on claix.dev about an alternative to vector RAG for agent memory. No model/version/capability release, no paper/benchmark artifact, no confirmed OSS repo, no policy action, and no verifiable product-launch or deal facts; no rule's conditions are met from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.claix.dev/blog/rag-for-ai-agents-agentic-retrieval Comments URL: https://news.ycombinator.com/item?id=49993820 Points: 3 # Comments: 0",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://www.claix.dev/blog/rag-for-ai-agents-agentic-retrieval",
+    "linkHost": "www.claix.dev",
+    "pubDate": "2026-10-07T15:02:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
