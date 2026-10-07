@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "806f1cce20cfef5d",
+  "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+  "sourceName": "Wired AI",
+  "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+  "summary": "Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful.",
+  "pubDate": "2026-10-07T18:45:00.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired media story about engineers testing LLMs in a car. No official model release (rule 1-1), no linked paper/preprint/benchmark artifact for research (rule 2-1), no financing/M&A/partnership business event (rule 3-1), no policy action (4-1), no OSS tool release (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful.",
+    "summaryChars": 99,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-07T18:45:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
