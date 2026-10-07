@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "2eab80257bf10c46",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wzxqze/how_much_of_autoresearch_is_research_and_how_much/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How much of AutoResearch is research, and how much is search?[D]",
+  "summary": "I've recently been working part-time on an AutoResearch-style project. The setup is roughly: humans take recent work from top-tier ML/AI conferences, turn part of it into a well-defined task with an evaluator, and then let an agent iteratively modify the solution and search for a",
+  "pubDate": "2026-10-07T14:18:44.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post posing a conceptual question about AutoResearch; no named model release, no paper/benchmark artifact, no business event, policy action, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I've recently been working part-time on an AutoResearch-style project. The setup is roughly: humans take recent work from top-tier ML/AI conferences, turn part of it into a well-defined task with an evaluator, and then let an agent iteratively modify the solution and search for a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wzxqze/how_much_of_autoresearch_is_research_and_how_much/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-07T14:18:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
