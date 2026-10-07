@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "04f4ef3f438ceb70",
+  "url": "https://www.techmeme.com/261007/p24#a261007p24",
+  "sourceName": "Techmeme",
+  "title": "Parallel Systems, which builds autonomous freight trains, raised a $100M Series C led by AVP, taking its total funding to $200M+ (Tim De Chant/TechCrunch)",
+  "summary": "Tim De Chant / TechCrunch: Parallel Systems, which builds autonomous freight trains, raised a $100M Series C led by AVP, taking its total funding to $200M+ — The railroad industry was one of the first to disrupt how the world worked with technology, but lately, innovation in frei",
+  "pubDate": "2026-10-07T15:15:16.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI/autonomy industry financing event: Parallel Systems' $100M Series C (total $200M+), matching rule 3-1 (financing), with a link to a reputable media report and named author/date in summary.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tim De Chant / TechCrunch: Parallel Systems, which builds autonomous freight trains, raised a $100M Series C led by AVP, taking its total funding to $200M+ — The railroad industry was one of the first to disrupt how the world worked with technology, but lately, innovation in frei",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p24#a261007p24",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T15:15:16.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
