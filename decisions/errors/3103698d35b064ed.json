@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "3103698d35b064ed",
+  "url": "https://www.techmeme.com/261007/p35#a261007p35",
+  "sourceName": "Techmeme",
+  "title": "Sources: former White House AI adviser Sriram Krishnan is raising a ~$500M fund to back growth- and later-stage US AI companies, prioritizing national security (Leo Schwartz/The Information)",
+  "summary": "Leo Schwartz / The Information: Sources: former White House AI adviser Sriram Krishnan is raising a ~$500M fund to back growth- and later-stage US AI companies, prioritizing national security — Sriram Krishnan, a key AI adviser to President Donald Trump who left the White House i",
+  "pubDate": "2026-10-07T19:30:31.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Leo Schwartz / The Information: Sources: former White House AI adviser Sriram Krishnan is raising a ~$500M fund to back growth- and later-stage US AI companies, prioritizing national security — Sriram Krishnan, a key AI adviser to President Donald Trump who left the White House i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p35#a261007p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T19:30:31.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
