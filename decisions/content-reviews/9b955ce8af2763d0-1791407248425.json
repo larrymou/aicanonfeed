@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "9b955ce8af2763d0",
+  "url": "https://scottaaronson.blog/?p=10169",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Mathocalypse",
+  "summary": "Article URL: https://scottaaronson.blog/?p=10169 Comments URL: https://news.ycombinator.com/item?id=49997718 Points: 67 # Comments: 42",
+  "pubDate": "2026-10-07T19:33:40.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a personal blog post ('The Mathocalypse') with no named AI model release, research artifact, industry business event, policy action, or OSS tool announcement. No rule condition is met from observed Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://scottaaronson.blog/?p=10169 Comments URL: https://news.ycombinator.com/item?id=49997718 Points: 67 # Comments: 42",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://scottaaronson.blog/?p=10169",
+    "linkHost": "scottaaronson.blog",
+    "pubDate": "2026-10-07T19:33:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
