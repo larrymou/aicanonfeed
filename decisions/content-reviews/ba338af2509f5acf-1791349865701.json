@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "ba338af2509f5acf",
+  "url": "https://www.techmeme.com/261006/p49#a261006p49",
+  "sourceName": "Techmeme",
+  "title": "Boston Dynamics appoints former Amazon executive Rohit Prasad, who spent 12 years helping build and expand Alexa, as its CEO (Samantha Kelly/Bloomberg)",
+  "summary": "Samantha Kelly / Bloomberg: Boston Dynamics appoints former Amazon executive Rohit Prasad, who spent 12 years helping build and expand Alexa, as its CEO — Boston Dynamics appointed former Amazon.com Inc. executive Rohit Prasad as chief executive officer to lead the Hyundai Motor ",
+  "pubDate": "2026-10-07T01:30:02.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a CEO appointment (Rohit Prasad at Boston Dynamics). Rule 3-1 covers financing, M&A, partnerships, market/revenue data, or non-model product launches; a leadership change is not listed, and no model, research, policy, or OSS artifact is present. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Samantha Kelly / Bloomberg: Boston Dynamics appoints former Amazon executive Rohit Prasad, who spent 12 years helping build and expand Alexa, as its CEO — Boston Dynamics appointed former Amazon.com Inc. executive Rohit Prasad as chief executive officer to lead the Hyundai Motor ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p49#a261006p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T01:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
