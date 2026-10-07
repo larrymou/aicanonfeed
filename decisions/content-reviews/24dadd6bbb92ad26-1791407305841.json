@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "24dadd6bbb92ad26",
+  "url": "https://www.techmeme.com/261007/p33#a261007p33",
+  "sourceName": "Techmeme",
+  "title": "Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 (Frederic Lardinois/The New Stack)",
+  "summary": "Frederic Lardinois / The New Stack: Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 — Anthropic on Wednesday launched Claude Haiku 5.5, the first new version of its smal",
+  "pubDate": "2026-10-07T18:45:30.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an Anthropic model release (Claude Haiku 5.5), so rule 1-1 is the candidate. But the link host is techmeme.com, an aggregator, not an official Anthropic page nor a full authored news article; linked_page_owner_domain and linked_page_author are not observed. Evidence link condition unmet",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Frederic Lardinois / The New Stack: Anthropic prices Haiku 5.5 at $0.10/1M input and $0.50/1M output tokens for requests up to 100K tokens, and $0.50 and $2.50 above, vs. $1 and $5 for Haiku 4.5 — Anthropic on Wednesday launched Claude Haiku 5.5, the first new version of its smal",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p33#a261007p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T18:45:30.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
