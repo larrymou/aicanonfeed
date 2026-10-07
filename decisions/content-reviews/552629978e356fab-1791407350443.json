@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "552629978e356fab",
+  "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+  "sourceName": "TechCrunch AI",
+  "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+  "summary": "Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+  "pubDate": "2026-10-07T18:30:57.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports Meta's AI agent Muse launching on iPad—a non-model product rollout covered only by reputable media with no official owner link, matching industry rule 3-1. No named author/owner domain, so model-release rule 1-1 does not apply.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-07T18:30:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
