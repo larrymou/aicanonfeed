@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791386459175-sovhxc",
+  "urlHash": "2fca8a8a1a8c6f32",
+  "url": "https://www.techmeme.com/261007/p21#a261007p21",
+  "sourceName": "Techmeme",
+  "title": "Google launches SynthID Detector, a website that lets users detect AI-generated image, video, and audio media across dozens of common file formats (Ivan Mehta/TechCrunch)",
+  "summary": "Ivan Mehta / TechCrunch: Google launches SynthID Detector, a website that lets users detect AI-generated image, video, and audio media across dozens of common file formats — Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a ",
+  "pubDate": "2026-10-07T14:10:01.000Z",
+  "decidedAt": "2026-10-07T15:21:07.259Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ivan Mehta / TechCrunch: Google launches SynthID Detector, a website that lets users detect AI-generated image, video, and audio media across dozens of common file formats — Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p21#a261007p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T14:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
