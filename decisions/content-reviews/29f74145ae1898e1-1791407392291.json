@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "29f74145ae1898e1",
+  "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+  "sourceName": "Ars Technica AI",
+  "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+  "summary": "Man gets 18 months for AI scheme stealing $8M in music streaming royalties.",
+  "pubDate": "2026-10-07T17:57:39.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Criminal fraud conviction involving bots and AI songs, not a model release, research paper, industry business event, policy/regulatory action, or open-source tool. No active rule covers this crime/legal news item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Man gets 18 months for AI scheme stealing $8M in music streaming royalties.",
+    "summaryChars": 75,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-07T17:57:39.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
