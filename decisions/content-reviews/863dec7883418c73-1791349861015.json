@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791349816521-xmxh0d",
+  "urlHash": "863dec7883418c73",
+  "url": "https://www.techmeme.com/261006/p50#a261006p50",
+  "sourceName": "Techmeme",
+  "title": "A US federal court sentences Michael Smith, who pleaded guilty to using bots to stream AI-generated songs, making $8M+ in royalties, to 18 months in prison (Bill Donahue/Billboard)",
+  "summary": "Bill Donahue / Billboard: A US federal court sentences Michael Smith, who pleaded guilty to using bots to stream AI-generated songs, making $8M+ in royalties, to 18 months in prison — Michael Smith admitted earlier this year to using bots to stream fake songs billions of times in",
+  "pubDate": "2026-10-07T02:20:01.000Z",
+  "decidedAt": "2026-10-07T05:10:23.806Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a criminal sentencing for streaming fraud involving AI-generated songs. No named model release (G1), no research artifact (G2), no business event like financing/M&A/partnership (G3), no AI law/regulation/government policy action (G4), and no OSS tool release (G5). No active rule covers ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bill Donahue / Billboard: A US federal court sentences Michael Smith, who pleaded guilty to using bots to stream AI-generated songs, making $8M+ in royalties, to 18 months in prison — Michael Smith admitted earlier this year to using bots to stream fake songs billions of times in",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261006/p50#a261006p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T02:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
