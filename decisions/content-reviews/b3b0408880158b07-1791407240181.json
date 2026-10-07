@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "b3b0408880158b07",
+  "url": "https://link.springer.com/article/10.1007/s10739-026-09866-7",
+  "sourceName": "Hacker News Front Page",
+  "title": "Despite what Watson said, Rosalind Franklin understood structure of DNA first",
+  "summary": "Article URL: https://link.springer.com/article/10.1007/s10739-026-09866-7 Comments URL: https://news.ycombinator.com/item?id=49998006 Points: 7 # Comments: 1",
+  "pubDate": "2026-10-07T19:56:16.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a history-of-science article about Rosalind Franklin and DNA, not AI. No active rule (model releases, research, industry, policy, tools) covers this content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://link.springer.com/article/10.1007/s10739-026-09866-7 Comments URL: https://news.ycombinator.com/item?id=49998006 Points: 7 # Comments: 1",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://link.springer.com/article/10.1007/s10739-026-09866-7",
+    "linkHost": "link.springer.com",
+    "pubDate": "2026-10-07T19:56:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
