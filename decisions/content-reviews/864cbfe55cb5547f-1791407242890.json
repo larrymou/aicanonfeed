@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "864cbfe55cb5547f",
+  "url": "https://gtlds.fyi/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: gtlds.fyi – All the proposed new gTLDs",
+  "summary": "Article URL: https://gtlds.fyi/ Comments URL: https://news.ycombinator.com/item?id=49997971 Points: 21 # Comments: 17",
+  "pubDate": "2026-10-07T19:53:17.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Show HN about proposed new gTLDs (domain names), not an AI model, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gtlds.fyi/ Comments URL: https://news.ycombinator.com/item?id=49997971 Points: 21 # Comments: 17",
+    "summaryChars": 117,
+    "summarySource": "summary",
+    "link": "https://gtlds.fyi/",
+    "linkHost": "gtlds.fyi",
+    "pubDate": "2026-10-07T19:53:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
