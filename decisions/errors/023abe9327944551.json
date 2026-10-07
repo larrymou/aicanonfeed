@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791407200016-3lx5nr",
+  "urlHash": "023abe9327944551",
+  "url": "https://www.techmeme.com/261007/p34#a261007p34",
+  "sourceName": "Techmeme",
+  "title": "Anthropic cuts Sonnet 5.5 cache read price from $0.20 to $0.10 and adds monthly API credits: $100 for Max 5x, $200 for Max 20x, up to $500 shared by Team users (Carl Franzen/VentureBeat)",
+  "summary": "Carl Franzen / VentureBeat: Anthropic cuts Sonnet 5.5 cache read price from $0.20 to $0.10 and adds monthly API credits: $100 for Max 5x, $200 for Max 20x, up to $500 shared by Team users — The model starts at $0.10 per million input tokens and $0.50 per million output tokens, ma",
+  "pubDate": "2026-10-07T19:05:01.000Z",
+  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Carl Franzen / VentureBeat: Anthropic cuts Sonnet 5.5 cache read price from $0.20 to $0.10 and adds monthly API credits: $100 for Max 5x, $200 for Max 20x, up to $500 shared by Team users — The model starts at $0.10 per million input tokens and $0.50 per million output tokens, ma",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261007/p34#a261007p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-07T19:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
