@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "650a47eae09204f1",
+  "url": "https://interop-rank.fxdx.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "2027 Web Platform Feature Ranking",
+  "summary": "Article URL: https://interop-rank.fxdx.dev/ Comments URL: https://news.ycombinator.com/item?id=50005643 Points: 5 # Comments: 2",
+  "pubDate": "2026-10-08T13:34:22.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a web platform feature ranking link on Hacker News. No active rule covers AI model releases, research, industry, policy, or open-source AI tooling; it is not an AI artifact, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://interop-rank.fxdx.dev/ Comments URL: https://news.ycombinator.com/item?id=50005643 Points: 5 # Comments: 2",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://interop-rank.fxdx.dev/",
+    "linkHost": "interop-rank.fxdx.dev",
+    "pubDate": "2026-10-08T13:34:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
