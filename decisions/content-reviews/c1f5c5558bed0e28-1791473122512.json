@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "c1f5c5558bed0e28",
+  "url": "https://vale.rocks/posts/dvd-menus",
+  "sourceName": "Hacker News Front Page",
+  "title": "Beauty in DVD Menus",
+  "summary": "Article URL: https://vale.rocks/posts/dvd-menus Comments URL: https://news.ycombinator.com/item?id=50005527 Points: 88 # Comments: 56",
+  "pubDate": "2026-10-08T13:22:01.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a non-AI blog post about DVD menu design. It is not a model release, research result, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://vale.rocks/posts/dvd-menus Comments URL: https://news.ycombinator.com/item?id=50005527 Points: 88 # Comments: 56",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://vale.rocks/posts/dvd-menus",
+    "linkHost": "vale.rocks",
+    "pubDate": "2026-10-08T13:22:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
