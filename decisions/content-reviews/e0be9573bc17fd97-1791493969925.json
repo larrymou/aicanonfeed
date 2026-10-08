@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "e0be9573bc17fd97",
+  "url": "https://arxiv.org/abs/2610.06992",
+  "sourceName": "arXiv cs.AI",
+  "title": "When better traffic forecasts fail to improve signal control: a layered diagnostic study of forecast-to-decision value",
+  "summary": "arXiv:2610.06992v1 Announce Type: new Abstract: Improved traffic forecasts do not necessarily yield better signal-control decisions. We investigate this gap through a layered diagnostic study using 29 days of reconstructed demand from Xuancheng, China, with seven dates reserved f",
+  "pubDate": "2026-10-08T04:00:00.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (arXiv:2610.06992) reporting new AI research results — a layered diagnostic study of forecast-to-decision value in traffic signal control — with a link to the original paper on arxiv.org, matching rule 2-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.06992v1 Announce Type: new Abstract: Improved traffic forecasts do not necessarily yield better signal-control decisions. We investigate this gap through a layered diagnostic study using 29 days of reconstructed demand from Xuancheng, China, with seven dates reserved f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.06992",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-08T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
