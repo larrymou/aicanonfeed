@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "5a139359c27fa5ec",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1wzpzh3/saw_this_on_rednote_wtf_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Saw this on Rednote, WTF [D]",
+  "summary": "https://preview.redd.it/t7wxguxqvzth1.png?width=1314&format=png&auto=webp&s=0ba382fb88894c6e687d5bb9a4b14a85334eae67 Guess we have a dataset for sycophancy and AI content detection submitted by /u/Striking-Warning9533 [link] [comments]",
+  "pubDate": "2026-10-07T07:08:36.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit commentary post with only an image link and no named model, no research artifact, no business event, policy action, or OSS release. No rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://preview.redd.it/t7wxguxqvzth1.png?width=1314&format=png&auto=webp&s=0ba382fb88894c6e687d5bb9a4b14a85334eae67 Guess we have a dataset for sycophancy and AI content detection submitted by /u/Striking-Warning9533 [link] [comments]",
+    "summaryChars": 235,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1wzpzh3/saw_this_on_rednote_wtf_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-07T07:08:36.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
