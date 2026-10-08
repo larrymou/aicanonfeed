@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "09bc16091d47d01d",
+  "url": "https://www.techmeme.com/261008/p5#a261008p5",
+  "sourceName": "Techmeme",
+  "title": "Vitalik Buterin says \"we should take the risks to cryptography from AI-accelerated math seriously\", backing a \"bunker mode\" call for the blockchain industry (Felix Ng/Cointelegraph)",
+  "summary": "Felix Ng / Cointelegraph: Vitalik Buterin says “we should take the risks to cryptography from AI-accelerated math seriously”, backing a “bunker mode” call for the blockchain industry — Ethereum researchers say crypto users should consider moving funds to fresh addresses …",
+  "pubDate": "2026-10-08T05:05:01.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion from Vitalik Buterin about AI-accelerated math risks to cryptography. No named model release, no research paper/benchmark, no industry business event, no policy action, no OSS tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Felix Ng / Cointelegraph: Vitalik Buterin says “we should take the risks to cryptography from AI-accelerated math seriously”, backing a “bunker mode” call for the blockchain industry — Ethereum researchers say crypto users should consider moving funds to fresh addresses …",
+    "summaryChars": 272,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p5#a261008p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T05:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
