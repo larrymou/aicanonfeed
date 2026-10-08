@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "8ec13a62836e3094",
+  "url": "https://www.techmeme.com/261008/p4#a261008p4",
+  "sourceName": "Techmeme",
+  "title": "German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones, citing Mistral's disappointing quality (Politico)",
+  "summary": "Politico: German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones, citing Mistral's disappointing quality — “We are disappointed with the quality of Mistral,” Ecosia founder and CEO told POLITICO. — BERLIN — A Berli",
+  "pubDate": "2026-10-08T04:50:01.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Ecosia dropping Mistral for open-source models. No named model release (R1), no research artifact (R2), no policy action (R4), no OSS tool (R5). R3's enumerated events (financing, M&A, partnerships, market data, non-model product launch) do not cover a model-vendor switch, and no offici",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Politico: German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones, citing Mistral's disappointing quality — “We are disappointed with the quality of Mistral,” Ecosia founder and CEO told POLITICO. — BERLIN — A Berli",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p4#a261008p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T04:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
