@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "9612918e3494c974",
+  "url": "https://github.com/zerobrewhq/zerobrew",
+  "sourceName": "Hacker News Front Page",
+  "title": "A 100x faster* alternative to homebrew",
+  "summary": "Article URL: https://github.com/zerobrewhq/zerobrew Comments URL: https://news.ycombinator.com/item?id=50001580 Points: 9 # Comments: 5",
+  "pubDate": "2026-10-08T03:23:08.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Homebrew-alternative package manager repo (zerobrew) with no AI model, research, policy, or AI-specific tooling evidence. Rule 5-1 requires an open-source AI tool/framework; this item is not established as AI, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/zerobrewhq/zerobrew Comments URL: https://news.ycombinator.com/item?id=50001580 Points: 9 # Comments: 5",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://github.com/zerobrewhq/zerobrew",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-08T03:23:08.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
