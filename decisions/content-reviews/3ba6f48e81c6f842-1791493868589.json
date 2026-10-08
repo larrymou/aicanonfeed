@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "3ba6f48e81c6f842",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x11nqq/neurips_2026_paris_sydney_switch_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "NeurIPS 2026 Paris -> Sydney switch [D]",
+  "summary": "Got assigned to Paris location but want to go to Sydney. Anyone wants to go yo Paris but assigned to Sydney? Want to switch with you. submitted by /u/Motor_Advisor_5486 [link] [comments]",
+  "pubDate": "2026-10-08T20:21:15.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about switching NeurIPS 2026 conference locations; no model release, research artifact, industry business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Got assigned to Paris location but want to go to Sydney. Anyone wants to go yo Paris but assigned to Sydney? Want to switch with you. submitted by /u/Motor_Advisor_5486 [link] [comments]",
+    "summaryChars": 186,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x11nqq/neurips_2026_paris_sydney_switch_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T20:21:15.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
