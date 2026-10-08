@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "21979a986c862983",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x0osfq/how_to_learn_ml_in_8_months_feel_lost_and_i_am/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How to Learn ML in 8 months, Feel lost and I am very stressed :( [R]",
+  "summary": "Dear All, I am a penultimate-year student, have had courses in my Univ for ML but I still feel lost, I don't remember anything about the definitions, have to start back at regression every time, don't know what type of Algorithms to apply on what kind of data, I have taken way to",
+  "pubDate": "2026-10-08T11:46:25.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit advice-seeking post about learning ML; no model release, research artifact, industry event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dear All, I am a penultimate-year student, have had courses in my Univ for ML but I still feel lost, I don't remember anything about the definitions, have to start back at regression every time, don't know what type of Algorithms to apply on what kind of data, I have taken way to",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x0osfq/how_to_learn_ml_in_8_months_feel_lost_and_i_am/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T11:46:25.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
