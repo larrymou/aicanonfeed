@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "188acac79052c77c",
+  "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+  "sourceName": "Ars Technica AI",
+  "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+  "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
+  "pubDate": "2026-10-07T21:56:42.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers open-source clones of Adobe tools (open-source tooling, routed to group 5), but the link is a media article on arstechnica.com, not a repository or official announcement, so rule 5-1's link condition is unmet. No named model release or research artifact present.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
+    "summaryChars": 86,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-07T21:56:42.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
