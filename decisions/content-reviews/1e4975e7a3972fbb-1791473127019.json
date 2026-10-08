@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "1e4975e7a3972fbb",
+  "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+  "sourceName": "TechCrunch AI",
+  "title": "China’s Manus raises over $500M in first funding round since split with Meta",
+  "summary": "Boyu Capital and IDG Capital led the funding round, and existing shareholders Tencent, HSG (formerly known as Sequoia China), ZhenFund, and others also participated.",
+  "pubDate": "2026-10-08T13:20:32.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Manus raised over $500M in financing, led by Boyu Capital and IDG Capital. Financing is covered by rule 3-1, and the TechCrunch link is a reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Boyu Capital and IDG Capital led the funding round, and existing shareholders Tencent, HSG (formerly known as Sequoia China), ZhenFund, and others also participated.",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-08T13:20:32.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
