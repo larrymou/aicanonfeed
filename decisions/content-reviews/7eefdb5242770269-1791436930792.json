@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "7eefdb5242770269",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x08xbn/stuck_on_finding_a_approach_for_app_detection/",
+  "sourceName": "r/MachineLearning new",
+  "title": "stuck on finding a approach for app detection ( making a transformer modal out of unlabeled network data) [R] [P]",
+  "summary": "As the title suggests I'm currently trying to make a modal to identify which app is being used. The thing is I don't have labelled data and generating it is out of question since that is a lot of work ( I need to detect like 3-5K apps give or take) my data is structured roughly l",
+  "pubDate": "2026-10-07T21:29:05.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit help request asking for approach advice on app detection; no research artifact/paper link, no model release, industry event, policy action, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As the title suggests I'm currently trying to make a modal to identify which app is being used. The thing is I don't have labelled data and generating it is out of question since that is a lot of work ( I need to detect like 3-5K apps give or take) my data is structured roughly l",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x08xbn/stuck_on_finding_a_approach_for_app_detection/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-07T21:29:05.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
