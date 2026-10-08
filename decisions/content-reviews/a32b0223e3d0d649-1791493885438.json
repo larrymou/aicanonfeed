@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "a32b0223e3d0d649",
+  "url": "https://www.techmeme.com/261008/p44#a261008p44",
+  "sourceName": "Techmeme",
+  "title": "Filing: the FTC is probing Block over inadequate customer service for frozen or deactivated Square accounts amid staffing cuts, following 1,500+ complaints (Leah Nylen/Bloomberg)",
+  "summary": "Leah Nylen / Bloomberg: Filing: the FTC is probing Block over inadequate customer service for frozen or deactivated Square accounts amid staffing cuts, following 1,500+ complaints — The Federal Trade Commission is investigating whether Block Inc., the parent of Square and Cash Ap",
+  "pubDate": "2026-10-08T19:45:43.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about an FTC investigation into Block/Square customer service, not AI. No rule covers non-AI regulatory news; rules 1-3,1-2,3-1,4-1,5-1 all require AI models, research, industry, policy, or OSS AI content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Leah Nylen / Bloomberg: Filing: the FTC is probing Block over inadequate customer service for frozen or deactivated Square accounts amid staffing cuts, following 1,500+ complaints — The Federal Trade Commission is investigating whether Block Inc., the parent of Square and Cash Ap",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p44#a261008p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T19:45:43.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
