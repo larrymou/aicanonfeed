@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "34de0981eaae0131",
+  "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google brings agentic AI to Gemini, starting with businesses",
+  "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+  "pubDate": "2026-10-08T18:18:00.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Media-only coverage of Google's Gemini agentic capability launch. No official owner link observed (author/domain not observed), so rule 1-1 fails; rule 3-1 keeps media-only model launch coverage under industry via reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+    "summaryChars": 254,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-08T18:18:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
