@@ -1,18 +1,24 @@
 {
-  "runId": "run-1791407200016-3lx5nr",
+  "runId": "run-1791436847899-ur11bf",
   "urlHash": "325f4dd194d8a4a3",
   "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
   "sourceName": "The Verge AI",
   "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
   "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms,",
   "pubDate": "2026-10-07T19:10:42.000Z",
-  "decidedAt": "2026-10-07T21:06:48.807Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "R1 candidate: GPT-6/Intelligent UI model release is named, but evidence-link condition is unmet. Link is www.theverge.com (not owner's site) and linked_page_author is not observed, so the required named-author media article cannot be established.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "linked_page_author"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms,",
