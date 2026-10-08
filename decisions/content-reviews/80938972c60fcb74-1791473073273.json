@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "80938972c60fcb74",
+  "url": "https://tanzaniaeducationproject.org/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: I've been paying for a rural Tanzanian's education for 10 years",
+  "summary": "Ten years ago I was 19 and traveling through East Africa, and I spent a summer in Ibumila, a village in the Njombe highlands of Tanzania. There's no school in the village. The nearest one is a boarding school an hour away that costs a few hundred dollars a year, which is out of r",
+  "pubDate": "2026-10-08T14:39:47.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Non-AI personal charity/education project post; no named AI model, research artifact, industry business event, policy action, or open-source AI tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ten years ago I was 19 and traveling through East Africa, and I spent a summer in Ibumila, a village in the Njombe highlands of Tanzania. There's no school in the village. The nearest one is a boarding school an hour away that costs a few hundred dollars a year, which is out of r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://tanzaniaeducationproject.org/",
+    "linkHost": "tanzaniaeducationproject.org",
+    "pubDate": "2026-10-08T14:39:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
