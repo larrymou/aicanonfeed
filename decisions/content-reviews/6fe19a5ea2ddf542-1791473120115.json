@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "6fe19a5ea2ddf542",
+  "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google releases a new local-first Granola competitor",
+  "summary": "Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI.",
+  "pubDate": "2026-10-08T13:28:39.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Google's AI Edge Foresight is a non-model product/app launch (on-device meeting note-taker), reported via a reputable media outlet (TechCrunch AI) with a dated article, matching rule 3-1 industry coverage; no named model or official owner link for group 1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI.",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-08T13:28:39.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
