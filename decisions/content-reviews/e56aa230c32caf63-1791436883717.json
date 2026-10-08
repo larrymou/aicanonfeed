@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "e56aa230c32caf63",
+  "url": "https://www.techmeme.com/261008/p2#a261008p2",
+  "sourceName": "Techmeme",
+  "title": "Elon Musk claims \"certain oligarchs\" are stalling Starlink's India launch to protect a \"monopolistic chokehold\"; SpaceX signed MOUs with Jio and Airtel in 2025 (Priyanka Salve/CNBC)",
+  "summary": "Priyanka Salve / CNBC: Elon Musk claims “certain oligarchs” are stalling Starlink's India launch to protect a “monopolistic chokehold”; SpaceX signed MOUs with Jio and Airtel in 2025 — SpaceX founder Elon Musk has accused vested interests of blocking the launch of his company's s",
+  "pubDate": "2026-10-08T04:40:01.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Starlink's India launch and SpaceX MOUs with Jio/Airtel — a telecom/satellite matter with no AI model, research, AI industry, AI policy, or AI tooling element. No active rule covers non-AI industry news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Priyanka Salve / CNBC: Elon Musk claims “certain oligarchs” are stalling Starlink's India launch to protect a “monopolistic chokehold”; SpaceX signed MOUs with Jio and Airtel in 2025 — SpaceX founder Elon Musk has accused vested interests of blocking the launch of his company's s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p2#a261008p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T04:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
