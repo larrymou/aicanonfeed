@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "405da7b885bf6d62",
+  "url": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate/",
+  "sourceName": "Wired AI",
+  "title": "She Designed Meta’s New AI Logo. Then Came the Hate",
+  "summary": "Jessica Hische knew working for Meta might upset some people. But she didn’t anticipate just how angry they would get.",
+  "pubDate": "2026-10-08T19:30:00.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Human-interest story about the designer of Meta's AI logo; no named model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jessica Hische knew working for Meta might upset some people. But she didn’t anticipate just how angry they would get.",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-08T19:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
