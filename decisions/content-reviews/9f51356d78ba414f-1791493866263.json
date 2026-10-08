@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "9f51356d78ba414f",
+  "url": "https://www.techmeme.com/261008/p45#a261008p45",
+  "sourceName": "Techmeme",
+  "title": "Anthropic launches OSS Scanner, a free opt-in vulnerability scanner for critical open-source projects; its AI-generated reports are sent without human review (Anthropic)",
+  "summary": "Anthropic: Anthropic launches OSS Scanner, a free opt-in vulnerability scanner for critical open-source projects; its AI-generated reports are sent without human review — We're launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our ex",
+  "pubDate": "2026-10-08T20:23:09.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Anthropic's launch of the free opt-in OSS Scanner is a non-model product/tool launch covered by Techmeme (a non-owner media domain), matching industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic launches OSS Scanner, a free opt-in vulnerability scanner for critical open-source projects; its AI-generated reports are sent without human review — We're launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our ex",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p45#a261008p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T20:23:09.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
