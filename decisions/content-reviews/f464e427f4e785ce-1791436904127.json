@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "f464e427f4e785ce",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x0gvnt/instead_of_another_gpu_terminal_renderer_i/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Instead of another GPU terminal renderer, I trained a 1.26M-param model to turn TUIs (htop, vim, emacs…) into real UI components [R]",
+  "summary": "Write-up + demo: https://drksci.com/labs-phosphene So this started as a bit of a gripe. Modern terminal renderers are seriously impressive and seriously complicated. GPU glyph atlases, texture caches, custom shaders, HarfBuzz shaping, ligatures, damage tracking, grid diffing, dir",
+  "pubDate": "2026-10-08T03:46:09.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit project write-up/demo of a small custom model, not a named model release (1-1), not a paper/preprint/benchmark (2-1), not an industry business event (3-1), policy (4-1), or an OSS tool/framework/library release (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Write-up + demo: https://drksci.com/labs-phosphene So this started as a bit of a gripe. Modern terminal renderers are seriously impressive and seriously complicated. GPU glyph atlases, texture caches, custom shaders, HarfBuzz shaping, ligatures, damage tracking, grid diffing, dir",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x0gvnt/instead_of_another_gpu_terminal_renderer_i/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T03:46:09.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
