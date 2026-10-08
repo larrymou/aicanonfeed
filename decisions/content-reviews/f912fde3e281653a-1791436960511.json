@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "f912fde3e281653a",
+  "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+  "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 323 # Comments: 307",
+  "pubDate": "2026-10-07T18:49:40.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Meta/Microsoft curbing internal employee use of Claude AI - not a model release, research artifact, policy action, or OSS tool. It matches no enumerated industry event (financing, M&A, partnership, revenue, product launch) and no author/owner source is observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 323 # Comments: 307",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+    "linkHost": "www.rswebsols.com",
+    "pubDate": "2026-10-07T18:49:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
