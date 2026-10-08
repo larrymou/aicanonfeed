@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "53ea6d37293a8e4c",
+  "url": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "The U.S. Nuclear Plant Fleet Is Leaning into AI",
+  "summary": "If there is any place that would be off-limits to AI, the control room of a nuclear power plant certainly sounds like one. The nuclear industry is historically cautious and risk averse—understandable given the possible catastrophic consequences of an accident or a mistake. Even w",
+  "pubDate": "2026-10-08T14:28:17.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "IEEE Spectrum feature on the nuclear industry adopting AI assistants. It is not a model release, research artifact, financing/M&A/partnership/market data, policy action, or OSS tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "If there is any place that would be off-limits to AI, the control room of a nuclear power plant certainly sounds like one. The nuclear industry is historically cautious and risk averse—understandable given the possible catastrophic consequences of an accident or a mistake. Even w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-08T14:28:17.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
