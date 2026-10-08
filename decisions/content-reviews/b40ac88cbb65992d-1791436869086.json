@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "b40ac88cbb65992d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Nvidia’s erroneous paper accepted as ICML’s spotlight [D]",
+  "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of their prior work Cosmos 2.5 which is cited about 100 times and got ICML’s spotlight. Authors are very well known and respected in the field",
+  "pubDate": "2026-10-08T04:58:15.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Reddit discussion/commentary about a paper controversy; the link points to a reddit.com thread, not the original paper or an official source, so rule 2-1's evidence link condition is unmet. No model release, industry, policy, or OSS rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of their prior work Cosmos 2.5 which is cited about 100 times and got ICML’s spotlight. Authors are very well known and respected in the field",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T04:58:15.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
