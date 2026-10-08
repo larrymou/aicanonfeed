@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "39d2fed3d43463e5",
+  "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+  "sourceName": "Hacker News Front Page",
+  "title": "Margaret Hamilton has died",
+  "summary": "Article URL: https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007 Comments URL: https://news.ycombinator.com/item?id=49998895 Points: 1099 # Comments: 124",
+  "pubDate": "2026-10-07T21:16:18.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Obituary of computing pioneer Margaret Hamilton; not a model release, research result, industry business event, policy action, or OSS/tooling announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007 Comments URL: https://news.ycombinator.com/item?id=49998895 Points: 1099 # Comments: 124",
+    "summaryChars": 173,
+    "summarySource": "summary",
+    "link": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+    "linkHost": "news.mit.edu",
+    "pubDate": "2026-10-07T21:16:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
