@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "babf31893f5d8b2c",
+  "url": "https://www.techmeme.com/261008/p3#a261008p3",
+  "sourceName": "Techmeme",
+  "title": "Filing: Shanghai-based AI chipmaker Biren raises ~$515M in a new share sale; Biren's Hong Kong-listed stock is down 50%+ from a June peak but up ~70% YTD (Bloomberg)",
+  "summary": "Bloomberg: Filing: Shanghai-based AI chipmaker Biren raises ~$515M in a new share sale; Biren's Hong Kong-listed stock is down 50%+ from a June peak but up ~70% YTD — Shanghai Biren Technology Co. aims to raise HK$4.04 billion ($515 million) in another share sale to help bankroll",
+  "pubDate": "2026-10-08T04:45:50.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/financing event: Shanghai-based AI chipmaker Biren raises ~$515M in a new share sale, covered via reputable media (Bloomberg/Techmeme). Fits industry financing rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Filing: Shanghai-based AI chipmaker Biren raises ~$515M in a new share sale; Biren's Hong Kong-listed stock is down 50%+ from a June peak but up ~70% YTD — Shanghai Biren Technology Co. aims to raise HK$4.04 billion ($515 million) in another share sale to help bankroll",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p3#a261008p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T04:45:50.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
