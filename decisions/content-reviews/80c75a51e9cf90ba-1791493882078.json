@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "80c75a51e9cf90ba",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x113il/whatever_happened_to_baba_is_ai_from_2024_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Whatever happened to BABA is AI from 2024? [D]",
+  "summary": "We test three state-of-the-art multi-modal large language models (GPT-4o, Gemini-1.5-Pro, Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated and combined. This is the slap to the face in bold. The cat",
+  "pubDate": "2026-10-08T20:00:11.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/question post about 'BABA is AI'; no named model release, no official owner announcement, no paper or official research source linked (link is a Reddit thread). No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We test three state-of-the-art multi-modal large language models (GPT-4o, Gemini-1.5-Pro, Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated and combined. This is the slap to the face in bold. The cat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x113il/whatever_happened_to_baba_is_ai_from_2024_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T20:00:11.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
