@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "c5145d2284be12ba",
+  "url": "https://www.techmeme.com/261008/p31#a261008p31",
+  "sourceName": "Techmeme",
+  "title": "Sources: the IPO of Nvidia-backed data center provider Firmus is uncertain after failing to attract adequate support, underscoring concerns over AI funding (Bloomberg)",
+  "summary": "Bloomberg: Sources: the IPO of Nvidia-backed data center provider Firmus is uncertain after failing to attract adequate support, underscoring concerns over AI funding — The sudden plunge in demand for an Nvidia-backed data center company's initial public offering is revealing fre",
+  "pubDate": "2026-10-08T15:10:02.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: the IPO of Nvidia-backed data center provider Firmus is uncertain after failing to attract adequate support, underscoring concerns over AI funding — The sudden plunge in demand for an Nvidia-backed data center company's initial public offering is revealing fre",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p31#a261008p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T15:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
