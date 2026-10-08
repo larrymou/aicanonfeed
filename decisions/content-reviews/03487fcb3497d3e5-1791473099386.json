@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "03487fcb3497d3e5",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+  "sourceName": "The Verge AI",
+  "title": "Artificial is a wicked satire that also sticks to the facts",
+  "summary": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" The idea of playing God, and power in general - who has it, who desperately wants",
+  "pubDate": "2026-10-08T14:00:00.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is film-festival coverage of a satirical Sam Altman biopic; no model release, research artifact, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" The idea of playing God, and power in general - who has it, who desperately wants",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-08T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
