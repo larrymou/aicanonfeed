@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "d6a77f5096f71824",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x0o8de/best_practices_when_running_a_benchmark_on_online/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Best practices when running a benchmark on online models [D]",
+  "summary": "I'm developing a benchmark for a low resource language and I don't want it to be leaked and used for training when it is being used to get predictions. For locally run models it shouldn't be a problem, but for models that are only accessible via API, it is. Is there an establishe",
+  "pubDate": "2026-10-08T11:15:50.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for best practices on benchmarking API models; no model release, no research artifact (paper/preprint/benchmark release), no business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm developing a benchmark for a low resource language and I don't want it to be leaked and used for training when it is being used to get predictions. For locally run models it shouldn't be a problem, but for models that are only accessible via API, it is. Is there an establishe",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x0o8de/best_practices_when_running_a_benchmark_on_online/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T11:15:50.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
