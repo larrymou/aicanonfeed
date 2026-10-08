@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "95b91ef337a82fbc",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.2",
+  "summary": "What's Changed README: add oxi to community integrations by @maziluiosif in #18739 server: hide duplicate and downgrade guards from list by @dhiltgen in #18874 New Contributors @maziluiosif made their first contribution in #18739 Full Changelog: v0.40.1...v0.40.2-rc0",
+  "pubDate": "2026-10-08T18:30:42.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed README: add oxi to community integrations by @maziluiosif in #18739 server: hide duplicate and downgrade guards from list by @dhiltgen in #18874 New Contributors @maziluiosif made their first contribution in #18739 Full Changelog: v0.40.1...v0.40.2-rc0",
+    "summaryChars": 267,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-08T18:30:42.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
