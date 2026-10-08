@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "bb53868c0175a64a",
+  "url": "https://www.techmeme.com/261008/p30#a261008p30",
+  "sourceName": "Techmeme",
+  "title": "The US suspends Microsoft, Adobe, Cognizant, Infosys, and others from a program that lets skilled foreign workers gain permanent residency, citing alleged fraud (Dan Rosenzweig-Ziff/Reuters)",
+  "summary": "Dan Rosenzweig-Ziff / Reuters: The US suspends Microsoft, Adobe, Cognizant, Infosys, and others from a program that lets skilled foreign workers gain permanent residency, citing alleged fraud — US Vice President JD Vance said on Thursday that the federal government was suspending",
+  "pubDate": "2026-10-08T14:55:01.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Government suspension of a skilled-worker residency program involving tech firms is immigration/enforcement news with no AI model, research artifact, AI business event, or AI-specific policy action; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dan Rosenzweig-Ziff / Reuters: The US suspends Microsoft, Adobe, Cognizant, Infosys, and others from a program that lets skilled foreign workers gain permanent residency, citing alleged fraud — US Vice President JD Vance said on Thursday that the federal government was suspending",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p30#a261008p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T14:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
