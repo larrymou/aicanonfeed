@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "37acfe428526cde8",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.1",
+  "summary": "What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs",
+  "pubDate": "2026-10-08T02:09:43.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-08T02:09:43.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
