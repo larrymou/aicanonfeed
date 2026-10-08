@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "651222944a43adc3",
+  "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+  "sourceName": "The Verge AI",
+  "title": "Google is launching a one-stop Gemini agent for your work tasks",
+  "summary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and ass",
+  "pubDate": "2026-10-08T14:28:03.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and ass",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-08T14:28:03.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
