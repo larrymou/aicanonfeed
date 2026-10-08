@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791436847899-ur11bf",
+  "urlHash": "94f24a1919f44dc9",
+  "url": "https://www.techmeme.com/261008/p6#a261008p6",
+  "sourceName": "Techmeme",
+  "title": "A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols (Scott Aaronson/Shtetl-Optimized)",
+  "summary": "Scott Aaronson / Shtetl-Optimized: A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols — -friend-of-the-blog Omer Reingold (shared with permission) — Last night my 9-year-old ",
+  "pubDate": "2026-10-08T05:10:11.000Z",
+  "decidedAt": "2026-10-08T05:20:59.203Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme link to a commentary blog post (Scott Aaronson) about AI labs probing crypto-breaking; no named model release, no research artifact/paper link, no policy action, no OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Scott Aaronson / Shtetl-Optimized: A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols — -friend-of-the-blog Omer Reingold (shared with permission) — Last night my 9-year-old ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p6#a261008p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T05:10:11.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
