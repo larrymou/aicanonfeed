@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "73052e7c40fc778c",
+  "url": "https://www.techmeme.com/261008/p29#a261008p29",
+  "sourceName": "Techmeme",
+  "title": "Gallatin AI, which uses AI to digitize and streamline military logistics data, raised a $50M Series A, bringing its total funding to $70M (Colin Demarest/Axios)",
+  "summary": "Colin Demarest / Axios: Gallatin AI, which uses AI to digitize and streamline military logistics data, raised a $50M Series A, bringing its total funding to $70M — Gallatin AI raised a $50 million Series A, with defense-tech frequent fliers 8VC and Silent Ventures pitching in, CE",
+  "pubDate": "2026-10-08T14:25:05.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Colin Demarest / Axios: Gallatin AI, which uses AI to digitize and streamline military logistics data, raised a $50M Series A, bringing its total funding to $70M — Gallatin AI raised a $50 million Series A, with defense-tech frequent fliers 8VC and Silent Ventures pitching in, CE",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p29#a261008p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T14:25:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
