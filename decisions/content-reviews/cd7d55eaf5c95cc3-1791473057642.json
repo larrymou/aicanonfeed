@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "cd7d55eaf5c95cc3",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft",
+  "sourceName": "Hacker News Front Page",
+  "title": "US Suspends Visa Program for Tech Firms Including Microsoft",
+  "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft Comments URL: https://news.ycombinator.com/item?id=50006832 Points: 6 # Comments: 1",
+  "pubDate": "2026-10-08T15:15:00.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a US visa program suspension for tech firms; no AI model, research, industry business event, AI policy, or open-source tool is reported. Rule 4-1 requires AI policy/government action, which is not established here.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft Comments URL: https://news.ycombinator.com/item?id=50006832 Points: 6 # Comments: 1",
+    "summaryChars": 207,
+    "summarySource": "summary",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-08/us-suspends-visa-program-for-tech-firms-including-microsoft",
+    "linkHost": "www.bloomberg.com",
+    "pubDate": "2026-10-08T15:15:00.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
