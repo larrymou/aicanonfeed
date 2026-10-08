@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791493826505-x4ob8y",
+  "urlHash": "f85dd07bb616fbaa",
+  "url": "https://www.techmeme.com/261008/p47#a261008p47",
+  "sourceName": "Techmeme",
+  "title": "USV raised $900M, including a $500M early-stage fund, up from $275M in 2024, cuts general partnership to four investors, and aims to lead more AI rounds (Bloomberg)",
+  "summary": "Bloomberg: USV raised $900M, including a $500M early-stage fund, up from $275M in 2024, cuts general partnership to four investors, and aims to lead more AI rounds — New York City-based venture firm Union Square Ventures is reinventing itself to better compete in the artificial i",
+  "pubDate": "2026-10-08T20:40:01.000Z",
+  "decidedAt": "2026-10-08T21:10:33.956Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: USV raised $900M, including a $500M early-stage fund, up from $275M in 2024, cuts general partnership to four investors, and aims to lead more AI rounds — New York City-based venture firm Union Square Ventures is reinventing itself to better compete in the artificial i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p47#a261008p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-08T20:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
