@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791473046742-dw4asb",
+  "urlHash": "570cb2cddef8f436",
+  "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+  "sourceName": "Ars Technica AI",
+  "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+  "summary": "Full-stack safety solution for physical AI is being used by robotics companies.",
+  "pubDate": "2026-10-08T11:15:33.000Z",
+  "decidedAt": "2026-10-08T15:24:13.901Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Full-stack safety solution for physical AI is being used by robotics companies.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-08T11:15:33.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
