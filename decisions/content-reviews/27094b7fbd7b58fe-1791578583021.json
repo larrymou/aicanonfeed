@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "27094b7fbd7b58fe",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x1ke20/arr_oct_discussion_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ARR Oct Discussion [D]",
+  "summary": "Are there actually fewer submissions this cycle or are people waiting for ARR Aug Meta to be out? I saw an 1.8k submission ID yesterday. submitted by /u/StriderKing27 [link] [comments]",
+  "pubDate": "2026-10-09T12:44:04.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread about ARR October submission counts; no named model release, research artifact, industry business event, policy action, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Are there actually fewer submissions this cycle or are people waiting for ARR Aug Meta to be out? I saw an 1.8k submission ID yesterday. submitted by /u/StriderKing27 [link] [comments]",
+    "summaryChars": 184,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x1ke20/arr_oct_discussion_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-09T12:44:04.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
