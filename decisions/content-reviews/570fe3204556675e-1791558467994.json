@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "570fe3204556675e",
+  "url": "https://openai.com/index/sophos",
+  "sourceName": "OpenAI Blog",
+  "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+  "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+  "pubDate": "2026-10-09T07:00:00.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Sophos using OpenAI Daybreak. No named model release/major version/capability (R1), no research artifact (R2), no financing/M&A/partnership or product launch business event (R3), no policy action (R4), no OSS tool release (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/sophos",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-09T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
