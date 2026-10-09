@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "3b8e25b44e715028",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x1lem3/i_built_alhr_a_tree_based_sparse_attention_system/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I built ALHR: A tree based sparse attention system that achieves sub-quadratic inference while retaining accuracy. [P]",
+  "summary": "ALHR - Adaptive Learnable Hierarchical Routing, uses static binary trees and learnable functions to minimize the amount of keys to be read. It does use a dense teacher while phase 1 of training however. MQAR TEST AT 1024 TOKENS - Average keys read per query by dense - 512 Keys Av",
+  "pubDate": "2026-10-09T13:29:43.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] self-post describing a personally built attention system. No link to a repository/official announcement (R5-1 unmet), no paper/arXiv/official source for research (R2-1 unmet), and not a named-lab model release (R1-1 unmet). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ALHR - Adaptive Learnable Hierarchical Routing, uses static binary trees and learnable functions to minimize the amount of keys to be read. It does use a dense teacher while phase 1 of training however. MQAR TEST AT 1024 TOKENS - Average keys read per query by dense - 512 Keys Av",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x1lem3/i_built_alhr_a_tree_based_sparse_attention_system/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-09T13:29:43.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
