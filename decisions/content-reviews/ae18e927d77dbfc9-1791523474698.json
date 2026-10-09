@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "ae18e927d77dbfc9",
+  "url": "https://www.techmeme.com/261009/p1#a261009p1",
+  "sourceName": "Techmeme",
+  "title": "Anthropic is setting up a \"presidential engagement\" program for the 2028 US elections that will offer AI policy education to candidates in both parties (Emily Forlini/Fortune)",
+  "summary": "Emily Forlini / Fortune: Anthropic is setting up a “presidential engagement” program for the 2028 US elections that will offer AI policy education to candidates in both parties — Anthropic is setting up a “presidential engagement” program ahead of the 2028 elections, building an ",
+  "pubDate": "2026-10-09T04:05:01.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes Anthropic creating an elections policy-education engagement program. It is not a model release, research artifact, business event (financing/M&A/partnership/market/product), government policy action, or OSS tool. Rule 4-1 excludes industry self-regulation. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Emily Forlini / Fortune: Anthropic is setting up a “presidential engagement” program for the 2028 US elections that will offer AI policy education to candidates in both parties — Anthropic is setting up a “presidential engagement” program ahead of the 2028 elections, building an ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p1#a261009p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T04:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
