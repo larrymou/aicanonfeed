@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "da19564dd2e91871",
+  "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "ICYMI: What landed for AI builders in September 2026",
+  "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
+  "pubDate": "2026-10-09T15:38:39.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Monthly recap aggregating multiple Amazon Bedrock/AgentCore/Strands updates; no single named model release (1-1), research artifact (2-1), discrete business event (3-1), policy action (4-1), or specific OSS tool launch (5-1) is identifiable from the content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
+    "summaryChars": 257,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-09T15:38:39.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
