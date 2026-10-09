@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "22a72d3e89c64096",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x14a61/the_alchemy_of_semisupervision_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "The Alchemy of Semi-Supervision [R]",
+  "summary": "Hey r/MachineLearning, I wrote this blog post on semi-supervised learning. Blog post: https://stefankeselj.com/entries/semi_supervision. https://preview.redd.it/2fh9jw7ahbuh1.png?width=1502&format=png&auto=webp&s=529115c47d0029c69e84803ec93ae81949f92bbf I think it's a useful but ",
+  "pubDate": "2026-10-08T22:06:40.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post linking to a personal blog post on semi-supervised learning; no peer-reviewed paper, arXiv preprint, or benchmark artifact, and it is not a model release, industry event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey r/MachineLearning, I wrote this blog post on semi-supervised learning. Blog post: https://stefankeselj.com/entries/semi_supervision. https://preview.redd.it/2fh9jw7ahbuh1.png?width=1502&format=png&auto=webp&s=529115c47d0029c69e84803ec93ae81949f92bbf I think it's a useful but ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x14a61/the_alchemy_of_semisupervision_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T22:06:40.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
