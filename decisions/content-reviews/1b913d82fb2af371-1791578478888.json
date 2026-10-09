@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "1b913d82fb2af371",
+  "url": "https://www.techmeme.com/261009/p22#a261009p22",
+  "sourceName": "Techmeme",
+  "title": "Philadelphia police say Anthropic informed them on Oct. 7 that one of its models submitted a false tip about an unsolved murder via a public web form on July 18 (6abc)",
+  "summary": "6abc: Philadelphia police say Anthropic informed them on Oct. 7 that one of its models submitted a false tip about an unsolved murder via a public web form on July 18 — Watch the 6abc Philadelphia 24/7 stream featuring Action News, AccuWeather and Entertainment — ShareFollow 6abc",
+  "pubDate": "2026-10-09T20:00:49.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Anthropic model submitting a false crime tip is a safety/incident news item; it is not a model release, research artifact, business event (financing/M&A/partnership/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "6abc: Philadelphia police say Anthropic informed them on Oct. 7 that one of its models submitted a false tip about an unsolved murder via a public web form on July 18 — Watch the 6abc Philadelphia 24/7 stream featuring Action News, AccuWeather and Entertainment — ShareFollow 6abc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p22#a261009p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T20:00:49.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
