@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "d73d433a92c68c10",
+  "url": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
+  "sourceName": "Hacker News Front Page",
+  "title": "You might want to try being less creative",
+  "summary": "Article URL: https://blog.bawolf.com/p/you-might-want-to-try-being-less Comments URL: https://news.ycombinator.com/item?id=50024927 Points: 38 # Comments: 20",
+  "pubDate": "2026-10-09T18:39:47.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an opinion blog post on creativity from Hacker News; it names no AI model, research artifact, industry business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.bawolf.com/p/you-might-want-to-try-being-less Comments URL: https://news.ycombinator.com/item?id=50024927 Points: 38 # Comments: 20",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
+    "linkHost": "blog.bawolf.com",
+    "pubDate": "2026-10-09T18:39:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
