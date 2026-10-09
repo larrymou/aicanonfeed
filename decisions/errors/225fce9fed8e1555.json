@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "225fce9fed8e1555",
+  "url": "https://www.techmeme.com/261009/p15#a261009p15",
+  "sourceName": "Techmeme",
+  "title": "Sabi, which is building a baseball cap that uses 100K non-contact neuro-sensors to convert neural signals into text prompts for AI systems, raised a $50M seed (Rashi Shrivastava/Forbes)",
+  "summary": "Rashi Shrivastava / Forbes: Sabi, which is building a baseball cap that uses 100K non-contact neuro-sensors to convert neural signals into text prompts for AI systems, raised a $50M seed — Palo Alto-based Sabi is betting its cap, outfitted with 100,000 sensors, will enable people",
+  "pubDate": "2026-10-09T14:55:01.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rashi Shrivastava / Forbes: Sabi, which is building a baseball cap that uses 100K non-contact neuro-sensors to convert neural signals into text prompts for AI systems, raised a $50M seed — Palo Alto-based Sabi is betting its cap, outfitted with 100,000 sensors, will enable people",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p15#a261009p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T14:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
