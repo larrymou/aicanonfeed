@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "fb900a38eb855015",
+  "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Microsoft-Decision-1, our model for fast decision-making",
+  "summary": "Article URL: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/ Comments URL: https://news.ycombinator.com/item?id=50024913 Points: 49 # Comments: 15",
+  "pubDate": "2026-10-09T18:38:44.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/ Comments URL: https://news.ycombinator.com/item?id=50024913 Points: 49 # Comments: 15",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+    "linkHost": "commandline.microsoft.com",
+    "pubDate": "2026-10-09T18:38:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
