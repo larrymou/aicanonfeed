@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "ffbada98cace5f62",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
+  "summary": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a lazy conversion on disk to make it llama.cpp compatible. To support downgrades, we temporarily hold both the new and old GGUFs and create a shadow v1 manifest tag to prevent the downgraded server from de",
+  "pubDate": "2026-10-08T15:54:06.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a lazy conversion on disk to make it llama.cpp compatible. To support downgrades, we temporarily hold both the new and old GGUFs and create a shadow v1 manifest tag to prevent the downgraded server from de",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-08T15:54:06.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
