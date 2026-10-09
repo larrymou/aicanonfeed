@@ -1,18 +1,23 @@
 {
-  "runId": "run-1791523459658-agf1oe",
+  "runId": "run-1791558390115-in5sb6",
   "urlHash": "7bd525b884109b29",
   "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
   "sourceName": "The Verge AI",
   "title": "California is trying to shut down robot vs. human cage matches",
   "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid r",
   "pubDate": "2026-10-08T20:06:56.000Z",
-  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "reason": "No rule covers: this is a state athletic commission cease-and-desist over a human-vs-robot combat sports event, not an AI policy/regulation action, model release, research result, industry business event, or OSS tool.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid r",
