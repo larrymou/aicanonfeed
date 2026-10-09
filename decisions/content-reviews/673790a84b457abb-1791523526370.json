@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "673790a84b457abb",
+  "url": "https://bevy.org/news/bevy-0-20/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Bevy 0.20",
+  "summary": "Article URL: https://bevy.org/news/bevy-0-20/ Comments URL: https://news.ycombinator.com/item?id=50013610 Points: 109 # Comments: 17",
+  "pubDate": "2026-10-08T22:57:50.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Bevy 0.20 is an open-source game engine/framework release, not an AI model, research result, industry event, policy action, or AI developer tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://bevy.org/news/bevy-0-20/ Comments URL: https://news.ycombinator.com/item?id=50013610 Points: 109 # Comments: 17",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://bevy.org/news/bevy-0-20/",
+    "linkHost": "bevy.org",
+    "pubDate": "2026-10-08T22:57:50.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
