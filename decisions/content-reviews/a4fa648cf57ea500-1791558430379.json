@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "a4fa648cf57ea500",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x1lkln/clarification_arr_commitment_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Clarification ARR Commitment [D]",
+  "summary": "I want to commit my ARR paper to EACL 2027 and I see I have to attach a pdf. Should I address the reviewer comments/suggestions (minor things) in this version already or wait for camera ready if accepted? I thought I just had to provide the link to the reviews but now I am confus",
+  "pubDate": "2026-10-09T13:36:48.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking about ARR commitment/camera-ready logistics for EACL 2027. No named model release, no research artifact (paper/preprint/benchmark), no industry business event, no policy action, and no OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I want to commit my ARR paper to EACL 2027 and I see I have to attach a pdf. Should I address the reviewer comments/suggestions (minor things) in this version already or wait for camera ready if accepted? I thought I just had to provide the link to the reviews but now I am confus",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x1lkln/clarification_arr_commitment_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-09T13:36:48.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
