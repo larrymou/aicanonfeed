@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "13a86554d2a39789",
+  "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "sourceName": "Ars Technica AI",
+  "title": "AI coding agents generate more code, but not more software",
+  "summary": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
+  "pubDate": "2026-10-09T19:43:50.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media article on a coding-productivity study with no link to the original paper or official source, so rule 2-1 is unmet. Not a business event (3-1), policy action (4-1), tool release (5-1), or model release (1-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-09T19:43:50.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
