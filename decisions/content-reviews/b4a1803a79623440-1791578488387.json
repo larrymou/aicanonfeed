@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "b4a1803a79623440",
+  "url": "https://codeberg.org/ethical-foss/open-slopware",
+  "sourceName": "Hacker News Front Page",
+  "title": "open-slopware – Alternatives to FOSS projects choosing to use LLMs/AI",
+  "summary": "Article URL: https://codeberg.org/ethical-foss/open-slopware Comments URL: https://news.ycombinator.com/item?id=50025767 Points: 5 # Comments: 0",
+  "pubDate": "2026-10-09T19:50:16.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a curated list/website of alternatives to FOSS projects using LLMs, not a new model release (1-1), research artifact (2-1), business event (3-1), policy action (4-1), or an OSS AI library/framework/tool release (5-1). No rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://codeberg.org/ethical-foss/open-slopware Comments URL: https://news.ycombinator.com/item?id=50025767 Points: 5 # Comments: 0",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://codeberg.org/ethical-foss/open-slopware",
+    "linkHost": "codeberg.org",
+    "pubDate": "2026-10-09T19:50:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
