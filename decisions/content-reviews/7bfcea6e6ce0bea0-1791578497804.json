@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "7bfcea6e6ce0bea0",
+  "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+  "sourceName": "Wired AI",
+  "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+  "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech.",
+  "pubDate": "2026-10-09T19:28:49.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports workplace adoption of LLMs and staff dissent at book publishers; it is not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech.",
+    "summaryChars": 185,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-09T19:28:49.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
