@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "04a3afe8fc92fa04",
+  "url": "https://arxiv.org/abs/2610.10541",
+  "sourceName": "arXiv cs.AI",
+  "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+  "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailab",
+  "pubDate": "2026-10-09T04:00:00.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (cs.AI) presenting a new explainable header-centric framework for semantic table interpretation and data quality assessment, with a link to the original paper on arxiv.org, matching the research rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailab",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.10541",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-09T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}

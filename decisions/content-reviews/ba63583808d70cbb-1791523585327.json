@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "ba63583808d70cbb",
+  "url": "https://arxiv.org/abs/2610.10590",
+  "sourceName": "arXiv cs.AI",
+  "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+  "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each wit",
+  "pubDate": "2026-10-09T04:00:00.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (cs.AI) reporting new AI research results on agent-controlled forgetting, with a link to the original paper on arxiv.org.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each wit",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.10590",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-09T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
