@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "6c7b0f28e5fc6a63",
+  "url": "https://www.themirror.com/news/world-news/anger-man-sentenced-death-facebook-2060304",
+  "sourceName": "Hacker News Front Page",
+  "title": "Anger as man sentenced to death for Facebook comment",
+  "summary": "Article URL: https://www.themirror.com/news/world-news/anger-man-sentenced-death-facebook-2060304 Comments URL: https://news.ycombinator.com/item?id=50015486 Points: 19 # Comments: 7",
+  "pubDate": "2026-10-09T03:03:54.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a human-rights/legal news story about a death sentence over a Facebook comment; it involves no AI model release, AI research, AI industry event, AI policy/regulation, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.themirror.com/news/world-news/anger-man-sentenced-death-facebook-2060304 Comments URL: https://news.ycombinator.com/item?id=50015486 Points: 19 # Comments: 7",
+    "summaryChars": 182,
+    "summarySource": "summary",
+    "link": "https://www.themirror.com/news/world-news/anger-man-sentenced-death-facebook-2060304",
+    "linkHost": "www.themirror.com",
+    "pubDate": "2026-10-09T03:03:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
