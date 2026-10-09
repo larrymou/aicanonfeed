@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "ce22c6208eac61c3",
+  "url": "https://www.techmeme.com/261009/p20#a261009p20",
+  "sourceName": "Techmeme",
+  "title": "Vesta, which uses AI agents to automate much of the loan origination process, raised $30M led by Conversion, bringing its total funding to $85M (Dominic-Madori Davis/TechCrunch)",
+  "summary": "Dominic-Madori Davis / TechCrunch: Vesta, which uses AI agents to automate much of the loan origination process, raised $30M led by Conversion, bringing its total funding to $85M — Vesta, an AI-native software startup that helps lenders originate mortgages, announced on Thursday ",
+  "pubDate": "2026-10-09T17:35:02.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Vesta, an AI startup automating loan origination, raised $30M led by Conversion (total $85M) — a financing/industry business event covered by a reputable media report (TechCrunch via Techmeme) with author and date.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dominic-Madori Davis / TechCrunch: Vesta, which uses AI agents to automate much of the loan origination process, raised $30M led by Conversion, bringing its total funding to $85M — Vesta, an AI-native software startup that helps lenders originate mortgages, announced on Thursday ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p20#a261009p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T17:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
