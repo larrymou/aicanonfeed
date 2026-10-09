@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "3c5e66d9de6d1c79",
+  "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+  "sourceName": "The Verge AI",
+  "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
+  "summary": "Instinct’s agent is always just a text away. Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzzie",
+  "pubDate": "2026-10-09T14:00:00.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hands-on/commentary feature about a startup's AI agent product. No named model release, research artifact, policy action, or OSS tool. No clear industry business event (financing/M&A/partnership/product launch) or official owner link observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Instinct’s agent is always just a text away. Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzzie",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-09T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
