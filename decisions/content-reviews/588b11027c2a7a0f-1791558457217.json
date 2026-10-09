@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "588b11027c2a7a0f",
+  "url": "https://www.techmeme.com/261009/p11#a261009p11",
+  "sourceName": "Techmeme",
+  "title": "The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks (Brenda Goh/Reuters)",
+  "summary": "Brenda Goh / Reuters: The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks — The Chinese developer of ARTEX said they have converted the AI agent to a closed-source project ",
+  "pubDate": "2026-10-09T11:55:01.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a security incident and a developer's decision to make the ARTEX AI agent closed-source after CrowdStrike linked it to bank hacks. It is not a model release, research result, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool launch. No rul",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brenda Goh / Reuters: The Chinese developer of ARTEX says they have converted the AI agent into a closed-source project after CrowdStrike said it was used to hack South Korean banks — The Chinese developer of ARTEX said they have converted the AI agent to a closed-source project ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p11#a261009p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T11:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
