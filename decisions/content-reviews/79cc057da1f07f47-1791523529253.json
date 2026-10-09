@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "79cc057da1f07f47",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x14lwj/should_i_optimize_for_ml_conference_publications_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Should I optimize for ML conference publications? [D]",
+  "summary": "Hi!I am a fourth year PhD student in USA and have not had much luck with top ML conference publications. In the last two years of my PhD, I am wondering if I should optimize for ML publications at top venues or pivot into engineering or something else. Any suggestions/recommendat",
+  "pubDate": "2026-10-08T22:21:08.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post soliciting career advice about ML conference publications. No named model release, no research artifact (paper/preprint/benchmark), no industry business event, no policy action, and no open-source tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi!I am a fourth year PhD student in USA and have not had much luck with top ML conference publications. In the last two years of my PhD, I am wondering if I should optimize for ML publications at top venues or pivot into engineering or something else. Any suggestions/recommendat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x14lwj/should_i_optimize_for_ml_conference_publications_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T22:21:08.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
