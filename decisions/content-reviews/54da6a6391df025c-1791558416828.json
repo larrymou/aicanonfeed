@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "54da6a6391df025c",
+  "url": "https://www.techmeme.com/261009/p14#a261009p14",
+  "sourceName": "Techmeme",
+  "title": "Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch (SemiAnalysis)",
+  "summary": "SemiAnalysis: Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch — AI safety is on fire. On 12 September 2026, Dario Amodei published an essay arguing that frontier labs ",
+  "pubDate": "2026-10-09T14:15:01.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Techmeme/SemiAnalysis analysis of Chinese labs' safety-reporting practices—commentary, not a named model release (1-1), research paper/preprint/benchmark (2-1), business event like financing/M&A/partnership/revenue (3-1), policy action (4-1), or OSS tool (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "SemiAnalysis: Analysis of 857 releases from nine Chinese AI labs from 2021 to September 2026: just 3.6% included safety results from the developer and only 1.1% did at launch — AI safety is on fire. On 12 September 2026, Dario Amodei published an essay arguing that frontier labs ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p14#a261009p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T14:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
