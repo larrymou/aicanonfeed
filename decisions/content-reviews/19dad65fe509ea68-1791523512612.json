@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "19dad65fe509ea68",
+  "url": "https://lwn.net/Articles/1095811/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Reducing undefined behavior in the C language",
+  "summary": "Article URL: https://lwn.net/Articles/1095811/ Comments URL: https://news.ycombinator.com/item?id=50015074 Points: 59 # Comments: 34",
+  "pubDate": "2026-10-09T02:02:53.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an LWN article about reducing undefined behavior in the C language; it is not AI model, research, industry, policy, or OSS AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lwn.net/Articles/1095811/ Comments URL: https://news.ycombinator.com/item?id=50015074 Points: 59 # Comments: 34",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://lwn.net/Articles/1095811/",
+    "linkHost": "lwn.net",
+    "pubDate": "2026-10-09T02:02:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
