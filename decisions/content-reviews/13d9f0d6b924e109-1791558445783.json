@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "13d9f0d6b924e109",
+  "url": "https://www.techmeme.com/261009/p13#a261009p13",
+  "sourceName": "Techmeme",
+  "title": "Jev developer TypeSafe AI raised ~$870M led by a16z at a $7.5B valuation with Sequoia and angel investors also participating; ~33% of the Fortune 500 use Jev (Bloomberg)",
+  "summary": "Bloomberg: Jev developer TypeSafe AI raised ~$870M led by a16z at a $7.5B valuation with Sequoia and angel investors also participating; ~33% of the Fortune 500 use Jev — TypeSafe AI, the startup behind Jev, a new artificial intelligence model that went viral after it launched on",
+  "pubDate": "2026-10-09T13:25:03.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: TypeSafe AI (Jev developer) raised ~$870M led by a16z at a $7.5B valuation, per Bloomberg, via a reputable media report (Techmeme link). Financing coverage belongs under group 3; no official owner model-release link is present, so group 1 does not apply.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Jev developer TypeSafe AI raised ~$870M led by a16z at a $7.5B valuation with Sequoia and angel investors also participating; ~33% of the Fortune 500 use Jev — TypeSafe AI, the startup behind Jev, a new artificial intelligence model that went viral after it launched on",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p13#a261009p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T13:25:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
