@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "816f740135bf083d",
+  "url": "https://www.wired.com/story/even-law-and-order-is-terrified-of-ai/",
+  "sourceName": "Wired AI",
+  "title": "Even ‘Law & Order’ Is Terrified of AI",
+  "summary": "In its 26th season premiere, the procedural legal drama paints a damning picture of power-mad AI CEOs.",
+  "pubDate": "2026-10-09T10:00:00.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary on a 'Law & Order' TV episode portraying AI CEOs. No named model release, research artifact, industry business event, policy action, or open-source tool. No rule covers entertainment commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In its 26th season premiere, the procedural legal drama paints a damning picture of power-mad AI CEOs.",
+    "summaryChars": 102,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/even-law-and-order-is-terrified-of-ai/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-09T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
