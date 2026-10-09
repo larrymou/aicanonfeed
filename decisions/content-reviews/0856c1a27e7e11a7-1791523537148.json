@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "0856c1a27e7e11a7",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+  "sourceName": "The Verge AI",
+  "title": "Anthropic launches free AI security scans for open-source projects",
+  "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source proje",
+  "pubDate": "2026-10-08T21:53:51.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Anthropic launching OSS Scanner is a non-model product/service launch (free security scanning service), not a model release or OSS tooling artifact. Covered by a reputable media report (The Verge); no official owner link, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source proje",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-08T21:53:51.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
