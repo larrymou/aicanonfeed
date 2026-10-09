@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791523459658-agf1oe",
+  "urlHash": "befb184af9135b49",
+  "url": "https://www.techmeme.com/261008/p53#a261008p53",
+  "sourceName": "Techmeme",
+  "title": "Sources: Flock plans to let go of ~270 employees, or 18% of its staff, at the end of October; the layoffs come after a voluntary buyout program in September (Reuters)",
+  "summary": "Reuters: Sources: Flock plans to let go of ~270 employees, or 18% of its staff, at the end of October; the layoffs come after a voluntary buyout program in September — Flock Safety plans to let go of about 18% of its employees, people with direct knowledge of the plans said on Th",
+  "pubDate": "2026-10-09T01:01:37.000Z",
+  "decidedAt": "2026-10-09T05:24:28.541Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports layoffs (~270 employees, 18% of staff) at Flock Safety, a workforce reduction. Rule 3-1 covers financing, M&A, partnerships, market/revenue data, or non-model product launches, not layoffs, and the item shows no AI model, research, policy, or OSS artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: Flock plans to let go of ~270 employees, or 18% of its staff, at the end of October; the layoffs come after a voluntary buyout program in September — Flock Safety plans to let go of about 18% of its employees, people with direct knowledge of the plans said on Th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261008/p53#a261008p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T01:01:37.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
