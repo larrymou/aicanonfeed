@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791558390115-in5sb6",
+  "urlHash": "e7114450f119bad4",
+  "url": "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277",
+  "sourceName": "Hacker News Front Page",
+  "title": "Yandex Takes a Second Data Center Hit in 48 Hours",
+  "summary": "Article URL: https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277 Comments URL: https://news.ycombinator.com/item?id=50020927 Points: 50 # Comments: 17",
+  "pubDate": "2026-10-09T14:20:19.000Z",
+  "decidedAt": "2026-10-09T15:06:44.649Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a wartime strike on Yandex data centers; no AI model release, research artifact, AI industry business event, policy action, or open-source tool announcement is present. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277 Comments URL: https://news.ycombinator.com/item?id=50020927 Points: 50 # Comments: 17",
+    "summaryChars": 235,
+    "summarySource": "summary",
+    "link": "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277",
+    "linkHost": "united24media.com",
+    "pubDate": "2026-10-09T14:20:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
