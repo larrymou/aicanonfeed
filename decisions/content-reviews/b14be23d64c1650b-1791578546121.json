@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "b14be23d64c1650b",
+  "url": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Master AI Chip Principles With New IEEE Design Program",
+  "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the challenges it creates, including resource const",
+  "pubDate": "2026-10-09T18:00:02.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces an IEEE educational design program on AI chip principles; it is not a model release, research paper/benchmark, industry business event, policy action, or open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the challenges it creates, including resource const",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-09T18:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
