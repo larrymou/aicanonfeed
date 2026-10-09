@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791578464188-eyabzq",
+  "urlHash": "316f59c189c3063d",
+  "url": "https://www.techmeme.com/261009/p23#a261009p23",
+  "sourceName": "Techmeme",
+  "title": "Verizon closed down 8.75%, its worst day since 2002, while T-Mobile fell 13.27% and AT&T 9.81% after SpaceX announced a nationwide spectrum deal on Thursday (CJ Haddad/CNBC)",
+  "summary": "CJ Haddad / CNBC: Verizon closed down 8.75%, its worst day since 2002, while T-Mobile fell 13.27% and AT&T 9.81% after SpaceX announced a nationwide spectrum deal on Thursday — Telecommunications stocks sold off on Friday after Elon Musk's SpaceX announced an agreement to purchas",
+  "pubDate": "2026-10-09T20:40:06.000Z",
+  "decidedAt": "2026-10-09T20:41:11.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a SpaceX telecom spectrum deal and telecom stock selloff; it is not about AI models, research, AI policy, or AI tools/OSS, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CJ Haddad / CNBC: Verizon closed down 8.75%, its worst day since 2002, while T-Mobile fell 13.27% and AT&T 9.81% after SpaceX announced a nationwide spectrum deal on Thursday — Telecommunications stocks sold off on Friday after Elon Musk's SpaceX announced an agreement to purchas",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p23#a261009p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-09T20:40:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
