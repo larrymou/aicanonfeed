@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "cb934642242e6805",
+  "url": "https://en.wikipedia.org/wiki/Takeshi%27s_Castle",
+  "sourceName": "Hacker News Front Page",
+  "title": "Takeshi's Castle",
+  "summary": "Article URL: https://en.wikipedia.org/wiki/Takeshi%27s_Castle Comments URL: https://news.ycombinator.com/item?id=50036119 Points: 17 # Comments: 5",
+  "pubDate": "2026-10-10T19:12:55.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Wikipedia article about the TV show 'Takeshi's Castle'; not an AI model release, research, industry, policy, or OSS tool item. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://en.wikipedia.org/wiki/Takeshi%27s_Castle Comments URL: https://news.ycombinator.com/item?id=50036119 Points: 17 # Comments: 5",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://en.wikipedia.org/wiki/Takeshi%27s_Castle",
+    "linkHost": "en.wikipedia.org",
+    "pubDate": "2026-10-10T19:12:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
