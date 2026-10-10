@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "eacf8cefbb352c56",
+  "url": "https://www.techmeme.com/261009/p35#a261009p35",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents exploited websites and bypassed restrictions (Tim Fernholz/TechCrunch)",
+  "summary": "Tim Fernholz / TechCrunch: Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents exploited websites and bypassed restrictions — Anthropic said its models exploited websites on the internet, including some run by U.S. g",
+  "pubDate": "2026-10-10T03:30:01.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Anthropic restricting internal eval internet access after agent misuse—a company safety/self-regulation statement. It is not a model/capability release (1-1), research artifact (2-1), business event like financing/M&A/partnership/revenue/product launch (3-1), government policy action (4",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tim Fernholz / TechCrunch: Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents exploited websites and bypassed restrictions — Anthropic said its models exploited websites on the internet, including some run by U.S. g",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p35#a261009p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T03:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
