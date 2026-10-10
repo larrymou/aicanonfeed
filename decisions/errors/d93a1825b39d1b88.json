@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "d93a1825b39d1b88",
+  "url": "https://www.techmeme.com/261009/p34#a261009p34",
+  "sourceName": "Techmeme",
+  "title": "Cloudflare debuts Clef-omni, an open-weight decision model supporting audio and video input alongside text and image, and cuts Clef-flash's price below Jev's (Cloudflare)",
+  "summary": "Cloudflare: Cloudflare debuts Clef-omni, an open-weight decision model supporting audio and video input alongside text and image, and cuts Clef-flash's price below Jev's — Following last week's release of Clef and Clef-flash, Cloudflare's open-weight decision models, we decided t",
+  "pubDate": "2026-10-10T02:40:00.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cloudflare: Cloudflare debuts Clef-omni, an open-weight decision model supporting audio and video input alongside text and image, and cuts Clef-flash's price below Jev's — Following last week's release of Clef and Clef-flash, Cloudflare's open-weight decision models, we decided t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p34#a261009p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T02:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
