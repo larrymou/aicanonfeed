@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "bd64ad73306ef6e5",
+  "url": "https://www.techmeme.com/261010/p16#a261010p16",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)",
+  "summary": "Financial Times: Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+  "pubDate": "2026-10-10T19:08:43.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Nvidia in talks to acquire/invest in Reflection AI (M&A/financing), sourced to Financial Times via Techmeme, a reputable media report. No official owner announcement, so group 3 applies, not group 1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+    "summaryChars": 279,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p16#a261010p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T19:08:43.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
