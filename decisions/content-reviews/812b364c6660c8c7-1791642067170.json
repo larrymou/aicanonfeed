@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "812b364c6660c8c7",
+  "url": "https://carette.xyz/posts/lobbying_and_corruption/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Lobbying Is Corruption",
+  "summary": "Article URL: https://carette.xyz/posts/lobbying_and_corruption/ Comments URL: https://news.ycombinator.com/item?id=50032556 Points: 138 # Comments: 51",
+  "pubDate": "2026-10-10T13:05:58.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion article on lobbying; no named AI model, research artifact, industry business event, policy action, or OSS tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://carette.xyz/posts/lobbying_and_corruption/ Comments URL: https://news.ycombinator.com/item?id=50032556 Points: 138 # Comments: 51",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://carette.xyz/posts/lobbying_and_corruption/",
+    "linkHost": "carette.xyz",
+    "pubDate": "2026-10-10T13:05:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
