@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "fce87523773c08f0",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Are .ipynb notebooks already outdated in the agentic era? [D]",
+  "summary": "I am a data scientist who started working in the industry before the LLM revolution. Back then, Jupyter Notebooks were a perfect fit for the classical DS pipeline: EDA -> data prep -> fit -> eval -> tune -> save model artefact and notebook. Lately, I have been thinking a lot abou",
+  "pubDate": "2026-10-10T10:51:44.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary asking whether Jupyter notebooks are outdated in the agentic era. No named model release, no research paper/benchmark artifact, no industry business event, no policy action, and no open-source tool release. No active rule covers this opinion post.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I am a data scientist who started working in the industry before the LLM revolution. Back then, Jupyter Notebooks were a perfect fit for the classical DS pipeline: EDA -> data prep -> fit -> eval -> tune -> save model artefact and notebook. Lately, I have been thinking a lot abou",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-10T10:51:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
