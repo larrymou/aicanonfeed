@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "ae7c9336500624c0",
+  "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+  "sourceName": "Hacker News Front Page",
+  "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
+  "summary": "Article URL: https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300 Comments URL: https://news.ycombinator.com/item?id=50035561 Points: 38 # Comments: 29",
+  "pubDate": "2026-10-10T18:11:58.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Kotaku article about fan-made browser ports of games; not a model release, research paper, industry business event, policy action, or open-source AI tool. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300 Comments URL: https://news.ycombinator.com/item?id=50035561 Points: 38 # Comments: 29",
+    "summaryChars": 259,
+    "summarySource": "summary",
+    "link": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+    "linkHost": "kotaku.com",
+    "pubDate": "2026-10-10T18:11:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
