@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "bd7f0877a9a13e25",
+  "url": "https://rea.tools/",
+  "sourceName": "Hacker News Front Page",
+  "title": "REA Reverse – Engineer Anything",
+  "summary": "Article URL: https://rea.tools/ Comments URL: https://news.ycombinator.com/item?id=50028275 Points: 210 # Comments: 63",
+  "pubDate": "2026-10-10T00:37:07.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule conditions met. Title/summary name no AI model, no research artifact, no business event, no policy action, and no open-source tool/framework release. Insufficient evidence to match any active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://rea.tools/ Comments URL: https://news.ycombinator.com/item?id=50028275 Points: 210 # Comments: 63",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://rea.tools/",
+    "linkHost": "rea.tools",
+    "pubDate": "2026-10-10T00:37:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
