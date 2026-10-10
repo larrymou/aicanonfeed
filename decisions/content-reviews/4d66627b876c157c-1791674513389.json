@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791674452832-xybp0i",
+  "urlHash": "4d66627b876c157c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x0zaxq/kdd_2027_rebuttal_experiences_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "KDD 2027 rebuttal experiences? [D]",
+  "summary": "For those who have gone through the KDD review process, how did it go? Did you submit a rebuttal or decide to withdraw? Did reviewers respond or change their scores afterward? Curious to hear whether rebuttals actually made a difference, especially for papers with initially low s",
+  "pubDate": "2026-10-08T18:52:15.000Z",
+  "decidedAt": "2026-10-10T23:21:10.349Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking about KDD 2027 rebuttal experiences. No named model release, no research paper/benchmark artifact, no industry business event, no policy action, and no OSS tool link; no active rule covers this commentary/question post.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "For those who have gone through the KDD review process, how did it go? Did you submit a rebuttal or decide to withdraw? Did reviewers respond or change their scores afterward? Curious to hear whether rebuttals actually made a difference, especially for papers with initially low s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x0zaxq/kdd_2027_rebuttal_experiences_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T18:52:15.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
