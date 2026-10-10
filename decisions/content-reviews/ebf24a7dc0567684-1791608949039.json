@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "ebf24a7dc0567684",
+  "url": "https://www.techmeme.com/261009/p32#a261009p32",
+  "sourceName": "Techmeme",
+  "title": "In PA, FBI agents arrested a co-founder of a Canadian cybersecurity firm specializing in ransomware negotiations, as part of the ShinyHunters investigation (Brian Krebs/Krebs on Security)",
+  "summary": "Brian Krebs / Krebs on Security: In PA, FBI agents arrested a co-founder of a Canadian cybersecurity firm specializing in ransomware negotiations, as part of the ShinyHunters investigation — Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder",
+  "pubDate": "2026-10-10T01:10:02.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a criminal arrest in a cybersecurity/ransomware investigation, not an AI model release, AI research result, AI industry business event, AI policy/regulation, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brian Krebs / Krebs on Security: In PA, FBI agents arrested a co-founder of a Canadian cybersecurity firm specializing in ransomware negotiations, as part of the ShinyHunters investigation — Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261009/p32#a261009p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T01:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
