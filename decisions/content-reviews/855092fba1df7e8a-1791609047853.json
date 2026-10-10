@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "855092fba1df7e8a",
+  "url": "https://openai.com/index/pollo-ai",
+  "sourceName": "OpenAI Blog",
+  "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+  "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+  "pubDate": "2026-10-08T12:00:00.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer story about Pollo AI using OpenAI models; not a new model release (no availability announcement), not research, policy, or OSS. No explicit partnership or business event under rule 3-1. No rule covers.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/pollo-ai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
