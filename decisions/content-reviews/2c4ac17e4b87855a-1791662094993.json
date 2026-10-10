@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "2c4ac17e4b87855a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x2hqwz/iclr_submissions_are_broken_maybe_a_prediction/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR submissions are broken. Maybe a prediction market? [P]",
+  "summary": "ICLR has received >40k submissions this year and it is becoming quite difficult to make sense of all of the papers (including a lot of AI generated ones). Larry Wasserman called for “A World Without Referees” back in 2012 [1], but peer review hasn’t changed much since. I built ht",
+  "pubDate": "2026-10-10T15:14:54.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary proposing a prediction market for ICLR review; no new research artifact, model release, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ICLR has received >40k submissions this year and it is becoming quite difficult to make sense of all of the papers (including a lot of AI generated ones). Larry Wasserman called for “A World Without Referees” back in 2012 [1], but peer review hasn’t changed much since. I built ht",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x2hqwz/iclr_submissions_are_broken_maybe_a_prediction/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-10T15:14:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
