@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "0c2ab8e054688527",
+  "url": "https://www.techmeme.com/261010/p11#a261010p11",
+  "sourceName": "Techmeme",
+  "title": "Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more (Adam Morgan/Wired)",
+  "summary": "Adam Morgan / Wired: Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more — Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover ",
+  "pubDate": "2026-10-10T12:40:01.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports publishers quietly using LLMs for back-cover copy and cover art. No named model release, research artifact, policy action, OSS tool, or business event (financing/M&A/partnership/product launch). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Adam Morgan / Wired: Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more — Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p11#a261010p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T12:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
