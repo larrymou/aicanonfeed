@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "5745f5ddcd81d536",
+  "url": "https://www.techmeme.com/261010/p10#a261010p10",
+  "sourceName": "Techmeme",
+  "title": "A look at Walmart's troubled push to automate its ~200 US warehouses, as it and partners like Symbotic face technical setbacks; Walmart owns 12.6% of Symbotic (Sarah Nassauer/Wall Street Journal)",
+  "summary": "Sarah Nassauer / Wall Street Journal: A look at Walmart's troubled push to automate its ~200 US warehouses, as it and partners like Symbotic face technical setbacks; Walmart owns 12.6% of Symbotic — Machines programmed to sort merchandise in warehouses hit kinks with cardboard bo",
+  "pubDate": "2026-10-10T10:40:02.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Walmart's warehouse automation push with Symbotic (robotics/logistics industry news). It is not a model release, research paper, policy action, or open-source tool, and no rule covers non-AI industry commentary; no matching rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Nassauer / Wall Street Journal: A look at Walmart's troubled push to automate its ~200 US warehouses, as it and partners like Symbotic face technical setbacks; Walmart owns 12.6% of Symbotic — Machines programmed to sort merchandise in warehouses hit kinks with cardboard bo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p10#a261010p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T10:40:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
