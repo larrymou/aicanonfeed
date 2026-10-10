@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "9436b17b7efba6bf",
+  "url": "https://www.techmeme.com/261010/p9#a261010p9",
+  "sourceName": "Techmeme",
+  "title": "Current and former employees say TikTok US still coordinates closely with the global TikTok org, and US staff continue to use ByteDance's internal chat app Lark (Sylvia Varnham O'Regan/Politico)",
+  "summary": "Sylvia Varnham O'Regan / Politico: Current and former employees say TikTok US still coordinates closely with the global TikTok org, and US staff continue to use ByteDance's internal chat app Lark — In the months before TikTok finalized a deal to sell its U.S. operations to a grou",
+  "pubDate": "2026-10-10T08:40:01.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns TikTok US/ByteDance corporate coordination and internal chat tooling; it reports no AI model release, AI research artifact, AI business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sylvia Varnham O'Regan / Politico: Current and former employees say TikTok US still coordinates closely with the global TikTok org, and US staff continue to use ByteDance's internal chat app Lark — In the months before TikTok finalized a deal to sell its U.S. operations to a grou",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p9#a261010p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T08:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
