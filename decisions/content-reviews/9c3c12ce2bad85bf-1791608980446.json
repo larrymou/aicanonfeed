@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "9c3c12ce2bad85bf",
+  "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+  "sourceName": "The Verge AI",
+  "title": "Trump’s attempt to rename AI is looking awfully artificial",
+  "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from a phrase describing scammy media outlets to a derogatory term for the press",
+  "pubDate": "2026-10-09T14:25:43.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary about Trump's AI rebranding rhetoric. No new law, executive order, regulatory enforcement, or official policy announcement is established by the observed fields, so rule 4-1 (and other groups) do not cover it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from a phrase describing scammy media outlets to a derogatory term for the press",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-09T14:25:43.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
