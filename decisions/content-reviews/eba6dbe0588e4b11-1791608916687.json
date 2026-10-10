@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "eba6dbe0588e4b11",
+  "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+  "summary": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.ycombinator.com/item?id=50029123 Points: 9 # Comments: 1",
+  "pubDate": "2026-10-10T03:02:47.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Telegram Desktop security vulnerability (account takeover), not an AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.ycombinator.com/item?id=50029123 Points: 9 # Comments: 1",
+    "summaryChars": 173,
+    "summarySource": "summary",
+    "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+    "linkHost": "beaksec.github.io",
+    "pubDate": "2026-10-10T03:02:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
