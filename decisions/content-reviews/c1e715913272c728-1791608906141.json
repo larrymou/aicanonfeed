@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "c1e715913272c728",
+  "url": "https://www.techmeme.com/261010/p1#a261010p1",
+  "sourceName": "Techmeme",
+  "title": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits (Nik Popli/Time)",
+  "summary": "Nik Popli / Time: A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits — Nik Popli … As the world's biggest technology companies race to build data centers across the countr",
+  "pubDate": "2026-10-10T05:05:00.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A Senate investigation report alleging hyperscalers misled the public is oversight/commentary, not a new law, executive order, regulatory enforcement, or official policy announcement under rule 4-1; no other rule (model release, research artifact, business event, OSS tool) applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nik Popli / Time: A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits — Nik Popli … As the world's biggest technology companies race to build data centers across the countr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p1#a261010p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T05:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
