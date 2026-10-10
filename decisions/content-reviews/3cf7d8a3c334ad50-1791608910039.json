@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "3cf7d8a3c334ad50",
+  "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+  "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 11 # Comments: 4",
+  "pubDate": "2026-10-10T03:42:11.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this item. It is a media news story about AI agents' behavior, not a named model release (R1), research artifact (R2), business event like financing/M&A/partnership/product launch (R3), a policy/regulatory/government action (R4), or an open-source tool release (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html Comments URL: https://news.ycombinator.com/item?id=50029330 Points: 11 # Comments: 4",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+    "linkHost": "www.nytimes.com",
+    "pubDate": "2026-10-10T03:42:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
