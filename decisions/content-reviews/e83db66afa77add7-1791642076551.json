@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "e83db66afa77add7",
+  "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+  "sourceName": "Wired AI",
+  "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+  "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+  "pubDate": "2026-10-10T12:00:00.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Wired feature on anti-cybercrime AI chatbots. It reports no named model release, no research artifact, no business event, no policy action, and no OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-10T12:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
