@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "d9e485b409fe8517",
+  "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+  "sourceName": "OpenAI Blog",
+  "title": "Disrupting AI-enabled “false front” operations",
+  "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+  "pubDate": "2026-10-08T00:00:00.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports OpenAI disrupting AI-enabled influence operations; it is not a model release, research artifact, industry business event, government policy/regulation action, or OSS tool launch. No rule covers this content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
