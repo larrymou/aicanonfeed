@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "40915402c89678c6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x2lwja/i_built_a_onlogn_attention_system_that_retains_97/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I Built a O(NlogN) attention system that retains 97% accuracy over long context (MQAR)[P]",
+  "summary": "ALHR- Adaptive learnable Hierarchical Routing is a static binary tree based system that uses learnable functions to REDUCE the amount of keys used. It takes less memory and SCALES much better VRAM with tokens submitted by /u/Alarming-Emotion-894 [link] [comments]",
+  "pubDate": "2026-10-10T18:08:33.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post [P] describing a custom attention system; no named lab model release, no paper/preprint or benchmark artifact, and no repository or official owner link. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ALHR- Adaptive learnable Hierarchical Routing is a static binary tree based system that uses learnable functions to REDUCE the amount of keys used. It takes less memory and SCALES much better VRAM with tokens submitted by /u/Alarming-Emotion-894 [link] [comments]",
+    "summaryChars": 263,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x2lwja/i_built_a_onlogn_attention_system_that_retains_97/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-10T18:08:33.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
