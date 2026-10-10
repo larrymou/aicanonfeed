@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "39e14f68a85db1e2",
+  "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why DuckDB 2.0 is faster",
+  "summary": "Article URL: https://motherduck.com/blog/why-duckdb-20-is-faster/ Comments URL: https://news.ycombinator.com/item?id=50035530 Points: 15 # Comments: 1",
+  "pubDate": "2026-10-10T18:08:49.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "DuckDB is a database, not an AI model or AI tool, so rules 1-1 and 5-1 don't apply. The post is a performance explainer, not a release announcement, and there's no research, industry, or policy event. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://motherduck.com/blog/why-duckdb-20-is-faster/ Comments URL: https://news.ycombinator.com/item?id=50035530 Points: 15 # Comments: 1",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+    "linkHost": "motherduck.com",
+    "pubDate": "2026-10-10T18:08:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
