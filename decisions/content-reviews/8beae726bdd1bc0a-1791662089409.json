@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "8beae726bdd1bc0a",
+  "url": "https://www.techmeme.com/261010/p14#a261010p14",
+  "sourceName": "Techmeme",
+  "title": "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access (CBS News)",
+  "summary": "CBS News: A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access — A cadre of elite techies, financiers, and high-level Trump administration officials have spent a year quietly",
+  "pubDate": "2026-10-10T16:50:11.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CBS media report on companies advising CMS policy via a Slack group; no model release, research artifact, business event (financing/M&A/partnership/product), official policy action, or OSS tool. Fits no active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CBS News: A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access — A cadre of elite techies, financiers, and high-level Trump administration officials have spent a year quietly",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p14#a261010p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T16:50:11.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
