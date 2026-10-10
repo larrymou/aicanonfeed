@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791674452832-xybp0i",
+  "urlHash": "b94ac2b05ddbb4a2",
+  "url": "https://www.techmeme.com/261010/p7#a261010p7",
+  "sourceName": "Techmeme",
+  "title": "Laptop production share outside China is expected to fall from 24% in 2025 to 21% in 2026 as PC makers rethink shifting production amid soaring component costs (TrendForce)",
+  "summary": "TrendForce: Laptop production share outside China is expected to fall from 24% in 2025 to 21% in 2026 as PC makers rethink shifting production amid soaring component costs — TrendForce's latest notebook industry research reveals that the primary risk facing the market in 2027 is ",
+  "pubDate": "2026-10-10T06:25:02.000Z",
+  "decidedAt": "2026-10-10T23:21:10.349Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports laptop/PC production share and component-cost market data via a Techmeme aggregation link; it is not an AI model release, AI research, AI policy, AI tooling, nor an AI industry business event, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TrendForce: Laptop production share outside China is expected to fall from 24% in 2025 to 21% in 2026 as PC makers rethink shifting production amid soaring component costs — TrendForce's latest notebook industry research reveals that the primary risk facing the market in 2027 is ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p7#a261010p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T06:25:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
