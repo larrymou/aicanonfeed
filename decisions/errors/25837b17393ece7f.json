@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "25837b17393ece7f",
+  "url": "https://www.techmeme.com/261010/p12#a261010p12",
+  "sourceName": "Techmeme",
+  "title": "How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal (Wall Street Journal)",
+  "summary": "Wall Street Journal: How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal — Tom Brown is leveraging his Republican ties and business savvy to win over Washington and secure the co",
+  "pubDate": "2026-10-10T13:50:00.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal — Tom Brown is leveraging his Republican ties and business savvy to win over Washington and secure the co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p12#a261010p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T13:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
