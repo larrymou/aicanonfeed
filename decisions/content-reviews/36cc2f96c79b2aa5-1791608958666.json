@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "36cc2f96c79b2aa5",
+  "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+  "sourceName": "Ars Technica AI",
+  "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+  "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+  "pubDate": "2026-10-09T22:04:07.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Drone strike damaging a Yandex AI data center is not a model release, research artifact, listed industry business event (financing/M&A/partnership/revenue/product), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-09T22:04:07.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
