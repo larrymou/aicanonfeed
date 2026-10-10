@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791662038624-e9axsc",
+  "urlHash": "6d57a260d9ad3ce2",
+  "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+  "sourceName": "The Verge AI",
+  "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+  "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that Distr",
+  "pubDate": "2026-10-10T18:52:07.000Z",
+  "decidedAt": "2026-10-10T19:54:07.986Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns DistroKid music takedowns tied to a UMG lawsuit; no AI model release, research artifact, AI industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that Distr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-10T18:52:07.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
