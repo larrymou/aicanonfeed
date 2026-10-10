@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791608892433-2be603",
+  "urlHash": "b9f193294e18f8d2",
+  "url": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Put a price on breakthroughs",
+  "summary": "Article URL: https://alexwang.ai/posts/put-a-price-on-breakthroughs/ Comments URL: https://news.ycombinator.com/item?id=50028982 Points: 4 # Comments: 0",
+  "pubDate": "2026-10-10T02:37:47.000Z",
+  "decidedAt": "2026-10-10T05:08:20.740Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hacker News link to a personal essay 'Put a price on breakthroughs' (alexwang.ai). No named AI model/version release, no research artifact/paper, no business event, no policy action, and no OSS tool launch. No active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alexwang.ai/posts/put-a-price-on-breakthroughs/ Comments URL: https://news.ycombinator.com/item?id=50028982 Points: 4 # Comments: 0",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+    "linkHost": "alexwang.ai",
+    "pubDate": "2026-10-10T02:37:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
