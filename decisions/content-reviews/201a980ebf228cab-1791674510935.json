@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791674452832-xybp0i",
+  "urlHash": "201a980ebf228cab",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x13zf7/moonworks_lunara_modeling_artistic_intelligence_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Moonworks Lunara: Modeling Artistic Intelligence [R]",
+  "summary": "Lunara introduces a novel Diffusion Mixture Transformer architecture with fewer than 10B active parameters for modeling artistic intelligence in image generation. Its CAT training algorithm iteratively updates the training distribution through targeted sample acquisition, image r",
+  "pubDate": "2026-10-08T21:54:09.000Z",
+  "decidedAt": "2026-10-10T23:21:10.349Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post describes a research architecture, but the link is only the Reddit thread, not the original paper or official source; rule 2-1's evidence-link condition is unmet. No model release, industry, policy, or OSS tool rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lunara introduces a novel Diffusion Mixture Transformer architecture with fewer than 10B active parameters for modeling artistic intelligence in image generation. Its CAT training algorithm iteratively updates the training distribution through targeted sample acquisition, image r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x13zf7/moonworks_lunara_modeling_artistic_intelligence_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-08T21:54:09.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
