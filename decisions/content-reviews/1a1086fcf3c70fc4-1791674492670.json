@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791674452832-xybp0i",
+  "urlHash": "1a1086fcf3c70fc4",
+  "url": "https://www.techmeme.com/261010/p6#a261010p6",
+  "sourceName": "Techmeme",
+  "title": "Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market (Yifan Yu/Nikkei Asia)",
+  "summary": "Yifan Yu / Nikkei Asia: Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market — PALO ALTO, California — Chip design software leader Synopsys says it is looking to help Chinese com",
+  "pubDate": "2026-10-10T06:15:00.000Z",
+  "decidedAt": "2026-10-10T23:21:10.349Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Synopsys exploring partnerships with Chinese AI labs, a partnership news item, covered by a reputable media report (Techmeme/Nikkei Asia) with a named author and date.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yifan Yu / Nikkei Asia: Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market — PALO ALTO, California — Chip design software leader Synopsys says it is looking to help Chinese com",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p6#a261010p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-10T06:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
