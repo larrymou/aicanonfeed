@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791642052254-u6196x",
+  "urlHash": "5c1db9239c15fa63",
+  "url": "https://github.com/rociiu/talorys",
+  "sourceName": "Hacker News Front Page",
+  "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+  "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 80 # Comments: 36",
+  "pubDate": "2026-10-10T10:52:09.000Z",
+  "decidedAt": "2026-10-10T14:20:58.184Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 80 # Comments: 36",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://github.com/rociiu/talorys",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-10T10:52:09.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
