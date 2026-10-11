@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "de32d3b9322608aa",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.3",
+  "summary": "What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in ",
+  "pubDate": "2026-10-11T06:40:39.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama release v0.40.3 is an update to an open-source AI developer tool, linked to its GitHub repository release page, matching the tools & OSS rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-11T06:40:39.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
