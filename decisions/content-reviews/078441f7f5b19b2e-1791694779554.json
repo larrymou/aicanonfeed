@@ -1,18 +1,23 @@
 {
-  "runId": "run-1791674452832-xybp0i",
+  "runId": "run-1791694669608-iyjjv1",
   "urlHash": "078441f7f5b19b2e",
   "url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
   "sourceName": "IEEE Spectrum AI",
   "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
   "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn",
   "pubDate": "2026-10-07T13:49:48.000Z",
-  "decidedAt": "2026-10-10T23:21:10.349Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "reason": "White paper overview of a benchmark dataset; link is not established as the original paper or official source, and no peer-reviewed/arXiv artifact is observed, so rule 2-1 conditions are unmet.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn",
