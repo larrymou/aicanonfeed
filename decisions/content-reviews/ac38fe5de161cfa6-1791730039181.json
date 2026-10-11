@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "ac38fe5de161cfa6",
+  "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "Terence Tao: Math 2.0 [pdf]",
+  "summary": "Article URL: https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf Comments URL: https://news.ycombinator.com/item?id=50043026 Points: 48 # Comments: 18",
+  "pubDate": "2026-10-11T13:16:45.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a set of lecture slides (Terence Tao, 'Math 2.0') on GitHub Pages. It is not a named model release (R1), not a peer-reviewed paper/arXiv preprint/benchmark release (R2), not an industry business event (R3), not a policy action (R4), and not an OSS tool/framework release (R5). No rule covers ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf Comments URL: https://news.ycombinator.com/item?id=50043026 Points: 48 # Comments: 18",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "linkHost": "teorth.github.io",
+    "pubDate": "2026-10-11T13:16:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
