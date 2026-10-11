@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791748993333-n5kkze",
+  "urlHash": "cf80abb172f0aca3",
+  "url": "https://www.techmeme.com/261011/p8#a261011p8",
+  "sourceName": "Techmeme",
+  "title": "Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages (Tymur Dubovyk/Kyiv Post)",
+  "summary": "Tymur Dubovyk / Kyiv Post: Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages — A Ukrainian drone strike targeted a major Yandex data center in the Russian city of Vladimir e",
+  "pubDate": "2026-10-11T16:10:00.000Z",
+  "decidedAt": "2026-10-11T20:03:25.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an operational outage (drone strike disabling Yandex data centers/services), not a model release, research artifact, financing/M&A/partnership/market event, policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tymur Dubovyk / Kyiv Post: Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages — A Ukrainian drone strike targeted a major Yandex data center in the Russian city of Vladimir e",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p8#a261011p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T16:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
