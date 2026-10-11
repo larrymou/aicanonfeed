@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "33268a3ef04a66c3",
+  "url": "https://verdagon.dev/blog/valen-group-borrowing",
+  "sourceName": "Hacker News Front Page",
+  "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+  "summary": "Article URL: https://verdagon.dev/blog/valen-group-borrowing Comments URL: https://news.ycombinator.com/item?id=50042362 Points: 34 # Comments: 18",
+  "pubDate": "2026-10-11T12:06:22.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about borrow checking/memory safety in the Valen programming language. Not an AI model release, AI research artifact, industry business event, policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://verdagon.dev/blog/valen-group-borrowing Comments URL: https://news.ycombinator.com/item?id=50042362 Points: 34 # Comments: 18",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://verdagon.dev/blog/valen-group-borrowing",
+    "linkHost": "verdagon.dev",
+    "pubDate": "2026-10-11T12:06:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
