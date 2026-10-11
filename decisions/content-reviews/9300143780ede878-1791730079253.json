@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "9300143780ede878",
+  "url": "https://www.techmeme.com/261011/p4#a261011p4",
+  "sourceName": "Techmeme",
+  "title": "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M (Meir Orbach/CTech)",
+  "summary": "Meir Orbach / CTech: Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M — The Israeli startup says its revenue has grown eightfold since January and its platform is now se",
+  "pubDate": "2026-10-11T05:50:01.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Rein Security's $25M Series A is an AI industry financing event, reported via a reputable media link (Techmeme/CTech) with author and date, matching rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meir Orbach / CTech: Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M — The Israeli startup says its revenue has grown eightfold since January and its platform is now se",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p4#a261011p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T05:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
