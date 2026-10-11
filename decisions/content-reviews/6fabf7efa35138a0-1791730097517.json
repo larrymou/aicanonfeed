@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "6fabf7efa35138a0",
+  "url": "https://www.techmeme.com/261011/p3#a261011p3",
+  "sourceName": "Techmeme",
+  "title": "Multiply Labs, which develops robotic systems to automate pharmaceutical manufacturing processes, raised a $75M Series B led by Patrick Soon-Shiong's NantWorks (Maria Deutscher/SiliconANGLE)",
+  "summary": "Maria Deutscher / SiliconANGLE: Multiply Labs, which develops robotic systems to automate pharmaceutical manufacturing processes, raised a $75M Series B led by Patrick Soon-Shiong's NantWorks — Multiply Labs Inc., a startup that develops automation equipment for drugmakers, has r",
+  "pubDate": "2026-10-11T05:20:01.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Techmeme/SiliconANGLE report that Multiply Labs raised a $75M Series B led by NantWorks. This is an AI-industry financing event reported by a reputable media source (link to Techmeme coverage), matching rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Maria Deutscher / SiliconANGLE: Multiply Labs, which develops robotic systems to automate pharmaceutical manufacturing processes, raised a $75M Series B led by Patrick Soon-Shiong's NantWorks — Multiply Labs Inc., a startup that develops automation equipment for drugmakers, has r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p3#a261011p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T05:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
