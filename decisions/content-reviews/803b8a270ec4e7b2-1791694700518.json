@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791694669608-iyjjv1",
+  "urlHash": "803b8a270ec4e7b2",
+  "url": "https://www.techmeme.com/261011/p1#a261011p1",
+  "sourceName": "Techmeme",
+  "title": "General Medicine, an online storefront for medical care founded by PillPack founders TJ Parker and Elliot Cohen, raised a $120M Series B led by a16z (Heather Landi/Fierce Healthcare)",
+  "summary": "Heather Landi / Fierce Healthcare: General Medicine, an online storefront for medical care founded by PillPack founders TJ Parker and Elliot Cohen, raised a $120M Series B led by a16z — General Medicine Andreessen Horowitz Mercy Health Eli Lilly — Artificial intelligence is makin",
+  "pubDate": "2026-10-11T04:55:01.000Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a $120M Series B financing of General Medicine, a medical-care storefront. Content establishes no AI model, research artifact, policy action, OSS tool, or clear AI-industry business event; only a trailing tag mentions AI. No rule conditions met from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Heather Landi / Fierce Healthcare: General Medicine, an online storefront for medical care founded by PillPack founders TJ Parker and Elliot Cohen, raised a $120M Series B led by a16z — General Medicine Andreessen Horowitz Mercy Health Eli Lilly — Artificial intelligence is makin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p1#a261011p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T04:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
