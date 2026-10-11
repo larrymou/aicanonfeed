@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791694669608-iyjjv1",
+  "urlHash": "367a5e549fb7e171",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Do I need to do anything now to use an ARR August review for NAACL 2027? [D]",
+  "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews remain valid for 6 months. If we want to commit to NAACL 2027 instead of EACL, do we need to do anything with the August ARR submission now, or ",
+  "pubDate": "2026-10-11T04:48:48.000Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking about ARR review validity and NAACL 2027 commitment logistics. No named model release, no research artifact link, no industry business event, no policy action, and no open-source tooling; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews remain valid for 6 months. If we want to commit to NAACL 2027 instead of EACL, do we need to do anything with the August ARR submission now, or ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-11T04:48:48.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
