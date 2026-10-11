@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791748993333-n5kkze",
+  "urlHash": "05de817ff71b77ba",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x39uu6/sliced_wasserstein_embeddings_hnsw_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Sliced Wasserstein embeddings + HNSW for color-scheme search over 48k paintings [P]",
+  "summary": "Palette Atlas (https://itzik123.github.io/PaletteAtlas/) searches public-domain paintings by color scheme. Each image is reduced to 128 colors of equal weight, so the natural distance is the Earth Mover's Distance, which is too slow for nearest-neighbor search over 48,695 items (",
+  "pubDate": "2026-10-11T14:39:01.000Z",
+  "decidedAt": "2026-10-11T20:03:25.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] project post demoing a color-search tool; no paper/arXiv/benchmark link for rule 2-1, no repository or official OSS announcement link for rule 5-1 (only a demo page), and no model release/industry/policy event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Palette Atlas (https://itzik123.github.io/PaletteAtlas/) searches public-domain paintings by color scheme. Each image is reduced to 128 colors of equal weight, so the natural distance is the Earth Mover's Distance, which is too slow for nearest-neighbor search over 48,695 items (",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x39uu6/sliced_wasserstein_embeddings_hnsw_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-11T14:39:01.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
