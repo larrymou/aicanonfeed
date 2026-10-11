@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791694669608-iyjjv1",
+  "urlHash": "52ed29a9d264db24",
+  "url": "https://github.com/vscarpenter/gsd-task-manager",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+  "summary": "Article URL: https://github.com/vscarpenter/gsd-task-manager Comments URL: https://news.ycombinator.com/item?id=50039633 Points: 6 # Comments: 2",
+  "pubDate": "2026-10-11T03:42:56.000Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/vscarpenter/gsd-task-manager Comments URL: https://news.ycombinator.com/item?id=50039633 Points: 6 # Comments: 2",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://github.com/vscarpenter/gsd-task-manager",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-11T03:42:56.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
