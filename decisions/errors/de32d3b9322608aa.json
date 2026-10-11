@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791694669608-iyjjv1",
+  "urlHash": "de32d3b9322608aa",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.3",
+  "summary": "What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrades, which added overhead to every request in high-volume use suc",
+  "pubDate": "2026-10-11T04:24:55.000Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrades, which added overhead to every request in high-volume use suc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-11T04:24:55.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
