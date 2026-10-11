@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "188fc584981f8565",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/",
+  "sourceName": "r/MachineLearning new",
+  "title": "World Action Models vs VLAs: Robotics Just Had Its GPT-2 Moment [N]",
+  "summary": "submitted by /u/moschles [link] [comments]",
+  "pubDate": "2026-10-11T13:51:34.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post with no linked paper, official announcement, research artifact, business event, policy action, or OSS release. No active rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "submitted by /u/moschles [link] [comments]",
+    "summaryChars": 42,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-11T13:51:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
