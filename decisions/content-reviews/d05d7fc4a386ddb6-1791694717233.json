@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791694669608-iyjjv1",
+  "urlHash": "d05d7fc4a386ddb6",
+  "url": "https://www.techmeme.com/261010/p19#a261010p19",
+  "sourceName": "Techmeme",
+  "title": "After 20+ major Japanese companies reported cyber attacks in recent weeks, Japan's NCSH chief says the country is in \"a state of emergency in cyber space\" (Financial Times)",
+  "summary": "Financial Times: After 20+ major Japanese companies reported cyber attacks in recent weeks, Japan's NCSH chief says the country is in “a state of emergency in cyber space” — Dozens of targets including car rental operators, barbecue chains and rail group JR East disclose data lea",
+  "pubDate": "2026-10-11T03:40:01.000Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports cybersecurity attacks on Japanese companies and a government official's statement; it is not an AI model release, research result, AI industry business event, AI policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: After 20+ major Japanese companies reported cyber attacks in recent weeks, Japan's NCSH chief says the country is in “a state of emergency in cyber space” — Dozens of targets including car rental operators, barbecue chains and rail group JR East disclose data lea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261010/p19#a261010p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T03:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
