@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "8aae508bf4ab1244",
+  "url": "https://www.techmeme.com/261011/p5#a261011p5",
+  "sourceName": "Techmeme",
+  "title": "A look at Beijing-based Neolix, which operates the world's largest robovan fleet at 27K, as Shenzhen tests nighttime parcel deliveries by driverless vehicles (Bloomberg)",
+  "summary": "Bloomberg: A look at Beijing-based Neolix, which operates the world's largest robovan fleet at 27K, as Shenzhen tests nighttime parcel deliveries by driverless vehicles — Autonomous vehicle companies believe there's a huge market opportunity in delivering after dark, if the techn",
+  "pubDate": "2026-10-11T06:00:01.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Feature/industry color piece on Neolix's robovan fleet and Shenzhen tests; no model release, research artifact, policy action, OSS tool, nor a concrete business event (financing, M&A, partnership, revenue, product launch) with the required source, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: A look at Beijing-based Neolix, which operates the world's largest robovan fleet at 27K, as Shenzhen tests nighttime parcel deliveries by driverless vehicles — Autonomous vehicle companies believe there's a huge market opportunity in delivering after dark, if the techn",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p5#a261011p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T06:00:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
