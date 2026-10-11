@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "2cb5b1991fde3365",
+  "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+  "sourceName": "Wired AI",
+  "title": "I Made Terrible Games With Google’s AI Playground",
+  "summary": "A long day’s haul in the video game slop mines.",
+  "pubDate": "2026-10-11T11:30:00.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired hands-on commentary about Google's AI Playground; no named model release, no official owner link, no research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A long day’s haul in the video game slop mines.",
+    "summaryChars": 47,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-11T11:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
