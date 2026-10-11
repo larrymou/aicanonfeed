@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791694669608-iyjjv1",
+  "urlHash": "47aa66d1b4eb0050",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+  "sourceName": "Hacker News Front Page",
+  "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+  "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised Comments URL: https://news.ycombinator.com/item?id=50039627 Points: 24 # Comments: 25",
+  "pubDate": "2026-10-11T03:41:53.000Z",
+  "decidedAt": "2026-10-11T04:57:55.344Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary quoting Satya Nadella's opinion on AI model security. It announces no named model release, research artifact, business event, policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised Comments URL: https://news.ycombinator.com/item?id=50039627 Points: 24 # Comments: 25",
+    "summaryChars": 224,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-11T03:41:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
