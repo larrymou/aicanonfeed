@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791748993333-n5kkze",
+  "urlHash": "fbf69fda61b56cb6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What's up with google scholar citations ? [D]",
+  "summary": "Early-stage researcher, and yes, I get excited about people citing my work. I was browsing through arXiv for accepted NeurIPS papers, and I saw multiple papers citing my work. These papers have been there for months, but Google Scholar still has not updated its citations, and it ",
+  "pubDate": "2026-10-11T18:17:59.000Z",
+  "decidedAt": "2026-10-11T20:03:25.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion about Google Scholar citation indexing lag. No AI model release, research artifact (paper/preprint/benchmark), industry business event, policy action, or open-source tool is announced, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Early-stage researcher, and yes, I get excited about people citing my work. I was browsing through arXiv for accepted NeurIPS papers, and I saw multiple papers citing my work. These papers have been there for months, but Google Scholar still has not updated its citations, and it ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-11T18:17:59.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
