@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "1359074c93e6b5ed",
+  "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The tilde in your PATH may not be your HOME",
+  "summary": "Article URL: https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/ Comments URL: https://news.ycombinator.com/item?id=50042425 Points: 60 # Comments: 33",
+  "pubDate": "2026-10-11T12:13:13.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general software/Unix technical article about tilde expansion in PATH. It announces no AI model release, research paper, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/ Comments URL: https://news.ycombinator.com/item?id=50042425 Points: 60 # Comments: 33",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+    "linkHost": "disconnect3d.pl",
+    "pubDate": "2026-10-11T12:13:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
