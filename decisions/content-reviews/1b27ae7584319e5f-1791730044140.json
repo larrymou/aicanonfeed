@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791730016984-93d6v7",
+  "urlHash": "1b27ae7584319e5f",
+  "url": "https://www.techmeme.com/261011/p6#a261011p6",
+  "sourceName": "Techmeme",
+  "title": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes (Rafe Rosner-Uddin/Financial Times)",
+  "summary": "Rafe Rosner-Uddin / Financial Times: PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes — ‘Physical AI’ developers are putting cameras in homes, offices and factories to f",
+  "pubDate": "2026-10-11T13:00:51.000Z",
+  "decidedAt": "2026-10-11T14:47:07.216Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports AI industry market/financing data: robotics and physical AI companies raised ~$48B YTD (PitchBook), via a reputable media report (Financial Times, named author). Fits industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rafe Rosner-Uddin / Financial Times: PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes — ‘Physical AI’ developers are putting cameras in homes, offices and factories to f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p6#a261011p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-11T13:00:51.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
