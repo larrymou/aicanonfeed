@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791748993333-n5kkze",
+  "urlHash": "fb07dbee3ae27f29",
+  "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+  "sourceName": "TechCrunch AI",
+  "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+  "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+  "pubDate": "2026-10-11T19:00:00.000Z",
+  "decidedAt": "2026-10-11T20:03:25.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a promotional post for the TechCrunch Disrupt 2026 conference and ticket discounts. It announces no AI model/capability, research artifact, business event (financing/M&A/partnership/revenue), policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+    "summaryChars": 201,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-11T19:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
