@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "1f073325dc394b50",
+  "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+  "sourceName": "The Verge AI",
+  "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+  "summary": "Microsoft’s Maia 300 chip. | Image: Microsoft Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloa",
+  "pubDate": "2026-10-12T13:00:00.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Microsoft's Maia 300 in-house AI chip launch is a non-model product launch (AI hardware), reported by reputable media outlet The Verge. Not a named AI model, so group 1 does not apply; falls under industry non-model product launches.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Microsoft’s Maia 300 chip. | Image: Microsoft Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-12T13:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
