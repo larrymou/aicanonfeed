@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "156bf54f8b17196a",
+  "url": "https://tedhaley.ca/pensieve/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Local Indexing to reduce tool calling and token usage",
+  "summary": "Article URL: https://tedhaley.ca/pensieve/ Comments URL: https://news.ycombinator.com/item?id=50049508 Points: 47 # Comments: 10",
+  "pubDate": "2026-10-12T00:03:53.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN submission of a blog post (tedhaley.ca/pensieve/) on local indexing; no named model, research artifact (paper/benchmark), business event, policy action, or evidence of an open-source tool/framework release with repo/official announcement. No rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tedhaley.ca/pensieve/ Comments URL: https://news.ycombinator.com/item?id=50049508 Points: 47 # Comments: 10",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://tedhaley.ca/pensieve/",
+    "linkHost": "tedhaley.ca",
+    "pubDate": "2026-10-12T00:03:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
