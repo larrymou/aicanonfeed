@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "3482c2a42cb53fe0",
+  "url": "https://www.techmeme.com/261012/p1#a261012p1",
+  "sourceName": "Techmeme",
+  "title": "Sources: PCB maker Dongshan is eyeing to raise $2B to $3B in a Hong Kong listing as soon as this month; Dongshan is listed in Shenzhen with a $39B valuation (Bloomberg)",
+  "summary": "Bloomberg: Sources: PCB maker Dongshan is eyeing to raise $2B to $3B in a Hong Kong listing as soon as this month; Dongshan is listed in Shenzhen with a $39B valuation — Printed circuit board maker Suzhou Dongshan Precision Manufacturing Co. has started gauging investor interest ",
+  "pubDate": "2026-10-12T04:00:44.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a PCB maker's Hong Kong listing financing. Content does not establish any AI model, research, policy, or OSS artifact, nor AI-industry relevance, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: PCB maker Dongshan is eyeing to raise $2B to $3B in a Hong Kong listing as soon as this month; Dongshan is listed in Shenzhen with a $39B valuation — Printed circuit board maker Suzhou Dongshan Precision Manufacturing Co. has started gauging investor interest ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p1#a261012p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T04:00:44.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
