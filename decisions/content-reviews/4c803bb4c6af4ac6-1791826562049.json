@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "4c803bb4c6af4ac6",
+  "url": "https://www.techmeme.com/261012/p33#a261012p33",
+  "sourceName": "Techmeme",
+  "title": "Meta says it plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it \"can bring to everyone using Muse\" (Robert Hart/The Verge)",
+  "summary": "Robert Hart / The Verge: Meta says it plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it “can bring to everyone using Muse” — Meta says the models compete with the industry's best and will soon power its Muse agent. … M",
+  "pubDate": "2026-10-12T17:20:01.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1 fails: no official owner announcement link (linkHost is techmeme.com, an aggregator, not Meta's domain) and item describes plans ('plans to power', 'will soon power'), not announced availability. No other rule covers this model-plan news item, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Robert Hart / The Verge: Meta says it plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it “can bring to everyone using Muse” — Meta says the models compete with the industry's best and will soon power its Muse agent. … M",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p33#a261012p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T17:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
