@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "e5bbd114f6a2ff9f",
+  "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+  "sourceName": "Wired AI",
+  "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+  "summary": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails.",
+  "pubDate": "2026-10-12T17:00:27.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails.",
+    "summaryChars": 111,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-12T17:00:27.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
