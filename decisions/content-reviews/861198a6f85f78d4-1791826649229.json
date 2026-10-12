@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "861198a6f85f78d4",
+  "url": "https://www.techmeme.com/261012/p31#a261012p31",
+  "sourceName": "Techmeme",
+  "title": "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks (Meta AI Research)",
+  "summary": "Meta AI Research: Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks — Fourteen months ago, we began a ground-up overhaul of our artificial intelligence efforts. In that time, we've gone fr",
+  "pubDate": "2026-10-12T17:00:13.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names Meta models Muse Wonder/Full with a release action, but the link is only a Techmeme aggregator page (linkHost www.techmeme.com), not an official Meta announcement; linked_page_author is not observed, so rule 1-1's evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta AI Research: Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks — Fourteen months ago, we began a ground-up overhaul of our artificial intelligence efforts. In that time, we've gone fr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p31#a261012p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T17:00:13.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
