@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "a0d7ed7b6f2a4a61",
+  "url": "https://www.techmeme.com/261012/p35#a261012p35",
+  "sourceName": "Techmeme",
+  "title": "Meta says Muse Wonder is available to Muse app subscribers, via Meta Model API, and Muse Code; Wonder Full is available to Muse Code subscribers (Jonathan Vanian/CNBC)",
+  "summary": "Jonathan Vanian / CNBC: Meta says Muse Wonder is available to Muse app subscribers, via Meta Model API, and Muse Code; Wonder Full is available to Muse Code subscribers — Meta debuted its latest artificial intelligence model, Muse Wonder, and says it's the most advanced option fo",
+  "pubDate": "2026-10-12T17:30:12.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jonathan Vanian / CNBC: Meta says Muse Wonder is available to Muse app subscribers, via Meta Model API, and Muse Code; Wonder Full is available to Muse Code subscribers — Meta debuted its latest artificial intelligence model, Muse Wonder, and says it's the most advanced option fo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p35#a261012p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T17:30:12.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
