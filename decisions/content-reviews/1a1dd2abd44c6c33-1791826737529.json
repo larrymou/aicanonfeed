@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "1a1dd2abd44c6c33",
+  "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+  "sourceName": "Ars Technica AI",
+  "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+  "summary": "The second-largest corporate employer has bet big on robot workers to scale.",
+  "pubDate": "2026-10-12T12:43:10.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Feature/commentary on Amazon's robot workforce; no named model release, research artifact, policy action, OSS tool, or specific business event (financing, M&A, partnership, market data, product launch) covered by the active rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The second-largest corporate employer has bet big on robot workers to scale.",
+    "summaryChars": 76,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-12T12:43:10.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
