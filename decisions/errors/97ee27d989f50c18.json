@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "97ee27d989f50c18",
+  "url": "https://www.techmeme.com/261011/p16#a261011p16",
+  "sourceName": "Techmeme",
+  "title": "Sources: Bain's Bridge Data Centres is in talks to upsize an existing loan from $2.8B to ~$6.6B, in what would be one of the largest data center deals in Asia (Kari Soo Lindberg/Bloomberg)",
+  "summary": "Kari Soo Lindberg / Bloomberg: Sources: Bain's Bridge Data Centres is in talks to upsize an existing loan from $2.8B to ~$6.6B, in what would be one of the largest data center deals in Asia — Bain Capital-owned Bridge Data Centres is in talks with banks to more than double the si",
+  "pubDate": "2026-10-12T03:20:00.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kari Soo Lindberg / Bloomberg: Sources: Bain's Bridge Data Centres is in talks to upsize an existing loan from $2.8B to ~$6.6B, in what would be one of the largest data center deals in Asia — Bain Capital-owned Bridge Data Centres is in talks with banks to more than double the si",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p16#a261011p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T03:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
