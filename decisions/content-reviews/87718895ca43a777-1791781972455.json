@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "87718895ca43a777",
+  "url": "https://github.com/shaongitbd/doory",
+  "sourceName": "Hacker News Front Page",
+  "title": "Doory – Open-Source Canva",
+  "summary": "Article URL: https://github.com/shaongitbd/doory Comments URL: https://news.ycombinator.com/item?id=50049872 Points: 43 # Comments: 6",
+  "pubDate": "2026-10-12T00:48:27.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Doory is an open-source Canva alternative, not an AI tool, framework, or developer resource; no rule covers a non-AI design tool. Rule 5-1 requires an open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/shaongitbd/doory Comments URL: https://news.ycombinator.com/item?id=50049872 Points: 43 # Comments: 6",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://github.com/shaongitbd/doory",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-12T00:48:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
