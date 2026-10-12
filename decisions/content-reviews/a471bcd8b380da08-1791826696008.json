@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "a471bcd8b380da08",
+  "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+  "sourceName": "Hacker News Front Page",
+  "title": "A Modern Web App in C",
+  "summary": "Article URL: https://prophitt.me/writing/a-modern-web-app-in-c Comments URL: https://news.ycombinator.com/item?id=50058528 Points: 52 # Comments: 24",
+  "pubDate": "2026-10-12T16:13:10.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general programming article about building a web app in C, with no AI model, research, industry, policy, or open-source AI tooling content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://prophitt.me/writing/a-modern-web-app-in-c Comments URL: https://news.ycombinator.com/item?id=50058528 Points: 52 # Comments: 24",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://prophitt.me/writing/a-modern-web-app-in-c",
+    "linkHost": "prophitt.me",
+    "pubDate": "2026-10-12T16:13:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
