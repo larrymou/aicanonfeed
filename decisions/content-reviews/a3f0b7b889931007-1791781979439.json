@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "a3f0b7b889931007",
+  "url": "https://github.com/hashicorp/boundary",
+  "sourceName": "Hacker News Front Page",
+  "title": "HashiCorp archives the Boundary open source repo",
+  "summary": "Article URL: https://github.com/hashicorp/boundary Comments URL: https://news.ycombinator.com/item?id=50049498 Points: 58 # Comments: 12",
+  "pubDate": "2026-10-12T00:02:45.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports HashiCorp archiving an existing open-source repo; no new tool/framework release (5-1), model release, research artifact, business event, or policy action. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/hashicorp/boundary Comments URL: https://news.ycombinator.com/item?id=50049498 Points: 58 # Comments: 12",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/hashicorp/boundary",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-12T00:02:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
