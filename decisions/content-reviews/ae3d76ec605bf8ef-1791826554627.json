@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "ae3d76ec605bf8ef",
+  "url": "https://www.techmeme.com/261012/p34#a261012p34",
+  "sourceName": "Techmeme",
+  "title": "Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods (Ina Fried/Axios)",
+  "summary": "Ina Fried / Axios: Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods — Meta on Monday launched a new family of AI models that it says can compete at the technological frontier, marking",
+  "pubDate": "2026-10-12T17:25:10.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1 topically applies (named model 'Wonder', new model family launch), but condition 3 fails: link is a Techmeme aggregator page, not Meta's official announcement, and linked_page_owner_domain/linked_page_author are not observed, so no named author on a non-owner full article is established.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ina Fried / Axios: Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods — Meta on Monday launched a new family of AI models that it says can compete at the technological frontier, marking",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p34#a261012p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T17:25:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
