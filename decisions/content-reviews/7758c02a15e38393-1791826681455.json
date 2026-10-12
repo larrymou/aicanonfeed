@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "7758c02a15e38393",
+  "url": "https://research.meta.ai/blog/muse-wonder",
+  "sourceName": "Hacker News Front Page",
+  "title": "Muse Wonder",
+  "summary": "Article URL: https://research.meta.ai/blog/muse-wonder Comments URL: https://news.ycombinator.com/item?id=50059115 Points: 60 # Comments: 18",
+  "pubDate": "2026-10-12T16:48:01.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covered: title/summary do not name an AI model/release, report a research artifact, business event, policy action, or OSS tool; linked page owner/author are not observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://research.meta.ai/blog/muse-wonder Comments URL: https://news.ycombinator.com/item?id=50059115 Points: 60 # Comments: 18",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://research.meta.ai/blog/muse-wonder",
+    "linkHost": "research.meta.ai",
+    "pubDate": "2026-10-12T16:48:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
