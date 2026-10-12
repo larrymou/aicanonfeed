@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "83406123c1b1f932",
+  "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+  "sourceName": "TechCrunch AI",
+  "title": "Will the HomeView be Apple’s first smart home success?",
+  "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+  "pubDate": "2026-10-11T21:14:40.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative Apple smart home product (HomeView) report; not an AI model release, research paper, AI policy action, OSS tool, nor an AI industry business event. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+    "summaryChars": 169,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-11T21:14:40.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
