@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791826488290-r3g1x7",
+  "urlHash": "d8ca6f029c4f0eed",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+  "sourceName": "r/MachineLearning new",
+  "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models [R][D]",
+  "summary": "If you build on open-weight reasoning models, you have probably wanted a \"how sure is the model about this answer?\" signal that does not cost 5x sampling, a judge model, or a labeled dataset. Hence, we built the U-Lens. In one line: score = (how strongly the hidden state points t",
+  "pubDate": "2026-10-12T15:10:34.000Z",
+  "decidedAt": "2026-10-12T17:34:55.085Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post tagged [R][D] about uncertainty in LMs, but the observed link is the reddit.com thread, not an original paper or official source. Rule 2-1 requires a link to the original paper/official source, which is unmet; no rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "If you build on open-weight reasoning models, you have probably wanted a \"how sure is the model about this answer?\" signal that does not cost 5x sampling, a judge model, or a labeled dataset. Hence, we built the U-Lens. In one line: score = (how strongly the hidden state points t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-12T15:10:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
