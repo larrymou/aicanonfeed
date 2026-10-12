@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791781926726-9kjdod",
+  "urlHash": "b48216ada038faa9",
+  "url": "https://www.techmeme.com/261011/p15#a261011p15",
+  "sourceName": "Techmeme",
+  "title": "Qualcomm CEO Cristiano Amon says AI companies are \"starting to do phones\" and asking Qualcomm to support running 100B-parameter local LLMs continuously by 2028 (Alex Heath/Sources)",
+  "summary": "Alex Heath / Sources: Qualcomm CEO Cristiano Amon says AI companies are “starting to do phones” and asking Qualcomm to support running 100B-parameter local LLMs continuously by 2028 — Cristiano Amon on the China vs. US AI sentiment, how AI is changing smartphones and wearables, Q",
+  "pubDate": "2026-10-12T02:55:00.000Z",
+  "decidedAt": "2026-10-12T05:12:15.002Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CEO commentary/interview about AI firms entering phones and future local-LLM support requests. No named model release with official owner link (1-1), no research artifact (2-1), no financing/M&A/partnership/market data or product launch (3-1), no policy action (4-1), no OSS tooling (5-1). No rule co",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alex Heath / Sources: Qualcomm CEO Cristiano Amon says AI companies are “starting to do phones” and asking Qualcomm to support running 100B-parameter local LLMs continuously by 2028 — Cristiano Amon on the China vs. US AI sentiment, how AI is changing smartphones and wearables, Q",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261011/p15#a261011p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T02:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
