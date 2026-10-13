@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "6db6724e155ae1c6",
+  "url": "https://www.pi.website/blog/api-beta",
+  "sourceName": "Hacker News Front Page",
+  "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+  "summary": "Article URL: https://www.pi.website/blog/api-beta Comments URL: https://news.ycombinator.com/item?id=50079437 Points: 11 # Comments: 0",
+  "pubDate": "2026-10-13T21:55:25.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1 fails: title/summary name no specific model ('Frontier Models for Every Robot' is generic). It is a model/capability offering with an official owner announcement (pi.website), which rule 3-1 routes to group 1, so group 3 is not used; no rule covers the item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.pi.website/blog/api-beta Comments URL: https://news.ycombinator.com/item?id=50079437 Points: 11 # Comments: 0",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://www.pi.website/blog/api-beta",
+    "linkHost": "www.pi.website",
+    "pubDate": "2026-10-13T21:55:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
