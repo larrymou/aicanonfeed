@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "05659d70df9d1c7e",
+  "url": "https://www.techmeme.com/261012/p40#a261012p40",
+  "sourceName": "Techmeme",
+  "title": "Anthropic researchers say small AI models may be months away from being able to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes (Anthropic)",
+  "summary": "Anthropic: Anthropic researchers say small AI models may be months away from being able to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes — Our experiments suggest that small AI models may be months away from being capable enough to self-replicate o",
+  "pubDate": "2026-10-12T21:50:01.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is research commentary about small models self-replicating, but the only link is a Techmeme aggregation page, not the original paper or official source. No rule covers it: not a model release, business event, policy action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic researchers say small AI models may be months away from being able to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes — Our experiments suggest that small AI models may be months away from being capable enough to self-replicate o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p40#a261012p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T21:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
