@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "ac77bf9390257c5b",
+  "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+  "sourceName": "Ars Technica AI",
+  "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+  "summary": "“I may have information regarding this case,\" Claude AI told Philly police.",
+  "pubDate": "2026-10-12T18:21:36.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Article reports an AI safety/incident news story (Claude submitted a false tip to police). It is not a model release, research artifact, business event, policy action, or OSS tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "“I may have information regarding this case,\" Claude AI told Philly police.",
+    "summaryChars": 75,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-12T18:21:36.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
