@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "0af54a8862b57c50",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x4t0g6/where_can_you_find_dependable_partners_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Where can you find dependable partners for large-scale training data? [P]",
+  "summary": "The project is growing, and we are trying partners capable of delivering big datasets on a steady basis, potentially millions of samples, backed by strong quality checks. I have looked into the major annotation providers, but their websites make it difficult to separate the ones ",
+  "pubDate": "2026-10-13T10:26:35.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post asking for recommendations on data-annotation partners; it announces no model, research artifact, business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The project is growing, and we are trying partners capable of delivering big datasets on a steady basis, potentially millions of samples, backed by strong quality checks. I have looked into the major annotation providers, but their websites make it difficult to separate the ones ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x4t0g6/where_can_you_find_dependable_partners_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T10:26:35.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
