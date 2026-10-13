@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "51c49076ed3d2c09",
+  "url": "https://www.techmeme.com/261013/p34#a261013p34",
+  "sourceName": "Techmeme",
+  "title": "Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months (Artie Beaty/ZDNET)",
+  "summary": "Artie Beaty / ZDNET: Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months — It just got a whole lot easier to vibe code the exact Android app you need - no developer experi",
+  "pubDate": "2026-10-13T17:35:02.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Google product feature launch (free personal Android app building in AI Studio), a non-model product launch reported via Techmeme/ZDNET media coverage under rule 3-1; no named model or official owner link, so group 1 does not apply.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Artie Beaty / ZDNET: Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months — It just got a whole lot easier to vibe code the exact Android app you need - no developer experi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p34#a261013p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T17:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
