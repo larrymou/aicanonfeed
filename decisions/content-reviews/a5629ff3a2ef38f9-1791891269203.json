@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "a5629ff3a2ef38f9",
+  "url": "https://pdftomp3.com/connect-ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+  "summary": "Article URL: https://pdftomp3.com/connect-ai/ Comments URL: https://news.ycombinator.com/item?id=50069337 Points: 25 # Comments: 20",
+  "pubDate": "2026-10-13T10:08:34.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for a proprietary web tool that converts PDFs to audiobooks using an OpenAI subscription. No named model release (R1), no research artifact (R2), no business event (R3), no policy action (R4), and not an open-source tool/framework release (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://pdftomp3.com/connect-ai/ Comments URL: https://news.ycombinator.com/item?id=50069337 Points: 25 # Comments: 20",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://pdftomp3.com/connect-ai/",
+    "linkHost": "pdftomp3.com",
+    "pubDate": "2026-10-13T10:08:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
