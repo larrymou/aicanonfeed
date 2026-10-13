@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "584c10d5741336f8",
+  "url": "https://www.techmeme.com/261013/p47#a261013p47",
+  "sourceName": "Techmeme",
+  "title": "Sources: OpenAI is in early talks to buy Trail of Bits, which finds and fixes vulnerabilities in open-source software; founded in 2012, it has 40+ employees (The Information)",
+  "summary": "The Information: Sources: OpenAI is in early talks to buy Trail of Bits, which finds and fixes vulnerabilities in open-source software; founded in 2012, it has 40+ employees — OpenAI, which is trying to develop a substantial cybersecurity business, is in early talks to buy Trail ",
+  "pubDate": "2026-10-13T23:20:01.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry M&A event: OpenAI in early talks to acquire Trail of Bits, sourced to The Information and covered by reputable media outlet Techmeme, matching the industry business events rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Sources: OpenAI is in early talks to buy Trail of Bits, which finds and fixes vulnerabilities in open-source software; founded in 2012, it has 40+ employees — OpenAI, which is trying to develop a substantial cybersecurity business, is in early talks to buy Trail ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p47#a261013p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T23:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
