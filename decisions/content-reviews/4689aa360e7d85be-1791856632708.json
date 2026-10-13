@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "4689aa360e7d85be",
+  "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+  "sourceName": "TechCrunch AI",
+  "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+  "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+  "pubDate": "2026-10-12T15:45:00.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports Honeyjar offering AI PR/comms tools — a non-model product/company launch covered by a reputable media outlet (techcrunch.com), matching the industry business-event rule 3-1. No model release, research artifact, policy action, or open-source tooling is evidenced.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-12T15:45:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
