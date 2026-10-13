@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "69e5274efa8f0fd3",
+  "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+  "sourceName": "Ars Technica AI",
+  "title": "Russia was not ready for the data center war it started with Ukraine",
+  "summary": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
+  "pubDate": "2026-10-12T17:52:36.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Article covers Russia's data center/digital-infrastructure vulnerability in the Ukraine war—geopolitical commentary. It reports no AI model release, research artifact, AI business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-12T17:52:36.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
