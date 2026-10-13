@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "178cda117cf6f693",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x4h5bx/got_desk_rejected_at_tmlr_with_no_idea_why_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Got desk rejected at TMLR with no idea why [D]",
+  "summary": "My paper cited and even built up on a niche topic that was accepted in 2024. The template and everything was also followed properly. Sure, it wasn't too novel, but it was damn rigorous, robust and reproducible. Still, I got desk rejected within 2 days. 2 days. With no comment. I ",
+  "pubDate": "2026-10-12T23:23:35.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary about a TMLR desk rejection; no new research artifact, paper, or official source link. No rule covers commentary without a research artifact or policy/industry event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "My paper cited and even built up on a niche topic that was accepted in 2024. The template and everything was also followed properly. Sure, it wasn't too novel, but it was damn rigorous, robust and reproducible. Still, I got desk rejected within 2 days. 2 days. With no comment. I ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x4h5bx/got_desk_rejected_at_tmlr_with_no_idea_why_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-12T23:23:35.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
