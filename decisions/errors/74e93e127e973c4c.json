@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "74e93e127e973c4c",
+  "url": "https://www.techmeme.com/261013/p13#a261013p13",
+  "sourceName": "Techmeme",
+  "title": "Accenture's market cap rebounded from $76B in June to ~$130B ahead of its investor day, where it seeks to reassure investors that AI won't threaten its business (Stephen Foley/Financial Times)",
+  "summary": "Stephen Foley / Financial Times: Accenture's market cap rebounded from $76B in June to ~$130B ahead of its investor day, where it seeks to reassure investors that AI won't threaten its business — The technology consultancy seeks to calm jitters with an investor day this week — In",
+  "pubDate": "2026-10-13T10:35:02.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Stephen Foley / Financial Times: Accenture's market cap rebounded from $76B in June to ~$130B ahead of its investor day, where it seeks to reassure investors that AI won't threaten its business — The technology consultancy seeks to calm jitters with an investor day this week — In",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p13#a261013p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T10:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
