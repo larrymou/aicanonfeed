@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "9452f98968f0cc70",
+  "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+  "sourceName": "Ars Technica AI",
+  "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+  "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
+  "pubDate": "2026-10-13T18:23:33.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-13T18:23:33.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
