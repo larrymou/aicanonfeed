@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "060988c172cebce9",
+  "url": "https://www.techmeme.com/261013/p45#a261013p45",
+  "sourceName": "Techmeme",
+  "title": "A look at OpenAI's safety concerns over loop transformers before shipping its next major model; Microsoft accidentally confirmed GPT-6.1 Sol uses the technique (The Information)",
+  "summary": "The Information: A look at OpenAI's safety concerns over loop transformers before shipping its next major model; Microsoft accidentally confirmed GPT-6.1 Sol uses the technique — OpenAI is grappling with fallout from its use of a controversial innovation in AI design as it works ",
+  "pubDate": "2026-10-13T21:56:04.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme aggregate reports safety concerns and an accidental confirmation, not a model availability announcement, research paper, business event, policy action, or OSS tool. No active rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: A look at OpenAI's safety concerns over loop transformers before shipping its next major model; Microsoft accidentally confirmed GPT-6.1 Sol uses the technique — OpenAI is grappling with fallout from its use of a controversial innovation in AI design as it works ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p45#a261013p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T21:56:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
