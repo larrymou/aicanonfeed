@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "89f4f685d9b7d963",
+  "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+  "sourceName": "TechCrunch AI",
+  "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+  "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+  "pubDate": "2026-10-13T23:13:31.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this item: it reports a clinical implant milestone for a BCI/medical device company, not an AI model release, research paper, AI business event (financing/M&A/partnership/revenue), policy action, or open-source tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+    "summaryChars": 201,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-13T23:13:31.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
