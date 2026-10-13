@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "9e4d9446e9552559",
+  "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+  "sourceName": "Ars Technica AI",
+  "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+  "summary": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+  "pubDate": "2026-10-12T20:59:50.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a report that Epic Games is shifting its development strategy to AI-first. It is not a named model release (1-1), research artifact (2-1), policy action (4-1), or OSS tool (5-1), and does not fit rule 3-1's enumerated business events (financing, M&A, partnerships, market data, product launch",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-12T20:59:50.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
