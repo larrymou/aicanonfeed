@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "37cb4d27adb72d8b",
+  "url": "https://www.techmeme.com/261013/p37#a261013p37",
+  "sourceName": "Techmeme",
+  "title": "A Delaware jury awards Qualcomm $2 in nominal damages after finding Arm breached its architectural license agreement and sought to disrupt Qualcomm's business (Anhata Rooprai/Reuters)",
+  "summary": "Anhata Rooprai / Reuters: A Delaware jury awards Qualcomm $2 in nominal damages after finding Arm breached its architectural license agreement and sought to disrupt Qualcomm's business — A Delaware jury awarded Qualcomm $2 in nominal damages after finding Arm Holdings breached it",
+  "pubDate": "2026-10-13T18:10:47.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Delaware jury verdict on an Arm-Qualcomm licensing dispute. Rule 3-1 covers financing, M&A, partnerships, market/revenue data, or non-model product launches; a litigation/nominal-damages verdict is none of these. No other rule (model, research, policy, OSS) applies, so the item is rej",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anhata Rooprai / Reuters: A Delaware jury awards Qualcomm $2 in nominal damages after finding Arm breached its architectural license agreement and sought to disrupt Qualcomm's business — A Delaware jury awarded Qualcomm $2 in nominal damages after finding Arm Holdings breached it",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p37#a261013p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T18:10:47.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
