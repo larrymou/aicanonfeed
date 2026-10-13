@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "e011cc3858c1d4e2",
+  "url": "https://github.com/rust-lang/rust/issues/164250",
+  "sourceName": "Hacker News Front Page",
+  "title": "11 year old unsoundness bugs found in Rust borrow checker",
+  "summary": "Article URL: https://github.com/rust-lang/rust/issues/164250 Comments URL: https://news.ycombinator.com/item?id=50069499 Points: 102 # Comments: 26",
+  "pubDate": "2026-10-13T10:27:00.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a bug report about the Rust borrow checker (a compiler soundness issue), not an AI model release, AI research result, AI industry event, AI policy action, or a new open-source AI tool/framework. No active rule covers it, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/rust-lang/rust/issues/164250 Comments URL: https://news.ycombinator.com/item?id=50069499 Points: 102 # Comments: 26",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://github.com/rust-lang/rust/issues/164250",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-13T10:27:00.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
