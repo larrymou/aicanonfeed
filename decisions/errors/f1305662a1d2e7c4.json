@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "f1305662a1d2e7c4",
+  "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+  "sourceName": "The Verge AI",
+  "title": "Shopify opens its catalog up to more AI agents",
+  "summary": "CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an exp",
+  "pubDate": "2026-10-13T19:42:42.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an exp",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-13T19:42:42.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
