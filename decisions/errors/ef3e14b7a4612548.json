@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "ef3e14b7a4612548",
+  "url": "https://www.techmeme.com/261013/p16#a261013p16",
+  "sourceName": "Techmeme",
+  "title": "Sources: US banking regulators are questioning banks about their deployment of agentic AI, use of Chinese-developed AI models, and autonomous system safeguards (Reuters)",
+  "summary": "Reuters: Sources: US banking regulators are questioning banks about their deployment of agentic AI, use of Chinese-developed AI models, and autonomous system safeguards — Banking regulators are stepping up efforts to contain growing AI risks, six people familiar with the matter s",
+  "pubDate": "2026-10-13T11:20:08.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: US banking regulators are questioning banks about their deployment of agentic AI, use of Chinese-developed AI models, and autonomous system safeguards — Banking regulators are stepping up efforts to contain growing AI risks, six people familiar with the matter s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p16#a261013p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T11:20:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
