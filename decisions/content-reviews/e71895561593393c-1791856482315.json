@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "e71895561593393c",
+  "url": "https://doi.org/10.1111/acel.70751",
+  "sourceName": "Hacker News Front Page",
+  "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+  "summary": "Article URL: https://doi.org/10.1111/acel.70751 Comments URL: https://news.ycombinator.com/item?id=50064536 Points: 89 # Comments: 49",
+  "pubDate": "2026-10-12T23:34:22.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a biology/aging stem-cell study (DOI to Aging Cell), not AI research, an AI model release, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://doi.org/10.1111/acel.70751 Comments URL: https://news.ycombinator.com/item?id=50064536 Points: 89 # Comments: 49",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://doi.org/10.1111/acel.70751",
+    "linkHost": "doi.org",
+    "pubDate": "2026-10-12T23:34:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
