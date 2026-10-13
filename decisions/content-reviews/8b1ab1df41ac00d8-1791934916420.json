@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "8b1ab1df41ac00d8",
+  "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Developing Gemini 4 Argon responsibly and safely",
+  "summary": "Developing Gemini 4 Argon responsibly and safely",
+  "pubDate": "2026-10-13T19:43:07.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names Gemini 4 Argon on an official DeepMind link, but no release/availability action (new model, N.0 major version, or new capability) is observed; title suggests a safety discussion. Rule 1-1 release action is unmet, and no other rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Developing Gemini 4 Argon responsibly and safely",
+    "summaryChars": 48,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-13T19:43:07.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
