@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "458846c87bb71733",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x4qcxw/machine_learning_tutorialworkshop_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Machine Learning Tutorial/Workshop [D]",
+  "summary": "This post is to let people know about a workshop/tutorial on Machine Learning that will run on the (blue) math discord server: discord.gg/maths. The place is nice, people are cool and helpful, and as you can see it is a mathematics server, so the learning environment is quite foc",
+  "pubDate": "2026-10-13T07:34:40.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post announcing a community ML workshop/tutorial on a Discord server. No named model release, no research paper, no business event, no policy action, and no open-source tool/framework release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This post is to let people know about a workshop/tutorial on Machine Learning that will run on the (blue) math discord server: discord.gg/maths. The place is nice, people are cool and helpful, and as you can see it is a mathematics server, so the learning environment is quite foc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x4qcxw/machine_learning_tutorialworkshop_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T07:34:40.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
