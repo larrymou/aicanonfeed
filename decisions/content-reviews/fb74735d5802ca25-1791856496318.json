@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "fb74735d5802ca25",
+  "url": "https://news.sky.com/story/breaking-bad-star-rj-mitte-dies-aged-34-13598332",
+  "sourceName": "Hacker News Front Page",
+  "title": "RJ Mitte has died",
+  "summary": "Article URL: https://news.sky.com/story/breaking-bad-star-rj-mitte-dies-aged-34-13598332 Comments URL: https://news.ycombinator.com/item?id=50063831 Points: 141 # Comments: 44",
+  "pubDate": "2026-10-12T22:15:29.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a celebrity death report (RJ Mitte), not AI model release, research, industry business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://news.sky.com/story/breaking-bad-star-rj-mitte-dies-aged-34-13598332 Comments URL: https://news.ycombinator.com/item?id=50063831 Points: 141 # Comments: 44",
+    "summaryChars": 175,
+    "summarySource": "summary",
+    "link": "https://news.sky.com/story/breaking-bad-star-rj-mitte-dies-aged-34-13598332",
+    "linkHost": "news.sky.com",
+    "pubDate": "2026-10-12T22:15:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
