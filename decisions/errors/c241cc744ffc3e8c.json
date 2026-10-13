@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "c241cc744ffc3e8c",
+  "url": "https://www.techmeme.com/261012/p41#a261012p41",
+  "sourceName": "Techmeme",
+  "title": "Sources: JPMorgan and Goldman, leading a $5B loan sale with a yield of ~11% for AI startup Volta, took a rare move to limit exposure by underwriting just $1.3B (Claire Ruckin/Bloomberg)",
+  "summary": "Claire Ruckin / Bloomberg: Sources: JPMorgan and Goldman, leading a $5B loan sale with a yield of ~11% for AI startup Volta, took a rare move to limit exposure by underwriting just $1.3B — JPMorgan Chase & Co. and Goldman Sachs Group Inc. have taken a rare move to limit their exp",
+  "pubDate": "2026-10-12T22:10:01.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Claire Ruckin / Bloomberg: Sources: JPMorgan and Goldman, leading a $5B loan sale with a yield of ~11% for AI startup Volta, took a rare move to limit exposure by underwriting just $1.3B — JPMorgan Chase & Co. and Goldman Sachs Group Inc. have taken a rare move to limit their exp",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p41#a261012p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T22:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
