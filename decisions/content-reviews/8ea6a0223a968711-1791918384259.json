@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "8ea6a0223a968711",
+  "url": "https://www.techmeme.com/261013/p33#a261013p33",
+  "sourceName": "Techmeme",
+  "title": "Meta expands its AI-powered \"Your Algorithm\" feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems (Stevie Bonifield/The Verge)",
+  "summary": "Stevie Bonifield / The Verge: Meta expands its AI-powered “Your Algorithm” feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems — Meta's bringing Instagram's “Your Algorithm” feature to Facebook, and using LLMs more to rank c",
+  "pubDate": "2026-10-13T17:25:51.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Meta rolling out a non-model product feature (AI-powered 'Your Algorithm' to Facebook/Reels) covered by a media report (Techmeme citing The Verge); fits industry non-model product launch rule 3-1, not a named model release.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Stevie Bonifield / The Verge: Meta expands its AI-powered “Your Algorithm” feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems — Meta's bringing Instagram's “Your Algorithm” feature to Facebook, and using LLMs more to rank c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p33#a261013p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T17:25:51.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
