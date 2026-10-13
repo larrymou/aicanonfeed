@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "8a610aaf1a3dba10",
+  "url": "https://alpha-nist.github.io/",
+  "sourceName": "Hacker News Front Page",
+  "title": "AlphaNIST",
+  "summary": "Article URL: https://alpha-nist.github.io/ Comments URL: https://news.ycombinator.com/item?id=50079464 Points: 18 # Comments: 0",
+  "pubDate": "2026-10-13T21:57:29.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is only a Hacker News pointer titled 'AlphaNIST' with no observed details of a named model release, research artifact, industry event, policy action, or OSS tool. No rule conditions can be established from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alpha-nist.github.io/ Comments URL: https://news.ycombinator.com/item?id=50079464 Points: 18 # Comments: 0",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://alpha-nist.github.io/",
+    "linkHost": "alpha-nist.github.io",
+    "pubDate": "2026-10-13T21:57:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
