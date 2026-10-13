@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "62bd2b4c042758da",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.4",
+  "summary": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917 server: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947 mlx: compact restored recurrent state after speculative rollback by @dhi",
+  "pubDate": "2026-10-12T19:00:12.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917 server: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947 mlx: compact restored recurrent state after speculative rollback by @dhi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-12T19:00:12.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
