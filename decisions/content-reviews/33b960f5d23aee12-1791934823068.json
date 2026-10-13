@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "33b960f5d23aee12",
+  "url": "https://pulseos.finance",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+  "summary": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash lo",
+  "pubDate": "2026-10-13T23:13:23.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this: no named lab model/release action (1-1), no research artifact (2-1), no industry business event like financing/M&A/partnership (3-1), no policy action (4-1), and no open-source tool/repo (5-1) — it is a proprietary beta Mac budgeting app.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash lo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://pulseos.finance",
+    "linkHost": "pulseos.finance",
+    "pubDate": "2026-10-13T23:13:23.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
