@@ -1,18 +1,24 @@
 {
-  "runId": "run-1791856461363-9tzeji",
+  "runId": "run-1791891201080-eswvhg",
   "urlHash": "0aa3802f6f2a1aeb",
   "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
   "sourceName": "TechCrunch AI",
   "title": "Meta releases its first frontier model, Muse Wonder",
   "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
   "pubDate": "2026-10-12T17:56:56.000Z",
-  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Title names a specific model (Muse Wonder) and Meta release action. But link is techcrunch.com, not owner site, so news-article branch applies and requires a named author plus pubDate; linked_page_author is not observed, so the evidence link condition is unmet.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
