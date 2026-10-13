@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "951fd9fecbc870c3",
+  "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI models may soon self-replicate without access to data centers",
+  "summary": "Article URL: https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/ Comments URL: https://news.ycombinator.com/item?id=50069333 Points: 16 # Comments: 17",
+  "pubDate": "2026-10-13T10:08:18.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reuters report on Anthropic's warning about self-replicating AI models. No named model release (R1-1), no research artifact (R2-1), no business event like financing/M&A/partnership/product launch (R3-1), no government policy action (R4-1), and no OSS tool release (R5-1). Commentary/news with no matc",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/ Comments URL: https://news.ycombinator.com/item?id=50069333 Points: 16 # Comments: 17",
+    "summaryChars": 221,
+    "summarySource": "summary",
+    "link": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+    "linkHost": "www.reuters.com",
+    "pubDate": "2026-10-13T10:08:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
