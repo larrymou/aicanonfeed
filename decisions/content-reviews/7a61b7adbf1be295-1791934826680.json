@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "7a61b7adbf1be295",
+  "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+  "sourceName": "TechCrunch AI",
+  "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+  "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+  "pubDate": "2026-10-13T23:05:34.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is CEO commentary/prediction about future personal AI assistants, not a model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-13T23:05:34.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
