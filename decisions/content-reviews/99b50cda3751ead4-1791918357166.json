@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "99b50cda3751ead4",
+  "url": "https://music.xy.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: XY Music Notation",
+  "summary": "I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it. The idea is to represent each note in 12-TET as a number, so N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y). I used codex to build a musi",
+  "pubDate": "2026-10-13T17:43:05.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for a music notation/keyboard project; it is not an AI model release, research artifact, industry business event, policy action, or an AI/OSS developer tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it. The idea is to represent each note in 12-TET as a number, so N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y). I used codex to build a musi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://music.xy.dev/",
+    "linkHost": "music.xy.dev",
+    "pubDate": "2026-10-13T17:43:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
