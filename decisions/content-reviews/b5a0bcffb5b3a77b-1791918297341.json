@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "b5a0bcffb5b3a77b",
+  "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+  "sourceName": "The Verge AI",
+  "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+  "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded",
+  "pubDate": "2026-10-13T19:00:48.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media article about Xbox exploring AI-powered game decompiling/ports. No named model release (R1), no research artifact (R2), no clear business event like financing/M&A/partnership/product launch (R3), no policy action (R4), no OSS tool release (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-13T19:00:48.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
