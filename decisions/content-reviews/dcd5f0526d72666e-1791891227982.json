@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "dcd5f0526d72666e",
+  "url": "https://www.techmeme.com/261013/p15#a261013p15",
+  "sourceName": "Techmeme",
+  "title": "The IMF lifts its 2026 global GDP growth forecast to 3.1%, up from 3% in July, citing an AI boom that offsets Middle East war disruptions and high energy costs (Anniek Bao/CNBC)",
+  "summary": "Anniek Bao / CNBC: The IMF lifts its 2026 global GDP growth forecast to 3.1%, up from 3% in July, citing an AI boom that offsets Middle East war disruptions and high energy costs — BANGKOK — The International Monetary Fund has raised its forecast for global growth this year as th",
+  "pubDate": "2026-10-13T11:00:01.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a macroeconomic IMF global GDP forecast that merely cites an AI boom as a factor; it reports no AI industry business event (financing, M&A, partnership, or AI-specific market/revenue data), and no model release, research artifact, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anniek Bao / CNBC: The IMF lifts its 2026 global GDP growth forecast to 3.1%, up from 3% in July, citing an AI boom that offsets Middle East war disruptions and high energy costs — BANGKOK — The International Monetary Fund has raised its forecast for global growth this year as th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p15#a261013p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T11:00:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
