@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "1886382b7cf77e00",
+  "url": "https://www.techmeme.com/261013/p35#a261013p35",
+  "sourceName": "Techmeme",
+  "title": "Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April (Ram Iyer/TechCrunch)",
+  "summary": "Ram Iyer / TechCrunch: Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April — The problem with giving everyone in a company access to AI tools is that people will use them in ",
+  "pubDate": "2026-10-13T17:50:01.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Pluto Security exiting stealth with $42M ($34M Series A) and ARR figures is an AI industry financing/business event, reported via Techmeme linking to a TechCrunch article (reputable media report). No official owner link, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ram Iyer / TechCrunch: Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April — The problem with giving everyone in a company access to AI tools is that people will use them in ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p35#a261013p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T17:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
