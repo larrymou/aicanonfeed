@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "587281d93e4949fe",
+  "url": "https://github.com/andrewfader/blokkily",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: An experimental pattern-first DAW that supports MCP",
+  "summary": "Article URL: https://github.com/andrewfader/blokkily Comments URL: https://news.ycombinator.com/item?id=50064438 Points: 11 # Comments: 6",
+  "pubDate": "2026-10-12T23:21:12.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN of an experimental pattern-first DAW (music production tool) with MCP support. It is not a named AI model release, research paper, industry business event, policy action, nor an AI tool/framework/library release; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/andrewfader/blokkily Comments URL: https://news.ycombinator.com/item?id=50064438 Points: 11 # Comments: 6",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://github.com/andrewfader/blokkily",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-12T23:21:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
