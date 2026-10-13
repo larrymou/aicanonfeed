@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "6bc12f2b5da91214",
+  "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+  "sourceName": "Hacker News Front Page",
+  "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+  "summary": "Article URL: https://nirajrajgor.com/blog/kindle-photo-frame-with-ai Comments URL: https://news.ycombinator.com/item?id=50064318 Points: 100 # Comments: 55",
+  "pubDate": "2026-10-12T23:07:25.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post about a Kindle photo-frame DIY project; no official model-release announcement, research artifact, industry event, policy action, or OSS tool release. Title's 'GPT-6 Astra' is clickbait, and no official owner domain/author is observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nirajrajgor.com/blog/kindle-photo-frame-with-ai Comments URL: https://news.ycombinator.com/item?id=50064318 Points: 100 # Comments: 55",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+    "linkHost": "nirajrajgor.com",
+    "pubDate": "2026-10-12T23:07:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
