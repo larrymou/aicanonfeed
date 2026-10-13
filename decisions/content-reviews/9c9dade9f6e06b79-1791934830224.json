@@ -1,0 +1,40 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "9c9dade9f6e06b79",
+  "url": "https://www.techmeme.com/261013/p46#a261013p46",
+  "sourceName": "Techmeme",
+  "title": "Tencent raised ~$5.7B via US dollar and offshore yuan debt offerings, drawing $23B+ in orders; source: it had initially been expected to raise at least $4.5B (Reuters)",
+  "summary": "Reuters: Tencent raised ~$5.7B via US dollar and offshore yuan debt offerings, drawing $23B+ in orders; source: it had initially been expected to raise at least $4.5B — Tencent Holdings (0700.HK) has raised about $5.7 billion through US dollar and offshore yuan debt offerings on ",
+  "pubDate": "2026-10-13T23:00:39.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Tencent's general debt financing (~$5.7B), with no AI model, research, policy action, or open-source tool involved. It is not an AI industry business event, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Tencent raised ~$5.7B via US dollar and offshore yuan debt offerings, drawing $23B+ in orders; source: it had initially been expected to raise at least $4.5B — Tencent Holdings (0700.HK) has raised about $5.7 billion through US dollar and offshore yuan debt offerings on ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p46#a261013p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T23:00:39.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
