@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "1b5e7881976dcd53",
+  "url": "https://www.techmeme.com/261012/p42#a261012p42",
+  "sourceName": "Techmeme",
+  "title": "Leading Chinese mathematicians launch an alliance, including eight orgs and aiming for 1,000+ scientists, to focus on developing specialized AI models for math (Chao Kong/South China Morning Post)",
+  "summary": "Chao Kong / South China Morning Post: Leading Chinese mathematicians launch an alliance, including eight orgs and aiming for 1,000+ scientists, to focus on developing specialized AI models for math — Leading China's mathematicians joined forces in Beijing on Sunday to launch an a",
+  "pubDate": "2026-10-13T00:15:02.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chao Kong / South China Morning Post: Leading Chinese mathematicians launch an alliance, including eight orgs and aiming for 1,000+ scientists, to focus on developing specialized AI models for math — Leading China's mathematicians joined forces in Beijing on Sunday to launch an a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p42#a261012p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T00:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
