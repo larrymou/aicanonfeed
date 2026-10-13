@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "e0c94703f295f082",
+  "url": "https://www.techmeme.com/261013/p12#a261013p12",
+  "sourceName": "Techmeme",
+  "title": "Meta confirms Muse lets users \"engage in adult conversations, if they choose, using a private and secure VM\", saying it doesn't block \"legal adult behavior\" (Reece Rogers/Wired)",
+  "summary": "Reece Rogers / Wired: Meta confirms Muse lets users “engage in adult conversations, if they choose, using a private and secure VM”, saying it doesn't block “legal adult behavior” — My Muse agent told me its kink was exerting “control” and described pornographic encounters.",
+  "pubDate": "2026-10-13T10:25:01.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is media commentary about Meta confirming its Muse agent's adult-conversation behavior, not a model release (1-1), research artifact (2-1), business event (3-1), policy/government action (4-1), or OSS tool (5-1). No release/major-version/capability-launch action is stated.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reece Rogers / Wired: Meta confirms Muse lets users “engage in adult conversations, if they choose, using a private and secure VM”, saying it doesn't block “legal adult behavior” — My Muse agent told me its kink was exerting “control” and described pornographic encounters.",
+    "summaryChars": 273,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p12#a261013p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T10:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
