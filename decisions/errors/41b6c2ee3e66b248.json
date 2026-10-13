@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "41b6c2ee3e66b248",
+  "url": "https://github.com/maharshi365/deslop",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Deslop – Oxlint rules for AI-generated TypeScript",
+  "summary": "Catches unsafe types, duplicate code, and low-value tests. Comments URL: https://news.ycombinator.com/item?id=50075809 Points: 3 # Comments: 0",
+  "pubDate": "2026-10-13T17:52:57.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Catches unsafe types, duplicate code, and low-value tests. Comments URL: https://news.ycombinator.com/item?id=50075809 Points: 3 # Comments: 0",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://github.com/maharshi365/deslop",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-13T17:52:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
