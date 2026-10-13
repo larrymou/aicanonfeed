@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "c2bee8378833c504",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x54cb5/on_writing_papers_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "On writing papers [D]",
+  "summary": "Hey all, I was curious about your take on writing papers. I see many different styles of writing, and I am kind of lost myself about what the best way to write is for a NeurIPS/ICLR/ICML conference audience. Do you have any tips or thoughts you'd like to share regarding writing? ",
+  "pubDate": "2026-10-13T18:18:21.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for paper-writing tips. It reports no new AI research artifact, model release, industry business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey all, I was curious about your take on writing papers. I see many different styles of writing, and I am kind of lost myself about what the best way to write is for a NeurIPS/ICLR/ICML conference audience. Do you have any tips or thoughts you'd like to share regarding writing? ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x54cb5/on_writing_papers_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T18:18:21.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
