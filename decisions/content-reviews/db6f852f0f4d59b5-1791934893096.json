@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "db6f852f0f4d59b5",
+  "url": "https://www.techmeme.com/261013/p43#a261013p43",
+  "sourceName": "Techmeme",
+  "title": "The FBI says it worked with CrowdStrike to dismantle 40+ laptop farms across Texas used to help North Koreans get remote US tech jobs under stolen identities (Dustin Volz/New York Times)",
+  "summary": "Dustin Volz / New York Times: The FBI says it worked with CrowdStrike to dismantle 40+ laptop farms across Texas used to help North Koreans get remote US tech jobs under stolen identities — F.B.I. investigators worked with the cybersecurity firm CrowdStrike to dismantle so-called",
+  "pubDate": "2026-10-13T21:05:02.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an FBI/CrowdStrike law-enforcement operation against North Korean IT-worker laptop farms. It is not an AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dustin Volz / New York Times: The FBI says it worked with CrowdStrike to dismantle 40+ laptop farms across Texas used to help North Koreans get remote US tech jobs under stolen identities — F.B.I. investigators worked with the cybersecurity firm CrowdStrike to dismantle so-called",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p43#a261013p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T21:05:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
