@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "7862b8b2ffc70672",
+  "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+  "sourceName": "Wired AI",
+  "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+  "summary": "Musk, we find your lack of security disturbing.",
+  "pubDate": "2026-10-12T17:55:12.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is entertainment/commentary about Elon Musk and X users; it reports no model release, research artifact, industry business event, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Musk, we find your lack of security disturbing.",
+    "summaryChars": 47,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-12T17:55:12.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
