@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "d239fa85a32a7e69",
+  "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+  "sourceName": "TechCrunch AI",
+  "title": "Facebook is giving users more control over their algorithm",
+  "summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+  "pubDate": "2026-10-13T18:05:24.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Meta's 'Your Algorithm' is a non-model AI product feature launch. TechCrunch is a reputable media report with a publication date, matching the industry non-model product launch rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+    "summaryChars": 116,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-13T18:05:24.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
