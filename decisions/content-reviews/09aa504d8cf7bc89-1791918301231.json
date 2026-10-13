@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "09aa504d8cf7bc89",
+  "url": "https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain",
+  "sourceName": "Hacker News Front Page",
+  "title": "Zero to Calc in Six Days: Inside XBOW's Chrome Full Chain",
+  "summary": "Article URL: https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain Comments URL: https://news.ycombinator.com/item?id=50076503 Points: 6 # Comments: 1",
+  "pubDate": "2026-10-13T18:37:45.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a browser exploit/security research write-up (XBOW Chrome full chain), not an AI model release, AI research artifact, AI industry event, AI policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain Comments URL: https://news.ycombinator.com/item?id=50076503 Points: 6 # Comments: 1",
+    "summaryChars": 182,
+    "summarySource": "summary",
+    "link": "https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain",
+    "linkHost": "xbow.com",
+    "pubDate": "2026-10-13T18:37:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
