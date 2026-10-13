@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "fce5805d2d351159",
+  "url": "https://www.techmeme.com/261013/p14#a261013p14",
+  "sourceName": "Techmeme",
+  "title": "How crypto billionaires Christopher Harborne, who owns ~12% of Tether, and Ben Delo donated ~$100M to Nigel Farage's Reform, the largest donations in UK history (David Segal/New York Times)",
+  "summary": "David Segal / New York Times: How crypto billionaires Christopher Harborne, who owns ~12% of Tether, and Ben Delo donated ~$100M to Nigel Farage's Reform, the largest donations in UK history — For a pub-going, cigarette-puffing man of the people, Nigel Farage, the leader of the R",
+  "pubDate": "2026-10-13T10:45:01.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Political donation story about crypto billionaires donating to Nigel Farage's Reform party. No AI model release, research artifact, AI industry business event, policy action, or OSS tooling; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "David Segal / New York Times: How crypto billionaires Christopher Harborne, who owns ~12% of Tether, and Ben Delo donated ~$100M to Nigel Farage's Reform, the largest donations in UK history — For a pub-going, cigarette-puffing man of the people, Nigel Farage, the leader of the R",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p14#a261013p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T10:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
