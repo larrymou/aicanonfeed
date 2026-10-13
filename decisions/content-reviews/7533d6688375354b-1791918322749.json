@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "7533d6688375354b",
+  "url": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/",
+  "sourceName": "Hacker News Front Page",
+  "title": "A plea not to use uv-build",
+  "summary": "Article URL: https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/ Comments URL: https://news.ycombinator.com/item?id=50076048 Points: 8 # Comments: 3",
+  "pubDate": "2026-10-13T18:09:26.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece arguing against using uv-build. No model release, research result, industry business event, policy action, or new OSS tool release is announced; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/ Comments URL: https://news.ycombinator.com/item?id=50076048 Points: 8 # Comments: 3",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/",
+    "linkHost": "blogs.gentoo.org",
+    "pubDate": "2026-10-13T18:09:26.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
