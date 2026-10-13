@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791918280360-sv8hlh",
+  "urlHash": "c94df607d9b75d66",
+  "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+  "sourceName": "TechCrunch AI",
+  "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+  "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+  "pubDate": "2026-10-13T18:30:00.000Z",
+  "decidedAt": "2026-10-13T19:04:53.438Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch profile of a startup building AI for wildlife deterrence. No named model release (1-1), no research artifact (2-1), no policy action (4-1), no OSS tool (5-1). Not a clear financing/M&A/partnership/product-launch business event for 3-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-13T18:30:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
