@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "80deab97133def1c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x4snts/how_do_you_handle_coverage_guarantees_from_split/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How do you handle coverage guarantees from split conformal prediction when the data shifts? [D]",
+  "summary": "Split conformal prediction gives you a clean statement: with a calibration set exchangeable with future data, your prediction sets cover the true label at the rate you chose. The trouble is that production data rarely stays exchangeable. Categories get added, ticket wording chang",
+  "pubDate": "2026-10-13T10:05:38.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion question [D] about handling conformal prediction coverage under distribution shift; no model release, no original paper/benchmark link, no business, policy, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Split conformal prediction gives you a clean statement: with a calibration set exchangeable with future data, your prediction sets cover the true label at the rate you chose. The trouble is that production data rarely stays exchangeable. Categories get added, ticket wording chang",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x4snts/how_do_you_handle_coverage_guarantees_from_split/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T10:05:38.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
