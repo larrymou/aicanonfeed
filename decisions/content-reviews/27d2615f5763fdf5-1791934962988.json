@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "27d2615f5763fdf5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x58zje/introducing_pytesttorch_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Introducing pytest-torch [P]",
+  "summary": "I built pytest-torch to make testing PyTorch models easier Writing the same device setup, reproducibility checks, and output comparisons across projects gets repetitive, so I built pytest-torch, an open-source pytest plugin. It includes inference checks, compile/export parity, ch",
+  "pubDate": "2026-10-13T21:15:13.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Announces pytest-torch, a new open-source pytest plugin for testing PyTorch models (inference checks, compile/export parity). This is a new open-source developer tool/plugin launch, matching rule 5-1, with the author's announcement post as the link.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I built pytest-torch to make testing PyTorch models easier Writing the same device setup, reproducibility checks, and output comparisons across projects gets repetitive, so I built pytest-torch, an open-source pytest plugin. It includes inference checks, compile/export parity, ch",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x58zje/introducing_pytesttorch_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T21:15:13.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
