@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "72e8ff0669a67ada",
+  "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+  "sourceName": "Wired AI",
+  "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+  "summary": "AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons.",
+  "pubDate": "2026-10-13T19:35:29.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports AI leaders testifying/advocating at a UK parliamentary session and a spy chief's warning. This is commentary/advocacy, not a new law, executive order, regulatory enforcement, or official policy announcement; rule 4-1 excludes commentary without a policy action. No other rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons.",
+    "summaryChars": 192,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-13T19:35:29.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
