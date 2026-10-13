@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "5601d824d949d0d3",
+  "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+  "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Cl",
+  "pubDate": "2026-10-12T18:00:02.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Profile/interview of an Anthropic engineer about AI agent trustworthiness. No named model release, research artifact, policy action, OSS tool, or industry business event; no rule covers this commentary piece.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Cl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-12T18:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
