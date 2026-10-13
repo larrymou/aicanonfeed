@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791891201080-eswvhg",
+  "urlHash": "98623801a0a1b53d",
+  "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+  "sourceName": "Wired AI",
+  "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
+  "summary": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
+  "pubDate": "2026-10-13T10:00:00.000Z",
+  "decidedAt": "2026-10-13T11:33:37.999Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers political Super PAC fundraising/spending by a pro-AI group. It is not a model release (group 1), research artifact (group 2), an AI industry business event like financing/M&A/partnership/product (group 3), a government policy action (group 4), or an open-source tool (group 5). No active ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-13T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
