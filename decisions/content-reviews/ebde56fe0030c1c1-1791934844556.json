@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "ebde56fe0030c1c1",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.4",
+  "summary": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917 server: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947 mlx: compact restored recurrent state after speculative rollback by @dhi",
+  "pubDate": "2026-10-13T22:03:22.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama open-source release v0.40.4 published on its GitHub releases page (linkHost github.com), announcing framework/library updates; matches tools-oss rule 5-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in #18917 server: reuse verified manifests and loaded models in inference routes by @dhiltgen in #18947 mlx: compact restored recurrent state after speculative rollback by @dhi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-13T22:03:22.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
