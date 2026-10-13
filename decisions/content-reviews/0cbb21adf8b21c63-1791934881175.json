@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "0cbb21adf8b21c63",
+  "url": "https://www.techmeme.com/261013/p44#a261013p44",
+  "sourceName": "Techmeme",
+  "title": "Apple v. OpenAI: a US judge partly grants Apple's motion for expedited discovery, ordering OpenAI to hand over forensic images of devices and other documents (Annelise Levy/Bloomberg Law)",
+  "summary": "Annelise Levy / Bloomberg Law: Apple v. OpenAI: a US judge partly grants Apple's motion for expedited discovery, ordering OpenAI to hand over forensic images of devices and other documents — Apple Inc. convinced a federal judge in California to force OpenAI Inc. to expedite turni",
+  "pubDate": "2026-10-13T21:26:05.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a private lawsuit (Apple v. OpenAI) and a court discovery order. No rule covers litigation: not a model release (R1), research artifact (R2), industry business event like financing/M&A/partnership/product launch (R3), or government policy/regulation action (R4). R5 (OSS tools) also inap",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Annelise Levy / Bloomberg Law: Apple v. OpenAI: a US judge partly grants Apple's motion for expedited discovery, ordering OpenAI to hand over forensic images of devices and other documents — Apple Inc. convinced a federal judge in California to force OpenAI Inc. to expedite turni",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p44#a261013p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-13T21:26:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
