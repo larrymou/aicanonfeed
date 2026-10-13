@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791856461363-9tzeji",
+  "urlHash": "5841435c704b900a",
+  "url": "https://www.techmeme.com/261012/p39#a261012p39",
+  "sourceName": "Techmeme",
+  "title": "Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an \"AI first\" production model with \"no more hand-written code\" (Jason Schreier/Bloomberg)",
+  "summary": "Jason Schreier / Bloomberg: Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an “AI first” production model with “no more hand-written code” — The company told the team behind the upcoming shooter that it will now be an ‘AI first’ pro",
+  "pubDate": "2026-10-12T20:25:00.000Z",
+  "decidedAt": "2026-10-13T01:54:28.664Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media report that Epic delayed a game and adopted an 'AI first' internal production model. It is not a named model release (R1), a research artifact (R2), a financing/M&A/partnership/market data or non-model product launch (R3), a policy action (R4), or an OSS/dev tool (R5). No rule covers",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jason Schreier / Bloomberg: Sources: Epic has delayed the release of an upcoming game, instructing developers to implement an “AI first” production model with “no more hand-written code” — The company told the team behind the upcoming shooter that it will now be an ‘AI first’ pro",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261012/p39#a261012p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-12T20:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
