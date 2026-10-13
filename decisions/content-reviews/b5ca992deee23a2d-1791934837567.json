@@ -1,0 +1,44 @@
+{
+  "runId": "run-1791934793216-d6jn50",
+  "urlHash": "b5ca992deee23a2d",
+  "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+  "sourceName": "TechCrunch AI",
+  "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+  "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+  "pubDate": "2026-10-13T23:00:00.000Z",
+  "decidedAt": "2026-10-13T23:40:06.264Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports a non-model product launch by Industrial Next (factory robot task-switching tooling), a non-model product/industry event, with a reputable media link (techcrunch.com). No named model, paper, or policy action present, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+    "summaryChars": 114,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-13T23:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
