@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "200a5d3dd39c6bfb",
+  "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+  "sourceName": "OpenAI Blog",
+  "title": "The EU’s next chapter in AI is agentic",
+  "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+  "pubDate": "2026-10-14T00:00:00.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI blog analysis/commentary on agentic AI adoption in the EU. No named model release, no research artifact, no policy action, no OSS tool, and no financing/M&A/partnership/product business event, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
