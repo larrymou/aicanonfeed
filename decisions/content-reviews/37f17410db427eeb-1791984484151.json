@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "37f17410db427eeb",
+  "url": "https://aaronsonoracle.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Aaronson Oracle",
+  "summary": "Article URL: https://aaronsonoracle.com/ Comments URL: https://news.ycombinator.com/item?id=50086484 Points: 15 # Comments: 15",
+  "pubDate": "2026-10-14T12:16:35.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'The Aaronson Oracle' with a bare site link shows no named model release, research artifact, industry business event, policy action, or OSS tool announcement. No rule conditions met from observed Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://aaronsonoracle.com/ Comments URL: https://news.ycombinator.com/item?id=50086484 Points: 15 # Comments: 15",
+    "summaryChars": 126,
+    "summarySource": "summary",
+    "link": "https://aaronsonoracle.com/",
+    "linkHost": "aaronsonoracle.com",
+    "pubDate": "2026-10-14T12:16:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
