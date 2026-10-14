@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "205d56775ed6829b",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x4ye07/ai_peer_review_tool_for_cvpr_iclr_icml_and/",
+  "sourceName": "r/MachineLearning new",
+  "title": "AI peer review tool for CVPR, ICLR, ICML, and NeurIPS papers [D]",
+  "summary": "Came across this GitHub project called Paper Review Harness. Thought it might be useful for people preparing ML research papers. It uses 30 different AI reviewer personas to simulate the kind of feedback a paper might receive at conferences like CVPR, ICLR, ICML, and NeurIPS. Wha",
+  "pubDate": "2026-10-13T14:37:44.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Closest rule is 5-1 (OSS tools), but the link points to a Reddit discussion (linkHost www.reddit.com), not the GitHub repository or an official announcement, so no rule's evidence-link condition is met. linked_page_owner_domain/author are not observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Came across this GitHub project called Paper Review Harness. Thought it might be useful for people preparing ML research papers. It uses 30 different AI reviewer personas to simulate the kind of feedback a paper might receive at conferences like CVPR, ICLR, ICML, and NeurIPS. Wha",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x4ye07/ai_peer_review_tool_for_cvpr_iclr_icml_and/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T14:37:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
