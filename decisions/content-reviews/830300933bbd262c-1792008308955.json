@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "830300933bbd262c",
+  "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+  "sourceName": "Ars Technica AI",
+  "title": "Researchers use AI to design proteins that cut up other proteins",
+  "summary": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
+  "pubDate": "2026-10-14T17:10:15.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports AI research (protein design), but rule 2-1 requires a link to the original paper or official source; linkHost is arstechnica.com, a media outlet, with no paper link and no observed author. Conditions unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-14T17:10:15.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
