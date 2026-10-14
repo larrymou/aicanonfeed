@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "df0f2bbbad8b7672",
+  "url": "https://www.techmeme.com/261014/p21#a261014p21",
+  "sourceName": "Techmeme",
+  "title": "Booking Holdings launches Vayo, a travel startup that uses AI agents to track booking confirmations, price drops, and more, with a planned $100M investment (Todd Bishop/GeekWire)",
+  "summary": "Todd Bishop / GeekWire: Booking Holdings launches Vayo, a travel startup that uses AI agents to track booking confirmations, price drops, and more, with a planned $100M investment — Booking Holdings is launching a new Seattle-based travel startup called Vayo, led by serial entrep",
+  "pubDate": "2026-10-14T13:25:01.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Todd Bishop / GeekWire: Booking Holdings launches Vayo, a travel startup that uses AI agents to track booking confirmations, price drops, and more, with a planned $100M investment — Booking Holdings is launching a new Seattle-based travel startup called Vayo, led by serial entrep",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p21#a261014p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T13:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
