@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "8785249a286ea0bd",
+  "url": "https://anitab.org/press-release",
+  "sourceName": "Hacker News Front Page",
+  "title": "Grace Hopper Celebration Cancelled",
+  "summary": "Article URL: https://anitab.org/press-release Comments URL: https://news.ycombinator.com/item?id=50080007 Points: 35 # Comments: 3",
+  "pubDate": "2026-10-13T22:46:49.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports cancellation of the Grace Hopper Celebration event. It is not a model release, AI research artifact, AI industry business event, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://anitab.org/press-release Comments URL: https://news.ycombinator.com/item?id=50080007 Points: 35 # Comments: 3",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://anitab.org/press-release",
+    "linkHost": "anitab.org",
+    "pubDate": "2026-10-13T22:46:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
