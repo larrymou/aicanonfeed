@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "bb92add9edf3776b",
+  "url": "https://www.techmeme.com/261014/p34#a261014p34",
+  "sourceName": "Techmeme",
+  "title": "OpenAI's head of computing capacity Sachin Katti is leaving the company next month after about a year and is expected to stay on as an adviser (Anissa Gardizy/Wall Street Journal)",
+  "summary": "Anissa Gardizy / Wall Street Journal: OpenAI's head of computing capacity Sachin Katti is leaving the company next month after about a year and is expected to stay on as an adviser — The artificial-intelligence company plans to spend around $750 billion on computing power through",
+  "pubDate": "2026-10-14T16:15:01.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an executive departure (OpenAI's head of computing capacity leaving) and spending plans. No active rule covers personnel changes or executive turnover, and it is not a model release, research artifact, policy action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anissa Gardizy / Wall Street Journal: OpenAI's head of computing capacity Sachin Katti is leaving the company next month after about a year and is expected to stay on as an adviser — The artificial-intelligence company plans to spend around $750 billion on computing power through",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p34#a261014p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T16:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
