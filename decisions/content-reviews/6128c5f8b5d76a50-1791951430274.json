@@ -1,0 +1,43 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "6128c5f8b5d76a50",
+  "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+  "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measuring correctness and token cost per completed task. We show how to tune the trade-off per request an",
+  "pubDate": "2026-10-13T15:52:20.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names Grok 4.7 now available on Amazon Bedrock, but linkHost aws.amazon.com is not the model owner's (xAI) site, and no named author or publication on a non-owner news article is observed (linked_page_author not observed). R1 evidence-link condition unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measuring correctness and token cost per completed task. We show how to tune the trade-off per request an",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-13T15:52:20.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
