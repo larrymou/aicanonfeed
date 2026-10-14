@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "bf36e2b66c18a7be",
+  "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+  "sourceName": "TechCrunch AI",
+  "title": "Deezer will soon let you filter out AI-generated music",
+  "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
+  "pubDate": "2026-10-14T15:16:04.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Deezer announcing an AI-generated music filter toggle is a non-model product feature launch by a company, covered by reputable media report (TechCrunch), matching rule 3-1 industry business events.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
+    "summaryChars": 74,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-14T15:16:04.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
