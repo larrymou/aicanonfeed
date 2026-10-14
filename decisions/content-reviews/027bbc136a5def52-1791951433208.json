@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "027bbc136a5def52",
+  "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+  "sourceName": "Ars Technica AI",
+  "title": "They war-gamed dimming the Sun. It went even worse than you think.",
+  "summary": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
+  "pubDate": "2026-10-13T15:17:59.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item about a solar geoengineering simulation/war-game; no AI model release, research artifact, AI industry event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-13T15:17:59.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
