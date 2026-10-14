@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "409470f9c2e17b2d",
+  "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Is 'Attention' the Essence of Intelligence?",
+  "summary": "Article URL: https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/ Comments URL: https://news.ycombinator.com/item?id=50081930 Points: 9 # Comments: 0",
+  "pubDate": "2026-10-14T03:10:25.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Quanta essay/commentary about attention and intelligence; no named model release, no paper/preprint or benchmark artifact, and no business, policy, or OSS tool event. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/ Comments URL: https://news.ycombinator.com/item?id=50081930 Points: 9 # Comments: 0",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+    "linkHost": "www.quantamagazine.org",
+    "pubDate": "2026-10-14T03:10:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
