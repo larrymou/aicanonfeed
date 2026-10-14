@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "7a9def3c48c7ae7b",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+  "sourceName": "The Verge AI",
+  "title": "YouTube sticks new labels on AI-generated songs",
+  "summary": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but accordin",
+  "pubDate": "2026-10-14T18:22:56.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "YouTube's AI-labeling feature for AI-generated songs is a non-model product/platform feature update, covered as an AI industry event via reputable media (The Verge, linkHost www.theverge.com, dated). No named model or official owner announcement, so group 1 doesn't apply; not policy or OSS.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but accordin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-14T18:22:56.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
