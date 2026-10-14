@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "e758fe86bc5ef61b",
+  "url": "https://ma.tt/2026/10/rip-eric/",
+  "sourceName": "Hacker News Front Page",
+  "title": "RIP Eric Binnion",
+  "summary": "Article URL: https://ma.tt/2026/10/rip-eric/ Comments URL: https://news.ycombinator.com/item?id=50087044 Points: 10 # Comments: 1",
+  "pubDate": "2026-10-14T12:58:32.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Obituary/personal post about Eric Binnion; not a model release, research result, industry business event, AI policy action, or open-source AI tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ma.tt/2026/10/rip-eric/ Comments URL: https://news.ycombinator.com/item?id=50087044 Points: 10 # Comments: 1",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://ma.tt/2026/10/rip-eric/",
+    "linkHost": "ma.tt",
+    "pubDate": "2026-10-14T12:58:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
