@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "71254245a9b3a04c",
+  "url": "https://www.techmeme.com/261014/p37#a261014p37",
+  "sourceName": "Techmeme",
+  "title": "Sources: Anduril opens a tender offer of up to ~$1.3B for staff at a ~$90B valuation, available in 16 countries for the first time; it was valued at $61B in May (Bloomberg)",
+  "summary": "Bloomberg: Sources: Anduril opens a tender offer of up to ~$1.3B for staff at a ~$90B valuation, available in 16 countries for the first time; it was valued at $61B in May — Anduril Industries Inc. is allowing employees to sell shares as part of a tender that stands to value the ",
+  "pubDate": "2026-10-14T17:50:01.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business/financing event: Anduril's ~$1.3B employee tender offer at a ~$90B valuation (Bloomberg via Techmeme), a reputable media report. Not a model release or OSS tooling.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Anduril opens a tender offer of up to ~$1.3B for staff at a ~$90B valuation, available in 16 countries for the first time; it was valued at $61B in May — Anduril Industries Inc. is allowing employees to sell shares as part of a tender that stands to value the ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p37#a261014p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T17:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
