@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "2f558af0f8d789b3",
+  "url": "https://www.wired.com/story/my-friend-has-no-soul/",
+  "sourceName": "Wired AI",
+  "title": "My Friend Has No Soul",
+  "summary": "The second iteration of the viral Friend AI necklace is louder and less interesting.",
+  "pubDate": "2026-10-14T11:00:00.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired review/commentary on the Friend AI necklace's second iteration. No named model release or capability change (1-1), no research artifact (2-1), no financing/M&A/partnership or product-launch business event (3-1), no policy action (4-1), and no open-source tool (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The second iteration of the viral Friend AI necklace is louder and less interesting.",
+    "summaryChars": 84,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/my-friend-has-no-soul/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-14T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
