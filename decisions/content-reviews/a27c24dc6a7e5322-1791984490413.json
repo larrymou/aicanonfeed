@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "a27c24dc6a7e5322",
+  "url": "https://github.com/timescale/pg_vectorsearch",
+  "sourceName": "Hacker News Front Page",
+  "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+  "summary": "Article URL: https://github.com/timescale/pg_vectorsearch Comments URL: https://news.ycombinator.com/item?id=50086165 Points: 45 # Comments: 14",
+  "pubDate": "2026-10-14T11:47:53.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Announces a new open-source vector search index (pg_vectorsearch) hosted on github.com/timescale, i.e., a developer resource/library with a link to its repository.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/timescale/pg_vectorsearch Comments URL: https://news.ycombinator.com/item?id=50086165 Points: 45 # Comments: 14",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://github.com/timescale/pg_vectorsearch",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-14T11:47:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
