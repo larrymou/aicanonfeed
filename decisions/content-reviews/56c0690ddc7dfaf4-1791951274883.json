@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "56c0690ddc7dfaf4",
+  "url": "https://blumify.io/people",
+  "sourceName": "Hacker News Front Page",
+  "title": "I built a tool to track what AI leaders say and how their views change on video",
+  "summary": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 38 # Comments: 24",
+  "pubDate": "2026-10-14T01:09:13.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN post about a personal tool tracking AI leaders' video statements. No named model/version or official owner release page (R1), no research artifact (R2), no AI industry business event or company/deal announcement (R3), no policy action (R4), and no evidence it is an open-source tool with repo (R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 38 # Comments: 24",
+    "summaryChars": 124,
+    "summarySource": "summary",
+    "link": "https://blumify.io/people",
+    "linkHost": "blumify.io",
+    "pubDate": "2026-10-14T01:09:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
