@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "bce858a37e75c4f0",
+  "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+  "sourceName": "The Verge AI",
+  "title": "My AI doppelganger tells me what to eat",
+  "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past 100 days or so, my mornings have had a new rhythm. ",
+  "pubDate": "2026-10-14T17:00:00.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal newsletter column about a consumer AI health 'digital twin'; no named model release, no research artifact, no business/policy event, and no open-source tool. No active rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past 100 days or so, my mornings have had a new rhythm. ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-14T17:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
