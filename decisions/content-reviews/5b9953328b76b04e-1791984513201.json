@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "5b9953328b76b04e",
+  "url": "https://www.wired.com/story/men-cant-stop-faking-how-much-they-know-about-ai/",
+  "sourceName": "Wired AI",
+  "title": "Men Can’t Stop Faking How Much They Know About AI",
+  "summary": "More than half of the men surveyed in a new Harvard study claimed to recognize AI leaders who were, in fact, totally fictional.",
+  "pubDate": "2026-10-14T09:30:00.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary on a Harvard social survey about men overstating AI knowledge. No named model release, no research artifact/paper link, no business, policy, or OSS tooling announcement; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "More than half of the men surveyed in a new Harvard study claimed to recognize AI leaders who were, in fact, totally fictional.",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/men-cant-stop-faking-how-much-they-know-about-ai/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-14T09:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
