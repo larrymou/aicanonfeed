@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "9e2d8aa77973bc27",
+  "url": "https://www.dentaleconomics.com/macro-op-ed/industry-news/news/55341670/how-does-private-equity-ownership-really-affect-dental-practices",
+  "sourceName": "Hacker News Front Page",
+  "title": "Private equity ownership affects dental practices",
+  "summary": "Article URL: https://www.dentaleconomics.com/macro-op-ed/industry-news/news/55341670/how-does-private-equity-ownership-really-affect-dental-practices Comments URL: https://news.ycombinator.com/item?id=50093298 Points: 3 # Comments: 0",
+  "pubDate": "2026-10-14T19:11:25.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns private equity ownership of dental practices; no AI model, research, industry-AI, policy, or OSS tooling content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.dentaleconomics.com/macro-op-ed/industry-news/news/55341670/how-does-private-equity-ownership-really-affect-dental-practices Comments URL: https://news.ycombinator.com/item?id=50093298 Points: 3 # Comments: 0",
+    "summaryChars": 233,
+    "summarySource": "summary",
+    "link": "https://www.dentaleconomics.com/macro-op-ed/industry-news/news/55341670/how-does-private-equity-ownership-really-affect-dental-practices",
+    "linkHost": "www.dentaleconomics.com",
+    "pubDate": "2026-10-14T19:11:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
