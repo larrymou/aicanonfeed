@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "3fa55ed9306002f5",
+  "url": "https://www.techmeme.com/261014/p17#a261014p17",
+  "sourceName": "Techmeme",
+  "title": "Harmonic Security, which uses small language models to inspect employee interactions with AI tools, raised a $50M Series B, taking its total funding to $76M (Duncan Riley/SiliconANGLE)",
+  "summary": "Duncan Riley / SiliconANGLE: Harmonic Security, which uses small language models to inspect employee interactions with AI tools, raised a $50M Series B, taking its total funding to $76M — Workplace artificial intelligence security startup Harmonic Security Inc. today announced it",
+  "pubDate": "2026-10-14T12:40:01.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Duncan Riley / SiliconANGLE: Harmonic Security, which uses small language models to inspect employee interactions with AI tools, raised a $50M Series B, taking its total funding to $76M — Workplace artificial intelligence security startup Harmonic Security Inc. today announced it",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p17#a261014p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T12:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
