@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "27b8a775b0bf6423",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x5ywx3/what_behaviors_does_a_model_actually_learn_in_rl_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What behaviors does a model actually learn in RL? [P]",
+  "summary": "I've been working on unsupervised tooling to discover what behaviors a model learns in post-training. The core idea is to use features from sparse autoencoders to identify differences in traces generated before and after training. I applied this to traces from the MiMo-v2.6 RL en",
+  "pubDate": "2026-10-14T18:23:30.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post [P] about tooling to study RL-learned behaviors. No link to an original paper/preprint or benchmark release (R2-1), no repo/official tool announcement (R5-1), and no model release or industry/policy event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I've been working on unsupervised tooling to discover what behaviors a model learns in post-training. The core idea is to use features from sparse autoencoders to identify differences in traces generated before and after training. I applied this to traces from the MiMo-v2.6 RL en",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x5ywx3/what_behaviors_does_a_model_actually_learn_in_rl_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-14T18:23:30.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
