@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "4e5c842a87933e5d",
+  "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+  "sourceName": "Ars Technica AI",
+  "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+  "summary": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
+  "pubDate": "2026-10-14T16:41:49.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an FBI espionage arrest of an OpenAI engineer; it is a crime/legal news story, not a model release, research artifact, industry business event, AI policy/regulation action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-14T16:41:49.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
