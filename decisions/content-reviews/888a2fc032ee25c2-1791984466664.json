@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "888a2fc032ee25c2",
+  "url": "https://www.techmeme.com/261014/p19#a261014p19",
+  "sourceName": "Techmeme",
+  "title": "Memo: Netflix is cutting 6% of its staff, or ~1,000 jobs globally across product, tech, legal, and HR, its biggest layoffs since 2022, amid slowing growth (Wall Street Journal)",
+  "summary": "Wall Street Journal: Memo: Netflix is cutting 6% of its staff, or ~1,000 jobs globally across product, tech, legal, and HR, its biggest layoffs since 2022, amid slowing growth — Job cuts affect about 1,000 positions and come as the company struggles with slowing growth — Netflix ",
+  "pubDate": "2026-10-14T13:11:39.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Netflix staff layoffs and business cost-cutting; no AI model release, research artifact, AI industry event, policy action, or OSS tool announced. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Memo: Netflix is cutting 6% of its staff, or ~1,000 jobs globally across product, tech, legal, and HR, its biggest layoffs since 2022, amid slowing growth — Job cuts affect about 1,000 positions and come as the company struggles with slowing growth — Netflix ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p19#a261014p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T13:11:39.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
