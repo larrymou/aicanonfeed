@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "f1017e527781bda6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x5ny23/i_turned_my_dog_jackies_brain_into_a_working_ai_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I turned my dog Jackies Brain into a working AI [P]",
+  "summary": "Hey everyone,I’m a researcher at MIT and this whole thing started completely by accident. My dog Jackie had to do a couple of veterinary MRI scans last year for a minor issue that luckily turned out fine. While she was already in the scanner the vet team (who are honestly the coo",
+  "pubDate": "2026-10-14T10:43:35.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit personal project post; no named model/lab or release action (1-1), no paper/preprint/benchmark link (2-1), no business event (3-1), no policy action (4-1), and no OSS tool/repo link (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey everyone,I’m a researcher at MIT and this whole thing started completely by accident. My dog Jackie had to do a couple of veterinary MRI scans last year for a minor issue that luckily turned out fine. While she was already in the scanner the vet team (who are honestly the coo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x5ny23/i_turned_my_dog_jackies_brain_into_a_working_ai_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-14T10:43:35.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
