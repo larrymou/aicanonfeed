@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "94cc08977f17740f",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Gemini 4 Argon for Robotics",
+  "summary": "Gemini 4 Argon for Robotics",
+  "pubDate": "2026-10-13T16:01:58.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names Gemini 4 Argon and link is DeepMind's blog, but no observed release action/availability or verified major version; summary is title fallback and owner domain/author not observed, so R1 conditions are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gemini 4 Argon for Robotics",
+    "summaryChars": 27,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-13T16:01:58.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
