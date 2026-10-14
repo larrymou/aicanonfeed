@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "6495b69cd89b4f4a",
+  "url": "https://www.techmeme.com/261014/p36#a261014p36",
+  "sourceName": "Techmeme",
+  "title": "CoreWeave stock drops 15%+ and its bond yields near 15%, over concerns that some tech companies are borrowing too heavily for the AI build-out; ORCL drops 8%+ (Michelle Fox/CNBC)",
+  "summary": "Michelle Fox / CNBC: CoreWeave stock drops 15%+ and its bond yields near 15%, over concerns that some tech companies are borrowing too heavily for the AI build-out; ORCL drops 8%+ — CoreWeave's stock and bonds were both hit on Wednesday as investor fear grew that some technology ",
+  "pubDate": "2026-10-14T16:45:02.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Michelle Fox / CNBC: CoreWeave stock drops 15%+ and its bond yields near 15%, over concerns that some tech companies are borrowing too heavily for the AI build-out; ORCL drops 8%+ — CoreWeave's stock and bonds were both hit on Wednesday as investor fear grew that some technology ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p36#a261014p36",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T16:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
