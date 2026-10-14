@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "2fbafa8be8d3a6c9",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.4",
+  "summary": "Decision models in the CLI Decision models can now be used directly from the terminal with ollama run — ask yes/no questions, classify text into labels, or score against a rubric: ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt What's Changed Kev decision mode",
+  "pubDate": "2026-10-14T02:23:26.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Decision models in the CLI Decision models can now be used directly from the terminal with ollama run — ask yes/no questions, classify text into labels, or score against a rubric: ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt What's Changed Kev decision mode",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-14T02:23:26.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
