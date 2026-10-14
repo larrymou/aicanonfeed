@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "fac764e7eb98bf21",
+  "url": "https://www.techmeme.com/261013/p49#a261013p49",
+  "sourceName": "Techmeme",
+  "title": "Filing: Abdulrahman Alfozan, the OpenAI staffer charged with bugging a conference room, used a Seeed Xiao ESP32-S3 Sense dev board; a website sells it for $14 (Bloomberg)",
+  "summary": "Bloomberg: Filing: Abdulrahman Alfozan, the OpenAI staffer charged with bugging a conference room, used a Seeed Xiao ESP32-S3 Sense dev board; a website sells it for $14 — An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company's ",
+  "pubDate": "2026-10-14T00:35:02.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a criminal filing/arrest of an OpenAI employee over a hidden recording device. It is not a model release, research result, policy action, OSS tool launch, nor a covered industry business event (financing, M&A, partnership, market data, product launch). No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Filing: Abdulrahman Alfozan, the OpenAI staffer charged with bugging a conference room, used a Seeed Xiao ESP32-S3 Sense dev board; a website sells it for $14 — An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company's ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p49#a261013p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T00:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
