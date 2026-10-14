@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "98e92c27c426b8ff",
+  "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+  "sourceName": "Ars Technica AI",
+  "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+  "summary": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
+  "pubDate": "2026-10-14T11:00:30.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ars Technica report on researcher-found jailbreak vulnerabilities in OpenAI/Google models. No linked original paper/official source (rule 2-1 unmet), no model release, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
+    "summaryChars": 74,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-14T11:00:30.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
