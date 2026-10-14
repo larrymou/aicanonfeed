@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "3543cd6e9cfb5def",
+  "url": "https://www.techmeme.com/261014/p18#a261014p18",
+  "sourceName": "Techmeme",
+  "title": "GlobalFoundries plans to build two \"essential chip\" plants in Malta, New York, backed by up to $21B from Japan; the US will take a 4% stake in GlobalFoundries (Bloomberg)",
+  "summary": "Bloomberg: GlobalFoundries plans to build two “essential chip” plants in Malta, New York, backed by up to $21B from Japan; the US will take a 4% stake in GlobalFoundries — GlobalFoundries Inc. plans to build two new chip plants with the backing of as much as $21 billion from the ",
+  "pubDate": "2026-10-14T13:05:01.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: GlobalFoundries plans to build two “essential chip” plants in Malta, New York, backed by up to $21B from Japan; the US will take a 4% stake in GlobalFoundries — GlobalFoundries Inc. plans to build two new chip plants with the backing of as much as $21 billion from the ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p18#a261014p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T13:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
