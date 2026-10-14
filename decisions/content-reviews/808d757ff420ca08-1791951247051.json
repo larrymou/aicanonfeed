@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "808d757ff420ca08",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x5fv1a/phd_students_how_ya_feeling_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "PhD students, how ya feeling? [D]",
+  "summary": "All seems a bit pointless now. Either pump out AI papers and neglect your own development, or take it slow and fall behind in the publishing race. I already have two papers made largely without LLMs (still seeking publication), but it's hard to resist just vibing the third from s",
+  "pubDate": "2026-10-14T02:33:44.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary post about PhD student sentiment; no named model release, research artifact, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "All seems a bit pointless now. Either pump out AI papers and neglect your own development, or take it slow and fall behind in the publishing race. I already have two papers made largely without LLMs (still seeking publication), but it's hard to resist just vibing the third from s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x5fv1a/phd_students_how_ya_feeling_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-14T02:33:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
