@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "52cefc42575c00ab",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+  "sourceName": "The Verge AI",
+  "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+  "summary": "OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, includin",
+  "pubDate": "2026-10-14T16:43:24.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a trade-secret/lawsuit dispute between OpenAI and a former employee over Apple. No rule covers it: not a model release (1-1), research (2-1), a listed industry business event like financing/M&A/partnership/revenue/non-model product launch (3-1), policy action (4-1), or OSS tooling (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, includin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-14T16:43:24.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
