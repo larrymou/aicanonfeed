@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "a2868e00c444e52a",
+  "url": "https://www.techmeme.com/261014/p20#a261014p20",
+  "sourceName": "Techmeme",
+  "title": "Amazon Alexa Tablet 12 Pro review: gorgeous screen, Android apps, and nice design and build quality, but Amazon's bloatware is pervasive and Alexa+ is subpar (David Pierce/The Verge)",
+  "summary": "David Pierce / The Verge: Amazon Alexa Tablet 12 Pro review: gorgeous screen, Android apps, and nice design and build quality, but Amazon's bloatware is pervasive and Alexa+ is subpar — We have to talk about this screen. It's the first thing you notice, and maybe the only thing t",
+  "pubDate": "2026-10-14T13:20:02.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a consumer tablet hardware review (Amazon Alexa Tablet 12 Pro), not a named AI model release, research result, industry business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "David Pierce / The Verge: Amazon Alexa Tablet 12 Pro review: gorgeous screen, Android apps, and nice design and build quality, but Amazon's bloatware is pervasive and Alexa+ is subpar — We have to talk about this screen. It's the first thing you notice, and maybe the only thing t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p20#a261014p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T13:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
