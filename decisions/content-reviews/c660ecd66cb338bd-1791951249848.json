@@ -1,0 +1,37 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "c660ecd66cb338bd",
+  "url": "https://www.techmeme.com/261013/p51#a261013p51",
+  "sourceName": "Techmeme",
+  "title": "Microsoft releases updates fixing 1,400+ security vulnerabilities, surpassing September's record of 972, which was already ~10x the normal monthly patch load (Brian Krebs/Krebs on Security)",
+  "summary": "Brian Krebs / Krebs on Security: Microsoft releases updates fixing 1,400+ security vulnerabilities, surpassing September's record of 972, which was already ~10x the normal monthly patch load — Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its W",
+  "pubDate": "2026-10-14T02:25:01.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Microsoft security patch updates (1,400+ vulnerabilities), not an AI model release, AI research, AI industry business event, AI policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brian Krebs / Krebs on Security: Microsoft releases updates fixing 1,400+ security vulnerabilities, surpassing September's record of 972, which was already ~10x the normal monthly patch load — Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its W",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p51#a261013p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T02:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
