@@ -1,0 +1,41 @@
+{
+  "runId": "run-1791984445317-gglpa1",
+  "urlHash": "c421a97d0d58b239",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x5jm7g/binary_noise_classification_using_crnn_mean/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Binary noise classification using CRNN mean teacher algo [R]",
+  "summary": "Hi all, so im making a binary noise classification model. I have training data with timestamps of noise and some with verified some with unverified. The performance parameters are F1 and Dice scores and their combined score. I am following AST backbone (Stage 1 ast frozen and sta",
+  "pubDate": "2026-10-14T06:05:41.000Z",
+  "decidedAt": "2026-10-14T13:27:30.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit help request about a personal binary noise classification model (CRNN mean teacher). No named model release, no research paper/benchmark artifact link, no business event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi all, so im making a binary noise classification model. I have training data with timestamps of noise and some with verified some with unverified. The performance parameters are F1 and Dice scores and their combined score. I am following AST backbone (Stage 1 ast frozen and sta",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x5jm7g/binary_noise_classification_using_crnn_mean/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-14T06:05:41.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
