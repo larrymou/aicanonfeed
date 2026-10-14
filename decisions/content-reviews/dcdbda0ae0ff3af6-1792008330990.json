@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792008222069-8e4z8y",
+  "urlHash": "dcdbda0ae0ff3af6",
+  "url": "https://www.techmeme.com/261014/p35#a261014p35",
+  "sourceName": "Techmeme",
+  "title": "WhatsApp rolls out a guest calling feature letting people join a call even if they don't have an account; guests cannot start a call and have to be invited (Anna Washenko/Engadget)",
+  "summary": "Anna Washenko / Engadget: WhatsApp rolls out a guest calling feature letting people join a call even if they don't have an account; guests cannot start a call and have to be invited — It's also working on calendar integrations for later this year. — WhatsApp is adding more flexib",
+  "pubDate": "2026-10-14T16:30:05.000Z",
+  "decidedAt": "2026-10-14T20:03:52.056Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "WhatsApp guest calling is a non-AI messaging app feature. No active rule covers it: it is not a named AI model release (R1), research artifact (R2), AI industry business event (R3), policy action (R4), or open-source AI tool (R5). Link is a Techmeme aggregation page.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anna Washenko / Engadget: WhatsApp rolls out a guest calling feature letting people join a call even if they don't have an account; guests cannot start a call and have to be invited — It's also working on calendar integrations for later this year. — WhatsApp is adding more flexib",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p35#a261014p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T16:30:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
