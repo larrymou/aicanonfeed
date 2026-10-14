@@ -1,0 +1,42 @@
+{
+  "runId": "run-1791951226504-j3lbz3",
+  "urlHash": "829c454208eeacb4",
+  "url": "https://www.techmeme.com/261013/p53#a261013p53",
+  "sourceName": "Techmeme",
+  "title": "Open letter: Geoffrey Hinton, Yoshua Bengio, and over 400 scientists call for an international body to oversee AI containment standards and incident reporting (Leo Marchandon/Reuters)",
+  "summary": "Leo Marchandon / Reuters: Open letter: Geoffrey Hinton, Yoshua Bengio, and over 400 scientists call for an international body to oversee AI containment standards and incident reporting — Around 400 scientists, including AI pioneers Geoffrey Hinton and Yoshua Bengio, on Tuesday ca",
+  "pubDate": "2026-10-14T03:55:00.000Z",
+  "decidedAt": "2026-10-14T04:13:54.602Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "An open letter from scientists calling for an international oversight body is advocacy/commentary, not a new law, executive order, regulatory enforcement, or official government policy action. Rule 4-1 excludes commentary without a policy action, and the link is a Techmeme aggregator, not an officia",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Leo Marchandon / Reuters: Open letter: Geoffrey Hinton, Yoshua Bengio, and over 400 scientists call for an international body to oversee AI containment standards and incident reporting — Around 400 scientists, including AI pioneers Geoffrey Hinton and Yoshua Bengio, on Tuesday ca",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261013/p53#a261013p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-14T03:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
