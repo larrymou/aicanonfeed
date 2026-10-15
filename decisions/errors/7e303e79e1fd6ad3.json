@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "7e303e79e1fd6ad3",
+  "url": "https://sijbrandijfoundation.org/fcct",
+  "sourceName": "Hacker News Front Page",
+  "title": "Future of Cancer Care Today (FCCT)",
+  "summary": "Article URL: https://sijbrandijfoundation.org/fcct Comments URL: https://news.ycombinator.com/item?id=50098702 Points: 5 # Comments: 0",
+  "pubDate": "2026-10-15T03:18:49.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://sijbrandijfoundation.org/fcct Comments URL: https://news.ycombinator.com/item?id=50098702 Points: 5 # Comments: 0",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://sijbrandijfoundation.org/fcct",
+    "linkHost": "sijbrandijfoundation.org",
+    "pubDate": "2026-10-15T03:18:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
