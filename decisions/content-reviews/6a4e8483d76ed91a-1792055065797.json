@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "6a4e8483d76ed91a",
+  "url": "https://www.techmeme.com/261015/p10#a261015p10",
+  "sourceName": "Techmeme",
+  "title": "Q&A with MIT sociologist Sherry Turkle, who has been studying relationships between humans and machines since the 1970s, on her new book, AI chatbots, and more (New York Times)",
+  "summary": "New York Times: Q&A with MIT sociologist Sherry Turkle, who has been studying relationships between humans and machines since the 1970s, on her new book, AI chatbots, and more — This is an edited transcript of “The Ezra Klein Show.” You can listen to the episode wherever you get ",
+  "pubDate": "2026-10-15T06:35:01.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A Q&A/interview with a sociologist about her book and AI chatbots is commentary, not a model release, research result, industry business event, policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Q&A with MIT sociologist Sherry Turkle, who has been studying relationships between humans and machines since the 1970s, on her new book, AI chatbots, and more — This is an edited transcript of “The Ezra Klein Show.” You can listen to the episode wherever you get ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p10#a261015p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T06:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
