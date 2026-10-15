@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "aac152db80779471",
+  "url": "https://www.techmeme.com/261014/p54#a261014p54",
+  "sourceName": "Techmeme",
+  "title": "Sources: Solidigm, SK Hynix's US unit, seeks US government approval to export US chipmaking equipment to Dalian, China, as a condition for building a US factory (Reuters)",
+  "summary": "Reuters: Sources: Solidigm, SK Hynix's US unit, seeks US government approval to export US chipmaking equipment to Dalian, China, as a condition for building a US factory — South Korea's SK Hynix is seeking approval from Washington to export US chipmaking equipment to China to inc",
+  "pubDate": "2026-10-15T03:25:02.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: Solidigm, SK Hynix's US unit, seeks US government approval to export US chipmaking equipment to Dalian, China, as a condition for building a US factory — South Korea's SK Hynix is seeking approval from Washington to export US chipmaking equipment to China to inc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p54#a261014p54",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T03:25:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
