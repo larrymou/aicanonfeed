@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "e265570ab550ef8e",
+  "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI was great until it was not",
+  "summary": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 7 # Comments: 0",
+  "pubDate": "2026-10-15T08:18:38.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary Substack essay with no named model release, no research artifact, no business event, no policy action, and no open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 7 # Comments: 0",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+    "linkHost": "thetheorygirlie.substack.com",
+    "pubDate": "2026-10-15T08:18:38.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
