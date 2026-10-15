@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "5f4607f9d7d2e3b5",
+  "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Trust in Depth: Giving agents more autonomy without losing control",
+  "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe, and prove-that lets agents act on their own when their actions can be verified, reserving human jud",
+  "pubDate": "2026-10-15T15:05:35.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog describes a conceptual 'Trust in Depth' approach for agent autonomy; it announces no named model release (1-1), research artifact (2-1), business event (3-1), policy action (4-1), or open-source tool/framework release (5-1). No rule covers this.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe, and prove-that lets agents act on their own when their actions can be verified, reserving human jud",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-15T15:05:35.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
