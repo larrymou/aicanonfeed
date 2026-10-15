@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "cca202c575952045",
+  "url": "https://www.techmeme.com/261015/p31#a261015p31",
+  "sourceName": "Techmeme",
+  "title": "Portland-based Mueon, which says its AI server racks could fit up to 10x more computing capacity, raised $65M led by Maverick Silicon, with Intel participating (Phoebe Liu/The Information)",
+  "summary": "Phoebe Liu / The Information: Portland-based Mueon, which says its AI server racks could fit up to 10x more computing capacity, raised $65M led by Maverick Silicon, with Intel participating — Portland-based startup Mueon raised $65 million to develop a new way to arrange AI serve",
+  "pubDate": "2026-10-15T13:55:00.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Phoebe Liu / The Information: Portland-based Mueon, which says its AI server racks could fit up to 10x more computing capacity, raised $65M led by Maverick Silicon, with Intel participating — Portland-based startup Mueon raised $65 million to develop a new way to arrange AI serve",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p31#a261015p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T13:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
