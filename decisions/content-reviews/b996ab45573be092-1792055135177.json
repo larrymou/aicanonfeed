@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "b996ab45573be092",
+  "url": "https://github.com/andunieee/flipflop",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+  "summary": "This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that ",
+  "pubDate": "2026-10-15T04:25:28.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN project is an open-source file-sharing tunnel tool (Iroh/Slint), not an AI model, research, industry event, policy, or AI tooling. Rule 5-1 requires AI-related tooling; no rule covers this non-AI item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/andunieee/flipflop",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-15T04:25:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
