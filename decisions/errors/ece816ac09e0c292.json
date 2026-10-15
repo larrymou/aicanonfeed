@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "ece816ac09e0c292",
+  "url": "https://www.techmeme.com/261014/p53#a261014p53",
+  "sourceName": "Techmeme",
+  "title": "Letter: Democratic senators question Meta's $6.6B in federal tax credits claimed over the past two years toward costs of building \"experimental\" AI data centers (Kashmir Hill/New York Times)",
+  "summary": "Kashmir Hill / New York Times: Letter: Democratic senators question Meta's $6.6B in federal tax credits claimed over the past two years toward costs of building “experimental” AI data centers — Democrats on the Senate Finance Committee sent a letter to Mark Zuckerberg, Meta's chi",
+  "pubDate": "2026-10-15T02:20:02.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kashmir Hill / New York Times: Letter: Democratic senators question Meta's $6.6B in federal tax credits claimed over the past two years toward costs of building “experimental” AI data centers — Democrats on the Senate Finance Committee sent a letter to Mark Zuckerberg, Meta's chi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261014/p53#a261014p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T02:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
