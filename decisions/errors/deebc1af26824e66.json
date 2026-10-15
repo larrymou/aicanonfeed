@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "deebc1af26824e66",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0",
+  "sourceName": "vLLM releases",
+  "title": "proto-v0.6.0",
+  "summary": "vllm-proto 0.6.0",
+  "pubDate": "2026-10-14T23:57:02.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "vllm-proto 0.6.0",
+    "summaryChars": 16,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-14T23:57:02.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
