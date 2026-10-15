@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "929178f1fd79e664",
+  "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What I Self-Host",
+  "summary": "Article URL: https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/ Comments URL: https://news.ycombinator.com/item?id=50109715 Points: 130 # Comments: 59",
+  "pubDate": "2026-10-15T20:23:25.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'What I Self-Host' is a self-hosting blog post with no named AI model, research artifact, industry business event, policy action, or open-source AI tool announcement; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/ Comments URL: https://news.ycombinator.com/item?id=50109715 Points: 130 # Comments: 59",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+    "linkHost": "viceconsole.fyi",
+    "pubDate": "2026-10-15T20:23:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
