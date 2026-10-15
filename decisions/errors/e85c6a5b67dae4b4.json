@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "e85c6a5b67dae4b4",
+  "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+  "sourceName": "The Verge AI",
+  "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
+  "summary": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt",
+  "pubDate": "2026-10-15T19:57:16.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-15T19:57:16.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
