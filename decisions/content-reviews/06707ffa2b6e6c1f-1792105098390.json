@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "06707ffa2b6e6c1f",
+  "url": "https://www.techmeme.com/261015/p52#a261015p52",
+  "sourceName": "Techmeme",
+  "title": "Sources: some Anthropic investors discussed a ~$1.5T valuation for its IPO, down from ~$2T they had expected, after disclosures showed slowing Q3 revenue growth (Reuters)",
+  "summary": "Reuters: Sources: some Anthropic investors discussed a ~$1.5T valuation for its IPO, down from ~$2T they had expected, after disclosures showed slowing Q3 revenue growth — Some current Anthropic investors and prospective investors in its upcoming initial public offering are weigh",
+  "pubDate": "2026-10-15T21:20:01.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Anthropic investors discussing IPO valuation (~$1.5T) amid slowing Q3 revenue growth, sourced to Reuters via Techmeme, a reputable media report. No model release, research artifact, or policy action involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: some Anthropic investors discussed a ~$1.5T valuation for its IPO, down from ~$2T they had expected, after disclosures showed slowing Q3 revenue growth — Some current Anthropic investors and prospective investors in its upcoming initial public offering are weigh",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p52#a261015p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T21:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
