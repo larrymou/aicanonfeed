@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792036595392-qjg6xc",
+  "runId": "run-1792055047297-hfl2ze",
   "urlHash": "05f9fc885223b83c",
   "url": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
   "sourceName": "r/MachineLearning new",
   "title": "Tracing where LLM \"slop\" style comes from in the model and in training, and cutting it out [R]",
   "summary": "I wanted to find where the recognizable assistant style (em dashes, \"it's not X, it's Y\", lists of three, buzzwords) lives in a model and which training stage installs it. Where it lives: in Qwen3-4B-Instruct, a difference-in-means direction from the model's own exaggerated vs pl",
   "pubDate": "2026-10-14T22:08:02.000Z",
-  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Post describes an LLM interpretability investigation, but the link is a Reddit discussion thread, not an original paper, arXiv preprint, or official source, so rule 2-1's evidence link condition is unmet and no other rule applies.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "I wanted to find where the recognizable assistant style (em dashes, \"it's not X, it's Y\", lists of three, buzzwords) lives in a model and which training stage installs it. Where it lives: in Qwen3-4B-Instruct, a difference-in-means direction from the model's own exaggerated vs pl",
