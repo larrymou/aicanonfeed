@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "2bd53ab7fa6c13e6",
+  "url": "https://www.techmeme.com/261015/p51#a261015p51",
+  "sourceName": "Techmeme",
+  "title": "Experts say Meta's new terms of use will allow scraping of websites, including news sites, \"associated with\" business accounts on its platforms, with no opt out (Nieman Lab)",
+  "summary": "Nieman Lab: Experts say Meta's new terms of use will allow scraping of websites, including news sites, “associated with” business accounts on its platforms, with no opt out — Starting October 30, business accounts will consent to Meta scraping their websites if they continue usin",
+  "pubDate": "2026-10-15T21:00:48.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No active rule covers Meta's terms-of-use change about scraping. It is not a model release, research paper, financing/M&A/partnership/product launch, government policy action, or OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nieman Lab: Experts say Meta's new terms of use will allow scraping of websites, including news sites, “associated with” business accounts on its platforms, with no opt out — Starting October 30, business accounts will consent to Meta scraping their websites if they continue usin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p51#a261015p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T21:00:48.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
