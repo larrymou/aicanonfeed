@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "ce36dc168a926cd7",
+  "url": "https://www.techmeme.com/261015/p32#a261015p32",
+  "sourceName": "Techmeme",
+  "title": "Docs: Nvidia and Apple each committed $25M, the top amount, to Trump's White House ballroom; Microsoft and Palantir each committed $10M, and Meta and Amazon $5M (Washington Post)",
+  "summary": "Washington Post: Docs: Nvidia and Apple each committed $25M, the top amount, to Trump's White House ballroom; Microsoft and Palantir each committed $10M, and Meta and Amazon $5M — The records offer a panoramic view of a fundraising campaign that is extraordinary for its size and ",
+  "pubDate": "2026-10-15T14:40:01.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports companies' political donations to a White House ballroom. This is not a model release, research artifact, policy/regulatory action, or open-source tooling, and not financing/M&A/partnership/market data under rule 3-1. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Washington Post: Docs: Nvidia and Apple each committed $25M, the top amount, to Trump's White House ballroom; Microsoft and Palantir each committed $10M, and Meta and Amazon $5M — The records offer a panoramic view of a fundraising campaign that is extraordinary for its size and ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p32#a261015p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T14:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
