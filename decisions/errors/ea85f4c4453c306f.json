@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "ea85f4c4453c306f",
+  "url": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Double Headed Stack Allocator",
+  "summary": "Article URL: https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/ Comments URL: https://news.ycombinator.com/item?id=50098274 Points: 24 # Comments: 2",
+  "pubDate": "2026-10-15T02:06:36.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/ Comments URL: https://news.ycombinator.com/item?id=50098274 Points: 24 # Comments: 2",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
+    "linkHost": "blog.demofox.org",
+    "pubDate": "2026-10-15T02:06:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
