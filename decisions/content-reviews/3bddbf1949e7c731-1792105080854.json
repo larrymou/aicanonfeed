@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "3bddbf1949e7c731",
+  "url": "https://www.techmeme.com/261015/p54#a261015p54",
+  "sourceName": "Techmeme",
+  "title": "Netflix Chief Content Officer Bela Bajaria is leaving the company and will be replaced by former Disney and Fox executive Peter Rice, who starts October 26 (Rebecca Rubin/Variety)",
+  "summary": "Rebecca Rubin / Variety: Netflix Chief Content Officer Bela Bajaria is leaving the company and will be replaced by former Disney and Fox executive Peter Rice, who starts October 26 — In a major executive shakeup, Bela Bajaria is out at Netflix after 10 years at the streamer, most",
+  "pubDate": "2026-10-15T22:10:01.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Netflix executive leadership change (CCO departure/hire); not an AI model release, research, industry AI business event, policy action, or OSS tool. No active rule covers non-AI entertainment personnel news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rebecca Rubin / Variety: Netflix Chief Content Officer Bela Bajaria is leaving the company and will be replaced by former Disney and Fox executive Peter Rice, who starts October 26 — In a major executive shakeup, Bela Bajaria is out at Netflix after 10 years at the streamer, most",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p54#a261015p54",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T22:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
