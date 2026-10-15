@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "e07170025272d6f1",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+  "sourceName": "The Verge AI",
+  "title": "ChatGPT can peek at your Chrome tabs now",
+  "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT'",
+  "pubDate": "2026-10-15T22:43:23.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Verge report on a ChatGPT Chrome extension feature upgrade for viewing open tabs. No named model or official-owner link (rule 1 unmet), no research artifact, no policy action, no OSS tooling, and not a financing/M&A/partnership/market-data business event. A generic product feature update matches no ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT'",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-15T22:43:23.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
