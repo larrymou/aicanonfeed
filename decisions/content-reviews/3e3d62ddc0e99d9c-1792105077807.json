@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "3e3d62ddc0e99d9c",
+  "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+  "sourceName": "Hacker News Front Page",
+  "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
+  "summary": "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 33 # Comments: 37",
+  "pubDate": "2026-10-15T22:11:24.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog/article comparing humans vs AI on call-center calls. No named model release (R1), no peer-reviewed paper/arXiv/benchmark artifact linked (R2), no financing/M&A/partnership/product launch (R3), no policy action (R4), and no open-source tool/framework release (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 33 # Comments: 37",
+    "summaryChars": 185,
+    "summarySource": "summary",
+    "link": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+    "linkHost": "boldagents.co",
+    "pubDate": "2026-10-15T22:11:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
