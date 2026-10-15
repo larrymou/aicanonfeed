@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "b9893b9ef90e5f0f",
+  "url": "https://snoutcover.com/one-year",
+  "sourceName": "Hacker News Front Page",
+  "title": "I designed a nose guard for my dog and gave it away. Now 500 dogs wear one",
+  "summary": "Article URL: https://snoutcover.com/one-year Comments URL: https://news.ycombinator.com/item?id=50105344 Points: 61 # Comments: 28",
+  "pubDate": "2026-10-15T15:44:36.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a personal story about a dog nose guard on snoutcover.com; it involves no AI model, research, industry event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://snoutcover.com/one-year Comments URL: https://news.ycombinator.com/item?id=50105344 Points: 61 # Comments: 28",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://snoutcover.com/one-year",
+    "linkHost": "snoutcover.com",
+    "pubDate": "2026-10-15T15:44:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
