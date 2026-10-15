@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "ffee4f3ae22d5306",
+  "url": "https://www.techmeme.com/261015/p34#a261015p34",
+  "sourceName": "Techmeme",
+  "title": "Nvidia launches Nemotron 3.5 Super VL, a 120B-parameter open model for enterprise agents, and says it outperforms frontier models on specialized benchmarks (Carl Franzen/VentureBeat)",
+  "summary": "Carl Franzen / VentureBeat: Nvidia launches Nemotron 3.5 Super VL, a 120B-parameter open model for enterprise agents, and says it outperforms frontier models on specialized benchmarks — An enterprise agent reviewing a credit agreement may need to extract figures from tables, inte",
+  "pubDate": "2026-10-15T16:20:26.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names a model (Nemotron 3.5 Super VL) and a launch, but the only link is techmeme.com, an aggregator, not an official Nvidia page nor a full news article; linked_page_owner_domain/author are not observed, so rule 1-1's evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Carl Franzen / VentureBeat: Nvidia launches Nemotron 3.5 Super VL, a 120B-parameter open model for enterprise agents, and says it outperforms frontier models on specialized benchmarks — An enterprise agent reviewing a credit agreement may need to extract figures from tables, inte",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p34#a261015p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T16:20:26.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
