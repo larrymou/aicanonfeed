@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "90e9892e5f89db2e",
+  "url": "https://www.techmeme.com/261015/p53#a261015p53",
+  "sourceName": "Techmeme",
+  "title": "Bluesky expands Attie, its AI tool for building custom feeds, with a \"social vibe coding\" feature to create sites, games, quizzes, and more on the AT Protocol (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Bluesky expands Attie, its AI tool for building custom feeds, with a “social vibe coding” feature to create sites, games, quizzes, and more on the AT Protocol — Open social network Bluesky is once again expanding beyond its flagship app. At TechCrunch Di",
+  "pubDate": "2026-10-15T21:35:04.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Bluesky expands Attie, its AI tool for building custom feeds, with a “social vibe coding” feature to create sites, games, quizzes, and more on the AT Protocol — Open social network Bluesky is once again expanding beyond its flagship app. At TechCrunch Di",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p53#a261015p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T21:35:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
