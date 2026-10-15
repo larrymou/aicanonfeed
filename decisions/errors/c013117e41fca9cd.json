@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "c013117e41fca9cd",
+  "url": "https://www.techmeme.com/261015/p8#a261015p8",
+  "sourceName": "Techmeme",
+  "title": "Figma announces new features to define how AI agents work on its platform, including Figma Specs, a Markdown editor that lets users define their design language (Ivan Mehta/TechCrunch)",
+  "summary": "Ivan Mehta / TechCrunch: Figma announces new features to define how AI agents work on its platform, including Figma Specs, a Markdown editor that lets users define their design language — Design platform Figma announced a new Markdown-based editor to help define a company's desig",
+  "pubDate": "2026-10-15T06:20:01.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ivan Mehta / TechCrunch: Figma announces new features to define how AI agents work on its platform, including Figma Specs, a Markdown editor that lets users define their design language — Design platform Figma announced a new Markdown-based editor to help define a company's desig",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p8#a261015p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T06:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
