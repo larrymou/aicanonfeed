@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "364f5f1cad75fb5b",
+  "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+  "sourceName": "Hacker News Front Page",
+  "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+  "summary": "Article URL: https://www.liquid.ai/blog/lfm2-5-24b-a2b Comments URL: https://news.ycombinator.com/item?id=50097369 Points: 104 # Comments: 27",
+  "pubDate": "2026-10-14T23:59:37.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.liquid.ai/blog/lfm2-5-24b-a2b Comments URL: https://news.ycombinator.com/item?id=50097369 Points: 104 # Comments: 27",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "linkHost": "www.liquid.ai",
+    "pubDate": "2026-10-14T23:59:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
