@@ -1,18 +1,21 @@
 {
-  "runId": "run-1792036595392-qjg6xc",
+  "runId": "run-1792055047297-hfl2ze",
   "urlHash": "79f1d561aed872b5",
   "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
   "sourceName": "Ars Technica AI",
   "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
   "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
   "pubDate": "2026-10-14T21:15:56.000Z",
-  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Gaming news about a game launcher app; not an AI model release, research paper, AI industry business event, policy action, or open-source AI tool. No active rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
