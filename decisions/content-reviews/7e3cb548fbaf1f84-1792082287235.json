@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "7e3cb548fbaf1f84",
+  "url": "https://www.techmeme.com/261015/p35#a261015p35",
+  "sourceName": "Techmeme",
+  "title": "E Ink unveils Kaleido 4, its next-gen color e-paper tech, replacing the Kaleido 3 displays currently used by brands including Amazon, Kobo, and PocketBook (Andrew Liszewski/The Verge)",
+  "summary": "Andrew Liszewski / The Verge: E Ink unveils Kaleido 4, its next-gen color e-paper tech, replacing the Kaleido 3 displays currently used by brands including Amazon, Kobo, and PocketBook — The company's new Kaleido 4 color e-paper technology is debuting in a new note-taking tablet ",
+  "pubDate": "2026-10-15T16:35:29.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "E Ink Kaleido 4 is a color e-paper display technology, not an AI model, research artifact, AI industry event, AI policy item, or open-source AI tool. No active rule covers this non-AI hardware announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew Liszewski / The Verge: E Ink unveils Kaleido 4, its next-gen color e-paper tech, replacing the Kaleido 3 displays currently used by brands including Amazon, Kobo, and PocketBook — The company's new Kaleido 4 color e-paper technology is debuting in a new note-taking tablet ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p35#a261015p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T16:35:29.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
