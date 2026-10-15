@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "6d32cf3f2a6a67e3",
+  "url": "https://arxiv.org/abs/2610.14118",
+  "sourceName": "arXiv cs.AI",
+  "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+  "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. ",
+  "pubDate": "2026-10-15T04:00:00.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (cs.AI) reporting new AI research on self-improving LLM agents, linking to the original paper at arxiv.org, satisfying research rule 2-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.14118",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-15T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
