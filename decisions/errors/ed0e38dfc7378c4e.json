@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "ed0e38dfc7378c4e",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.5-rc2",
+  "summary": "llama.cpp: version bump b11669 (#19032)",
+  "pubDate": "2026-10-15T16:11:12.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "llama.cpp: version bump b11669 (#19032)",
+    "summaryChars": 39,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-15T16:11:12.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
