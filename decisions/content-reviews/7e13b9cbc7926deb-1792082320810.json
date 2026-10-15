@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "7e13b9cbc7926deb",
+  "url": "https://www.techmeme.com/261015/p33#a261015p33",
+  "sourceName": "Techmeme",
+  "title": "Sony launches three new Android-powered Walkman music players, including the gold-plated NW-WM1ZM3 for $5,900, as it targets the audiophile market (Chris Welch/Bloomberg)",
+  "summary": "Chris Welch / Bloomberg: Sony launches three new Android-powered Walkman music players, including the gold-plated NW-WM1ZM3 for $5,900, as it targets the audiophile market — Sony Group Corp. introduced a trio of premium digital music players priced from $1,900 to $5,900, marking ",
+  "pubDate": "2026-10-15T16:15:02.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Sony's Android Walkman music player launch is a consumer electronics product announcement with no AI model, research artifact, AI business event, policy action, or open-source AI tool. No active rule covers it, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Welch / Bloomberg: Sony launches three new Android-powered Walkman music players, including the gold-plated NW-WM1ZM3 for $5,900, as it targets the audiophile market — Sony Group Corp. introduced a trio of premium digital music players priced from $1,900 to $5,900, marking ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p33#a261015p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T16:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
