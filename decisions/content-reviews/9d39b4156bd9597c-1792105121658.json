@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "9d39b4156bd9597c",
+  "url": "https://www.techmeme.com/261015/p50#a261015p50",
+  "sourceName": "Techmeme",
+  "title": "Thoma Bravo-owned cybersecurity company Proofpoint plans to buy data security firm Varonis Systems in an all-cash deal valued at about $6.3B (Jaspreet Singh/Reuters)",
+  "summary": "Jaspreet Singh / Reuters: Thoma Bravo-owned cybersecurity company Proofpoint plans to buy data security firm Varonis Systems in an all-cash deal valued at about $6.3B — Thoma Bravo-owned cybersecurity company Proofpoint will buy data security firm Varonis Systems (VRNS.O) in all-",
+  "pubDate": "2026-10-15T20:55:03.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Rule 3-1: reports an AI-industry business event (M&A) — Proofpoint acquiring Varonis Systems in a ~$6.3B all-cash deal, sourced from a reputable media report (Reuters via Techmeme) per title/summary, with observed link and pubDate.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jaspreet Singh / Reuters: Thoma Bravo-owned cybersecurity company Proofpoint plans to buy data security firm Varonis Systems in an all-cash deal valued at about $6.3B — Thoma Bravo-owned cybersecurity company Proofpoint will buy data security firm Varonis Systems (VRNS.O) in all-",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p50#a261015p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T20:55:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
