@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "6979593215aeb89f",
+  "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Celebrating 70 Years of Fortran",
+  "summary": "Article URL: https://fortran-lang.org/news/2026/09-15-Fortran-birthday/ Comments URL: https://news.ycombinator.com/item?id=50104726 Points: 54 # Comments: 23",
+  "pubDate": "2026-10-15T15:03:17.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item celebrates Fortran's 70th anniversary; it is not an AI model release, AI research artifact, AI industry business event, AI policy action, or AI open-source tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://fortran-lang.org/news/2026/09-15-Fortran-birthday/ Comments URL: https://news.ycombinator.com/item?id=50104726 Points: 54 # Comments: 23",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+    "linkHost": "fortran-lang.org",
+    "pubDate": "2026-10-15T15:03:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
