@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "1e7807e4d2e805bf",
+  "url": "https://www.techmeme.com/261015/p7#a261015p7",
+  "sourceName": "Techmeme",
+  "title": "TSMC reports Q3 revenue up 50.9% YoY to $46.36B, net income up 68.7% to $23.7B, both above est., marking a sixth straight quarterly profit record on AI demand (Jenny Lee/CNBC)",
+  "summary": "Jenny Lee / CNBC: TSMC reports Q3 revenue up 50.9% YoY to $46.36B, net income up 68.7% to $23.7B, both above est., marking a sixth straight quarterly profit record on AI demand — Taiwan Semiconductor Manufacturing Co. on Thursday reported a record third-quarter profit that beat e",
+  "pubDate": "2026-10-15T05:56:47.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jenny Lee / CNBC: TSMC reports Q3 revenue up 50.9% YoY to $46.36B, net income up 68.7% to $23.7B, both above est., marking a sixth straight quarterly profit record on AI demand — Taiwan Semiconductor Manufacturing Co. on Thursday reported a record third-quarter profit that beat e",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p7#a261015p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-15T05:56:47.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
