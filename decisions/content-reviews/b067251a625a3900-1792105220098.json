@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "b067251a625a3900",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x5y2pz/i_trained_a_15m_decisiononly_model_two_ways/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I trained a 15M \"decision-only\" model two ways — linear recurrence vs Transformer attention. Accuracy was a coin flip; latency and training cost weren't.[R]",
+  "summary": "Inspired by TypeSafe's Jev (a non-generative model that only outputs bounded decisions — choices, probabilities, calibrated confidence), I built two small decision models end-to-end on identical budgets and tasks to answer one question: which substrate makes the better Jev? Repo:",
+  "pubDate": "2026-10-14T17:52:30.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit personal experiment comparing recurrence vs attention; no peer-reviewed paper, arXiv preprint, benchmark, official model release, OSS tool announcement, or business/policy event. No rule covers.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Inspired by TypeSafe's Jev (a non-generative model that only outputs bounded decisions — choices, probabilities, calibrated confidence), I built two small decision models end-to-end on identical budgets and tasks to answer one question: which substrate makes the better Jev? Repo:",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x5y2pz/i_trained_a_15m_decisiononly_model_two_ways/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-14T17:52:30.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
