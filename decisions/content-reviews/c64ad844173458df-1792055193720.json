@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792036595392-qjg6xc",
+  "runId": "run-1792055047297-hfl2ze",
   "urlHash": "c64ad844173458df",
   "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
   "sourceName": "TechCrunch AI",
   "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
   "summary": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
   "pubDate": "2026-10-14T21:30:33.000Z",
-  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Item is privacy/surveillance commentary about Flock's microphone claims; no named AI model release, research artifact, industry business event, policy action, or open-source tool. No active rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
