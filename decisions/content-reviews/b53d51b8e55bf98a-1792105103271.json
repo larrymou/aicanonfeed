@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "b53d51b8e55bf98a",
+  "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+  "sourceName": "Wired AI",
+  "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+  "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
+  "pubDate": "2026-10-15T21:18:15.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired podcast episode covering Meta's Muse feature, super PAC spending, and AI commentary. No named model release with official owner link, no research artifact, no discrete industry deal, policy action, or OSS tool; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
+    "summaryChars": 184,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-15T21:18:15.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
