@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "e10522981d38e793",
+  "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+  "sourceName": "The Verge AI",
+  "title": "McKinsey is making job applicants spar with a fake AI client",
+  "summary": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKins",
+  "pubDate": "2026-10-14T22:53:31.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKins",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-14T22:53:31.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
