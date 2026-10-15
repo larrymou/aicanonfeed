@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792105049624-ul99wk",
+  "urlHash": "50864881caf350ce",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x6zc4g/how_do_you_publish_on_arxiv_without_an/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How do you publish on arXiv without an institution? Looking for an endorser or reviewer for a paper on modular, toolchain-validated small code models [R]",
+  "summary": "Hello everyone 👋 I wanted to publish my very first scientific article on platforms like arXiV or ResearchGate, but because I do not have the scientific community around me that can help me with that - I need to ask here how you'd overcome this. Recently I finished the article ma",
+  "pubDate": "2026-10-15T22:19:46.000Z",
+  "decidedAt": "2026-10-15T22:57:42.136Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit help request asking how to find an arXiv endorser without an institution; no research artifact or paper/official source link, so rule 2-1 is unmet. No rule covers this discussion post.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello everyone 👋 I wanted to publish my very first scientific article on platforms like arXiV or ResearchGate, but because I do not have the scientific community around me that can help me with that - I need to ask here how you'd overcome this. Recently I finished the article ma",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x6zc4g/how_do_you_publish_on_arxiv_without_an/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-15T22:19:46.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
