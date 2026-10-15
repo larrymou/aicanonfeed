@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792055047297-hfl2ze",
+  "urlHash": "d8011339b1fa388f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x6dytx/university_gpu_cluster_is_holding_my_research/",
+  "sourceName": "r/MachineLearning new",
+  "title": "University GPU cluster is holding my research hostage. Can I use my internship company’s GPUs instead? 💀 [D]",
+  "summary": "PhD student here. My university’s GPU cluster has apparently become a luxury resort. I submit a job requesting a couple of GPUs, and it takes 3–4 business days just to START running. Meanwhile, my internship company has some pretty sweet compute sitting there, and the intrusive t",
+  "pubDate": "2026-10-15T06:06:50.000Z",
+  "decidedAt": "2026-10-15T09:04:16.898Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking about using internship company GPUs; no named model release, research artifact, industry business event, policy action, or open-source tool release. No active rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "PhD student here. My university’s GPU cluster has apparently become a luxury resort. I submit a job requesting a couple of GPUs, and it takes 3–4 business days just to START running. Meanwhile, my internship company has some pretty sweet compute sitting there, and the intrusive t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x6dytx/university_gpu_cluster_is_holding_my_research/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-15T06:06:50.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
