@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792082277116-fgv1hv",
+  "urlHash": "ad09b0946a60b7ff",
+  "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+  "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+  "pubDate": "2026-10-15T16:08:03.000Z",
+  "decidedAt": "2026-10-15T16:38:04.881Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule matches. Not a model release (no named model/major version), and no research artifact (paper/preprint/benchmark) is established from Content—only a blog on applied antimicrobial discovery. No policy or OSS-tool launch either.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+    "summaryChars": 94,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-15T16:08:03.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
