@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792036595392-qjg6xc",
+  "urlHash": "05f9fc885223b83c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Tracing where LLM \"slop\" style comes from in the model and in training, and cutting it out [R]",
+  "summary": "I wanted to find where the recognizable assistant style (em dashes, \"it's not X, it's Y\", lists of three, buzzwords) lives in a model and which training stage installs it. Where it lives: in Qwen3-4B-Instruct, a difference-in-means direction from the model's own exaggerated vs pl",
+  "pubDate": "2026-10-14T22:08:02.000Z",
+  "decidedAt": "2026-10-15T03:56:44.396Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I wanted to find where the recognizable assistant style (em dashes, \"it's not X, it's Y\", lists of three, buzzwords) lives in a model and which training stage installs it. Where it lives: in Qwen3-4B-Instruct, a difference-in-means direction from the model's own exaggerated vs pl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-14T22:08:02.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
