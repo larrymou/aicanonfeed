@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "30a2dfe8e10c777c",
+  "url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why harnesses matter for energy (and token) efficiency",
+  "summary": "Article URL: https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency Comments URL: https://news.ycombinator.com/item?id=50124642 Points: 20 # Comments: 3",
+  "pubDate": "2026-10-16T21:01:23.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Article is a commentary/analysis piece on harnesses for energy and token efficiency. No named model release, no research artifact, no industry business event, no policy action, and no open-source tool announcement; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency Comments URL: https://news.ycombinator.com/item?id=50124642 Points: 20 # Comments: 3",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+    "linkHost": "neuralwatt.com",
+    "pubDate": "2026-10-16T21:01:23.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
