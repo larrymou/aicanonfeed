@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "a60f4a701f887ae8",
+  "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+  "sourceName": "OpenAI Blog",
+  "title": "Teaching students to think and learn through questions",
+  "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+  "pubDate": "2026-10-15T13:00:00.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is education/teacher-focused content about Study Mode for educators, not a named model release, research result, industry business event, policy action, or open-source tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-15T13:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
