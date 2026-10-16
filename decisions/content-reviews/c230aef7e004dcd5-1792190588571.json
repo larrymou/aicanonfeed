@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "c230aef7e004dcd5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x7n0i2/crashing_out_after_iclr_desk_rejection_content/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Crashing out after ICLR desk rejection: \"content exceeds the 9-page limit.\" [D]",
+  "summary": "Half of one sentence in my paper trails onto page 10... This must have happened after a small edit and recompile of the pdf on resubmission? but this got me desk rejected??? Is this normal?? This wasn't even flagged by the official LLM feedback? Like whats the point of providing ",
+  "pubDate": "2026-10-16T17:50:55.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/vent about an ICLR desk rejection; no model release, no research artifact (paper/arXiv/benchmark) link, no industry, policy, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Half of one sentence in my paper trails onto page 10... This must have happened after a small edit and recompile of the pdf on resubmission? but this got me desk rejected??? Is this normal?? This wasn't even flagged by the official LLM feedback? Like whats the point of providing ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x7n0i2/crashing_out_after_iclr_desk_rejection_content/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-16T17:50:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
