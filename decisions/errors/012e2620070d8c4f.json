@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "012e2620070d8c4f",
+  "url": "https://www.techmeme.com/261015/p59#a261015p59",
+  "sourceName": "Techmeme",
+  "title": "Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base (Microsoft AI)",
+  "summary": "Microsoft AI: Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base — In June, we announced MAI-Thinking-1, a general-purpose foundation model post-trained on top of MAI-Bas",
+  "pubDate": "2026-10-16T02:20:01.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: LLM request aborted after 45000ms",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Microsoft AI: Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base — In June, we announced MAI-Thinking-1, a general-purpose foundation model post-trained on top of MAI-Bas",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p59#a261015p59",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T02:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
