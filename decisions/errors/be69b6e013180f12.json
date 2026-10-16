@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "be69b6e013180f12",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2",
+  "sourceName": "vLLM releases",
+  "title": "v0.32.0rc2",
+  "summary": "[CI] Pin DeepSeek-V4.1-Flash-NVFP4 eval to its FP8-Engram revision (#…",
+  "pubDate": "2026-10-15T09:50:46.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[CI] Pin DeepSeek-V4.1-Flash-NVFP4 eval to its FP8-Engram revision (#…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-15T09:50:46.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
