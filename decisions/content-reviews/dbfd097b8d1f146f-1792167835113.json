@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "dbfd097b8d1f146f",
+  "url": "https://www.techmeme.com/261016/p10#a261016p10",
+  "sourceName": "Techmeme",
+  "title": "Organizers abruptly cancel 2026's Grace Hopper Celebration, one of the biggest events for women in tech, after sponsorships and registrations fall short (Bloomberg)",
+  "summary": "Bloomberg: Organizers abruptly cancel 2026's Grace Hopper Celebration, one of the biggest events for women in tech, after sponsorships and registrations fall short — The cancellation of this year's Grace Hopper Celebration, one of the largest gatherings of women in technology, is",
+  "pubDate": "2026-10-16T13:30:04.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports cancellation of a women-in-tech conference due to weak sponsorships/registrations. It is not an AI model release (1-1), research artifact (2-1), policy action (4-1), or OSS tool (5-1), and does not match rule 3-1's enumerated AI business events (financing, M&A, partnerships, market/reve",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Organizers abruptly cancel 2026's Grace Hopper Celebration, one of the biggest events for women in tech, after sponsorships and registrations fall short — The cancellation of this year's Grace Hopper Celebration, one of the largest gatherings of women in technology, is",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p10#a261016p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T13:30:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
