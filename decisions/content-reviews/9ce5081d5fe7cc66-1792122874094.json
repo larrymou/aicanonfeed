@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "9ce5081d5fe7cc66",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x6wp1n/point_me_to_a_good_video_on_current_state_of_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Point me to a good video on current state of the Chinese AI industry. [D]",
+  "summary": "Its surprisingly hard to find good videos that summarize how AI is looking in China right now. I know about deepseek, but what else is going on right now? submitted by /u/shemipukel808 [link] [comments]",
+  "pubDate": "2026-10-15T20:29:35.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit question asking for video recommendations on the Chinese AI industry; no new model release, research artifact, business event, policy action, or OSS tool is announced, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Its surprisingly hard to find good videos that summarize how AI is looking in China right now. I know about deepseek, but what else is going on right now? submitted by /u/shemipukel808 [link] [comments]",
+    "summaryChars": 202,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x6wp1n/point_me_to_a_good_video_on_current_state_of_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-15T20:29:35.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
