@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "1513bb53a4519c8f",
+  "url": "https://www.techmeme.com/261016/p20#a261016p20",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm (Anthropic)",
+  "summary": "Anthropic: Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm — “It's just timestamps”: the decades-old mystery of the origins of one of the most popular cryptographic st",
+  "pubDate": "2026-10-16T20:25:02.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this. Not a model release (no new model/version/capability). Not AI research under 2-1: link is a Techmeme aggregator page, not the original paper or official source. Not industry business, policy, or OSS tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm — “It's just timestamps”: the decades-old mystery of the origins of one of the most popular cryptographic st",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p20#a261016p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T20:25:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
