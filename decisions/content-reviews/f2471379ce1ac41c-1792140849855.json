@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "f2471379ce1ac41c",
+  "url": "https://www.porsche.com/international/models/mission-s/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Porsche Mission S",
+  "summary": "Article URL: https://www.porsche.com/international/models/mission-s/ Comments URL: https://news.ycombinator.com/item?id=50113528 Points: 18 # Comments: 36",
+  "pubDate": "2026-10-16T03:09:14.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Porsche car model page, not AI. No rule covers non-AI model releases, research, industry, policy, or OSS tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.porsche.com/international/models/mission-s/ Comments URL: https://news.ycombinator.com/item?id=50113528 Points: 18 # Comments: 36",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://www.porsche.com/international/models/mission-s/",
+    "linkHost": "www.porsche.com",
+    "pubDate": "2026-10-16T03:09:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
