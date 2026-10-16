@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "9d0f3db21299f977",
+  "url": "https://www.techmeme.com/261016/p11#a261016p11",
+  "sourceName": "Techmeme",
+  "title": "Sources: PayPal, Epic, and others voiced concerns to DOJ as it signaled a preference to settle its Apple antitrust suit with a deal focusing on interoperability (Aaron Tilley/The Information)",
+  "summary": "Aaron Tilley / The Information: Sources: PayPal, Epic, and others voiced concerns to DOJ as it signaled a preference to settle its Apple antitrust suit with a deal focusing on interoperability — As the U.S. Department of Justice negotiates a settlement of its antitrust lawsuit ag",
+  "pubDate": "2026-10-16T13:40:01.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers DOJ antitrust settlement talks with Apple and third-party concerns; it is not an AI model release, research artifact, AI industry business event, AI policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Aaron Tilley / The Information: Sources: PayPal, Epic, and others voiced concerns to DOJ as it signaled a preference to settle its Apple antitrust suit with a deal focusing on interoperability — As the U.S. Department of Justice negotiates a settlement of its antitrust lawsuit ag",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p11#a261016p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T13:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
