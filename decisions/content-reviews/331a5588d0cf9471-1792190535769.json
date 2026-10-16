@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "331a5588d0cf9471",
+  "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+  "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live prod",
+  "pubDate": "2026-10-16T20:48:16.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post describing an evaluation methodology/framework on Amazon Bedrock AgentCore. No model release (R1), no research artifact (R2), no business event (R3), no policy action (R4). R5 requires a new open-source tool/framework release or repository link, which is not established by the content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live prod",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-16T20:48:16.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
