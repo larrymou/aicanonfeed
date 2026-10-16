@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "51fc38986486c79b",
+  "url": "https://coached.com/essays/the-insider-trading-youre-allowed-to-do/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The insider trading you're allowed to do",
+  "summary": "Article URL: https://coached.com/essays/the-insider-trading-youre-allowed-to-do/ Comments URL: https://news.ycombinator.com/item?id=50115144 Points: 5 # Comments: 1",
+  "pubDate": "2026-10-16T07:12:09.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Essay on insider trading with no AI model, research, industry, policy, or OSS tooling content. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://coached.com/essays/the-insider-trading-youre-allowed-to-do/ Comments URL: https://news.ycombinator.com/item?id=50115144 Points: 5 # Comments: 1",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://coached.com/essays/the-insider-trading-youre-allowed-to-do/",
+    "linkHost": "coached.com",
+    "pubDate": "2026-10-16T07:12:09.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
