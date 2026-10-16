@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "2f246ab8ad92798d",
+  "url": "https://github.com/Saffsanity/sill",
+  "sourceName": "Hacker News Front Page",
+  "title": "Any window from your Mac, on your iPhone and iPad",
+  "summary": "Article URL: https://github.com/Saffsanity/sill Comments URL: https://news.ycombinator.com/item?id=50112739 Points: 38 # Comments: 6",
+  "pubDate": "2026-10-16T01:43:17.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a GitHub repo link for a Mac-to-iPhone window tool; no evidence it is an AI tool, framework, or developer resource or any other covered AI event. No rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/Saffsanity/sill Comments URL: https://news.ycombinator.com/item?id=50112739 Points: 38 # Comments: 6",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://github.com/Saffsanity/sill",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-16T01:43:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
