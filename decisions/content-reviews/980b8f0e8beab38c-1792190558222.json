@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "980b8f0e8beab38c",
+  "url": "https://www.techmeme.com/261016/p19#a261016p19",
+  "sourceName": "Techmeme",
+  "title": "Sources: SoftBank weighs buying US security services giant Allied Universal at an ~$18B equity valuation, as Masayoshi Son explores deploying AI-powered robots (Bloomberg)",
+  "summary": "Bloomberg: Sources: SoftBank weighs buying US security services giant Allied Universal at an ~$18B equity valuation, as Masayoshi Son explores deploying AI-powered robots — SoftBank Group Corp. is considering an acquisition of Allied Universal, the largest security services compa",
+  "pubDate": "2026-10-16T19:50:01.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: SoftBank's potential ~$18B acquisition of Allied Universal (M&A), covered by Bloomberg via a reputable media report on Techmeme. No official model/capability release or research artifact is present, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: SoftBank weighs buying US security services giant Allied Universal at an ~$18B equity valuation, as Masayoshi Son explores deploying AI-powered robots — SoftBank Group Corp. is considering an acquisition of Allied Universal, the largest security services compa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p19#a261016p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T19:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
