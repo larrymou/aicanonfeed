@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "a4dc299544df68f2",
+  "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+  "sourceName": "The Verge AI",
+  "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+  "summary": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first",
+  "pubDate": "2026-10-15T18:15:36.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports a Meta-Apple partnership and Meta's Muse model launch. No official owner link; media-only model coverage and partnership fall under industry rule 3-1, with The Verge as reputable media.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-15T18:15:36.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
