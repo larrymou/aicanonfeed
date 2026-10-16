@@ -1,18 +1,23 @@
 {
-  "runId": "run-1792122769105-cdnxm1",
+  "runId": "run-1792140776533-7qe290",
   "urlHash": "012e2620070d8c4f",
   "url": "https://www.techmeme.com/261015/p59#a261015p59",
   "sourceName": "Techmeme",
   "title": "Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base (Microsoft AI)",
   "summary": "Microsoft AI: Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base — In June, we announced MAI-Thinking-1, a general-purpose foundation model post-trained on top of MAI-Bas",
   "pubDate": "2026-10-16T02:20:01.000Z",
-  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: LLM request aborted after 45000ms",
+  "reason": "Names model MAI-Base-2 from Microsoft AI and a release action, but rule 1-1 condition 3 is unmet: link is techmeme.com (not owner domain) and linked_page_author is not observed, so it is not an official owner page nor a news article with a named author.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Microsoft AI: Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base — In June, we announced MAI-Thinking-1, a general-purpose foundation model post-trained on top of MAI-Bas",
