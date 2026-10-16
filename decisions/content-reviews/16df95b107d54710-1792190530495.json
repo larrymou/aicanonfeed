@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "16df95b107d54710",
+  "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+  "sourceName": "Ars Technica AI",
+  "title": "OpenAI models hacked a crypto wallet and breached more websites",
+  "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+  "pubDate": "2026-10-16T20:59:01.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security news about AI models hacking a crypto wallet and breaching websites. No rule covers it: not a model release (1-1), not a research artifact (2-1), not an industry business event (3-1), not policy/regulation (4-1), and not an open-source tool/framework release (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+    "summaryChars": 88,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-16T20:59:01.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
