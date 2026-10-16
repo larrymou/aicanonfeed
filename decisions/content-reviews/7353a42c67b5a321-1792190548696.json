@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "7353a42c67b5a321",
+  "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+  "sourceName": "Ars Technica AI",
+  "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+  "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+  "pubDate": "2026-10-16T20:20:07.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a criminal arrest for AI CSAM by law enforcement; it is not a model release, research artifact, business event, AI policy/regulation action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+    "summaryChars": 72,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-16T20:20:07.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
