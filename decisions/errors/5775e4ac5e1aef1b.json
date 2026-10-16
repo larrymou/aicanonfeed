@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "5775e4ac5e1aef1b",
+  "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Hello Toronto – Waymo Is En Route",
+  "summary": "Article URL: https://waymo.com/blog/2026/10/waymo-in-toronto/ Comments URL: https://news.ycombinator.com/item?id=50118981 Points: 97 # Comments: 161",
+  "pubDate": "2026-10-16T14:44:17.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://waymo.com/blog/2026/10/waymo-in-toronto/ Comments URL: https://news.ycombinator.com/item?id=50118981 Points: 97 # Comments: 161",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+    "linkHost": "waymo.com",
+    "pubDate": "2026-10-16T14:44:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
