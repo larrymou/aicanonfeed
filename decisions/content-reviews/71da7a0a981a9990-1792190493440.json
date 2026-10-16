@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "71da7a0a981a9990",
+  "url": "https://www.techmeme.com/261016/p23#a261016p23",
+  "sourceName": "Techmeme",
+  "title": "Sources: Apple has hired Scott Tucker, Meta VP and deputy general counsel, as its new litigation chief, as part of a shakeup in its legal team (Mark Gurman/Bloomberg)",
+  "summary": "Mark Gurman / Bloomberg: Sources: Apple has hired Scott Tucker, Meta VP and deputy general counsel, as its new litigation chief, as part of a shakeup in its legal team — Apple Inc. has tapped a longtime Meta Platforms Inc. executive as its new litigation chief, bolstering its leg",
+  "pubDate": "2026-10-16T22:10:01.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a corporate legal-team hiring (Apple hires Meta VP as litigation chief). It is not a model release, research artifact, AI industry business event (financing/M&A/partnership/revenue/product launch), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mark Gurman / Bloomberg: Sources: Apple has hired Scott Tucker, Meta VP and deputy general counsel, as its new litigation chief, as part of a shakeup in its legal team — Apple Inc. has tapped a longtime Meta Platforms Inc. executive as its new litigation chief, bolstering its leg",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p23#a261016p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T22:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
