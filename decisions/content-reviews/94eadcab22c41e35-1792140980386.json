@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "94eadcab22c41e35",
+  "url": "https://openai.com/index/sullivan-cromwell",
+  "sourceName": "OpenAI Blog",
+  "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+  "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+  "pubDate": "2026-10-15T00:00:00.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "OpenAI announcement of a collaboration with Sullivan & Cromwell on Agreement Analyzer, an enterprise AI tool. This is a non-model product/partnership launch with a company announcement link on the owner's site, fitting the industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/sullivan-cromwell",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
