@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "e5b4df0964644beb",
+  "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+  "sourceName": "Hacker News Front Page",
+  "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+  "summary": "Article URL: https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games Comments URL: https://news.ycombinator.com/item?id=50120101 Points: 11 # Comments: 1",
+  "pubDate": "2026-10-16T16:03:02.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns US legislation on video game ownership, not AI policy, research, models, or OSS tools. No active rule covers non-AI content, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games Comments URL: https://news.ycombinator.com/item?id=50120101 Points: 11 # Comments: 1",
+    "summaryChars": 226,
+    "summarySource": "summary",
+    "link": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+    "linkHost": "ritchietorres.house.gov",
+    "pubDate": "2026-10-16T16:03:02.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
