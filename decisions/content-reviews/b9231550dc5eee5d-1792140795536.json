@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "b9231550dc5eee5d",
+  "url": "https://www.techmeme.com/261016/p3#a261016p3",
+  "sourceName": "Techmeme",
+  "title": "A look at China's AI learning frenzy, as economic anxiety and fear of being left behind fuel a booming market for courses promising prosperity through AI (Afra Wang/New York Magazine)",
+  "summary": "Afra Wang / New York Magazine: A look at China's AI learning frenzy, as economic anxiety and fear of being left behind fuel a booming market for courses promising prosperity through AI — In May, I sat in a living room on the fringes of Hangzhou, one of the most technologically ad",
+  "pubDate": "2026-10-16T08:30:01.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Feature/commentary on China's AI course-learning frenzy. No named model release (R1), no research artifact (R2), no financing/M&A/partnership/deal or product launch (R3), no policy action (R4), no OSS tool (R5). No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Afra Wang / New York Magazine: A look at China's AI learning frenzy, as economic anxiety and fear of being left behind fuel a booming market for courses promising prosperity through AI — In May, I sat in a living room on the fringes of Hangzhou, one of the most technologically ad",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p3#a261016p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T08:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
