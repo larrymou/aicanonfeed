@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "5a44bd5340bc84eb",
+  "url": "https://www.tesla.com/roadster",
+  "sourceName": "Hacker News Front Page",
+  "title": "Tesla Roadster",
+  "summary": "Article URL: https://www.tesla.com/roadster Comments URL: https://news.ycombinator.com/item?id=50112657 Points: 273 # Comments: 290",
+  "pubDate": "2026-10-16T01:32:45.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Tesla Roadster car page, not an AI model, research, industry, policy, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.tesla.com/roadster Comments URL: https://news.ycombinator.com/item?id=50112657 Points: 273 # Comments: 290",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://www.tesla.com/roadster",
+    "linkHost": "www.tesla.com",
+    "pubDate": "2026-10-16T01:32:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
