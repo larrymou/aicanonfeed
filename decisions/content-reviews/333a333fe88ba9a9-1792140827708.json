@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "333a333fe88ba9a9",
+  "url": "https://www.techmeme.com/261016/p1#a261016p1",
+  "sourceName": "Techmeme",
+  "title": "Taiwan plans US industrial parks costing $2B to $4B each, starting with a Texas complex costing up to $4B, to build a supply chain for Nvidia, TSMC, and Foxconn (Bloomberg)",
+  "summary": "Bloomberg: Taiwan plans US industrial parks costing $2B to $4B each, starting with a Texas complex costing up to $4B, to build a supply chain for Nvidia, TSMC, and Foxconn — Taiwan plans to raise billions of dollars to develop industrial parks in the US that would build a base fo",
+  "pubDate": "2026-10-16T04:55:00.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Taiwan plans to raise billions ($2B-$4B per park) to build US industrial parks supplying Nvidia, TSMC, Foxconn. Financing/investment in the AI chip supply chain, covered via a media report (Techmeme/Bloomberg). No model, research, policy action, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Taiwan plans US industrial parks costing $2B to $4B each, starting with a Texas complex costing up to $4B, to build a supply chain for Nvidia, TSMC, and Foxconn — Taiwan plans to raise billions of dollars to develop industrial parks in the US that would build a base fo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p1#a261016p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T04:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
