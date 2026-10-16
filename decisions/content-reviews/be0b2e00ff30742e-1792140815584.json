@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "be0b2e00ff30742e",
+  "url": "https://danieltemkin.com/esolangs/folders",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Folders Programming Language",
+  "summary": "Article URL: https://danieltemkin.com/esolangs/folders Comments URL: https://news.ycombinator.com/item?id=50114342 Points: 39 # Comments: 5",
+  "pubDate": "2026-10-16T05:11:28.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an esoteric programming language article; no evidence it is an AI model release, AI research, AI industry event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://danieltemkin.com/esolangs/folders Comments URL: https://news.ycombinator.com/item?id=50114342 Points: 39 # Comments: 5",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://danieltemkin.com/esolangs/folders",
+    "linkHost": "danieltemkin.com",
+    "pubDate": "2026-10-16T05:11:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
