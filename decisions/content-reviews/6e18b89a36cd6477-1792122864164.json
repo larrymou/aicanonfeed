@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "6e18b89a36cd6477",
+  "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+  "sourceName": "Hacker News Front Page",
+  "title": "Thank You, Deno",
+  "summary": "Article URL: https://www.vlt.io/blog/competition-keeps-javascript-moving Comments URL: https://news.ycombinator.com/item?id=50112331 Points: 24 # Comments: 0",
+  "pubDate": "2026-10-16T00:52:40.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog commentary piece about Deno/JavaScript competition; no named AI model release, research artifact, industry business event, policy action, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.vlt.io/blog/competition-keeps-javascript-moving Comments URL: https://news.ycombinator.com/item?id=50112331 Points: 24 # Comments: 0",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+    "linkHost": "www.vlt.io",
+    "pubDate": "2026-10-16T00:52:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
