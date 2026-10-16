@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "660063e865d4620d",
+  "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+  "sourceName": "TechCrunch AI",
+  "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+  "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+  "pubDate": "2026-10-16T12:55:09.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CEO commentary/vision piece on the 'self-driving company' with no model release, research artifact, business event, policy action, or OSS tool. No active rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-16T12:55:09.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
