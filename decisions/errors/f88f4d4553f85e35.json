@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "f88f4d4553f85e35",
+  "url": "https://www.techmeme.com/261015/p61#a261015p61",
+  "sourceName": "Techmeme",
+  "title": "Austin-based RapidCanvas, which uses agents to help businesses build custom AI tools, raised a ∼$29M Series B led by Vertex Ventures and Hitachi Ventures (Chris Metinko/Axios)",
+  "summary": "Chris Metinko / Axios: Austin-based RapidCanvas, which uses agents to help businesses build custom AI tools, raised a ∼$29M Series B led by Vertex Ventures and Hitachi Ventures — RapidCanvas, which uses agents to help businesses build and deploy custom AI applications, has raised",
+  "pubDate": "2026-10-16T03:40:00.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Metinko / Axios: Austin-based RapidCanvas, which uses agents to help businesses build custom AI tools, raised a ∼$29M Series B led by Vertex Ventures and Hitachi Ventures — RapidCanvas, which uses agents to help businesses build and deploy custom AI applications, has raised",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p61#a261015p61",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T03:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
