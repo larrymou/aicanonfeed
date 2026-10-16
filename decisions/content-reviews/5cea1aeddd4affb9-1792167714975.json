@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "5cea1aeddd4affb9",
+  "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+  "sourceName": "TechCrunch AI",
+  "title": "Elorian’s first AI model wants to reason with images, not just about them",
+  "summary": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+  "pubDate": "2026-10-16T16:01:37.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Media-only coverage of Elorian's new model launch (Glimpse) with a link to a reputable media report (TechCrunch), no official owner link. Rule 3-1 says media-only coverage of a model launch stays under industry.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-16T16:01:37.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
