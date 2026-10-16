@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "056571d1d2b2311d",
+  "url": "https://www.techmeme.com/261016/p12#a261016p12",
+  "sourceName": "Techmeme",
+  "title": "Microsoft Surface Laptop Ultra review: powerful, useful Magnetic Connect port, bright screen, but heavy, loud, and Windows doesn't take advantage of RTX Spark (Andrew E. Freedman/Tom's Hardware)",
+  "summary": "Andrew E. Freedman / Tom's Hardware: Microsoft Surface Laptop Ultra review: powerful, useful Magnetic Connect port, bright screen, but heavy, loud, and Windows doesn't take advantage of RTX Spark — Useful for AI models, but still waiting for more Windows 11 features to take advan",
+  "pubDate": "2026-10-16T13:50:01.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hardware review of a Microsoft Surface laptop; not a named AI model release, research artifact, industry business event (financing/M&A/partnership/launch), policy action, or open-source tool. No active rule covers product reviews.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew E. Freedman / Tom's Hardware: Microsoft Surface Laptop Ultra review: powerful, useful Magnetic Connect port, bright screen, but heavy, loud, and Windows doesn't take advantage of RTX Spark — Useful for AI models, but still waiting for more Windows 11 features to take advan",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p12#a261016p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T13:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
