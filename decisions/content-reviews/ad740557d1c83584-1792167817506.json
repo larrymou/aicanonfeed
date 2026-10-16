@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "ad740557d1c83584",
+  "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+  "sourceName": "Ars Technica AI",
+  "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+  "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
+  "pubDate": "2026-10-16T14:00:59.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Documentary about romance scams; no AI model release, research artifact, industry business event, policy action, or open-source tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
+    "summaryChars": 82,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-16T14:00:59.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
