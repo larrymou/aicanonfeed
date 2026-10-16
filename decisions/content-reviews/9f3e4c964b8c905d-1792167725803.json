@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "9f3e4c964b8c905d",
+  "url": "https://onedeploy.co",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS",
+  "summary": "Article URL: https://onedeploy.co Comments URL: https://news.ycombinator.com/item?id=50119752 Points: 6 # Comments: 1",
+  "pubDate": "2026-10-16T15:38:35.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN item about OneDeploy, a managed hosting service for open-source apps with backups and TLS. It is not an AI model release, research artifact, AI industry event, policy action, or AI open-source tool/framework, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://onedeploy.co Comments URL: https://news.ycombinator.com/item?id=50119752 Points: 6 # Comments: 1",
+    "summaryChars": 117,
+    "summarySource": "summary",
+    "link": "https://onedeploy.co",
+    "linkHost": "onedeploy.co",
+    "pubDate": "2026-10-16T15:38:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
