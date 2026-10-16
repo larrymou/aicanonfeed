@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "155c7b54b4cbd80e",
+  "url": "https://bfl.ai/blog/flux-3-image-klein",
+  "sourceName": "Hacker News Front Page",
+  "title": "FLUX 3 Image Klein",
+  "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 73 # Comments: 13",
+  "pubDate": "2026-10-16T19:47:13.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 73 # Comments: 13",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://bfl.ai/blog/flux-3-image-klein",
+    "linkHost": "bfl.ai",
+    "pubDate": "2026-10-16T19:47:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
