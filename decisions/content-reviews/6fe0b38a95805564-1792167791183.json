@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "6fe0b38a95805564",
+  "url": "https://www.techmeme.com/261016/p14#a261016p14",
+  "sourceName": "Techmeme",
+  "title": "In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings (John Harney/Bloomberg)",
+  "summary": "John Harney / Bloomberg: In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings — President Donald Trump's artificial intelligence task force in its first meeting agreed on T",
+  "pubDate": "2026-10-16T14:55:01.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "Item reports government action on AI policy: Trump's AI task force in its first meeting agreed to commission an AI risk report and develop lab early-warning protocols, covered by a reputable source (Bloomberg via Techmeme).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "John Harney / Bloomberg: In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings — President Donald Trump's artificial intelligence task force in its first meeting agreed on T",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p14#a261016p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T14:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
