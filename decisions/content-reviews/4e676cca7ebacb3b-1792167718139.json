@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "4e676cca7ebacb3b",
+  "url": "https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation",
+  "sourceName": "Hacker News Front Page",
+  "title": "America's Wumao: Inside Polymarket's Paid Quote-Retweet Esports Program",
+  "summary": "Article URL: https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation Comments URL: https://news.ycombinator.com/item?id=50120010 Points: 7 # Comments: 0",
+  "pubDate": "2026-10-16T15:56:25.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media investigation into Polymarket's paid quote-retweet program; it reports no AI model release, research artifact, AI industry business event, policy action, or open-source tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation Comments URL: https://news.ycombinator.com/item?id=50120010 Points: 7 # Comments: 0",
+    "summaryChars": 177,
+    "summarySource": "summary",
+    "link": "https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation",
+    "linkHost": "www.readergrev.com",
+    "pubDate": "2026-10-16T15:56:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
