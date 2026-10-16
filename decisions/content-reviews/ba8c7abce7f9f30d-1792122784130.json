@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "ba8c7abce7f9f30d",
+  "url": "https://www.techmeme.com/261015/p60#a261015p60",
+  "sourceName": "Techmeme",
+  "title": "Sources detail Nscale's setbacks ahead of an IPO at up to a $35B valuation, including a six-month delay in Norway and penalties owed to Microsoft and ByteDance (Bloomberg)",
+  "summary": "Bloomberg: Sources detail Nscale's setbacks ahead of an IPO at up to a $35B valuation, including a six-month delay in Norway and penalties owed to Microsoft and ByteDance — One flagship AI data center in Norway is six months behind schedule, with workers set to be housed in a flo",
+  "pubDate": "2026-10-16T03:15:02.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports AI industry business events: Nscale's IPO plans at up to $35B valuation, delays, and penalties owed to Microsoft and ByteDance, via a reputable media report (Bloomberg/Techmeme). Matches rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources detail Nscale's setbacks ahead of an IPO at up to a $35B valuation, including a six-month delay in Norway and penalties owed to Microsoft and ByteDance — One flagship AI data center in Norway is six months behind schedule, with workers set to be housed in a flo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p60#a261015p60",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T03:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
