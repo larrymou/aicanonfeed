@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "a22ddefa123b11a7",
+  "url": "https://www.techmeme.com/261016/p13#a261016p13",
+  "sourceName": "Techmeme",
+  "title": "Source: Intuit acquired UK-based B2B revenue management and billing startup Sequence in a sale worth ~$200M; Sequence raised $19M led by a16z in 2022 (Jess Jones/The Times)",
+  "summary": "Jess Jones / The Times: Source: Intuit acquired UK-based B2B revenue management and billing startup Sequence in a sale worth ~$200M; Sequence raised $19M led by a16z in 2022 — A British financial technology business has been acquired by Intuit, the American software company, in a",
+  "pubDate": "2026-10-16T14:15:01.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Intuit acquiring UK billing/revenue-management startup Sequence; nothing in Content ties it to AI, so no AI industry event, model release, research, policy, or OSS rule is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jess Jones / The Times: Source: Intuit acquired UK-based B2B revenue management and billing startup Sequence in a sale worth ~$200M; Sequence raised $19M led by a16z in 2022 — A British financial technology business has been acquired by Intuit, the American software company, in a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p13#a261016p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T14:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
