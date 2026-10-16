@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "eb0ac7f68c40eb75",
+  "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+  "sourceName": "TechCrunch AI",
+  "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+  "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+  "pubDate": "2026-10-15T23:44:56.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports Cal AI's business success: over $30M revenue in two years and acquisition by MyFitnessPal. This is an AI industry M&A/revenue event covered by a reputable media report, matching rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-15T23:44:56.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
