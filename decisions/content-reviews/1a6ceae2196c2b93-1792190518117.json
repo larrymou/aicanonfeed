@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "1a6ceae2196c2b93",
+  "url": "https://www.techmeme.com/261016/p21#a261016p21",
+  "sourceName": "Techmeme",
+  "title": "Filings: Meta reduced its $65M midterms budget by $25M through refunds, primarily from a super PAC it launched in 2025 with $45M to fight state AI bills (Theodore Schleifer/New York Times)",
+  "summary": "Theodore Schleifer / New York Times: Filings: Meta reduced its $65M midterms budget by $25M through refunds, primarily from a super PAC it launched in 2025 with $45M to fight state AI bills — The company outlined a $65 million budget last year when it embarked on an effort to ele",
+  "pubDate": "2026-10-16T21:35:00.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Meta's political-spending filings (reduced midterms budget, super PAC opposing state AI bills). It is not a model release, research artifact, open-source tool, and no new law/regulation/enforcement/policy action is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Theodore Schleifer / New York Times: Filings: Meta reduced its $65M midterms budget by $25M through refunds, primarily from a super PAC it launched in 2025 with $45M to fight state AI bills — The company outlined a $65 million budget last year when it embarked on an effort to ele",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p21#a261016p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T21:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
