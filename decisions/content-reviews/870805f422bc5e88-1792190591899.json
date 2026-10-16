@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "870805f422bc5e88",
+  "url": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Simulation App Speeds Up Electric Truck Battery Design",
+  "summary": "This article is brought to you by COMSOL. These days, no one blinks an eye at two-day, one-day, and even same-day package deliveries. Despite the plethora of localized fulfillment and distribution centers that have cropped up to meet the demand, delivery trucks still need to make",
+  "pubDate": "2026-10-16T16:49:18.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Sponsored COMSOL article about electric truck battery simulation software; no named AI model release, AI research artifact, industry business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This article is brought to you by COMSOL. These days, no one blinks an eye at two-day, one-day, and even same-day package deliveries. Despite the plethora of localized fulfillment and distribution centers that have cropped up to meet the demand, delivery trucks still need to make",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-16T16:49:18.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
