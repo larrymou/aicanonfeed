@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792122769105-cdnxm1",
+  "urlHash": "83f617a040f091a8",
+  "url": "https://www.techmeme.com/261015/p58#a261015p58",
+  "sourceName": "Techmeme",
+  "title": "OpenAI continues to work to grow its ad business in ChatGPT, cutting ad rates, chasing small and midsize businesses, and hiring some new talent from Meta (Alix Coutures/The Information)",
+  "summary": "Alix Coutures / The Information: OpenAI continues to work to grow its ad business in ChatGPT, cutting ad rates, chasing small and midsize businesses, and hiring some new talent from Meta — As OpenAI has jockeyed with Anthropic to win over developers with new models and tools this",
+  "pubDate": "2026-10-16T01:30:03.000Z",
+  "decidedAt": "2026-10-16T03:52:57.176Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alix Coutures / The Information: OpenAI continues to work to grow its ad business in ChatGPT, cutting ad rates, chasing small and midsize businesses, and hiring some new talent from Meta — As OpenAI has jockeyed with Anthropic to win over developers with new models and tools this",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261015/p58#a261015p58",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T01:30:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
