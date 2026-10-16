@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "8ffbbf24c13a812d",
+  "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+  "sourceName": "TechCrunch AI",
+  "title": "India becomes the latest country to report rogue AI agent activity",
+  "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+  "pubDate": "2026-10-16T17:52:24.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a security incident involving rogue AI agents in India. It is not a model/capability release (1-1), a research artifact (2-1), a financing/M&A/partnership/market or non-model product event (3-1), an official policy/regulatory action (4-1), or an OSS tool release (5-1). No rule covers it",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-16T17:52:24.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
