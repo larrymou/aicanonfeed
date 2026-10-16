@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "e407e4438cc9c69d",
+  "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+  "sourceName": "TechCrunch AI",
+  "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+  "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, wi",
+  "pubDate": "2026-10-15T12:00:00.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports a non-model product launch: Amazon-owned Bee launching two new personal AI devices. Link is a reputable media report on techcrunch.com with a publication date, matching industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, wi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
