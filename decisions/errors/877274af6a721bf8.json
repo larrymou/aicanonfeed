@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "877274af6a721bf8",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x4x6ls/i_built_a_pytorch_library_of_pretrained_models/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I built a pytorch library of pretrained models for 3D point clouds following timm standards [P]",
+  "summary": "https://preview.redd.it/m5e9anluo8vh1.png?width=1080&format=png&auto=webp&s=4c80687e6fe40036843a97ed8975ce46eaab0662 I am excited to share a project I have been working on during the past few years during my free time. I started this project after being unable to use torch-points",
+  "pubDate": "2026-10-13T13:50:38.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://preview.redd.it/m5e9anluo8vh1.png?width=1080&format=png&auto=webp&s=4c80687e6fe40036843a97ed8975ce46eaab0662 I am excited to share a project I have been working on during the past few years during my free time. I started this project after being unable to use torch-points",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x4x6ls/i_built_a_pytorch_library_of_pretrained_models/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-13T13:50:38.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
