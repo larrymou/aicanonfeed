@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "6cf74a1e057f0a27",
+  "url": "https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Fatal Flaw of 911",
+  "summary": "Article URL: https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health Comments URL: https://news.ycombinator.com/item?id=50123356 Points: 41 # Comments: 56",
+  "pubDate": "2026-10-16T19:33:00.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a non-AI article about 911 and policing/mental health. No AI model release, research artifact, industry business event, AI policy action, or OSS tool is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health Comments URL: https://news.ycombinator.com/item?id=50123356 Points: 41 # Comments: 56",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health",
+    "linkHost": "www.themarshallproject.org",
+    "pubDate": "2026-10-16T19:33:00.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
