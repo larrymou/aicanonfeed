@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "960b79ede6c466dc",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.6-rc1: transfer: support proxies on registry redirect targets (#19065)",
+  "summary": "Behind a proxy, defer redirect-target DNS to the proxy; without one, keep the resolve-and-pin path. Trust default-registry/CDN hostnames with no local DNS. Fix a nil CancelFunc crash in blobDownload.release.",
+  "pubDate": "2026-10-16T22:00:17.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama v0.40.6-rc1 release announces an update to the open-source Ollama developer tool/framework (proxy support on registry redirect targets, crash fix), with the link pointing to the project's GitHub release repository.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Behind a proxy, defer redirect-target DNS to the proxy; without one, keep the resolve-and-pin path. Trust default-registry/CDN hostnames with no local DNS. Fix a nil CancelFunc crash in blobDownload.release.",
+    "summaryChars": 207,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-16T22:00:17.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
