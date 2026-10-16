@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "445c2db3f9a6f9a8",
+  "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+  "sourceName": "Wired AI",
+  "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+  "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
+  "pubDate": "2026-10-16T15:00:00.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece (Sherry Turkle warning about chatbot anthropomorphism) with no named model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
+    "summaryChars": 93,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-16T15:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
