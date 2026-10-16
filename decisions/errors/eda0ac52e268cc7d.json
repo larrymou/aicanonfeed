@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "eda0ac52e268cc7d",
+  "url": "https://arxiv.org/abs/2610.20676",
+  "sourceName": "arXiv cs.AI",
+  "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+  "summary": "arXiv:2610.20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended behavior. We demonstrate this objective reversal on 12 ",
+  "pubDate": "2026-10-16T04:00:00.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended behavior. We demonstrate this objective reversal on 12 ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.20676",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-16T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
