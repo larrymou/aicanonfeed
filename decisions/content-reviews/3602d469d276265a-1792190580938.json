@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792190482582-nu0prq",
+  "urlHash": "3602d469d276265a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[P] my rust framework trains nanoGPT with the exact same bits as pytorch. worth continuing? [P]",
+  "summary": "hey, CS student here. for the past few days I've been building DenseCore, a small deep learning framework in rust with a pytorch-like python API. the thing I'm kind of proud of: if you point `import torch` at it and run karpathy's nanoGPT unchanged, you get the exact same numbers",
+  "pubDate": "2026-10-16T18:49:12.000Z",
+  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Announces DenseCore, an open-source Rust deep learning framework/developer tool, so rule 5-1 could apply. But the link is a Reddit self-post (linkHost www.reddit.com), not a repository or official announcement page, so the required evidence link is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "hey, CS student here. for the past few days I've been building DenseCore, a small deep learning framework in rust with a pytorch-like python API. the thing I'm kind of proud of: if you point `import torch` at it and run karpathy's nanoGPT unchanged, you get the exact same numbers",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-16T18:49:12.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
