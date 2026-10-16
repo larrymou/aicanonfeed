@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792140776533-7qe290",
+  "urlHash": "09f6c336b9dea63d",
+  "url": "https://lwn.net/Articles/1097760/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Last rites for Gentoo's Chromium package",
+  "summary": "Article URL: https://lwn.net/Articles/1097760/ Comments URL: https://news.ycombinator.com/item?id=50114359 Points: 46 # Comments: 26",
+  "pubDate": "2026-10-16T05:14:42.000Z",
+  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Gentoo dropping its Chromium (web browser) package, not AI models, research, industry business events, policy, or AI open-source tools. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lwn.net/Articles/1097760/ Comments URL: https://news.ycombinator.com/item?id=50114359 Points: 46 # Comments: 26",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://lwn.net/Articles/1097760/",
+    "linkHost": "lwn.net",
+    "pubDate": "2026-10-16T05:14:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
