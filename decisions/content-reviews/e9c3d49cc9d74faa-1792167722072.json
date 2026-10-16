@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792167695594-9kyjqp",
+  "urlHash": "e9c3d49cc9d74faa",
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+  "sourceName": "Ars Technica AI",
+  "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+  "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+  "pubDate": "2026-10-16T15:41:00.000Z",
+  "decidedAt": "2026-10-16T16:21:42.399Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta's commercial TOS change is a business/legal practice story, not a model release, research paper, government policy action, or OSS tool. No active rule covers it, so it must be rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-16T15:41:00.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
