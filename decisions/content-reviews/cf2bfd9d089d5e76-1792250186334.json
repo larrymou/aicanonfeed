@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "cf2bfd9d089d5e76",
+  "url": "https://www.techmeme.com/261017/p12#a261017p12",
+  "sourceName": "Techmeme",
+  "title": "Zelenskyy says Starshield restrictions are affecting only Ukraine, leading him to believe they are a \"planned operation\" rather than technical issues (Bloomberg)",
+  "summary": "Bloomberg: Zelenskyy says Starshield restrictions are affecting only Ukraine, leading him to believe they are a “planned operation” rather than technical issues — Restrictions on Ukraine's military use of SpaceX's Starlink system appear to be deliberate and not the result of any ",
+  "pubDate": "2026-10-17T14:25:03.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns SpaceX Starshield/Starlink usage restrictions and a Zelenskyy statement; it is not an AI model release, AI research artifact, AI business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Zelenskyy says Starshield restrictions are affecting only Ukraine, leading him to believe they are a “planned operation” rather than technical issues — Restrictions on Ukraine's military use of SpaceX's Starlink system appear to be deliberate and not the result of any ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p12#a261017p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T14:25:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
