@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "b3462c9d5756459b",
+  "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Solar surpasses nuclear power globally for first time – pv magazine Global",
+  "summary": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 93 # Comments: 33",
+  "pubDate": "2026-10-17T14:01:01.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about solar surpassing nuclear power generation; it contains no AI model, research, industry, policy, or OSS tooling content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 93 # Comments: 33",
+    "summaryChars": 192,
+    "summarySource": "summary",
+    "link": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+    "linkHost": "www.pv-magazine.com",
+    "pubDate": "2026-10-17T14:01:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
