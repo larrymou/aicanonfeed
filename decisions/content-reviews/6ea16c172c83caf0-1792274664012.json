@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "6ea16c172c83caf0",
+  "url": "https://twitter.com/opencode/status/2111516673953935833",
+  "sourceName": "Hacker News Front Page",
+  "title": "OpenCode Hacked: User credentials leaked",
+  "summary": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 534 # Comments: 91",
+  "pubDate": "2026-10-17T18:01:41.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a security breach (OpenCode hacked, credentials leaked) via a Twitter link. It is not a model release, research paper/benchmark, industry business event (financing, M&A, partnership, revenue, product launch), policy action, or open-source tool/framework release, so no active rule covers",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 534 # Comments: 91",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://twitter.com/opencode/status/2111516673953935833",
+    "linkHost": "twitter.com",
+    "pubDate": "2026-10-17T18:01:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
