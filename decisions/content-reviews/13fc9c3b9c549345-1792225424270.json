@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "13fc9c3b9c549345",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x84udt/is_is_worth_staying_after_the_main_conference_if/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Is is worth staying after the main conference if I don't have workshop registration? (NeurIPS) [D]",
+  "summary": "Basically the title. Due to the nonsensical situation of NeurIPS being fully sold out before the results were even released, I couldn't get workshop registration (my paper is in the main track, which apparently doesn't have any sort of gaurantee for registrations in other parts o",
+  "pubDate": "2026-10-17T08:17:31.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking whether it's worth staying after the NeurIPS main conference without workshop registration. No model release, research artifact, business event, policy action, or OSS tool announced; no rule covers this.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Basically the title. Due to the nonsensical situation of NeurIPS being fully sold out before the results were even released, I couldn't get workshop registration (my paper is in the main track, which apparently doesn't have any sort of gaurantee for registrations in other parts o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x84udt/is_is_worth_staying_after_the_main_conference_if/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-17T08:17:31.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
