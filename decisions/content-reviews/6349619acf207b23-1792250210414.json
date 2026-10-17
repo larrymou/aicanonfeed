@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "6349619acf207b23",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x86e17/go_to_neurips_just_for_a_workshop_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Go to neurIPS just for a workshop. [D]",
+  "summary": "Hi, I just finished my masters and got a neurIPS workshop acception. Unfortunately the lab I did it with do not want to fund neither the registration nor flights and accommodation. I am thinking about getting the workshop only ticket and pay for it myself. Would you say it is wor",
+  "pubDate": "2026-10-17T09:56:53.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for advice about attending a NeurIPS workshop with a self-funded ticket. No new model release, research artifact, industry business event, policy action, or open-source tool announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi, I just finished my masters and got a neurIPS workshop acception. Unfortunately the lab I did it with do not want to fund neither the registration nor flights and accommodation. I am thinking about getting the workshop only ticket and pay for it myself. Would you say it is wor",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x86e17/go_to_neurips_just_for_a_workshop_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-17T09:56:53.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
