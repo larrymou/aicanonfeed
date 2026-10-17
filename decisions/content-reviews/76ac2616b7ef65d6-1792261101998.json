@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792261087766-qwurag",
+  "urlHash": "76ac2616b7ef65d6",
+  "url": "https://lwn.net/Articles/1088776/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Linux bugs fixed per release over time: >2× rise since 2026-04",
+  "summary": "Article URL: https://lwn.net/Articles/1088776/ Comments URL: https://news.ycombinator.com/item?id=50132950 Points: 36 # Comments: 8",
+  "pubDate": "2026-10-17T17:14:12.000Z",
+  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Linux kernel bug-fix counts per release; not an AI model release, research result, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lwn.net/Articles/1088776/ Comments URL: https://news.ycombinator.com/item?id=50132950 Points: 36 # Comments: 8",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://lwn.net/Articles/1088776/",
+    "linkHost": "lwn.net",
+    "pubDate": "2026-10-17T17:14:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
