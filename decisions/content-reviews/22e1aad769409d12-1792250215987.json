@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "22e1aad769409d12",
+  "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+  "sourceName": "Wired AI",
+  "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+  "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+  "pubDate": "2026-10-17T09:00:00.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary/feature on AI's limits in genomics; no named model release, no paper or preprint link, no business/policy action, and no OSS tool. No active rule covers commentary without a research artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-17T09:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
