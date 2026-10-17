@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "e7c66cdf5c99e25e",
+  "url": "https://www.techmeme.com/261017/p15#a261017p15",
+  "sourceName": "Techmeme",
+  "title": "MapQuest adds a Surveillance Layer to its mobile app showing license plate readers and cameras from 10+ companies including Flock, using OpenStreetMap data (Chase DiBenedetto/Mashable)",
+  "summary": "Chase DiBenedetto / Mashable: MapQuest adds a Surveillance Layer to its mobile app showing license plate readers and cameras from 10+ companies including Flock, using OpenStreetMap data — MapQuest will not go gentle into that good night. — The navigation software — which debuted ",
+  "pubDate": "2026-10-17T19:00:01.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "MapQuest adding a surveillance layer of license plate readers/cameras is a navigation-app feature, not an AI model release, research artifact, policy action, or open-source AI tool. Link is a Techmeme aggregator pointer, not an official announcement, so no rule is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chase DiBenedetto / Mashable: MapQuest adds a Surveillance Layer to its mobile app showing license plate readers and cameras from 10+ companies including Flock, using OpenStreetMap data — MapQuest will not go gentle into that good night. — The navigation software — which debuted ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p15#a261017p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T19:00:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
