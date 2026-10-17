@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "8d45898e533e591d",
+  "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+  "sourceName": "OpenAI Blog",
+  "title": "Higgsfield takes AI video from 1 minute to over 10",
+  "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+  "pubDate": "2026-10-13T12:00:00.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a customer case study about Higgsfield using existing OpenAI models, not an announcement releasing a new model or major version; no N.0 version or new model capability is stated. No other rule (research, business event, policy, OSS tooling) matches.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-13T12:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
