@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792261087766-qwurag",
+  "urlHash": "5b5059cdc0b6db83",
+  "url": "https://www.techmeme.com/261017/p14#a261017p14",
+  "sourceName": "Techmeme",
+  "title": "Meta removes ToS language that suggested it could scrape websites \"associated with\" business accounts, saying it applied only to \"ads and business products\" (Terrence O'Brien/The Verge)",
+  "summary": "Terrence O'Brien / The Verge: Meta removes ToS language that suggested it could scrape websites “associated with” business accounts, saying it applied only to “ads and business products” — Language that experts say allowed the scraping of news sites to train its AI has been remov",
+  "pubDate": "2026-10-17T15:50:02.000Z",
+  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta's removal of ToS scraping language is a company terms-of-service change, not a model release, research artifact, business event (financing/M&A/partnership/product launch), government policy action, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Terrence O'Brien / The Verge: Meta removes ToS language that suggested it could scrape websites “associated with” business accounts, saying it applied only to “ads and business products” — Language that experts say allowed the scraping of news sites to train its AI has been remov",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p14#a261017p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T15:50:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
