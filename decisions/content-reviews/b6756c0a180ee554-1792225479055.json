@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "b6756c0a180ee554",
+  "url": "https://openai.com/index/benefit-street-partners",
+  "sourceName": "OpenAI Blog",
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+  "pubDate": "2026-10-16T00:00:00.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about using Codex; no new model/version/capability named, no research artifact, no business event (financing/M&A/partnership), no policy action, and no open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/benefit-street-partners",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
