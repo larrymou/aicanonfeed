@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792208565202-sx4mhb",
+  "urlHash": "46a80dfd591b4a96",
+  "url": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+  "sourceName": "Hacker News Front Page",
+  "title": "Butlerian Jihad",
+  "summary": "Article URL: https://dune.fandom.com/wiki/Butlerian_Jihad Comments URL: https://news.ycombinator.com/item?id=50127274 Points: 82 # Comments: 39",
+  "pubDate": "2026-10-17T02:21:08.000Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A Dune wiki encyclopedia entry on the fictional Butlerian Jihad; no named model release, research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://dune.fandom.com/wiki/Butlerian_Jihad Comments URL: https://news.ycombinator.com/item?id=50127274 Points: 82 # Comments: 39",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+    "linkHost": "dune.fandom.com",
+    "pubDate": "2026-10-17T02:21:08.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
