@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792208565202-sx4mhb",
+  "urlHash": "004cd593adabcd24",
+  "url": "https://openai.com/index/sentinelone",
+  "sourceName": "OpenAI Blog",
+  "title": "SentinelOne cuts malware analysis from weeks to hours",
+  "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+  "pubDate": "2026-10-14T12:00:00.000Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about SentinelOne using OpenAI Daybreak; no named model release/version, no research artifact, no financing/M&A/partnership or policy action. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/sentinelone",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-14T12:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
