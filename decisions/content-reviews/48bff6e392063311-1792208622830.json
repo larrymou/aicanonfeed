@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792208565202-sx4mhb",
+  "urlHash": "48bff6e392063311",
+  "url": "https://www.techmeme.com/261016/p27#a261016p27",
+  "sourceName": "Techmeme",
+  "title": "Intel CEO Lip-Bu Tan says the Trump administration does not have \"any policy\" to use a minority stake in Intel to interfere in its business strategy (Kohei Yamada/Nikkei Asia)",
+  "summary": "Kohei Yamada / Nikkei Asia: Intel CEO Lip-Bu Tan says the Trump administration does not have “any policy” to use a minority stake in Intel to interfere in its business strategy — TOKYO — U.S. President Donald Trump's administration does not have “any policy” to use a minority sta",
+  "pubDate": "2026-10-17T00:20:01.000Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CEO comment on a government minority stake in Intel; no AI model release, research artifact, business event with official/deal announcement link, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kohei Yamada / Nikkei Asia: Intel CEO Lip-Bu Tan says the Trump administration does not have “any policy” to use a minority stake in Intel to interfere in its business strategy — TOKYO — U.S. President Donald Trump's administration does not have “any policy” to use a minority sta",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p27#a261016p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T00:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
