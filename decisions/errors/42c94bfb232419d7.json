@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "42c94bfb232419d7",
+  "url": "https://www.techmeme.com/261017/p4#a261017p4",
+  "sourceName": "Techmeme",
+  "title": "London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion (Cate Lawrence/Tech.eu)",
+  "summary": "Cate Lawrence / Tech.eu: London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion — Led by Headline, the funding will support the London-based company's expansion into the US and",
+  "pubDate": "2026-10-17T05:30:01.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cate Lawrence / Tech.eu: London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion — Led by Headline, the funding will support the London-based company's expansion into the US and",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p4#a261017p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T05:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
