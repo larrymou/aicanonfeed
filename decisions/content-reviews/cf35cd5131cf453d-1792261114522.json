@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792261087766-qwurag",
+  "urlHash": "cf35cd5131cf453d",
+  "url": "https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging",
+  "sourceName": "Hacker News Front Page",
+  "title": "GLP-1 may slow biological aging",
+  "summary": "Article URL: https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging Comments URL: https://news.ycombinator.com/item?id=50132328 Points: 119 # Comments: 101",
+  "pubDate": "2026-10-17T16:10:21.000Z",
+  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a medical/health study about GLP-1 weight-loss drugs and biological aging; it is not an AI model release, AI research result, AI industry event, AI policy action, or AI open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging Comments URL: https://news.ycombinator.com/item?id=50132328 Points: 119 # Comments: 101",
+    "summaryChars": 217,
+    "summarySource": "summary",
+    "link": "https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging",
+    "linkHost": "www.universityofcalifornia.edu",
+    "pubDate": "2026-10-17T16:10:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
