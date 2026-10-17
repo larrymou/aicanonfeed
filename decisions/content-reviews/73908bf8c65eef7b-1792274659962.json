@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "73908bf8c65eef7b",
+  "url": "https://blog.scottstevenson.net/p/pattern-matching-beats-narrative",
+  "sourceName": "Hacker News Front Page",
+  "title": "Pattern Matching Beats Narrative Reasoning",
+  "summary": "Article URL: https://blog.scottstevenson.net/p/pattern-matching-beats-narrative Comments URL: https://news.ycombinator.com/item?id=50133736 Points: 28 # Comments: 15",
+  "pubDate": "2026-10-17T18:34:13.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion blog essay on pattern matching vs narrative reasoning; no named model release, no paper/arXiv/preprint artifact, no business, policy, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.scottstevenson.net/p/pattern-matching-beats-narrative Comments URL: https://news.ycombinator.com/item?id=50133736 Points: 28 # Comments: 15",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://blog.scottstevenson.net/p/pattern-matching-beats-narrative",
+    "linkHost": "blog.scottstevenson.net",
+    "pubDate": "2026-10-17T18:34:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
