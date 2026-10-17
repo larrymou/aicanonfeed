@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792261087766-qwurag",
+  "urlHash": "c52363bbe5979a43",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x8ey1m/emnlp_main_presentationd/",
+  "sourceName": "r/MachineLearning new",
+  "title": "EMNLP main presentation[D]",
+  "summary": "Hello everyone, I am presenting at EMNLP Main this year, but I just got the underline link, and under my presentations, it says no presentations yet, so I cannot check my time, but I have seen other projects with times. Is this normal on underline, or should I contact them? submi",
+  "pubDate": "2026-10-17T16:45:33.000Z",
+  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking about EMNLP presentation scheduling; no named model release, no research paper/benchmark link, no industry business event, no policy action, and no OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello everyone, I am presenting at EMNLP Main this year, but I just got the underline link, and under my presentations, it says no presentations yet, so I cannot check my time, but I have seen other projects with times. Is this normal on underline, or should I contact them? submi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x8ey1m/emnlp_main_presentationd/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-17T16:45:33.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
