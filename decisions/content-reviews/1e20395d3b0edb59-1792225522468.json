@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "1e20395d3b0edb59",
+  "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Google DeepMind’s New Resident Philosopher Tackles AI Ethics",
+  "summary": "How should humans relate to generative AI? In what ways do we, or should we, treat a large language model (LLM) as if it were a person? If an AI became conscious, how could we tell? Does it make sense to think AI could someday have moral rights? These are among the cognitive and ",
+  "pubDate": "2026-10-13T13:00:03.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Profile/interview about DeepMind's philosopher discussing AI ethics questions. No named model release, no research paper or benchmark, no business event, no policy action, and no OSS tool; no rule covers this commentary piece.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "How should humans relate to generative AI? In what ways do we, or should we, treat a large language model (LLM) as if it were a person? If an AI became conscious, how could we tell? Does it make sense to think AI could someday have moral rights? These are among the cognitive and ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-13T13:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
