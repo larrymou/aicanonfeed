@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "3ffbfb955d9618eb",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/",
+  "sourceName": "r/MachineLearning new",
+  "title": "EpochGo: Local-first multi-agent AutoML engine using offline Ollama LLMs and deterministic Scikit-Learn pipelines [P]",
+  "summary": "Hello r/MachineLearning, I wanted to share EpochGo, an open-source, local-first AutoML system built to tackle two major bottlenecks in applied machine learning: 1. Cloud API inference costs and data privacy risks: Traditional agentic ML frameworks rely heavily on cloud APIs (GPT-",
+  "pubDate": "2026-10-17T14:48:25.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello r/MachineLearning, I wanted to share EpochGo, an open-source, local-first AutoML system built to tackle two major bottlenecks in applied machine learning: 1. Cloud API inference costs and data privacy risks: Traditional agentic ML frameworks rely heavily on cloud APIs (GPT-",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-17T14:48:25.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
