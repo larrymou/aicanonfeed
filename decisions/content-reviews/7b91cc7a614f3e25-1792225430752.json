@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "7b91cc7a614f3e25",
+  "url": "https://www.techmeme.com/261017/p7#a261017p7",
+  "sourceName": "Techmeme",
+  "title": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners (FinTech Global)",
+  "summary": "FinTech Global: Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners — Reach Security has secured more than $50m in a Series B round led by Top Tier Capital Partners, while un",
+  "pubDate": "2026-10-17T06:15:02.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: Reach Security raised a $50M+ Series B led by Top Tier Capital Partners, per a media report (Techmeme citing FinTech Global). No model release, research artifact, policy action, or OSS tooling involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "FinTech Global: Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners — Reach Security has secured more than $50m in a Series B round led by Top Tier Capital Partners, while un",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p7#a261017p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T06:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
