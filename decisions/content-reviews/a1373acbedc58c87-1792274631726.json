@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "a1373acbedc58c87",
+  "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+  "summary": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/item?id=50134617 Points: 45 # Comments: 37",
+  "pubDate": "2026-10-17T20:07:33.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Chrome and Edge removing XSLT support — a web browser platform change with no AI model release, research artifact, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/item?id=50134617 Points: 45 # Comments: 37",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+    "linkHost": "doctor-seo.net",
+    "pubDate": "2026-10-17T20:07:33.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
