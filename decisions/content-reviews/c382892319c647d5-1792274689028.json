@@ -1,18 +1,23 @@
 {
-  "runId": "run-1792261087766-qwurag",
+  "runId": "run-1792274612922-fh6gmo",
   "urlHash": "c382892319c647d5",
   "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
   "sourceName": "Ollama releases",
   "title": "v0.40.5-rc1: New model... (#19030)",
   "summary": "ci: shorten Windows Vulkan build path Keep the nested shader-generator compiler probes below Windows path limits in checkouts with longer repository names. mlx: fix Nemotron bugs and support global scales Accept published Nemotron layer names while retaining legacy aliases, and S",
   "pubDate": "2026-10-15T14:28:26.000Z",
-  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "reason": "Ollama v0.40.5-rc1 is a patch-level release candidate whose summary covers CI build-path fixes and Nemotron bug fixes, not a named model release (rule 1-1) nor a new open-source tool/framework/developer resource launch (rule 5-1). No rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "ci: shorten Windows Vulkan build path Keep the nested shader-generator compiler probes below Windows path limits in checkouts with longer repository names. mlx: fix Nemotron bugs and support global scales Accept published Nemotron layer names while retaining legacy aliases, and S",
