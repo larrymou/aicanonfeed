@@ -1,18 +1,23 @@
 {
-  "runId": "run-1792190482582-nu0prq",
+  "runId": "run-1792208565202-sx4mhb",
   "urlHash": "b7e6e91e4028317e",
   "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
   "sourceName": "The Verge AI",
   "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
   "summary": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear a",
   "pubDate": "2026-10-15T14:30:00.000Z",
-  "decidedAt": "2026-10-16T22:41:31.552Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "reason": "Verge explainer on Windows optimizations for Nvidia RTX Spark laptops. No named AI model release with official owner link (1-1), no research artifact (2-1), no financing/M&A/partnership/market data business event (3-1), no policy action (4-1), no open-source tooling (5-1).",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear a",
