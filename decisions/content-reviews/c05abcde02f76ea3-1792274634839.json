@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "c05abcde02f76ea3",
+  "url": "https://www.techmeme.com/261017/p17#a261017p17",
+  "sourceName": "Techmeme",
+  "title": "Turkish police detained Hex and PulseChain founder Richard Heart on Oct. 14, seizing $7M+ in cash and six cold wallets; HEX fell nearly 50% on initial reports (Zack Abrams/The Block)",
+  "summary": "Zack Abrams / The Block: Turkish police detained Hex and PulseChain founder Richard Heart on Oct. 14, seizing $7M+ in cash and six cold wallets; HEX fell nearly 50% on initial reports — Turkey's justice minister said Heart's wife and three bodyguards were also detained, and that ",
+  "pubDate": "2026-10-17T19:55:00.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Turkish police detaining a crypto founder (Richard Heart) and HEX price drop. No AI model release, research, AI industry business event, AI policy action, or open-source AI tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Zack Abrams / The Block: Turkish police detained Hex and PulseChain founder Richard Heart on Oct. 14, seizing $7M+ in cash and six cold wallets; HEX fell nearly 50% on initial reports — Turkey's justice minister said Heart's wife and three bodyguards were also detained, and that ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p17#a261017p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T19:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
