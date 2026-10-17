@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "70629c7e2ec4b839",
+  "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+  "sourceName": "Hacker News Front Page",
+  "title": "Making Chicken Transparent Using Dorito Dust",
+  "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 35 # Comments: 9",
+  "pubDate": "2026-10-17T13:55:28.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a physics/curiosity article about making chicken transparent with Dorito dust; no AI model release, research, industry, policy, or open-source tooling content. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 35 # Comments: 9",
+    "summaryChars": 173,
+    "summarySource": "summary",
+    "link": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "linkHost": "chillphysicsenjoyer.substack.com",
+    "pubDate": "2026-10-17T13:55:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
