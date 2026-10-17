@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "520b0400db3cdd57",
+  "url": "https://alexwang.ai/posts/associative-memory/",
+  "sourceName": "Hacker News Front Page",
+  "title": "You could have invented transformers from memory",
+  "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 271 # Comments: 65",
+  "pubDate": "2026-10-16T19:01:17.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "An educational blog/commentary post explaining transformer intuition; no named model release, no new research artifact (paper/preprint/benchmark), no industry, policy, or OSS tooling event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 271 # Comments: 65",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://alexwang.ai/posts/associative-memory/",
+    "linkHost": "alexwang.ai",
+    "pubDate": "2026-10-16T19:01:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
