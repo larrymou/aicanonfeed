@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "cf45bc1294a9996f",
+  "url": "https://www.techmeme.com/261017/p18#a261017p18",
+  "sourceName": "Techmeme",
+  "title": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a \"large scale distillation attack\" (Walter Schulze/Startup Fortune)",
+  "summary": "Walter Schulze / Startup Fortune: Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a “large scale distillation attack” — A large-scale distillation attack against the company behind the open-source coding ",
+  "pubDate": "2026-10-17T20:50:01.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security breach report about OpenCode's parent company (API key theft via distillation attack). Not a model release, research result, industry business event (financing/M&A/partnership/market data/product launch), policy action, or new OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Walter Schulze / Startup Fortune: Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a “large scale distillation attack” — A large-scale distillation attack against the company behind the open-source coding ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p18#a261017p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T20:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
