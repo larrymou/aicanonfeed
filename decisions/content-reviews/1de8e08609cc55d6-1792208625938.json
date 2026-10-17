@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792208565202-sx4mhb",
+  "urlHash": "1de8e08609cc55d6",
+  "url": "https://www.techmeme.com/261016/p26#a261016p26",
+  "sourceName": "Techmeme",
+  "title": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review (Marcus Mendes/9to5Mac)",
+  "summary": "Marcus Mendes / 9to5Mac: Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review — Apple updated its App Review Guidelines today with a series of changes meant to strengthen protection",
+  "pubDate": "2026-10-16T23:45:01.000Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple's App Review Guidelines update is industry self-regulation/platform policy, not a government policy action, so rule 4-1 explicitly excludes it. It is not a model release, research artifact, industry business event, or open-source tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Marcus Mendes / 9to5Mac: Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review — Apple updated its App Review Guidelines today with a series of changes meant to strengthen protection",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261016/p26#a261016p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-16T23:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
