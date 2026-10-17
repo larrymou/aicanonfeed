@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792274612922-fh6gmo",
+  "urlHash": "807ba27583559ab7",
+  "url": "https://www.techmeme.com/261017/p16#a261017p16",
+  "sourceName": "Techmeme",
+  "title": "Bleecker Street says TikTok suspended the Musk documentary account for \"political policy\" violations and called the suspension \"permanent\"; Bleecker's appealing (Steven Zeitchik/The Hollywood Reporter)",
+  "summary": "Steven Zeitchik / The Hollywood Reporter: Bleecker Street says TikTok suspended the Musk documentary account for “political policy” violations and called the suspension “permanent”; Bleecker's appealing — Move comes just as Alex Gibney doc film expands to nearly 500 screens. Dist",
+  "pubDate": "2026-10-17T19:10:04.000Z",
+  "decidedAt": "2026-10-17T22:03:39.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TikTok account suspension over a documentary is a platform content-moderation dispute, not a model release, research result, AI business event, government policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Steven Zeitchik / The Hollywood Reporter: Bleecker Street says TikTok suspended the Musk documentary account for “political policy” violations and called the suspension “permanent”; Bleecker's appealing — Move comes just as Alex Gibney doc film expands to nearly 500 screens. Dist",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p16#a261017p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T19:10:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
