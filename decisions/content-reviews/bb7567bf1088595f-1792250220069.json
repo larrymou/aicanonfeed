@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "bb7567bf1088595f",
+  "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+  "sourceName": "Hacker News Front Page",
+  "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+  "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 428 # Comments: 204",
+  "pubDate": "2026-10-17T08:37:46.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names a specific model (DeepSeek v4.1 Flash 1017), but the link is to openrouter.ai, a third-party listing page, not an official DeepSeek announcement; no named author or publication date is observed, so R1-1's evidence-link condition is unmet. No other rule covers a model launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "linked_page_author",
+    "linked_page_owner_domain"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 428 # Comments: 204",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "linkHost": "openrouter.ai",
+    "pubDate": "2026-10-17T08:37:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
