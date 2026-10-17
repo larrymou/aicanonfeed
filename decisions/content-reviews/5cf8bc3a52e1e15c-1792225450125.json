@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "5cf8bc3a52e1e15c",
+  "url": "https://llmspeed.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+  "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 46 # Comments: 18",
+  "pubDate": "2026-10-17T04:36:53.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for a web tool that estimates local LLM speed. It is not established as open-source (Rule 5-1 condition unmet), and the link is the product's own page rather than a company/deal announcement or media report (Rule 3-1 unmet). No research, model release, or policy artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 46 # Comments: 18",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://llmspeed.dev/",
+    "linkHost": "llmspeed.dev",
+    "pubDate": "2026-10-17T04:36:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
