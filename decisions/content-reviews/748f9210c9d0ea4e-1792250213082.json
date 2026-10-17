@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "748f9210c9d0ea4e",
+  "url": "https://www.techmeme.com/261017/p9#a261017p9",
+  "sourceName": "Techmeme",
+  "title": "An interview with YouTuber Benn Jordan, who recently testified in Congress against license plate readers, on Flock, privacy, the surveillance backlash, and more (Nilay Patel/The Verge)",
+  "summary": "Nilay Patel / The Verge: An interview with YouTuber Benn Jordan, who recently testified in Congress against license plate readers, on Flock, privacy, the surveillance backlash, and more — Today, I'm talking with Benn Jordan, musician, YouTuber, researcher, and investigative journ",
+  "pubDate": "2026-10-17T09:35:00.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/commentary about license plate readers and surveillance; no AI model release, research artifact, industry business event, official policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nilay Patel / The Verge: An interview with YouTuber Benn Jordan, who recently testified in Congress against license plate readers, on Flock, privacy, the surveillance backlash, and more — Today, I'm talking with Benn Jordan, musician, YouTuber, researcher, and investigative journ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p9#a261017p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T09:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
