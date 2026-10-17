@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792261087766-qwurag",
+  "urlHash": "a09763d94110cea3",
+  "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+  "sourceName": "Hacker News Front Page",
+  "title": "OpenAI discloses four more rogue incidents",
+  "summary": "Article URL: https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/ Comments URL: https://news.ycombinator.com/item?id=50132502 Points: 59 # Comments: 26",
+  "pubDate": "2026-10-17T16:31:12.000Z",
+  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Fortune report on OpenAI safety/rogue-incident disclosures is not a model release, research artifact, policy action, OSS tool, or a listed industry event (financing, M&A, partnership, market data, non-model product launch). No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/ Comments URL: https://news.ycombinator.com/item?id=50132502 Points: 59 # Comments: 26",
+    "summaryChars": 221,
+    "summarySource": "summary",
+    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+    "linkHost": "fortune.com",
+    "pubDate": "2026-10-17T16:31:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
