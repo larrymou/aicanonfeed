@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "bfd4814fd3834fdd",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x819z7/how_many_of_you_have_seen_this_honest_iclr/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How many of you have seen this honest ICLR submission? [D]",
+  "summary": "Makes me think how many submissions are just better than this one by quietly removing that line... submitted by /u/fighraccoon [link] [comments]",
+  "pubDate": "2026-10-17T04:43:32.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary post about an ICLR submission; no new model release, no paper or benchmark link, no industry business event, no policy action, and no open-source tool. No rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Makes me think how many submissions are just better than this one by quietly removing that line... submitted by /u/fighraccoon [link] [comments]",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x819z7/how_many_of_you_have_seen_this_honest_iclr/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-17T04:43:32.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
