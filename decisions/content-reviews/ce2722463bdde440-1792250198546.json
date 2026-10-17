@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "ce2722463bdde440",
+  "url": "https://www.techmeme.com/261017/p11#a261017p11",
+  "sourceName": "Techmeme",
+  "title": "As AI giants rack up potential legal liabilities of tens of billions amid safety incidents, insurers worry claims may outpace limits on existing coverage (Jean Eaglesham/Wall Street Journal)",
+  "summary": "Jean Eaglesham / Wall Street Journal: As AI giants rack up potential legal liabilities of tens of billions amid safety incidents, insurers worry claims may outpace limits on existing coverage — The artificial-intelligence industry's phenomenal rate of growth means claims have the",
+  "pubDate": "2026-10-17T13:45:01.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is media commentary on AI legal liability and insurer concerns about coverage limits. It reports no model release, research artifact, financing/M&A/partnership/market-revenue data, policy/government action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jean Eaglesham / Wall Street Journal: As AI giants rack up potential legal liabilities of tens of billions amid safety incidents, insurers worry claims may outpace limits on existing coverage — The artificial-intelligence industry's phenomenal rate of growth means claims have the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p11#a261017p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T13:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
