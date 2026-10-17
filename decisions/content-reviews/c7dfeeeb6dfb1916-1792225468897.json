@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792225415637-nza9ek",
+  "urlHash": "c7dfeeeb6dfb1916",
+  "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "sourceName": "Hacker News Front Page",
+  "title": "How the Claude Code team does code review",
+  "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 327 # Comments: 306",
+  "pubDate": "2026-10-16T19:04:47.000Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a blog post/commentary about the Claude Code team's code-review practices. It announces no named model release, no research artifact, no business event, no policy action, and no open-source tool release; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 327 # Comments: 306",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "linkHost": "claude.dev",
+    "pubDate": "2026-10-16T19:04:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
