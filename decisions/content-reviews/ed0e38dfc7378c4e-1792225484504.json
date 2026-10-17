@@ -1,18 +1,24 @@
 {
-  "runId": "run-1792140776533-7qe290",
+  "runId": "run-1792225415637-nza9ek",
   "urlHash": "ed0e38dfc7378c4e",
   "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2",
   "sourceName": "Ollama releases",
   "title": "v0.40.5-rc2",
   "summary": "llama.cpp: version bump b11669 (#19032)",
   "pubDate": "2026-10-15T16:11:12.000Z",
-  "decidedAt": "2026-10-16T08:53:12.517Z",
+  "decidedAt": "2026-10-17T08:23:43.014Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "reason": "Routine release-candidate version tag (v0.40.5-rc2) whose only noted change is a llama.cpp dependency bump; Content shows no new open-source tool, framework update, or developer resource, so rule 5-1 is not established and no other rule applies.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "llama.cpp: version bump b11669 (#19032)",
