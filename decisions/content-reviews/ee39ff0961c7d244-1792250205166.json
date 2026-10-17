@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792250159446-s7lfwv",
+  "urlHash": "ee39ff0961c7d244",
+  "url": "https://www.techmeme.com/261017/p10#a261017p10",
+  "sourceName": "Techmeme",
+  "title": "A profile of Blackstone President Jon Gray, who is making AI his biggest bet, has built a $200B data center empire, and is building a cloud venture with Google (Preeti Singh/Bloomberg)",
+  "summary": "Preeti Singh / Bloomberg: A profile of Blackstone President Jon Gray, who is making AI his biggest bet, has built a $200B data center empire, and is building a cloud venture with Google — From data centers and chip financing to AI advice on potential deals, the technology is ever",
+  "pubDate": "2026-10-17T12:35:02.000Z",
+  "decidedAt": "2026-10-17T15:16:05.381Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Profile of Blackstone's Jon Gray covers AI investment/financing moves, a $200B data center buildout, and a cloud venture with Google — AI industry business events reported via Bloomberg/ Techmeme media coverage, with no model release or research artifact.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Preeti Singh / Bloomberg: A profile of Blackstone President Jon Gray, who is making AI his biggest bet, has built a $200B data center empire, and is building a cloud venture with Google — From data centers and chip financing to AI advice on potential deals, the technology is ever",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p10#a261017p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T12:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
