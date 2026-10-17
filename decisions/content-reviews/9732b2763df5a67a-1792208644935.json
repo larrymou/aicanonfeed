@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792208565202-sx4mhb",
+  "urlHash": "9732b2763df5a67a",
+  "url": "https://openai.com/index/itau-generative-ai",
+  "sourceName": "OpenAI Blog",
+  "title": "How Itaú is building generative AI for its entire customer base",
+  "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+  "pubDate": "2026-10-16T19:00:00.000Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on how Itaú uses OpenAI technology; no named model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or open-source tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/itau-generative-ai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-16T19:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
