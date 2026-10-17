@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792261087766-qwurag",
+  "urlHash": "5ae5c54823aa7726",
+  "url": "https://www.artie.com/careers",
+  "sourceName": "Hacker News Front Page",
+  "title": "Artie (YC S23) Is Hiring Enterprise AES and Senior Engineers",
+  "summary": "Article URL: https://www.artie.com/careers Comments URL: https://news.ycombinator.com/item?id=50132839 Points: 0 # Comments: 0",
+  "pubDate": "2026-10-17T17:02:50.000Z",
+  "decidedAt": "2026-10-17T18:18:20.561Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hiring/careers post for engineers at Artie; no named AI model release, research artifact, business event, policy action, or open-source tool announcement. No rule covers recruiting content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.artie.com/careers Comments URL: https://news.ycombinator.com/item?id=50132839 Points: 0 # Comments: 0",
+    "summaryChars": 126,
+    "summarySource": "summary",
+    "link": "https://www.artie.com/careers",
+    "linkHost": "www.artie.com",
+    "pubDate": "2026-10-17T17:02:50.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
