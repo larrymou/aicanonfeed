@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792208565202-sx4mhb",
+  "urlHash": "a41036e39f188840",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source) [R]",
+  "summary": "Hey r/MachineLearning! We're excited to share ORL (On-Policy Residual Learning), our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and our custom inference engine dlmrt, we've achieved: 2,788 tokens/",
+  "pubDate": "2026-10-16T20:03:32.000Z",
+  "decidedAt": "2026-10-17T03:43:19.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Claims new research (ORL for diffusion LLMs) but the only link is a Reddit thread (linkHost www.reddit.com), not the original paper, arXiv preprint, repo, or official source; rule 2-1's artifact-link condition is unmet, and no OSS repo link exists for rule 5-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "link",
+    "linkHost",
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey r/MachineLearning! We're excited to share ORL (On-Policy Residual Learning), our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and our custom inference engine dlmrt, we've achieved: 2,788 tokens/",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-16T20:03:32.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
