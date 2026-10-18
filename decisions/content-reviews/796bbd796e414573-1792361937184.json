@@ -1,18 +1,24 @@
 {
-  "runId": "run-1792348259265-sfil5c",
+  "runId": "run-1792361879730-0hnwb8",
   "urlHash": "796bbd796e414573",
   "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
   "sourceName": "Ars Technica AI",
   "title": "Anthropic gives outside AI watchdog “employee-like” access",
   "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
   "pubDate": "2026-10-18T16:25:19.000Z",
-  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "decidedAt": "2026-10-18T22:18:07.710Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "reason": "Item reports a safety-governance arrangement (external watchdog gaining access to Anthropic), not a named model release, research artifact, business event (financing/M&A/partnership deal/product launch), policy action, or OSS tool. Rule 4-1 explicitly excludes industry self-regulation; no rule cover",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
