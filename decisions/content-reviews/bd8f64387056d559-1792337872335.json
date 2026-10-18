@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792337847970-0tst4x",
+  "urlHash": "bd8f64387056d559",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x94heh/iclr_2027_reciprocal_reviewer_with_0_paper/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR 2027: Reciprocal reviewer with 0 paper assignments—should I be concerned? [D]",
+  "summary": "Hi, I was wondering if any other reciprocal reviewers still haven't received paper assignments for ICLR 2027. I haven't been assigned any papers to review yet and am a bit confused. Is anyone else in the same situation? Thanks for any insight! submitted by /u/Terrible-Chicken-426",
+  "pubDate": "2026-10-18T14:24:16.000Z",
+  "decidedAt": "2026-10-18T15:37:35.816Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread asking whether other ICLR 2027 reciprocal reviewers also lack paper assignments. No model release, research artifact, business event, policy action, or OSS tool release; no rule covers community commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi, I was wondering if any other reciprocal reviewers still haven't received paper assignments for ICLR 2027. I haven't been assigned any papers to review yet and am a bit confused. Is anyone else in the same situation? Thanks for any insight! submitted by /u/Terrible-Chicken-426",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x94heh/iclr_2027_reciprocal_reviewer_with_0_paper/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-18T14:24:16.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
