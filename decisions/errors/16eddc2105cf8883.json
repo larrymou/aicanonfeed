@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792361879730-0hnwb8",
+  "urlHash": "16eddc2105cf8883",
+  "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+  "sourceName": "TechCrunch AI",
+  "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+  "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+  "pubDate": "2026-10-18T20:37:40.000Z",
+  "decidedAt": "2026-10-18T22:18:07.710Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+    "summaryChars": 64,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-18T20:37:40.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
