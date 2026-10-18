@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792361879730-0hnwb8",
+  "urlHash": "36d3d7d47b7ad9e2",
+  "url": "https://www.techmeme.com/261018/p12#a261018p12",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal (Bailey Lipschultz/Bloomberg)",
+  "summary": "Bailey Lipschultz / Bloomberg: Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal — Nscale Ltd. is facing opposition to the valuation target it's pursuing in its initial ",
+  "pubDate": "2026-10-18T22:15:00.000Z",
+  "decidedAt": "2026-10-18T22:18:07.710Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bailey Lipschultz / Bloomberg: Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal — Nscale Ltd. is facing opposition to the valuation target it's pursuing in its initial ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p12#a261018p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T22:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
