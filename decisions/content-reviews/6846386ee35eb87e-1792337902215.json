@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792337847970-0tst4x",
+  "urlHash": "6846386ee35eb87e",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
+  "sourceName": "vLLM releases",
+  "title": "v0.32.1rc0",
+  "summary": "[Doc][RL] Document the weight-transfer HTTP protocol for trainers wit…",
+  "pubDate": "2026-10-18T09:26:56.000Z",
+  "decidedAt": "2026-10-18T15:37:35.816Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "vLLM (open-source AI inference framework) publishes release v0.32.1rc0; item links to the project's GitHub release page, satisfying the library/framework release condition of the OSS rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[Doc][RL] Document the weight-transfer HTTP protocol for trainers wit…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-18T09:26:56.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
