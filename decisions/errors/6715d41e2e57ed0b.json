@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792348259265-sfil5c",
+  "urlHash": "6715d41e2e57ed0b",
+  "url": "https://www.techmeme.com/261017/p21#a261017p21",
+  "sourceName": "Techmeme",
+  "title": "Filing: Disney agreed to hire 60+ staff from Character.AI and pay them ~$180M over three years, plus $30M for retention awards; a bankruptcy judge must approve (Bloomberg)",
+  "summary": "Bloomberg: Filing: Disney agreed to hire 60+ staff from Character.AI and pay them ~$180M over three years, plus $30M for retention awards; a bankruptcy judge must approve — More than 60 workers at Character.AI are being offered a lifeline from the media giant … Soft Landing — Lay",
+  "pubDate": "2026-10-18T03:50:01.000Z",
+  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Filing: Disney agreed to hire 60+ staff from Character.AI and pay them ~$180M over three years, plus $30M for retention awards; a bankruptcy judge must approve — More than 60 workers at Character.AI are being offered a lifeline from the media giant … Soft Landing — Lay",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p21#a261017p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T03:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
