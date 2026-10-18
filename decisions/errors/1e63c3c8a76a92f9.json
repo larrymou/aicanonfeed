@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792361879730-0hnwb8",
+  "urlHash": "1e63c3c8a76a92f9",
+  "url": "https://www.techmeme.com/261018/p10#a261018p10",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise (Anthropic)",
+  "summary": "Anthropic: Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise — Today, we're committing a portion of Anthropic's shares to the Anthropic Public Benefit Fund, a new entity ",
+  "pubDate": "2026-10-18T19:10:00.000Z",
+  "decidedAt": "2026-10-18T22:18:07.710Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise — Today, we're committing a portion of Anthropic's shares to the Anthropic Public Benefit Fund, a new entity ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p10#a261018p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T19:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
