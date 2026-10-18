@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792337847970-0tst4x",
+  "urlHash": "0431b2e816d1046b",
+  "url": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
+  "sourceName": "Hacker News Front Page",
+  "title": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
+  "summary": "Article URL: https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car Comments URL: https://news.ycombinator.com/item?id=50141295 Points: 31 # Comments: 21",
+  "pubDate": "2026-10-18T14:16:41.000Z",
+  "decidedAt": "2026-10-18T15:37:35.816Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Tesla Roadster reservation holders, not AI. It is not a model release, AI research, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car Comments URL: https://news.ycombinator.com/item?id=50141295 Points: 31 # Comments: 21",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
+    "linkHost": "www.thedrive.com",
+    "pubDate": "2026-10-18T14:16:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
