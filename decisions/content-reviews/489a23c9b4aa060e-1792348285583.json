@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792348259265-sfil5c",
+  "urlHash": "489a23c9b4aa060e",
+  "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Someone behind the software",
+  "summary": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL: https://news.ycombinator.com/item?id=50142573 Points: 74 # Comments: 25",
+  "pubDate": "2026-10-18T16:32:00.000Z",
+  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal essay/blog post on Hacker News with no named AI model release, research artifact, business event, policy action, or open-source tool announcement. No rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL: https://news.ycombinator.com/item?id=50142573 Points: 74 # Comments: 25",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+    "linkHost": "karrisaarinen.com",
+    "pubDate": "2026-10-18T16:32:00.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
