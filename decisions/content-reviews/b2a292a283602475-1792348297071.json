@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792348259265-sfil5c",
+  "urlHash": "b2a292a283602475",
+  "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Intel 8087 chip: floating-point addition and subtraction",
+  "summary": "Article URL: https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html Comments URL: https://news.ycombinator.com/item?id=50142449 Points: 43 # Comments: 6",
+  "pubDate": "2026-10-18T16:20:27.000Z",
+  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a retrocomputing article on the Intel 8087 floating-point chip's microcode; it reports no AI model release, AI research result, AI industry event, AI policy action, or AI open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html Comments URL: https://news.ycombinator.com/item?id=50142449 Points: 43 # Comments: 6",
+    "summaryChars": 169,
+    "summarySource": "summary",
+    "link": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+    "linkHost": "www.righto.com",
+    "pubDate": "2026-10-18T16:20:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
