@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "6ee6e75133cb2b6c",
+  "url": "https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c",
+  "sourceName": "Hacker News Front Page",
+  "title": "A Princeton PhD Applied to 2,300 Jobs. He Still Can't Get One",
+  "summary": "Article URL: https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c Comments URL: https://news.ycombinator.com/item?id=50138462 Points: 27 # Comments: 16",
+  "pubDate": "2026-10-18T06:36:48.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general labor-market/careers article about a PhD job search; it is not an AI model release, research result, AI industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c Comments URL: https://news.ycombinator.com/item?id=50138462 Points: 27 # Comments: 16",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c",
+    "linkHost": "www.wsj.com",
+    "pubDate": "2026-10-18T06:36:48.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
