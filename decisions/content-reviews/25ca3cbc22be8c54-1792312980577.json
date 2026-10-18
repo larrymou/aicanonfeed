@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "25ca3cbc22be8c54",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x8xxmv/gpt2_kv_cache_from_scratch_correctness_latency/",
+  "sourceName": "r/MachineLearning new",
+  "title": "GPT-2 KV cache from scratch: correctness, latency, and memory measurements [P]",
+  "summary": "I built GPT-2 small and a KV cache in PyTorch as a learning project, then compared the mathematical savings with measured latency and memory. I have published the implementation and a detailed write-up, and would appreciate feedback on the methodology. Setup: pretrained GPT-2 sma",
+  "pubDate": "2026-10-18T08:23:02.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] self-described learning project reimplementing GPT-2 KV cache with measurements. No new research artifact (no paper/preprint link) for R2-1, and no repository or official announcement link for a new tool for R5-1; a personal exercise write-up isn't an OSS/developer resource release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I built GPT-2 small and a KV cache in PyTorch as a learning project, then compared the mathematical savings with measured latency and memory. I have published the implementation and a detailed write-up, and would appreciate feedback on the methodology. Setup: pretrained GPT-2 sma",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x8xxmv/gpt2_kv_cache_from_scratch_correctness_latency/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-18T08:23:02.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
