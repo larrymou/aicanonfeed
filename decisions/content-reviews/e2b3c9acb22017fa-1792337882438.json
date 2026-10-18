@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792337847970-0tst4x",
+  "urlHash": "e2b3c9acb22017fa",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x91a47/p_asmsense_228k_stripped_x8664_functions_with/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[P] asmsense: 228k stripped x86-64 functions with source-aware labels, and a map of the data we still lack. [P]",
+  "summary": "asmsense is a dataset and a small model (Qwen3-8B + LoRA) for naming and describing functions in stripped binaries. I compiled permissively licensed C projects myself, so every function has its real name and source. Right now it has 228,177 functions from 341 projects, compiled a",
+  "pubDate": "2026-10-18T11:49:21.000Z",
+  "decidedAt": "2026-10-18T15:37:35.816Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] project post on a dataset/small LoRA model, but link is only the Reddit thread—no official owner announcement, repository, paper, or arXiv link observed. R1 (no owner release announcement), R2 (no paper/preprint link), and R5 (no repo/official announcement link) conditions are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "asmsense is a dataset and a small model (Qwen3-8B + LoRA) for naming and describing functions in stripped binaries. I compiled permissively licensed C projects myself, so every function has its real name and source. Right now it has 228,177 functions from 341 projects, compiled a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x91a47/p_asmsense_228k_stripped_x8664_functions_with/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-18T11:49:21.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
