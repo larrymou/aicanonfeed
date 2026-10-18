@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792348259265-sfil5c",
+  "urlHash": "08bf4c381dd96482",
+  "url": "https://www.techmeme.com/261018/p9#a261018p9",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nvidia asked Samsung, SK Hynix, and Micron to make base dies for its custom NVHBM memory on TSMC's 3nm process; Samsung agreed, its first use of TSMC (Kyu-Seok Shim/Reuters)",
+  "summary": "Kyu-Seok Shim / Reuters: Sources: Nvidia asked Samsung, SK Hynix, and Micron to make base dies for its custom NVHBM memory on TSMC's 3nm process; Samsung agreed, its first use of TSMC — Samsung Electronics (005930.KS) will use TSMC's (2330.TW) 3-nanometre process to produce base ",
+  "pubDate": "2026-10-18T18:10:01.000Z",
+  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kyu-Seok Shim / Reuters: Sources: Nvidia asked Samsung, SK Hynix, and Micron to make base dies for its custom NVHBM memory on TSMC's 3nm process; Samsung agreed, its first use of TSMC — Samsung Electronics (005930.KS) will use TSMC's (2330.TW) 3-nanometre process to produce base ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p9#a261018p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T18:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
