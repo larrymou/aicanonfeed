@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792348259265-sfil5c",
+  "urlHash": "552c729909b58942",
+  "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Namecheap just seized and disabled all my domains",
+  "summary": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/ Comments URL: https://news.ycombinator.com/item?id=50142866 Points: 48 # Comments: 15",
+  "pubDate": "2026-10-18T16:56:56.000Z",
+  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a domain registrar seizing a customer's domains; it reports no AI model release, research, industry business event, policy action, or open-source AI tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/ Comments URL: https://news.ycombinator.com/item?id=50142866 Points: 48 # Comments: 15",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-18T16:56:56.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
