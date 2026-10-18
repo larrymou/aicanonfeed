@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792361879730-0hnwb8",
+  "urlHash": "57743babc5756b42",
+  "url": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Florida's HOAs and condo associations are making the housing crisis worse",
+  "summary": "Article URL: https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html Comments URL: https://news.ycombinator.com/item?id=50144005 Points: 135 # Comments: 223",
+  "pubDate": "2026-10-18T18:40:16.000Z",
+  "decidedAt": "2026-10-18T22:18:07.710Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Florida HOA/condo association housing policy, not AI. No rule covers non-AI content; no named AI model, research artifact, AI industry event, AI policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html Comments URL: https://news.ycombinator.com/item?id=50144005 Points: 135 # Comments: 223",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
+    "linkHost": "hoaspy.com",
+    "pubDate": "2026-10-18T18:40:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
