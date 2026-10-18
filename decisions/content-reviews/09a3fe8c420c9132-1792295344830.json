@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792295324569-lnfe2c",
+  "urlHash": "09a3fe8c420c9132",
+  "url": "https://www.techmeme.com/261017/p20#a261017p20",
+  "sourceName": "Techmeme",
+  "title": "An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more (Joanna Stern/The New Things)",
+  "summary": "Joanna Stern / The New Things: An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more — My exclusive interview with Satya Nadella on the new Surface Laptop Ultra and Microsoft",
+  "pubDate": "2026-10-18T01:20:02.000Z",
+  "decidedAt": "2026-10-18T03:49:02.073Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme summary of an interview with Satya Nadella about the Surface Laptop Ultra and Windows AI-agent security plans. It is commentary/interview, not a named model release, research artifact, business event (financing/M&A/partnership/market data/non-model launch announcement), policy action, or OS",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Joanna Stern / The New Things: An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more — My exclusive interview with Satya Nadella on the new Surface Laptop Ultra and Microsoft",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p20#a261017p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T01:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
