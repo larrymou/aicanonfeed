@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "b702bd9d118b1683",
+  "url": "https://www.techmeme.com/261018/p2#a261018p2",
+  "sourceName": "Techmeme",
+  "title": "Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts (Cristina Criddle/Financial Times)",
+  "summary": "Cristina Criddle / Financial Times: Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts — Tech companies are being forced to confront the rules of negotiation when machine",
+  "pubDate": "2026-10-18T05:10:01.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No named model or release action (not R1); no paper or benchmark artifact (not R2); not financing, M&A, partnership, market data, or product launch (not R3); no policy action (not R4); no open-source tool release (not R5). Media report of Anthropic's internal negotiation practices is uncovered.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cristina Criddle / Financial Times: Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts — Tech companies are being forced to confront the rules of negotiation when machine",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p2#a261018p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T05:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
