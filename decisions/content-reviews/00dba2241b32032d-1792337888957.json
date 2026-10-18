@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792337847970-0tst4x",
+  "urlHash": "00dba2241b32032d",
+  "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+  "sourceName": "Wired AI",
+  "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+  "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+  "pubDate": "2026-10-18T10:30:00.000Z",
+  "decidedAt": "2026-10-18T15:37:35.816Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary about OnlyFans creators objecting to Meta's Muse agent behavior; no model release, research artifact, business event, policy action, or OSS tool. No official owner link or observed author.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+    "summaryChars": 116,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-18T10:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
