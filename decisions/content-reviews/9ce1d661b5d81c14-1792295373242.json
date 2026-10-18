@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792295324569-lnfe2c",
+  "urlHash": "9ce1d661b5d81c14",
+  "url": "https://github.com/openai/codex/issues/25921",
+  "sourceName": "Hacker News Front Page",
+  "title": "Codex Desktop continuously generates Crashpad pending dumps",
+  "summary": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 94 # Comments: 33",
+  "pubDate": "2026-10-17T17:45:08.000Z",
+  "decidedAt": "2026-10-18T03:49:02.073Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub issue reporting a bug (Crashpad dump generation) in Codex Desktop is a bug report, not a model release, research paper, industry business event, policy action, or new open-source tool/framework announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 94 # Comments: 33",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://github.com/openai/codex/issues/25921",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-17T17:45:08.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
