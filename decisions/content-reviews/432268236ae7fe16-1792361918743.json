@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792361879730-0hnwb8",
+  "urlHash": "432268236ae7fe16",
+  "url": "https://www.getlazarus.org/dynamic/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Free Pascal compiler now supports dynamic packages",
+  "summary": "Article URL: https://www.getlazarus.org/dynamic/ Comments URL: https://news.ycombinator.com/item?id=50144066 Points: 78 # Comments: 13",
+  "pubDate": "2026-10-18T18:48:04.000Z",
+  "decidedAt": "2026-10-18T22:18:07.710Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Free Pascal compiler dynamic packages is a general programming tool announcement with no AI model, research, industry business event, policy action, or AI open-source tooling involved; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.getlazarus.org/dynamic/ Comments URL: https://news.ycombinator.com/item?id=50144066 Points: 78 # Comments: 13",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://www.getlazarus.org/dynamic/",
+    "linkHost": "www.getlazarus.org",
+    "pubDate": "2026-10-18T18:48:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
