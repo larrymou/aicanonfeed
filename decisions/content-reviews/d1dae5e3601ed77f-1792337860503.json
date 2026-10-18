@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792337847970-0tst4x",
+  "urlHash": "d1dae5e3601ed77f",
+  "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Will it be a golden age or a dark age for mathematics (and science)?",
+  "summary": "Article URL: https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/ Comments URL: https://news.ycombinator.com/item?id=50141681 Points: 21 # Comments: 17",
+  "pubDate": "2026-10-18T15:00:40.000Z",
+  "decidedAt": "2026-10-18T15:37:35.816Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary blog post on the future of mathematics/science; no named model release, no research artifact (paper/arXiv/benchmark), no industry business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/ Comments URL: https://news.ycombinator.com/item?id=50141681 Points: 21 # Comments: 17",
+    "summaryChars": 207,
+    "summarySource": "summary",
+    "link": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+    "linkHost": "terrytao.wordpress.com",
+    "pubDate": "2026-10-18T15:00:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
