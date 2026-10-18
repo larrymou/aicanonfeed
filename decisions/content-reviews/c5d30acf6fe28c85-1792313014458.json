@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "c5d30acf6fe28c85",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Built a search engine for debugging which is not a wrapper [P]",
+  "summary": "TLDR: I built a search engine that reads a bug report (or lets you define it) and points to the exact file (93%) and to the exact function (79.4%) you need to fix. Hey everyone, I recently made a new project while trying to get into RAG and automation. Odin is more than a search ",
+  "pubDate": "2026-10-18T05:18:51.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post about a debugging search engine (RAG project). No named AI model release, no paper/benchmark, no business/policy event, and no repository or official announcement showing an open-source AI tool; only a reddit.com post link, so no rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TLDR: I built a search engine that reads a bug report (or lets you define it) and points to the exact file (93%) and to the exact function (79.4%) you need to fix. Hey everyone, I recently made a new project while trying to get into RAG and automation. Odin is more than a search ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-18T05:18:51.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
