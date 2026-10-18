@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "4dc309c2f9cfbf22",
+  "url": "https://api-docs.deepseek.com/guides/search/",
+  "sourceName": "Hacker News Front Page",
+  "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+  "summary": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 104 # Comments: 48",
+  "pubDate": "2026-10-18T06:50:36.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Pricing/docs page for DeepSeek's proprietary search & fetch API. No named model or model release action (1-1), no research artifact (2-1), not a financing/M&A/partnership/business event (3-1), no policy action (4-1), and 5-1 excludes proprietary product features.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 104 # Comments: 48",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://api-docs.deepseek.com/guides/search/",
+    "linkHost": "api-docs.deepseek.com",
+    "pubDate": "2026-10-18T06:50:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
