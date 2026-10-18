@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792295324569-lnfe2c",
+  "urlHash": "c13d0a533fa98e51",
+  "url": "https://openjdk.org/projects/jdk/28/",
+  "sourceName": "Hacker News Front Page",
+  "title": "JDK 28",
+  "summary": "Article URL: https://openjdk.org/projects/jdk/28/ Comments URL: https://news.ycombinator.com/item?id=50135379 Points: 83 # Comments: 33",
+  "pubDate": "2026-10-17T21:37:07.000Z",
+  "decidedAt": "2026-10-18T03:49:02.073Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "JDK 28 is a Java Development Kit release page; no AI model, research, industry business event, policy, or AI open-source tooling is described. No active rule covers this non-AI item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openjdk.org/projects/jdk/28/ Comments URL: https://news.ycombinator.com/item?id=50135379 Points: 83 # Comments: 33",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://openjdk.org/projects/jdk/28/",
+    "linkHost": "openjdk.org",
+    "pubDate": "2026-10-17T21:37:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
