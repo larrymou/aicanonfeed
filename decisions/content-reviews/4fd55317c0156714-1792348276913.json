@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792348259265-sfil5c",
+  "urlHash": "4fd55317c0156714",
+  "url": "https://mitos.computer/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Mitos editor is a fork of Helix",
+  "summary": "Article URL: https://mitos.computer/ Comments URL: https://news.ycombinator.com/item?id=50143132 Points: 13 # Comments: 14",
+  "pubDate": "2026-10-18T17:19:34.000Z",
+  "decidedAt": "2026-10-18T18:31:10.340Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a fork of the Helix text editor; no AI model, research, business, policy, or AI open-source tooling facts are present, so no active rule is satisfied.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://mitos.computer/ Comments URL: https://news.ycombinator.com/item?id=50143132 Points: 13 # Comments: 14",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://mitos.computer/",
+    "linkHost": "mitos.computer",
+    "pubDate": "2026-10-18T17:19:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
