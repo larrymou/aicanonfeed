@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "34d502653d652f08",
+  "url": "https://www.propublica.org/article/ap3-oath-keepers-militia-mole",
+  "sourceName": "Hacker News Front Page",
+  "title": "A Mole Infiltrated the Highest Ranks of American Militias (2025)",
+  "summary": "Article URL: https://www.propublica.org/article/ap3-oath-keepers-militia-mole Comments URL: https://news.ycombinator.com/item?id=50138044 Points: 81 # Comments: 14",
+  "pubDate": "2026-10-18T04:59:24.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Investigate journalism piece about militias infiltrating US militia groups; not AI models, research, industry, policy, or open-source tooling. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.propublica.org/article/ap3-oath-keepers-militia-mole Comments URL: https://news.ycombinator.com/item?id=50138044 Points: 81 # Comments: 14",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://www.propublica.org/article/ap3-oath-keepers-militia-mole",
+    "linkHost": "www.propublica.org",
+    "pubDate": "2026-10-18T04:59:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
