@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792295324569-lnfe2c",
+  "urlHash": "3e5e19a6893a0498",
+  "url": "https://www.techmeme.com/261017/p19#a261017p19",
+  "sourceName": "Techmeme",
+  "title": "Google says \"magic state cultivation\" works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x (Google)",
+  "summary": "Google: Google says “magic state cultivation” works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x — We've shown that magic state cultivation works on Google Quantum AI hardware. — Google Quantum AI has demonstratively open",
+  "pubDate": "2026-10-17T23:35:01.000Z",
+  "decidedAt": "2026-10-18T03:49:02.073Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Quantum error-correction hardware result (magic state cultivation on Willow), not an AI model release, AI research artifact, industry business event, policy action, or OSS tool. Link is a Techmeme aggregator post, not the original paper or Google's official announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google: Google says “magic state cultivation” works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x — We've shown that magic state cultivation works on Google Quantum AI hardware. — Google Quantum AI has demonstratively open",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261017/p19#a261017p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-17T23:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
