@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "7e75011484a55b9b",
+  "url": "https://www.techmeme.com/261018/p3#a261018p3",
+  "sourceName": "Techmeme",
+  "title": "Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation (Nick Lichtenberg/Fortune)",
+  "summary": "Nick Lichtenberg / Fortune: Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation — Steven Prast is old enough to remember when a mobile phone came in a bag. It was too heavy",
+  "pubDate": "2026-10-18T05:40:01.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: Holyvolt, which develops AI tools for battery materials, raised $45M at a reported $245M valuation. Financing coverage with a link to a media report; no official model release or research artifact involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nick Lichtenberg / Fortune: Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation — Steven Prast is old enough to remember when a mobile phone came in a bag. It was too heavy",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p3#a261018p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T05:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
