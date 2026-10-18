@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792312970515-pbc15g",
+  "urlHash": "8b55b8600f89ebb5",
+  "url": "https://www.techmeme.com/261018/p4#a261018p4",
+  "sourceName": "Techmeme",
+  "title": "Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK (James Titcomb/Telegraph)",
+  "summary": "James Titcomb / Telegraph: Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK — US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing — Micro",
+  "pubDate": "2026-10-18T06:05:00.000Z",
+  "decidedAt": "2026-10-18T08:42:57.906Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Microsoft cancelling its Nscale data-center deal to rent 23K Nvidia AI chips is an AI infrastructure business/deal event, covered here by a named-author media report (Telegraph via Techmeme) with a publication date; not a model release, research artifact, policy action, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "James Titcomb / Telegraph: Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK — US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing — Micro",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p4#a261018p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-18T06:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
