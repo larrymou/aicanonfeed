@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "53676a16a0a6f4b8",
+  "url": "https://www.techmeme.com/261019/p39#a261019p39",
+  "sourceName": "Techmeme",
+  "title": "Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June (Dominic-Madori Davis/TechCrunch)",
+  "summary": "Dominic-Madori Davis / TechCrunch: Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June — Town, a two-year-old, San Francisco-based startup developing AI assistants, nabbed a unicorn valuation on Monda",
+  "pubDate": "2026-10-19T18:20:00.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dominic-Madori Davis / TechCrunch: Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June — Town, a two-year-old, San Francisco-based startup developing AI assistants, nabbed a unicorn valuation on Monda",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p39#a261019p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T18:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
