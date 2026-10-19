@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "65bf9382c5adc2db",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x9j7qp/looking_to_collaborate_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Looking to collaborate [R]",
+  "summary": "Anyone in the biomedical and ai/ml research space? I’m looking to connect and collaborate on research projects. Currently pursuing my PhD. Lmk. submitted by /u/QuirkySkin-25 [link] [comments]",
+  "pubDate": "2026-10-19T00:48:39.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post seeking research collaborators; no model release, paper/preprint/benchmark artifact, industry business event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anyone in the biomedical and ai/ml research space? I’m looking to connect and collaborate on research projects. Currently pursuing my PhD. Lmk. submitted by /u/QuirkySkin-25 [link] [comments]",
+    "summaryChars": 191,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x9j7qp/looking_to_collaborate_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-19T00:48:39.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
