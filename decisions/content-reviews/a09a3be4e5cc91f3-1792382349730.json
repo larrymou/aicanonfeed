@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "a09a3be4e5cc91f3",
+  "url": "https://colo.to/cyberspace.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "William Gibson and the trademarking of cyberspace",
+  "summary": "Article URL: https://colo.to/cyberspace.html Comments URL: https://news.ycombinator.com/item?id=50146625 Points: 96 # Comments: 13",
+  "pubDate": "2026-10-18T23:37:57.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a commentary article on William Gibson and trademarking 'cyberspace'; it reports no AI model release, research artifact, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://colo.to/cyberspace.html Comments URL: https://news.ycombinator.com/item?id=50146625 Points: 96 # Comments: 13",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://colo.to/cyberspace.html",
+    "linkHost": "colo.to",
+    "pubDate": "2026-10-18T23:37:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
