@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "6863f492d38e86f7",
+  "url": "https://www.techmeme.com/261019/p45#a261019p45",
+  "sourceName": "Techmeme",
+  "title": "Cloudflare debuts Clairic, a System One-class extraction model it says processes unstructured data faster, more cheaply, and more accurately than normal LLMs (Cloudflare)",
+  "summary": "Cloudflare: Cloudflare debuts Clairic, a System One-class extraction model it says processes unstructured data faster, more cheaply, and more accurately than normal LLMs — Today, we're announcing a preview of a new class of System One-style models: extraction models.",
+  "pubDate": "2026-10-19T22:35:00.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary name model Clairic and announce a preview release, but the link is a Techmeme aggregator page, not an official Cloudflare announcement (owner domain not observed) and not a full news article with named author; evidence link condition unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cloudflare: Cloudflare debuts Clairic, a System One-class extraction model it says processes unstructured data faster, more cheaply, and more accurately than normal LLMs — Today, we're announcing a preview of a new class of System One-style models: extraction models.",
+    "summaryChars": 267,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p45#a261019p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T22:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
