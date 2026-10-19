@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "6f9baf4b4f296bc7",
+  "url": "https://dri.es/state-of-drupal-presentation-september-2026",
+  "sourceName": "Hacker News Front Page",
+  "title": "Drupal is now light-years ahead of its reputation",
+  "summary": "Article URL: https://dri.es/state-of-drupal-presentation-september-2026 Comments URL: https://news.ycombinator.com/item?id=50158408 Points: 9 # Comments: 1",
+  "pubDate": "2026-10-19T21:38:02.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about the Drupal CMS being improved, not an AI model, research, industry business event, policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://dri.es/state-of-drupal-presentation-september-2026 Comments URL: https://news.ycombinator.com/item?id=50158408 Points: 9 # Comments: 1",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://dri.es/state-of-drupal-presentation-september-2026",
+    "linkHost": "dri.es",
+    "pubDate": "2026-10-19T21:38:02.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
