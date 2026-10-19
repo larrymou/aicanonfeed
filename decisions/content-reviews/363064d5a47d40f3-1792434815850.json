@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "363064d5a47d40f3",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/",
+  "sourceName": "r/MachineLearning new",
+  "title": "AI generates research ideas faster than I can test them. Anyone else? [R]",
+  "summary": "I've been using AI extensively for ML research, and I've noticed a bottleneck: brainstorming research directions and generating smoke run implementations has become incredibly fast, but actually testing those ideas hasn't. A single AI discussion (eg asking it to review 30 papers ",
+  "pubDate": "2026-10-19T17:50:49.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit community discussion/commentary about a personal research-idea bottleneck. No paper, preprint, or benchmark link (fails R2-1); no model release, industry business event, policy action, or OSS tool release/announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I've been using AI extensively for ML research, and I've noticed a bottleneck: brainstorming research directions and generating smoke run implementations has become incredibly fast, but actually testing those ideas hasn't. A single AI discussion (eg asking it to review 30 papers ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-19T17:50:49.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
