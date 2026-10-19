@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "e5be943baa7712b2",
+  "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+  "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face de",
+  "pubDate": "2026-10-19T21:14:44.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Retrospective year-to-date recap of SageMaker JumpStart model onboarding and hub/deployment enhancements. No specific named model release or version (R1), no research artifact (R2), no financing/M&A/partnership or deal event (R3), no policy action (R4), and it is proprietary AWS platform content, no",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face de",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-19T21:14:44.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
