@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "1c209af2c25b1e3d",
+  "url": "https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base",
+  "sourceName": "Hacker News Front Page",
+  "title": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
+  "summary": "Article URL: https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base Comments URL: https://news.ycombinator.com/item?id=50146624 Points: 25 # Comments: 10",
+  "pubDate": "2026-10-18T23:37:54.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CSIS analysis on rebuilding the DoD munitions industrial base; no AI model release, research artifact, AI business event, AI policy action, or open-source tooling is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base Comments URL: https://news.ycombinator.com/item?id=50146624 Points: 25 # Comments: 10",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base",
+    "linkHost": "www.csis.org",
+    "pubDate": "2026-10-18T23:37:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
