@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "94b00070d9730e6c",
+  "url": "https://josie.lol/blog/linux-rtx-spark",
+  "sourceName": "Hacker News Front Page",
+  "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+  "summary": "Article URL: https://josie.lol/blog/linux-rtx-spark Comments URL: https://news.ycombinator.com/item?id=50158100 Points: 140 # Comments: 60",
+  "pubDate": "2026-10-19T21:08:18.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post about installing Linux on an RTX Spark laptop out of preference for not using a Microsoft account. No AI model release, research artifact, industry business event, policy action, or open-source AI tool announced; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://josie.lol/blog/linux-rtx-spark Comments URL: https://news.ycombinator.com/item?id=50158100 Points: 140 # Comments: 60",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://josie.lol/blog/linux-rtx-spark",
+    "linkHost": "josie.lol",
+    "pubDate": "2026-10-19T21:08:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
