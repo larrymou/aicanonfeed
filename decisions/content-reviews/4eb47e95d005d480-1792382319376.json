@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "4eb47e95d005d480",
+  "url": "https://www.techmeme.com/261018/p17#a261018p17",
+  "sourceName": "Techmeme",
+  "title": "China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending (Osmond Chia/BBC)",
+  "summary": "Osmond Chia / BBC: China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending — China's economic growth picked up in the three months to the end of September, rebounding from a three-year l",
+  "pubDate": "2026-10-19T03:30:00.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Macro GDP growth report about China's economy; AI exports only mentioned incidentally. Not a model release, research artifact, AI industry business event (financing/M&A/partnership/market data), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Osmond Chia / BBC: China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending — China's economic growth picked up in the three months to the end of September, rebounding from a three-year l",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p17#a261018p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T03:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
