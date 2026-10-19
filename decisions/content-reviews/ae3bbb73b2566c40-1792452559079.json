@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "ae3bbb73b2566c40",
+  "url": "https://calabro.io/ohbf",
+  "sourceName": "Hacker News Front Page",
+  "title": "One Hash Bloom Filters",
+  "summary": "Article URL: https://calabro.io/ohbf Comments URL: https://news.ycombinator.com/item?id=50157865 Points: 14 # Comments: 0",
+  "pubDate": "2026-10-19T20:50:08.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a blog post about one-hash Bloom filters on a personal site; no AI model release, no research artifact (paper/preprint/benchmark), no business, policy, or open-source AI tooling announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://calabro.io/ohbf Comments URL: https://news.ycombinator.com/item?id=50157865 Points: 14 # Comments: 0",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://calabro.io/ohbf",
+    "linkHost": "calabro.io",
+    "pubDate": "2026-10-19T20:50:08.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
