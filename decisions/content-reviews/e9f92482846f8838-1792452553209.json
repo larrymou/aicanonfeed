@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "e9f92482846f8838",
+  "url": "https://bsd.network/@brynet/117407035545900963",
+  "sourceName": "Hacker News Front Page",
+  "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+  "summary": "Article URL: https://bsd.network/@brynet/117407035545900963 Comments URL: https://news.ycombinator.com/item?id=50158138 Points: 48 # Comments: 7",
+  "pubDate": "2026-10-19T21:11:45.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenBSD 8.0 release bundling Linux 6.18 DRM drivers is a general OS release, not an AI model, research artifact, AI industry business event, AI policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://bsd.network/@brynet/117407035545900963 Comments URL: https://news.ycombinator.com/item?id=50158138 Points: 48 # Comments: 7",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://bsd.network/@brynet/117407035545900963",
+    "linkHost": "bsd.network",
+    "pubDate": "2026-10-19T21:11:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
