@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "a34795832a75b649",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3yqk/i_checked_bitnet_and_bonsai_on_cpu_against/",
+  "sourceName": "r/LocalLLaMA new",
+  "title": "I checked BitNet and Bonsai on CPU against references: bitnet.cpp main still gives wrong output, Bonsai 1.7B is correct wherever it loads, and ik_llama.cpp with -rtr is usually fastest",
+  "summary": "I wanted to know which low-bit (1-bit / ternary / 2-bit) GGUF files actually give correct output on CPU, and how fast they run, so I compared each runtime against a reference instead of judging by how the text looks. Machines: an ARM server (Neoverse-N1) and x86 VMs with AVX2 (In",
+  "pubDate": "2026-10-19T17:57:01.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Informal user benchmark post on Reddit comparing BitNet/Bonsai CPU runtimes. Not an official model release, not a paper/arXiv/major benchmark release with official source link, and not a new OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I wanted to know which low-bit (1-bit / ternary / 2-bit) GGUF files actually give correct output on CPU, and how fast they run, so I compared each runtime against a reference instead of judging by how the text looks. Machines: an ARM server (Neoverse-N1) and x86 VMs with AVX2 (In",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3yqk/i_checked_bitnet_and_bonsai_on_cpu_against/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-19T17:57:01.000Z",
+    "sourceName": "r/LocalLLaMA new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
