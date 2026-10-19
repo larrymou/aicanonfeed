@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "9d64b5e000146804",
+  "url": "https://www.dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Ukraine carries out first ever aerial drone evacuation of a wounded soldier",
+  "summary": "Article URL: https://www.dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html Comments URL: https://news.ycombinator.com/item?id=50155237 Points: 36 # Comments: 4",
+  "pubDate": "2026-10-19T17:26:38.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a military/conflict news story about a drone evacuation of a wounded soldier; it has no AI model release, research artifact, AI business event, policy action, or open-source AI tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html Comments URL: https://news.ycombinator.com/item?id=50155237 Points: 36 # Comments: 4",
+    "summaryChars": 216,
+    "summarySource": "summary",
+    "link": "https://www.dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html",
+    "linkHost": "www.dailymail.com",
+    "pubDate": "2026-10-19T17:26:38.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
