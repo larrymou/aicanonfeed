@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "31e3c722b320236b",
+  "url": "https://www.techmeme.com/261019/p44#a261019p44",
+  "sourceName": "Techmeme",
+  "title": "The US FTC clears Publicis' $2.2B LiveRamp acquisition, subject to a consent decree requiring equal access to LiveRamp's data connectivity tools for all clients (Leah Nylen/Bloomberg)",
+  "summary": "Leah Nylen / Bloomberg: The US FTC clears Publicis' $2.2B LiveRamp acquisition, subject to a consent decree requiring equal access to LiveRamp's data connectivity tools for all clients — The US Federal Trade Commission said it will allow Publicis Groupe SA to complete the $2.2 bi",
+  "pubDate": "2026-10-19T21:55:00.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Leah Nylen / Bloomberg: The US FTC clears Publicis' $2.2B LiveRamp acquisition, subject to a consent decree requiring equal access to LiveRamp's data connectivity tools for all clients — The US Federal Trade Commission said it will allow Publicis Groupe SA to complete the $2.2 bi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p44#a261019p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T21:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
