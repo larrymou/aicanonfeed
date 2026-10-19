@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "baf90afba548040a",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/",
+  "sourceName": "r/LocalLLaMA new",
+  "title": "Space Bunny was MiniMax M3.1 Flash. 428B-A23B, weights drop Thursday",
+  "summary": "the stealth model that sat at #1 on openrouter for 10 days and vanished on oct 5 is back with a name. minimax launched it on the api today, the launch post says weights on oct 23 428B total / 23B active, 1M context, text + image + video in $0.15 in / $0.60 out on the api beats op",
+  "pubDate": "2026-10-19T17:56:57.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names MiniMax M3.1 Flash and an API launch, but the only link is a Reddit thread (linkHost www.reddit.com); no official MiniMax announcement on the owner's domain and no named author/publication date for a news article, so R1's evidence-link condition fails and the forum post is not a reputable medi",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "the stealth model that sat at #1 on openrouter for 10 days and vanished on oct 5 is back with a name. minimax launched it on the api today, the launch post says weights on oct 23 428B total / 23B active, 1M context, text + image + video in $0.15 in / $0.60 out on the api beats op",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-19T17:56:57.000Z",
+    "sourceName": "r/LocalLLaMA new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
