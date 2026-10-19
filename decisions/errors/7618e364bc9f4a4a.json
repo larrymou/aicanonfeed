@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "7618e364bc9f4a4a",
+  "url": "https://www.techmeme.com/261019/p47#a261019p47",
+  "sourceName": "Techmeme",
+  "title": "Sources: Waymo aims to expand its fleet to 8K by the end of this year, up from 4K today, and to 20K by the end of 2027, after raising $5B in debt this month (Ellen DiMauro/Semafor)",
+  "summary": "Ellen DiMauro / Semafor: Sources: Waymo aims to expand its fleet to 8K by the end of this year, up from 4K today, and to 20K by the end of 2027, after raising $5B in debt this month — THE SCOOP — As Waymo expands into new cities with its self-driving cars, the company plans to us",
+  "pubDate": "2026-10-19T23:10:02.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ellen DiMauro / Semafor: Sources: Waymo aims to expand its fleet to 8K by the end of this year, up from 4K today, and to 20K by the end of 2027, after raising $5B in debt this month — THE SCOOP — As Waymo expands into new cities with its self-driving cars, the company plans to us",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p47#a261019p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T23:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
