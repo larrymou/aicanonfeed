@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "e0a9960af52a4676",
+  "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Flatpak – An Insecurity Nightmare",
+  "summary": "Article URL: https://oro.gay/posts/flatpak-an-insecurity-nightmare/ Comments URL: https://news.ycombinator.com/item?id=50148601 Points: 38 # Comments: 23",
+  "pubDate": "2026-10-19T05:11:24.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a critique of Flatpak packaging security, not an AI model release, research result, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://oro.gay/posts/flatpak-an-insecurity-nightmare/ Comments URL: https://news.ycombinator.com/item?id=50148601 Points: 38 # Comments: 23",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+    "linkHost": "oro.gay",
+    "pubDate": "2026-10-19T05:11:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
