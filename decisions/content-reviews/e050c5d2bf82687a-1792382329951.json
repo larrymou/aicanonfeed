@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "e050c5d2bf82687a",
+  "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Superlite: A Faster Alternatie to Superpowers",
+  "summary": "Article URL: https://contextfirst.blog/superlite-hand-an-agent-a-spec/ Comments URL: https://news.ycombinator.com/item?id=50147492 Points: 16 # Comments: 8",
+  "pubDate": "2026-10-19T02:01:16.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title suggests a blog post comparing 'Superlite' to 'Superpowers', but no Content fact establishes a named AI model release, research paper, business event, policy action, or open-source AI tool/framework with a repository or official announcement link. No rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://contextfirst.blog/superlite-hand-an-agent-a-spec/ Comments URL: https://news.ycombinator.com/item?id=50147492 Points: 16 # Comments: 8",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+    "linkHost": "contextfirst.blog",
+    "pubDate": "2026-10-19T02:01:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
