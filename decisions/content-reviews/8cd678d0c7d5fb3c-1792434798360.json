@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "8cd678d0c7d5fb3c",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa4bc5/the_best_vs_code_agentic_extension_and_the_best/",
+  "sourceName": "r/LocalLLaMA new",
+  "title": "The best vs code agentic extension? And the best general agentic harness ?",
+  "summary": "I usually use zoo/ roo code , codex and Antigravity. I have also used ds harness, cursor, claude code, and kilocode . I tried hermes and opencode too. Is Claude code or Pi code or ds harness better than Zoo code? i have noticed claude c and hermes use a lot of tokens. Which one i",
+  "pubDate": "2026-10-19T18:09:37.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for opinions/comparisons of coding agents; not a new model release, research artifact, business event, policy action, or new OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I usually use zoo/ roo code , codex and Antigravity. I have also used ds harness, cursor, claude code, and kilocode . I tried hermes and opencode too. Is Claude code or Pi code or ds harness better than Zoo code? i have noticed claude c and hermes use a lot of tokens. Which one i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1xa4bc5/the_best_vs_code_agentic_extension_and_the_best/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-19T18:09:37.000Z",
+    "sourceName": "r/LocalLLaMA new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
