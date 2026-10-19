@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "68305846812362b4",
+  "url": "https://www.techmeme.com/261019/p38#a261019p38",
+  "sourceName": "Techmeme",
+  "title": "Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable tracking features, and more (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable tracking features, and more — The latest use case for AI? Dumbing down your smart TV to get rid of the bloat. A number of developers an",
+  "pubDate": "2026-10-19T18:05:02.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Aggregated media story about developers using existing AI tools (e.g., Claude Code) for smart-TV ad removal. No new model/version/capability release, no research artifact, no business event, no policy action, and no new open-source tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable tracking features, and more — The latest use case for AI? Dumbing down your smart TV to get rid of the bloat. A number of developers an",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p38#a261019p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T18:05:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
