@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "847f57f9e52076f2",
+  "url": "https://www.techmeme.com/261018/p16#a261018p16",
+  "sourceName": "Techmeme",
+  "title": "Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering (Zack Abrams/The Block)",
+  "summary": "Zack Abrams / The Block: Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering — The identity project co-founded by OpenAI CEO Sam Altman named Bain Capital and VanEck Funds a",
+  "pubDate": "2026-10-19T03:10:02.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Zack Abrams / The Block: Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering — The identity project co-founded by OpenAI CEO Sam Altman named Bain Capital and VanEck Funds a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p16#a261018p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T03:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
