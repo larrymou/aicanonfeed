@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "d4540e2040b44245",
+  "url": "https://www.techmeme.com/261019/p40#a261019p40",
+  "sourceName": "Techmeme",
+  "title": "Meta details Prometheus, its gigawatt-scale supercluster in Ohio, which will have ~1M GPUs at full scale and was used to train its Muse foundational models (Engineering at Meta)",
+  "summary": "Engineering at Meta: Meta details Prometheus, its gigawatt-scale supercluster in Ohio, which will have ~1M GPUs at full scale and was used to train its Muse foundational models — - With the recent release of the Muse family of foundational models, we want to take you inside the i",
+  "pubDate": "2026-10-19T18:25:01.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Meta's Prometheus supercluster infrastructure/compute buildout, not a named model release, research artifact, business deal, policy action, or OSS tool. Merely references Muse models; no rule covers infrastructure news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Engineering at Meta: Meta details Prometheus, its gigawatt-scale supercluster in Ohio, which will have ~1M GPUs at full scale and was used to train its Muse foundational models — - With the recent release of the Muse family of foundational models, we want to take you inside the i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p40#a261019p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T18:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
