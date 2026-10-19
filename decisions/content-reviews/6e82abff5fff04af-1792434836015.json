@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "6e82abff5fff04af",
+  "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+  "sourceName": "Ars Technica AI",
+  "title": "AI game clones are making indie developers afraid to show their work",
+  "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+  "pubDate": "2026-10-19T16:59:22.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary about AI game clones and indie developer concerns; no named model release, no research artifact, no financing/M&A/partnership/revenue data or product launch, no policy action, no OSS tool. No active rule covers this cultural/industry commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+    "summaryChars": 75,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-19T16:59:22.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
