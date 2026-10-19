@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "f553a4cf018ac433",
+  "url": "https://lwn.net/Articles/1101143/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Linux 7.3 Released",
+  "summary": "Article URL: https://lwn.net/Articles/1101143/ Comments URL: https://news.ycombinator.com/item?id=50149392 Points: 168 # Comments: 64",
+  "pubDate": "2026-10-19T07:23:57.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Linux kernel 7.3 release (lwn.net), not an AI model, research paper, industry business event, policy action, or AI developer tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lwn.net/Articles/1101143/ Comments URL: https://news.ycombinator.com/item?id=50149392 Points: 168 # Comments: 64",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://lwn.net/Articles/1101143/",
+    "linkHost": "lwn.net",
+    "pubDate": "2026-10-19T07:23:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
