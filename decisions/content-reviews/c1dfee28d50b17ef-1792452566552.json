@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "c1dfee28d50b17ef",
+  "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+  "sourceName": "TechCrunch AI",
+  "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+  "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+  "pubDate": "2026-10-19T20:09:24.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports Amazon launching a new non-model developer tool (TorchNeuron) aimed at Nvidia's PyTorch dominance; link is a reputable media report (techcrunch.com). No official owner or repository link is observed, so covered as an industry product-launch event rather than tools-oss.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+    "summaryChars": 166,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-19T20:09:24.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
