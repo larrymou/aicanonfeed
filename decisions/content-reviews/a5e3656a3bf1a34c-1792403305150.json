@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "a5e3656a3bf1a34c",
+  "url": "https://www.techmeme.com/261019/p10#a261019p10",
+  "sourceName": "Techmeme",
+  "title": "Q&A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded performance over core counts, and more (Wccftech)",
+  "summary": "Wccftech: Q&A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded performance over core counts, and more — NVIDIA's Vera CPU heralds a redefinition of computing architecture from a traditional, task-isolated paradigm t",
+  "pubDate": "2026-10-19T09:15:01.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Q&A/interview with Nvidia's Vera team about CPU design priorities and agentic AI demand. Not a named model release, research paper, business event (financing/M&A/partnership/revenue/non-model launch), policy action, or open-source tool release; no rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wccftech: Q&A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded performance over core counts, and more — NVIDIA's Vera CPU heralds a redefinition of computing architecture from a traditional, task-isolated paradigm t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p10#a261019p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T09:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
