@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "614a0336a7737e51",
+  "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+  "sourceName": "Hacker News Front Page",
+  "title": "Mercury 3: Diffusion at scale",
+  "summary": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 92 # Comments: 37",
+  "pubDate": "2026-10-19T17:27:11.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": true,
+  "categoryId": "model-releases",
+  "matchedRuleId": "1-1",
+  "reason": "Title names the specific model 'Mercury 3'; the link is an official blog announcement ('introducing-mercury-3') on the owner's own domain (linkHost www.inceptionlabs.ai), announcing availability of a new model.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 92 # Comments: 37",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+    "linkHost": "www.inceptionlabs.ai",
+    "pubDate": "2026-10-19T17:27:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
