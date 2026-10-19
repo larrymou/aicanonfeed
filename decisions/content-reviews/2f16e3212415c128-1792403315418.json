@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "2f16e3212415c128",
+  "url": "https://www.techmeme.com/261019/p8#a261019p8",
+  "sourceName": "Techmeme",
+  "title": "Analysis: 11K+ accounts on X, Bluesky, Discord, Telegram, and others made nearly 25K posts to unmask a Cornell sexual assault accuser, after she named seven men (New York Times)",
+  "summary": "New York Times: Analysis: 11K+ accounts on X, Bluesky, Discord, Telegram, and others made nearly 25K posts to unmask a Cornell sexual assault accuser, after she named seven men — After a former student named seven men in a lawsuit saying they had sexually assaulted her, a movemen",
+  "pubDate": "2026-10-19T08:20:01.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media analysis of coordinated online harassment/doxxing, not an AI model release, research, industry business event, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Analysis: 11K+ accounts on X, Bluesky, Discord, Telegram, and others made nearly 25K posts to unmask a Cornell sexual assault accuser, after she named seven men — After a former student named seven men in a lawsuit saying they had sexually assaulted her, a movemen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p8#a261019p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T08:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
