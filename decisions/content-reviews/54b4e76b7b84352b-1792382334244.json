@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "54b4e76b7b84352b",
+  "url": "https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Footage of the Flock search that a judge ruled was uncosntitutional",
+  "summary": "Article URL: https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/ Comments URL: https://news.ycombinator.com/item?id=50147455 Points: 42 # Comments: 13",
+  "pubDate": "2026-10-19T01:55:03.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns footage of a Flock search ruled unconstitutional; Content does not establish an AI policy/regulation action or any AI artifact covered by the active rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/ Comments URL: https://news.ycombinator.com/item?id=50147455 Points: 42 # Comments: 13",
+    "summaryChars": 188,
+    "summarySource": "summary",
+    "link": "https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/",
+    "linkHost": "www.404media.co",
+    "pubDate": "2026-10-19T01:55:03.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
