@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "a523f35411c991e1",
+  "url": "https://www.techmeme.com/261019/p11#a261019p11",
+  "sourceName": "Techmeme",
+  "title": "Elon Musk says \"I will give one of my SpaceX shares to every kid in America\" in 2027; at SpaceX's $146.03 Friday close, the gift would be valued at ~$10.5B (Kai Nicol-Schwarz/CNBC)",
+  "summary": "Kai Nicol-Schwarz / CNBC: Elon Musk says “I will give one of my SpaceX shares to every kid in America” in 2027; at SpaceX's $146.03 Friday close, the gift would be valued at ~$10.5B — Choose CNBC as your preferred source on Google and never miss a moment from the most trusted nam",
+  "pubDate": "2026-10-19T09:40:03.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Elon Musk gifting SpaceX shares to children; it is not an AI model release, research, AI industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kai Nicol-Schwarz / CNBC: Elon Musk says “I will give one of my SpaceX shares to every kid in America” in 2027; at SpaceX's $146.03 Friday close, the gift would be valued at ~$10.5B — Choose CNBC as your preferred source on Google and never miss a moment from the most trusted nam",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p11#a261019p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T09:40:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
