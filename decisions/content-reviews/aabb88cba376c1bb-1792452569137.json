@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "aabb88cba376c1bb",
+  "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+  "sourceName": "Wired AI",
+  "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+  "summary": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
+  "pubDate": "2026-10-19T19:49:17.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Criminal custody ruling about a former OpenAI engineer; no model release, research artifact, business event, policy action, or OSS tool. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former OpenAI engineer’s release to a “blank check.”",
+    "summaryChars": 162,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-19T19:49:17.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
