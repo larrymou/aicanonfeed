@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "f686c0b36dd0f5c4",
+  "url": "https://www.techmeme.com/261018/p15#a261018p15",
+  "sourceName": "Techmeme",
+  "title": "Analysis: 795 accounts funded by ADI Predictstreet's own fee-collecting wallet drove 99% of the FIFA-partnered prediction market's activity since late August (Wall Street Journal)",
+  "summary": "Wall Street Journal: Analysis: 795 accounts funded by ADI Predictstreet's own fee-collecting wallet drove 99% of the FIFA-partnered prediction market's activity since late August — ADI Predictstreet, backed by Abu Dhabi's royal family, paid close to $150 million for advertising r",
+  "pubDate": "2026-10-19T02:20:01.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an investigative analysis of wash-trading activity on a FIFA-partnered prediction market (ADI Predictstreet), backed by Abu Dhabi royals. It is not an AI model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Analysis: 795 accounts funded by ADI Predictstreet's own fee-collecting wallet drove 99% of the FIFA-partnered prediction market's activity since late August — ADI Predictstreet, backed by Abu Dhabi's royal family, paid close to $150 million for advertising r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p15#a261018p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T02:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
