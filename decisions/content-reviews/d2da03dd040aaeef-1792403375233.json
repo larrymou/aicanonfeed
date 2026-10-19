@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "d2da03dd040aaeef",
+  "url": "https://arxiv.org/abs/2610.22403",
+  "sourceName": "arXiv cs.AI",
+  "title": "From Events to Reasoning: Hierarchical Rule Composition over Explicit States",
+  "summary": "arXiv:2610.22403v1 Announce Type: new Abstract: What a reasoning system emits is a conclusion; what it owes is a justification. Producing one requires every operation to be admissible on the facts actually available, the dependencies of intermediate results to survive to the end ",
+  "pubDate": "2026-10-19T04:00:00.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (2610.22403) reporting new AI research on hierarchical rule composition for reasoning systems, with a direct link to the original paper on arxiv.org.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.22403v1 Announce Type: new Abstract: What a reasoning system emits is a conclusion; what it owes is a justification. Producing one requires every operation to be admissible on the facts actually available, the dependencies of intermediate results to survive to the end ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.22403",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-19T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
