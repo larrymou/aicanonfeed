@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "396652c9e5c9f8ff",
+  "url": "https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Europe EV sales rose 70.3% in September, 32.6% of market share",
+  "summary": "Article URL: https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/ Comments URL: https://news.ycombinator.com/item?id=50155291 Points: 82 # Comments: 54",
+  "pubDate": "2026-10-19T17:30:26.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports European EV sales data, unrelated to AI models, research, industry AI business events, AI policy, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/ Comments URL: https://news.ycombinator.com/item?id=50155291 Points: 82 # Comments: 54",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/",
+    "linkHost": "www.reuters.com",
+    "pubDate": "2026-10-19T17:30:26.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
