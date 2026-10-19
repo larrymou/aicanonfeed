@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "1a1bcd2619986b9a",
+  "url": "https://www.techmeme.com/261019/p46#a261019p46",
+  "sourceName": "Techmeme",
+  "title": "Sources: Eric Schmidt, who owns ~1% of Anthropic after investing tens of millions in its Series A, is poised to have one of the largest windfalls from its IPO (Bloomberg)",
+  "summary": "Bloomberg: Sources: Eric Schmidt, who owns ~1% of Anthropic after investing tens of millions in its Series A, is poised to have one of the largest windfalls from its IPO — Former Google Chief Executive Officer Eric Schmidt owns around 1% of Anthropic PBC thanks to his early inves",
+  "pubDate": "2026-10-19T22:40:03.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/financing event: Eric Schmidt's ~1% Anthropic stake and expected IPO windfall, sourced to Bloomberg via Techmeme, a reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Eric Schmidt, who owns ~1% of Anthropic after investing tens of millions in its Series A, is poised to have one of the largest windfalls from its IPO — Former Google Chief Executive Officer Eric Schmidt owns around 1% of Anthropic PBC thanks to his early inves",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p46#a261019p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T22:40:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
