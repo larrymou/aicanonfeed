@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "579172d6be092274",
+  "url": "https://www.techmeme.com/261018/p14#a261018p14",
+  "sourceName": "Techmeme",
+  "title": "Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment (Aaron Kirchfeld/Financial Times)",
+  "summary": "Aaron Kirchfeld / Financial Times: Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment — Schneider Electric and Siemens move further into software as rival ABB bets on phy",
+  "pubDate": "2026-10-19T01:40:00.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Aaron Kirchfeld / Financial Times: Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment — Schneider Electric and Siemens move further into software as rival ABB bets on phy",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p14#a261018p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T01:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
