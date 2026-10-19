@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792434769868-559dex",
+  "urlHash": "2441be7c1a848965",
+  "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+  "sourceName": "Wired AI",
+  "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+  "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
+  "pubDate": "2026-10-19T16:00:00.000Z",
+  "decidedAt": "2026-10-19T18:33:02.392Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Leaked chatbot instruction pages are a security/prompt disclosure story. It is not a model release or capability, not a research artifact, not a business event (financing, M&A, partnership, revenue, product launch), not policy action, and not an OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Around 80 pages on WhatsApp’s website exposed instructions that were designed for its chatbot, including “WHAT NOT TO SAY.” Meta says a bug caused the issue.",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-19T16:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
