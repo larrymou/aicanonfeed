@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "efa35a8c879ba1bc",
+  "url": "https://www.techmeme.com/261019/p7#a261019p7",
+  "sourceName": "Techmeme",
+  "title": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+ (Kevin Townsend/SecurityWeek)",
+  "summary": "Kevin Townsend / SecurityWeek: CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+ — CyberSN's Cybersecurity Jobs Report provides visibility into the US cybersecurity job ma",
+  "pubDate": "2026-10-19T08:00:46.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports US cybersecurity job-posting labor statistics from CyberSN, not an AI model release, research result, AI industry business event (financing/M&A/partnership/product launch), policy action, or OSS tool. No active rule covers labor-market data.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kevin Townsend / SecurityWeek: CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+ — CyberSN's Cybersecurity Jobs Report provides visibility into the US cybersecurity job ma",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p7#a261019p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T08:00:46.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
