@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792452497028-c2f3g0",
+  "urlHash": "f649037fa8e9c17e",
+  "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+  "sourceName": "TechCrunch AI",
+  "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+  "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+  "pubDate": "2026-10-19T19:28:34.000Z",
+  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security breach/incident coverage of OpenCode (stolen API keys) is not a model release, research result, business event (financing/M&A/partnership/market data/product launch), policy action, or new OSS tool announcement; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-19T19:28:34.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
