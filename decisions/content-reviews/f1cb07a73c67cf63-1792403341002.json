@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "f1cb07a73c67cf63",
+  "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+  "sourceName": "Hacker News Front Page",
+  "title": "DeepSeek V4.1 Flash 1017 (Max)",
+  "summary": "Article URL: https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50148452 Points: 139 # Comments: 46",
+  "pubDate": "2026-10-19T04:41:46.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names DeepSeek V4.1 Flash, but link is an artificialanalysis.ai model page, not DeepSeek's official announcement; linked_page_author/owner_domain not observed, so the non-owner news-article alternative (named author + date) is unproven. Version 4.1 is not an N.0 major version. No rule conditio",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50148452 Points: 139 # Comments: 46",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+    "linkHost": "artificialanalysis.ai",
+    "pubDate": "2026-10-19T04:41:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
