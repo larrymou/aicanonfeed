@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "c661cc64f1a7a7f3",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1x9i1pg/do_iclr_guidelines_allow_to_upload_papers_under/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Do ICLR guidelines allow to upload papers under review to LLM chats? [D]",
+  "summary": "I know AI use must be disclosed, and I'm fine with it. However, I'm being careful on not using LLMs to actually check my review (more than prose-wise) and see if it catches something important in the paper that I didn't spot. I'm doing this because I'm not sure it is allowed to s",
+  "pubDate": "2026-10-18T23:52:01.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking whether ICLR guidelines permit uploading papers under review to LLM chats. No model release, no research artifact, no industry business event, no policy/government action, no open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I know AI use must be disclosed, and I'm fine with it. However, I'm being careful on not using LLMs to actually check my review (more than prose-wise) and see if it catches something important in the paper that I didn't spot. I'm doing this because I'm not sure it is allowed to s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1x9i1pg/do_iclr_guidelines_allow_to_upload_papers_under/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-18T23:52:01.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
