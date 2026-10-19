@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792403286866-mpixd7",
+  "urlHash": "ecf6666fb4201a81",
+  "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+  "sourceName": "Wired AI",
+  "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+  "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
+  "pubDate": "2026-10-19T09:00:00.000Z",
+  "decidedAt": "2026-10-19T09:48:20.082Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a litigation/bankruptcy tactic in a company dispute (Disney vs Character.AI), not a model release, research artifact, financing/M&A/partnership/market data or product launch, government policy action, or open-source tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
+    "summaryChars": 184,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-19T09:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
