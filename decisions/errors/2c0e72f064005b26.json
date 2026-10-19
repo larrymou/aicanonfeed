@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792382303752-8183ma",
+  "urlHash": "2c0e72f064005b26",
+  "url": "https://www.techmeme.com/261018/p18#a261018p18",
+  "sourceName": "Techmeme",
+  "title": "Intel unveils its GPU D-series for data centers, featuring up to 480GB of LPDDR5X memory, an unusually large capacity to support demanding inference workloads (Efosa Udinmwen/TechRadar)",
+  "summary": "Efosa Udinmwen / TechRadar: Intel unveils its GPU D-series for data centers, featuring up to 480GB of LPDDR5X memory, an unusually large capacity to support demanding inference workloads — Intel GPU D-series uses laptop LPDDR5X with 480GB memory — Intel's GPU D-series sets a new ",
+  "pubDate": "2026-10-19T03:50:01.000Z",
+  "decidedAt": "2026-10-19T03:58:32.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Efosa Udinmwen / TechRadar: Intel unveils its GPU D-series for data centers, featuring up to 480GB of LPDDR5X memory, an unusually large capacity to support demanding inference workloads — Intel GPU D-series uses laptop LPDDR5X with 480GB memory — Intel's GPU D-series sets a new ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261018/p18#a261018p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T03:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
