@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "509f48468ef3f724",
+  "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+  "sourceName": "Ars Technica AI",
+  "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+  "summary": "A single query is all that's required to find thousands of conversations listed by title.",
+  "pubDate": "2026-10-20T12:33:13.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a privacy/security exposure (user conversations discoverable) in Meta Muse. It is not a model release, research paper, industry business event (financing, M&A, partnership, market data, non-model product launch), policy action, or open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A single query is all that's required to find thousands of conversations listed by title.",
+    "summaryChars": 89,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-20T12:33:13.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
