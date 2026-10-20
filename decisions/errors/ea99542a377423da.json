@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "ea99542a377423da",
+  "url": "https://www.techmeme.com/261019/p50#a261019p50",
+  "sourceName": "Techmeme",
+  "title": "Korean data-center company Elice falls 30%+ in Kosdaq trading debut; sources: Australian data center operator AirTrunk delays real estate investment trust IPO (Bloomberg)",
+  "summary": "Bloomberg: Korean data-center company Elice falls 30%+ in Kosdaq trading debut; sources: Australian data center operator AirTrunk delays real estate investment trust IPO — Data-center infrastructure company Elice Inc. plunged in its trading debut in South Korea, dragged down by s",
+  "pubDate": "2026-10-20T00:56:52.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Korean data-center company Elice falls 30%+ in Kosdaq trading debut; sources: Australian data center operator AirTrunk delays real estate investment trust IPO — Data-center infrastructure company Elice Inc. plunged in its trading debut in South Korea, dragged down by s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p50#a261019p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T00:56:52.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
