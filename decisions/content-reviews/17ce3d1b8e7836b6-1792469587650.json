@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "17ce3d1b8e7836b6",
+  "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/?utm_source=IEEE",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
+  "summary": "This white paper explains how edge AI and physical AI help cities move beyond passive monitoring. It shows how urban infrastructure can sense, reason, and act on real-time conditions across public safety, mobility, and infrastructure management. What you will learn about: How the",
+  "pubDate": "2026-10-19T10:00:04.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a sponsored white paper on edge AI for smart cities. It names no specific model release (R1-1), reports no peer-reviewed paper, arXiv preprint, or benchmark (R2-1), and covers no financing/M&A/partnership, policy action, or OSS tool release. No rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This white paper explains how edge AI and physical AI help cities move beyond passive monitoring. It shows how urban infrastructure can sense, reason, and act on real-time conditions across public safety, mobility, and infrastructure management. What you will learn about: How the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/?utm_source=IEEE",
+    "linkHost": "content.knowledgehub.wiley.com",
+    "pubDate": "2026-10-19T10:00:04.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
