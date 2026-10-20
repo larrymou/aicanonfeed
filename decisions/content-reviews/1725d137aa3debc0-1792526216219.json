@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "1725d137aa3debc0",
+  "url": "https://openai.com/index/ted-taylor-restaurant",
+  "sourceName": "OpenAI Blog",
+  "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+  "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+  "pubDate": "2026-10-20T10:00:00.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on how a franchisee uses ChatGPT Work; no new model, version, or capability release (R1), no research artifact (R2), no financing/M&A/partnership or product launch (R3), no policy action (R4), no OSS tooling (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/ted-taylor-restaurant",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-20T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
