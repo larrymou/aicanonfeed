@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "c2b91d0bfe94f9b5",
+  "url": "https://www.techmeme.com/261020/p50#a261020p50",
+  "sourceName": "Techmeme",
+  "title": "Elon Musk says Tesla and SpaceX have formed special committees to discuss a possible merger and calls the possibility of a Tesla-SpaceX merger a \"good idea\" (Andrew J. Hawkins/The Verge)",
+  "summary": "Andrew J. Hawkins / The Verge: Elon Musk says Tesla and SpaceX have formed special committees to discuss a possible merger and calls the possibility of a Tesla-SpaceX merger a “good idea” — Musk called the merger “a good idea,” though it cautioned it wasn't a guarantee.",
+  "pubDate": "2026-10-20T21:45:01.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a possible Tesla-SpaceX merger discussion; it is not an AI model release, research result, AI policy action, AI tooling, nor an AI industry business event, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew J. Hawkins / The Verge: Elon Musk says Tesla and SpaceX have formed special committees to discuss a possible merger and calls the possibility of a Tesla-SpaceX merger a “good idea” — Musk called the merger “a good idea,” though it cautioned it wasn't a guarantee.",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p50#a261020p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T21:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
