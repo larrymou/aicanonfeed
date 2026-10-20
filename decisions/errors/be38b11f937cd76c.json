@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "be38b11f937cd76c",
+  "url": "https://github.com/deepseek-ai/DeepInfer",
+  "sourceName": "Hacker News Front Page",
+  "title": "DeepSeek just open-sourced its inference engine",
+  "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 905 # Comments: 309",
+  "pubDate": "2026-10-20T09:08:54.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 905 # Comments: 309",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://github.com/deepseek-ai/DeepInfer",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-20T09:08:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
