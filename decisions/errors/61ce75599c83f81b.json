@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "61ce75599c83f81b",
+  "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+  "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+  "pubDate": "2026-10-20T18:38:24.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-20T18:38:24.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
