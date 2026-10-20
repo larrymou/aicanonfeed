@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "7b93b8c0d8e313e1",
+  "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+  "sourceName": "Ars Technica AI",
+  "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+  "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+  "pubDate": "2026-10-20T18:22:54.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a military drone evacuation of a wounded soldier; it reports no AI model release, research artifact, industry business event, policy action, or open-source AI tool, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-20T18:22:54.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
