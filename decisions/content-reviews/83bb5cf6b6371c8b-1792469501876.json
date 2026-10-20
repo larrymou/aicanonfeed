@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "83bb5cf6b6371c8b",
+  "url": "https://www.techmeme.com/261019/p52#a261019p52",
+  "sourceName": "Techmeme",
+  "title": "Mercury CEO Immad Akhund says the fintech hit $1B in annualized revenue, up ~50% YoY, has more than 450K customers, and is launching a payroll service (Eric Newcomer/Newcomer)",
+  "summary": "Eric Newcomer / Newcomer: Mercury CEO Immad Akhund says the fintech hit $1B in annualized revenue, up ~50% YoY, has more than 450K customers, and is launching a payroll service — I sat down with Mercury CEO Immad Akhund — We just published my conversation with Mercury CEO Immad A",
+  "pubDate": "2026-10-20T03:05:01.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Mercury, a fintech, reporting annualized revenue, customer count, and a payroll service launch — not an AI model release, research result, AI policy action, or open-source AI tool. No active rule covers non-AI fintech business news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Eric Newcomer / Newcomer: Mercury CEO Immad Akhund says the fintech hit $1B in annualized revenue, up ~50% YoY, has more than 450K customers, and is launching a payroll service — I sat down with Mercury CEO Immad Akhund — We just published my conversation with Mercury CEO Immad A",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p52#a261019p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T03:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
