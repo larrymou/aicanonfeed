@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "5de61be2b5b848f6",
+  "url": "https://www.techmeme.com/261020/p39#a261020p39",
+  "sourceName": "Techmeme",
+  "title": "A profile of Xbox CEO Asha Sharma; sources: Xbox plans a major Game Pass overhaul, a next-gen handheld device by late 2027, and next-gen console by late 2028 (Sebastian Herrera/Fortune)",
+  "summary": "Sebastian Herrera / Fortune: A profile of Xbox CEO Asha Sharma; sources: Xbox plans a major Game Pass overhaul, a next-gen handheld device by late 2027, and next-gen console by late 2028 — Xbox CEO Asha Sharma. — Asha Sharma returns from one of her walking meetings around Microso",
+  "pubDate": "2026-10-20T19:45:01.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a gaming-industry profile of Xbox's CEO covering a Game Pass overhaul and next-gen handheld/console plans; it reports no AI model release, AI research artifact, AI business event, AI policy action, or open-source AI tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sebastian Herrera / Fortune: A profile of Xbox CEO Asha Sharma; sources: Xbox plans a major Game Pass overhaul, a next-gen handheld device by late 2027, and next-gen console by late 2028 — Xbox CEO Asha Sharma. — Asha Sharma returns from one of her walking meetings around Microso",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p39#a261020p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T19:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
