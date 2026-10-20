@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "1a0667a2b975d5fd",
+  "url": "https://www.techmeme.com/261020/p52#a261020p52",
+  "sourceName": "Techmeme",
+  "title": "Pigment, a French startup that makes AI-powered software to help businesses forecast finances, spin up slide decks, and more, raised $250M at a $2.3B valuation (Dina Bass/Bloomberg)",
+  "summary": "Dina Bass / Bloomberg: Pigment, a French startup that makes AI-powered software to help businesses forecast finances, spin up slide decks, and more, raised $250M at a $2.3B valuation — Pigment, a French AI company that competes with Microsoft's Excel and PowerPoint, has raised $2",
+  "pubDate": "2026-10-20T22:00:01.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dina Bass / Bloomberg: Pigment, a French startup that makes AI-powered software to help businesses forecast finances, spin up slide decks, and more, raised $250M at a $2.3B valuation — Pigment, a French AI company that competes with Microsoft's Excel and PowerPoint, has raised $2",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p52#a261020p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T22:00:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
