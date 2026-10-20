@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "925e6a635cad1b6f",
+  "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+  "sourceName": "The Verge AI",
+  "title": "Google’s more personalized Gemini AI is heading to your car",
+  "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you",
+  "pubDate": "2026-10-20T22:11:34.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Non-model product/feature expansion: Google brings Personal Intelligence to Gemini in Android Auto and Google built-in cars. Reported by reputable media (The Verge) with link and publication date; no official owner announcement link, so it falls under industry rather than model-releases.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-20T22:11:34.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
