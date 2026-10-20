@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "2ab3ec8d93679ddb",
+  "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+  "sourceName": "Wired AI",
+  "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+  "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
+  "pubDate": "2026-10-20T17:41:58.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-20T17:41:58.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
