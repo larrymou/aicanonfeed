@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792452497028-c2f3g0",
+  "runId": "run-1792469483504-i8uqce",
   "urlHash": "e0adeca3ba3bda07",
   "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Developers can now access SageMaker Studio through the new AWS experience",
   "summary": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plu",
   "pubDate": "2026-10-19T22:39:24.000Z",
-  "decidedAt": "2026-10-19T23:28:23.932Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "reason": "AWS blog about a SageMaker Studio onboarding/sign-up experience change — a product feature/UX update, not a named model release, research artifact, policy action, or open-source tool. No active rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plu",
