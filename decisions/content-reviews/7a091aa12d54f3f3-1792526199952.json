@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "7a091aa12d54f3f3",
+  "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+  "sourceName": "The Verge AI",
+  "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+  "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music ma",
+  "pubDate": "2026-10-20T14:18:37.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Spotify removing AI-generated spam tracks and tweaking recommendations is a platform moderation/feature change, not a model release, research result, financing/M&A/partnership/revenue event, policy action, or open-source tool launch. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music ma",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-20T14:18:37.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
