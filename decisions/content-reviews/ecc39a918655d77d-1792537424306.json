@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "ecc39a918655d77d",
+  "url": "https://www.techmeme.com/261020/p49#a261020p49",
+  "sourceName": "Techmeme",
+  "title": "Eight intermediate TLS certificates from eMudhra with private key sizes of just 3 to 8 bits were compromised; browser makers and major apps have blocked them (Dan Goodin/Ars Technica)",
+  "summary": "Dan Goodin / Ars Technica: Eight intermediate TLS certificates from eMudhra with private key sizes of just 3 to 8 bits were compromised; browser makers and major apps have blocked them — Security personnel around the world are on high alert Tuesday following the discovery of eigh",
+  "pubDate": "2026-10-20T21:30:01.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports compromised TLS certificates from eMudhra — a security incident affecting browsers/apps. It is not a model release, research result, industry business event, policy action, or open-source tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dan Goodin / Ars Technica: Eight intermediate TLS certificates from eMudhra with private key sizes of just 3 to 8 bits were compromised; browser makers and major apps have blocked them — Security personnel around the world are on high alert Tuesday following the discovery of eigh",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p49#a261020p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T21:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
