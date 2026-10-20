@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "a6ca8d27a69f9646",
+  "url": "https://www.techmeme.com/261020/p40#a261020p40",
+  "sourceName": "Techmeme",
+  "title": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges (Anissa Gardizy/Wall Street Journal)",
+  "summary": "Anissa Gardizy / Wall Street Journal: Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges — In a new draft prospectus viewed by the Journal, the AI giant disclosed an $80.7 billi",
+  "pubDate": "2026-10-20T19:46:50.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anissa Gardizy / Wall Street Journal: Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges — In a new draft prospectus viewed by the Journal, the AI giant disclosed an $80.7 billi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p40#a261020p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T19:46:50.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
