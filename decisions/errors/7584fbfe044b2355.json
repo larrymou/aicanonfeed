@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "7584fbfe044b2355",
+  "url": "https://www.techmeme.com/261020/p22#a261020p22",
+  "sourceName": "Techmeme",
+  "title": "Eka Robotics, which is developing a \"vision-force-action\" architecture for its physical AI models, raised a $150M Series A at a $1.45B post-money valuation (Tim Fernholz/TechCrunch)",
+  "summary": "Tim Fernholz / TechCrunch: Eka Robotics, which is developing a “vision-force-action” architecture for its physical AI models, raised a $150M Series A at a $1.45B post-money valuation — Robots still aren't that good at picking things up, despite billions of dollars of investment a",
+  "pubDate": "2026-10-20T13:15:01.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tim Fernholz / TechCrunch: Eka Robotics, which is developing a “vision-force-action” architecture for its physical AI models, raised a $150M Series A at a $1.45B post-money valuation — Robots still aren't that good at picking things up, despite billions of dollars of investment a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p22#a261020p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T13:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
