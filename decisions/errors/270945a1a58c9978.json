@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "270945a1a58c9978",
+  "url": "https://www.techmeme.com/261020/p53#a261020p53",
+  "sourceName": "Techmeme",
+  "title": "Google says it is rolling out Personal Intelligence for Gemini on Android Auto now and to cars with Google built-in in the coming months as an opt-in feature (Abner Li/9to5Google)",
+  "summary": "Abner Li / 9to5Google: Google says it is rolling out Personal Intelligence for Gemini on Android Auto now and to cars with Google built-in in the coming months as an opt-in feature — Google is beginning to roll out Personal Intelligence for Gemini on Android Auto and Android Auto",
+  "pubDate": "2026-10-20T22:30:04.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Abner Li / 9to5Google: Google says it is rolling out Personal Intelligence for Gemini on Android Auto now and to cars with Google built-in in the coming months as an opt-in feature — Google is beginning to roll out Personal Intelligence for Gemini on Android Auto and Android Auto",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p53#a261020p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T22:30:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
