@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "163d0c9250f0c615",
+  "url": "https://www.techmeme.com/261020/p37#a261020p37",
+  "sourceName": "Techmeme",
+  "title": "Google launches TorchTPU, an open-source version of PyTorch to let AI apps run on TPUs and Google Cloud via simple configuration changes without rewriting code (Julie Bort/TechCrunch)",
+  "summary": "Julie Bort / TechCrunch: Google launches TorchTPU, an open-source version of PyTorch to let AI apps run on TPUs and Google Cloud via simple configuration changes without rewriting code — On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now avail",
+  "pubDate": "2026-10-20T19:00:58.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes an open-source PyTorch variant (TorchTPU), so rule 5-1 is the closest fit, but its link is a Techmeme aggregator page (linkHost www.techmeme.com), not the repository or an official Google announcement; the required link condition is unmet, and it is not a model release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Julie Bort / TechCrunch: Google launches TorchTPU, an open-source version of PyTorch to let AI apps run on TPUs and Google Cloud via simple configuration changes without rewriting code — On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now avail",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p37#a261020p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T19:00:58.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
