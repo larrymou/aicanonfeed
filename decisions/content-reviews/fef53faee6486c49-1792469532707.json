@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "fef53faee6486c49",
+  "url": "https://www.techmeme.com/261019/p49#a261019p49",
+  "sourceName": "Techmeme",
+  "title": "Sources: OpenAI is racing to secure investor commitments before Anthropic's expected IPO in mid-Nov. and aims to raise ~$30B; the round could value it at $1.4T+ (Reuters)",
+  "summary": "Reuters: Sources: OpenAI is racing to secure investor commitments before Anthropic's expected IPO in mid-Nov. and aims to raise ~$30B; the round could value it at $1.4T+ — OpenAI is racing to secure investor commitments before rival Anthropic's expected public market debut in mid",
+  "pubDate": "2026-10-19T23:38:29.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry financing event: OpenAI raising ~$30B at a $1.4T+ valuation amid Anthropic's expected IPO, sourced to Reuters via Techmeme, a reputable media report. No official owner announcement, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: OpenAI is racing to secure investor commitments before Anthropic's expected IPO in mid-Nov. and aims to raise ~$30B; the round could value it at $1.4T+ — OpenAI is racing to secure investor commitments before rival Anthropic's expected public market debut in mid",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p49#a261019p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-19T23:38:29.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
