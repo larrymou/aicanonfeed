@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "a3810e82918ceaaf",
+  "url": "https://www.techmeme.com/261020/p19#a261020p19",
+  "sourceName": "Techmeme",
+  "title": "Spotify launches paid podcast memberships in 34 markets, including the US; creators can offer perks like bonus content or fewer ads and keep 90% of revenue (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Spotify launches paid podcast memberships in 34 markets, including the US; creators can offer perks like bonus content or fewer ads and keep 90% of revenue — Spotify on Tuesday launched paid memberships, a new way for podcasters to make money from their ",
+  "pubDate": "2026-10-20T12:25:01.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Spotify paid podcast memberships is a non-AI consumer product/monetization launch; no AI model, research artifact, AI business event, policy action, or OSS tool is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Spotify launches paid podcast memberships in 34 markets, including the US; creators can offer perks like bonus content or fewer ads and keep 90% of revenue — Spotify on Tuesday launched paid memberships, a new way for podcasters to make money from their ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p19#a261020p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T12:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
