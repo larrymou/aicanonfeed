@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "80bf224448ac6cb6",
+  "url": "https://www.techmeme.com/261020/p51#a261020p51",
+  "sourceName": "Techmeme",
+  "title": "PHP development team plans to release updates tomorrow to address two vulnerabilities, each rated 9.2; security researchers at watchTowr say they are RCE flaws (Lawrence Abrams/BleepingComputer)",
+  "summary": "Lawrence Abrams / BleepingComputer: PHP development team plans to release updates tomorrow to address two vulnerabilities, each rated 9.2; security researchers at watchTowr say they are RCE flaws — The PHP security team is warning administrators to prepare for emergency security ",
+  "pubDate": "2026-10-20T21:55:01.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports PHP security vulnerabilities and an emergency patch, not an AI model release, research, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lawrence Abrams / BleepingComputer: PHP development team plans to release updates tomorrow to address two vulnerabilities, each rated 9.2; security researchers at watchTowr say they are RCE flaws — The PHP security team is warning administrators to prepare for emergency security ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p51#a261020p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T21:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
