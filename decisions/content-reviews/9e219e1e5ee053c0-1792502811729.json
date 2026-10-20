@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "9e219e1e5ee053c0",
+  "url": "https://www.science.org/doi/10.1126/science.ael8752",
+  "sourceName": "Hacker News Front Page",
+  "title": "Demographic \"Doomsday\" Misses the Mark",
+  "summary": "Article URL: https://www.science.org/doi/10.1126/science.ael8752 Comments URL: https://news.ycombinator.com/item?id=50165276 Points: 23 # Comments: 13",
+  "pubDate": "2026-10-20T12:22:28.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Science article on demographic 'doomsday' claims; no AI model release, research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.science.org/doi/10.1126/science.ael8752 Comments URL: https://news.ycombinator.com/item?id=50165276 Points: 23 # Comments: 13",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://www.science.org/doi/10.1126/science.ael8752",
+    "linkHost": "www.science.org",
+    "pubDate": "2026-10-20T12:22:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
