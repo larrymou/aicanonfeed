@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "377d4f38bf9098f3",
+  "url": "https://www.techmeme.com/261020/p23#a261020p23",
+  "sourceName": "Techmeme",
+  "title": "Arda, which develops AI software and agents to accelerate assembly line programming and manufacturing automation, raised $230M at a $1.5B valuation (Kate Rooney/CNBC)",
+  "summary": "Kate Rooney / CNBC: Arda, which develops AI software and agents to accelerate assembly line programming and manufacturing automation, raised $230M at a $1.5B valuation — OpenAI's former research chief has been quietly building a startup that aims to bring manufacturing back to th",
+  "pubDate": "2026-10-20T13:25:01.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kate Rooney / CNBC: Arda, which develops AI software and agents to accelerate assembly line programming and manufacturing automation, raised $230M at a $1.5B valuation — OpenAI's former research chief has been quietly building a startup that aims to bring manufacturing back to th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p23#a261020p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T13:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
