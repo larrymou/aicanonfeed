@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "c713b9c06b3a0249",
+  "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+  "sourceName": "The Verge AI",
+  "title": "Democrats think cracking down on AI could give them an edge",
+  "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which wo",
+  "pubDate": "2026-10-19T12:00:00.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is political commentary about Democrats' midterm strategy on AI, not a new law, regulation, executive order, or official policy action. No research artifact, model release, business event, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which wo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-19T12:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
