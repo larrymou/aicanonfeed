@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "38ca915789f474ed",
+  "url": "https://www.techmeme.com/261019/p51#a261019p51",
+  "sourceName": "Techmeme",
+  "title": "Inception launches Mercury 3, a diffusion-based LLM it claims is \"comparable to Luna and Haiku models\" but 4x to 8x faster, generating ~1,000 tokens per second (Jason Hiner/The Deep View)",
+  "summary": "Jason Hiner / The Deep View: Inception launches Mercury 3, a diffusion-based LLM it claims is “comparable to Luna and Haiku models” but 4x to 8x faster, generating ~1,000 tokens per second — W — hile the AI industry has bet heavily on LLMs and the massive data centers needed to s",
+  "pubDate": "2026-10-20T01:45:01.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jason Hiner / The Deep View: Inception launches Mercury 3, a diffusion-based LLM it claims is “comparable to Luna and Haiku models” but 4x to 8x faster, generating ~1,000 tokens per second — W — hile the AI industry has bet heavily on LLMs and the massive data centers needed to s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p51#a261019p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T01:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
