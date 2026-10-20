@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "379ed475f59bcf1f",
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+  "sourceName": "Ars Technica AI",
+  "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+  "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+  "pubDate": "2026-10-20T20:07:58.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta's revision of its commercial terms of service for AI scraping is company self-regulation, not a model release, research artifact, business event (financing/M&A/partnership/revenue/non-model product), or government policy action. Rule 4-1 explicitly excludes industry self-regulation, so no activ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-20T20:07:58.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
