@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "a0317dec9e9f8f30",
+  "url": "https://www.techmeme.com/261019/p53#a261019p53",
+  "sourceName": "Techmeme",
+  "title": "An Australian minister says the eSafety Commissioner plans to sue Meta, TikTok, Snapchat, and YouTube over alleged breaches of the under-16 social media ban (Angus Whitley/Bloomberg)",
+  "summary": "Angus Whitley / Bloomberg: An Australian minister says the eSafety Commissioner plans to sue Meta, TikTok, Snapchat, and YouTube over alleged breaches of the under-16 social media ban — Australia's government is set to sue Facebook, TikTok and other major digital platforms for al",
+  "pubDate": "2026-10-20T03:45:01.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Angus Whitley / Bloomberg: An Australian minister says the eSafety Commissioner plans to sue Meta, TikTok, Snapchat, and YouTube over alleged breaches of the under-16 social media ban — Australia's government is set to sue Facebook, TikTok and other major digital platforms for al",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261019/p53#a261019p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T03:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
