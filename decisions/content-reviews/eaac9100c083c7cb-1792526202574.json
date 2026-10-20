@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "eaac9100c083c7cb",
+  "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+  "sourceName": "TechCrunch AI",
+  "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+  "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
+  "pubDate": "2026-10-20T14:13:32.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion on the MCP protocol and a statement of intent to support standards; no named model release, research artifact, business event, policy action, or open-source tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
+    "summaryChars": 94,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-20T14:13:32.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
