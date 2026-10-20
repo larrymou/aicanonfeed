@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "3fae25bc07477e49",
+  "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+  "sourceName": "Ars Technica AI",
+  "title": "Gemini's Personal Intelligence is coming to cars",
+  "summary": "It's probably time to audit your Gemini settings.",
+  "pubDate": "2026-10-20T20:00:33.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It's probably time to audit your Gemini settings.",
+    "summaryChars": 49,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-20T20:00:33.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
