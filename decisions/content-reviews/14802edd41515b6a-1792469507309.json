@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "14802edd41515b6a",
+  "url": "https://marc.info/?l=openbsd-misc&m=179245849770356&w=2",
+  "sourceName": "Hacker News Front Page",
+  "title": "OpenBSD 8.0: released Oct 20, 2026",
+  "summary": "Article URL: https://marc.info/?l=openbsd-misc&m=179245849770356&w=2 Comments URL: https://news.ycombinator.com/item?id=50160419 Points: 17 # Comments: 1",
+  "pubDate": "2026-10-20T01:53:51.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenBSD 8.0 is an operating system release, not an AI model, research result, AI industry event, AI policy action, or AI open-source tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://marc.info/?l=openbsd-misc&m=179245849770356&w=2 Comments URL: https://news.ycombinator.com/item?id=50160419 Points: 17 # Comments: 1",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://marc.info/?l=openbsd-misc&m=179245849770356&w=2",
+    "linkHost": "marc.info",
+    "pubDate": "2026-10-20T01:53:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
