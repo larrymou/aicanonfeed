@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "5ed7b4468bde462d",
+  "url": "https://github.com/google-pytorch/torch_tpu",
+  "sourceName": "Hacker News Front Page",
+  "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+  "summary": "Article URL: https://github.com/google-pytorch/torch_tpu Comments URL: https://news.ycombinator.com/item?id=50169053 Points: 149 # Comments: 41",
+  "pubDate": "2026-10-20T16:40:24.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/google-pytorch/torch_tpu Comments URL: https://news.ycombinator.com/item?id=50169053 Points: 149 # Comments: 41",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://github.com/google-pytorch/torch_tpu",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-20T16:40:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
