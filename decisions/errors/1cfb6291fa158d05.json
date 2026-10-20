@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "1cfb6291fa158d05",
+  "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+  "sourceName": "OpenAI Blog",
+  "title": "OpenAI acquires Orchestra Bio",
+  "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+  "pubDate": "2026-10-20T00:00:00.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+    "summaryChars": 166,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-20T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
