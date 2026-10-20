@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792469483504-i8uqce",
+  "urlHash": "f6ae6db404fd89fd",
+  "url": "https://github.com/golang/go/issues/82345",
+  "sourceName": "Hacker News Front Page",
+  "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+  "summary": "Article URL: https://github.com/golang/go/issues/82345 Comments URL: https://news.ycombinator.com/item?id=50160877 Points: 10 # Comments: 2",
+  "pubDate": "2026-10-20T03:05:07.000Z",
+  "decidedAt": "2026-10-20T04:11:32.963Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Go's TLS certificate chain/SPKI distrust policy, not an AI model, research, industry business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/golang/go/issues/82345 Comments URL: https://news.ycombinator.com/item?id=50160877 Points: 10 # Comments: 2",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://github.com/golang/go/issues/82345",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-20T03:05:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
