@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792537371362-z91cv5",
+  "urlHash": "e7e49edf89452055",
+  "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+  "sourceName": "TechCrunch AI",
+  "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+  "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+  "pubDate": "2026-10-20T22:24:02.000Z",
+  "decidedAt": "2026-10-20T23:03:05.634Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary: Hugging Face CEO criticizing a Netflix documentary's accuracy. No named model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+    "summaryChars": 189,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-20T22:24:02.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
