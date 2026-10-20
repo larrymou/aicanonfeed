@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792526104270-5g61d1",
+  "urlHash": "5e09c3ded611dfaa",
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+  "sourceName": "Ars Technica AI",
+  "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+  "summary": "Meta argues nobody “decided” to pirate books to train AI.",
+  "pubDate": "2026-10-20T17:40:20.000Z",
+  "decidedAt": "2026-10-20T19:55:14.008Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a copyright/torrenting lawsuit and litigation tactics against Meta staff—not a model release, research artifact, business event, official policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta argues nobody “decided” to pirate books to train AI.",
+    "summaryChars": 57,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-20T17:40:20.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
