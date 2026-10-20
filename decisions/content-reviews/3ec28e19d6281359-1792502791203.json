@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "3ec28e19d6281359",
+  "url": "https://www.techmeme.com/261020/p21#a261020p21",
+  "sourceName": "Techmeme",
+  "title": "DeepSeek open-sources DeepInfer, its internal production stack designed to accelerate inference, optimize chip performance, and reduce energy and compute costs (Saritha Rai/Bloomberg)",
+  "summary": "Saritha Rai / Bloomberg: DeepSeek open-sources DeepInfer, its internal production stack designed to accelerate inference, optimize chip performance, and reduce energy and compute costs — DeepSeek is opening up the software it uses to run its artificial intelligence models at scal",
+  "pubDate": "2026-10-20T13:05:01.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Open-source inference stack (tools-oss candidate), but the link is a Techmeme aggregation page (linkHost www.techmeme.com), not the repository or an official DeepSeek announcement; no linked_page_owner_domain observed, so rule 5-1's link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Saritha Rai / Bloomberg: DeepSeek open-sources DeepInfer, its internal production stack designed to accelerate inference, optimize chip performance, and reduce energy and compute costs — DeepSeek is opening up the software it uses to run its artificial intelligence models at scal",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p21#a261020p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-20T13:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
