@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792502762222-tu1kyh",
+  "urlHash": "d96d74e4eea849e4",
+  "url": "https://www.ycombinator.com/companies/hazel-2/jobs/PpNKYBS-full-stack-engineer-ts-sci",
+  "sourceName": "Hacker News Front Page",
+  "title": "Hazel (YC W24) Is Hiring",
+  "summary": "Article URL: https://www.ycombinator.com/companies/hazel-2/jobs/PpNKYBS-full-stack-engineer-ts-sci Comments URL: https://news.ycombinator.com/item?id=50164991 Points: 0 # Comments: 0",
+  "pubDate": "2026-10-20T12:00:32.000Z",
+  "decidedAt": "2026-10-20T13:26:11.346Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a YC startup job posting (Hazel hiring a full-stack engineer). It is not a model release, research artifact, industry business event (financing/M&A/partnership/market data), policy action, or open-source tool release. No rule covers hiring posts.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ycombinator.com/companies/hazel-2/jobs/PpNKYBS-full-stack-engineer-ts-sci Comments URL: https://news.ycombinator.com/item?id=50164991 Points: 0 # Comments: 0",
+    "summaryChars": 182,
+    "summarySource": "summary",
+    "link": "https://www.ycombinator.com/companies/hazel-2/jobs/PpNKYBS-full-stack-engineer-ts-sci",
+    "linkHost": "www.ycombinator.com",
+    "pubDate": "2026-10-20T12:00:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
