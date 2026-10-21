@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "f5220dab8f55b741",
+  "url": "https://claude.com/resources/articles/claude-duet",
+  "sourceName": "Hacker News Front Page",
+  "title": "Claude Duet",
+  "summary": "Article URL: https://claude.com/resources/articles/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186455 Points: 39 # Comments: 6",
+  "pubDate": "2026-10-21T19:40:18.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'Claude Duet' on claude.com names 'Claude' but the summary is only HN metadata (points/comments); no release action, version label, or new capability is observable in Content, so rule 1-1 conditions are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://claude.com/resources/articles/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186455 Points: 39 # Comments: 6",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://claude.com/resources/articles/claude-duet",
+    "linkHost": "claude.com",
+    "pubDate": "2026-10-21T19:40:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
