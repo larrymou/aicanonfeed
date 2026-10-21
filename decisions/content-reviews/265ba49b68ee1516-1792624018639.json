@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "265ba49b68ee1516",
+  "url": "https://www.techmeme.com/261021/p54#a261021p54",
+  "sourceName": "Techmeme",
+  "title": "IBM reports Q3 revenue up 5% YoY to $17.1B, above $16.82B est., net income up 26% to $2.19B, software revenue up 8% to $7.8B, and infrastructure revenue up 4% (Elias Schisgall/Wall Street Journal)",
+  "summary": "Elias Schisgall / Wall Street Journal: IBM reports Q3 revenue up 5% YoY to $17.1B, above $16.82B est., net income up 26% to $2.19B, software revenue up 8% to $7.8B, and infrastructure revenue up 4% — The company reported a third-quarter profit of $2.19 billion, up from $1.74 bill",
+  "pubDate": "2026-10-21T22:20:03.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "IBM Q3 earnings report with revenue and net income figures is an AI industry business/market data event, covered via a reputable media report (WSJ via Techmeme).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Elias Schisgall / Wall Street Journal: IBM reports Q3 revenue up 5% YoY to $17.1B, above $16.82B est., net income up 26% to $2.19B, software revenue up 8% to $7.8B, and infrastructure revenue up 4% — The company reported a third-quarter profit of $2.19 billion, up from $1.74 bill",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p54#a261021p54",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T22:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
