@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "aa8847d44cbae332",
+  "url": "https://openai.com/index/terminal-x",
+  "sourceName": "OpenAI Blog",
+  "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+  "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+  "pubDate": "2026-10-20T07:00:00.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Terminal X using GPT-6.1, not a model release announcement. No major version (N.0) or new capability release is established, and version labels are unobserved; it also fits no business, research, policy, or OSS rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/terminal-x",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-20T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
