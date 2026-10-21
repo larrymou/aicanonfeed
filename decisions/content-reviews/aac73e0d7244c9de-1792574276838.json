@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "aac73e0d7244c9de",
+  "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
+  "sourceName": "Wired AI",
+  "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+  "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
+  "pubDate": "2026-10-21T08:30:00.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Feature/commentary on data-center heat recycling and climate trade-offs in Europe; no model release, research artifact, business event, official policy action, or OSS tool announced, and no official document link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
+    "summaryChars": 179,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/europe-data-centers-climate-change/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-21T08:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
