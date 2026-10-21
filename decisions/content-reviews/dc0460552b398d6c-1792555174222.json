@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "dc0460552b398d6c",
+  "url": "https://www.techmeme.com/261020/p58#a261020p58",
+  "sourceName": "Techmeme",
+  "title": "An interview with Goodfire researcher Nick Cammarata, whose viral blog post claimed LLMs are easier to understand than thought, as other researchers push back (Will Douglas Heaven/MIT Technology Review)",
+  "summary": "Will Douglas Heaven / MIT Technology Review: An interview with Goodfire researcher Nick Cammarata, whose viral blog post claimed LLMs are easier to understand than thought, as other researchers push back — “I think I have good news about the nature of neural networks.” With those",
+  "pubDate": "2026-10-21T02:10:01.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Techmeme pointer to a media interview/commentary about a researcher's viral blog post and pushback; no original paper, preprint, or benchmark artifact is linked, so rule 2-1 is unmet, and it is not a model release, business event, policy action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will Douglas Heaven / MIT Technology Review: An interview with Goodfire researcher Nick Cammarata, whose viral blog post claimed LLMs are easier to understand than thought, as other researchers push back — “I think I have good news about the nature of neural networks.” With those",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p58#a261020p58",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T02:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
