@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "0f2eda869f946443",
+  "url": "https://www.techmeme.com/261021/p52#a261021p52",
+  "sourceName": "Techmeme",
+  "title": "Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est. (Ian King/Bloomberg)",
+  "summary": "Ian King / Bloomberg: Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est. — Texas Instruments Inc., the biggest maker of analog and embedded processing chips, gave a strong",
+  "pubDate": "2026-10-21T21:55:05.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Texas Instruments Q3 earnings is analog/embedded chip financial data with no AI-specific model, research, policy, tooling, or AI industry event; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ian King / Bloomberg: Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est. — Texas Instruments Inc., the biggest maker of analog and embedded processing chips, gave a strong",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p52#a261021p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T21:55:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
