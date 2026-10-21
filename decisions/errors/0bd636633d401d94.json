@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "0bd636633d401d94",
+  "url": "https://www.techmeme.com/261021/p39#a261021p39",
+  "sourceName": "Techmeme",
+  "title": "Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development (Will Knight/Wired)",
+  "summary": "Will Knight / Wired: Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development — Recursive makes the case that the benefits of using AI to build AI outweigh the risks. — For the past f",
+  "pubDate": "2026-10-21T16:35:02.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will Knight / Wired: Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development — Recursive makes the case that the benefits of using AI to build AI outweigh the risks. — For the past f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p39#a261021p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T16:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
