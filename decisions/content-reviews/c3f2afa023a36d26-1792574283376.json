@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "c3f2afa023a36d26",
+  "url": "https://www.techmeme.com/261021/p7#a261021p7",
+  "sourceName": "Techmeme",
+  "title": "A look at Chinese philosophical views on AI; one says aligning AI to human values may be a \"suicidal mistake\" and another fears the \"machinization of humans\" (Arnaud Bertrand)",
+  "summary": "Arnaud Bertrand: A look at Chinese philosophical views on AI; one says aligning AI to human values may be a “suicidal mistake” and another fears the “machinization of humans” — We've been looking at AI from the bottom of our own well. Here's the view from China's. — ∙ Paid",
+  "pubDate": "2026-10-21T06:40:01.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary on Chinese philosophical views about AI; no named model release, research artifact, business event, policy action, or open-source tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Arnaud Bertrand: A look at Chinese philosophical views on AI; one says aligning AI to human values may be a “suicidal mistake” and another fears the “machinization of humans” — We've been looking at AI from the bottom of our own well. Here's the view from China's. — ∙ Paid",
+    "summaryChars": 273,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p7#a261021p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T06:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
