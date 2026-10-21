@@ -1,0 +1,45 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "b1ec87d705753567",
+  "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+  "sourceName": "TechCrunch AI",
+  "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+  "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+  "pubDate": "2026-10-21T20:27:41.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Flint is a named model release, but the only link is a TechCrunch article (not the owner's site); rule 1-1(b) also requires a named author, and linked_page_author is not observed, so evidence is insufficient.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-21T20:27:41.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
