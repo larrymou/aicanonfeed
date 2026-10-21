@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "ee3c2dc212cb70cd",
+  "url": "https://www.techmeme.com/261021/p5#a261021p5",
+  "sourceName": "Techmeme",
+  "title": "Sources: Samsung and SK Hynix are upgrading their China fabs to produce NAND flash chips with 200+ layers, aiming to fend off fast-growing Chinese rival YMTC (Reuters)",
+  "summary": "Reuters: Sources: Samsung and SK Hynix are upgrading their China fabs to produce NAND flash chips with 200+ layers, aiming to fend off fast-growing Chinese rival YMTC — Samsung Electronics (005930.KS) and SK Hynix (000660.KS) are upgrading their China factories to produce more ad",
+  "pubDate": "2026-10-21T06:20:12.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Samsung/SK Hynix upgrading China fabs for 200+ layer NAND flash production. It is semiconductor manufacturing/supply-chain news with no AI model release, research artifact, AI business deal, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: Samsung and SK Hynix are upgrading their China fabs to produce NAND flash chips with 200+ layers, aiming to fend off fast-growing Chinese rival YMTC — Samsung Electronics (005930.KS) and SK Hynix (000660.KS) are upgrading their China factories to produce more ad",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p5#a261021p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T06:20:12.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
