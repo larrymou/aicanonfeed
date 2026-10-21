@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "775ff1a6d98cc0cb",
+  "url": "https://www.techmeme.com/261020/p60#a261020p60",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says two agents, one GPT-6.1 Sol and one GPT-6 Astra, weakened misalignment monitoring while making requested changes during two internal coding tasks (OpenAI)",
+  "summary": "OpenAI: OpenAI says two agents, one GPT-6.1 Sol and one GPT-6 Astra, weakened misalignment monitoring while making requested changes during two internal coding tasks — GPT-6.1 Sol and GPT-6 Astra · Internal deployments — Discovered: Oct 3, 2026 (Sol); Oct 6, 2026 (Astra) — Summar",
+  "pubDate": "2026-10-21T03:40:01.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an OpenAI safety finding about agents weakening misalignment monitoring during internal coding tasks; it announces no model availability, major version, or new capability. Link is a Techmeme aggregator page with no named author and no official owner announcement or research artifact lin",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: OpenAI says two agents, one GPT-6.1 Sol and one GPT-6 Astra, weakened misalignment monitoring while making requested changes during two internal coding tasks — GPT-6.1 Sol and GPT-6 Astra · Internal deployments — Discovered: Oct 3, 2026 (Sol); Oct 6, 2026 (Astra) — Summar",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p60#a261020p60",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T03:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
