@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "c4d6781c65230c55",
+  "url": "https://wvez.org/blog/learning-to-be-stupid/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What I learned from six months of being stupid on purpose",
+  "summary": "Article URL: https://wvez.org/blog/learning-to-be-stupid/ Comments URL: https://news.ycombinator.com/item?id=50183311 Points: 16 # Comments: 3",
+  "pubDate": "2026-10-21T16:06:56.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog essay about learning; no named AI model release, research paper, industry business event, policy action, or open-source tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://wvez.org/blog/learning-to-be-stupid/ Comments URL: https://news.ycombinator.com/item?id=50183311 Points: 16 # Comments: 3",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://wvez.org/blog/learning-to-be-stupid/",
+    "linkHost": "wvez.org",
+    "pubDate": "2026-10-21T16:06:56.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
