@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "0915eb386a43b980",
+  "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+  "sourceName": "Hacker News Front Page",
+  "title": "Railway Security Disclosure",
+  "summary": "Article URL: https://blog.railway.com/p/security-disclosure-wednesday-october-21st Comments URL: https://news.ycombinator.com/item?id=50188228 Points: 135 # Comments: 42",
+  "pubDate": "2026-10-21T21:58:03.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A security disclosure post from Railway is not a model release, research artifact, industry business event (financing/M&A/partnership), policy action, or open-source tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.railway.com/p/security-disclosure-wednesday-october-21st Comments URL: https://news.ycombinator.com/item?id=50188228 Points: 135 # Comments: 42",
+    "summaryChars": 169,
+    "summarySource": "summary",
+    "link": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "linkHost": "blog.railway.com",
+    "pubDate": "2026-10-21T21:58:03.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
