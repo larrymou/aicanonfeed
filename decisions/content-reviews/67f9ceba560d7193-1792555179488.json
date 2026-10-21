@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "67f9ceba560d7193",
+  "url": "https://www.joshwcomeau.com/css/interop-2027/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Future of CSS",
+  "summary": "Article URL: https://www.joshwcomeau.com/css/interop-2027/ Comments URL: https://news.ycombinator.com/item?id=50175070 Points: 51 # Comments: 15",
+  "pubDate": "2026-10-21T01:47:28.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general web-development article about the future of CSS, not AI model release, research, industry, policy, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.joshwcomeau.com/css/interop-2027/ Comments URL: https://news.ycombinator.com/item?id=50175070 Points: 51 # Comments: 15",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://www.joshwcomeau.com/css/interop-2027/",
+    "linkHost": "www.joshwcomeau.com",
+    "pubDate": "2026-10-21T01:47:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
