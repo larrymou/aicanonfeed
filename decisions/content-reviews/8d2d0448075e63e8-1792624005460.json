@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "8d2d0448075e63e8",
+  "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+  "sourceName": "TechCrunch AI",
+  "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+  "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+  "pubDate": "2026-10-21T22:51:22.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/interview with a Blackstone executive about market sentiment on AI-buildout debt; no model release, research artifact, financing/M&A/partnership deal, policy action, or OSS tool. No rule covers opinion commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+    "summaryChars": 74,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-21T22:51:22.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
