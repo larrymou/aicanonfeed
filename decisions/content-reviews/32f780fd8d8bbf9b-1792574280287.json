@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "32f780fd8d8bbf9b",
+  "url": "https://www.techmeme.com/261021/p8#a261021p8",
+  "sourceName": "Techmeme",
+  "title": "Memo: Nscale CEO Josh Payne says it has \"more than $100B in contracted revenue\"; sources say it still plans to list by the end of 2026 at a $30B-$35B valuation (Kieran Smith/Financial Times)",
+  "summary": "Kieran Smith / Financial Times: Memo: Nscale CEO Josh Payne says it has “more than $100B in contracted revenue”; sources say it still plans to list by the end of 2026 at a $30B-$35B valuation — Founder Josh Payne says demand remains ‘insatiable’ for the services of Nvidia-backed ",
+  "pubDate": "2026-10-21T08:00:54.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports AI industry business news: Nscale's claimed $100B+ contracted revenue and plans to list by end-2026 at a $30B-$35B valuation, sourced from a Financial Times report via Techmeme. No model release, research artifact, policy action, or OSS tool involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kieran Smith / Financial Times: Memo: Nscale CEO Josh Payne says it has “more than $100B in contracted revenue”; sources say it still plans to list by the end of 2026 at a $30B-$35B valuation — Founder Josh Payne says demand remains ‘insatiable’ for the services of Nvidia-backed ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p8#a261021p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T08:00:54.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
