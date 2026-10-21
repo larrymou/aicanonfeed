@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "0854986f1a56f8e5",
+  "url": "https://www.techmeme.com/261021/p53#a261021p53",
+  "sourceName": "Techmeme",
+  "title": "GitLab patches a critical flaw that lets unauthenticated attackers run code on self-managed servers, affecting every release since 7.0 in 2014 (Swati Khandelwal/The Hacker News)",
+  "summary": "Swati Khandelwal / The Hacker News: GitLab patches a critical flaw that lets unauthenticated attackers run code on self-managed servers, affecting every release since 7.0 in 2014 — GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed ser",
+  "pubDate": "2026-10-21T22:10:01.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitLab security patch for a code-execution flaw is not an AI model release, AI research, AI industry business event, AI policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Swati Khandelwal / The Hacker News: GitLab patches a critical flaw that lets unauthenticated attackers run code on self-managed servers, affecting every release since 7.0 in 2014 — GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed ser",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p53#a261021p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T22:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
