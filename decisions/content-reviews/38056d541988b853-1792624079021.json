@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "38056d541988b853",
+  "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+  "sourceName": "Ars Technica AI",
+  "title": "The new human-crafted Apple Music brand matters in an AI world",
+  "summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
+  "pubDate": "2026-10-21T19:44:40.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion piece on Apple Music's human-crafted rebrand in an AI world. No named model release, research artifact, industry business event, policy action, or open-source tool announcement; no rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
+    "summaryChars": 76,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-21T19:44:40.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
