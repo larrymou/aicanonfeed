@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "3a60cc9fb455e16f",
+  "url": "https://github.com/timriker/bzo",
+  "sourceName": "Hacker News Front Page",
+  "title": "Battlezone Online: BZFlag in the Browser",
+  "summary": "Article URL: https://github.com/timriker/bzo Comments URL: https://news.ycombinator.com/item?id=50176298 Points: 28 # Comments: 21",
+  "pubDate": "2026-10-21T05:05:19.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a browser port of the BZFlag game hosted on GitHub, with no AI model, research, industry, policy, or AI developer-tooling content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/timriker/bzo Comments URL: https://news.ycombinator.com/item?id=50176298 Points: 28 # Comments: 21",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://github.com/timriker/bzo",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-21T05:05:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
