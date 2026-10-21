@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "cc4c5dac1198f1e8",
+  "url": "https://www.techmeme.com/261021/p55#a261021p55",
+  "sourceName": "Techmeme",
+  "title": "SAP: Q3 cloud revenue up 25% YoY to €6.67B, vs. €6.57B est., total revenue up 12% to €10.27B, current cloud backlog up 26% to €24.1B, all in constant currencies (Christina Kyriasoglou/Bloomberg)",
+  "summary": "Christina Kyriasoglou / Bloomberg: SAP: Q3 cloud revenue up 25% YoY to €6.67B, vs. €6.57B est., total revenue up 12% to €10.27B, current cloud backlog up 26% to €24.1B, all in constant currencies — SAP SE reported higher growth for its cloud products than anticipated in a sign th",
+  "pubDate": "2026-10-21T22:35:02.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports SAP's Q3 cloud/total revenue and backlog figures; nothing in the Content ties it to AI models, research, policy, OSS tooling, or AI-specific business events, so no active rule is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Christina Kyriasoglou / Bloomberg: SAP: Q3 cloud revenue up 25% YoY to €6.67B, vs. €6.57B est., total revenue up 12% to €10.27B, current cloud backlog up 26% to €24.1B, all in constant currencies — SAP SE reported higher growth for its cloud products than anticipated in a sign th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p55#a261021p55",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T22:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
