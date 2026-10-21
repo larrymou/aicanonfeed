@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "95dedf578de78f3e",
+  "url": "https://openai.com/index/openai-models-google-cloud",
+  "sourceName": "OpenAI Blog",
+  "title": "OpenAI models are coming to Google Cloud",
+  "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+  "pubDate": "2026-10-21T12:00:00.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/openai-models-google-cloud",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-21T12:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
