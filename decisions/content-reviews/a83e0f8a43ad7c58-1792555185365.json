@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "a83e0f8a43ad7c58",
+  "url": "https://www.newyorker.com/magazine/2026/10/19/were-learning-to-live-with-waymos-its-going-weird",
+  "sourceName": "Hacker News Front Page",
+  "title": "Learning to live with Waymos",
+  "summary": "https://web.archive.org/web/20261015123002/https://www.newyo..., https://archive.li/fj7oR Comments URL: https://news.ycombinator.com/item?id=50175057 Points: 29 # Comments: 60",
+  "pubDate": "2026-10-21T01:44:34.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "New Yorker magazine essay/commentary about living with Waymo robotaxis; no model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool announcement. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://web.archive.org/web/20261015123002/https://www.newyo..., https://archive.li/fj7oR Comments URL: https://news.ycombinator.com/item?id=50175057 Points: 29 # Comments: 60",
+    "summaryChars": 175,
+    "summarySource": "summary",
+    "link": "https://www.newyorker.com/magazine/2026/10/19/were-learning-to-live-with-waymos-its-going-weird",
+    "linkHost": "www.newyorker.com",
+    "pubDate": "2026-10-21T01:44:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
