@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "de9db6f384cbc788",
+  "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+  "sourceName": "OpenAI Blog",
+  "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+  "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+  "pubDate": "2026-10-21T07:00:00.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI blog post announcing 'Patch the Planet', a vulnerability-coordination program connecting researchers and maintainers. It is not a named model release, research artifact, business event (financing/M&A/partnership/product launch), policy action, or open-source tool/framework release, so no acti",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-21T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
