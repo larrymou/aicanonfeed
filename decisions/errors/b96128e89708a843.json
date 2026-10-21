@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "b96128e89708a843",
+  "url": "https://www.techmeme.com/261020/p59#a261020p59",
+  "sourceName": "Techmeme",
+  "title": "Sources: DayOne is weighing options for its US IPO, including a delay or smaller listing that could raise $2.5B to $3B, after initially seeking up to $5B in Q4 (Bloomberg)",
+  "summary": "Bloomberg: Sources: DayOne is weighing options for its US IPO, including a delay or smaller listing that could raise $2.5B to $3B, after initially seeking up to $5B in Q4 — DayOne Data Centers Ltd. is weighing options for its US initial public offering, including a potential dela",
+  "pubDate": "2026-10-21T02:50:09.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: DayOne is weighing options for its US IPO, including a delay or smaller listing that could raise $2.5B to $3B, after initially seeking up to $5B in Q4 — DayOne Data Centers Ltd. is weighing options for its US initial public offering, including a potential dela",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261020/p59#a261020p59",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T02:50:09.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
