@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "47d4d7efe492d1f6",
+  "url": "https://www.techmeme.com/261021/p6#a261021p6",
+  "sourceName": "Techmeme",
+  "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue (Rafe Rosner-Uddin/Financial Times)",
+  "summary": "Rafe Rosner-Uddin / Financial Times: OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue — Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered to",
+  "pubDate": "2026-10-21T06:25:01.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rafe Rosner-Uddin / Financial Times: OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue — Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered to",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p6#a261021p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T06:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
