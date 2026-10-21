@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "d55387b1b29d2e7b",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.9-rc0: ci: switch to released WoA CTK (#19185)",
+  "summary": "We were still using a pre-release, and the download site is flaky, so lets get current on the latest CUDA Toolkit for WoA support.",
+  "pubDate": "2026-10-21T20:12:06.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an Ollama release-candidate CI/infrastructure change (switching to a released CUDA Toolkit for WoA), not a model release, research artifact, business event, policy action, or new open-source tool/framework/developer resource launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We were still using a pre-release, and the download site is flaky, so lets get current on the latest CUDA Toolkit for WoA support.",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-21T20:12:06.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
