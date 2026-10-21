@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "0fecdcea32c5598c",
+  "url": "https://www.techmeme.com/261021/p36#a261021p36",
+  "sourceName": "Techmeme",
+  "title": "Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws (Reuters)",
+  "summary": "Reuters: Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws — Several government, school and hospital websites in Europe were taken offline on Wednesday as organizations r",
+  "pubDate": "2026-10-21T15:25:17.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers two critical PHP security flaws that took European government, school, and hospital websites offline. It is a general cybersecurity incident, not an AI model release, research result, industry business event, policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws — Several government, school and hospital websites in Europe were taken offline on Wednesday as organizations r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p36#a261021p36",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T15:25:17.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
