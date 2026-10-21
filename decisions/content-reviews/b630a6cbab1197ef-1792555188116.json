@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "b630a6cbab1197ef",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xb9r6b/will_our_paper_be_removed_from_emnlp_because_of/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Will our paper be removed from EMNLP because of no-show? [D]",
+  "summary": "Hello, Our paper was accepted to EMNLP and we were given poster slot. However due to Visa issue, we cannot attend in-person anymore. We mailed to the event team, but they said that it is no longer possible to change to virtual. We have also emailed to the program chairs and other",
+  "pubDate": "2026-10-21T01:13:32.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking whether an accepted EMNLP paper will be removed due to visa-related no-show. No new research artifact, model release, business event, policy action, or OSS tool is announced, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello, Our paper was accepted to EMNLP and we were given poster slot. However due to Visa issue, we cannot attend in-person anymore. We mailed to the event team, but they said that it is no longer possible to change to virtual. We have also emailed to the program chairs and other",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xb9r6b/will_our_paper_be_removed_from_emnlp_because_of/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-21T01:13:32.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
