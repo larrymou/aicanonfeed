@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "6bca7f4a701e1358",
+  "url": "https://www.techmeme.com/261021/p51#a261021p51",
+  "sourceName": "Techmeme",
+  "title": "Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ (Business Insider)",
+  "summary": "Business Insider: Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ — - Meta reported third-quarter earnings on Wednesday. — Meta CEO Mark Zuckerberg said over 10 million ",
+  "pubDate": "2026-10-21T21:20:03.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Business Insider: Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ — - Meta reported third-quarter earnings on Wednesday. — Meta CEO Mark Zuckerberg said over 10 million ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p51#a261021p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T21:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
