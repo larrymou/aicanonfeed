@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "ccbe36778829d91e",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xbj6nj/fewread_fault_localization_in_simulated_analog/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Few-read fault localization in simulated analog crossbars: a sparse-recovery decoder vs reading every cell (with the claims that failed) [R]",
+  "summary": "TL;DR In simulation, a sparse-recovery decoder over a few random +/-1 probe reads localizes up to 64 stuck cells in a 256x256 analog tile with 4 to 12 counted reads at 1% read noise. Reading every cell takes 256 reads. The paper also separates the decoder's gain from the second r",
+  "pubDate": "2026-10-21T10:09:55.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post describing simulation results on analog crossbar fault localization. Rule 2-1 requires a link to the original paper or official source, but the link points to a reddit.com discussion thread, not a paper/preprint or official artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TL;DR In simulation, a sparse-recovery decoder over a few random +/-1 probe reads localizes up to 64 stuck cells in a 256x256 analog tile with 4 to 12 counted reads at 1% read noise. Reading every cell takes 256 reads. The paper also separates the decoder's gain from the second r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xbj6nj/fewread_fault_localization_in_simulated_analog/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-21T10:09:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
