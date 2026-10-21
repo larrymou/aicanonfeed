@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792555155531-da1lk3",
+  "urlHash": "6ad08f9baafaa655",
+  "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Good type against all odds",
+  "summary": "Article URL: https://unsung.aresluna.org/good-type-against-all-odds/ Comments URL: https://news.ycombinator.com/item?id=50175059 Points: 34 # Comments: 5",
+  "pubDate": "2026-10-21T01:45:07.000Z",
+  "decidedAt": "2026-10-21T03:59:21.287Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Typography article from Hacker News; no AI model release, research artifact, industry business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://unsung.aresluna.org/good-type-against-all-odds/ Comments URL: https://news.ycombinator.com/item?id=50175059 Points: 34 # Comments: 5",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://unsung.aresluna.org/good-type-against-all-odds/",
+    "linkHost": "unsung.aresluna.org",
+    "pubDate": "2026-10-21T01:45:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
