@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "a75390adc4db4398",
+  "url": "https://arxiv.org/abs/2610.26913",
+  "sourceName": "arXiv cs.AI",
+  "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+  "summary": "arXiv:2610.26913v1 Announce Type: new Abstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck f",
+  "pubDate": "2026-10-21T04:00:00.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.26913v1 Announce Type: new Abstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.26913",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-21T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
