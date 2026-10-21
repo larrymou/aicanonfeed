@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "ca0a4df9bdb805ae",
+  "url": "https://www.techmeme.com/261021/p37#a261021p37",
+  "sourceName": "Techmeme",
+  "title": "The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the CVE IDs began circulating online (The PHP Foundation)",
+  "summary": "The PHP Foundation: The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the CVE IDs began circulating online — Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two ",
+  "pubDate": "2026-10-21T15:35:04.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "PHP security patch release (CVE fixes for PHP 8.5.12/8.4.27/8.3.36/8.2.35) is not an AI model release, AI research, AI industry business event, AI policy action, or an open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The PHP Foundation: The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the CVE IDs began circulating online — Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p37#a261021p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T15:35:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
