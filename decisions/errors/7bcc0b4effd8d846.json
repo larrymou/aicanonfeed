@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "7bcc0b4effd8d846",
+  "url": "https://www.techmeme.com/261021/p4#a261021p4",
+  "sourceName": "Techmeme",
+  "title": "Google, Temasek, and Bain: online spending in SE Asia to rise ~17% YoY to $368B in 2026 despite economic headwinds, as businesses harness AI to spur spending (Gabrielle Ng/Bloomberg)",
+  "summary": "Gabrielle Ng / Bloomberg: Google, Temasek, and Bain: online spending in SE Asia to rise ~17% YoY to $368B in 2026 despite economic headwinds, as businesses harness AI to spur spending — Artificial intelligence is helping Southeast Asia's digital economy deliver robust growth in t",
+  "pubDate": "2026-10-21T06:05:10.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gabrielle Ng / Bloomberg: Google, Temasek, and Bain: online spending in SE Asia to rise ~17% YoY to $368B in 2026 despite economic headwinds, as businesses harness AI to spur spending — Artificial intelligence is helping Southeast Asia's digital economy deliver robust growth in t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p4#a261021p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T06:05:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
