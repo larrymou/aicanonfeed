@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "412099229a5b9277",
+  "url": "https://www.techmeme.com/261021/p38#a261021p38",
+  "sourceName": "Techmeme",
+  "title": "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed (Alex Konrad/Upstarts Media)",
+  "summary": "Alex Konrad / Upstarts Media: Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed — Early last year, Raj Shah and Akhil Iyer were in Hawaii meeting with the man entrusted with protecting Am",
+  "pubDate": "2026-10-21T16:10:19.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Watchtower, an AI/simulation logistics startup for the US Armed Forces, emerges from stealth with a $35M seed. Backed by a dated media report from a named author (Alex Konrad/Upstarts Media) via Techmeme, matching the financing/industry rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alex Konrad / Upstarts Media: Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed — Early last year, Raj Shah and Akhil Iyer were in Hawaii meeting with the man entrusted with protecting Am",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p38#a261021p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-21T16:10:19.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
