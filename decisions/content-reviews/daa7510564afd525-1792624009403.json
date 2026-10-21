@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "daa7510564afd525",
+  "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
+  "sourceName": "Wired AI",
+  "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+  "summary": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put.",
+  "pubDate": "2026-10-21T22:39:50.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "This item covers a Meta CEO stock/retention agreement tied to AI ambitions, not a model release, research artifact, policy action, open-source tool, or listed industry business event such as financing, M&A, partnership, market data, or product launch. No active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-21T22:39:50.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
