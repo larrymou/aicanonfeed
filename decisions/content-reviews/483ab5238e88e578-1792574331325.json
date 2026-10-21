@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "483ab5238e88e578",
+  "url": "https://www.anthropic.com/research/attack-surface-reduction",
+  "sourceName": "Hacker News Front Page",
+  "title": "Using Claude to reduce the attack surface of code",
+  "summary": "Article URL: https://www.anthropic.com/research/attack-surface-reduction Comments URL: https://news.ycombinator.com/item?id=50175779 Points: 40 # Comments: 13",
+  "pubDate": "2026-10-21T03:36:43.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a practical write-up on using Claude to reduce code attack surface, not a named model release (R1-1), no paper/preprint/benchmark artifact (R2-1), and no business, policy, or OSS tooling event. No rule is met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.anthropic.com/research/attack-surface-reduction Comments URL: https://news.ycombinator.com/item?id=50175779 Points: 40 # Comments: 13",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://www.anthropic.com/research/attack-surface-reduction",
+    "linkHost": "www.anthropic.com",
+    "pubDate": "2026-10-21T03:36:43.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
