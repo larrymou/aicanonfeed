@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792574264170-e5q86u",
+  "urlHash": "fe5acc0658b18336",
+  "url": "https://www.pillowfort.social/posts/8413273",
+  "sourceName": "Hacker News Front Page",
+  "title": "Pillowfort Is Closing",
+  "summary": "Article URL: https://www.pillowfort.social/posts/8413273 Comments URL: https://news.ycombinator.com/item?id=50176301 Points: 41 # Comments: 22",
+  "pubDate": "2026-10-21T05:05:37.000Z",
+  "decidedAt": "2026-10-21T09:17:54.673Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports the shutdown of social platform Pillowfort; no AI model release, research artifact, AI industry business event, policy action, or open-source AI tool is described.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.pillowfort.social/posts/8413273 Comments URL: https://news.ycombinator.com/item?id=50176301 Points: 41 # Comments: 22",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://www.pillowfort.social/posts/8413273",
+    "linkHost": "www.pillowfort.social",
+    "pubDate": "2026-10-21T05:05:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
