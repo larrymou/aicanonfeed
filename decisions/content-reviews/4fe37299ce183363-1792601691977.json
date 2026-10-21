@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792601628841-zhjnr4",
+  "urlHash": "4fe37299ce183363",
+  "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI agent fixed the bug, but what else did it change?",
+  "summary": "Article URL: https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/ Comments URL: https://news.ycombinator.com/item?id=50183253 Points: 8 # Comments: 1",
+  "pubDate": "2026-10-21T16:03:32.000Z",
+  "decidedAt": "2026-10-21T16:54:22.097Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog commentary/analysis about AI coding agents changing code; no new model release, research paper/benchmark, business event, policy action, or open-source tool release is announced.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/ Comments URL: https://news.ycombinator.com/item?id=50183253 Points: 8 # Comments: 1",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+    "linkHost": "blog.trailofbits.com",
+    "pubDate": "2026-10-21T16:03:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
