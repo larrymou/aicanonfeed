@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792623967388-6hvc4b",
+  "urlHash": "0907f632db718e3c",
+  "url": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
+  "sourceName": "Hacker News Front Page",
+  "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
+  "summary": "Article URL: https://aws.amazon.com/security/security-bulletins/2026-143-aws/ Comments URL: https://news.ycombinator.com/item?id=50187708 Points: 82 # Comments: 20",
+  "pubDate": "2026-10-21T21:12:59.000Z",
+  "decidedAt": "2026-10-21T23:06:43.709Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an AWS security bulletin about PHP web runtime CVEs; it is not an AI model release, AI research, AI industry business event, AI policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://aws.amazon.com/security/security-bulletins/2026-143-aws/ Comments URL: https://news.ycombinator.com/item?id=50187708 Points: 82 # Comments: 20",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-21T21:12:59.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
