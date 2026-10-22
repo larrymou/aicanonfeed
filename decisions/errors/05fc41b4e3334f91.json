@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "05fc41b4e3334f91",
+  "url": "https://www.techmeme.com/261022/p36#a261022p36",
+  "sourceName": "Techmeme",
+  "title": "Warp Sciences, founded by ex-OpenAI product chief Kevin Weil to speed up AI drug development, emerges from stealth with $215M at an $865M post-money valuation (Rebecca Torrence/Bloomberg)",
+  "summary": "Rebecca Torrence / Bloomberg: Warp Sciences, founded by ex-OpenAI product chief Kevin Weil to speed up AI drug development, emerges from stealth with $215M at an $865M post-money valuation — Kevin Weil, the former OpenAI executive who led the ChatGPT maker's AI-for-science effort",
+  "pubDate": "2026-10-22T16:00:15.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rebecca Torrence / Bloomberg: Warp Sciences, founded by ex-OpenAI product chief Kevin Weil to speed up AI drug development, emerges from stealth with $215M at an $865M post-money valuation — Kevin Weil, the former OpenAI executive who led the ChatGPT maker's AI-for-science effort",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p36#a261022p36",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T16:00:15.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
