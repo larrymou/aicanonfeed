@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "2ca8afa9f4eaa54b",
+  "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+  "sourceName": "Ars Technica AI",
+  "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+  "summary": "Hackers were already probing the bug before defenders were told it existed.",
+  "pubDate": "2026-10-22T15:25:02.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security vulnerability news about a PHP2Shell bug; no AI model release, research artifact, business event, policy action, or open-source AI tooling. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hackers were already probing the bug before defenders were told it existed.",
+    "summaryChars": 75,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-22T15:25:02.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
