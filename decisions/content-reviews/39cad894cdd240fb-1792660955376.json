@@ -1,18 +1,23 @@
 {
-  "runId": "run-1792641589370-3bzrys",
+  "runId": "run-1792660855933-l7w0cn",
   "urlHash": "39cad894cdd240fb",
   "url": "https://openai.com/index/att-legal",
   "sourceName": "OpenAI Blog",
   "title": "How AT&T is rethinking in-house legal work with OpenAI",
   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
   "pubDate": "2026-10-21T17:00:00.000Z",
-  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Customer case study about AT&T's legal team using OpenAI. Not a model release, research artifact, policy action, or OSS tool, and it announces no new partnership/deal/financing/revenue event under the industry rule.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
