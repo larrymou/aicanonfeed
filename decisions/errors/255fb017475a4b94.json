@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "255fb017475a4b94",
+  "url": "https://www.techmeme.com/261022/p52#a261022p52",
+  "sourceName": "Techmeme",
+  "title": "Sources: OpenAI nears an up to $30B round led by investors from the UAE and Coatue at a $1.25T pre-money valuation, as an \"opportunistic\" bridge ahead of an IPO (Kate Rooney/CNBC)",
+  "summary": "Kate Rooney / CNBC: Sources: OpenAI nears an up to $30B round led by investors from the UAE and Coatue at a $1.25T pre-money valuation, as an “opportunistic” bridge ahead of an IPO — OpenAI is closing in on a funding round that could value the artificial intelligence giant at mor",
+  "pubDate": "2026-10-22T20:23:08.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kate Rooney / CNBC: Sources: OpenAI nears an up to $30B round led by investors from the UAE and Coatue at a $1.25T pre-money valuation, as an “opportunistic” bridge ahead of an IPO — OpenAI is closing in on a funding round that could value the artificial intelligence giant at mor",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p52#a261022p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T20:23:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
