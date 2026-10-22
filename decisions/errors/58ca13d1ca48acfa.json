@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "58ca13d1ca48acfa",
+  "url": "https://www.techmeme.com/261022/p39#a261022p39",
+  "sourceName": "Techmeme",
+  "title": "Atlanta-based Tractian, which uses AI and sensors to predict machine failures and recommend maintenance, raised a $130M Series D at a $1.4B valuation (Rocket Drew/The Information)",
+  "summary": "Rocket Drew / The Information: Atlanta-based Tractian, which uses AI and sensors to predict machine failures and recommend maintenance, raised a $130M Series D at a $1.4B valuation — Tractian, a 7-year-old physical AI startup based in Atlanta, Georgia, has raised $130 million at ",
+  "pubDate": "2026-10-22T16:35:08.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rocket Drew / The Information: Atlanta-based Tractian, which uses AI and sensors to predict machine failures and recommend maintenance, raised a $130M Series D at a $1.4B valuation — Tractian, a 7-year-old physical AI startup based in Atlanta, Georgia, has raised $130 million at ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p39#a261022p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T16:35:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
