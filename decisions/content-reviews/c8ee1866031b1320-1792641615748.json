@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792641589370-3bzrys",
+  "urlHash": "c8ee1866031b1320",
+  "url": "https://olivergrabner.com/research/pokemon/",
+  "sourceName": "Hacker News Front Page",
+  "title": "LLM Agents Play Pokemon Showdown",
+  "summary": "Article URL: https://olivergrabner.com/research/pokemon/ Comments URL: https://news.ycombinator.com/item?id=50190334 Points: 15 # Comments: 10",
+  "pubDate": "2026-10-22T02:13:48.000Z",
+  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary only show an HN post titled 'LLM Agents Play Pokemon Showdown' linking to a personal site page; no observed evidence of a peer-reviewed paper, arXiv preprint, or major benchmark release, so the research rule's artifact condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://olivergrabner.com/research/pokemon/ Comments URL: https://news.ycombinator.com/item?id=50190334 Points: 15 # Comments: 10",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://olivergrabner.com/research/pokemon/",
+    "linkHost": "olivergrabner.com",
+    "pubDate": "2026-10-22T02:13:48.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
