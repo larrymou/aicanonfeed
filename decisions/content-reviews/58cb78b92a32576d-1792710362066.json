@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "58cb78b92a32576d",
+  "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+  "summary": "Article URL: https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations Comments URL: https://news.ycombinator.com/item?id=50201259 Points: 98 # Comments: 25",
+  "pubDate": "2026-10-22T21:24:41.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Vanity Fair article about Jared Kushner's hacked phone and secret negotiations; not an AI model release, research, industry business event, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations Comments URL: https://news.ycombinator.com/item?id=50201259 Points: 98 # Comments: 25",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+    "linkHost": "www.vanityfair.com",
+    "pubDate": "2026-10-22T21:24:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
