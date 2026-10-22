@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "6b70c06171022ad3",
+  "url": "https://www.techmeme.com/261022/p38#a261022p38",
+  "sourceName": "Techmeme",
+  "title": "METR says a pilot test of OpenAI's monitoring system found vulnerabilities, including an exploit that could have let AI agents hide hundreds of recent actions (Anzar Mehraj/Reuters)",
+  "summary": "Anzar Mehraj / Reuters: METR says a pilot test of OpenAI's monitoring system found vulnerabilities, including an exploit that could have let AI agents hide hundreds of recent actions — AI safety research group METR said on Thursday a pilot exercise to stress-test OpenAI's interna",
+  "pubDate": "2026-10-22T16:25:01.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "METR pilot stress-test of OpenAI monitoring found vulnerabilities; no model release, no research artifact (paper/preprint/benchmark) link, and no business or policy action. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anzar Mehraj / Reuters: METR says a pilot test of OpenAI's monitoring system found vulnerabilities, including an exploit that could have let AI agents hide hundreds of recent actions — AI safety research group METR said on Thursday a pilot exercise to stress-test OpenAI's interna",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p38#a261022p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T16:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
