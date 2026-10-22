@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "3b8660547916c70c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Frontier models are bad at hearing ASMR: 8 judges vs human labels on 480 clips [P]",
+  "summary": "I'm training text2asmr, a text-to-ASMR model (whispering plus trigger sounds like tapping, crinkling, brushing). The generator needs every training clip tagged with the sounds in it, and there are about 126k recordings, so I tried frontier models as labellers. They were much wors",
+  "pubDate": "2026-10-22T07:10:18.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] discussion post about labeling ASMR clips; no link to an original paper, arXiv preprint, or official benchmark source is observed, so rule 2-1's research-artifact link condition is unmet. Not a model release, industry, policy, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm training text2asmr, a text-to-ASMR model (whispering plus trigger sounds like tapping, crinkling, brushing). The generator needs every training clip tagged with the sounds in it, and there are about 126k recordings, so I tried frontier models as labellers. They were much wors",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-22T07:10:18.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
