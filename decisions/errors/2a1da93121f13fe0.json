@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792641589370-3bzrys",
+  "urlHash": "2a1da93121f13fe0",
+  "url": "https://www.techmeme.com/261021/p61#a261021p61",
+  "sourceName": "Techmeme",
+  "title": "Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among the biggest contributors (Lulu Yilun Chen/Bloomberg)",
+  "summary": "Lulu Yilun Chen / Bloomberg: Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among the biggest contributors — The Chinese AI pioneer DeepSeek has raised about 100 billion yuan ($15 billion) in its latest fundraisi",
+  "pubDate": "2026-10-22T03:00:46.000Z",
+  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lulu Yilun Chen / Bloomberg: Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among the biggest contributors — The Chinese AI pioneer DeepSeek has raised about 100 billion yuan ($15 billion) in its latest fundraisi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p61#a261021p61",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T03:00:46.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
