@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "301925b8adfcebab",
+  "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Beyond tree cover: mapping the world’s forest types",
+  "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+  "pubDate": "2026-10-22T14:30:24.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "DeepMind blog post about a global forest-type map dataset; no named AI model release, no paper/arXiv/benchmark research artifact, not an industry business event, policy action, or open-source developer tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+    "summaryChars": 91,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-22T14:30:24.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
