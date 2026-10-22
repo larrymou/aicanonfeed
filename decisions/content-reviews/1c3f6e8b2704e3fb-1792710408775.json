@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "1c3f6e8b2704e3fb",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+  "sourceName": "The Verge AI",
+  "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+  "summary": "Mars not depicted. | Image: Cath Virginia / The Verge, Getty Images Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merge",
+  "pubDate": "2026-10-22T19:45:00.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports a corporate/M&A business event: SpaceX and Tesla forming special committees to discuss a merger, plus capital spending on Nvidia chips. Covered by a reputable media report (The Verge), matching the industry business events rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mars not depicted. | Image: Cath Virginia / The Verge, Getty Images Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merge",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-22T19:45:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
