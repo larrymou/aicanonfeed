@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "aeb138057abfbcf2",
+  "url": "https://www.techmeme.com/261022/p7#a261022p7",
+  "sourceName": "Techmeme",
+  "title": "Source: Elon Musk's public endorsement of a SpaceX-Tesla merger rattled some insiders, who worry his comments could invite shareholder scrutiny and delays (Milana Vinn/Reuters)",
+  "summary": "Milana Vinn / Reuters: Source: Elon Musk's public endorsement of a SpaceX-Tesla merger rattled some insiders, who worry his comments could invite shareholder scrutiny and delays — Elon Musk's public endorsement this week of a potential $3.5 trillion merger between SpaceX (SPCX.O)",
+  "pubDate": "2026-10-22T06:45:01.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Techmeme pointer to a Reuters report about Elon Musk's endorsement of a potential SpaceX-Tesla merger and insider concerns. It is not an AI model release, research artifact, AI policy action, OSS tool, nor an AI industry business event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Milana Vinn / Reuters: Source: Elon Musk's public endorsement of a SpaceX-Tesla merger rattled some insiders, who worry his comments could invite shareholder scrutiny and delays — Elon Musk's public endorsement this week of a potential $3.5 trillion merger between SpaceX (SPCX.O)",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p7#a261022p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T06:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
