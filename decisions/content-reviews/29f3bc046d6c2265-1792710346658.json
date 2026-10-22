@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "29f3bc046d6c2265",
+  "url": "https://www.techmeme.com/261022/p54#a261022p54",
+  "sourceName": "Techmeme",
+  "title": "Sources: SpaceX is in talks with at least one major cellular infrastructure firm to secure a minimum of 80K US cell sites, as it eyes a wireless carrier launch (Kelcee Griffis/Bloomberg)",
+  "summary": "Kelcee Griffis / Bloomberg: Sources: SpaceX is in talks with at least one major cellular infrastructure firm to secure a minimum of 80K US cell sites, as it eyes a wireless carrier launch — SpaceX aims to secure a minimum of 80,000 cell sites across the US, and it's in talks with",
+  "pubDate": "2026-10-22T22:25:01.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers SpaceX talks with cellular infrastructure firms for a wireless carrier launch — telecom industry news with no AI model, research, policy, or open-source tooling artifact, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kelcee Griffis / Bloomberg: Sources: SpaceX is in talks with at least one major cellular infrastructure firm to secure a minimum of 80K US cell sites, as it eyes a wireless carrier launch — SpaceX aims to secure a minimum of 80,000 cell sites across the US, and it's in talks with",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p54#a261022p54",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T22:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
