@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "9acf986db7a0b200",
+  "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+  "sourceName": "Hacker News Front Page",
+  "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+  "summary": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-111943 Comments URL: https://news.ycombinator.com/item?id=50192900 Points: 17 # Comments: 5",
+  "pubDate": "2026-10-22T08:51:31.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CVE security vulnerability disclosure about a compromised intermediate certificate authority; not an AI model release, research paper, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-111943 Comments URL: https://news.ycombinator.com/item?id=50192900 Points: 17 # Comments: 5",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+    "linkHost": "nvd.nist.gov",
+    "pubDate": "2026-10-22T08:51:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
