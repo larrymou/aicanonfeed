@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792641589370-3bzrys",
+  "urlHash": "9a024ac468e4f02e",
+  "url": "https://www.techmeme.com/261021/p62#a261021p62",
+  "sourceName": "Techmeme",
+  "title": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Agent Profiles with special \"terms\" for AI (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Agent Profiles with special “terms” for AI — Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage tr",
+  "pubDate": "2026-10-22T03:50:03.000Z",
+  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Agent Profiles with special “terms” for AI — Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage tr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p62#a261021p62",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T03:50:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
