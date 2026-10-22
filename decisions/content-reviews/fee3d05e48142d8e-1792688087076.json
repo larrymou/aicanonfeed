@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "fee3d05e48142d8e",
+  "url": "https://www.taler.net/en/news/2026-13.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Getting ready to operate GNU Taler in Germany",
+  "summary": "Article URL: https://www.taler.net/en/news/2026-13.html Comments URL: https://news.ycombinator.com/item?id=50197404 Points: 9 # Comments: 0",
+  "pubDate": "2026-10-22T16:14:31.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns GNU Taler, a privacy-preserving payment system, being operated in Germany. No AI model release, AI research, AI business event, AI policy action, or AI open-source tooling is reported; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.taler.net/en/news/2026-13.html Comments URL: https://news.ycombinator.com/item?id=50197404 Points: 9 # Comments: 0",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://www.taler.net/en/news/2026-13.html",
+    "linkHost": "www.taler.net",
+    "pubDate": "2026-10-22T16:14:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
