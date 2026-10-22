@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "50dd0c98f11d38b5",
+  "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+  "sourceName": "The Verge AI",
+  "title": "Meta turns Muse sharing back on",
+  "summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan applicati",
+  "pubDate": "2026-10-22T20:24:04.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta re-enabling Muse link sharing after a security/privacy issue is a product feature and privacy update, not a model release, research result, business event, policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan applicati",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-22T20:24:04.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
