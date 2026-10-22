@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792641589370-3bzrys",
+  "urlHash": "ba5697af4c490c4d",
+  "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+  "summary": "Article URL: https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf Comments URL: https://news.ycombinator.com/item?id=50190455 Points: 38 # Comments: 21",
+  "pubDate": "2026-10-22T02:30:52.000Z",
+  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a mathematics paper on an O(n log n) integer multiplication algorithm, not a new AI research result, model release, industry event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf Comments URL: https://news.ycombinator.com/item?id=50190455 Points: 38 # Comments: 21",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+    "linkHost": "web.maths.unsw.edu.au",
+    "pubDate": "2026-10-22T02:30:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
