@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "891b7e0bbf66f86d",
+  "url": "https://openai.com/index/decisions-api",
+  "sourceName": "OpenAI Blog",
+  "title": "Build more responsive apps with the Decisions API",
+  "summary": "Fast, focused, low-cost decisions for any application.",
+  "pubDate": "2026-10-22T19:00:00.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "OpenAI announces a non-model product launch (Decisions API) with a link to the official company announcement on openai.com, fitting the industry business/product launch rule rather than a model release or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Fast, focused, low-cost decisions for any application.",
+    "summaryChars": 54,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/decisions-api",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-22T19:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
