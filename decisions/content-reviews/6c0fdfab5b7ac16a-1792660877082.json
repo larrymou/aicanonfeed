@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "6c0fdfab5b7ac16a",
+  "url": "https://www.techmeme.com/261022/p9#a261022p9",
+  "sourceName": "Techmeme",
+  "title": "How AI is an inherently imperial technology, and how the US and China are building rival \"AI empires\" with different approaches to extend their power (Foreign Affairs)",
+  "summary": "Foreign Affairs: How AI is an inherently imperial technology, and how the US and China are building rival “AI empires” with different approaches to extend their power — The Rise and Fall of a New Global Order — In the span of a few years, China and the United States have each ass",
+  "pubDate": "2026-10-22T07:15:01.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Foreign Affairs commentary/analysis on AI as imperial technology and US-China rivalry. No model release, research artifact, business event, policy action, or OSS tool; commentary alone is excluded by all rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Foreign Affairs: How AI is an inherently imperial technology, and how the US and China are building rival “AI empires” with different approaches to extend their power — The Rise and Fall of a New Global Order — In the span of a few years, China and the United States have each ass",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p9#a261022p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T07:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
