@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "2cb21a1b015b4160",
+  "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+  "sourceName": "Wired AI",
+  "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+  "summary": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
+  "pubDate": "2026-10-21T10:30:00.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-21T10:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
