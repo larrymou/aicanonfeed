@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "dabb302fa121ab9b",
+  "url": "https://www.techmeme.com/261022/p8#a261022p8",
+  "sourceName": "Techmeme",
+  "title": "Pressure to back promising AI startups is upending the VC investment process, with investors willing to buy into the same round at rapidly escalating valuations (Bloomberg)",
+  "summary": "Bloomberg: Pressure to back promising AI startups is upending the VC investment process, with investors willing to buy into the same round at rapidly escalating valuations — Venture capitalists are fighting to invest in AI startup Emulate, driving its valuation into the billions ",
+  "pubDate": "2026-10-22T06:50:01.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Pressure to back promising AI startups is upending the VC investment process, with investors willing to buy into the same round at rapidly escalating valuations — Venture capitalists are fighting to invest in AI startup Emulate, driving its valuation into the billions ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p8#a261022p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T06:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
