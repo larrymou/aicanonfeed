@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "ee144e79e7d9cf21",
+  "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+  "sourceName": "The Verge AI",
+  "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+  "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communi",
+  "pubDate": "2026-10-22T18:15:00.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Verge commentary on Zuckerberg's vision of an AI agent network from Meta earnings. No named model release/capability, no research artifact, no concrete financing/M&A/partnership or market data, and no policy action; rules do not cover vision/commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-22T18:15:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
