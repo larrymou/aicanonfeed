@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792641589370-3bzrys",
+  "runId": "run-1792660855933-l7w0cn",
   "urlHash": "ae6ee33522ea65d9",
   "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
   "sourceName": "Ars Technica AI",
   "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
   "summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
   "pubDate": "2026-10-21T18:20:40.000Z",
-  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "reason": "Court ruling on EPA authority over data center pollution lawsuits; not an AI policy/regulation action, model release, research result, business event, or OSS tool. No active rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
