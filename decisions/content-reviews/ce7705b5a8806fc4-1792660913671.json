@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "ce7705b5a8806fc4",
+  "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+  "sourceName": "Hacker News Front Page",
+  "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+  "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 175 # Comments: 54",
+  "pubDate": "2026-10-22T02:18:41.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule applies: '360M model' is not a named model from a named lab/company (R1-1 unmet), no paper/preprint/benchmark artifact (R2-1 unmet), and it is a personal blog demo, not an open-source tool/framework release (R5-1) or industry business event (R3-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 175 # Comments: 54",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://simedw.com/2026/10/21/world-model-terminal/",
+    "linkHost": "simedw.com",
+    "pubDate": "2026-10-22T02:18:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
