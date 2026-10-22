@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "8fc9d136a10ccbe1",
+  "url": "https://www.techmeme.com/261022/p40#a261022p40",
+  "sourceName": "Techmeme",
+  "title": "Filings: Nvidia, Anthropic, and OpenAI had their highest-spending lobbying quarter between July and September, spending $2.2M, $2.1M, and $1.5M, respectively (Lauren Feiner/The Verge)",
+  "summary": "Lauren Feiner / The Verge: Filings: Nvidia, Anthropic, and OpenAI had their highest-spending lobbying quarter between July and September, spending $2.2M, $2.1M, and $1.5M, respectively — Collectively, they spent nearly $6 million around cybersecurity, child safety, and more. … It",
+  "pubDate": "2026-10-22T16:40:00.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports quarterly lobbying expenditures by Nvidia, Anthropic and OpenAI. It is neither financing, M&A, partnership, market/revenue data, nor a product launch (3-1), nor a new law, executive order, enforcement action or official policy announcement (4-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lauren Feiner / The Verge: Filings: Nvidia, Anthropic, and OpenAI had their highest-spending lobbying quarter between July and September, spending $2.2M, $2.1M, and $1.5M, respectively — Collectively, they spent nearly $6 million around cybersecurity, child safety, and more. … It",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p40#a261022p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T16:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
