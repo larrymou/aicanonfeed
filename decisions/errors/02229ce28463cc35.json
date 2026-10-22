@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "02229ce28463cc35",
+  "url": "https://www.techmeme.com/261022/p55#a261022p55",
+  "sourceName": "Techmeme",
+  "title": "Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors (Financial Times)",
+  "summary": "Financial Times: Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors — AI lab floated $1.4tn price tag earlier this month, according to documents seen by the FT — OpenAI h",
+  "pubDate": "2026-10-22T22:35:33.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors — AI lab floated $1.4tn price tag earlier this month, according to documents seen by the FT — OpenAI h",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p55#a261022p55",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T22:35:33.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
