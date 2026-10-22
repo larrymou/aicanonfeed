@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "9053b1f287d8b411",
+  "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+  "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+  "pubDate": "2026-10-22T19:00:00.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+    "summaryChars": 90,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-22T19:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
