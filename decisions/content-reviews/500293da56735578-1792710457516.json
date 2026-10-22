@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "500293da56735578",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xcq2an/iclr_text_editor_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR Text Editor [D]",
+  "summary": "Have you looked at this iclr text detector? [https://opentextdetector.com/](https://opentextdetector.com/)) Do you think this will impact the review process? AI detectors are usually unreliable so I hope not. submitted by /u/Whatever_635 [link] [comments]",
+  "pubDate": "2026-10-22T18:07:44.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking about an AI text-detector website; no named model release, no research artifact (paper/arXiv/benchmark), no policy action, and no open-source tool/repo announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Have you looked at this iclr text detector? [https://opentextdetector.com/](https://opentextdetector.com/)) Do you think this will impact the review process? AI detectors are usually unreliable so I hope not. submitted by /u/Whatever_635 [link] [comments]",
+    "summaryChars": 255,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xcq2an/iclr_text_editor_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-22T18:07:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
