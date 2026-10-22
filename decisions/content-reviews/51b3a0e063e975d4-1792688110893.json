@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792688024987-b8vg03",
+  "urlHash": "51b3a0e063e975d4",
+  "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Google cleared 300 hectares of Finnish forest",
+  "summary": "Article URL: https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html Comments URL: https://news.ycombinator.com/item?id=50196837 Points: 97 # Comments: 53",
+  "pubDate": "2026-10-22T15:32:46.000Z",
+  "decidedAt": "2026-10-22T16:53:53.213Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Google clearing Finnish forest for a data center — environmental/infrastructure news. It is not a model release, research result, AI business event (financing, M&A, partnership, market data), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html Comments URL: https://news.ycombinator.com/item?id=50196837 Points: 97 # Comments: 53",
+    "summaryChars": 195,
+    "summarySource": "summary",
+    "link": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+    "linkHost": "www.techspot.com",
+    "pubDate": "2026-10-22T15:32:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
