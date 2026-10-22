@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "05516fa6d2dd5210",
+  "url": "https://www.typeui.sh/micro-interactions",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: UI micro interactions prompts for AI",
+  "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 65 # Comments: 36",
+  "pubDate": "2026-10-22T18:32:57.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN post for a UI micro-interaction prompts page; no evidence of an open-source library/framework release, model release, research artifact, business event, or policy action. Prompt collection page is not a verifiable OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 65 # Comments: 36",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://www.typeui.sh/micro-interactions",
+    "linkHost": "www.typeui.sh",
+    "pubDate": "2026-10-22T18:32:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
