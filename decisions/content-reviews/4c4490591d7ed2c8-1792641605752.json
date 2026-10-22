@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792641589370-3bzrys",
+  "urlHash": "4c4490591d7ed2c8",
+  "url": "https://www.techmeme.com/261021/p60#a261021p60",
+  "sourceName": "Techmeme",
+  "title": "AWS analysts claim that at least one actor started to exploit the PHP2Shell bugs on October 17, four days prior to the vulnerabilities' public disclosure (Lily Hay Newman/Wired)",
+  "summary": "Lily Hay Newman / Wired: AWS analysts claim that at least one actor started to exploit the PHP2Shell bugs on October 17, four days prior to the vulnerabilities' public disclosure — Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. ",
+  "pubDate": "2026-10-22T02:50:01.000Z",
+  "decidedAt": "2026-10-22T03:59:56.231Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports active exploitation of the PHP2Shell vulnerabilities, a cybersecurity incident. No rule covers security vulnerability exploitation; it is not a model release, research artifact, industry business event, policy action, or open-source tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lily Hay Newman / Wired: AWS analysts claim that at least one actor started to exploit the PHP2Shell bugs on October 17, four days prior to the vulnerabilities' public disclosure — Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261021/p60#a261021p60",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-22T02:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
