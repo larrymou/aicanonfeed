@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792710326504-39zv2b",
+  "urlHash": "7fe7774a3ecb03f8",
+  "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+  "sourceName": "The Verge AI",
+  "title": "Discord now formats Markdown previews right",
+  "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved pre",
+  "pubDate": "2026-10-22T18:58:19.000Z",
+  "decidedAt": "2026-10-22T23:05:36.359Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Discord UI formatting change for Markdown previews, not an AI model release, research artifact, AI business event, policy action, or open-source AI tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved pre",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-22T18:58:19.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
