@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792660855933-l7w0cn",
+  "urlHash": "553daa96034c5ab3",
+  "url": "https://ego-lite.apposters.com",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: The fastest browser for AI agents to run browser automation",
+  "summary": "Article URL: https://ego-lite.apposters.com Comments URL: https://news.ycombinator.com/item?id=50192585 Points: 8 # Comments: 0",
+  "pubDate": "2026-10-22T08:09:22.000Z",
+  "decidedAt": "2026-10-22T09:21:03.100Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN post for a browser-automation product. No named AI model or release action (R1); no paper/benchmark (R2); no financing/M&A/reputable media report or verifiable company announcement (R3); no policy action (R4); open-source status/repository not established (R5). No rule satisfied.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ego-lite.apposters.com Comments URL: https://news.ycombinator.com/item?id=50192585 Points: 8 # Comments: 0",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://ego-lite.apposters.com",
+    "linkHost": "ego-lite.apposters.com",
+    "pubDate": "2026-10-22T08:09:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
