@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "79525a8afd6fd57a",
+  "url": "https://twitter.com/robbietilton/status/2111936458923851923",
+  "sourceName": "Hacker News Front Page",
+  "title": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
+  "summary": "Article URL: https://twitter.com/robbietilton/status/2111936458923851923 Comments URL: https://news.ycombinator.com/item?id=50212668 Points: 29 # Comments: 8",
+  "pubDate": "2026-10-23T17:40:22.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal hobby project (TV themed as Game Boy Color/Pokemon town); not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://twitter.com/robbietilton/status/2111936458923851923 Comments URL: https://news.ycombinator.com/item?id=50212668 Points: 29 # Comments: 8",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://twitter.com/robbietilton/status/2111936458923851923",
+    "linkHost": "twitter.com",
+    "pubDate": "2026-10-23T17:40:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
