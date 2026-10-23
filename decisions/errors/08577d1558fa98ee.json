@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "08577d1558fa98ee",
+  "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+  "summary": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocati",
+  "pubDate": "2026-10-22T18:00:04.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocati",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-22T18:00:04.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
