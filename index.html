@@ -675,13 +675,26 @@
         <h2 class="block-title">Shared window</h2>
       </div>
       <p class="block-meta">Display caps · 25 per category · research 10 · balance by policy</p>
-      <p class="block-meta" title="Items that never entered the model are logged under decisions/content-runs/. Rejected-after-review records live under decisions/content-reviews/ with include=false.">Last run · <strong>30</strong> model attempts (<strong>17</strong> finalized: 2 included / 15 rejected; 0 deferred by research quota; 13 retryable errors) · research journal: 0 (0 admitted / 0 deferred / 0 pending) · <strong>2070</strong> not entered review (age, caps, duplicates) · audit in <code>decisions/content-runs/</code></p>
+      <p class="block-meta" title="Items that never entered the model are logged under decisions/content-runs/. Rejected-after-review records live under decisions/content-reviews/ with include=false.">Last run · <strong>30</strong> model attempts (<strong>16</strong> finalized: 2 included / 14 rejected; 0 deferred by research quota; 14 retryable errors) · research journal: 0 (0 admitted / 0 deferred / 0 pending) · <strong>1967</strong> not entered review (age, caps, duplicates) · audit in <code>decisions/content-runs/</code></p>
       <div class="rail-wrap">
         <div class="rail" role="group" aria-label="Filter by category">
           <button type="button" class="tab is-active" data-tab="all" aria-pressed="true">all<span class="count">37</span></button><button type="button" class="tab" data-tab="model-releases" aria-pressed="false">model releases<span class="count">1</span></button><button type="button" class="tab" data-tab="industry" aria-pressed="false">industry<span class="count">25</span></button><button type="button" class="tab" data-tab="research" aria-pressed="false">research<span class="count">6</span></button><button type="button" class="tab" data-tab="tools-oss" aria-pressed="false">tools &amp; oss<span class="count">5</span></button><button type="button" class="tab" data-tab="policy" aria-pressed="false">policy<span class="count">0</span></button>
         </div>
       </div>
       <div id="feed">
+<article class="tile" data-category="tools-oss">
+  <div class="tile-meta">
+    <span class="cat cat-tools-oss">Tools</span>
+    <span class="src">Ollama releases</span>
+    <span class="rule-tag"><a href="#rule-5-1">5-1</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://github.com/ollama/ollama/releases/tag/v0.40.9" rel="noopener noreferrer" target="_blank">v0.40.9</a></h3>
+  <p class="tile-summary">Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model&#39;s reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon &quot;Hello from Ollama.&quot; d3 decision</p>
+  <div class="tile-foot">
+    <time datetime="2026-10-23T02:12:47.000Z">2026-10-23</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>5-1</code> · ruleset <code>e6b37238cc27</code> — Ollama release v0.40.9 is a framework/tooling update: it adds speech generation with Phonon and an OpenAI-compatible /v1/audio/speech streaming endpoint, linked to the official GitHub releases page for the Ollama repository.</p></details>
+  </div>
+</article>
 <article class="tile" data-category="industry">
   <div class="tile-meta">
     <span class="cat cat-industry">Industry</span>
@@ -706,6 +719,19 @@
   <div class="tile-foot">
     <time datetime="2026-10-22T19:00:00.000Z">2026-10-22</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — OpenAI announces a non-model product launch (Decisions API) with a link to the official company announcement on openai.com, fitting the industry business/product launch rule rather than a model release or OSS tool.</p></details>
+  </div>
+</article>
+<article class="tile" data-category="industry">
+  <div class="tile-meta">
+    <span class="cat cat-industry">Industry</span>
+    <span class="src">AWS Machine Learning Blog</span>
+    <span class="rule-tag"><a href="#rule-3-1">3-1</a></span>
+  </div>
+  <h3 class="tile-title"><a href="https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/" rel="noopener noreferrer" target="_blank">Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs</a></h3>
+  <p class="tile-summary">Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a r</p>
+  <div class="tile-foot">
+    <time datetime="2026-10-22T18:00:01.000Z">2026-10-22</time>
+    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — Announces a non-model product launch: Amazon SageMaker AI training session APIs (an infrastructure/developer service feature, not a model). Link is AWS&#39;s own blog on aws.amazon.com, i.e. a company announcement, fitting group 3 for non-model product launches; proprietary product so excluded from tool</p></details>
   </div>
 </article>
 <article class="tile" data-category="industry">
@@ -1072,19 +1098,6 @@
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — TechCrunch reports Amazon launching a new non-model developer tool (TorchNeuron) aimed at Nvidia&#39;s PyTorch dominance; link is a reputable media report (techcrunch.com). No official owner or repository link is observed, so covered as an industry product-launch event rather than tools-oss.</p></details>
   </div>
 </article>
-<article class="tile" data-category="industry">
-  <div class="tile-meta">
-    <span class="cat cat-industry">Industry</span>
-    <span class="src">TechCrunch AI</span>
-    <span class="rule-tag"><a href="#rule-3-1">3-1</a></span>
-  </div>
-  <h3 class="tile-title"><a href="https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/" rel="noopener noreferrer" target="_blank">Tolan snags $30M for its AI companion that helps users navigate life</a></h3>
-  <p class="tile-summary">AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.</p>
-  <div class="tile-foot">
-    <time datetime="2026-10-19T19:00:12.000Z">2026-10-19</time>
-    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>3-1</code> · ruleset <code>e6b37238cc27</code> — Item reports a financing event: Tolan raised $30M for its AI companion app, covered by TechCrunch, a reputable media outlet. This is an AI industry business event (funding), not a model release or research artifact.</p></details>
-  </div>
-</article>
 <article class="tile tile-wide tile-solid" data-category="model-releases">
   <div class="tile-meta">
     <span class="cat cat-model-releases">Models</span>
@@ -1148,19 +1161,6 @@
   <div class="tile-foot">
     <time datetime="2026-10-18T09:26:56.000Z">2026-10-18</time>
     <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>5-1</code> · ruleset <code>e6b37238cc27</code> — vLLM (open-source AI inference framework) publishes release v0.32.1rc0; item links to the project&#39;s GitHub release page, satisfying the library/framework release condition of the OSS rule.</p></details>
-  </div>
-</article>
-<article class="tile" data-category="tools-oss">
-  <div class="tile-meta">
-    <span class="cat cat-tools-oss">Tools</span>
-    <span class="src">Ollama releases</span>
-    <span class="rule-tag"><a href="#rule-5-1">5-1</a></span>
-  </div>
-  <h3 class="tile-title"><a href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0" rel="noopener noreferrer" target="_blank">v0.40.7</a></h3>
-  <p class="tile-summary">What&#39;s Changed openai: allow Responses effort on non-thinking models by @hoyyeva in #19010 llama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064 mlx: add PPLX Decider v1.2 support by @dhiltgen in #19072 Full Changelog: v0.40.6...v0.40.7-rc0</p>
-  <div class="tile-foot">
-    <time datetime="2026-10-18T00:28:57.000Z">2026-10-18</time>
-    <details class="tile-why"><summary>Why</summary><p class="why-reason">Matched <code>5-1</code> · ruleset <code>e6b37238cc27</code> — GitHub release notes for Ollama v0.40.7-rc0, an open-source AI developer tool/runtime, announcing incremental framework updates with a link to the repository release page.</p></details>
   </div>
 </article>
       </div>
