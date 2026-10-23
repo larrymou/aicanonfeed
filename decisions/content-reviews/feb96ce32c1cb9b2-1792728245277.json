@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "feb96ce32c1cb9b2",
+  "url": "https://jank-lang.org/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jank – The native Clojure dialect with seamless C++ interop",
+  "summary": "Article URL: https://jank-lang.org/ Comments URL: https://news.ycombinator.com/item?id=50202762 Points: 29 # Comments: 1",
+  "pubDate": "2026-10-22T23:56:36.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Clojure dialect with C++ interop, a general-purpose programming language. No Content fact ties it to AI models, research, industry business events, policy, or AI developer tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://jank-lang.org/ Comments URL: https://news.ycombinator.com/item?id=50202762 Points: 29 # Comments: 1",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://jank-lang.org/",
+    "linkHost": "jank-lang.org",
+    "pubDate": "2026-10-22T23:56:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
