@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "a9f4b268a5748cc4",
+  "url": "https://www.techmeme.com/261023/p21#a261023p21",
+  "sourceName": "Techmeme",
+  "title": "Sources: Instacart, currently valued at $12B, is in talks to sell itself and held preliminary conversations with DoorDash and Uber; CART jumps 9%+ (The Information)",
+  "summary": "The Information: Sources: Instacart, currently valued at $12B, is in talks to sell itself and held preliminary conversations with DoorDash and Uber; CART jumps 9%+ — Instacart is in talks to sell itself in a transaction that would cap the grocery delivery app's 14-year run as a s",
+  "pubDate": "2026-10-23T20:25:03.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Instacart acquisition talks (M&A for a grocery delivery company). Not an AI model release, research artifact, AI business event, AI policy action, or open-source AI tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Sources: Instacart, currently valued at $12B, is in talks to sell itself and held preliminary conversations with DoorDash and Uber; CART jumps 9%+ — Instacart is in talks to sell itself in a transaction that would cap the grocery delivery app's 14-year run as a s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p21#a261023p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T20:25:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
