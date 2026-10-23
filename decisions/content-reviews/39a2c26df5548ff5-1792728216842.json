@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "39a2c26df5548ff5",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.9",
+  "summary": "Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon \"Hello from Ollama.\" d3 decision",
+  "pubDate": "2026-10-23T02:12:47.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama release v0.40.9 is a framework/tooling update: it adds speech generation with Phonon and an OpenAI-compatible /v1/audio/speech streaming endpoint, linked to the official GitHub releases page for the Ollama repository.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon \"Hello from Ollama.\" d3 decision",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-23T02:12:47.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
