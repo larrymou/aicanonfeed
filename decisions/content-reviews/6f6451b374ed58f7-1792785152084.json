@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "6f6451b374ed58f7",
+  "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+  "sourceName": "TechCrunch AI",
+  "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+  "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside trad",
+  "pubDate": "2026-10-23T19:06:23.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a TechCrunch event/conference announcement about speakers and founder programming; it reports no AI model release, research artifact, AI business deal, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside trad",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-23T19:06:23.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
