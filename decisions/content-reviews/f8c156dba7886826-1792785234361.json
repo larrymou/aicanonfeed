@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "f8c156dba7886826",
+  "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+  "sourceName": "OpenAI Blog",
+  "title": "Securing our frontier model training environment",
+  "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+  "pubDate": "2026-10-23T10:00:00.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes security/containment practices for frontier model training, not a named model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-23T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
