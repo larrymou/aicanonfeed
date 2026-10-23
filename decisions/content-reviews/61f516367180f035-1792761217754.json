@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "61f516367180f035",
+  "url": "https://www.techmeme.com/261023/p9#a261023p9",
+  "sourceName": "Techmeme",
+  "title": "Pathos AI, which uses AI to develop oncology drugs, raised a $237M Series E at a $3B post-money valuation, up from a $1.6B valuation in May 2025 (Katherine Davis/Axios)",
+  "summary": "Katherine Davis / Axios: Pathos AI, which uses AI to develop oncology drugs, raised a $237M Series E at a $3B post-money valuation, up from a $1.6B valuation in May 2025 — Precision oncology biotech Pathos AI said Friday it raised a $237 million Series E round at a $3 billion pos",
+  "pubDate": "2026-10-23T12:40:01.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Title and summary report an AI industry financing event: Pathos AI, an AI drug-discovery biotech, raised a $237M Series E at a $3B post-money valuation. This is a funding/deal event, not a model release, research artifact, or OSS tool, so it matches industry rule 3-1; the link points to a reputable ",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Katherine Davis / Axios: Pathos AI, which uses AI to develop oncology drugs, raised a $237M Series E at a $3B post-money valuation, up from a $1.6B valuation in May 2025 — Precision oncology biotech Pathos AI said Friday it raised a $237 million Series E round at a $3 billion pos",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p9#a261023p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T12:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
