@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "5975d9fd1eec0961",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xdfeki/study_notes_on_transformers_and_hamiltonian_monte/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Study Notes on Transformers and Hamiltonian Monte Carlo [P]",
+  "summary": "I’m sharing my study notes in case they might be useful to someone else. The Transformer notes are mostly based on the original architecture described in Attention Is All You Need. https://doi.org/10.5281/zenodo.22031925 I’ve also written notes on Hamiltonian Monte Carlo (HMC). h",
+  "pubDate": "2026-10-23T14:20:54.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post shares personal study notes on Transformers and HMC; it reports no new research result, paper, or benchmark, and no model release, industry event, policy action, or OSS tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I’m sharing my study notes in case they might be useful to someone else. The Transformer notes are mostly based on the original architecture described in Attention Is All You Need. https://doi.org/10.5281/zenodo.22031925 I’ve also written notes on Hamiltonian Monte Carlo (HMC). h",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xdfeki/study_notes_on_transformers_and_hamiltonian_monte/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-23T14:20:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
