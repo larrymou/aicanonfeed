@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "492afc0b21ae4ea4",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xdkcav/stenosis_detection_in_coronary_angiograms_need/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Stenosis detection in coronary angiograms, need recall over precision [D]",
+  "summary": "Starting a project to detect candidate stenoses in x-ray coronary angiograms. The goal is high recall, false positives are fine as long as it doesn't flag half the image. I already tried YOLO on a couple of in-house datasets earlier. It looked fine in-domain and fell apart on the",
+  "pubDate": "2026-10-23T17:25:52.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [D] discussion post seeking advice on a stenosis-detection project; no paper/preprint or official research artifact, no model release, business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Starting a project to detect candidate stenoses in x-ray coronary angiograms. The goal is high recall, false positives are fine as long as it doesn't flag half the image. I already tried YOLO on a couple of in-house datasets earlier. It looked fine in-domain and fell apart on the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xdkcav/stenosis_detection_in_coronary_angiograms_need/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-23T17:25:52.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
