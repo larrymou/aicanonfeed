@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "8c177b37ece0d145",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.10",
+  "summary": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama",
+  "pubDate": "2026-10-23T17:17:19.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-23T17:17:19.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
