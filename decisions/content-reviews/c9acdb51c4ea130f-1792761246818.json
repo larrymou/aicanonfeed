@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "c9acdb51c4ea130f",
+  "url": "https://tilschuenemann.de/job-loss-cortisone-mania",
+  "sourceName": "Hacker News Front Page",
+  "title": "Job Loss and Cortisone Mania",
+  "summary": "Article URL: https://tilschuenemann.de/job-loss-cortisone-mania Comments URL: https://news.ycombinator.com/item?id=50206840 Points: 43 # Comments: 4",
+  "pubDate": "2026-10-23T10:31:24.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title and summary indicate a general commentary blog post on job loss and cortisone; no named AI model, research artifact, industry business event, policy action, or open-source tool is described, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tilschuenemann.de/job-loss-cortisone-mania Comments URL: https://news.ycombinator.com/item?id=50206840 Points: 43 # Comments: 4",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://tilschuenemann.de/job-loss-cortisone-mania",
+    "linkHost": "tilschuenemann.de",
+    "pubDate": "2026-10-23T10:31:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
