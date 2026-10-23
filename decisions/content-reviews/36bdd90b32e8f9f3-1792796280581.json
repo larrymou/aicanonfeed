@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "36bdd90b32e8f9f3",
+  "url": "https://cve.0xosprey.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "CVE Tracker",
+  "summary": "Article URL: https://cve.0xosprey.com/ Comments URL: https://news.ycombinator.com/item?id=50215530 Points: 26 # Comments: 2",
+  "pubDate": "2026-10-23T21:21:47.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a link to a CVE Tracker (Hacker News post). No AI model release, research artifact, industry business event, policy action, or open-source AI tool announcement is described, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://cve.0xosprey.com/ Comments URL: https://news.ycombinator.com/item?id=50215530 Points: 26 # Comments: 2",
+    "summaryChars": 123,
+    "summarySource": "summary",
+    "link": "https://cve.0xosprey.com/",
+    "linkHost": "cve.0xosprey.com",
+    "pubDate": "2026-10-23T21:21:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
