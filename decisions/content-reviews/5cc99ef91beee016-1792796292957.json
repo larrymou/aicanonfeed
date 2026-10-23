@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "5cc99ef91beee016",
+  "url": "https://queue.acm.org/doi/10.1145/945131.945155",
+  "sourceName": "Hacker News Front Page",
+  "title": "No Source Code? No Problem",
+  "summary": "Article URL: https://queue.acm.org/doi/10.1145/945131.945155 Comments URL: https://news.ycombinator.com/item?id=50214994 Points: 13 # Comments: 3",
+  "pubDate": "2026-10-23T20:38:06.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "ACM Queue article 'No Source Code? No Problem' with no named AI model, no research artifact, no business/policy event, and no open-source tool release; no rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://queue.acm.org/doi/10.1145/945131.945155 Comments URL: https://news.ycombinator.com/item?id=50214994 Points: 13 # Comments: 3",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://queue.acm.org/doi/10.1145/945131.945155",
+    "linkHost": "queue.acm.org",
+    "pubDate": "2026-10-23T20:38:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
