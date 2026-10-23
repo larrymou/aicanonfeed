@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "9a0f9bad73b9410f",
+  "url": "https://www.techmeme.com/261023/p6#a261023p6",
+  "sourceName": "Techmeme",
+  "title": "Greece's parliament passes a bill to ban social media platforms for children under 15 from January 1, 2027, and gives companies 2.5 months to verify users' ages (Angeliki Koutantou/Reuters)",
+  "summary": "Angeliki Koutantou / Reuters: Greece's parliament passes a bill to ban social media platforms for children under 15 from January 1, 2027, and gives companies 2.5 months to verify users' ages — Greece's parliament approved a bill on Friday that bans the use of social media platfor",
+  "pubDate": "2026-10-23T09:50:07.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a social-media age-verification ban for minors, not AI policy, research, a model release, or OSS tooling. No active rule covers non-AI platform regulation, and the link is a Techmeme aggregator page rather than the official document or the Reuters article itself.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Angeliki Koutantou / Reuters: Greece's parliament passes a bill to ban social media platforms for children under 15 from January 1, 2027, and gives companies 2.5 months to verify users' ages — Greece's parliament approved a bill on Friday that bans the use of social media platfor",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p6#a261023p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T09:50:07.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
