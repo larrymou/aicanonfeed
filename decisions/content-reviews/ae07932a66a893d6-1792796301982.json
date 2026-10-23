@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "ae07932a66a893d6",
+  "url": "https://www.techmeme.com/261023/p20#a261023p20",
+  "sourceName": "Techmeme",
+  "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established (Rachel Metz/Bloomberg)",
+  "summary": "Rachel Metz / Bloomberg: OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established — OpenAI has begun cutting off internet access for its most capable artificial intelligence mode",
+  "pubDate": "2026-10-23T20:20:00.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports OpenAI's internal plan to restrict internet access for frontier models during training, a company safety practice. No new model, version, or capability release (R1); no research artifact (R2); no financing/M&A/partnership/product launch (R3); no government action and self-regulation is ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rachel Metz / Bloomberg: OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established — OpenAI has begun cutting off internet access for its most capable artificial intelligence mode",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p20#a261023p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T20:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
