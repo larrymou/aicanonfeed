@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "894d6b5c56fd7cec",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
+  "summary": "renderers: add gemma4-nemotron renderer Add a Gemma 4 renderer variant that renders assistant content before Adds the corresponding chat template as a test fixture for Jinja parity mlx: support Gemma 4 targets with DFlash drafts Load a draft-owned output head when its config requ",
+  "pubDate": "2026-10-23T14:12:11.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "renderers: add gemma4-nemotron renderer Add a Gemma 4 renderer variant that renders assistant content before Adds the corresponding chat template as a test fixture for Jinja parity mlx: support Gemma 4 targets with DFlash drafts Load a draft-owned output head when its config requ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-23T14:12:11.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
