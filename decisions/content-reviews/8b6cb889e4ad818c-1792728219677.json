@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "8b6cb889e4ad818c",
+  "url": "https://www.techmeme.com/261022/p60#a261022p60",
+  "sourceName": "Techmeme",
+  "title": "Spotify confirms it is rolling out a new family plan verification method requiring members to scan QR codes on plan managers' phones within seven days of notice (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: Spotify confirms it is rolling out a new family plan verification method requiring members to scan QR codes on plan managers' phones within seven days of notice — Spotify confirmed the reports of its crackdown on Family Plan sharing during its third-quar",
+  "pubDate": "2026-10-23T01:50:47.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Spotify's Family Plan verification method, a consumer subscription feature unrelated to AI models, research, industry AI business events, policy, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: Spotify confirms it is rolling out a new family plan verification method requiring members to scan QR codes on plan managers' phones within seven days of notice — Spotify confirmed the reports of its crackdown on Family Plan sharing during its third-quar",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p60#a261022p60",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T01:50:47.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
