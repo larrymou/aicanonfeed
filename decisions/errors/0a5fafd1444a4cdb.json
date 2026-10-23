@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "0a5fafd1444a4cdb",
+  "url": "https://www.techmeme.com/261023/p7#a261023p7",
+  "sourceName": "Techmeme",
+  "title": "Sources: Anthropic and London-based PE firm Hg agree to launch a consultancy by the end of 2026 to embed AI consultants and engineers into European businesses (Financial Times)",
+  "summary": "Financial Times: Sources: Anthropic and London-based PE firm Hg agree to launch a consultancy by the end of 2026 to embed AI consultants and engineers into European businesses — New company backed by Anthropic and UK buyout group Hg will advise companies on how to deploy AI",
+  "pubDate": "2026-10-23T10:40:01.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: Anthropic and London-based PE firm Hg agree to launch a consultancy by the end of 2026 to embed AI consultants and engineers into European businesses — New company backed by Anthropic and UK buyout group Hg will advise companies on how to deploy AI",
+    "summaryChars": 274,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p7#a261023p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T10:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
