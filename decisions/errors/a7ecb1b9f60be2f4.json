@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "a7ecb1b9f60be2f4",
+  "url": "https://www.techmeme.com/261022/p59#a261022p59",
+  "sourceName": "Techmeme",
+  "title": "US Treasury proposes rules tightening restrictions on US investments in areas including AI and supercomputing in China, Russia, and other \"countries of concern\" (Associated Press)",
+  "summary": "Associated Press: US Treasury proposes rules tightening restrictions on US investments in areas including AI and supercomputing in China, Russia, and other “countries of concern” — The U.S. Treasury Department proposed a rule Thursday to crack down on American high-tech investmen",
+  "pubDate": "2026-10-23T01:10:01.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Associated Press: US Treasury proposes rules tightening restrictions on US investments in areas including AI and supercomputing in China, Russia, and other “countries of concern” — The U.S. Treasury Department proposed a rule Thursday to crack down on American high-tech investmen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p59#a261022p59",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T01:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
