@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "38bace4b1d7482dc",
+  "url": "https://twitter.com/jaredkushner/status/2113376217415958767",
+  "sourceName": "Hacker News Front Page",
+  "title": "Dutch government had hacked into Jared Kushner's phone",
+  "summary": "Article URL: https://twitter.com/jaredkushner/status/2113376217415958767 Comments URL: https://news.ycombinator.com/item?id=50206914 Points: 134 # Comments: 71",
+  "pubDate": "2026-10-23T10:41:32.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns alleged government hacking of a phone; no AI model release, research artifact, industry business event, policy action on AI, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://twitter.com/jaredkushner/status/2113376217415958767 Comments URL: https://news.ycombinator.com/item?id=50206914 Points: 134 # Comments: 71",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://twitter.com/jaredkushner/status/2113376217415958767",
+    "linkHost": "twitter.com",
+    "pubDate": "2026-10-23T10:41:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
