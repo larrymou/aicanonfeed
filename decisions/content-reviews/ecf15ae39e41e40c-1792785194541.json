@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "ecf15ae39e41e40c",
+  "url": "https://david.lequin.dev/blog/bi-software-is-dead/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Can we replace a $150k Looker with a bucket of HTML files?",
+  "summary": "Article URL: https://david.lequin.dev/blog/bi-software-is-dead/ Comments URL: https://news.ycombinator.com/item?id=50212320 Points: 55 # Comments: 34",
+  "pubDate": "2026-10-23T17:15:03.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post about replacing BI software with static HTML files; no AI model release, research artifact, industry business event, policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://david.lequin.dev/blog/bi-software-is-dead/ Comments URL: https://news.ycombinator.com/item?id=50212320 Points: 55 # Comments: 34",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://david.lequin.dev/blog/bi-software-is-dead/",
+    "linkHost": "david.lequin.dev",
+    "pubDate": "2026-10-23T17:15:03.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
