@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "137545da4da1bffd",
+  "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+  "sourceName": "Hacker News Front Page",
+  "title": "Air Purifiers as White Noise Machines",
+  "summary": "Article URL: https://www.jefftk.com/p/air-purifiers-as-white-noise-machines Comments URL: https://news.ycombinator.com/item?id=50212507 Points: 20 # Comments: 22",
+  "pubDate": "2026-10-23T17:28:36.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Non-AI content: article about using air purifiers as white noise machines. No model release, research, industry, policy, or open-source AI tooling facts present; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.jefftk.com/p/air-purifiers-as-white-noise-machines Comments URL: https://news.ycombinator.com/item?id=50212507 Points: 20 # Comments: 22",
+    "summaryChars": 161,
+    "summarySource": "summary",
+    "link": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+    "linkHost": "www.jefftk.com",
+    "pubDate": "2026-10-23T17:28:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
