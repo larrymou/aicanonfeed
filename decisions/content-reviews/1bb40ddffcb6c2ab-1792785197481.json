@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "1bb40ddffcb6c2ab",
+  "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+  "sourceName": "The Verge AI",
+  "title": "The iPhone Duo should have been an iPad",
+  "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David a",
+  "pubDate": "2026-10-23T17:00:18.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Vergecast podcast about the iPhone Duo smartphone review and score, not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-23T17:00:18.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
