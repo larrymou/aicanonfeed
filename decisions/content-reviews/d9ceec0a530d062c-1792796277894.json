@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "d9ceec0a530d062c",
+  "url": "https://www.techmeme.com/261023/p23#a261023p23",
+  "sourceName": "Techmeme",
+  "title": "Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company (Tom Warren/The Verge)",
+  "summary": "Tom Warren / The Verge: Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company — Helen Chiang is leaving Microsoft after 21 years. … Xbox is losing its first chief operating officer (COO)",
+  "pubDate": "2026-10-23T21:55:01.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Executive departure (Xbox COO leaving Microsoft); not an AI model release, research result, industry business event under group 3, policy action, or OSS tool. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tom Warren / The Verge: Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company — Helen Chiang is leaving Microsoft after 21 years. … Xbox is losing its first chief operating officer (COO)",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p23#a261023p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T21:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
