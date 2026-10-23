@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "a6d2d5fdb7657f8a",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+  "sourceName": "The Verge AI",
+  "title": "OpenAI now trains its frontier AI models with no internet access",
+  "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk o",
+  "pubDate": "2026-10-23T21:11:07.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers OpenAI's offline training/security practice, not a new named model release or capability (group 1), not a research paper/benchmark (group 2), not a financing/M&A/partnership/product launch business event (group 3), not policy (group 4), not OSS tooling (group 5). No rule matches.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-23T21:11:07.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
