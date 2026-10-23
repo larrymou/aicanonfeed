@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "c7b5ab6ad70c88c9",
+  "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+  "sourceName": "The Verge AI",
+  "title": "Someone hacked the Switch 2 by using an old game and AI",
+  "summary": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. i jailbroke the nintendo ",
+  "pubDate": "2026-10-22T17:21:31.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Console jailbreak/modding story; no named AI model release, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. i jailbroke the nintendo ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-22T17:21:31.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
