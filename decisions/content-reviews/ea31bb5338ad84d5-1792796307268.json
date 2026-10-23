@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "ea31bb5338ad84d5",
+  "url": "https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left",
+  "sourceName": "Hacker News Front Page",
+  "title": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
+  "summary": "Article URL: https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left Comments URL: https://news.ycombinator.com/item?id=50214447 Points: 57 # Comments: 41",
+  "pubDate": "2026-10-23T19:53:55.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Consumer electronics news about Sony discontinuing a 4K Blu-ray player; no AI model release, research, industry AI business event, policy action, or open-source AI tool involved. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left Comments URL: https://news.ycombinator.com/item?id=50214447 Points: 57 # Comments: 41",
+    "summaryChars": 204,
+    "summarySource": "summary",
+    "link": "https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left",
+    "linkHost": "www.techpowerup.com",
+    "pubDate": "2026-10-23T19:53:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
