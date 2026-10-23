@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "fb7b4f33e471bcd2",
+  "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+  "sourceName": "Hacker News Front Page",
+  "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+  "summary": "Article URL: https://artificialanalysis.ai/models/kimi-k3-1-pro Comments URL: https://news.ycombinator.com/item?id=50213337 Points: 51 # Comments: 1",
+  "pubDate": "2026-10-23T18:24:54.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Third-party benchmark score page (artificialanalysis.ai) for Kimi K3.1, not an owner announcement of a model release (R1-1 fails: no official Moonshot link, no authored news article) and not a new research result/benchmark release (R2-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://artificialanalysis.ai/models/kimi-k3-1-pro Comments URL: https://news.ycombinator.com/item?id=50213337 Points: 51 # Comments: 1",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+    "linkHost": "artificialanalysis.ai",
+    "pubDate": "2026-10-23T18:24:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
