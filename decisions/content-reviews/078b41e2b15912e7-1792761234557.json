@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "078b41e2b15912e7",
+  "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Is this the new cyber normal?",
+  "summary": "Article URL: https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/ Comments URL: https://news.ycombinator.com/item?id=50207115 Points: 93 # Comments: 86",
+  "pubDate": "2026-10-23T11:04:53.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog essay on cyber norms with no named AI model release, no research paper/preprint artifact, no business event, no policy action, and no open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/ Comments URL: https://news.ycombinator.com/item?id=50207115 Points: 93 # Comments: 86",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+    "linkHost": "drew.silcock.dev",
+    "pubDate": "2026-10-23T11:04:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
