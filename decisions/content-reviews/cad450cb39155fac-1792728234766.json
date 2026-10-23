@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "cad450cb39155fac",
+  "url": "https://www.techmeme.com/261022/p58#a261022p58",
+  "sourceName": "Techmeme",
+  "title": "An interview with Ondřej Surý, a volunteer who maintains PHP and automates its patches, about his role in fixing two critical PHP security vulnerabilities (Charlie Warzel/The Atlantic)",
+  "summary": "Charlie Warzel / The Atlantic: An interview with Ondřej Surý, a volunteer who maintains PHP and automates its patches, about his role in fixing two critical PHP security vulnerabilities — On Tuesday, the world found out about two massive security vulnerabilities in PHP, a program",
+  "pubDate": "2026-10-23T00:30:02.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an interview about fixing two critical PHP security vulnerabilities. It is not an AI model release, research paper/benchmark, industry business event, policy action, or new open-source AI tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Charlie Warzel / The Atlantic: An interview with Ondřej Surý, a volunteer who maintains PHP and automates its patches, about his role in fixing two critical PHP security vulnerabilities — On Tuesday, the world found out about two massive security vulnerabilities in PHP, a program",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p58#a261022p58",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T00:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
