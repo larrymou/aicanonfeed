@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "849d9890462cc49b",
+  "url": "https://www.techmeme.com/261023/p17#a261023p17",
+  "sourceName": "Techmeme",
+  "title": "Global PC shipments fell 21% YoY in Q3 to 57M units, as memory and other costs pushed prices up; Lenovo retained its market leadership despite a 23% decline (Minsoo Kang/Counterpoint Research)",
+  "summary": "Minsoo Kang / Counterpoint Research: Global PC shipments fell 21% YoY in Q3 to 57M units, as memory and other costs pushed prices up; Lenovo retained its market leadership despite a 23% decline — - Global PC shipments declined 21% YoY in Q3 2026 to 57 million units, as elevated m",
+  "pubDate": "2026-10-23T19:15:01.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is general PC shipment/market data with no AI model, research, AI business, policy, or open-source tool content. No active rule covers non-AI hardware market statistics.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Minsoo Kang / Counterpoint Research: Global PC shipments fell 21% YoY in Q3 to 57M units, as memory and other costs pushed prices up; Lenovo retained its market leadership despite a 23% decline — - Global PC shipments declined 21% YoY in Q3 2026 to 57 million units, as elevated m",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p17#a261023p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T19:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
