@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "63640e7cc1c616d4",
+  "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "The foolishness of \"natural language programming\" (1978)",
+  "summary": "Article URL: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html Comments URL: https://news.ycombinator.com/item?id=50203161 Points: 60 # Comments: 54",
+  "pubDate": "2026-10-23T00:52:01.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A 1978 Dijkstra essay/transcription on 'natural language programming'; no new AI model, research artifact, business event, policy action, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html Comments URL: https://news.ycombinator.com/item?id=50203161 Points: 60 # Comments: 54",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+    "linkHost": "www.cs.utexas.edu",
+    "pubDate": "2026-10-23T00:52:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
