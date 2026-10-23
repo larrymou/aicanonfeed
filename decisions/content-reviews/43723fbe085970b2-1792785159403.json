@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "43723fbe085970b2",
+  "url": "https://www.techmeme.com/261023/p16#a261023p16",
+  "sourceName": "Techmeme",
+  "title": "Iranian security officials say the country has detailed plans to target undersea communications cables in the Gulf if the US and Israel attack Iran again (Reuters)",
+  "summary": "Reuters: Iranian security officials say the country has detailed plans to target undersea communications cables in the Gulf if the US and Israel attack Iran again — Tehran has drawn up detailed plans to target undersea communications cables in the Gulf if the United States and Is",
+  "pubDate": "2026-10-23T18:20:01.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is geopolitical/security news about Iranian plans to target undersea cables; it reports no AI model release, research, industry business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Iranian security officials say the country has detailed plans to target undersea communications cables in the Gulf if the US and Israel attack Iran again — Tehran has drawn up detailed plans to target undersea communications cables in the Gulf if the United States and Is",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p16#a261023p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T18:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
