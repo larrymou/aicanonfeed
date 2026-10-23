@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792796267919-6nm4bk",
+  "urlHash": "701bc159df4e5401",
+  "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+  "sourceName": "Hacker News Front Page",
+  "title": "A whirlwind tour of systemd-nspawn containers",
+  "summary": "Article URL: https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/ Comments URL: https://news.ycombinator.com/item?id=50214983 Points: 14 # Comments: 2",
+  "pubDate": "2026-10-23T20:37:12.000Z",
+  "decidedAt": "2026-10-23T22:57:53.470Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a technical article about systemd-nspawn containers, unrelated to AI models, research, industry, policy, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/ Comments URL: https://news.ycombinator.com/item?id=50214983 Points: 14 # Comments: 2",
+    "summaryChars": 173,
+    "summarySource": "summary",
+    "link": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+    "linkHost": "quantum5.ca",
+    "pubDate": "2026-10-23T20:37:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
