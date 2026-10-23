@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "8b9740ab0520856f",
+  "url": "https://www.techmeme.com/261023/p5#a261023p5",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says it partnered with Theorem to use Claude to formally prove useful security properties at the assembly code level across 123 open-source libraries (Anthropic)",
+  "summary": "Anthropic: Anthropic says it partnered with Theorem to use Claude to formally prove useful security properties at the assembly code level across 123 open-source libraries — Introduction — Even mature, heavily tested software contains bugs, and LLMs are increasingly adept at findi",
+  "pubDate": "2026-10-23T09:15:03.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic says it partnered with Theorem to use Claude to formally prove useful security properties at the assembly code level across 123 open-source libraries — Introduction — Even mature, heavily tested software contains bugs, and LLMs are increasingly adept at findi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p5#a261023p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T09:15:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
