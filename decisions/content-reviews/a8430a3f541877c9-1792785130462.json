@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792785118297-qkyl9w",
+  "urlHash": "a8430a3f541877c9",
+  "url": "https://www.techmeme.com/261023/p19#a261023p19",
+  "sourceName": "Techmeme",
+  "title": "Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro \"to reduce potential misuse risk while preserving general usefulness\" (Matthias Bastian/The Decoder)",
+  "summary": "Matthias Bastian / The Decoder: Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro “to reduce potential misuse risk while preserving general usefulness” — Key Points … Ask about this article... The model scores 55 points on the Artificial Analysis ",
+  "pubDate": "2026-10-23T19:35:02.000Z",
+  "decidedAt": "2026-10-23T19:52:07.423Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a training-data/safety statement about Kimi K3.1 Pro, not a model availability, major-version, or new-capability release. Link is a Techmeme aggregator page, not an official Moonshot announcement or a full authored news article, so no group 1 (or other) rule is satisfied.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matthias Bastian / The Decoder: Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro “to reduce potential misuse risk while preserving general usefulness” — Key Points … Ask about this article... The model scores 55 points on the Artificial Analysis ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p19#a261023p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T19:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
