@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "e8ba5bc864cbba90",
+  "url": "https://www.techmeme.com/261022/p61#a261022p61",
+  "sourceName": "Techmeme",
+  "title": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats (Wall Street Journal)",
+  "summary": "Wall Street Journal: OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats — The company fired three safety researchers for mishandling sensitive information. They had been f",
+  "pubDate": "2026-10-23T02:50:50.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports OpenAI firing safety researchers over alleged leaks of internal model designs. It is not a model release, research artifact, financing/M&A/partnership/market data/product launch, policy action, or OSS tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats — The company fired three safety researchers for mishandling sensitive information. They had been f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p61#a261022p61",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T02:50:50.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
