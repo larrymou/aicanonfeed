@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792761201639-7ni5un",
+  "urlHash": "2c5776b83291128a",
+  "url": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
+  "summary": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents i",
+  "pubDate": "2026-10-22T17:48:22.000Z",
+  "decidedAt": "2026-10-23T13:13:30.248Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "How-to guidance on deploying HIPAA-eligible AI agents with Amazon Quick; not a named model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-22T17:48:22.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
