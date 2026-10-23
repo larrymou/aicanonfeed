@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792728184801-7csyla",
+  "urlHash": "91b42ae2cfd316d3",
+  "url": "https://www.techmeme.com/261022/p57#a261022p57",
+  "sourceName": "Techmeme",
+  "title": "German energy company PreussenElektra says it is working with Nvidia to assess whether the country's idle nuclear plants could be turned into data centers (Eva Brendel/Bloomberg)",
+  "summary": "Eva Brendel / Bloomberg: German energy company PreussenElektra says it is working with Nvidia to assess whether the country's idle nuclear plants could be turned into data centers — Germany's idle nuclear plants could find a new life as data centers, with operators looking for wa",
+  "pubDate": "2026-10-23T00:15:02.000Z",
+  "decidedAt": "2026-10-23T04:03:15.682Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Eva Brendel / Bloomberg: German energy company PreussenElektra says it is working with Nvidia to assess whether the country's idle nuclear plants could be turned into data centers — Germany's idle nuclear plants could find a new life as data centers, with operators looking for wa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261022/p57#a261022p57",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-23T00:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
