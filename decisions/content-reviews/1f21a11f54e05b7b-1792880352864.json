@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792880311919-71mppd",
+  "urlHash": "1f21a11f54e05b7b",
+  "url": "https://stealmybitcoin.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Steal My Bitcoin",
+  "summary": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun! Comments URL: https://news.ycombinator.com/item?id=50224916 Points: 188 # Comments: 63",
+  "pubDate": "2026-10-24T20:30:31.000Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for a PHP RCE challenge site 'Steal My Bitcoin'; no AI model release, research artifact, industry business event, policy action, or open-source AI tool is described. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun! Comments URL: https://news.ycombinator.com/item?id=50224916 Points: 188 # Comments: 63",
+    "summaryChars": 238,
+    "summarySource": "summary",
+    "link": "https://stealmybitcoin.com/",
+    "linkHost": "stealmybitcoin.com",
+    "pubDate": "2026-10-24T20:30:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
