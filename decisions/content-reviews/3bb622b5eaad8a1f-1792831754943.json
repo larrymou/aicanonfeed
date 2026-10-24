@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792831709031-rvhb2v",
+  "urlHash": "3bb622b5eaad8a1f",
+  "url": "https://www.techmeme.com/261024/p1#a261024p1",
+  "sourceName": "Techmeme",
+  "title": "The PHP Foundation, which coordinated fixes for two critical PHP flaws, operates on a shoestring budget with one full-time staff member and 14 contractors (Toby Sterling/Reuters)",
+  "summary": "Toby Sterling / Reuters: The PHP Foundation, which coordinated fixes for two critical PHP flaws, operates on a shoestring budget with one full-time staff member and 14 contractors — The discovery of two serious flaws in PHP this week set off a global scramble to keep websites saf",
+  "pubDate": "2026-10-24T05:45:00.000Z",
+  "decidedAt": "2026-10-24T08:49:04.144Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers the PHP Foundation's budget and staffing after PHP security flaws; it is not an AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Toby Sterling / Reuters: The PHP Foundation, which coordinated fixes for two critical PHP flaws, operates on a shoestring budget with one full-time staff member and 14 contractors — The discovery of two serious flaws in PHP this week set off a global scramble to keep websites saf",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261024/p1#a261024p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-24T05:45:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
