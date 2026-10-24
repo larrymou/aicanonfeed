@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "e28ffcdc2244f40f",
+  "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
+  "sourceName": "Wired AI",
+  "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
+  "summary": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
+  "pubDate": "2026-10-22T13:00:00.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired design/gadget story about a novelty robot mushroom; no named AI model release, no research artifact, no policy action, no open-source tooling, and no financing/M&A/partnership/market business event supported by the content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
+    "summaryChars": 112,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-22T13:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
