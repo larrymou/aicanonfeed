@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "7e2b03f493bd1509",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xe4pex/got_a_pretrained_music_transformer_to_jam_with_me/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Got a pretrained music transformer to jam with me live, no fine-tuning, just steering the sampling [P]",
+  "summary": "I wanted to see how far you can get making a pretrained symbolic music model \"listen\" to a live player without training it. Turns out pretty far. Setup: I play a MIDI keyboard, the Anticipatory Music Transformer (Thickstun et al., music-medium-800k) plays a second piano. While I ",
+  "pubDate": "2026-10-24T09:58:29.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about a personal demo steering a pretrained music transformer live. No new model release, no paper/official research artifact link (linkHost is reddit.com), no OSS tool release, and no business or policy event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I wanted to see how far you can get making a pretrained symbolic music model \"listen\" to a live player without training it. Turns out pretty far. Setup: I play a MIDI keyboard, the Anticipatory Music Transformer (Thickstun et al., music-medium-800k) plays a second piano. While I ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xe4pex/got_a_pretrained_music_transformer_to_jam_with_me/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-24T09:58:29.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
