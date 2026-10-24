@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792831709031-rvhb2v",
+  "runId": "run-1792856343036-y5g7cb",
   "urlHash": "3a17afaefa79e522",
   "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
   "sourceName": "Wired AI",
   "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
   "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
   "pubDate": "2026-10-21T16:00:00.000Z",
-  "decidedAt": "2026-10-24T08:49:04.144Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Title only says 'latest model' with no specific model name or release action; the Wired article lacks an observed named author or official owner link, and the summary is commentary, so no rule's conditions are met.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
