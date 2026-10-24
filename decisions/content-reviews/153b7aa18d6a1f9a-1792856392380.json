@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "153b7aa18d6a1f9a",
+  "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+  "summary": "Article URL: https://gitlab.com/c4psu13/mali-pagecache-root Comments URL: https://news.ycombinator.com/item?id=50220042 Points: 21 # Comments: 4",
+  "pubDate": "2026-10-24T10:51:35.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN link to a GitLab repo for rooting a Tcl Android TV via CVE-2022-22706. It is not an AI model release, research artifact, industry business event, policy action, or AI developer tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gitlab.com/c4psu13/mali-pagecache-root Comments URL: https://news.ycombinator.com/item?id=50220042 Points: 21 # Comments: 4",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://gitlab.com/c4psu13/mali-pagecache-root",
+    "linkHost": "gitlab.com",
+    "pubDate": "2026-10-24T10:51:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
