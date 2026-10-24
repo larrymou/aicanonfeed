@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792831709031-rvhb2v",
+  "urlHash": "332b8a0f3c708eb7",
+  "url": "https://rtfeldman.com/fp-vs-c",
+  "sourceName": "Hacker News Front Page",
+  "title": "How close can pure functional programming get to C?",
+  "summary": "Article URL: https://rtfeldman.com/fp-vs-c Comments URL: https://news.ycombinator.com/item?id=50218195 Points: 94 # Comments: 9",
+  "pubDate": "2026-10-24T03:43:54.000Z",
+  "decidedAt": "2026-10-24T08:49:04.144Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post comparing pure functional programming to C. No AI model release, research artifact, industry business event, policy action, or open-source AI tool announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://rtfeldman.com/fp-vs-c Comments URL: https://news.ycombinator.com/item?id=50218195 Points: 94 # Comments: 9",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://rtfeldman.com/fp-vs-c",
+    "linkHost": "rtfeldman.com",
+    "pubDate": "2026-10-24T03:43:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
