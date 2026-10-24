@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "eda525050cea8fce",
+  "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "sourceName": "OpenAI Blog",
+  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+  "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+  "pubDate": "2026-10-22T00:00:00.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-22T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
