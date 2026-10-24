@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792880311919-71mppd",
+  "urlHash": "9322f9a5ed4edcd7",
+  "url": "https://www.techmeme.com/261024/p9#a261024p9",
+  "sourceName": "Techmeme",
+  "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens (Torsten Slok/Apollo Global Management)",
+  "summary": "Torsten Slok / Apollo Global Management: Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens — Despite massive investments and widespread hype around artificial intelligen",
+  "pubDate": "2026-10-24T21:30:01.000Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is analyst commentary from Torsten Slok/Apollo about AI ROI, not a financing/M&A/partnership/market-data business event, research paper, model release, policy action, or OSS tool; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Torsten Slok / Apollo Global Management: Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens — Despite massive investments and widespread hype around artificial intelligen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261024/p9#a261024p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-24T21:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
