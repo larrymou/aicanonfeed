@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "6c6bee7f14c39272",
+  "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Twelve years of distributed SQLite",
+  "summary": "Article URL: https://philipotoole.com/twelve-years-of-distributed-sqlite/ Comments URL: https://news.ycombinator.com/item?id=50217500 Points: 36 # Comments: 1",
+  "pubDate": "2026-10-24T01:16:58.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Retrospective blog post about distributed SQLite; not an AI model release, research paper, industry business event, policy action, or new open-source AI tool/framework announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://philipotoole.com/twelve-years-of-distributed-sqlite/ Comments URL: https://news.ycombinator.com/item?id=50217500 Points: 36 # Comments: 1",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+    "linkHost": "philipotoole.com",
+    "pubDate": "2026-10-24T01:16:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
