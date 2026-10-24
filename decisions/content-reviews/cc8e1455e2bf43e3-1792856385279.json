@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "cc8e1455e2bf43e3",
+  "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+  "sourceName": "Wired AI",
+  "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+  "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+  "pubDate": "2026-10-24T12:00:00.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired security story about AI-assisted discovery of PHP vulnerabilities; no named model release, no paper/preprint/benchmark link, no business, policy, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-24T12:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
