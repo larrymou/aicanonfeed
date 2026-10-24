@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "a274a475efbd40d3",
+  "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+  "summary": "Article URL: https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=50220204 Points: 71 # Comments: 25",
+  "pubDate": "2026-10-24T11:18:54.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary about an AI-assisted paper citing a non-existent news article. It is not a model release, not a new research result with a paper/benchmark link, not an industry business event, policy action, or OSS tool launch. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=50220204 Points: 71 # Comments: 25",
+    "summaryChars": 202,
+    "summarySource": "summary",
+    "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+    "linkHost": "torrentfreak.com",
+    "pubDate": "2026-10-24T11:18:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
