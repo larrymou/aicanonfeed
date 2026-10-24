@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792880311919-71mppd",
+  "urlHash": "b5bd5b91cc82828f",
+  "url": "https://missileer.watch",
+  "sourceName": "Hacker News Front Page",
+  "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+  "summary": "Article URL: https://missileer.watch Comments URL: https://news.ycombinator.com/item?id=50224422 Points: 71 # Comments: 33",
+  "pubDate": "2026-10-24T19:43:27.000Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Radio monitoring of US nuclear Emergency Action Messages; no AI model, research, industry, policy, or OSS tooling content. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://missileer.watch Comments URL: https://news.ycombinator.com/item?id=50224422 Points: 71 # Comments: 33",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://missileer.watch",
+    "linkHost": "missileer.watch",
+    "pubDate": "2026-10-24T19:43:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
