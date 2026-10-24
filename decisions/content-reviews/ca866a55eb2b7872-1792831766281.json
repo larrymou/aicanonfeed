@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792814243068-fluqtb",
+  "runId": "run-1792831709031-rvhb2v",
   "urlHash": "ca866a55eb2b7872",
   "url": "https://www.techmeme.com/261023/p27#a261023p27",
   "sourceName": "Techmeme",
   "title": "Andy Jassy says AWS capacity for 2027 is \"largely sold out\" and a \"good chunk\" of 2028 capacity is also sold, though AWS reserves some capacity for on-demand (Catherine Perloff/The Information)",
   "summary": "Catherine Perloff / The Information: Andy Jassy says AWS capacity for 2027 is “largely sold out” and a “good chunk” of 2028 capacity is also sold, though AWS reserves some capacity for on-demand — Amazon Web Services capacity is mostly booked up through at least next year, Amazon",
   "pubDate": "2026-10-24T02:55:01.000Z",
-  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "decidedAt": "2026-10-24T08:49:04.144Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Item reports AWS cloud capacity booked out for 2027-2028; title/summary make no AI-specific claim (no model, research, policy, or OSS artifact) and the link is a Techmeme aggregator pointer, so no active rule is satisfied.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Catherine Perloff / The Information: Andy Jassy says AWS capacity for 2027 is “largely sold out” and a “good chunk” of 2028 capacity is also sold, though AWS reserves some capacity for on-demand — Amazon Web Services capacity is mostly booked up through at least next year, Amazon",
