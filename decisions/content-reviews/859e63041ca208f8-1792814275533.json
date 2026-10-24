@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "859e63041ca208f8",
+  "url": "https://www.techmeme.com/261023/p25#a261023p25",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says it built an \"offline world\" from cached web content to train isolated frontier models to browse, search for information, and use web apps (OpenAI)",
+  "summary": "OpenAI: OpenAI says it built an “offline world” from cached web content to train isolated frontier models to browse, search for information, and use web apps — In order to work with software, AI models need computing environments: digital workspaces where they can write and run c",
+  "pubDate": "2026-10-24T00:30:01.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes OpenAI training-environment infrastructure but names no specific model or major version release, so R1 fails; it is not a paper/benchmark (R2), business event (R3), policy action (R4), or OSS tool launch (R5). Link is a Techmeme aggregator, not an official announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: OpenAI says it built an “offline world” from cached web content to train isolated frontier models to browse, search for information, and use web apps — In order to work with software, AI models need computing environments: digital workspaces where they can write and run c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261023/p25#a261023p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-24T00:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
