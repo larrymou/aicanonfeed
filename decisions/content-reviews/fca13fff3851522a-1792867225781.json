@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792867182918-eh0uxm",
+  "urlHash": "fca13fff3851522a",
+  "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Neural chip decodes interactions between brain regions",
+  "summary": "Article URL: https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/ Comments URL: https://news.ycombinator.com/item?id=50222525 Points: 47 # Comments: 7",
+  "pubDate": "2026-10-24T15:57:17.000Z",
+  "decidedAt": "2026-10-24T18:39:58.723Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a neural chip for decoding brain-region interactions via an EPFL news page; no named AI model, no research paper/arXiv/benchmark artifact, no business, policy, or OSS tooling event is established from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/ Comments URL: https://news.ycombinator.com/item?id=50222525 Points: 47 # Comments: 7",
+    "summaryChars": 175,
+    "summarySource": "summary",
+    "link": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+    "linkHost": "actu.epfl.ch",
+    "pubDate": "2026-10-24T15:57:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
