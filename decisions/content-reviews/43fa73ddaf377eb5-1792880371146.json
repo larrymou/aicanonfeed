@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792880311919-71mppd",
+  "urlHash": "43fa73ddaf377eb5",
+  "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+  "sourceName": "TechCrunch AI",
+  "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+  "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+  "pubDate": "2026-10-24T19:00:00.000Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A running roundup of failed AI projects/startups is commentary, not a specific financing/M&A/partnership/market-data event, model release, research artifact, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-24T19:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
