@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792867182918-eh0uxm",
+  "urlHash": "00fa61ca1ab1c68d",
+  "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+  "summary": "Article URL: https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/ Comments URL: https://news.ycombinator.com/item?id=50222283 Points: 10 # Comments: 4",
+  "pubDate": "2026-10-24T15:35:17.000Z",
+  "decidedAt": "2026-10-24T18:39:58.723Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A community hub on a personal blog for revising OpenAI math write-ups; it is not a model release, not a paper/preprint/benchmark, not an industry/policy event, and not an OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/ Comments URL: https://news.ycombinator.com/item?id=50222283 Points: 10 # Comments: 4",
+    "summaryChars": 209,
+    "summarySource": "summary",
+    "link": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+    "linkHost": "terrytao.wordpress.com",
+    "pubDate": "2026-10-24T15:35:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
