@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "6400feb681472530",
+  "url": "https://openai.com/index/forward-deployed-engineering-means",
+  "sourceName": "OpenAI Blog",
+  "title": "What FDE means at OpenAI",
+  "summary": "What forward deployed engineering means at OpenAI",
+  "pubDate": "2026-10-22T06:00:00.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item explains what forward deployed engineering means at OpenAI (a role/org explainer). It names no model or release action, reports no research artifact, business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What forward deployed engineering means at OpenAI",
+    "summaryChars": 49,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/forward-deployed-engineering-means",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-22T06:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
