@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "71853833e5fa6c7e",
+  "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Securing our frontier model training environment",
+  "summary": "Article URL: https://openai.com/index/securing-our-frontier-model-training-environment/ Comments URL: https://news.ycombinator.com/item?id=50214416 Points: 88 # Comments: 99",
+  "pubDate": "2026-10-23T19:50:56.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about security of a model training environment; no named model, no release action, no research artifact, no business/policy/tooling event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openai.com/index/securing-our-frontier-model-training-environment/ Comments URL: https://news.ycombinator.com/item?id=50214416 Points: 88 # Comments: 99",
+    "summaryChars": 173,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-23T19:50:56.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
