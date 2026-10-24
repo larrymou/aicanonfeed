@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "7b2720aafde430fe",
+  "url": "https://www.techmeme.com/261024/p5#a261024p5",
+  "sourceName": "Techmeme",
+  "title": "Block unveils Dessa, a \"true speech-to-speech\" AI model trained on \"nothing but human conversation\" that it says runs locally on a MacBook Pro M4 Max or newer (Jay Peters/The Verge)",
+  "summary": "Jay Peters / The Verge: Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer — You have got to listen to these conversations with Block's new Dessa AI model.",
+  "pubDate": "2026-10-24T14:30:01.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Named model (Dessa by Block) and a release action are present, but the link is a Techmeme aggregator permalink, not Block's official announcement page, and linked_page_author is not observed, so rule 1-1's evidence-link condition cannot be met from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jay Peters / The Verge: Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer — You have got to listen to these conversations with Block's new Dessa AI model.",
+    "summaryChars": 263,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261024/p5#a261024p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-24T14:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
