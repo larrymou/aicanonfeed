@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792831709031-rvhb2v",
+  "runId": "run-1792856343036-y5g7cb",
   "urlHash": "ea92da5c121ecb45",
   "url": "https://openai.com/index/building-chatgpt-ad-stack",
   "sourceName": "OpenAI Blog",
   "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
   "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
   "pubDate": "2026-10-21T07:00:00.000Z",
-  "decidedAt": "2026-10-24T08:49:04.144Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Engineering blog about building ChatGPT's ad stack (internal infrastructure). Not a named model release/capability, research paper, business event (financing/M&A/partnership/market data), policy action, or open-source tool release. No rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
