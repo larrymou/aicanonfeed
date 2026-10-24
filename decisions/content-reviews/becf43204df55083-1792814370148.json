@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "becf43204df55083",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xbz5kf/an_interactive_map_of_all_9110_neurips_2026/",
+  "sourceName": "r/MachineLearning new",
+  "title": "An interactive map of all 9,110 NeurIPS 2026 papers, and what changed since 2025 [P]",
+  "summary": "I embedded the title and abstract of every NeurIPS 2026 paper (and every 2025 paper) with Qwen3-Embedding-0.6B, grouped them into 150 topics and 20 areas, and put them on one map with DataMapPlot. Both years are measured on the same topics, so you can see what grew and what shran",
+  "pubDate": "2026-10-21T20:55:15.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post presenting an interactive topic map of NeurIPS 2026 papers. It is not a new research result (no paper/preprint/benchmark artifact), not a model release, not an industry business event, not a policy action, and not an open-source library/framework release with a repo or official announcem",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I embedded the title and abstract of every NeurIPS 2026 paper (and every 2025 paper) with Qwen3-Embedding-0.6B, grouped them into 150 topics and 20 areas, and put them on one map with DataMapPlot. Both years are measured on the same topics, so you can see what grew and what shran",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xbz5kf/an_interactive_map_of_all_9110_neurips_2026/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-21T20:55:15.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
