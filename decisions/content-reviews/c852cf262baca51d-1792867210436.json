@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792867182918-eh0uxm",
+  "urlHash": "c852cf262baca51d",
+  "url": "https://blog.roku.com/developer/gitlab-move",
+  "sourceName": "Hacker News Front Page",
+  "title": "Roku developer repositories moved from GitHub to GitLab",
+  "summary": "Article URL: https://blog.roku.com/developer/gitlab-move Comments URL: https://news.ycombinator.com/item?id=50222622 Points: 134 # Comments: 79",
+  "pubDate": "2026-10-24T16:06:26.000Z",
+  "decidedAt": "2026-10-24T18:39:58.723Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Roku moving developer repositories from GitHub to GitLab is a code-hosting migration, not an AI model release, research result, AI business event, policy action, or new open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.roku.com/developer/gitlab-move Comments URL: https://news.ycombinator.com/item?id=50222622 Points: 134 # Comments: 79",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://blog.roku.com/developer/gitlab-move",
+    "linkHost": "blog.roku.com",
+    "pubDate": "2026-10-24T16:06:26.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
