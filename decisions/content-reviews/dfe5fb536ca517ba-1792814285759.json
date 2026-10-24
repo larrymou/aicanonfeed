@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "dfe5fb536ca517ba",
+  "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+  "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+  "pubDate": "2026-10-23T23:05:49.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI's statement about ending live-internet training is a company self-policy/data-practice change, not a model release, research artifact, business event (financing, M&A, partnership, market data, non-model product launch), government policy action, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-23T23:05:49.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
