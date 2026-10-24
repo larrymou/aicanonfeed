@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792831709031-rvhb2v",
+  "urlHash": "3fe372fb2e8166f0",
+  "url": "https://openai.com/index/cloudflare-cyber",
+  "sourceName": "OpenAI Blog",
+  "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+  "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+  "pubDate": "2026-10-21T00:00:00.000Z",
+  "decidedAt": "2026-10-24T08:49:04.144Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on Cloudflare using OpenAI Daybreak/Codex: no named model release or new capability announcement (R1), no research artifact (R2), no financing/M&A/partnership/market data or non-model product launch (R3), no policy action (R4), no open-source tool release (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/cloudflare-cyber",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
