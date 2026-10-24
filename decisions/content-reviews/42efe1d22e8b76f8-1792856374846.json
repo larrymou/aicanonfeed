@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "42efe1d22e8b76f8",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Increasing number of UG authors in A* conferences with no supervisor [D]",
+  "summary": "What do you all think about this? It seems increasingly common for undergraduate students to conduct research and publish at A* conferences without a supervisor. As a graduate student, I find it both impressive and intimidating, and it sometimes makes me question my own progress.",
+  "pubDate": "2026-10-24T14:18:07.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary question about undergraduate authorship at A* conferences; no named model release, no research artifact link, no industry business event, policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What do you all think about this? It seems increasingly common for undergraduate students to conduct research and publish at A* conferences without a supervisor. As a graduate student, I find it both impressive and intimidating, and it sometimes makes me question my own progress.",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-24T14:18:07.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
