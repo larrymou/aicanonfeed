@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "1e302d0a2e583b74",
+  "url": "https://www.techmeme.com/261024/p3#a261024p3",
+  "sourceName": "Techmeme",
+  "title": "Inside Meta's law enforcement outreach team, which uses AI and human reviewers to analyze social media posts, aiming to prevent threats like school shootings (Rachel Monroe/New Yorker)",
+  "summary": "Rachel Monroe / New Yorker: Inside Meta's law enforcement outreach team, which uses AI and human reviewers to analyze social media posts, aiming to prevent threats like school shootings — Algorithmic social media, which has helped create the conditions for the spread of such viol",
+  "pubDate": "2026-10-24T10:35:01.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme item summarizes a New Yorker feature on Meta's law enforcement outreach team using AI to review posts. It is journalism about moderation practices: no named model release, no research artifact, no business event, no government policy action, and no OSS tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rachel Monroe / New Yorker: Inside Meta's law enforcement outreach team, which uses AI and human reviewers to analyze social media posts, aiming to prevent threats like school shootings — Algorithmic social media, which has helped create the conditions for the spread of such viol",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261024/p3#a261024p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-24T10:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
