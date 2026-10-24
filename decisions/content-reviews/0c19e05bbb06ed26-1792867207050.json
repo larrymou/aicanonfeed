@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792867182918-eh0uxm",
+  "urlHash": "0c19e05bbb06ed26",
+  "url": "https://de.numista.com/9866",
+  "sourceName": "Hacker News Front Page",
+  "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+  "summary": "Article URL: https://de.numista.com/9866 Comments URL: https://news.ycombinator.com/item?id=50222927 Points: 45 # Comments: 4",
+  "pubDate": "2026-10-24T16:41:55.000Z",
+  "decidedAt": "2026-10-24T18:39:58.723Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a St. Helena 5 pence coin depicting a tortoise; no AI model release, research, industry event, policy action, or open-source tool is involved, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://de.numista.com/9866 Comments URL: https://news.ycombinator.com/item?id=50222927 Points: 45 # Comments: 4",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://de.numista.com/9866",
+    "linkHost": "de.numista.com",
+    "pubDate": "2026-10-24T16:41:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
