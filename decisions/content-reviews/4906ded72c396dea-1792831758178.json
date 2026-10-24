@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792831709031-rvhb2v",
+  "urlHash": "4906ded72c396dea",
+  "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+  "sourceName": "Hacker News Front Page",
+  "title": "OBS Studio 33",
+  "summary": "Article URL: https://github.com/obsproject/obs-studio/releases/tag/33.0.0 Comments URL: https://news.ycombinator.com/item?id=50218430 Points: 102 # Comments: 25",
+  "pubDate": "2026-10-24T04:49:58.000Z",
+  "decidedAt": "2026-10-24T08:49:04.144Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OBS Studio 33 is a video capture/streaming software release; content does not show an AI model, research result, industry business event, policy action, or AI-focused open-source tool, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/obsproject/obs-studio/releases/tag/33.0.0 Comments URL: https://news.ycombinator.com/item?id=50218430 Points: 102 # Comments: 25",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-24T04:49:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
