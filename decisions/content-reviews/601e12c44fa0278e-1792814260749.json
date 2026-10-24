@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792814243068-fluqtb",
+  "urlHash": "601e12c44fa0278e",
+  "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+  "sourceName": "Hacker News Front Page",
+  "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+  "summary": "Article URL: https://www.sciencedaily.com/releases/2026/10/261018084421.htm Comments URL: https://news.ycombinator.com/item?id=50217683 Points: 39 # Comments: 6",
+  "pubDate": "2026-10-24T01:53:10.000Z",
+  "decidedAt": "2026-10-24T03:57:31.887Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a neuroscience/health news story about Alzheimer's and sleep, not AI model release, AI research, industry, policy, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.sciencedaily.com/releases/2026/10/261018084421.htm Comments URL: https://news.ycombinator.com/item?id=50217683 Points: 39 # Comments: 6",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+    "linkHost": "www.sciencedaily.com",
+    "pubDate": "2026-10-24T01:53:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
