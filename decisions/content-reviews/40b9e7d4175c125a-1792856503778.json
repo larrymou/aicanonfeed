@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792856343036-y5g7cb",
+  "urlHash": "40b9e7d4175c125a",
+  "url": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Workflow context for AI agents with Smartsheet MCP on AWS",
+  "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
+  "pubDate": "2026-10-20T17:59:07.000Z",
+  "decidedAt": "2026-10-24T15:39:16.384Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog tutorial showing how to connect the Smartsheet MCP Server to Amazon Quick and Kiro. It is an integration walkthrough, not an announcement of a new model, research result, business event, policy action, or new open-source tool release; no rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-20T17:59:07.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
