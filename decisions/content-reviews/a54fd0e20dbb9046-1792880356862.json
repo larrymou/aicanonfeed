@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792880311919-71mppd",
+  "urlHash": "a54fd0e20dbb9046",
+  "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+  "sourceName": "Hacker News Front Page",
+  "title": "No Signs of AI Payoff Outside the Tech Sector",
+  "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 353 # Comments: 323",
+  "pubDate": "2026-10-24T19:47:19.000Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/analysis on AI economic payoff outside tech; no named model release, research artifact, business event (financing/M&A/partnership/revenue data), policy action, or OSS tool launch. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 353 # Comments: 323",
+    "summaryChars": 211,
+    "summarySource": "summary",
+    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+    "linkHost": "www.apollo.com",
+    "pubDate": "2026-10-24T19:47:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
