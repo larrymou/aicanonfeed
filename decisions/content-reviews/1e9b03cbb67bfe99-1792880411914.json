@@ -1,18 +1,22 @@
 {
-  "runId": "run-1792867182918-eh0uxm",
+  "runId": "run-1792880311919-71mppd",
   "urlHash": "1e9b03cbb67bfe99",
   "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
   "sourceName": "Ars Technica AI",
   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
   "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
   "pubDate": "2026-10-23T17:18:31.000Z",
-  "decidedAt": "2026-10-24T18:39:58.723Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "reason": "Item is a trade/regulatory waiver for foreign-made robotic equipment used in chip fabs; it reports no model release, research artifact, industry business event (financing/M&A/partnership/market data), AI policy action, or open-source tool release covered by the rules.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
