@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792880311919-71mppd",
+  "urlHash": "c7aa9b7dfeaf83bd",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+  "sourceName": "The Verge AI",
+  "title": "Pennsylvania will require labels on AI-generated ads",
+  "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or",
+  "pubDate": "2026-10-24T18:32:21.000Z",
+  "decidedAt": "2026-10-24T22:19:04.090Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "Pennsylvania governor signed the AI Deceptive Advertising Act into law, requiring disclosures on AI-generated ads — a new state law with a reputable media report link (The Verge).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-24T18:32:21.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
