@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "beede4b02c100821",
+  "url": "https://www.techmeme.com/261025/p9#a261025p9",
+  "sourceName": "Techmeme",
+  "title": "The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions (Tom Matsuda/Financial Times)",
+  "summary": "Tom Matsuda / Financial Times: The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions — Record labels and artists including Taylor Swift and Ariana Grande are using the throwback mu",
+  "pubDate": "2026-10-25T17:00:45.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about the iTunes Store being used by pop stars for collectibles and chart positioning; it contains no AI model release, research, AI industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tom Matsuda / Financial Times: The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions — Record labels and artists including Taylor Swift and Ariana Grande are using the throwback mu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p9#a261025p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T17:00:45.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
