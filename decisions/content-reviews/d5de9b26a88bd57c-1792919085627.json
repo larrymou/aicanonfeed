@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "d5de9b26a88bd57c",
+  "url": "https://www.techmeme.com/261025/p5#a261025p5",
+  "sourceName": "Techmeme",
+  "title": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark (Cailey Gleeson/Fierce Healthcare)",
+  "summary": "Cailey Gleeson / Fierce Healthcare: Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark — Applied artificial intelligence company Baba secured $40 million in series A funding",
+  "pubDate": "2026-10-25T05:40:00.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Baba raised a $40M Series A led by FirstMark — a financing event reported by Fierce Healthcare (named author Cailey Gleeson) via Techmeme, matching the industry business-event rule (no model release or policy action involved).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cailey Gleeson / Fierce Healthcare: Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark — Applied artificial intelligence company Baba secured $40 million in series A funding",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p5#a261025p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T05:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
