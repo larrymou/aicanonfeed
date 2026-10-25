@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "77c2ca05ccdeef34",
+  "url": "https://bigwhalehunting.com/workforce/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+  "summary": "Article URL: https://bigwhalehunting.com/workforce/ Comments URL: https://news.ycombinator.com/item?id=50232312 Points: 31 # Comments: 6",
+  "pubDate": "2026-10-25T15:05:39.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN data-visualization project about S&P 500 market-cap bubbles; not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://bigwhalehunting.com/workforce/ Comments URL: https://news.ycombinator.com/item?id=50232312 Points: 31 # Comments: 6",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://bigwhalehunting.com/workforce/",
+    "linkHost": "bigwhalehunting.com",
+    "pubDate": "2026-10-25T15:05:39.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
