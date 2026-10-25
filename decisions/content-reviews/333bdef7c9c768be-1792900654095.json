@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792900614549-zgng6w",
+  "urlHash": "333bdef7c9c768be",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xer72h/asrn_linearmemory_longrange_copying_with_learned/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ASRN: Linear-memory long-range copying with learned proper-time clock [p]",
+  "summary": "ASRN (Adaptive Sparse Recurrence Network, red de recurrencia dispersa adaptativa) es una capa de modelo de lenguaje que recupera apariciones anteriores exactas con trabajo acotado por pieza: cada pieza atiende solo a sus C compañeros más recientes en casilleros de hash de signo a",
+  "pubDate": "2026-10-25T02:57:16.000Z",
+  "decidedAt": "2026-10-25T03:57:27.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post describes a new architecture (ASRN), but the link is a Reddit discussion thread, not the original paper or official source; linked_page_owner_domain/author are not observed, so R2's artifact-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ASRN (Adaptive Sparse Recurrence Network, red de recurrencia dispersa adaptativa) es una capa de modelo de lenguaje que recupera apariciones anteriores exactas con trabajo acotado por pieza: cada pieza atiende solo a sus C compañeros más recientes en casilleros de hash de signo a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xer72h/asrn_linearmemory_longrange_copying_with_learned/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-25T02:57:16.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
