@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "98b7a3b1e52660dd",
+  "url": "https://www.techmeme.com/261025/p7#a261025p7",
+  "sourceName": "Techmeme",
+  "title": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers (Maria Curi/Axios)",
+  "summary": "Maria Curi / Axios: Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers — Washington has always viewed Silicon Valley as culturally strange. But the current crop of AI lea",
+  "pubDate": "2026-10-25T11:00:54.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary about lawmakers' views of AI leaders as a political liability; no new law, regulation, enforcement, or official policy action, and no model, research, industry business event, or OSS release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Maria Curi / Axios: Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers — Washington has always viewed Silicon Valley as culturally strange. But the current crop of AI lea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p7#a261025p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T11:00:54.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
