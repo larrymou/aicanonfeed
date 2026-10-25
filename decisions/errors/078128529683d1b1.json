@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "078128529683d1b1",
+  "url": "https://www.techmeme.com/261025/p1#a261025p1",
+  "sourceName": "Techmeme",
+  "title": "LSEG agrees to acquire Octus, an NY-based provider of credit intelligence, data, and workflow software, from Permira and Octus' management for $3.54B in cash (Dominic Chopping/Wall Street Journal)",
+  "summary": "Dominic Chopping / Wall Street Journal: LSEG agrees to acquire Octus, an NY-based provider of credit intelligence, data, and workflow software, from Permira and Octus' management for $3.54B in cash — The group said the acquisition would transform its presence in credit and privat",
+  "pubDate": "2026-10-25T04:40:01.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dominic Chopping / Wall Street Journal: LSEG agrees to acquire Octus, an NY-based provider of credit intelligence, data, and workflow software, from Permira and Octus' management for $3.54B in cash — The group said the acquisition would transform its presence in credit and privat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p1#a261025p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T04:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
