@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "131a09f78affaf20",
+  "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+  "summary": "Article URL: https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/ Comments URL: https://news.ycombinator.com/item?id=50234232 Points: 71 # Comments: 5",
+  "pubDate": "2026-10-25T18:04:11.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a non-AI news story about police public-records fees for a local news outlet. No model release, research artifact, AI industry business event, AI policy action, or open-source AI tool is present, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/ Comments URL: https://news.ycombinator.com/item?id=50234232 Points: 71 # Comments: 5",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+    "linkHost": "theintercept.com",
+    "pubDate": "2026-10-25T18:04:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
