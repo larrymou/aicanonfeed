@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "9738c85c5733ec46",
+  "url": "https://github.com/winnin/farol",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Farol – a risk map of a pull request for the person who approves it",
+  "summary": "Article URL: https://github.com/winnin/farol Comments URL: https://news.ycombinator.com/item?id=50231349 Points: 34 # Comments: 20",
+  "pubDate": "2026-10-25T13:28:06.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN GitHub repo for a pull-request risk map tool; title/summary never indicate AI/ML functionality, so rule 5-1's 'open-source AI tool' condition is unmet and no other rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/winnin/farol Comments URL: https://news.ycombinator.com/item?id=50231349 Points: 34 # Comments: 20",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://github.com/winnin/farol",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-25T13:28:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
