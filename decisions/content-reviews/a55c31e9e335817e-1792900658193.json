@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792900614549-zgng6w",
+  "urlHash": "a55c31e9e335817e",
+  "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
+  "sourceName": "Hacker News Front Page",
+  "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+  "summary": "Article URL: https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report Comments URL: https://news.ycombinator.com/item?id=50227639 Points: 35 # Comments: 8",
+  "pubDate": "2026-10-25T02:18:35.000Z",
+  "decidedAt": "2026-10-25T03:57:27.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Meta account restrictions in a Brazilian election; it is not an AI model release, research artifact, business event (financing/M&A/partnership/market data/product launch), official policy action, or OSS tooling release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report Comments URL: https://news.ycombinator.com/item?id=50227639 Points: 35 # Comments: 8",
+    "summaryChars": 213,
+    "summarySource": "summary",
+    "link": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
+    "linkHost": "www.aljazeera.com",
+    "pubDate": "2026-10-25T02:18:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
