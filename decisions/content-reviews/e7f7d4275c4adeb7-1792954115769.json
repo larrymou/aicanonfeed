@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "e7f7d4275c4adeb7",
+  "url": "https://imaginationlibrary.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Dolly Parton's Imagination Library",
+  "summary": "With today's news, I thought I'd share this great program: “When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Who",
+  "pubDate": "2026-10-25T18:23:54.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Dolly Parton's Imagination Library, a children's book program; no AI model, research, industry, policy, or OSS tool content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With today's news, I thought I'd share this great program: “When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Who",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://imaginationlibrary.com/",
+    "linkHost": "imaginationlibrary.com",
+    "pubDate": "2026-10-25T18:23:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
