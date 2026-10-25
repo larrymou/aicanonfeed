@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "033e8d72bec020f1",
+  "url": "https://www.techmeme.com/261025/p3#a261025p3",
+  "sourceName": "Techmeme",
+  "title": "Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs (Hartley Charlton/MacRumors)",
+  "summary": "Hartley Charlton / MacRumors: Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs — Instagram is now available on the Apple TV, bringing Reels, longer videos, and live shows",
+  "pubDate": "2026-10-25T05:05:01.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Instagram launching an Apple TV video app, not an AI model, research result, AI business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hartley Charlton / MacRumors: Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs — Instagram is now available on the Apple TV, bringing Reels, longer videos, and live shows",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p3#a261025p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T05:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
