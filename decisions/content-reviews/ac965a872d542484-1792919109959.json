@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "ac965a872d542484",
+  "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why Gopher in 2026?",
+  "summary": "Article URL: https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt Comments URL: https://news.ycombinator.com/item?id=50226577 Points: 74 # Comments: 23",
+  "pubDate": "2026-10-24T23:33:19.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Gopher protocol article (Why Gopher in 2026?) with no AI model release, research artifact, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt Comments URL: https://news.ycombinator.com/item?id=50226577 Points: 74 # Comments: 23",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+    "linkHost": "gopher.muffinlabs.com",
+    "pubDate": "2026-10-24T23:33:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
