@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "1f6056f34e61a5ea",
+  "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+  "sourceName": "Hacker News Front Page",
+  "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+  "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 345 # Comments: 337",
+  "pubDate": "2026-10-24T23:11:54.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/analysis essay on AI's role in creative-industry job losses; not a model release, research artifact, industry business event (financing/M&A/partnership/revenue), policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 345 # Comments: 337",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+    "linkHost": "www.apricitas.io",
+    "pubDate": "2026-10-24T23:11:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
