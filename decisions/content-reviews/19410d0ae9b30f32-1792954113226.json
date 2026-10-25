@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "19410d0ae9b30f32",
+  "url": "https://www.twitch.tv/flytwitcher",
+  "sourceName": "Hacker News Front Page",
+  "title": "I made a virtual pet fruit fly that Twitch chat can interact with",
+  "summary": "Article URL: https://www.twitch.tv/flytwitcher Comments URL: https://news.ycombinator.com/item?id=50234480 Points: 3 # Comments: 0",
+  "pubDate": "2026-10-25T18:24:20.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A Twitch stream of a chat-interactive virtual pet fruit fly. No named AI model release, no research paper/benchmark, no industry business event, no policy action, and no open-source tool or repository link; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.twitch.tv/flytwitcher Comments URL: https://news.ycombinator.com/item?id=50234480 Points: 3 # Comments: 0",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://www.twitch.tv/flytwitcher",
+    "linkHost": "www.twitch.tv",
+    "pubDate": "2026-10-25T18:24:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
