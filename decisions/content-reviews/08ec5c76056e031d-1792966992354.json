@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792966977022-7xwoqb",
+  "urlHash": "08ec5c76056e031d",
+  "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+  "sourceName": "TechCrunch AI",
+  "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+  "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+  "pubDate": "2026-10-25T21:31:16.000Z",
+  "decidedAt": "2026-10-25T22:23:04.456Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers release of an AI-generated video clip, not a named model/model-capability release, research result, business event (financing, M&A, partnership, market data, non-model product launch), policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+    "summaryChars": 95,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-25T21:31:16.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
