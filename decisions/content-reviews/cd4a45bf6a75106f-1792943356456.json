@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "cd4a45bf6a75106f",
+  "url": "https://www.techmeme.com/261025/p8#a261025p8",
+  "sourceName": "Techmeme",
+  "title": "Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used (Mark Gurman/Bloomberg)",
+  "summary": "Mark Gurman / Bloomberg: Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used — Also: The company rolls out a retail store tool to reduce wasted inventory. — Apple's touch-s",
+  "pubDate": "2026-10-25T15:00:32.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Apple macOS UI/hardware changes for an OLED touch MacBook Pro; no AI model release, research artifact, AI business event, policy action, or OSS tool launch is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mark Gurman / Bloomberg: Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used — Also: The company rolls out a retail store tool to reduce wasted inventory. — Apple's touch-s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p8#a261025p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T15:00:32.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
