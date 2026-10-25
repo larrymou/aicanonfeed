@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792966977022-7xwoqb",
+  "urlHash": "08e7fd678891a909",
+  "url": "https://www.disneyanimation.com/process/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What goes into making an animated film?",
+  "summary": "Article URL: https://www.disneyanimation.com/process/ Comments URL: https://news.ycombinator.com/item?id=50235738 Points: 31 # Comments: 13",
+  "pubDate": "2026-10-25T20:27:09.000Z",
+  "decidedAt": "2026-10-25T22:23:04.456Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Disney Animation page about the animated film production process. No AI model release, research artifact, AI business event, policy action, or open-source AI tool is described, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.disneyanimation.com/process/ Comments URL: https://news.ycombinator.com/item?id=50235738 Points: 31 # Comments: 13",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://www.disneyanimation.com/process/",
+    "linkHost": "www.disneyanimation.com",
+    "pubDate": "2026-10-25T20:27:09.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
