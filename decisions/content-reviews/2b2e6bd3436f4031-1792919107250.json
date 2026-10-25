@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "2b2e6bd3436f4031",
+  "url": "https://github.com/slee-persis/GVS5H",
+  "sourceName": "Hacker News Front Page",
+  "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+  "summary": "Article URL: https://github.com/slee-persis/GVS5H Comments URL: https://news.ycombinator.com/item?id=50228167 Points: 157 # Comments: 55",
+  "pubDate": "2026-10-25T03:56:01.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Link is a third-party personal GitHub repo, not an official owner announcement for the named models, so rule 1-1's evidence-link condition fails. No paper/preprint or official benchmark source for research (2-1), and the summary provides no evidence of a released open-source tool/framework (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/slee-persis/GVS5H Comments URL: https://news.ycombinator.com/item?id=50228167 Points: 157 # Comments: 55",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/slee-persis/GVS5H",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-25T03:56:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
