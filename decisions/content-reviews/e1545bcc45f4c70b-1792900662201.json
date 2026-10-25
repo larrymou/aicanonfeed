@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792900614549-zgng6w",
+  "urlHash": "e1545bcc45f4c70b",
+  "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+  "sourceName": "Hacker News Front Page",
+  "title": "Cerebras Deploys Trillion-Parameter AI Models",
+  "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 27 # Comments: 7",
+  "pubDate": "2026-10-25T01:33:49.000Z",
+  "decidedAt": "2026-10-25T03:57:27.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Cerebras deployment blog about serving trillion-parameter models; names no specific model or release action (rule 1-1 unmet), no research artifact (2-1), no business event like financing/M&A/partnership/product launch (3-1), no policy action (4-1), and no OSS tool/framework release (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 27 # Comments: 7",
+    "summaryChars": 187,
+    "summarySource": "summary",
+    "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "linkHost": "www.cerebras.ai",
+    "pubDate": "2026-10-25T01:33:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
