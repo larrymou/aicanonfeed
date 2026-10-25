@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792900614549-zgng6w",
+  "urlHash": "70a0305589593956",
+  "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Xbox Turns Down Netflix $500M Offer",
+  "summary": "Article URL: https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/ Comments URL: https://news.ycombinator.com/item?id=50227892 Points: 32 # Comments: 12",
+  "pubDate": "2026-10-25T03:05:53.000Z",
+  "decidedAt": "2026-10-25T03:57:27.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a gaming/entertainment business deal (Xbox declining a Netflix offer); it is not an AI model release, research result, AI industry event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/ Comments URL: https://news.ycombinator.com/item?id=50227892 Points: 32 # Comments: 12",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+    "linkHost": "www.darkhorizons.com",
+    "pubDate": "2026-10-25T03:05:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
