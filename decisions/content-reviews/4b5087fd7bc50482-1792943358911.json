@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "4b5087fd7bc50482",
+  "url": "https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/",
+  "sourceName": "Hacker News Front Page",
+  "title": "A Few Thoughts on Intensity",
+  "summary": "Article URL: https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/ Comments URL: https://news.ycombinator.com/item?id=50232035 Points: 7 # Comments: 0",
+  "pubDate": "2026-10-25T14:37:49.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog essay on 'intensity' with no AI model, research artifact, business event, policy action, or open-source tool cited; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/ Comments URL: https://news.ycombinator.com/item?id=50232035 Points: 7 # Comments: 0",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/",
+    "linkHost": "www.tylerhogge.com",
+    "pubDate": "2026-10-25T14:37:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
