@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "9a814be9eb368823",
+  "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+  "sourceName": "TechCrunch AI",
+  "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+  "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+  "pubDate": "2026-10-25T16:57:32.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an economist's commentary/opinion on AI ROI, not a financing, M&A, partnership, market/revenue data release, or product launch, so rule 3-1's business-event conditions are unmet; no model release, research artifact, policy action, or OSS tool is present.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-25T16:57:32.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
