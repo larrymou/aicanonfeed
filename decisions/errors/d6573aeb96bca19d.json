@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792966977022-7xwoqb",
+  "urlHash": "d6573aeb96bca19d",
+  "url": "https://www.techmeme.com/261025/p11#a261025p11",
+  "sourceName": "Techmeme",
+  "title": "Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face \"death and consolidation\" (Elon Musk/@elonmusk)",
+  "summary": "Elon Musk / @elonmusk: Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face “death and consolidation” — Pretty much. As of the past few weeks, debt markets have almost entirely shut off access to money ",
+  "pubDate": "2026-10-25T21:35:01.000Z",
+  "decidedAt": "2026-10-25T22:23:04.456Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Elon Musk / @elonmusk: Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face “death and consolidation” — Pretty much. As of the past few weeks, debt markets have almost entirely shut off access to money ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p11#a261025p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T21:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
