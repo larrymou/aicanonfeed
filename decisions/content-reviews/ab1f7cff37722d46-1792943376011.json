@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792943343630-oe0pyl",
+  "urlHash": "ab1f7cff37722d46",
+  "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+  "sourceName": "The Verge AI",
+  "title": "Google’s AI search changes upended online publishing",
+  "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital",
+  "pubDate": "2026-10-25T12:00:00.000Z",
+  "decidedAt": "2026-10-25T15:49:11.487Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Verge newsletter column/commentary on how Google's AI search affected online publishing. No named model release, no research artifact, no financing/M&A/partnership/product-launch business event, no policy action, no OSS tool. Commentary is not covered by any active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-25T12:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
