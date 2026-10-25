@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792900614549-zgng6w",
+  "urlHash": "aac5159d2c7d875c",
+  "url": "https://codeberg.org/Misom/FindMyWeb",
+  "sourceName": "Hacker News Front Page",
+  "title": "FindMyWeb: Apple Find My, reverse enginiered",
+  "summary": "Article URL: https://codeberg.org/Misom/FindMyWeb Comments URL: https://news.ycombinator.com/item?id=50226646 Points: 34 # Comments: 7",
+  "pubDate": "2026-10-24T23:42:52.000Z",
+  "decidedAt": "2026-10-25T03:57:27.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reverse-engineering project for Apple Find My on Codeberg; no AI model, research artifact, business event, policy action, or AI developer tool described. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://codeberg.org/Misom/FindMyWeb Comments URL: https://news.ycombinator.com/item?id=50226646 Points: 34 # Comments: 7",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://codeberg.org/Misom/FindMyWeb",
+    "linkHost": "codeberg.org",
+    "pubDate": "2026-10-24T23:42:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
