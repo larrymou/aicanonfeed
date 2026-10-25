@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792966977022-7xwoqb",
+  "urlHash": "4ca645a49e561432",
+  "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+  "summary": "Article URL: https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/ Comments URL: https://news.ycombinator.com/item?id=50236081 Points: 66 # Comments: 21",
+  "pubDate": "2026-10-25T21:08:28.000Z",
+  "decidedAt": "2026-10-25T22:23:04.456Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a Serbian election and student movement; it is not an AI model release, research, industry, policy, or OSS tool. No active rule covers non-AI political news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/ Comments URL: https://news.ycombinator.com/item?id=50236081 Points: 66 # Comments: 21",
+    "summaryChars": 201,
+    "summarySource": "summary",
+    "link": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+    "linkHost": "www.reuters.com",
+    "pubDate": "2026-10-25T21:08:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
