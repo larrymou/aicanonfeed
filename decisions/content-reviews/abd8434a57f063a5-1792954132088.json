@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "abd8434a57f063a5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
+  "summary": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0, and the model card lists a 512K context window. the team reports 80.9 on Terminal-Bench 2.1 versus 73.0 for Qwen3.8-27B, using the same har",
+  "pubDate": "2026-10-25T16:32:44.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Nanbeige4.3-33B is a named model release, but the only link is a Reddit post (linkHost www.reddit.com), not an official Nanbeige announcement; linked_page_owner_domain and linked_page_author are not observed, so no named-author news article is established. Rule 1-1 evidence link condition unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0, and the model card lists a 512K context window. the team reports 80.9 on Terminal-Bench 2.1 versus 73.0 for Qwen3.8-27B, using the same har",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-25T16:32:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
