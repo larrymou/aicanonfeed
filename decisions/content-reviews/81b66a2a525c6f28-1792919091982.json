@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "81b66a2a525c6f28",
+  "url": "https://www.techmeme.com/261025/p4#a261025p4",
+  "sourceName": "Techmeme",
+  "title": "CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP (Ryan Lawler/Axios)",
+  "summary": "Ryan Lawler / Axios: CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP — CapitalOS, which helps vertical software platforms offer cards and bill-pay tools to their SMB cu",
+  "pubDate": "2026-10-25T05:35:00.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a fintech financing round (CapitalOS, $21.9M Series A) with no AI model, research, policy, or open-source tooling artifact; no active rule covers non-AI business news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ryan Lawler / Axios: CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP — CapitalOS, which helps vertical software platforms offer cards and bill-pay tools to their SMB cu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p4#a261025p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T05:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
