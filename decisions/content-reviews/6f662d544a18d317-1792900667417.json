@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792900614549-zgng6w",
+  "urlHash": "6f662d544a18d317",
+  "url": "https://www.techmeme.com/261024/p10#a261024p10",
+  "sourceName": "Techmeme",
+  "title": "A look at Meta's role in Brazil's runoff, where Lula da Silva alleges Meta restricts his content and a court ordered it not to interfere; Meta cites glitches (Augusta Saraiva/Bloomberg)",
+  "summary": "Augusta Saraiva / Bloomberg: A look at Meta's role in Brazil's runoff, where Lula da Silva alleges Meta restricts his content and a court ordered it not to interfere; Meta cites glitches — A new villain is emerging in the closing stretch of Brazil's bitterly contested presidentia",
+  "pubDate": "2026-10-25T01:30:05.000Z",
+  "decidedAt": "2026-10-25T03:57:27.339Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Meta's content moderation in Brazil's election runoff and a court order, not an AI model/research/tool/business event, and no AI-specific policy or official document link is observed; Techmeme link is only an aggregator page.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Augusta Saraiva / Bloomberg: A look at Meta's role in Brazil's runoff, where Lula da Silva alleges Meta restricts his content and a court ordered it not to interfere; Meta cites glitches — A new villain is emerging in the closing stretch of Brazil's bitterly contested presidentia",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261024/p10#a261024p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T01:30:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
