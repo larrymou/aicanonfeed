@@ -1,0 +1,40 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "9d778a1a8d48394c",
+  "url": "https://talkweb.eu/openweb/4558/",
+  "sourceName": "Hacker News Front Page",
+  "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+  "summary": "Article URL: https://talkweb.eu/openweb/4558/ Comments URL: https://news.ycombinator.com/item?id=50233929 Points: 119 # Comments: 37",
+  "pubDate": "2026-10-25T17:30:55.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a FOSDEM talk on internet censorship/open web; no AI model release, research artifact, industry business event, policy/regulatory action, or open-source AI tooling is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://talkweb.eu/openweb/4558/ Comments URL: https://news.ycombinator.com/item?id=50233929 Points: 119 # Comments: 37",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://talkweb.eu/openweb/4558/",
+    "linkHost": "talkweb.eu",
+    "pubDate": "2026-10-25T17:30:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
