@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792966977022-7xwoqb",
+  "urlHash": "1a7e953f36796cb0",
+  "url": "https://minimaxir.com/2026/10/cheap-llms/",
+  "sourceName": "Hacker News Front Page",
+  "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+  "summary": "Article URL: https://minimaxir.com/2026/10/cheap-llms/ Comments URL: https://news.ycombinator.com/item?id=50236102 Points: 17 # Comments: 22",
+  "pubDate": "2026-10-25T21:11:31.000Z",
+  "decidedAt": "2026-10-25T22:23:04.456Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/analysis piece on LLM price cuts from a personal blog. No named model release with official owner announcement (1-1), no research artifact (2-1), no company/deal announcement or reputable media report of a business event (3-1), no policy action (4-1), and no open-source tool/framework rel",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://minimaxir.com/2026/10/cheap-llms/ Comments URL: https://news.ycombinator.com/item?id=50236102 Points: 17 # Comments: 22",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://minimaxir.com/2026/10/cheap-llms/",
+    "linkHost": "minimaxir.com",
+    "pubDate": "2026-10-25T21:11:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
