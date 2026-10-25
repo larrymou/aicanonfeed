@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792954103127-uu8syc",
+  "urlHash": "c862c145cb3e0a7f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What's the hardest part of creating edge cases for fine-tuning open-weight models? [D]",
+  "summary": "I'm interested in how people build datasets for fine-tuning open-weight models, especially when it is about making a model handling edge cases than just perform well on common examples. I'm curious about the data side of the process. Finding edge cases: How do you identify edge c",
+  "pubDate": "2026-10-25T18:35:21.000Z",
+  "decidedAt": "2026-10-25T18:48:28.788Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking how people build fine-tuning edge-case datasets; no named model release, no paper/benchmark artifact, no business event, policy action, or OSS tool launch. No rule covers commentary/discussion.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm interested in how people build datasets for fine-tuning open-weight models, especially when it is about making a model handling edge cases than just perform well on common examples. I'm curious about the data side of the process. Finding edge cases: How do you identify edge c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-25T18:35:21.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
