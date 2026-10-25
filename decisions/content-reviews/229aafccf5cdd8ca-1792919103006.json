@@ -1,0 +1,43 @@
+{
+  "runId": "run-1792919067926-rsjnny",
+  "urlHash": "229aafccf5cdd8ca",
+  "url": "https://www.techmeme.com/261025/p2#a261025p2",
+  "sourceName": "Techmeme",
+  "title": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot (Carl Franzen/VentureBeat)",
+  "summary": "Carl Franzen / VentureBeat: Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot — That's because Kimi K3.1 Pro scores so high on third-party benchmarks — according to both ",
+  "pubDate": "2026-10-25T04:50:01.000Z",
+  "decidedAt": "2026-10-25T09:04:35.713Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item centers on influencer-disclosure scrutiny around Kimi K3.1 Pro, not an availability/major-version/capability announcement with an official owner link. Link is a Techmeme aggregation page (linkHost www.techmeme.com), not the owner's site nor a full authored news article; no rule (industry, resea",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Carl Franzen / VentureBeat: Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot — That's because Kimi K3.1 Pro scores so high on third-party benchmarks — according to both ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p2#a261025p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-25T04:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
