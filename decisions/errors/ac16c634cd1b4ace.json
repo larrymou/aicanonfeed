@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "ac16c634cd1b4ace",
+  "url": "https://www.techmeme.com/261025/p16#a261025p16",
+  "sourceName": "Techmeme",
+  "title": "Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend (Bloomberg)",
+  "summary": "Bloomberg: Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend — SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a large dividend payout r",
+  "pubDate": "2026-10-26T03:25:01.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend — SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a large dividend payout r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p16#a261025p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T03:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
