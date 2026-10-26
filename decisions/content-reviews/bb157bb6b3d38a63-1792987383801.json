@@ -1,0 +1,44 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "bb157bb6b3d38a63",
+  "url": "https://arxiv.org/abs/2610.31789",
+  "sourceName": "arXiv cs.AI",
+  "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+  "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding",
+  "pubDate": "2026-10-26T04:00:00.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "New arXiv preprint (announce type: new) presenting a learning paradigm for LLM-based agents, with a direct link to the paper on arxiv.org — a research artifact under rule 2-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.31789",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-26T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
