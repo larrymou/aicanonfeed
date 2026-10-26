@@ -1,0 +1,37 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "a9df6cfe44eb739b",
+  "url": "https://www.techmeme.com/261025/p15#a261025p15",
+  "sourceName": "Techmeme",
+  "title": "High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era (Bloomberg)",
+  "summary": "Bloomberg: High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era — High-frequency trading firms are even building their own data centers as they compete for an edge in the AI e",
+  "pubDate": "2026-10-26T02:50:02.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era — High-frequency trading firms are even building their own data centers as they compete for an edge in the AI e",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p15#a261025p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T02:50:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
