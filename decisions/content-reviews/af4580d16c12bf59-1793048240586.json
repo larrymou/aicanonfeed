@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "af4580d16c12bf59",
+  "url": "https://www.techmeme.com/261026/p43#a261026p43",
+  "sourceName": "Techmeme",
+  "title": "Sources: DoorDash is in advanced talks to acquire Instacart, and the deal could be finalized as soon as this week and could value Instacart at ~$17B (Heather Haddon/Wall Street Journal)",
+  "summary": "Heather Haddon / Wall Street Journal: Sources: DoorDash is in advanced talks to acquire Instacart, and the deal could be finalized as soon as this week and could value Instacart at ~$17B — Deal could be completed as soon as this week, people familiar with the matter say — DoorDas",
+  "pubDate": "2026-10-26T19:35:00.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "DoorDash–Instacart acquisition talks are a food-delivery M&A story with no AI business event or AI artifact; no active rule (model release, research, AI industry, policy, OSS tooling) covers it, and the link is a Techmeme aggregator page.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Heather Haddon / Wall Street Journal: Sources: DoorDash is in advanced talks to acquire Instacart, and the deal could be finalized as soon as this week and could value Instacart at ~$17B — Deal could be completed as soon as this week, people familiar with the matter say — DoorDas",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261026/p43#a261026p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T19:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
