@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "cb718ce8dc9aea57",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xg1695/scoring_idp_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Scoring IDP [R]",
+  "summary": "This is a \"survey of current practices\" type of research for a niche area, nothing earth-shattering. I’ve written a 2-part Medium series (free, no paywall) on scoring Intelligent Document Processing (IDP). It focuses on Key Information Extraction (KIE) from structured documents, ",
+  "pubDate": "2026-10-26T16:10:06.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post promoting a two-part Medium series on scoring IDP practices; no original paper/arXiv artifact or official research source is linked, so rule 2-1 is not met. No model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is a \"survey of current practices\" type of research for a niche area, nothing earth-shattering. I’ve written a 2-part Medium series (free, no paywall) on scoring Intelligent Document Processing (IDP). It focuses on Key Information Extraction (KIE) from structured documents, ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xg1695/scoring_idp_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-26T16:10:06.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
