@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "04a5ca3ccbbbdb69",
+  "url": "https://www.techmeme.com/261026/p44#a261026p44",
+  "sourceName": "Techmeme",
+  "title": "Sources: Hong Kong-based stablecoin payments company RedotPay plans a US IPO filing by year-end and is in talks for a pre-IPO round at a $4B to $5B valuation (Olga Kharif/Bloomberg)",
+  "summary": "Olga Kharif / Bloomberg: Sources: Hong Kong-based stablecoin payments company RedotPay plans a US IPO filing by year-end and is in talks for a pre-IPO round at a $4B to $5B valuation — Crypto firm Redotpay is considering filing confidentially for a US initial public offering by y",
+  "pubDate": "2026-10-26T19:55:02.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a stablecoin payments company's planned US IPO and pre-IPO funding round; nothing in the title or summary indicates an AI industry business event, model release, research, policy action, or open-source tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Olga Kharif / Bloomberg: Sources: Hong Kong-based stablecoin payments company RedotPay plans a US IPO filing by year-end and is in talks for a pre-IPO round at a $4B to $5B valuation — Crypto firm Redotpay is considering filing confidentially for a US initial public offering by y",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261026/p44#a261026p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T19:55:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
