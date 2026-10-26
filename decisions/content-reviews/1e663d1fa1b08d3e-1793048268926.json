@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "1e663d1fa1b08d3e",
+  "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+  "sourceName": "Ars Technica AI",
+  "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+  "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+  "pubDate": "2026-10-26T18:50:41.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports employee protest over Boston Dynamics' ICE robot-dog deal. It is not a model release, research result, business event (financing/M&A/partnership/product launch), policy action, or OSS tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-26T18:50:41.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
