@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "c9f276ea93cbae67",
+  "url": "https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/",
+  "sourceName": "Hacker News Front Page",
+  "title": "DOJ says presidents should be able to sell secrets on eBay",
+  "summary": "Article URL: https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/ Comments URL: https://news.ycombinator.com/item?id=50243762 Points: 7 # Comments: 0",
+  "pubDate": "2026-10-26T13:54:44.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a commentary/satire piece about DOJ and classified secrets; no AI model, research, industry, policy, or OSS tooling content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/ Comments URL: https://news.ycombinator.com/item?id=50243762 Points: 7 # Comments: 0",
+    "summaryChars": 194,
+    "summarySource": "summary",
+    "link": "https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/",
+    "linkHost": "freedom.press",
+    "pubDate": "2026-10-26T13:54:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
