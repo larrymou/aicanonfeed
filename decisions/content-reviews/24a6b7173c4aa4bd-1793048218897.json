@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "24a6b7173c4aa4bd",
+  "url": "https://www.stephensemler.com/p/us-fired-over-600-missile-interceptors",
+  "sourceName": "Hacker News Front Page",
+  "title": "US fired over 600 missile interceptors defending Israel in three years",
+  "summary": "Article URL: https://www.stephensemler.com/p/us-fired-over-600-missile-interceptors Comments URL: https://news.ycombinator.com/item?id=50250557 Points: 15 # Comments: 0",
+  "pubDate": "2026-10-26T20:36:36.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a geopolitics/military article about US missile interceptors; it is not about AI models, research, industry business events, policy, or open-source tools. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.stephensemler.com/p/us-fired-over-600-missile-interceptors Comments URL: https://news.ycombinator.com/item?id=50250557 Points: 15 # Comments: 0",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://www.stephensemler.com/p/us-fired-over-600-missile-interceptors",
+    "linkHost": "www.stephensemler.com",
+    "pubDate": "2026-10-26T20:36:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
