@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "ca953cfcf07b0321",
+  "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The EPA Is Quietly Killing Its Web Archive",
+  "summary": "Article URL: https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/ Comments URL: https://news.ycombinator.com/item?id=50249275 Points: 117 # Comments: 11",
+  "pubDate": "2026-10-26T19:05:41.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns the EPA deleting its web archive; it is not an AI model release, AI research, AI industry business event, AI policy/regulation, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/ Comments URL: https://news.ycombinator.com/item?id=50249275 Points: 117 # Comments: 11",
+    "summaryChars": 214,
+    "summarySource": "summary",
+    "link": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+    "linkHost": "www.motherjones.com",
+    "pubDate": "2026-10-26T19:05:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
