@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "b1d7eb2dedce5839",
+  "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+  "sourceName": "Google AI Blog",
+  "title": "Our newest AI Quest: Mapping the human brain",
+  "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+  "pubDate": "2026-10-26T16:00:00.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an AI literacy education lesson ('AI Quests: Polar Peaks') from Google. It names no AI model, reports no research artifact, business event, policy action, or open-source tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+    "summaryChars": 86,
+    "summarySource": "summary",
+    "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-10-26T16:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
