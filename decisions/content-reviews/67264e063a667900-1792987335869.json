@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "67264e063a667900",
+  "url": "https://titleart.dvy.io/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: TitleArt – Make text like it's 1997",
+  "summary": "Article URL: https://titleart.dvy.io/ Comments URL: https://news.ycombinator.com/item?id=50238708 Points: 15 # Comments: 1",
+  "pubDate": "2026-10-26T03:23:57.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for TitleArt, a retro text-styling web toy. No evidence it is an AI model release, research result, industry business event, policy action, or AI open-source/developer tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://titleart.dvy.io/ Comments URL: https://news.ycombinator.com/item?id=50238708 Points: 15 # Comments: 1",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://titleart.dvy.io/",
+    "linkHost": "titleart.dvy.io",
+    "pubDate": "2026-10-26T03:23:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
