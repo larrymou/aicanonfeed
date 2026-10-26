@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "4d610e220c2d6684",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+  "sourceName": "The Verge AI",
+  "title": "Can AI help solve the COBOL code crisis?",
+  "summary": "A computer running COBOL 73, an antiquated computer programming language, awaits taxpayer information entries at the Internal Revenue Service in Austin, Tx., on Friday, June 10, 2022. | Image: Getty Images What do the IRS, banks, airlines, and government infrastructure around the",
+  "pubDate": "2026-10-26T13:15:00.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Verge feature/commentary on using AI for COBOL legacy migration; no named model release, research artifact, business event, policy action, or OSS tool announced. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A computer running COBOL 73, an antiquated computer programming language, awaits taxpayer information entries at the Internal Revenue Service in Austin, Tx., on Friday, June 10, 2022. | Image: Getty Images What do the IRS, banks, airlines, and government infrastructure around the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-26T13:15:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
