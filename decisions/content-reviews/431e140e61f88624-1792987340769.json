@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "431e140e61f88624",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xflxcj/p_stop_forcefeeding_your_agent_30000_tokens_of/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[P] Stop force-feeding your agent 30,000 tokens of chat history just to wake up. We built DUMEdb (Apache 2.0) — 220-token zero-turn wake using 1959 IBM unit-record principles. [P]",
+  "summary": "Yo Peace! If you build autonomous agents or pair-program across multiple sessions, you’ve probably hit this wall: Every time an agent switches context or resumes a project, the standard practice in most frameworks is to dump 30,000+ tokens of raw chat history back into prompt mem",
+  "pubDate": "2026-10-26T03:17:25.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apache-2.0 agent-memory tool, so rule 5-1 is the only candidate, but the link is a Reddit discussion post, not the repository or an official project announcement; linked_page_owner_domain/author are not observed, so the required evidence link cannot be established.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yo Peace! If you build autonomous agents or pair-program across multiple sessions, you’ve probably hit this wall: Every time an agent switches context or resumes a project, the standard practice in most frameworks is to dump 30,000+ tokens of raw chat history back into prompt mem",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xflxcj/p_stop_forcefeeding_your_agent_30000_tokens_of/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-26T03:17:25.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
