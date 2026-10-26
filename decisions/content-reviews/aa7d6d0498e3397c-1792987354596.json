@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "aa7d6d0498e3397c",
+  "url": "https://www.techmeme.com/261025/p14#a261025p14",
+  "sourceName": "Techmeme",
+  "title": "Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal (Michael Roddan/The Information)",
+  "summary": "Michael Roddan / The Information: Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal — In April 2025, Eric Glyman, co-founder and co-CEO of Ramp, received some bad news: A ",
+  "pubDate": "2026-10-26T01:50:01.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Story concerns investors lobbying lawmakers to investigate a rival's China ties after a scrapped deal; it is not a model release, research artifact, policy/regulatory action, or open-source tool, and matches no enumerated industry event (financing, M&A, partnership, market data).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Michael Roddan / The Information: Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal — In April 2025, Eric Glyman, co-founder and co-CEO of Ramp, received some bad news: A ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261025/p14#a261025p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T01:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
