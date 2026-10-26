@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "c43471fa04435c43",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xfl9qp/titans_learns_during_inference_what_if_it_learns/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Titans learns during inference. What if it learns the wrong thing? [P]",
+  "summary": "Titans gives AI a separate neural memory that updates its own weights as information arrives. I wrote a short visual explainer on how it works. In my small synthetic experiment, correcting false inputs improved recall—but didn’t fully restore it. What should an AI be allowed to r",
+  "pubDate": "2026-10-26T02:44:03.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] discussion/explainer with a small personal experiment; no link to a paper/preprint, no official model release announcement, and no business, policy, or OSS tooling artifact. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Titans gives AI a separate neural memory that updates its own weights as information arrives. I wrote a short visual explainer on how it works. In my small synthetic experiment, correcting false inputs improved recall—but didn’t fully restore it. What should an AI be allowed to r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xfl9qp/titans_learns_during_inference_what_if_it_learns/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-26T02:44:03.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
