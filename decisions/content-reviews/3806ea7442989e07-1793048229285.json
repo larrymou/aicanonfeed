@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "3806ea7442989e07",
+  "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+  "sourceName": "Ars Technica AI",
+  "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+  "summary": "Included is the ability to limit which applications Siri can directly access.",
+  "pubDate": "2026-10-26T20:04:16.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OS point release (27.2) with Siri feature tweaks; no named AI model, no N.0 major version, no new model capability, no official owner link, and it is not an AI industry business event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Included is the ability to limit which applications Siri can directly access.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-26T20:04:16.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
