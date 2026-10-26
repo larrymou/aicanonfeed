@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "c492858dd6647ddc",
+  "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+  "sourceName": "Ars Technica AI",
+  "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+  "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+  "pubDate": "2026-10-26T17:26:36.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports GPS spoofing cargo theft affecting data center equipment—a crime/tech-policy story. It is not a model release, research artifact, AI business event (financing/M&A/partnership/market data), policy action, or OSS tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-26T17:26:36.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
