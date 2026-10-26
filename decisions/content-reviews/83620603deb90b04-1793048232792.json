@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "83620603deb90b04",
+  "url": "https://notes.npilk.com/stop-the-spam-texts",
+  "sourceName": "Hacker News Front Page",
+  "title": "Somebody please stop the spam texts",
+  "summary": "Article URL: https://notes.npilk.com/stop-the-spam-texts Comments URL: https://news.ycombinator.com/item?id=50250016 Points: 35 # Comments: 22",
+  "pubDate": "2026-10-26T19:57:32.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an opinion article about spam text messages; it contains no AI model release, research artifact, industry business event, policy action, or open-source tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://notes.npilk.com/stop-the-spam-texts Comments URL: https://news.ycombinator.com/item?id=50250016 Points: 35 # Comments: 22",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://notes.npilk.com/stop-the-spam-texts",
+    "linkHost": "notes.npilk.com",
+    "pubDate": "2026-10-26T19:57:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
