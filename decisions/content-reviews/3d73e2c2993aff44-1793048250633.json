@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "3d73e2c2993aff44",
+  "url": "https://www.techmeme.com/261026/p42#a261026p42",
+  "sourceName": "Techmeme",
+  "title": "Apple releases iOS 27.2, with Siri AI enhancements for recalling past conversations, understanding more personal context, supporting five new languages, more (Juli Clover/MacRumors)",
+  "summary": "Juli Clover / MacRumors: Apple releases iOS 27.2, with Siri AI enhancements for recalling past conversations, understanding more personal context, supporting five new languages, more — Apple today released iOS 27.2 and iPadOS 27.2, the first major updates to the iOS 27 and iPadOS",
+  "pubDate": "2026-10-26T19:30:01.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers this. The item is an Apple OS/Siri feature update, not a named model release with an official owner announcement. The link is a Techmeme aggregator page, not an official Apple announcement or a full authored news article.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Juli Clover / MacRumors: Apple releases iOS 27.2, with Siri AI enhancements for recalling past conversations, understanding more personal context, supporting five new languages, more — Apple today released iOS 27.2 and iPadOS 27.2, the first major updates to the iOS 27 and iPadOS",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261026/p42#a261026p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T19:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
