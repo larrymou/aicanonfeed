@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "3e3af598ea144fec",
+  "url": "https://www.reddit.com/r/amiga/comments/1xftc5s/amija_amiga_emulator_in_java/",
+  "sourceName": "Hacker News Front Page",
+  "title": "AmiJa, a cycle-exact Amiga emulator written in Java",
+  "summary": "Article URL: https://www.reddit.com/r/amiga/comments/1xftc5s/amija_amiga_emulator_in_java/ Comments URL: https://news.ycombinator.com/item?id=50244410 Points: 6 # Comments: 0",
+  "pubDate": "2026-10-26T14:32:11.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a retro-computing Amiga emulator written in Java; it is not an AI model, research result, industry event, policy action, or AI/OSS developer tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.reddit.com/r/amiga/comments/1xftc5s/amija_amiga_emulator_in_java/ Comments URL: https://news.ycombinator.com/item?id=50244410 Points: 6 # Comments: 0",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/amiga/comments/1xftc5s/amija_amiga_emulator_in_java/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-26T14:32:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
