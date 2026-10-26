@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "0011f44db0acd064",
+  "url": "https://arxiv.org/abs/2610.31882",
+  "sourceName": "arXiv cs.AI",
+  "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+  "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-desi",
+  "pubDate": "2026-10-26T04:00:00.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-desi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.31882",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-26T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
