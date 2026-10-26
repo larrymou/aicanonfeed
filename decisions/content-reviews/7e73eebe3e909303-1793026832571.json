@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "7e73eebe3e909303",
+  "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+  "sourceName": "OpenAI Blog",
+  "title": "How Fanatics and OpenAI streamline the fan experience",
+  "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+  "pubDate": "2026-10-26T07:00:00.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on Fanatics using OpenAI's Shop the Look; no new model, research artifact, policy action, OSS tool, or financing/M&A/partnership/market deal event covered by the rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-26T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
