@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "12a6910c38bf261d",
+  "url": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Poetry for Engineers: Of Code and Shortleaf Pine",
+  "summary": "I step into the warm moist air among the columns of the pines, their net of twigs and roots complex as any lines of code. The trees purify and anchor. Their branches balance my restlessness. Their calling is to be present, mine to develop apps. Our tasks verge toward a common log",
+  "pubDate": "2026-10-25T12:00:02.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "This is a poetry/essay piece with no AI model release, research artifact, industry business event, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I step into the warm moist air among the columns of the pines, their net of twigs and roots complex as any lines of code. The trees purify and anchor. Their branches balance my restlessness. Their calling is to be present, mine to develop apps. Our tasks verge toward a common log",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-25T12:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
