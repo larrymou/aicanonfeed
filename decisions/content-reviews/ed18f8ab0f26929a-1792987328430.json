@@ -1,0 +1,42 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "ed18f8ab0f26929a",
+  "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+  "sourceName": "Hacker News Front Page",
+  "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+  "summary": "Article URL: https://github.com/KrushnaVardhanReddy/PaperPilot Comments URL: https://news.ycombinator.com/item?id=50238739 Points: 3 # Comments: 0",
+  "pubDate": "2026-10-26T03:29:05.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Title announces an open-source developer tool (PaperPilot, a pure-Rust PDF engine with WASM and MCP), linked directly to its GitHub repository, matching the open-source tooling rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/KrushnaVardhanReddy/PaperPilot Comments URL: https://news.ycombinator.com/item?id=50238739 Points: 3 # Comments: 0",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-26T03:29:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
