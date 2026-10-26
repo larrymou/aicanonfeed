@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "a46ac79e07a83466",
+  "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+  "sourceName": "Wired AI",
+  "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+  "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+  "pubDate": "2026-10-26T14:50:47.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Anthropic's IPO filing is an AI industry business/financing event reported by Wired, a reputable media outlet, linking to its coverage.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-26T14:50:47.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
