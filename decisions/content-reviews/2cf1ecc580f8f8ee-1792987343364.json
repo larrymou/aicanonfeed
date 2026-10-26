@@ -1,0 +1,41 @@
+{
+  "runId": "run-1792987288119-9lolyq",
+  "urlHash": "2cf1ecc580f8f8ee",
+  "url": "https://www.bbc.com/news/articles/cmvg7p001qj9o",
+  "sourceName": "Hacker News Front Page",
+  "title": "Brazil elections: Lula secures fourth term after dramatic comeback",
+  "summary": "Article URL: https://www.bbc.com/news/articles/cmvg7p001qj9o Comments URL: https://news.ycombinator.com/item?id=50238557 Points: 20 # Comments: 1",
+  "pubDate": "2026-10-26T03:04:08.000Z",
+  "decidedAt": "2026-10-26T04:01:38.844Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is off-topic political news (Brazil elections) with no AI model release, research artifact, industry business event, policy action, or open-source tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.bbc.com/news/articles/cmvg7p001qj9o Comments URL: https://news.ycombinator.com/item?id=50238557 Points: 20 # Comments: 1",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://www.bbc.com/news/articles/cmvg7p001qj9o",
+    "linkHost": "www.bbc.com",
+    "pubDate": "2026-10-26T03:04:08.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
