@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793048196627-en5o7z",
+  "urlHash": "f2dbf6b7d6369b7f",
+  "url": "https://www.techmeme.com/261026/p45#a261026p45",
+  "sourceName": "Techmeme",
+  "title": "Anthropic's IPO outlines an unusual succession plan: confidential, ranked lists of up to ten successors per founder, subject to approval from five cofounders (Anna Tong/Forbes)",
+  "summary": "Anna Tong / Forbes: Anthropic's IPO outlines an unusual succession plan: confidential, ranked lists of up to ten successors per founder, subject to approval from five cofounders — Anthropic's IPO includes a private line of succession: confidential lists of would-be heirs to its f",
+  "pubDate": "2026-10-26T20:25:00.000Z",
+  "decidedAt": "2026-10-26T20:56:57.075Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Anthropic IPO details (succession plan, corporate governance) are an AI industry business/financing event, reported via Techmeme citing Forbes' Anna Tong, satisfying rule 3-1's requirement for a reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anna Tong / Forbes: Anthropic's IPO outlines an unusual succession plan: confidential, ranked lists of up to ten successors per founder, subject to approval from five cofounders — Anthropic's IPO includes a private line of succession: confidential lists of would-be heirs to its f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261026/p45#a261026p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T20:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
