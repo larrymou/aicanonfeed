@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793026747435-h6moq4",
+  "urlHash": "5b3405dfae6cf19f",
+  "url": "https://www.apple.com/shop/buy-ipad/ipad-mini",
+  "sourceName": "Hacker News Front Page",
+  "title": "OLED iPad Mini",
+  "summary": "Article URL: https://www.apple.com/shop/buy-ipad/ipad-mini Comments URL: https://news.ycombinator.com/item?id=50243646 Points: 90 # Comments: 96",
+  "pubDate": "2026-10-26T13:47:33.000Z",
+  "decidedAt": "2026-10-26T14:59:40.206Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a consumer hardware product (OLED iPad mini) with no AI model, research artifact, AI business event, policy action, or open-source AI tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.apple.com/shop/buy-ipad/ipad-mini Comments URL: https://news.ycombinator.com/item?id=50243646 Points: 90 # Comments: 96",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://www.apple.com/shop/buy-ipad/ipad-mini",
+    "linkHost": "www.apple.com",
+    "pubDate": "2026-10-26T13:47:33.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
