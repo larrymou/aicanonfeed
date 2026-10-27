@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "b9b5de18e9156d54",
+  "url": "https://www.brangus.io/survival-llm",
+  "sourceName": "Hacker News Front Page",
+  "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+  "summary": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 24 # Comments: 8",
+  "pubDate": "2026-10-27T19:55:06.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hobbyist local AI assistant/library project on a personal domain. No named lab/company model or release action (1-1), no paper or benchmark artifact (2-1), no business event (3-1), no policy action (4-1). Open-source status and a repository link are not observed, so 5-1 is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 24 # Comments: 8",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://www.brangus.io/survival-llm",
+    "linkHost": "www.brangus.io",
+    "pubDate": "2026-10-27T19:55:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
