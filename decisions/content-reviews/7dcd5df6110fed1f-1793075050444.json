@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "7dcd5df6110fed1f",
+  "url": "https://arxiv.org/abs/2610.33105",
+  "sourceName": "arXiv cs.AI",
+  "title": "Artificial Intelligence in Mechanical Engineering: Foundations, Opportunities, Challenges, and Responsibilities",
+  "summary": "arXiv:2610.33105v1 Announce Type: new Abstract: Artificial intelligence (AI) is reshaping mechanical engineering (ME), from modeling, simulation, and optimization to diagnostics, design, and technical communication. Drawing on a round-table at the 28th ABCM International Congress",
+  "pubDate": "2026-10-27T04:00:00.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (cs.AI) presenting a research paper on AI in mechanical engineering; link points to the original arXiv abstract page, satisfying the research-artifact requirement of rule 2-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.33105v1 Announce Type: new Abstract: Artificial intelligence (AI) is reshaping mechanical engineering (ME), from modeling, simulation, and optimization to diagnostics, design, and technical communication. Drawing on a round-table at the 28th ABCM International Congress",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.33105",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-10-27T04:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
