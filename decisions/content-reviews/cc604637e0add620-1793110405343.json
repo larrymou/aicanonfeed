@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "cc604637e0add620",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xgqtxp/i_built_a_pytorch_optimizer_for_large_gpu/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I built a PyTorch optimizer for large GPU workloads — looking for feedback[P]",
+  "summary": "Hey, I've been working on a PyTorch optimizer called ApexW and figured I'd share it here to get some feedback from people who know more about this stuff than I do. The main goal is to reduce optimizer-state memory usage and see how much faster I can make optimizer steps on larger",
+  "pubDate": "2026-10-27T12:11:26.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post asking for feedback on a personal PyTorch optimizer; link is only the Reddit thread, with no repository or official announcement link required by 5-1, and no paper/benchmark artifact for 2-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey, I've been working on a PyTorch optimizer called ApexW and figured I'd share it here to get some feedback from people who know more about this stuff than I do. The main goal is to reduce optimizer-state memory usage and see how much faster I can make optimizer steps on larger",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xgqtxp/i_built_a_pytorch_optimizer_for_large_gpu/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-27T12:11:26.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
