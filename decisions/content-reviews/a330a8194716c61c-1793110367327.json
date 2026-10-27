@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "a330a8194716c61c",
+  "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+  "sourceName": "Hacker News Front Page",
+  "title": "Here Be Monsters: What Do You Still Need to Know When Agents Do the Work?",
+  "summary": "Article URL: https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work Comments URL: https://news.ycombinator.com/item?id=50258868 Points: 5 # Comments: 0",
+  "pubDate": "2026-10-27T13:23:22.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece on agents ('Here Be Monsters...'); no named model release, no research artifact (paper/preprint/benchmark), no business event, no policy action, and no open-source tool/framework release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work Comments URL: https://news.ycombinator.com/item?id=50258868 Points: 5 # Comments: 0",
+    "summaryChars": 190,
+    "summarySource": "summary",
+    "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+    "linkHost": "blog.adrq.dev",
+    "pubDate": "2026-10-27T13:23:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
