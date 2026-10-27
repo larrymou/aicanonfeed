@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "af034714259d96d6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xgisgo/practical_notes_on_setting_up_a_gpu_kerneldev/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Practical notes on setting up a GPU kernel-dev environment: CUDA 13's GPU cutoff, async timing pitfalls, profiler counter permissions [P]",
+  "summary": "I'm working through a free series on GPU kernel engineering (my own channel; I posted the roadmap here earlier: https://www.reddit.com/r/MachineLearning/comments/1xa4h2g/open_gpu_kernel_engineering_series_naive_gemm_to/ ) . Session 1 is a setup session. While preparing it I colle",
+  "pubDate": "2026-10-27T04:12:34.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post of practical setup notes/tutorial for GPU kernel dev environment; no new model, research artifact, business event, policy action, or open-source tool/library release with repo link. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm working through a free series on GPU kernel engineering (my own channel; I posted the roadmap here earlier: https://www.reddit.com/r/MachineLearning/comments/1xa4h2g/open_gpu_kernel_engineering_series_naive_gemm_to/ ) . Session 1 is a setup session. While preparing it I colle",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xgisgo/practical_notes_on_setting_up_a_gpu_kerneldev/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-27T04:12:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
