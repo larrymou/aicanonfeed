@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "10515f024c670e28",
+  "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+  "sourceName": "The Verge AI",
+  "title": "Data center backlash is uniting America",
+  "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across th",
+  "pubDate": "2026-10-27T10:00:00.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about voter backlash toward data center buildouts in midterm elections, not an AI model release, research artifact, business event, official policy action, or OSS tool. No rule covers it; no official document or policy announcement link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-27T10:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
