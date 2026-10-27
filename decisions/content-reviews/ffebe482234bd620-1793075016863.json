@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "ffebe482234bd620",
+  "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+  "sourceName": "Wired AI",
+  "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+  "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED.",
+  "pubDate": "2026-10-26T21:27:15.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "WIRED reports Anthropic's IPO prospectus/S-1 filing and omitted financial details, an AI industry business event (financing), covered by a reputable media report on wired.com.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED.",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-26T21:27:15.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
