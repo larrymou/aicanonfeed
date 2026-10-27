@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "80ab2e6673015dce",
+  "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+  "sourceName": "TechCrunch AI",
+  "title": "Japan internet giant GMO says hackers posted stolen customer data",
+  "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+  "pubDate": "2026-10-27T13:32:57.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a cloud-service data breach and stolen customer data at GMO Internet. It is not a model release, research artifact, policy action, or OSS tool, and it is not financing, M&A, partnership, market data, or a product launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+    "summaryChars": 117,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-27T13:32:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
