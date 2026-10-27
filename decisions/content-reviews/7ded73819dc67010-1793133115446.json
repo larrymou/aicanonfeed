@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "7ded73819dc67010",
+  "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+  "sourceName": "Ars Technica AI",
+  "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+  "summary": "You can apparently now tell AI tools what sort of protein you want them to make.",
+  "pubDate": "2026-10-27T18:49:08.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media coverage of a natural-language interface feature in protein/genome design software. No named model or release action (R1), no paper/preprint artifact (R2), no financing/M&A/partnership/market event (R3), no policy action (R4), and no open-source tool or repo release (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "You can apparently now tell AI tools what sort of protein you want them to make.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-27T18:49:08.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
