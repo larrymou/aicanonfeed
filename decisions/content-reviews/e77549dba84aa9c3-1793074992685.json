@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "e77549dba84aa9c3",
+  "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+  "summary": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 96 # Comments: 30",
+  "pubDate": "2026-10-26T22:41:48.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security incident/remediation post about a KV cache exposure, not a model release, research paper, business event, policy action, or new OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 96 # Comments: 30",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "linkHost": "blog.cloudflare.com",
+    "pubDate": "2026-10-26T22:41:48.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
