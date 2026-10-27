@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "d76823dfdc77273f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xggw1k/what_is_the_value_proposition_of_rl_environment/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What is the value proposition of \"RL environment\" companies? [D]",
+  "summary": "Recently I've been getting bombarded with reach outs from companies that build RL environments and sell to frontier labs like Anthropic, OAI, etc. I'm not really understanding how and why these companies exist. Lets say you somehow create an environment that no other model is abl",
+  "pubDate": "2026-10-27T02:37:13.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking a question about RL environment companies' business model; no named model release, no research artifact, no reported industry deal/financing event, no policy action, and no OSS tool release. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Recently I've been getting bombarded with reach outs from companies that build RL environments and sell to frontier labs like Anthropic, OAI, etc. I'm not really understanding how and why these companies exist. Lets say you somehow create an environment that no other model is abl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xggw1k/what_is_the_value_proposition_of_rl_environment/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-27T02:37:13.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
