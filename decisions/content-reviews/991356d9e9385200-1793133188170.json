@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "991356d9e9385200",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+  "sourceName": "The Verge AI",
+  "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+  "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste you",
+  "pubDate": "2026-10-27T16:14:18.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Firefox Smart Window AI form-filling is an incremental browser feature update, not a named model release, research artifact, business event (financing/M&A/partnership), policy action, or open-source tool. No official owner announcement link is observed, so no rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste you",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-27T16:14:18.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
