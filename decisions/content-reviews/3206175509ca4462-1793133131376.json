@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "3206175509ca4462",
+  "url": "https://www.techmeme.com/261027/p26#a261027p26",
+  "sourceName": "Techmeme",
+  "title": "GM plans to switch from the NYSE to Nasdaq on November 17 as part of its push under Tesla veteran Sterling Anderson to use AI to speed up its development cycle (Financial Times)",
+  "summary": "Financial Times: GM plans to switch from the NYSE to Nasdaq on November 17 as part of its push under Tesla veteran Sterling Anderson to use AI to speed up its development cycle — Move marks another blow for Big Board as tech-focused rival attracts some of world's most valuable co",
+  "pubDate": "2026-10-27T18:10:03.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a stock-exchange listing switch (NYSE to Nasdaq) with AI only as secondary context; it is not a financing, M&A, partnership, market/revenue data, or product launch, so no industry rule is met. No model, research artifact, policy action, or OSS release either.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: GM plans to switch from the NYSE to Nasdaq on November 17 as part of its push under Tesla veteran Sterling Anderson to use AI to speed up its development cycle — Move marks another blow for Big Board as tech-focused rival attracts some of world's most valuable co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261027/p26#a261027p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-27T18:10:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
