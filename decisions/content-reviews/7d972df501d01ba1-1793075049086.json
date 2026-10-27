@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "7d972df501d01ba1",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "sourceName": "OpenAI Blog",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+  "pubDate": "2026-10-26T13:45:00.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about CodeRabbit using GPT-6.1 Sol; it announces no new model, major version, or new capability, and no business event (financing, M&A, deal). No rule covers this usage story.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-26T13:45:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
