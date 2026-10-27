@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "62166f0a5f363f7f",
+  "url": "https://www.techmeme.com/261027/p18#a261027p18",
+  "sourceName": "Techmeme",
+  "title": "Neocloud General Compute, which specializes in bare-metal infrastructure, raised a $100M Series A led by Blackbird and Abstract at an $800M post-money valuation (Tim Fernholz/TechCrunch)",
+  "summary": "Tim Fernholz / TechCrunch: Neocloud General Compute, which specializes in bare-metal infrastructure, raised a $100M Series A led by Blackbird and Abstract at an $800M post-money valuation — CoreWeave, a publicly traded neocloud that rents out computing power for AI, has seen its ",
+  "pubDate": "2026-10-27T13:30:24.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tim Fernholz / TechCrunch: Neocloud General Compute, which specializes in bare-metal infrastructure, raised a $100M Series A led by Blackbird and Abstract at an $800M post-money valuation — CoreWeave, a publicly traded neocloud that rents out computing power for AI, has seen its ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261027/p18#a261027p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-27T13:30:24.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
