@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "24969064b492b712",
+  "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+  "sourceName": "TechCrunch AI",
+  "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+  "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+  "pubDate": "2026-10-27T17:08:08.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reports a claimed research result, but the link is a TechCrunch article (media domain), not an original paper, arXiv preprint, or official source as rule 2-1 requires; no official owner link or paper artifact is observed. Not a model release, business, policy, or OSS tool item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+    "summaryChars": 110,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-27T17:08:08.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
