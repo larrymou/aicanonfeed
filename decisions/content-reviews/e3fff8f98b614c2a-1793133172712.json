@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "e3fff8f98b614c2a",
+  "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+  "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower ",
+  "pubDate": "2026-10-27T16:50:55.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS customer case study on Exowatt using SageMaker model customization; no new model/version release, no research artifact, no financing/M&A/partnership/market data or product launch, no policy action, and no open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-27T16:50:55.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
