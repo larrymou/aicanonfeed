@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "3ec66410d31187a3",
+  "url": "https://www.techmeme.com/261027/p25#a261027p25",
+  "sourceName": "Techmeme",
+  "title": "Avante, which builds an AI platform to help companies manage employee healthcare and other benefits, raised a $30M Series A, following a $10M seed in 2024 (Kurt Schlosser/GeekWire)",
+  "summary": "Kurt Schlosser / GeekWire: Avante, which builds an AI platform to help companies manage employee healthcare and other benefits, raised a $30M Series A, following a $10M seed in 2024 — Chronicling the Seattle and Pacific Northwest startup scene. — Avante, the maker of an AI platfo",
+  "pubDate": "2026-10-27T17:02:17.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry financing event: Avante raised a $30M Series A for its AI benefits platform, covered by GeekWire (Kurt Schlosser) via Techmeme. No model release, research artifact, policy action, or OSS tooling involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kurt Schlosser / GeekWire: Avante, which builds an AI platform to help companies manage employee healthcare and other benefits, raised a $30M Series A, following a $10M seed in 2024 — Chronicling the Seattle and Pacific Northwest startup scene. — Avante, the maker of an AI platfo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261027/p25#a261027p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-27T17:02:17.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
