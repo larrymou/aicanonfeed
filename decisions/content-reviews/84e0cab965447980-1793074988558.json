@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "84e0cab965447980",
+  "url": "https://www.techmeme.com/261026/p49#a261026p49",
+  "sourceName": "Techmeme",
+  "title": "Fitbit Edge review: notable upgrade over the Charge 6 for GPS and heart rate, Google Health app is an improvement, but lacks software polish and NFC payments (Ray Maker/DC Rainmaker)",
+  "summary": "Ray Maker / DC Rainmaker: Fitbit Edge review: notable upgrade over the Charge 6 for GPS and heart rate, Google Health app is an improvement, but lacks software polish and NFC payments — The Fitbit Edge could most easily be called the Fitbit Charge 7, but sometimes switching thing",
+  "pubDate": "2026-10-26T23:10:02.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme item is a review of the Fitbit Edge wearable (GPS, heart rate, NFC payments). It is not an AI model release, research artifact, AI business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ray Maker / DC Rainmaker: Fitbit Edge review: notable upgrade over the Charge 6 for GPS and heart rate, Google Health app is an improvement, but lacks software polish and NFC payments — The Fitbit Edge could most easily be called the Fitbit Charge 7, but sometimes switching thing",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261026/p49#a261026p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T23:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
