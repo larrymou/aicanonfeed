@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "293b048364315092",
+  "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+  "sourceName": "Hacker News Front Page",
+  "title": "Discord will soon let anyone find public server messages through Google",
+  "summary": "Article URL: https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover Comments URL: https://news.ycombinator.com/item?id=50263854 Points: 79 # Comments: 51",
+  "pubDate": "2026-10-27T18:44:17.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Discord search/discoverability feature announcement; no AI model release, research artifact, industry business event, policy action, or open-source AI tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover Comments URL: https://news.ycombinator.com/item?id=50263854 Points: 79 # Comments: 51",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+    "linkHost": "discord.com",
+    "pubDate": "2026-10-27T18:44:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
