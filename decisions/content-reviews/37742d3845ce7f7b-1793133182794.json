@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "37742d3845ce7f7b",
+  "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+  "summary": "This article is brought to you by VicOne. A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance rea",
+  "pubDate": "2026-10-27T16:14:39.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Vendor-sponsored commentary (brought to you by VicOne) on robot safety/cybersecurity inputs. No named model release, no research artifact, no financing/M&A/partnership/market data, no policy action, and no open-source tool or repo. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This article is brought to you by VicOne. A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance rea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-27T16:14:39.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
