@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "9c1fdbd6e6b3c7d0",
+  "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+  "summary": "Article URL: https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/ Comments URL: https://news.ycombinator.com/item?id=50258521 Points: 73 # Comments: 64",
+  "pubDate": "2026-10-27T13:01:07.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple MacBook Pro hardware announcement; no named AI model release, no AI research artifact, no AI business/policy event, and no open-source AI tooling. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/ Comments URL: https://news.ycombinator.com/item?id=50258521 Points: 73 # Comments: 64",
+    "summaryChars": 191,
+    "summarySource": "summary",
+    "link": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+    "linkHost": "www.apple.com",
+    "pubDate": "2026-10-27T13:01:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
