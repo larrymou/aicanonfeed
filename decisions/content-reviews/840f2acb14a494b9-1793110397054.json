@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "840f2acb14a494b9",
+  "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+  "sourceName": "TechCrunch AI",
+  "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+  "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+  "pubDate": "2026-10-27T13:00:00.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opera's WebAI is a proposed browser standard covered only by a TechCrunch article. No named model release (R1), no paper/preprint artifact (R2), no financing/M&A/partnership/market data or product launch (R3), and no repository or official OSS announcement link (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+    "summaryChars": 73,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-27T13:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
