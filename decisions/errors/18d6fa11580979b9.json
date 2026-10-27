@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "18d6fa11580979b9",
+  "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+  "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+  "pubDate": "2026-10-27T16:30:57.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-27T16:30:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
