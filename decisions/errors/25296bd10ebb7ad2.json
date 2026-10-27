@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "25296bd10ebb7ad2",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.12",
+  "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3: a 1.7B text model with a 256K-token context window lfm3-vl: adds image understanding lfm3",
+  "pubDate": "2026-10-27T17:16:47.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3: a 1.7B text model with a 256K-token context window lfm3-vl: adds image understanding lfm3",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-27T17:16:47.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
