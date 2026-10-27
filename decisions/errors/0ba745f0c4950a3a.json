@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "0ba745f0c4950a3a",
+  "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+  "sourceName": "TechCrunch AI",
+  "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+  "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+  "pubDate": "2026-10-27T13:00:00.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-27T13:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
