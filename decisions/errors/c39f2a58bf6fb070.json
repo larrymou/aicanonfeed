@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "c39f2a58bf6fb070",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.12",
+  "summary": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dhi",
+  "pubDate": "2026-10-27T00:07:12.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dhi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-27T00:07:12.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
