@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "770d945c177c2730",
+  "url": "https://github.com/indexable-inc/blaze",
+  "sourceName": "Hacker News Front Page",
+  "title": "Incremental rust builds up to 92x faster than cargo/rustc",
+  "summary": "Article URL: https://github.com/indexable-inc/blaze Comments URL: https://news.ycombinator.com/item?id=50254300 Points: 26 # Comments: 6",
+  "pubDate": "2026-10-27T03:09:07.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an open-source Rust incremental build tool; nothing in title/summary indicates an AI tool, framework, research artifact, model release, policy action, or AI business event. No rule covers non-AI developer tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/indexable-inc/blaze Comments URL: https://news.ycombinator.com/item?id=50254300 Points: 26 # Comments: 6",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/indexable-inc/blaze",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-27T03:09:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
