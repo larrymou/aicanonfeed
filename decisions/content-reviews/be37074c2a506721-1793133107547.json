@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793133063568-8qz55h",
+  "urlHash": "be37074c2a506721",
+  "url": "https://www.techmeme.com/261027/p27#a261027p27",
+  "sourceName": "Techmeme",
+  "title": "Memo: Amazon says measuring AI adoption solely by token usage or code generation is \"deeply flawed,\" as it discourages staff from tokenmaxxing (Annie Palmer/CNBC)",
+  "summary": "Annie Palmer / CNBC: Memo: Amazon says measuring AI adoption solely by token usage or code generation is “deeply flawed,” as it discourages staff from tokenmaxxing — Amazon laid out its AI usage guidelines for software engineers in a memo to staffers, and discouraged employees fr",
+  "pubDate": "2026-10-27T19:15:34.000Z",
+  "decidedAt": "2026-10-27T20:31:14.481Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Amazon internal memo on how to measure AI adoption (discouraging tokenmaxxing) is corporate guidance, not a model/capability release, research artifact, business event (financing, M&A, partnership, revenue data, product launch), government policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Annie Palmer / CNBC: Memo: Amazon says measuring AI adoption solely by token usage or code generation is “deeply flawed,” as it discourages staff from tokenmaxxing — Amazon laid out its AI usage guidelines for software engineers in a memo to staffers, and discouraged employees fr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261027/p27#a261027p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-27T19:15:34.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
