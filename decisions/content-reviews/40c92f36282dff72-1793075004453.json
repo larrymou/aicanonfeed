@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793074920767-tlqhnk",
+  "urlHash": "40c92f36282dff72",
+  "url": "https://www.techmeme.com/261026/p48#a261026p48",
+  "sourceName": "Techmeme",
+  "title": "OpenAI announces three breakthroughs in computer science, math, and physics, including that the Exponential Time Hypothesis, a longstanding conjecture, is false (OpenAI)",
+  "summary": "OpenAI: OpenAI announces three breakthroughs in computer science, math, and physics, including that the Exponential Time Hypothesis, a longstanding conjecture, is false — We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis",
+  "pubDate": "2026-10-26T21:55:02.000Z",
+  "decidedAt": "2026-10-27T04:22:08.508Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports research discoveries but the only link is a Techmeme aggregator page (linkHost www.techmeme.com), not the original paper or official OpenAI source; linked_page_owner_domain/author not observed, so rule 2-1's artifact-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: OpenAI announces three breakthroughs in computer science, math, and physics, including that the Exponential Time Hypothesis, a longstanding conjecture, is false — We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261026/p48#a261026p48",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-26T21:55:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
