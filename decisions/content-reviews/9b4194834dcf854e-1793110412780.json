@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793110327565-h5k0hx",
+  "urlHash": "9b4194834dcf854e",
+  "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+  "sourceName": "Wired AI",
+  "title": "AI Agents Are Media’s New Favorite Audience",
+  "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+  "pubDate": "2026-10-27T11:00:00.000Z",
+  "decidedAt": "2026-10-27T14:12:18.115Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary piece about publishers tailoring content for AI agents; no named model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+    "summaryChars": 115,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-27T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
