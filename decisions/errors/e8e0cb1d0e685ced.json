@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "e8e0cb1d0e685ced",
+  "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "summary": "Gemini 4 Carbon: Our next frontier model",
+  "pubDate": "2026-10-28T17:00:58.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gemini 4 Carbon: Our next frontier model",
+    "summaryChars": 40,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-28T17:00:58.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
