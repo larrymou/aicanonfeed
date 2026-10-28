@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "9c753c08e677c0bb",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xhtabq/could_ai_detection_eventually_become_a/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Could AI detection eventually become a fundamentally unsolvable problem, similar to the halting problem? [D]",
+  "summary": "In theoretical computer science, we have the halting problem, which proves that certain problems cannot be solved by any general algorithm. This made me wonder about something similar in machine learning. Today, we can often distinguish AI-generated content from human-created con",
+  "pubDate": "2026-10-28T16:42:51.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [D] discussion post posing a theoretical question about AI detection; no paper, benchmark, or official source link. No rule covers commentary without a research artifact or other concrete event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In theoretical computer science, we have the halting problem, which proves that certain problems cannot be solved by any general algorithm. This made me wonder about something similar in machine learning. Today, we can often distinguish AI-generated content from human-created con",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xhtabq/could_ai_detection_eventually_become_a/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-28T16:42:51.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
