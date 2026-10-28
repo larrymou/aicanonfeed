@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "c63e6921001a7aa4",
+  "url": "https://www.techmeme.com/261028/p47#a261028p47",
+  "sourceName": "Techmeme",
+  "title": "Oracle pledges to limit new financing to $20B through FY 2030, expects free cash flow to turn positive in H2 FY 2028 and top $30B in FY 2029; ORCL jumps 11%+ (Deborah Sophia/Reuters)",
+  "summary": "Deborah Sophia / Reuters: Oracle pledges to limit new financing to $20B through FY 2030, expects free cash flow to turn positive in H2 FY 2028 and top $30B in FY 2029; ORCL jumps 11%+ — Oracle said it expects capital spending to peak this fiscal year and next as it builds more cl",
+  "pubDate": "2026-10-28T19:40:01.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Deborah Sophia / Reuters: Oracle pledges to limit new financing to $20B through FY 2030, expects free cash flow to turn positive in H2 FY 2028 and top $30B in FY 2029; ORCL jumps 11%+ — Oracle said it expects capital spending to peak this fiscal year and next as it builds more cl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p47#a261028p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T19:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
