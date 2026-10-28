@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "754548d382a06747",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+  "sourceName": "vLLM releases",
+  "title": "v0.33.0rc1: [CI] Fix stale NVFP4 decode test selector on DGX Spark (#64107)",
+  "summary": "Signed-off-by: grYe99 guorongye99@gmail.com guorongye99@gmail.com bfa2a43)",
+  "pubDate": "2026-10-28T09:31:23.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "vLLM is an open-source AI inference framework; this item announces a new tagged library release (v0.33.0rc1) with a direct link to the project's GitHub release page, matching rule 5-1 for open-source framework/library releases.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Signed-off-by: grYe99 guorongye99@gmail.com guorongye99@gmail.com bfa2a43)",
+    "summaryChars": 74,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-28T09:31:23.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
