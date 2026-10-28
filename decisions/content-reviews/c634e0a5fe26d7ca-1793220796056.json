@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "c634e0a5fe26d7ca",
+  "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Big Tech's thirst for water is sparking a global resistance",
+  "summary": "Article URL: https://restofworld.org/2026/ai-datacenters-water-resistance-global/ Comments URL: https://news.ycombinator.com/item?id=50278754 Points: 37 # Comments: 16",
+  "pubDate": "2026-10-28T18:34:51.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a commentary/report on data center water consumption and public resistance. It is not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://restofworld.org/2026/ai-datacenters-water-resistance-global/ Comments URL: https://news.ycombinator.com/item?id=50278754 Points: 37 # Comments: 16",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+    "linkHost": "restofworld.org",
+    "pubDate": "2026-10-28T18:34:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
