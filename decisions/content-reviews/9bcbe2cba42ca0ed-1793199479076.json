@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "9bcbe2cba42ca0ed",
+  "url": "https://www.techmeme.com/261028/p30#a261028p30",
+  "sourceName": "Techmeme",
+  "title": "X adds an intrusive promotional animation of an arm reaching across the screen to direct users to a \"promote\" post button, targeting verified and Premium users (Andrew Liszewski/The Verge)",
+  "summary": "Andrew Liszewski / The Verge: X adds an intrusive promotional animation of an arm reaching across the screen to direct users to a “promote” post button, targeting verified and Premium users — You have to hand it to X's latest promotional gimmick. — After Elon Musk warned that …",
+  "pubDate": "2026-10-28T13:50:00.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about X adding a promotional UI animation to nudge users toward a 'promote' post button. It is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew Liszewski / The Verge: X adds an intrusive promotional animation of an arm reaching across the screen to direct users to a “promote” post button, targeting verified and Premium users — You have to hand it to X's latest promotional gimmick. — After Elon Musk warned that …",
+    "summaryChars": 278,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p30#a261028p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T13:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
