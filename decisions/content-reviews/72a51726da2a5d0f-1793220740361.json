@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "72a51726da2a5d0f",
+  "url": "https://www.techmeme.com/261028/p51#a261028p51",
+  "sourceName": "Techmeme",
+  "title": "Microsoft reports Q1 capex of $45.2B, up from $34.9B a year earlier and below its own $50B projection, and free cash flow of $18.6B, vs. $8.54B est. by analysts (Deborah Sophia/Reuters)",
+  "summary": "Deborah Sophia / Reuters: Microsoft reports Q1 capex of $45.2B, up from $34.9B a year earlier and below its own $50B projection, and free cash flow of $18.6B, vs. $8.54B est. by analysts — Microsoft (MSFT.O) surpassed expectations for quarterly cloud revenue on Wednesday, signali",
+  "pubDate": "2026-10-28T20:40:01.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Microsoft Q1 capex and cloud revenue data is an AI industry business/market event reported by Reuters via Techmeme, a reputable media source with a dated item.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Deborah Sophia / Reuters: Microsoft reports Q1 capex of $45.2B, up from $34.9B a year earlier and below its own $50B projection, and free cash flow of $18.6B, vs. $8.54B est. by analysts — Microsoft (MSFT.O) surpassed expectations for quarterly cloud revenue on Wednesday, signali",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p51#a261028p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T20:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
