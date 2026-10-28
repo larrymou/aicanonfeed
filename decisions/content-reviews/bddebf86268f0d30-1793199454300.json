@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "bddebf86268f0d30",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+  "sourceName": "The Verge AI",
+  "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+  "summary": "xAI’s Southaven, Mississippi data center. | Photo by Brandon Dill / AFP via Getty Images A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant",
+  "pubDate": "2026-10-28T14:44:00.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports xAI buying out homeowners to avoid a data center noise lawsuit. Rule 3-1 lists financing, M&A, partnerships, market/revenue data, or non-model product launches; a property buyout tied to litigation fits none. Not research, policy action, tools/OSS, or a model release, so no rule covers ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "xAI’s Southaven, Mississippi data center. | Photo by Brandon Dill / AFP via Getty Images A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-28T14:44:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
