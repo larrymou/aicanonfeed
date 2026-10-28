@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "b6ef72a535891f68",
+  "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+  "summary": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/ Comments URL: https://news.ycombinator.com/item?id=50273396 Points: 99 # Comments: 106",
+  "pubDate": "2026-10-28T13:41:30.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Story about an individual religious exemption from using AI; no named model release, research artifact, business event, official policy/regulatory action, or OSS tool. Rule 4-1 requires a law, order, enforcement, or official policy announcement, and no linked page owner/author is observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/ Comments URL: https://news.ycombinator.com/item?id=50273396 Points: 99 # Comments: 106",
+    "summaryChars": 202,
+    "summarySource": "summary",
+    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+    "linkHost": "religionnews.com",
+    "pubDate": "2026-10-28T13:41:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
