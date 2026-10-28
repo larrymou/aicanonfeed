@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793163146918-s3qc49",
+  "urlHash": "5b8f2377809f90dc",
+  "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+  "sourceName": "TechCrunch AI",
+  "title": "The data center boom has an upside: innovation for the US grid",
+  "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+  "pubDate": "2026-10-27T22:55:41.000Z",
+  "decidedAt": "2026-10-28T04:52:37.978Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch commentary on data center power demand and grid modernization opportunities; no model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or open-source tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-27T22:55:41.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
