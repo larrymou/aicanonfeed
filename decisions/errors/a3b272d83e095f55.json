@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "a3b272d83e095f55",
+  "url": "https://www.techmeme.com/261028/p48#a261028p48",
+  "sourceName": "Techmeme",
+  "title": "Microsoft reports Q1 revenue up 19% YoY to $92.3B, Azure revenue up 48% to $33.2B, operating income up 21% to $45.9B, and net income up 32% to $36.6B (Microsoft)",
+  "summary": "Microsoft: Microsoft reports Q1 revenue up 19% YoY to $92.3B, Azure revenue up 48% to $33.2B, operating income up 21% to $45.9B, and net income up 32% to $36.6B — REDMOND, Wash. — October 28, 2026 — Microsoft Corp. today announced the following results for the quarter ended Septe",
+  "pubDate": "2026-10-28T20:10:01.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Microsoft: Microsoft reports Q1 revenue up 19% YoY to $92.3B, Azure revenue up 48% to $33.2B, operating income up 21% to $45.9B, and net income up 32% to $36.6B — REDMOND, Wash. — October 28, 2026 — Microsoft Corp. today announced the following results for the quarter ended Septe",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p48#a261028p48",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T20:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
