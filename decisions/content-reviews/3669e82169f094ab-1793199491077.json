@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "3669e82169f094ab",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[R] Taking EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MAEB audio benchmark by filling its 256d null space with PCA-reduced intermediate Conformer layers (zero training) [R]",
+  "summary": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio I wanted to share an experiment on google/embeddinggemma-2 (577M) for MAEB, the 30-task audio benchmark on the MTEB leaderboard. By projecting intermediate Conformer layers into the unused null space of the model's final",
+  "pubDate": "2026-10-28T13:34:01.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit experiment post on EmbeddingGemma-2 describes benchmark results, but the link is a reddit.com discussion thread, not the original paper, arXiv preprint, or official source required by rule 2-1; no peer-reviewed/benchmark artifact is linked.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio I wanted to share an experiment on google/embeddinggemma-2 (577M) for MAEB, the 30-task audio benchmark on the MTEB leaderboard. By projecting intermediate Conformer layers into the unused null space of the model's final",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-28T13:34:01.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
