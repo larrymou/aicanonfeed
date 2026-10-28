@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "e85cce1f7cc2cdd5",
+  "url": "https://www.techmeme.com/261028/p31#a261028p31",
+  "sourceName": "Techmeme",
+  "title": "Dropbox plans to cut ~6% of its staff, or ~200 jobs, costing $27M to $33M in severance and related costs, and says CTO Ali Dasdan will step down on November 18 (Anhata Rooprai/Reuters)",
+  "summary": "Anhata Rooprai / Reuters: Dropbox plans to cut ~6% of its staff, or ~200 jobs, costing $27M to $33M in severance and related costs, and says CTO Ali Dasdan will step down on November 18 — File hosting service Dropbox (DBX.O) said on Wednesday it would cut its global workforce by ",
+  "pubDate": "2026-10-28T14:30:01.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Dropbox layoffs and CTO departure are workforce/corporate news, not financing, M&A, partnership, market/revenue data, or a non-model product launch required by rule 3-1; no AI model, research artifact, policy action, or OSS tool is present, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anhata Rooprai / Reuters: Dropbox plans to cut ~6% of its staff, or ~200 jobs, costing $27M to $33M in severance and related costs, and says CTO Ali Dasdan will step down on November 18 — File hosting service Dropbox (DBX.O) said on Wednesday it would cut its global workforce by ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p31#a261028p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T14:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
