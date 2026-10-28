@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "259ceb96db43afe3",
+  "url": "https://carmelitegothic.com/cnc-stone-carving/",
+  "sourceName": "Hacker News Front Page",
+  "title": "CNC Stone Carving",
+  "summary": "Article URL: https://carmelitegothic.com/cnc-stone-carving/ Comments URL: https://news.ycombinator.com/item?id=50274409 Points: 4 # Comments: 0",
+  "pubDate": "2026-10-28T14:38:22.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about CNC stone carving, an unrelated craft topic. No AI model release, research, industry, policy, or open-source AI tool content; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://carmelitegothic.com/cnc-stone-carving/ Comments URL: https://news.ycombinator.com/item?id=50274409 Points: 4 # Comments: 0",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://carmelitegothic.com/cnc-stone-carving/",
+    "linkHost": "carmelitegothic.com",
+    "pubDate": "2026-10-28T14:38:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
