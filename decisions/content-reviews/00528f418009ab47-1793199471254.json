@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "00528f418009ab47",
+  "url": "https://www.fluxlinks.com/blog/obsidian-canvas-vs-heptabase",
+  "sourceName": "Hacker News Front Page",
+  "title": "An architectural comparison of Obsidian Canvas and Heptabase",
+  "summary": "Article URL: https://www.fluxlinks.com/blog/obsidian-canvas-vs-heptabase Comments URL: https://news.ycombinator.com/item?id=50274139 Points: 9 # Comments: 4",
+  "pubDate": "2026-10-28T14:24:20.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A blog comparison of Obsidian Canvas and Heptabase — commentary on note-taking/productivity tools. No named AI model release, no research artifact (no paper/preprint/benchmark), no business event, no policy action, no OSS release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.fluxlinks.com/blog/obsidian-canvas-vs-heptabase Comments URL: https://news.ycombinator.com/item?id=50274139 Points: 9 # Comments: 4",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://www.fluxlinks.com/blog/obsidian-canvas-vs-heptabase",
+    "linkHost": "www.fluxlinks.com",
+    "pubDate": "2026-10-28T14:24:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
