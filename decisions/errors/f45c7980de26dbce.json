@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793163146918-s3qc49",
+  "urlHash": "f45c7980de26dbce",
+  "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+  "sourceName": "Ars Technica AI",
+  "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+  "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+  "pubDate": "2026-10-27T21:50:04.000Z",
+  "decidedAt": "2026-10-28T04:52:37.978Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-27T21:50:04.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
