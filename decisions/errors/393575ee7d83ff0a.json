@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793163146918-s3qc49",
+  "urlHash": "393575ee7d83ff0a",
+  "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Genie 4: A new generation of world simulation",
+  "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+  "pubDate": "2026-10-27T16:01:38.000Z",
+  "decidedAt": "2026-10-28T04:52:37.978Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-27T16:01:38.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
