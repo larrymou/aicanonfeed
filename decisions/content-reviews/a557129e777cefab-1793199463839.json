@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "a557129e777cefab",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xhpnfs/ama_this_wednesday_stephen_cas_casper_harvard/",
+  "sourceName": "r/MachineLearning new",
+  "title": "AMA this Wednesday: Stephen “Cas” Casper, Harvard Kennedy School, on AI safeguards, incidents and governance (28 Oct, 3 to 4pm ET) [D]",
+  "summary": "https://www.reddit.com/r/ArtificialInteligence/comments/1xfuacm/ama_this_wednesday_stephen_cas_casper_harvard/ r/ArtificialInteligence We have an AMA today Wednesday 28 October from 3 to 4pm ET (19:00 UTC, 20:00 CET) with Stephen “Cas” Casper, Assistant Professor of Public Policy",
+  "pubDate": "2026-10-28T14:30:25.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AMA announcement for a live Q&A event with an academic; no model release, research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://www.reddit.com/r/ArtificialInteligence/comments/1xfuacm/ama_this_wednesday_stephen_cas_casper_harvard/ r/ArtificialInteligence We have an AMA today Wednesday 28 October from 3 to 4pm ET (19:00 UTC, 20:00 CET) with Stephen “Cas” Casper, Assistant Professor of Public Policy",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xhpnfs/ama_this_wednesday_stephen_cas_casper_harvard/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-28T14:30:25.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
