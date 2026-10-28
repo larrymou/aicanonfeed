@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "ce5d7499c1a8918d",
+  "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+  "sourceName": "Wired AI",
+  "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+  "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.",
+  "pubDate": "2026-10-28T18:30:00.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "First-person commentary/experiment using an existing tool (Codex) for a fantasy soccer team; no new model release, research artifact, business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-28T18:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
