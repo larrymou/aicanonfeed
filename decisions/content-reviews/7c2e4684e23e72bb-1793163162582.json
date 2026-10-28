@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793163146918-s3qc49",
+  "urlHash": "7c2e4684e23e72bb",
+  "url": "https://www.techmeme.com/261028/p3#a261028p3",
+  "sourceName": "Techmeme",
+  "title": "Sources: Fujifilm plans to increase magnetic tape production capacity fivefold to meet AI-driven storage demand, its biggest production expansion in ~20 years (Nikkei Asia)",
+  "summary": "Nikkei Asia: Sources: Fujifilm plans to increase magnetic tape production capacity fivefold to meet AI-driven storage demand, its biggest production expansion in ~20 years — TOKYO — Fujifilm will raise production capacity for magnetic tape fivefold to meet artificial-intelligence",
+  "pubDate": "2026-10-28T04:40:01.000Z",
+  "decidedAt": "2026-10-28T04:52:37.978Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Business/supply-chain event: Fujifilm expanding magnetic tape capacity fivefold to meet AI-driven storage demand, reported via Techmeme summary of a Nikkei Asia media report; no model release, research artifact, policy action, or OSS tool involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nikkei Asia: Sources: Fujifilm plans to increase magnetic tape production capacity fivefold to meet AI-driven storage demand, its biggest production expansion in ~20 years — TOKYO — Fujifilm will raise production capacity for magnetic tape fivefold to meet artificial-intelligence",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p3#a261028p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T04:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
