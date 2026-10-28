@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "f4fbe885f8a380c9",
+  "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google AI gets cagey when asked who won the 2020 elections",
+  "summary": "But the AI responses get more forthright when asked outside the US.",
+  "pubDate": "2026-10-28T17:46:32.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ars Technica commentary on how Google's AI answers election questions. No named model release, research artifact, industry business event, policy/government action, or open-source tool launch is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "But the AI responses get more forthright when asked outside the US.",
+    "summaryChars": 67,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-28T17:46:32.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
