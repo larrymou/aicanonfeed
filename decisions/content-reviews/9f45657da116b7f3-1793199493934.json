@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "9f45657da116b7f3",
+  "url": "https://www.techmeme.com/261028/p28#a261028p28",
+  "sourceName": "Techmeme",
+  "title": "Amazon Kindle Paperwhite and Kindle Colorsoft review: premium feel, lightweight, nice colors, and snappy performance, but expensive after price increases (Nena Farrell/Wired)",
+  "summary": "Nena Farrell / Wired: Amazon Kindle Paperwhite and Kindle Colorsoft review: premium feel, lightweight, nice colors, and snappy performance, but expensive after price increases — The latest generation of Kindle's 7-inch e-readers have a new look and new accessories. But are they w",
+  "pubDate": "2026-10-28T13:30:04.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a consumer hardware review of Amazon Kindle e-readers. No AI model release, research artifact, AI business event, policy action, or open-source AI tool is announced, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nena Farrell / Wired: Amazon Kindle Paperwhite and Kindle Colorsoft review: premium feel, lightweight, nice colors, and snappy performance, but expensive after price increases — The latest generation of Kindle's 7-inch e-readers have a new look and new accessories. But are they w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p28#a261028p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T13:30:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
