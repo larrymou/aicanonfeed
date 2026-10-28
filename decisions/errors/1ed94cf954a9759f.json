@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "1ed94cf954a9759f",
+  "url": "https://www.techmeme.com/261028/p32#a261028p32",
+  "sourceName": "Techmeme",
+  "title": "Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike (Rocket Drew/The Information)",
+  "summary": "Rocket Drew / The Information: Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike — Large companies have learned over the past couple years that they can get more mileage out of",
+  "pubDate": "2026-10-28T14:40:01.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rocket Drew / The Information: Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike — Large companies have learned over the past couple years that they can get more mileage out of",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p32#a261028p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-28T14:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
