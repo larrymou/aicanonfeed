@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "ea41a986fe715307",
+  "url": "https://cursor.com/blog/agent-sdk",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Agent SDK",
+  "summary": "Article URL: https://cursor.com/blog/agent-sdk Comments URL: https://news.ycombinator.com/item?id=50273731 Points: 23 # Comments: 18",
+  "pubDate": "2026-10-28T14:02:20.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Official Cursor blog post announcing an Agent SDK, i.e. a new developer tool/resource launch, linked to the owner's own announcement page.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://cursor.com/blog/agent-sdk Comments URL: https://news.ycombinator.com/item?id=50273731 Points: 23 # Comments: 18",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://cursor.com/blog/agent-sdk",
+    "linkHost": "cursor.com",
+    "pubDate": "2026-10-28T14:02:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
