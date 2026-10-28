@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793163146918-s3qc49",
+  "urlHash": "578f4a1cc2a6a4ec",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+  "sourceName": "The Verge AI",
+  "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+  "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing i",
+  "pubDate": "2026-10-27T20:48:58.000Z",
+  "decidedAt": "2026-10-28T04:52:37.978Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers: no named model release (1-1), link is a media report not an original paper/official source (2-1), no business event like financing/M&A/partnership (3-1), no policy action (4-1), no OSS tool release (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-27T20:48:58.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
