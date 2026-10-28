@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "50d36c1a28126eb5",
+  "url": "https://nullpt.rs/fingerprinting-bioweapons",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
+  "summary": "Article URL: https://nullpt.rs/fingerprinting-bioweapons Comments URL: https://news.ycombinator.com/item?id=50276998 Points: 336 # Comments: 68",
+  "pubDate": "2026-10-28T17:13:29.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hacker News post about a fingerprinting script and bioweapons risk; no named AI model release, no research paper/benchmark artifact, no industry business event, no policy action, and no open-source AI tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nullpt.rs/fingerprinting-bioweapons Comments URL: https://news.ycombinator.com/item?id=50276998 Points: 336 # Comments: 68",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://nullpt.rs/fingerprinting-bioweapons",
+    "linkHost": "nullpt.rs",
+    "pubDate": "2026-10-28T17:13:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
