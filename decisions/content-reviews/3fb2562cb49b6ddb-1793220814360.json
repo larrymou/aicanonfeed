@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "3fb2562cb49b6ddb",
+  "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Systems Thinking Is Vital in the Age of AI",
+  "summary": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design options, test them in simulation, and compare t",
+  "pubDate": "2026-10-28T18:00:02.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion essay on systems thinking in engineering with AI; no named model release, no research artifact, no business event, no policy action, and no open-source tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design options, test them in simulation, and compare t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-10-28T18:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
