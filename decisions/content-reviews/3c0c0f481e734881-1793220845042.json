@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793220719006-vylqec",
+  "urlHash": "3c0c0f481e734881",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xhuado/cocktailparty_audio_as_a_reverse_turing_test/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Cocktail-party audio as a reverse Turing test: humans beat speech models, but not by enough [P]",
+  "summary": "Hello - I wanted to share a small project I worked on test whether picking one voice out of background chatter could separate humans from machines, in the spirit of an audio CAPTCHA. Setup 40 synthetic clips: one target sentence read by a synthetic voice, mixed over multiple back",
+  "pubDate": "2026-10-28T17:17:59.000Z",
+  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post describing a small self-run audio CAPTCHA experiment; no peer-reviewed paper, arXiv preprint, or major benchmark release link, so rule 2-1's research-artifact condition is unmet. Not a model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello - I wanted to share a small project I worked on test whether picking one voice out of background chatter could separate humans from machines, in the spirit of an audio CAPTCHA. Setup 40 synthetic clips: one target sentence read by a synthetic voice, mixed over multiple back",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xhuado/cocktailparty_audio_as_a_reverse_turing_test/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-28T17:17:59.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
