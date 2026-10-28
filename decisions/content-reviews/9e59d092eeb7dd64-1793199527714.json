@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793199444423-m6oibr",
+  "urlHash": "9e59d092eeb7dd64",
+  "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+  "sourceName": "Wired AI",
+  "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+  "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+  "pubDate": "2026-10-28T08:30:00.000Z",
+  "decidedAt": "2026-10-28T14:57:31.354Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary piece on AI emergency alerts and human trust in chatbots. No named model release, no research artifact (paper/preprint/benchmark), no business event, no policy action, and no open-source tool link; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+    "summaryChars": 100,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-28T08:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
