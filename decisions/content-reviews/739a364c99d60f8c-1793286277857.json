@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "739a364c99d60f8c",
+  "url": "https://www.vox.com/xpress/2014/11/12/7204453/martin-luther-king-fbi-letter",
+  "sourceName": "Hacker News Front Page",
+  "title": "Read the letter the FBI sent MLK to try to convince him to kill himself (2014)",
+  "summary": "Article URL: https://www.vox.com/xpress/2014/11/12/7204453/martin-luther-king-fbi-letter Comments URL: https://news.ycombinator.com/item?id=50288867 Points: 192 # Comments: 102",
+  "pubDate": "2026-10-29T13:40:04.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Non-AI content: a history article about the FBI's 2014-republished letter to MLK. No active rule (model releases, research, industry, policy, tools/OSS) covers non-AI editorial content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.vox.com/xpress/2014/11/12/7204453/martin-luther-king-fbi-letter Comments URL: https://news.ycombinator.com/item?id=50288867 Points: 192 # Comments: 102",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://www.vox.com/xpress/2014/11/12/7204453/martin-luther-king-fbi-letter",
+    "linkHost": "www.vox.com",
+    "pubDate": "2026-10-29T13:40:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
