@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "41b8b5c1229e4741",
+  "url": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
+  "sourceName": "Wired AI",
+  "title": "I Gave My Blood to the AI Death Clock",
+  "summary": "Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.",
+  "pubDate": "2026-10-29T10:00:00.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "First-person Wired column reviewing a consumer 'Death Clock' app; no named model release, research artifact, business event, policy action, or open-source tool, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-29T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
