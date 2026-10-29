@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "5a94e92ea1729a36",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.13-rc0",
+  "summary": "llama.cpp: version bump b11963 (#19360)",
+  "pubDate": "2026-10-28T17:37:56.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Release note for the open-source Ollama project (github.com/ollama/ollama) publishing version v0.40.13-rc0 with a llama.cpp version bump; a library/framework release with a link to the official repository release page.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "llama.cpp: version bump b11963 (#19360)",
+    "summaryChars": 39,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-28T17:37:56.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
