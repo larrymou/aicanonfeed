@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "d62a8f09dced3dd9",
+  "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+  "sourceName": "The Verge AI",
+  "title": "AI has come for Arizona’s water",
+  "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the ",
+  "pubDate": "2026-10-29T10:00:04.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Feature/commentary on a TSMC data center's water use in Arizona. No named model release, research artifact, business event, policy action, or open-source tool, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-29T10:00:04.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
