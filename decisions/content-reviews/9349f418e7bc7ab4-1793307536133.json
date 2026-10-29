@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "9349f418e7bc7ab4",
+  "url": "https://openai.com/index/updated-model-spec",
+  "sourceName": "OpenAI Blog",
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+  "pubDate": "2026-10-29T17:00:00.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an updated Model Spec document (guidance/values for model behavior), not a named model release or capability launch, not a research artifact, not an industry business event, and not government policy — rule 4-1 explicitly excludes self-regulation/commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/updated-model-spec",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-29T17:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
