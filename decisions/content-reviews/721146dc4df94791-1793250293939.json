@@ -1,18 +1,24 @@
 {
-  "runId": "run-1793220719006-vylqec",
+  "runId": "run-1793250179998-11hlnk",
   "urlHash": "721146dc4df94791",
   "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
   "sourceName": "Ars Technica AI",
   "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
   "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
   "pubDate": "2026-10-28T18:47:27.000Z",
-  "decidedAt": "2026-10-28T20:52:17.422Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Title names a specific model (Gemini 4 Carbon), but the link is an Ars Technica article, not an official Google announcement page (owner domain not observed), and the article's named author is not observed, so R1's evidence-link condition is unmet. Title also implies no public availability.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
