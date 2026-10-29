@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "ac8e8f57e6764ba4",
+  "url": "https://github.com/owls-on-wires/keplearn",
+  "sourceName": "Hacker News Front Page",
+  "title": "Keplearn: Extract Equations from Data in Seconds",
+  "summary": "Article URL: https://github.com/owls-on-wires/keplearn Comments URL: https://news.ycombinator.com/item?id=50289590 Points: 4 # Comments: 0",
+  "pubDate": "2026-10-29T14:22:53.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/owls-on-wires/keplearn Comments URL: https://news.ycombinator.com/item?id=50289590 Points: 4 # Comments: 0",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://github.com/owls-on-wires/keplearn",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-29T14:22:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
