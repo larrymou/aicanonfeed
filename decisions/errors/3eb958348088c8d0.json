@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "3eb958348088c8d0",
+  "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+  "sourceName": "TechCrunch AI",
+  "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+  "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+  "pubDate": "2026-10-29T13:00:00.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+    "summaryChars": 63,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-29T13:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
