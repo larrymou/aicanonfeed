@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "41ed985fe232aa48",
+  "url": "https://www.techmeme.com/261029/p30#a261029p30",
+  "sourceName": "Techmeme",
+  "title": "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index (Radhika Rajkumar/ZDNET)",
+  "summary": "Radhika Rajkumar / ZDNET: Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index — Mistral has released the weights for Large 4, along with some impressive Artificial Analysis",
+  "pubDate": "2026-10-29T14:30:01.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names Mistral Large 4 and a weights release, but the link is a Techmeme aggregator page, not Mistral's official announcement nor a full news article on a non-owner domain with observed named author (linked_page_author not observed). Rule 1-1 evidence link condition unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Radhika Rajkumar / ZDNET: Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index — Mistral has released the weights for Large 4, along with some impressive Artificial Analysis",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p30#a261029p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T14:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
