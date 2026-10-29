@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "6fa2e18fb2258267",
+  "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+  "sourceName": "Wired AI",
+  "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+  "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+  "pubDate": "2026-10-29T18:39:43.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "WIRED report on a security incident involving an AI agent on a DOD network. It is not a model release, research artifact, business event (financing/M&A/partnership/revenue/product launch), policy action, or OSS tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-29T18:39:43.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
