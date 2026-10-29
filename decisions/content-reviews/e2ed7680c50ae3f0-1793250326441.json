@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "e2ed7680c50ae3f0",
+  "url": "https://openai.com/index/the-future-of-the-firm",
+  "sourceName": "OpenAI Blog",
+  "title": "The future of the firm",
+  "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+  "pubDate": "2026-10-28T10:00:00.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/essay on how AI may affect organizational structure. No named model or release action (1-1), no research artifact (2-1), no business event (3-1), no policy action (4-1), no OSS tool (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+    "summaryChars": 65,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/the-future-of-the-firm",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-28T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
