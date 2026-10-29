@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "ff7300be16519a5d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xi21f9/cptd_qwen9b_on_polish_legal_data_how_to_make_it/",
+  "sourceName": "r/MachineLearning new",
+  "title": "CPT’d Qwen9B on Polish legal data. How to make it chat? IMPORTANTLY: how to make it reason? and function call in my harness? and which to do first? [D]",
+  "summary": "TLDR: training my first general law model and unsure what to do with my data PRE-PS: it will be a replacement for opus in my current AI LAW harness, I know it will be hard but I wanna do this project and find it geniuenly fun. I’m building a Polish legal model using Qwen3.5-9B-BA",
+  "pubDate": "2026-10-28T22:04:32.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit help request asking how to make a self-CPT'd Qwen model chat/reason/function-call. No model release by an owner, no research artifact, no business event, policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TLDR: training my first general law model and unsure what to do with my data PRE-PS: it will be a replacement for opus in my current AI LAW harness, I know it will be hard but I wanna do this project and find it geniuenly fun. I’m building a Polish legal model using Qwen3.5-9B-BA",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xi21f9/cptd_qwen9b_on_polish_legal_data_how_to_make_it/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-28T22:04:32.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
