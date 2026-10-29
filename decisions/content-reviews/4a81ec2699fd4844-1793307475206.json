@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "4a81ec2699fd4844",
+  "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+  "sourceName": "TechCrunch AI",
+  "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+  "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+  "pubDate": "2026-10-29T20:08:31.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit's shift to a logged-in consumer experience is a platform/product-strategy change at a non-AI company; the AI link is only tangential background. It is not a model release, research artifact, AI business event (financing/M&A/partnership/market data), policy action, or OSS tool, so no active ru",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-29T20:08:31.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
