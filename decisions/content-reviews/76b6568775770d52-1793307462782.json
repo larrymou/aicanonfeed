@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "76b6568775770d52",
+  "url": "https://www.techmeme.com/261029/p50#a261029p50",
+  "sourceName": "Techmeme",
+  "title": "Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex (Matt Day/Bloomberg)",
+  "summary": "Matt Day / Bloomberg: Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex — Amazon.com Inc. reported greater capital spending than anticipated while e-commerce revenue slo",
+  "pubDate": "2026-10-29T20:30:02.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Observed fields describe Amazon's general Q3 capex and free cash outflow; no AI-specific industry event (financing, M&A, partnership, market/revenue data tied to AI), model release, research artifact, policy action, or OSS tooling is established by the Content, so no rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matt Day / Bloomberg: Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex — Amazon.com Inc. reported greater capital spending than anticipated while e-commerce revenue slo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p50#a261029p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T20:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
