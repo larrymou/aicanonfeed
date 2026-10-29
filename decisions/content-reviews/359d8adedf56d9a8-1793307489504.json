@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "359d8adedf56d9a8",
+  "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Patrick Stewart has died",
+  "summary": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart Comments URL: https://news.ycombinator.com/item?id=50294702 Points: 977 # Comments: 180",
+  "pubDate": "2026-10-29T19:41:39.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an obituary for actor Patrick Stewart; it reports no AI model release, research, industry business event, policy action, or open-source tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart Comments URL: https://news.ycombinator.com/item?id=50294702 Points: 977 # Comments: 180",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+    "linkHost": "www.nytimes.com",
+    "pubDate": "2026-10-29T19:41:39.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
