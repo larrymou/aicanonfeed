@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "648c3c3aab675618",
+  "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+  "sourceName": "Wired AI",
+  "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+  "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
+  "pubDate": "2026-10-29T15:00:00.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired story on startup &Truth entering formal verification. No named model release (1-1), no paper/preprint/benchmark artifact (2-1), and no stated financing, M&A, partnership, market data, or product launch to establish an industry business event (3-1). No policy action or OSS repo either.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-29T15:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
