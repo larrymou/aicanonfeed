@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "5f992c32f5756cf3",
+  "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+  "sourceName": "The Verge AI",
+  "title": "Microsoft’s AI future has fewer jobs",
+  "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to arou",
+  "pubDate": "2026-10-29T16:00:00.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Microsoft workforce changes (voluntary buyouts/layoffs) tied to AI. It is not a model release, research artifact, policy/government action, or OSS tool, and no financing, M&A, partnership, market/revenue data, or non-model product launch is reported, so no active rule's conditions are me",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to arou",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-29T16:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
