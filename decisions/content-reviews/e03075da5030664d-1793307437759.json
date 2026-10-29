@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "e03075da5030664d",
+  "url": "https://www.techmeme.com/261029/p53#a261029p53",
+  "sourceName": "Techmeme",
+  "title": "Sources: Google, Meta, and other tech companies are resisting broad ICE user data demands as they face potential Democratic-led congressional investigations (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: Google, Meta, and other tech companies are resisting broad ICE user data demands as they face potential Democratic-led congressional investigations — As midterms near, Google, Meta and other tech firms resist broad ICE demands for user data as the ag",
+  "pubDate": "2026-10-29T20:50:03.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme/WSJ report on Google, Meta and others resisting ICE user data demands is legal/political industry news. It is not a model release, research artifact, business event (financing/M&A/partnership/revenue), or an official policy action such as a law, order, or enforcement announcement, so no act",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: Google, Meta, and other tech companies are resisting broad ICE user data demands as they face potential Democratic-led congressional investigations — As midterms near, Google, Meta and other tech firms resist broad ICE demands for user data as the ag",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p53#a261029p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T20:50:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
