@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "e4af34a2153ac44b",
+  "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+  "sourceName": "Hacker News Front Page",
+  "title": "DoorDash is acquiring Instacart for $17B",
+  "summary": "Article URL: https://about.doordash.com/en-us/news/doordash-to-acquire-instacart Comments URL: https://news.ycombinator.com/item?id=50289859 Points: 8 # Comments: 3",
+  "pubDate": "2026-10-29T14:40:43.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://about.doordash.com/en-us/news/doordash-to-acquire-instacart Comments URL: https://news.ycombinator.com/item?id=50289859 Points: 8 # Comments: 3",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+    "linkHost": "about.doordash.com",
+    "pubDate": "2026-10-29T14:40:43.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
