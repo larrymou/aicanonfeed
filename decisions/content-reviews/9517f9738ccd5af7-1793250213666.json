@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "9517f9738ccd5af7",
+  "url": "https://www.techmeme.com/261028/p64#a261028p64",
+  "sourceName": "Techmeme",
+  "title": "Samsung reports Q3 revenue up 127% YoY to a record ~$146.3B and a record operating profit up 783% to ~$80.5B, both roughly in line with estimates (Jenny Lee/CNBC)",
+  "summary": "Jenny Lee / CNBC: Samsung reports Q3 revenue up 127% YoY to a record ~$146.3B and a record operating profit up 783% to ~$80.5B, both roughly in line with estimates — - Samsung Electronics reported third-quarter earnings on Thursday, with operating profit broadly in line with anal",
+  "pubDate": "2026-10-29T03:20:22.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Samsung Q3 earnings report contains no AI model, research, policy, tooling, or AI-industry business event; it is a general corporate earnings story, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jenny Lee / CNBC: Samsung reports Q3 revenue up 127% YoY to a record ~$146.3B and a record operating profit up 783% to ~$80.5B, both roughly in line with estimates — - Samsung Electronics reported third-quarter earnings on Thursday, with operating profit broadly in line with anal",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261028/p64#a261028p64",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T03:20:22.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
