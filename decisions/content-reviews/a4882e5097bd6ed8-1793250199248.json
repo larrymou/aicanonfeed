@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "a4882e5097bd6ed8",
+  "url": "https://www.techmeme.com/261029/p2#a261029p2",
+  "sourceName": "Techmeme",
+  "title": "DoorDash moves its Q3 earnings release from November 4 to before the market opens on October 29, amid reports of an imminent ~$17B deal to acquire Instacart (Ville Heiskanen/Bloomberg)",
+  "summary": "Ville Heiskanen / Bloomberg: DoorDash moves its Q3 earnings release from November 4 to before the market opens on October 29, amid reports of an imminent ~$17B deal to acquire Instacart — DoorDash Inc., the food delivery provider in talks to take over Instacart, moved its earning",
+  "pubDate": "2026-10-29T04:40:01.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers DoorDash's earnings-date change tied to a reported ~$17B Instacart acquisition — a food/grocery delivery M&A matter with no AI model, research, policy, or AI tooling content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ville Heiskanen / Bloomberg: DoorDash moves its Q3 earnings release from November 4 to before the market opens on October 29, amid reports of an imminent ~$17B deal to acquire Instacart — DoorDash Inc., the food delivery provider in talks to take over Instacart, moved its earning",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p2#a261029p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T04:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
