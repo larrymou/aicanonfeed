@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "a3832e17481ccb13",
+  "url": "https://www.techmeme.com/261029/p51#a261029p51",
+  "sourceName": "Techmeme",
+  "title": "Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours (Jonathan Vanian/CNBC)",
+  "summary": "Jonathan Vanian / CNBC: Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours — Reddit plans to require all users to create official accounts to access the social media platfor",
+  "pubDate": "2026-10-29T20:32:09.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jonathan Vanian / CNBC: Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours — Reddit plans to require all users to create official accounts to access the social media platfor",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p51#a261029p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T20:32:09.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
