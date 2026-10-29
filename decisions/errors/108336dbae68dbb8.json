@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "108336dbae68dbb8",
+  "url": "https://www.techmeme.com/261029/p29#a261029p29",
+  "sourceName": "Techmeme",
+  "title": "Serval, which offers AI agents for enterprise IT operations like access management, raised $150M led by Sequoia at a $3B valuation, up from $1B in December 2025 (Harshita Mary Varghese/Reuters)",
+  "summary": "Harshita Mary Varghese / Reuters: Serval, which offers AI agents for enterprise IT operations like access management, raised $150M led by Sequoia at a $3B valuation, up from $1B in December 2025 — Serval raised $150 million in a Sequoia-led round at a $3 billion valuation, as the",
+  "pubDate": "2026-10-29T13:55:01.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Harshita Mary Varghese / Reuters: Serval, which offers AI agents for enterprise IT operations like access management, raised $150M led by Sequoia at a $3B valuation, up from $1B in December 2025 — Serval raised $150 million in a Sequoia-led round at a $3 billion valuation, as the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p29#a261029p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T13:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
