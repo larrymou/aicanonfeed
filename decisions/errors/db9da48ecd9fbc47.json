@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "db9da48ecd9fbc47",
+  "url": "https://www.techmeme.com/261029/p52#a261029p52",
+  "sourceName": "Techmeme",
+  "title": "Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network (Sanskriti Shekhar/Reuters)",
+  "summary": "Sanskriti Shekhar / Reuters: Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network — Symbotic (SYM.O) said on Thursday it had expanded its agreement with Walmart (WMT.O), wi",
+  "pubDate": "2026-10-29T20:40:01.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sanskriti Shekhar / Reuters: Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network — Symbotic (SYM.O) said on Thursday it had expanded its agreement with Walmart (WMT.O), wi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p52#a261029p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T20:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
