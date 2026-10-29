@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "c3f3cbf4e178e822",
+  "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+  "sourceName": "TechCrunch AI",
+  "title": "AI execs may be too out of touch to build for the general public",
+  "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+  "pubDate": "2026-10-28T15:53:52.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece about AI executives being out of touch. No named model release, research artifact, business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+    "summaryChars": 114,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-28T15:53:52.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
