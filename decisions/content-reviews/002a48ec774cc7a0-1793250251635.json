@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "002a48ec774cc7a0",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.13-rc1: llama.cpp: workaround Metal unary crash (#19372)",
+  "summary": "This temporary patch works around a regression on older versions of MacOS ggml_metal_library_compile_all: failed to build 'unary' library",
+  "pubDate": "2026-10-28T22:20:04.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "GitHub release of Ollama (open-source local LLM runtime) tagging v0.40.13-rc1, a library patch release; link points to the project's own repository release page, matching the OSS tool/framework release rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This temporary patch works around a regression on older versions of MacOS ggml_metal_library_compile_all: failed to build 'unary' library",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-28T22:20:04.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
