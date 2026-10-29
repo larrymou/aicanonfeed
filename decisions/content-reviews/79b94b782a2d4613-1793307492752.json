@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "79b94b782a2d4613",
+  "url": "https://lumi.codeberg.page/blog/software-community.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "The importance of communities around software",
+  "summary": "Article URL: https://lumi.codeberg.page/blog/software-community.html Comments URL: https://news.ycombinator.com/item?id=50294507 Points: 42 # Comments: 36",
+  "pubDate": "2026-10-29T19:27:47.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion blog post about software communities; no AI model release, research artifact, business event, policy action, or open-source AI tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lumi.codeberg.page/blog/software-community.html Comments URL: https://news.ycombinator.com/item?id=50294507 Points: 42 # Comments: 36",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://lumi.codeberg.page/blog/software-community.html",
+    "linkHost": "lumi.codeberg.page",
+    "pubDate": "2026-10-29T19:27:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
