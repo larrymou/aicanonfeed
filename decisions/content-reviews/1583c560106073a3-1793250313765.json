@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793250179998-11hlnk",
+  "urlHash": "1583c560106073a3",
+  "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+  "sourceName": "The Verge AI",
+  "title": "Meta says it&#8217;ll probably delay its controversial new business terms again",
+  "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full co",
+  "pubDate": "2026-10-28T16:15:30.000Z",
+  "decidedAt": "2026-10-29T05:03:16.915Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta delaying its own business terms over AI training backlash is corporate self-regulation, not a government policy action (R4-1 excludes self-regulation) and not a model release, research artifact, or OSS tool; R3-1's business events (financing, M&A, partnerships, revenue, product launches) don't ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-28T16:15:30.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
