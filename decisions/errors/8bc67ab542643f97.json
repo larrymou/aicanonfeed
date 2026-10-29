@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "8bc67ab542643f97",
+  "url": "https://www.techmeme.com/261029/p54#a261029p54",
+  "sourceName": "Techmeme",
+  "title": "Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est. (Jordan Novet/CNBC)",
+  "summary": "Jordan Novet / CNBC: Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est. — Amazon's cloud-computing unit reported more rapid third-quarter growth than analysts had projected. — Revenue came in at ",
+  "pubDate": "2026-10-29T20:55:05.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jordan Novet / CNBC: Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est. — Amazon's cloud-computing unit reported more rapid third-quarter growth than analysts had projected. — Revenue came in at ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p54#a261029p54",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T20:55:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
