@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "7b84f0e97724d28a",
+  "url": "https://github.com/SheepSeb/tinyworldformer",
+  "sourceName": "Hacker News Front Page",
+  "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+  "summary": "Article URL: https://github.com/SheepSeb/tinyworldformer Comments URL: https://news.ycombinator.com/item?id=50295450 Points: 5 # Comments: 0",
+  "pubDate": "2026-10-29T20:32:28.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/SheepSeb/tinyworldformer Comments URL: https://news.ycombinator.com/item?id=50295450 Points: 5 # Comments: 0",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://github.com/SheepSeb/tinyworldformer",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-29T20:32:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
