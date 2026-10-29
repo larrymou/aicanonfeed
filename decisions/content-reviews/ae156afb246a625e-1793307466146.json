@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793307420921-5qyuaz",
+  "urlHash": "ae156afb246a625e",
+  "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "How the UK Amazon Quick User Group grew in 2026",
+  "summary": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
+  "pubDate": "2026-10-29T20:16:40.000Z",
+  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Community user-group meetup roundup (attendee counts, customer stories) — no named model release, no research artifact, no financing/M&A/partnership/market data or product launch, no policy action, no OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
+    "summaryChars": 260,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-29T20:16:40.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
