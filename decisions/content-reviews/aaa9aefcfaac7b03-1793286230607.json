@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793286208002-h67enj",
+  "urlHash": "aaa9aefcfaac7b03",
+  "url": "https://www.techmeme.com/261029/p31#a261029p31",
+  "sourceName": "Techmeme",
+  "title": "Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price (Claire Rychlewski/Axios)",
+  "summary": "Claire Rychlewski / Axios: Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price — Thrive Holdings has agreed to acquire ADT in an all-cash take-private, valuing the home sec",
+  "pubDate": "2026-10-29T14:40:03.000Z",
+  "decidedAt": "2026-10-29T15:03:35.854Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe Thrive Holdings acquiring ADT, a home security firm; no AI model, research artifact, AI policy action, OSS tool, or AI industry event is established, so no active rule is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Claire Rychlewski / Axios: Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price — Thrive Holdings has agreed to acquire ADT in an all-cash take-private, valuing the home sec",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p31#a261029p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-29T14:40:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
