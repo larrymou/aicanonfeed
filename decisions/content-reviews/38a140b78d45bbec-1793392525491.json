@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "38a140b78d45bbec",
+  "url": "https://pgrust.com/blog/programming-at-light-speed/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Programming at Light Speed: Building the Gravity Query Engine",
+  "summary": "Article URL: https://pgrust.com/blog/programming-at-light-speed/ Comments URL: https://news.ycombinator.com/item?id=50309571 Points: 3 # Comments: 0",
+  "pubDate": "2026-10-30T20:18:10.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hacker News link to a technical blog post about building a query engine. No named AI model release, no research paper/benchmark artifact, no business event, no policy action, and no open-source tool/library release announcement with repo link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://pgrust.com/blog/programming-at-light-speed/ Comments URL: https://news.ycombinator.com/item?id=50309571 Points: 3 # Comments: 0",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://pgrust.com/blog/programming-at-light-speed/",
+    "linkHost": "pgrust.com",
+    "pubDate": "2026-10-30T20:18:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
