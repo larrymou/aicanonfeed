@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "baf2e8680ec92ea7",
+  "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+  "sourceName": "TechCrunch AI",
+  "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+  "summary": "DoorDash said that it is open to working with third-party agent makers",
+  "pubDate": "2026-10-30T13:54:25.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "DoorDash said that it is open to working with third-party agent makers",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-30T13:54:25.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
