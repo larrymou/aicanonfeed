@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793336561613-1nf846",
+  "urlHash": "e7b53e9e94492882",
+  "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+  "sourceName": "Hacker News Front Page",
+  "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+  "summary": "Article URL: https://www.penligent.ai/hackinglabs/cve-2026-98432/ Comments URL: https://news.ycombinator.com/item?id=50299182 Points: 24 # Comments: 18",
+  "pubDate": "2026-10-30T02:33:04.000Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Linux kernel CVE/security patch writeup on penligent.ai; it is not an AI model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.penligent.ai/hackinglabs/cve-2026-98432/ Comments URL: https://news.ycombinator.com/item?id=50299182 Points: 24 # Comments: 18",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+    "linkHost": "www.penligent.ai",
+    "pubDate": "2026-10-30T02:33:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
