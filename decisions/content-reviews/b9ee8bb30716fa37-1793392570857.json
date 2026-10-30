@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "b9ee8bb30716fa37",
+  "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+  "sourceName": "The Verge AI",
+  "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+  "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku abo",
+  "pubDate": "2026-10-30T18:21:38.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Not a model release: 'Gemma 4' appears only as an on-orbit demo, with no announced model availability, new version, or new capability. Link is The Verge (not Google's official page) and linked_page_author/owner are not observed, so 1-1 is unmet; it's an infrastructure milestone, not a business event",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "linked_page_author",
+    "linked_page_owner_domain"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku abo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-30T18:21:38.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
