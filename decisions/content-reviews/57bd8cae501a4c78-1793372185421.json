@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "57bd8cae501a4c78",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+  "sourceName": "The Verge AI",
+  "title": "Silicon Valley wants you to invest in miracles",
+  "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring for",
+  "pubDate": "2026-10-30T13:11:05.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "The Verge item covers Anthropic's IPO filing/risk factors — an AI industry financing/market event — reported by a reputable media outlet (link slug 'anthropic-ipo-risk-factors-filing', summary on investing in the company's stock).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring for",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-30T13:11:05.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
