@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "dc3b5cf565d8df91",
+  "url": "https://www.techmeme.com/261030/p11#a261030p11",
+  "sourceName": "Techmeme",
+  "title": "NAND maker Kioxia reports FY Q2 operating profit up 22x YoY to ~$12.7B, in line with est., but forecasts Q3 operating profit of ~$12.7B, below ~$14.9B est. (Bloomberg)",
+  "summary": "Bloomberg: NAND maker Kioxia reports FY Q2 operating profit up 22x YoY to ~$12.7B, in line with est., but forecasts Q3 operating profit of ~$12.7B, below ~$14.9B est. — Kioxia Holdings Corp. delivered a profit outlook that trailed estimates, warning that an AI-fueled surge in fla",
+  "pubDate": "2026-10-30T11:50:01.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: NAND maker Kioxia reports FY Q2 operating profit up 22x YoY to ~$12.7B, in line with est., but forecasts Q3 operating profit of ~$12.7B, below ~$14.9B est. — Kioxia Holdings Corp. delivered a profit outlook that trailed estimates, warning that an AI-fueled surge in fla",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p11#a261030p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T11:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
