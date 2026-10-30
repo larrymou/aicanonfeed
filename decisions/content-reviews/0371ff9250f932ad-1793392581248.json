@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "0371ff9250f932ad",
+  "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+  "sourceName": "Ars Technica AI",
+  "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+  "summary": "Low costs and offline security mean magnetic tape still has a job.",
+  "pubDate": "2026-10-30T17:38:19.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Ars Technica reports an AI-driven business/market event: Fujifilm expanding tape production 5x to meet archiving demand from AI, a market/production expansion covered by a reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Low costs and offline security mean magnetic tape still has a job.",
+    "summaryChars": 66,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-30T17:38:19.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
