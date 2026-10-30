@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "dc771bcdb5cb07dc",
+  "url": "https://magazine.atavist.com/2016/an-arrogant-way-of-killing",
+  "sourceName": "Hacker News Front Page",
+  "title": "An Arrogant Way of Killing (2016)",
+  "summary": "Article URL: https://magazine.atavist.com/2016/an-arrogant-way-of-killing Comments URL: https://news.ycombinator.com/item?id=50309470 Points: 4 # Comments: 0",
+  "pubDate": "2026-10-30T20:08:52.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A 2016 magazine article unrelated to AI; no model release, research artifact, industry business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://magazine.atavist.com/2016/an-arrogant-way-of-killing Comments URL: https://news.ycombinator.com/item?id=50309470 Points: 4 # Comments: 0",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://magazine.atavist.com/2016/an-arrogant-way-of-killing",
+    "linkHost": "magazine.atavist.com",
+    "pubDate": "2026-10-30T20:08:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
