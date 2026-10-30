@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "ec0302c8c94d78ac",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Freind of mine published a paper with fabricated results in a top journal and got accepted and i feel disgusted [d]",
+  "summary": "A friend of mine was doing a gap analysis as a project. The results he got weren't that big compared to the original papers, so he simply fabricated and increased the metrics here and there, AND IT GOT ACCEPTED IN AAAI. HOW DO THEY CHECK THE PAPERS, DUDE? I was in a group with tw",
+  "pubDate": "2026-10-30T07:25:23.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/rant about alleged fabricated results; no paper or official source link, so no research artifact (2-1). Not a model release, business event, policy action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A friend of mine was doing a gap analysis as a project. The results he got weren't that big compared to the original papers, so he simply fabricated and increased the metrics here and there, AND IT GOT ACCEPTED IN AAAI. HOW DO THEY CHECK THE PAPERS, DUDE? I was in a group with tw",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-30T07:25:23.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
