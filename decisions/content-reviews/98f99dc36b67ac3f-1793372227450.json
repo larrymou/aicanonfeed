@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "98f99dc36b67ac3f",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+  "sourceName": "vLLM releases",
+  "title": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+  "summary": "Signed-off-by: Micah Williamson micah.williamson@amd.com 6d01893)",
+  "pubDate": "2026-10-30T09:10:43.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "vLLM release v0.33.0rc2 is a versioned release of the open-source vLLM inference framework, linked directly to its GitHub repository release page, matching the OSS tooling/framework update rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Signed-off-by: Micah Williamson micah.williamson@amd.com 6d01893)",
+    "summaryChars": 65,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-30T09:10:43.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
