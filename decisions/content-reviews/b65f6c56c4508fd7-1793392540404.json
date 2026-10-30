@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "b65f6c56c4508fd7",
+  "url": "https://blue-continuum.com/verne-paris",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jules Verne's Lost Novel",
+  "summary": "Article URL: https://blue-continuum.com/verne-paris Comments URL: https://news.ycombinator.com/item?id=50309314 Points: 5 # Comments: 0",
+  "pubDate": "2026-10-30T19:55:10.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a lost Jules Verne novel; not an AI model release, research, industry event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blue-continuum.com/verne-paris Comments URL: https://news.ycombinator.com/item?id=50309314 Points: 5 # Comments: 0",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://blue-continuum.com/verne-paris",
+    "linkHost": "blue-continuum.com",
+    "pubDate": "2026-10-30T19:55:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
