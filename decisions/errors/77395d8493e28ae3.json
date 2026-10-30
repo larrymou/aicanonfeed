@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "77395d8493e28ae3",
+  "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+  "sourceName": "Ars Technica AI",
+  "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+  "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+  "pubDate": "2026-10-30T16:53:49.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+    "summaryChars": 75,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-30T16:53:49.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
