@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793336561613-1nf846",
+  "urlHash": "12decb4a90b21727",
+  "url": "https://www.techmeme.com/261029/p71#a261029p71",
+  "sourceName": "Techmeme",
+  "title": "Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27% (The Information)",
+  "summary": "The Information: Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27% — Chinese AI star DeepSeek's nearly $16 billion funding round this month involved not only a deluge of ",
+  "pubDate": "2026-10-30T03:35:00.000Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27% — Chinese AI star DeepSeek's nearly $16 billion funding round this month involved not only a deluge of ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261029/p71#a261029p71",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T03:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
