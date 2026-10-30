@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "c096782638d443ac",
+  "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+  "sourceName": "The Verge AI",
+  "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+  "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it",
+  "pubDate": "2026-10-30T09:00:00.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Wikimedia's litigation position in pending AI copyright cases, not a new law, executive order, regulatory enforcement, or official government policy announcement. No policy action is observed, so rule 4-1 is unmet; it is commentary on litigation, not a new research, model, industry, or ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-30T09:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
