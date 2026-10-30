@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793336561613-1nf846",
+  "urlHash": "e24191d5727ad398",
+  "url": "https://www.techmeme.com/261030/p2#a261030p2",
+  "sourceName": "Techmeme",
+  "title": "Binance pledges to cover all losses from a ~$6.3B hack, potentially the largest crypto theft ever, surpassing the $1.5B Bybit hack in February 2025 (South China Morning Post)",
+  "summary": "South China Morning Post: Binance pledges to cover all losses from a ~$6.3B hack, potentially the largest crypto theft ever, surpassing the $1.5B Bybit hack in February 2025 — Binance, the world's largest cryptocurrency exchange by trading volume, has pledged to cover all losses ",
+  "pubDate": "2026-10-30T04:50:00.000Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is crypto-industry news (Binance hack loss coverage), not AI model release, research, AI industry business event, policy, or OSS tooling; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "South China Morning Post: Binance pledges to cover all losses from a ~$6.3B hack, potentially the largest crypto theft ever, surpassing the $1.5B Bybit hack in February 2025 — Binance, the world's largest cryptocurrency exchange by trading volume, has pledged to cover all losses ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p2#a261030p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T04:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
