@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "81d3abc4f0c4ead2",
+  "url": "https://www.techmeme.com/261030/p12#a261030p12",
+  "sourceName": "Techmeme",
+  "title": "CXMT reports Q3 revenue of ~$16.7B, up 613.2% YoY, and a net profit of ~$8.17B, swinging to profitability on the back of rising AI-driven memory chip prices (Reuters)",
+  "summary": "Reuters: CXMT reports Q3 revenue of ~$16.7B, up 613.2% YoY, and a net profit of ~$8.17B, swinging to profitability on the back of rising AI-driven memory chip prices — China's CXMT (688825.SS) said on Friday it swung to a net profit in the third quarter as surging AI-driven deman",
+  "pubDate": "2026-10-30T12:20:02.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: CXMT reports Q3 revenue of ~$16.7B, up 613.2% YoY, and a net profit of ~$8.17B, swinging to profitability on the back of rising AI-driven memory chip prices — China's CXMT (688825.SS) said on Friday it swung to a net profit in the third quarter as surging AI-driven deman",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p12#a261030p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T12:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
