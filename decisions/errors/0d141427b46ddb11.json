@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "0d141427b46ddb11",
+  "url": "https://www.techmeme.com/261030/p20#a261030p20",
+  "sourceName": "Techmeme",
+  "title": "Microsoft, Alphabet, Amazon, Meta, and Oracle returned just 9.3% of cash to shareholders in the first three quarters of 2026, a 15-year low amid AI spending (Patturaja Murugaboopathy/Reuters)",
+  "summary": "Patturaja Murugaboopathy / Reuters: Microsoft, Alphabet, Amazon, Meta, and Oracle returned just 9.3% of cash to shareholders in the first three quarters of 2026, a 15-year low amid AI spending — The biggest US technology companies generated record amounts of cash in the first nin",
+  "pubDate": "2026-10-30T19:25:32.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Patturaja Murugaboopathy / Reuters: Microsoft, Alphabet, Amazon, Meta, and Oracle returned just 9.3% of cash to shareholders in the first three quarters of 2026, a 15-year low amid AI spending — The biggest US technology companies generated record amounts of cash in the first nin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p20#a261030p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T19:25:32.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
