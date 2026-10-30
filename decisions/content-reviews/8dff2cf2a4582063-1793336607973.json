@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793336561613-1nf846",
+  "urlHash": "8dff2cf2a4582063",
+  "url": "https://github.com/herdrdev/herdr-app",
+  "sourceName": "Hacker News Front Page",
+  "title": "Herdr has released native app",
+  "summary": "Article URL: https://github.com/herdrdev/herdr-app Comments URL: https://news.ycombinator.com/item?id=50298436 Points: 76 # Comments: 54",
+  "pubDate": "2026-10-30T00:42:41.000Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a 'native app' release on GitHub with no indication it is an AI model, research, tooling, industry event, or policy action. No rule condition can be established from the observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/herdrdev/herdr-app Comments URL: https://news.ycombinator.com/item?id=50298436 Points: 76 # Comments: 54",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/herdrdev/herdr-app",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-30T00:42:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
