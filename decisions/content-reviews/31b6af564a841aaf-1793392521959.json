@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "31b6af564a841aaf",
+  "url": "https://www.techmeme.com/261030/p23#a261030p23",
+  "sourceName": "Techmeme",
+  "title": "Reddit closed down 29.27% on Friday, the worst drop since becoming a public company in 2024, after it forecast weak Q4 revenue (Caleigh Keating/CNBC)",
+  "summary": "Caleigh Keating / CNBC: Reddit closed down 29.27% on Friday, the worst drop since becoming a public company in 2024, after it forecast weak Q4 revenue — Shares of Reddit cratered 29.22% on Friday, the worst drop since becoming a public company in 2024, after the company forecast ",
+  "pubDate": "2026-10-30T20:25:41.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Reddit's stock drop after weak Q4 revenue guidance — a market event for a social media company, not an AI model release, research, policy action, OSS tool, or AI industry business event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Caleigh Keating / CNBC: Reddit closed down 29.27% on Friday, the worst drop since becoming a public company in 2024, after it forecast weak Q4 revenue — Shares of Reddit cratered 29.22% on Friday, the worst drop since becoming a public company in 2024, after the company forecast ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p23#a261030p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T20:25:41.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
