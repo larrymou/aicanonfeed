@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "1692dbfc7287ca8b",
+  "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+  "sourceName": "Ars Technica AI",
+  "title": "Basically no one is using AI agents for their DoorDash orders",
+  "summary": "But it's still early days for the relatively new e-commerce use case.",
+  "pubDate": "2026-10-30T19:30:52.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports market/usage data on AI agents in e-commerce (DoorDash says outside AI agents produced only hundreds of orders), covered by a reputable media report on arstechnica.com; not a model release, research artifact, policy action, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "But it's still early days for the relatively new e-commerce use case.",
+    "summaryChars": 69,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-30T19:30:52.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
