@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "9498473511d48246",
+  "url": "https://www.techmeme.com/261030/p21#a261030p21",
+  "sourceName": "Techmeme",
+  "title": "Chainalysis says Binance hackers used automated money-laundering patterns not seen before; Elliptic: almost all of the $6.3B was taken in the first 30 minutes (Financial Times)",
+  "summary": "Financial Times: Chainalysis says Binance hackers used automated money-laundering patterns not seen before; Elliptic: almost all of the $6.3B was taken in the first 30 minutes — North Korean hackers' attack on Binance takes crypto theft to an unprecedented scale — The largest fin",
+  "pubDate": "2026-10-30T19:35:01.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a crypto theft/money-laundering story with no AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Chainalysis says Binance hackers used automated money-laundering patterns not seen before; Elliptic: almost all of the $6.3B was taken in the first 30 minutes — North Korean hackers' attack on Binance takes crypto theft to an unprecedented scale — The largest fin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p21#a261030p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T19:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
