@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "0d83add4fd4e2adf",
+  "url": "https://www.techmeme.com/261030/p14#a261030p14",
+  "sourceName": "Techmeme",
+  "title": "Binance says it has reserved $6.34B+ in company funds, including $5B already held in impacted token assets, to deal with the fallout from the $6.3B hack (Rajveer Singh Pardesi/Reuters)",
+  "summary": "Rajveer Singh Pardesi / Reuters: Binance says it has reserved $6.34B+ in company funds, including $5B already held in impacted token assets, to deal with the fallout from the $6.3B hack — Binance said on Friday it has reserved more than $6.34 billion in company funds, including $",
+  "pubDate": "2026-10-30T14:30:01.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a crypto exchange's reserve funds after a hack; it is not AI model release, research, industry AI business event, policy, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rajveer Singh Pardesi / Reuters: Binance says it has reserved $6.34B+ in company funds, including $5B already held in impacted token assets, to deal with the fallout from the $6.3B hack — Binance said on Friday it has reserved more than $6.34 billion in company funds, including $",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p14#a261030p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T14:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
