@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793336561613-1nf846",
+  "urlHash": "6cf88ea2edcde0bc",
+  "url": "https://www.techmeme.com/261030/p1#a261030p1",
+  "sourceName": "Techmeme",
+  "title": "CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine (Kevin Collier/NBC News)",
+  "summary": "Kevin Collier / NBC News: CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine — Chinese state-linked hackers targeted more than 200 organizations in just 11 days, using AI t",
+  "pubDate": "2026-10-30T04:01:16.000Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a cybersecurity threat campaign (China-linked hackers using an AI tool ARTEX with a DeepSeek LLM) from an NBC News report. It is not a model release, research paper/benchmark, industry business event, policy action, or open-source tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kevin Collier / NBC News: CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine — Chinese state-linked hackers targeted more than 200 organizations in just 11 days, using AI t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p1#a261030p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T04:01:16.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
