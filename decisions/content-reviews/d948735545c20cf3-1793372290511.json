@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "d948735545c20cf3",
+  "url": "https://openai.com/index/ropes-gray-ai-diligence",
+  "sourceName": "OpenAI Blog",
+  "title": "How Ropes & Gray is developing AI for transactional diligence",
+  "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+  "pubDate": "2026-10-29T07:00:00.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Ropes & Gray using OpenAI for legal diligence. No named model release, no research artifact, no financing/M&A/partnership or product launch, and no open-source tooling; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/ropes-gray-ai-diligence",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-29T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
