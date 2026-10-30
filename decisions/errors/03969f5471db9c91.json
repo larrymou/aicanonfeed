@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "03969f5471db9c91",
+  "url": "https://www.techmeme.com/261030/p10#a261030p10",
+  "sourceName": "Techmeme",
+  "title": "The UK CMA opens a probe into whether Meta imposed exploitative terms on publishers and advertisers to use their content to develop its AI and other services (Reuters)",
+  "summary": "Reuters: The UK CMA opens a probe into whether Meta imposed exploitative terms on publishers and advertisers to use their content to develop its AI and other services — Britain's competition regulator on Friday said it has opened an investigation into whether Meta (META.O) was im",
+  "pubDate": "2026-10-30T11:40:12.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: The UK CMA opens a probe into whether Meta imposed exploitative terms on publishers and advertisers to use their content to develop its AI and other services — Britain's competition regulator on Friday said it has opened an investigation into whether Meta (META.O) was im",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p10#a261030p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T11:40:12.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
