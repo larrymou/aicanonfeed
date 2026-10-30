@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "967849641e14f0d4",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Multi-Token Prediction Done Right [R]",
+  "summary": "Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it can be done much better. We show the standard MTP gradient hides a KL self-distillation signal (which we want for improving speculative decod",
+  "pubDate": "2026-10-30T18:53:20.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Post shares a new MTP research paper, but the provided link is a Reddit discussion thread, not the original paper or an official source; the link condition for the research rule cannot be verified from available fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it can be done much better. We show the standard MTP gradient hides a KL self-distillation signal (which we want for improving speculative decod",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-30T18:53:20.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
