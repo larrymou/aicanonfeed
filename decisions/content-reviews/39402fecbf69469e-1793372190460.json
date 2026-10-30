@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "39402fecbf69469e",
+  "url": "https://www.techmeme.com/261030/p13#a261030p13",
+  "sourceName": "Techmeme",
+  "title": "FEC data: AI-oriented PACs spent nearly $80M on the 2026 US elections, mostly before the primaries; pro-regulatory PACs outspent Leading the Future's network (Ian Krietzberg/Puck)",
+  "summary": "Ian Krietzberg / Puck: FEC data: AI-oriented PACs spent nearly $80M on the 2026 US elections, mostly before the primaries; pro-regulatory PACs outspent Leading the Future's network — To almost everyone's surprise, pro-regulatory PACs have outspent pro-industry groups in the midte",
+  "pubDate": "2026-10-30T13:10:01.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports FEC data on AI-oriented PAC election spending, not a model release, research artifact, business event (financing/M&A/partnership/revenue), official policy action (law, EO, enforcement), or OSS tool launch. No active rule covers election-campaign spending data.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ian Krietzberg / Puck: FEC data: AI-oriented PACs spent nearly $80M on the 2026 US elections, mostly before the primaries; pro-regulatory PACs outspent Leading the Future's network — To almost everyone's surprise, pro-regulatory PACs have outspent pro-industry groups in the midte",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p13#a261030p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T13:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
