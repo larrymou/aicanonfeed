@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "235bb524b25e5166",
+  "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google’s first data center satellite is online and writing poetry",
+  "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+  "pubDate": "2026-10-30T17:00:00.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+    "summaryChars": 92,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-30T17:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
