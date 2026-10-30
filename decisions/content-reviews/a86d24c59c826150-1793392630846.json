@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "a86d24c59c826150",
+  "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+  "sourceName": "OpenAI Blog",
+  "title": "Community safety report and new protections for teens",
+  "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+  "pubDate": "2026-10-30T09:00:00.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Company safety/teen-protection announcement is not a model release, research paper, business event (financing/M&A/partnership/product launch), policy action, or OSS tool. It's industry self-regulation, excluded by rule 4-1 and uncovered by 1-1/2-1/3-1/5-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-30T09:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
