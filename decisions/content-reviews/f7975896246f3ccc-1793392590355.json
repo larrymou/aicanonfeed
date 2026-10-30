@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "f7975896246f3ccc",
+  "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+  "summary": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash",
+  "pubDate": "2026-10-30T17:32:20.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on automating freight exceptions with Amazon Bedrock. No new model/capability release, no research artifact, no policy action, no OSS tool, and no financing/M&A/partnership/market event; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-10-30T17:32:20.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
