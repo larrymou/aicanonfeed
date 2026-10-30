@@ -1,18 +1,22 @@
 {
-  "runId": "run-1793307420921-5qyuaz",
+  "runId": "run-1793336561613-1nf846",
   "urlHash": "85248bd11eaa5ccd",
   "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
   "sourceName": "Ars Technica AI",
   "title": "Trump declares robot imports a national security threat",
   "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
   "pubDate": "2026-10-29T19:07:53.000Z",
-  "decidedAt": "2026-10-29T20:57:08.212Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "reason": "Item reports a presidential trade action declaring foreign factory-robot imports a security threat with tariff threats. It is trade/industrial policy about robotics hardware, not an AI model release, research result, industry business event (financing, M&A, partnership, market data), AI-specific pol",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
