@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793372152734-kihsqq",
+  "urlHash": "1dad5480fcae1d9a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xhso7k/how_do_you_start_with_agentic_ai_for_a_specific/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How do you start with Agentic AI for a specific use case? [D]",
+  "summary": "Hello all! I'm a PhD student in a niche field and the next plan is to apply agentic AI to automate a rather boring yet important workflow. I'm very well aware of LLMs but not very much into agentic AI and how do you set up? I've heard terms like harness and others, but I'd like t",
+  "pubDate": "2026-10-28T16:20:21.000Z",
+  "decidedAt": "2026-10-30T14:56:10.074Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for advice on getting started with agentic AI; no named model release, research artifact, business event, policy action, or OSS tool announcement. No rule covers Q&A/commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello all! I'm a PhD student in a niche field and the next plan is to apply agentic AI to automate a rather boring yet important workflow. I'm very well aware of LLMs but not very much into agentic AI and how do you set up? I've heard terms like harness and others, but I'd like t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xhso7k/how_do_you_start_with_agentic_ai_for_a_specific/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-28T16:20:21.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
