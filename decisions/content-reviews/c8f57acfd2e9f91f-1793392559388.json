@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "c8f57acfd2e9f91f",
+  "url": "https://www.techmeme.com/261030/p19#a261030p19",
+  "sourceName": "Techmeme",
+  "title": "Anthropic renames its $100 per month Max 5x plan as Max and the $200 per month Max 20x plan as Ultra, and removes the 5-hour limit for verified Ultra accounts (Claude/@claudeai)",
+  "summary": "Claude / @claudeai: Anthropic renames its $100 per month Max 5x plan as Max and the $200 per month Max 20x plan as Ultra, and removes the 5-hour limit for verified Ultra accounts — We're renaming our Max plans: Max 5x → Max Max 20x → Ultra Max is still $100/month, and Ultra is st",
+  "pubDate": "2026-10-30T19:15:00.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a subscription plan rename/pricing and usage-limit change for Claude plans, not a model release (rule 1-1 excludes pricing/plan updates), not research, policy, OSS tooling, nor an industry business event like financing/M&A/partnership/product launch. Only a Techmeme aggregator link is given.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Claude / @claudeai: Anthropic renames its $100 per month Max 5x plan as Max and the $200 per month Max 20x plan as Ultra, and removes the 5-hour limit for verified Ultra accounts — We're renaming our Max plans: Max 5x → Max Max 20x → Ultra Max is still $100/month, and Ultra is st",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p19#a261030p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T19:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
