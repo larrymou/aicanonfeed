@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793336561613-1nf846",
+  "urlHash": "b5636e2775ac4bb7",
+  "url": "https://github.com/Millillion/lasm",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
+  "summary": "Lasm has been my dream for a good part of 2026. I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabled by the incredibly intelligent LLMs that understand formal verification and its",
+  "pubDate": "2026-10-30T02:05:41.000Z",
+  "decidedAt": "2026-10-30T05:02:50.326Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for Lasm, a Lean-based formally verified webapp framework — a general developer tool, not an AI model, AI research artifact, AI business event, policy action, or open-source AI tool/framework under rule 5-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lasm has been my dream for a good part of 2026. I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabled by the incredibly intelligent LLMs that understand formal verification and its",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/Millillion/lasm",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-30T02:05:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
