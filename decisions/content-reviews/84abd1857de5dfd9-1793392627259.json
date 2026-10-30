@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793392513184-o84aw5",
+  "urlHash": "84abd1857de5dfd9",
+  "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+  "sourceName": "OpenAI Blog",
+  "title": "Making it easier for websites to express AI training preferences",
+  "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+  "pubDate": "2026-10-30T09:30:00.000Z",
+  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI's post describes a voluntary company commitment to honor a shared robots.txt AI-training signal. It is not a model release, research artifact, business event (financing/M&A/partnership/product launch), or government policy action; rule 4-1 excludes industry self-regulation.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-30T09:30:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
