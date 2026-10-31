@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "c44dc9ed271ff418",
+  "url": "https://openai.com/index/check-point-daybreak",
+  "sourceName": "OpenAI Blog",
+  "title": "How Check Point accelerates vulnerability research with Daybreak",
+  "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+  "pubDate": "2026-10-27T00:00:00.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Check Point using OpenAI Daybreak; no new model/major version/capability release, no research artifact, no financing/M&A/partnership/market data, no policy action, and no open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "summaryChars": 177,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/check-point-daybreak",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-27T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
