@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "9af7ca67dc2ff7b4",
+  "url": "https://newrepublic.com/post/217281/meta-suspend-democratic-candidate-angie-nixon-instagram-account",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally?",
+  "summary": "Article URL: https://newrepublic.com/post/217281/meta-suspend-democratic-candidate-angie-nixon-instagram-account Comments URL: https://news.ycombinator.com/item?id=50315776 Points: 10 # Comments: 1",
+  "pubDate": "2026-10-31T12:57:31.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Platform content-moderation action against a political candidate's Instagram account; not an AI model release, research artifact, AI business event, government policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://newrepublic.com/post/217281/meta-suspend-democratic-candidate-angie-nixon-instagram-account Comments URL: https://news.ycombinator.com/item?id=50315776 Points: 10 # Comments: 1",
+    "summaryChars": 197,
+    "summarySource": "summary",
+    "link": "https://newrepublic.com/post/217281/meta-suspend-democratic-candidate-angie-nixon-instagram-account",
+    "linkHost": "newrepublic.com",
+    "pubDate": "2026-10-31T12:57:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
