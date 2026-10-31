@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "1414acc8757ec071",
+  "url": "https://www.techmeme.com/261030/p29#a261030p29",
+  "sourceName": "Techmeme",
+  "title": "Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B (Bloomberg)",
+  "summary": "Bloomberg: Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B — Artificial intelligence startup Baseten is set to raise new funding that would more than double its valuation to abo",
+  "pubDate": "2026-10-31T00:20:02.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B — Artificial intelligence startup Baseten is set to raise new funding that would more than double its valuation to abo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p29#a261030p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T00:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
