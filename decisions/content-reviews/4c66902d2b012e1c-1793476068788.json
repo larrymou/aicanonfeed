@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "4c66902d2b012e1c",
+  "url": "https://www.techmeme.com/261031/p11#a261031p11",
+  "sourceName": "Techmeme",
+  "title": "Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link (Swati Khandelwal/The Hacker News)",
+  "summary": "Swati Khandelwal / The Hacker News: Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link — A malicious ChatGPT share link could run an attacker's code in the logged-in sess",
+  "pubDate": "2026-10-31T19:01:11.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security vulnerability/bug-bounty story about a ChatGPT share link flaw. Not a model release, research artifact, industry business event (financing/M&A/partnership/market data/product launch), policy action, or open-source tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Swati Khandelwal / The Hacker News: Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link — A malicious ChatGPT share link could run an attacker's code in the logged-in sess",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p11#a261031p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T19:01:11.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
