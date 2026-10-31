@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "71902cabc13f295e",
+  "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+  "sourceName": "Ars Technica AI",
+  "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+  "summary": "People who love AI don't always love telling others they used it.",
+  "pubDate": "2026-10-30T20:40:13.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Story about a provost's personal AI use and job loss—commentary/personnel news. No named model release, research artifact, business event, policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "People who love AI don't always love telling others they used it.",
+    "summaryChars": 65,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-30T20:40:13.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
