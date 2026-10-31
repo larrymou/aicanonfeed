@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "1e3ebf94e41ebe19",
+  "url": "https://openai.com/index/retell-ai",
+  "sourceName": "OpenAI Blog",
+  "title": "Retell uses OpenAI models to help power 100M monthly calls",
+  "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+  "pubDate": "2026-10-27T15:00:00.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Retell using OpenAI models; no release action announcing a new model/version/capability, no research artifact, policy action, OSS release, or business event like financing/M&A/partnership. GPT-6 Astra mention is a benchmark reference only.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/retell-ai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-27T15:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
