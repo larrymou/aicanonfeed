@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "2f8f2a14b01c9a21",
+  "url": "https://karpathy.bearblog.dev/hacker-tube/",
+  "sourceName": "Hacker News Front Page",
+  "title": "HackerTube: YouTube built from videos recommended by HN",
+  "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 421 # Comments: 161",
+  "pubDate": "2026-10-31T19:56:53.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A hobby project that builds a YouTube-style UI over HN-recommended videos. It is not a named model release, not an AI research artifact, not an industry business event, not a policy action, and no evidence shows a new open-source AI tool/framework, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 421 # Comments: 161",
+    "summaryChars": 190,
+    "summarySource": "summary",
+    "link": "https://karpathy.bearblog.dev/hacker-tube/",
+    "linkHost": "karpathy.bearblog.dev",
+    "pubDate": "2026-10-31T19:56:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
