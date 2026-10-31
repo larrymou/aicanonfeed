@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "d9269f49d95d2fae",
+  "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+  "sourceName": "TechCrunch AI",
+  "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+  "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+  "pubDate": "2026-10-31T21:41:00.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "CEO commentary on Apple's AI strategy; no named model release, research artifact, business event, policy action, or OSS tool announced. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+    "summaryChars": 76,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-31T21:41:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
