@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "b7fe1cea214b8746",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xkcy83/hierarchical_detection_of_neonatal_brain/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Hierarchical detection of neonatal brain pathologies using a two-stage deep learning framework from magnetic resonance imaging [R]",
+  "summary": "submitted by /u/rottoneuro [link] [comments]",
+  "pubDate": "2026-10-31T15:21:39.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title suggests an AI research paper, but the only link is a reddit.com discussion post; no link to the original paper or official source is observed, so rule 2-1's evidence link requirement is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "submitted by /u/rottoneuro [link] [comments]",
+    "summaryChars": 44,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xkcy83/hierarchical_detection_of_neonatal_brain/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-31T15:21:39.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
