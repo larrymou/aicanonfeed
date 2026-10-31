@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "109261365670d335",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+  "sourceName": "vLLM releases",
+  "title": "v0.33.0rc3",
+  "summary": "[CI][Bugfix] Pin the ColUltraVBERT test checkpoint to the revision vL…",
+  "pubDate": "2026-10-31T07:15:45.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[CI][Bugfix] Pin the ColUltraVBERT test checkpoint to the revision vL…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "linkHost": "github.com",
+    "pubDate": "2026-10-31T07:15:45.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
