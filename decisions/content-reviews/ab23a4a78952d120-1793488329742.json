@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "ab23a4a78952d120",
+  "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
+  "sourceName": "Hacker News Front Page",
+  "title": "With 86% of the words, you might understand only 38% of an anime's lines",
+  "summary": "Article URL: https://learnfromx.com/research/anime-word-coverage-vs-lines-understood Comments URL: https://news.ycombinator.com/item?id=50320028 Points: 34 # Comments: 23",
+  "pubDate": "2026-10-31T20:46:39.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns anime vocabulary coverage/language comprehension, not an AI model release, AI research artifact, AI business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://learnfromx.com/research/anime-word-coverage-vs-lines-understood Comments URL: https://news.ycombinator.com/item?id=50320028 Points: 34 # Comments: 23",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
+    "linkHost": "learnfromx.com",
+    "pubDate": "2026-10-31T20:46:39.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
