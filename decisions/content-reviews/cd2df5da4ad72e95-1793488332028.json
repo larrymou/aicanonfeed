@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "cd2df5da4ad72e95",
+  "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+  "sourceName": "Hacker News Front Page",
+  "title": "Surviving \"The Graduate\"",
+  "summary": "https://archive.ph/Eqn1F Comments URL: https://news.ycombinator.com/item?id=50319563 Points: 29 # Comments: 6",
+  "pubDate": "2026-10-31T20:02:06.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "New Yorker culture essay about Dustin Hoffman and the film 'The Graduate'; no AI model, research, industry, policy, or OSS tooling content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://archive.ph/Eqn1F Comments URL: https://news.ycombinator.com/item?id=50319563 Points: 29 # Comments: 6",
+    "summaryChars": 109,
+    "summarySource": "summary",
+    "link": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+    "linkHost": "www.newyorker.com",
+    "pubDate": "2026-10-31T20:02:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
