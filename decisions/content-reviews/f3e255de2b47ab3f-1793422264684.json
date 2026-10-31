@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "f3e255de2b47ab3f",
+  "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+  "sourceName": "TechCrunch AI",
+  "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+  "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+  "pubDate": "2026-10-30T21:52:03.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports an AI industry business/finance event: Anthropic's expected credit rating following IPO, affecting its fundraising costs. No model release, research artifact, or policy action; reputable media report satisfies rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+    "summaryChars": 224,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-30T21:52:03.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
