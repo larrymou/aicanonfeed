@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "c1092cc2051b352e",
+  "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Duty of a Scholar",
+  "summary": "Article URL: https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html Comments URL: https://news.ycombinator.com/item?id=50319061 Points: 20 # Comments: 2",
+  "pubDate": "2026-10-31T19:07:36.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title and summary describe an essay ('The Duty of a Scholar') on a personal blog; no named AI model, research artifact, business event, policy action, or OSS tool is evident. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html Comments URL: https://news.ycombinator.com/item?id=50319061 Points: 20 # Comments: 2",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+    "linkHost": "www.daemonology.net",
+    "pubDate": "2026-10-31T19:07:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
