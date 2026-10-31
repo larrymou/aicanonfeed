@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "2d723420b66b1e2c",
+  "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+  "sourceName": "Hacker News Front Page",
+  "title": "It's the Memory Latency, Stupid",
+  "summary": "Article URL: https://pivotlake.io/blog/its-the-memory-latency-stupid/ Comments URL: https://news.ycombinator.com/item?id=50318720 Points: 12 # Comments: 0",
+  "pubDate": "2026-10-31T18:38:16.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post/commentary on memory latency from a personal site; no named model release, no research paper or benchmark artifact, no business event, no policy action, and no open-source tooling announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://pivotlake.io/blog/its-the-memory-latency-stupid/ Comments URL: https://news.ycombinator.com/item?id=50318720 Points: 12 # Comments: 0",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+    "linkHost": "pivotlake.io",
+    "pubDate": "2026-10-31T18:38:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
