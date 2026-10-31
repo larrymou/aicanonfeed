@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "7c2ee6e41dd8b099",
+  "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+  "sourceName": "Wired AI",
+  "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+  "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+  "pubDate": "2026-10-31T10:00:00.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired report on a startup's agent performing brain injection in a mouse. No paper/preprint/benchmark link for R2-1; no financing, M&A, partnership, revenue data, or product launch for R3-1; not a model release (R1) or OSS tool (R5) or policy action (R4). No rule covers.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-31T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
