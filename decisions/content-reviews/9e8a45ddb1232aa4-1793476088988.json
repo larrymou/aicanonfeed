@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "9e8a45ddb1232aa4",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xkeq7d/i_built_a_scikitlearn_for_rsi_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I built a scikit-learn for RSI [P]",
+  "summary": "After reading a bunch of RSI papers, I keep coming back to familiar problems from RL and evolutionary search: Sampling: How do we find promising changes efficiently? Evaluation: How do we know a new variant actually improves the agent? Diversity: How do we avoid converging too ea",
+  "pubDate": "2026-10-31T16:33:26.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit personal-project post ('I built a scikit-learn for RSI'); link points to a Reddit discussion, not an official repo/announcement, paper/preprint, or business/policy event. No rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "After reading a bunch of RSI papers, I keep coming back to familiar problems from RL and evolutionary search: Sampling: How do we find promising changes efficiently? Evaluation: How do we know a new variant actually improves the agent? Diversity: How do we avoid converging too ea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xkeq7d/i_built_a_scikitlearn_for_rsi_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-31T16:33:26.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
