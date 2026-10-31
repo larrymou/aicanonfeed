@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "73e7ae0d10a040e8",
+  "url": "https://www.pgdp.net/c/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Distributed Proofreaders",
+  "summary": "Article URL: https://www.pgdp.net/c/ Comments URL: https://news.ycombinator.com/item?id=50320137 Points: 12 # Comments: 1",
+  "pubDate": "2026-10-31T20:56:12.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Distributed Proofreaders (a proofreading project for public-domain texts); it is not an AI model release, research result, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.pgdp.net/c/ Comments URL: https://news.ycombinator.com/item?id=50320137 Points: 12 # Comments: 1",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://www.pgdp.net/c/",
+    "linkHost": "www.pgdp.net",
+    "pubDate": "2026-10-31T20:56:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
