@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "d4aea09996d18d97",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Is it okay to share my experiments implementing research papers on my own LLM here? [P]",
+  "summary": "Hey everyone! I've built and trained a small LLM (~8M parameters) from scratch using PyTorch, mainly as an experimental lab where I can implement and test ideas from different research papers. I've been documenting the whole journey through casual blogs, including my mistakes, ex",
+  "pubDate": "2026-10-31T17:57:22.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit community question asking whether sharing personal LLM experiments is allowed; it announces no model release, links no paper/official research artifact, reports no business event or policy action, and releases no open-source tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey everyone! I've built and trained a small LLM (~8M parameters) from scratch using PyTorch, mainly as an experimental lab where I can implement and test ideas from different research papers. I've been documenting the whole journey through casual blogs, including my mistakes, ex",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-10-31T17:57:22.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
