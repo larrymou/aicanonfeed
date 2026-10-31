@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "b923e7d39c4c65db",
+  "url": "https://www.techmeme.com/261031/p2#a261031p2",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says a malicious actor used access to Cursor's marketplace to publish a \"tampered\" copy of the Claude Code extension, which it didn't build or publish (Felix Rieseberg/@felixrieseberg)",
+  "summary": "Felix Rieseberg / @felixrieseberg: Anthropic says a malicious actor used access to Cursor's marketplace to publish a “tampered” copy of the Claude Code extension, which it didn't build or publish — We're working with Cursor on this incident, but it wasn't a compromise of Anthropi",
+  "pubDate": "2026-10-31T05:00:15.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a supply-chain security incident: a tampered Claude Code extension published via Cursor's marketplace. It is not a model release, research result, business event (financing/M&A/partnership/market data), policy action, or open-source tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Felix Rieseberg / @felixrieseberg: Anthropic says a malicious actor used access to Cursor's marketplace to publish a “tampered” copy of the Claude Code extension, which it didn't build or publish — We're working with Cursor on this incident, but it wasn't a compromise of Anthropi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p2#a261031p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T05:00:15.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
