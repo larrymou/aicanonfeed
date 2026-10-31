@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "d67775bd9897367f",
+  "url": "https://datavorous.com/writing/demoscener/",
+  "sourceName": "Hacker News Front Page",
+  "title": "I post trained a model on Demoscenes",
+  "summary": "Article URL: https://datavorous.com/writing/demoscener/ Comments URL: https://news.ycombinator.com/item?id=50318442 Points: 23 # Comments: 14",
+  "pubDate": "2026-10-31T18:08:24.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post about training a model on demoscenes; no named lab model release, no paper/arXiv/benchmark artifact, no business, policy, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://datavorous.com/writing/demoscener/ Comments URL: https://news.ycombinator.com/item?id=50318442 Points: 23 # Comments: 14",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://datavorous.com/writing/demoscener/",
+    "linkHost": "datavorous.com",
+    "pubDate": "2026-10-31T18:08:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
