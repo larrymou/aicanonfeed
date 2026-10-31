@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "74986d5164b8b896",
+  "url": "https://www.techmeme.com/261031/p9#a261031p9",
+  "sourceName": "Techmeme",
+  "title": "Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens (Angela Christy/Reuters)",
+  "summary": "Angela Christy / Reuters: Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens — Cryptocurrency exchange Binance said on Saturday that it was able to cover 90% of the amount stolen during its rec",
+  "pubDate": "2026-10-31T15:45:01.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a crypto exchange covering hack losses; it is not an AI model release, research, industry AI business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Angela Christy / Reuters: Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens — Cryptocurrency exchange Binance said on Saturday that it was able to cover 90% of the amount stolen during its rec",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p9#a261031p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T15:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
