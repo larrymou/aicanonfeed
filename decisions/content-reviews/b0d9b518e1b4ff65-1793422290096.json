@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "b0d9b518e1b4ff65",
+  "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+  "sourceName": "Ars Technica AI",
+  "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+  "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+  "pubDate": "2026-10-30T21:09:54.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security incident/breach report on a VS Code extension. It is not a model release, research artifact, policy action, OSS tool release, or a listed industry business event (financing, M&A, partnership, revenue, non-model product launch), so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-10-30T21:09:54.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
