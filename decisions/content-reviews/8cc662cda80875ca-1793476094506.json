@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "8cc662cda80875ca",
+  "url": "https://www.techmeme.com/261031/p10#a261031p10",
+  "sourceName": "Techmeme",
+  "title": "Sources: Meta built a prototype humanoid robot with Chinese firm Fourier in three months and is building a second; Meta says it has no plans to sell these units (Jyoti Mann/The Information)",
+  "summary": "Jyoti Mann / The Information: Sources: Meta built a prototype humanoid robot with Chinese firm Fourier in three months and is building a second; Meta says it has no plans to sell these units — Meta Platforms has built a prototype humanoid with Chinese robotics company Fourier and",
+  "pubDate": "2026-10-31T16:20:02.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reported business/partnership development: Meta built a humanoid robot prototype with Chinese firm Fourier and is building a second, sourced to The Information via Techmeme. Non-model hardware product news with no official owner announcement, so it falls under industry rather than model releases.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jyoti Mann / The Information: Sources: Meta built a prototype humanoid robot with Chinese firm Fourier in three months and is building a second; Meta says it has no plans to sell these units — Meta Platforms has built a prototype humanoid with Chinese robotics company Fourier and",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p10#a261031p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T16:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
