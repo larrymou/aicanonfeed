@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "85f94c0fe8f02a81",
+  "url": "https://openai.com/index/credit-saison",
+  "sourceName": "OpenAI Blog",
+  "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+  "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+  "pubDate": "2026-10-29T00:00:00.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study reporting ROI/adoption of ChatGPT Enterprise; no new model, research artifact, policy action, OSS tooling, or industry business event (financing, M&A, partnership, deal, product launch) is announced.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/credit-saison",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-29T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
