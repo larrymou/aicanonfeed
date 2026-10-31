@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "7a24eca35f77e86d",
+  "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+  "sourceName": "The Verge AI",
+  "title": "The biggest names in AI are backing a new way to opt out of scraping",
+  "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI compani",
+  "pubDate": "2026-10-30T20:26:10.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is voluntary industry self-regulation (companies pledging to adopt a scraping opt-out standard). Rule 4-1 excludes self-regulation without a government/policy action, and no listed group 3 business event (financing, M&A, partnership, market data, non-model product launch) is established from Co",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI compani",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-10-30T20:26:10.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
