@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "8e33b296bca7d65d",
+  "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+  "sourceName": "Wired AI",
+  "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+  "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+  "pubDate": "2026-10-31T10:30:00.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary on business reaction to Meta's Muse; no named model release, research artifact, industry deal/financing event, policy action, or OSS tool launch. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-10-31T10:30:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
