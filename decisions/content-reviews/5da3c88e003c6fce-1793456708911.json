@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "5da3c88e003c6fce",
+  "url": "https://nullprogram.com/blog/2026/10/31/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Prospero: A new coding harness for a more civilized age",
+  "summary": "Article URL: https://nullprogram.com/blog/2026/10/31/ Comments URL: https://news.ycombinator.com/item?id=50315226 Points: 39 # Comments: 15",
+  "pubDate": "2026-10-31T11:54:59.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names a coding harness, but Content shows only a personal blog post on nullprogram.com with no repository link, no official project announcement, and no evidence of an open-source AI tool/framework release. No model release, research artifact, business event, or policy action is established, s",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nullprogram.com/blog/2026/10/31/ Comments URL: https://news.ycombinator.com/item?id=50315226 Points: 39 # Comments: 15",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://nullprogram.com/blog/2026/10/31/",
+    "linkHost": "nullprogram.com",
+    "pubDate": "2026-10-31T11:54:59.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
