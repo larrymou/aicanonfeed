@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "e1d53d85169bfd24",
+  "url": "https://www.techmeme.com/261031/p3#a261031p3",
+  "sourceName": "Techmeme",
+  "title": "S&P downgraded Meta's outlook from stable to negative, citing high capex and negative free cash flow; META fell 15% in October, its worst month in four years (Jonathan Vanian/CNBC)",
+  "summary": "Jonathan Vanian / CNBC: S&P downgraded Meta's outlook from stable to negative, citing high capex and negative free cash flow; META fell 15% in October, its worst month in four years — Meta's outlook has been revised downward by S&P Global Ratings on concerns surrounding cash flow",
+  "pubDate": "2026-10-31T05:10:42.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "S&P outlook downgrade of Meta over AI capex and negative free cash flow is an AI industry business/market event, reported via a reputable media source (CNBC summary on Techmeme).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jonathan Vanian / CNBC: S&P downgraded Meta's outlook from stable to negative, citing high capex and negative free cash flow; META fell 15% in October, its worst month in four years — Meta's outlook has been revised downward by S&P Global Ratings on concerns surrounding cash flow",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p3#a261031p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T05:10:42.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
