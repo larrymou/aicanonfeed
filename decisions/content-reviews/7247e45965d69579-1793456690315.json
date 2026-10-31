@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "7247e45965d69579",
+  "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+  "summary": "Article URL: https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26 Comments URL: https://news.ycombinator.com/item?id=50315990 Points: 38 # Comments: 6",
+  "pubDate": "2026-10-31T13:25:10.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security breach news about an AI startup hacking Anthropic. Not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No active rule covers security incidents.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26 Comments URL: https://news.ycombinator.com/item?id=50315990 Points: 38 # Comments: 6",
+    "summaryChars": 258,
+    "summarySource": "summary",
+    "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+    "linkHost": "www.indiatoday.in",
+    "pubDate": "2026-10-31T13:25:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
