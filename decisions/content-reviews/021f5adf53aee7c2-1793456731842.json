@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "021f5adf53aee7c2",
+  "url": "https://www.techmeme.com/261031/p6#a261031p6",
+  "sourceName": "Techmeme",
+  "title": "As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs (The Commanding Heights)",
+  "summary": "The Commanding Heights: As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs — Scarce, controllable positions of Economic Power whose holders durably capture the gains of I",
+  "pubDate": "2026-10-31T06:30:01.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme link to an opinion/commentary essay about where economic value accrues as AI models commoditize. No model release, research artifact, business event (financing/M&A/partnership/revenue data), policy action, or OSS tool launch; no rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Commanding Heights: As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs — Scarce, controllable positions of Economic Power whose holders durably capture the gains of I",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p6#a261031p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T06:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
