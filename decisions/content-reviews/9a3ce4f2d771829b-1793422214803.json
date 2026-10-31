@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "9a3ce4f2d771829b",
+  "url": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
+  "sourceName": "Hacker News Front Page",
+  "title": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
+  "summary": "Article URL: https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e Comments URL: https://news.ycombinator.com/item?id=50312739 Points: 36 # Comments: 5",
+  "pubDate": "2026-10-31T02:42:02.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Local news investigation about Flock license-plate-reader camera searches dropping after dispatcher misconduct. No AI model release, research artifact, business event, policy/government action, or open-source tool launch; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e Comments URL: https://news.ycombinator.com/item?id=50312739 Points: 36 # Comments: 5",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
+    "linkHost": "www.wkyc.com",
+    "pubDate": "2026-10-31T02:42:02.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
