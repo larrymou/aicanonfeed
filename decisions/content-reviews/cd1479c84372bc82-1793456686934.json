@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "cd1479c84372bc82",
+  "url": "https://www.techmeme.com/261031/p8#a261031p8",
+  "sourceName": "Techmeme",
+  "title": "How AI detectors like Pangram are changing human writing: authors drop em dashes, \"not X, but Y\" phrasing, and words like \"delve\", or add typos, to look human (Morgan Meaker/Bloomberg)",
+  "summary": "Morgan Meaker / Bloomberg: How AI detectors like Pangram are changing human writing: authors drop em dashes, “not X, but Y” phrasing, and words like “delve”, or add typos, to look human — As AI transforms writing and detectors like Pangram police what counts as machine-generated ",
+  "pubDate": "2026-10-31T13:40:53.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary on how AI detectors influence human writing style. No model release, research paper/benchmark, business event (financing/M&A/partnership/market data), policy action, or open-source tool launch. No rule covers this trend piece.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Morgan Meaker / Bloomberg: How AI detectors like Pangram are changing human writing: authors drop em dashes, “not X, but Y” phrasing, and words like “delve”, or add typos, to look human — As AI transforms writing and detectors like Pangram police what counts as machine-generated ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p8#a261031p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T13:40:53.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
