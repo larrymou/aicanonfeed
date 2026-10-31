@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793456674491-yfgcn0",
+  "urlHash": "f6ec35d93676e666",
+  "url": "https://www.techmeme.com/261031/p5#a261031p5",
+  "sourceName": "Techmeme",
+  "title": "When talking about local inference, Sam Altman says supply-constrained DRAM is better used in data centers than sitting in PCs and \"being used 5% of the time\" (Andrew E. Freedman/Tom's Hardware)",
+  "summary": "Andrew E. Freedman / Tom's Hardware: When talking about local inference, Sam Altman says supply-constrained DRAM is better used in data centers than sitting in PCs and “being used 5% of the time” — With data centers full of RAM, your PC is apparently the problem. … OpenAI CEO Sam",
+  "pubDate": "2026-10-31T06:10:48.000Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/quote from Sam Altman about DRAM allocation for local inference vs data centers. No named model release, no research artifact, no business event (financing/M&A/partnership/market data), no policy action, and no OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew E. Freedman / Tom's Hardware: When talking about local inference, Sam Altman says supply-constrained DRAM is better used in data centers than sitting in PCs and “being used 5% of the time” — With data centers full of RAM, your PC is apparently the problem. … OpenAI CEO Sam",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p5#a261031p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T06:10:48.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
