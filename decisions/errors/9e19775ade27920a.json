@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "9e19775ade27920a",
+  "url": "https://www.techmeme.com/261030/p30#a261030p30",
+  "sourceName": "Techmeme",
+  "title": "Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)",
+  "summary": "Financial Times: Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff — ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions — OpenAI",
+  "pubDate": "2026-10-31T01:00:53.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff — ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions — OpenAI",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p30#a261030p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-31T01:00:53.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
