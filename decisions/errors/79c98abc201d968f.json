@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "79c98abc201d968f",
+  "url": "https://www.techmeme.com/261030/p28#a261030p28",
+  "sourceName": "Techmeme",
+  "title": "Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program (Bloomberg)",
+  "summary": "Bloomberg: Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program — Alphabet Inc.'s Google is in talks with the US Defense Department to work on a new data security effort underp",
+  "pubDate": "2026-10-30T22:50:01.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program — Alphabet Inc.'s Google is in talks with the US Defense Department to work on a new data security effort underp",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261030/p28#a261030p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-10-30T22:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
