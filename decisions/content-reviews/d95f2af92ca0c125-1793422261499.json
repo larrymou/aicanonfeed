@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "d95f2af92ca0c125",
+  "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+  "sourceName": "TechCrunch AI",
+  "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+  "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+  "pubDate": "2026-10-30T21:54:34.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a stock-price drop affecting the government's Intel stake and PC market commentary. It has no AI model release, research artifact, financing/M&A/partnership/revenue event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+    "summaryChars": 113,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-30T21:54:34.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
