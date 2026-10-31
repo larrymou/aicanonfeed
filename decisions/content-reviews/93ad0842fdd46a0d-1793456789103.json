@@ -1,18 +1,23 @@
 {
-  "runId": "run-1793392513184-o84aw5",
+  "runId": "run-1793456674491-yfgcn0",
   "urlHash": "93ad0842fdd46a0d",
   "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
   "sourceName": "TechCrunch AI",
   "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
   "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
   "pubDate": "2026-10-30T13:00:00.000Z",
-  "decidedAt": "2026-10-30T20:35:19.734Z",
+  "decidedAt": "2026-10-31T14:24:45.240Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "TechCrunch report on a startup building a factory for prefabricated AI data centers. No model release, paper, policy action, OSS tool, or enumerated industry event (financing, M&A, partnership, market data, product launch) is established from the available fields.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
