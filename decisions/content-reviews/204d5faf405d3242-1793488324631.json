@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793488308864-muqjz0",
+  "urlHash": "204d5faf405d3242",
+  "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+  "sourceName": "TechCrunch AI",
+  "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+  "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+  "pubDate": "2026-10-31T21:17:03.000Z",
+  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Civil litigation brought by a private nonprofit (NAACP) over Clean Air Act violations is not an official government policy action or regulatory enforcement under rule 4-1, nor a model release, research artifact, business event, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+    "summaryChars": 84,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-10-31T21:17:03.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
