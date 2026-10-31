@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "9b602871ebeb87d5",
+  "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+  "sourceName": "Hacker News Front Page",
+  "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+  "summary": "Article URL: https://ryanmadden.net/gpt-56-beats-factorio/ Comments URL: https://news.ycombinator.com/item?id=50318871 Points: 30 # Comments: 12",
+  "pubDate": "2026-10-31T18:50:34.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Third-party blog post about GPT-5.6 Sol playing Factorio. Rule 1-1 requires an official owner (OpenAI) announcement link or a full news article with named author and publication date; linkHost is not the owner domain and linked_page_author/owner are not observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "linked_page_author",
+    "linked_page_owner_domain"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ryanmadden.net/gpt-56-beats-factorio/ Comments URL: https://news.ycombinator.com/item?id=50318871 Points: 30 # Comments: 12",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
+    "linkHost": "ryanmadden.net",
+    "pubDate": "2026-10-31T18:50:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
