@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793422184082-0lhxgi",
+  "urlHash": "bba0da0d1585467e",
+  "url": "https://tng.episodle.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+  "summary": "Article URL: https://tng.episodle.com/ Comments URL: https://news.ycombinator.com/item?id=50311686 Points: 124 # Comments: 41",
+  "pubDate": "2026-10-30T23:51:24.000Z",
+  "decidedAt": "2026-10-31T04:49:51.877Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN guessing game about a Star Trek TNG episode; no AI model release, research, industry business event, policy action, or open-source AI tooling. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tng.episodle.com/ Comments URL: https://news.ycombinator.com/item?id=50311686 Points: 124 # Comments: 41",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://tng.episodle.com/",
+    "linkHost": "tng.episodle.com",
+    "pubDate": "2026-10-30T23:51:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
