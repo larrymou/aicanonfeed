@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793476053682-ojuz5p",
+  "urlHash": "c417f8e3d39d0b89",
+  "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+  "sourceName": "OpenAI Blog",
+  "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+  "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+  "pubDate": "2026-10-27T07:00:00.000Z",
+  "decidedAt": "2026-10-31T19:47:44.478Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports a partnership expansion between OpenAI and Oracle to bring Oracle business apps and AI agents into ChatGPT; it is an industry business event, not a model release, with a link to the official OpenAI announcement.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "linkHost": "openai.com",
+    "pubDate": "2026-10-27T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
