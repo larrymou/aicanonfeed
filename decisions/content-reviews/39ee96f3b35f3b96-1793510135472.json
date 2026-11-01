@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "39ee96f3b35f3b96",
+  "url": "https://arxiv.org/abs/2409.02292",
+  "sourceName": "Hacker News Front Page",
+  "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+  "summary": "Article URL: https://arxiv.org/abs/2409.02292 Comments URL: https://news.ycombinator.com/item?id=50322022 Points: 27 # Comments: 12",
+  "pubDate": "2026-11-01T01:46:29.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "arXiv link to a hardware side-channel paper on leaking secrets from air-gap computers via RAM radio signals. Content shows no AI model, no AI research result, and no AI industry/policy/tooling event, so no active rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://arxiv.org/abs/2409.02292 Comments URL: https://news.ycombinator.com/item?id=50322022 Points: 27 # Comments: 12",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2409.02292",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-01T01:46:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
