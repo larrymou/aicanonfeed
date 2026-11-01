@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "854a452f65cee3d5",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+  "sourceName": "vLLM releases",
+  "title": "v0.33.0",
+  "summary": "vLLM v0.33.0",
+  "pubDate": "2026-11-01T09:21:10.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "vLLM v0.33.0 is an open-source AI library/framework release, announced via its official GitHub repository release page, matching rule 5-1 for OSS tooling/framework updates.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "vLLM v0.33.0",
+    "summaryChars": 12,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-01T09:21:10.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
