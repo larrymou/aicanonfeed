@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "237abb4a188c6daa",
+  "url": "https://nurse.org/news/uber-for-nursing-gig-apps-report/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Nurses Sound Alarm as 'Uber for Nursing' Apps Push to Deregulate Healthcare",
+  "summary": "Article URL: https://nurse.org/news/uber-for-nursing-gig-apps-report/ Comments URL: https://news.ycombinator.com/item?id=50328487 Points: 83 # Comments: 44",
+  "pubDate": "2026-11-01T18:53:46.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns 'Uber for nursing' gig apps and healthcare deregulation; no AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool is reported. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nurse.org/news/uber-for-nursing-gig-apps-report/ Comments URL: https://news.ycombinator.com/item?id=50328487 Points: 83 # Comments: 44",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://nurse.org/news/uber-for-nursing-gig-apps-report/",
+    "linkHost": "nurse.org",
+    "pubDate": "2026-11-01T18:53:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
