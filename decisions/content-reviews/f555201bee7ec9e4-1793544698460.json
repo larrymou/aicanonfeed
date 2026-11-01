@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "f555201bee7ec9e4",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory [R]",
+  "summary": "I'm an undergraduate researcher working independently on conversational memory systems. I developed LSREP to evaluate how persistent memory accumulates, changes and retrieves information over the course of an evolving conversation. Instead of relying only on isolated endpoint que",
+  "pubDate": "2026-11-01T10:38:34.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post describing an independently developed evaluation protocol (LSREP) for conversational memory. Rule 2-1 requires a link to the original paper or official source, but the link points to the Reddit post itself; no paper, preprint, or benchmark release link is present.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm an undergraduate researcher working independently on conversational memory systems. I developed LSREP to evaluate how persistent memory accumulates, changes and retrieves information over the course of an evolving conversation. Instead of relying only on isolated endpoint que",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-01T10:38:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
