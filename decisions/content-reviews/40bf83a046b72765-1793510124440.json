@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "40bf83a046b72765",
+  "url": "https://www.techmeme.com/261031/p13#a261031p13",
+  "sourceName": "Techmeme",
+  "title": "The FBI attributes the $6B+ Binance hack to North Korea's TraderTraitor hacking group, which the agency also previously blamed for the ~$1.5B Bybit hack (Kevin Whitelaw/Bloomberg)",
+  "summary": "Kevin Whitelaw / Bloomberg: The FBI attributes the $6B+ Binance hack to North Korea's TraderTraitor hacking group, which the agency also previously blamed for the ~$1.5B Bybit hack — The FBI said that North Korea was responsible for stealing more than $6 billion in cryptocurrenci",
+  "pubDate": "2026-11-01T03:10:01.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns FBI attribution of the Binance crypto hack to North Korea's TraderTraitor group — a cybercrime/geopolitical enforcement story with no AI model, research, industry, AI policy, or OSS tooling content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kevin Whitelaw / Bloomberg: The FBI attributes the $6B+ Binance hack to North Korea's TraderTraitor hacking group, which the agency also previously blamed for the ~$1.5B Bybit hack — The FBI said that North Korea was responsible for stealing more than $6 billion in cryptocurrenci",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p13#a261031p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T03:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
