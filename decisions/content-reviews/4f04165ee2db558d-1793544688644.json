@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "4f04165ee2db558d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Data augmentation question. How do I characterise an original and augmented datasets where the augmentation parameters were zoom and crop? [P]",
+  "summary": "For context, I am a new postgraduate student in machine learning (but not a very good one). I have produced some augmented datasets (TIFF files where each file contains one object to be detected / classified) which I used in training deep learning models. I used fairly aggressive",
+  "pubDate": "2026-11-01T12:28:22.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit question asking for advice on characterizing augmented datasets; no paper, preprint, benchmark, model release, business event, policy action, or OSS tool announcement. No active rule covers a discussion/help request.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "For context, I am a new postgraduate student in machine learning (but not a very good one). I have produced some augmented datasets (TIFF files where each file contains one object to be detected / classified) which I used in training deep learning models. I used fairly aggressive",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-01T12:28:22.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
