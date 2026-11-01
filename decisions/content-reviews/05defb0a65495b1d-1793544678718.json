@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "05defb0a65495b1d",
+  "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Novellas with Groff",
+  "summary": "Article URL: https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html Comments URL: https://news.ycombinator.com/item?id=50325694 Points: 11 # Comments: 0",
+  "pubDate": "2026-11-01T13:51:41.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about typesetting novellas with Groff; no AI model release, research, industry, policy, or open-source AI tooling content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html Comments URL: https://news.ycombinator.com/item?id=50325694 Points: 11 # Comments: 0",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+    "linkHost": "movq.de",
+    "pubDate": "2026-11-01T13:51:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
