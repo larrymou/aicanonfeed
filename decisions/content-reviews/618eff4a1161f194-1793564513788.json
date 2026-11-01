@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "618eff4a1161f194",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I animated what GPT-4o's tokenizer does to \"strawberry\": real token ids, a tiny BPE run, and why the space belongs to the word (6 min video) [D]",
+  "summary": "I made this explainer for my small channel and would like feedback from people learning this, especially if anything is wrong. It follows one word the whole way: \"How many r's are in strawberry?\" is 8 tokens in o200k_base (the GPT-4o / GPT-5 tokenizer). \" strawberry\" is a single ",
+  "pubDate": "2026-11-01T18:01:28.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Community-made explainer video about GPT-4o's tokenizer on r/MachineLearning. No new model release, no research paper/benchmark, no industry business event, no policy action, no open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I made this explainer for my small channel and would like feedback from people learning this, especially if anything is wrong. It follows one word the whole way: \"How many r's are in strawberry?\" is 8 tokens in o200k_base (the GPT-4o / GPT-5 tokenizer). \" strawberry\" is a single ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-01T18:01:28.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
