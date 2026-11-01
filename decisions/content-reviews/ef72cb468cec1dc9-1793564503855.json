@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "ef72cb468cec1dc9",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+  "sourceName": "Hacker News Front Page",
+  "title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+  "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again Comments URL: https://news.ycombinator.com/item?id=50328462 Points: 10 # Comments: 2",
+  "pubDate": "2026-11-01T18:51:29.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is macroeconomic news about US jobs data and Federal Reserve rate policy; it contains no AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again Comments URL: https://news.ycombinator.com/item?id=50328462 Points: 10 # Comments: 2",
+    "summaryChars": 205,
+    "summarySource": "summary",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+    "linkHost": "www.bloomberg.com",
+    "pubDate": "2026-11-01T18:51:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
