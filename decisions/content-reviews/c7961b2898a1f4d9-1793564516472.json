@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "c7961b2898a1f4d9",
+  "url": "https://www.techmeme.com/261101/p11#a261101p11",
+  "sourceName": "Techmeme",
+  "title": "Binance says net outflows were $3.64B, or 2.1% of assets, in the 9.5 hours after it began restoring withdrawals; DefiLlama puts 24-hour net outflows at $4.05B (Zack Abrams/The Block)",
+  "summary": "Zack Abrams / The Block: Binance says net outflows were $3.64B, or 2.1% of assets, in the 9.5 hours after it began restoring withdrawals; DefiLlama puts 24-hour net outflows at $4.05B — The exchange said the outflows equal 2.1% of its assets and that withdrawal volumes have eased",
+  "pubDate": "2026-11-01T17:40:01.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Binance crypto exchange withdrawal outflows; not an AI model release, research, industry AI business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Zack Abrams / The Block: Binance says net outflows were $3.64B, or 2.1% of assets, in the 9.5 hours after it began restoring withdrawals; DefiLlama puts 24-hour net outflows at $4.05B — The exchange said the outflows equal 2.1% of its assets and that withdrawal volumes have eased",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p11#a261101p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T17:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
