@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "638e833a9285717f",
+  "url": "https://www.techmeme.com/261101/p6#a261101p6",
+  "sourceName": "Techmeme",
+  "title": "Lumaril, which develops AI software for optimizing industrial production by connecting to existing control systems, raised a $66M Series A at a $400M valuation (Sarah Klearman/Wall Street Journal)",
+  "summary": "Sarah Klearman / Wall Street Journal: Lumaril, which develops AI software for optimizing industrial production by connecting to existing control systems, raised a $66M Series A at a $400M valuation — The AI-for-manufacturers company has raised $66 million at a $400 million valuat",
+  "pubDate": "2026-11-01T06:35:00.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Klearman / Wall Street Journal: Lumaril, which develops AI software for optimizing industrial production by connecting to existing control systems, raised a $66M Series A at a $400M valuation — The AI-for-manufacturers company has raised $66 million at a $400 million valuat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p6#a261101p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T06:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
