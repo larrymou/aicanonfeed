@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "6a471854621f86ea",
+  "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+  "sourceName": "Hacker News Front Page",
+  "title": "It wasn't AI that flipped Proton's charge",
+  "summary": "Article URL: https://blog.raed.dev/posts/proton-loser-thinking/ Comments URL: https://news.ycombinator.com/item?id=50328488 Points: 21 # Comments: 2",
+  "pubDate": "2026-11-01T18:53:55.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion blog post about Proton's pricing/charge rationale; no named AI model release, research artifact, industry business event, policy action, or open-source tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.raed.dev/posts/proton-loser-thinking/ Comments URL: https://news.ycombinator.com/item?id=50328488 Points: 21 # Comments: 2",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://blog.raed.dev/posts/proton-loser-thinking/",
+    "linkHost": "blog.raed.dev",
+    "pubDate": "2026-11-01T18:53:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
