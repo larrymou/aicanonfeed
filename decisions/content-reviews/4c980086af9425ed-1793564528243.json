@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "4c980086af9425ed",
+  "url": "https://spectrum.ieee.org/ai-slop-trust-science",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Guarding the Gates of Knowledge",
+  "summary": "A recent scroll through social media got me thinking about trust. About half my feed was filled with AI slop that astute users would call out as being machine-generated, often to the embarrassment of the rube who unknowingly spread it and sometimes to the delight of the poster wh",
+  "pubDate": "2026-11-01T14:00:01.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay on AI slop and trust in science; no named model release, no research artifact (paper/preprint/benchmark), no business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A recent scroll through social media got me thinking about trust. About half my feed was filled with AI slop that astute users would call out as being machine-generated, often to the embarrassment of the rube who unknowingly spread it and sometimes to the delight of the poster wh",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-slop-trust-science",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-01T14:00:01.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
