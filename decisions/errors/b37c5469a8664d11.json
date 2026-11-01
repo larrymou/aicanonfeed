@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "b37c5469a8664d11",
+  "url": "https://www.techmeme.com/261101/p1#a261101p1",
+  "sourceName": "Techmeme",
+  "title": "Insurance software maker Guidewire agrees to acquire Hyperexponential, which makes AI-powered insurance underwriting and pricing software, for $1.7B in cash (Anzar Mehraj/Reuters)",
+  "summary": "Anzar Mehraj / Reuters: Insurance software maker Guidewire agrees to acquire Hyperexponential, which makes AI-powered insurance underwriting and pricing software, for $1.7B in cash — Insurance software maker Guidewire (GWRE.N) said on Tuesday it would buy hyperexponential for $1.",
+  "pubDate": "2026-11-01T04:50:00.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anzar Mehraj / Reuters: Insurance software maker Guidewire agrees to acquire Hyperexponential, which makes AI-powered insurance underwriting and pricing software, for $1.7B in cash — Insurance software maker Guidewire (GWRE.N) said on Tuesday it would buy hyperexponential for $1.",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p1#a261101p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T04:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
