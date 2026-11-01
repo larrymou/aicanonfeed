@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "3ba4121ae6224ed0",
+  "url": "https://www.techmeme.com/261101/p10#a261101p10",
+  "sourceName": "Techmeme",
+  "title": "Google's data center energy head says space data centers cost up to 100x more than Earth-based ones, and US power supply is sufficient but permits are slow (Amir Efrati/The Information)",
+  "summary": "Amir Efrati / The Information: Google's data center energy head says space data centers cost up to 100x more than Earth-based ones, and US power supply is sufficient but permits are slow — Data centers in space could cost up to 100 times as much as those on Earth, Google's head o",
+  "pubDate": "2026-11-01T17:05:00.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Executive commentary on the cost of space data centers and slow permitting; not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amir Efrati / The Information: Google's data center energy head says space data centers cost up to 100x more than Earth-based ones, and US power supply is sufficient but permits are slow — Data centers in space could cost up to 100 times as much as those on Earth, Google's head o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p10#a261101p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T17:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
