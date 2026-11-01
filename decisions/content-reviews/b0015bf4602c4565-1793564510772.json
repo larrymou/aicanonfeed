@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "b0015bf4602c4565",
+  "url": "https://www.techmeme.com/261101/p12#a261101p12",
+  "sourceName": "Techmeme",
+  "title": "A look at VC-backed glossy magazine Colossus, whose glowing profiles of Zuckerberg and other tech titans win industry praise, while Kara Swisher says it is PR (Andrew Fedorov/The San Francisco Standard)",
+  "summary": "Andrew Fedorov / The San Francisco Standard: A look at VC-backed glossy magazine Colossus, whose glowing profiles of Zuckerberg and other tech titans win industry praise, while Kara Swisher says it is PR — Inside tech's corner offices, there's no love left for the news media. “I ",
+  "pubDate": "2026-11-01T18:15:01.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media commentary about a VC-backed magazine's profiles of tech executives. It reports no model release, research artifact, business event (financing/M&A/partnership/revenue), policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew Fedorov / The San Francisco Standard: A look at VC-backed glossy magazine Colossus, whose glowing profiles of Zuckerberg and other tech titans win industry praise, while Kara Swisher says it is PR — Inside tech's corner offices, there's no love left for the news media. “I ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p12#a261101p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T18:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
