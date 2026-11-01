@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "2692a3d46c0b6915",
+  "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+  "summary": "Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/ Comments URL: https://news.ycombinator.com/item?id=50326099 Points: 3 # Comments: 0",
+  "pubDate": "2026-11-01T14:34:43.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Consumer hardware teardown (Lenovo fingerprint USB / SD card). No AI model release, research, industry business event, policy action, or open-source AI tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/ Comments URL: https://news.ycombinator.com/item?id=50326099 Points: 3 # Comments: 0",
+    "summaryChars": 198,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-01T14:34:43.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
