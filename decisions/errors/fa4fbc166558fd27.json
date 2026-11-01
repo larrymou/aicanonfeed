@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793564479818-t8j5fn",
+  "urlHash": "fa4fbc166558fd27",
+  "url": "https://www.techmeme.com/261101/p14#a261101p14",
+  "sourceName": "Techmeme",
+  "title": "ServiceNow confirms it acquired Israeli startup Sweep to speed up customers' migrations to its CRM, for an undisclosed price estimated at hundreds of millions (Allon Sinai/CTech)",
+  "summary": "Allon Sinai / CTech: ServiceNow confirms it acquired Israeli startup Sweep to speed up customers' migrations to its CRM, for an undisclosed price estimated at hundreds of millions — Bill McDermott said rollouts now take “a month ... 30 days, 60 days” for large companies, as Servi",
+  "pubDate": "2026-11-01T19:50:00.000Z",
+  "decidedAt": "2026-11-01T20:21:30.003Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Allon Sinai / CTech: ServiceNow confirms it acquired Israeli startup Sweep to speed up customers' migrations to its CRM, for an undisclosed price estimated at hundreds of millions — Bill McDermott said rollouts now take “a month ... 30 days, 60 days” for large companies, as Servi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p14#a261101p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T19:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
