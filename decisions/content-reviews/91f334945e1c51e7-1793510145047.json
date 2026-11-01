@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "91f334945e1c51e7",
+  "url": "https://www.techmeme.com/261031/p12#a261031p12",
+  "sourceName": "Techmeme",
+  "title": "Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% (Washington Post)",
+  "summary": "Washington Post: Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% — Frustrated with hunting for information on political candidates, Ben Torres Ezrick set out to build ",
+  "pubDate": "2026-11-01T00:00:14.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Washington Post test report on chatbots citing obscure AI-built voter sites. No named model release, no research artifact, no financing/M&A/partnership, no policy or government action, and no open-source tooling announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Washington Post: Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% — Frustrated with hunting for information on political candidates, Ben Torres Ezrick set out to build ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261031/p12#a261031p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T00:00:14.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
