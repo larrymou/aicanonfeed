@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "6e57dee758dbd144",
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+  "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy Comments URL: https://news.ycombinator.com/item?id=50325662 Points",
+  "pubDate": "2026-11-01T13:47:24.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report on a Minecraft AI-agent swarm experiment. No named model release (1-1), no link to an original paper or official research source (2-1), no business event (3-1), no policy action (4-1), no OSS tool release (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy Comments URL: https://news.ycombinator.com/item?id=50325662 Points",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+    "linkHost": "www.tomshardware.com",
+    "pubDate": "2026-11-01T13:47:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
