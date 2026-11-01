@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "537ca9b5c977ee0f",
+  "url": "https://www.techmeme.com/261101/p8#a261101p8",
+  "sourceName": "Techmeme",
+  "title": "Solve: the cost of insuring against debt defaults at hyperscalers Amazon, Alphabet, Microsoft, Meta, and Oracle has hit its highest level since 2021 (Gunjan Banerji/Wall Street Journal)",
+  "summary": "Gunjan Banerji / Wall Street Journal: Solve: the cost of insuring against debt defaults at hyperscalers Amazon, Alphabet, Microsoft, Meta, and Oracle has hit its highest level since 2021 — With trillions riding on the artificial-intelligence trade, investors, traders and tech exe",
+  "pubDate": "2026-11-01T11:00:01.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Credit-default-insurance pricing commentary on hyperscalers is financial market commentary, not a model release, research artifact, AI business event (financing/M&A/partnership/revenue/product launch), policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gunjan Banerji / Wall Street Journal: Solve: the cost of insuring against debt defaults at hyperscalers Amazon, Alphabet, Microsoft, Meta, and Oracle has hit its highest level since 2021 — With trillions riding on the artificial-intelligence trade, investors, traders and tech exe",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p8#a261101p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T11:00:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
