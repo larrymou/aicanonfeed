@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "d4dbcc4fb9b44207",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Are there fundamental repeating patterns in ML techniques across modalities (text, image, audio) that let us group them? [R]",
+  "summary": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc. Is there an existing taxonomy or mental model that groups M",
+  "pubDate": "2026-11-01T00:07:04.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion question asking whether a taxonomy of ML techniques exists; no paper, preprint, benchmark, product, deal, policy action, or OSS release linked. No rule covers commentary/question posts without a research artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc. Is there an existing taxonomy or mental model that groups M",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-01T00:07:04.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
