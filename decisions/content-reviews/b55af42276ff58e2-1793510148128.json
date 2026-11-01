@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "b55af42276ff58e2",
+  "url": "https://emarzion.github.io/KSRT/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
+  "summary": "Article URL: https://emarzion.github.io/KSRT/ Comments URL: https://news.ycombinator.com/item?id=50321436 Points: 14 # Comments: 1",
+  "pubDate": "2026-10-31T23:55:21.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a blog article explaining a quine construction via Kleene's Second Recursion Theorem; no AI model release, research paper/preprint/benchmark, industry business event, policy action, or OSS tool release is announced. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://emarzion.github.io/KSRT/ Comments URL: https://news.ycombinator.com/item?id=50321436 Points: 14 # Comments: 1",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://emarzion.github.io/KSRT/",
+    "linkHost": "emarzion.github.io",
+    "pubDate": "2026-10-31T23:55:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
