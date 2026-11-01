@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "6d1f79546fa5a2ec",
+  "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+  "summary": "Hi HN, I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor. Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Ardui",
+  "pubDate": "2026-11-01T00:10:30.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for a virtual breadboard simulator of Ben Eater's 8-bit computer; it is not an AI model, research, industry event, policy action, or AI/OSS developer tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi HN, I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor. Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Ardui",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+    "linkHost": "bbrouter.com",
+    "pubDate": "2026-11-01T00:10:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
