@@ -1,18 +1,23 @@
 {
-  "runId": "run-1793488308864-muqjz0",
+  "runId": "run-1793510065451-3iiyau",
   "urlHash": "f9b3653194a263cc",
   "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
   "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the",
   "pubDate": "2026-10-30T21:40:03.000Z",
-  "decidedAt": "2026-10-31T23:11:57.139Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "AWS how-to/tutorial post about a proprietary AgentCore runtime session feature. Not a named model release (R1-1), not a research artifact (R2-1), not a business/deal event (R3-1), not policy (R4-1), and R5-1 excludes proprietary product features.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the",
