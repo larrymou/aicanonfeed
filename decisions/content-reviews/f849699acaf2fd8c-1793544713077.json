@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "f849699acaf2fd8c",
+  "url": "https://www.techmeme.com/261101/p5#a261101p5",
+  "sourceName": "Techmeme",
+  "title": "Binance has started resuming withdrawals in phases, including for BTC and ETH, after covering 95% of the $6.3B in tokens stolen in the hack by TraderTraitor (Reuters)",
+  "summary": "Reuters: Binance has started resuming withdrawals in phases, including for BTC and ETH, after covering 95% of the $6.3B in tokens stolen in the hack by TraderTraitor — Binance, the world's biggest cryptocurrency exchange, said it would resume withdrawals in phases after covering ",
+  "pubDate": "2026-11-01T06:30:02.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Crypto exchange operational news (Binance resuming withdrawals after a hack) with no AI model, research, industry-AI business event, policy, or open-source tooling angle. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Binance has started resuming withdrawals in phases, including for BTC and ETH, after covering 95% of the $6.3B in tokens stolen in the hack by TraderTraitor — Binance, the world's biggest cryptocurrency exchange, said it would resume withdrawals in phases after covering ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p5#a261101p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T06:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
