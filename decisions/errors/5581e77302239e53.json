@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793544663371-luszed",
+  "urlHash": "5581e77302239e53",
+  "url": "https://www.techmeme.com/261101/p3#a261101p3",
+  "sourceName": "Techmeme",
+  "title": "Enterprise voice AI tools provider Deepgram acquires Daily, which has raised $62M+ and develops open-source voice AI framework Pipecat, for an undisclosed sum (Ivan Mehta/TechCrunch)",
+  "summary": "Ivan Mehta / TechCrunch: Enterprise voice AI tools provider Deepgram acquires Daily, which has raised $62M+ and develops open-source voice AI framework Pipecat, for an undisclosed sum — The voice AI sector is hot, and top players are trying to consolidate their position as more b",
+  "pubDate": "2026-11-01T06:15:00.000Z",
+  "decidedAt": "2026-11-01T14:51:14.009Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ivan Mehta / TechCrunch: Enterprise voice AI tools provider Deepgram acquires Daily, which has raised $62M+ and develops open-source voice AI framework Pipecat, for an undisclosed sum — The voice AI sector is hot, and top players are trying to consolidate their position as more b",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p3#a261101p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T06:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
