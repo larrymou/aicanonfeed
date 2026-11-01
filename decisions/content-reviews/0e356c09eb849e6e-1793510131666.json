@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "0e356c09eb849e6e",
+  "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+  "summary": "Article URL: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/ Comments URL: https://news.ycombinator.com/item?id=50322173 Points: 37 # Comments: 16",
+  "pubDate": "2026-11-01T02:19:53.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Judicial sanction over prompt injection could fall under policy/government action, but the only link is a security vendor's insights blog (jetstream.security), not an official court document or identifiable reputable media report; publication date/author of the linked page not observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/ Comments URL: https://news.ycombinator.com/item?id=50322173 Points: 37 # Comments: 16",
+    "summaryChars": 185,
+    "summarySource": "summary",
+    "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+    "linkHost": "jetstream.security",
+    "pubDate": "2026-11-01T02:19:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
