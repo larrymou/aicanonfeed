@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793510065451-3iiyau",
+  "urlHash": "55abe52dfc3f538c",
+  "url": "https://www.techmeme.com/261101/p2#a261101p2",
+  "sourceName": "Techmeme",
+  "title": "DeepSeek open sources Super-Agent as a research prototype, a proactive coding agent it says can monitor group chats for coding issues and suggest solutions (Debby Wu/Bloomberg)",
+  "summary": "Debby Wu / Bloomberg: DeepSeek open sources Super-Agent as a research prototype, a proactive coding agent it says can monitor group chats for coding issues and suggest solutions — DeepSeek has released a prototype of a more autonomous coding agent as it seeks to challenge Anthrop",
+  "pubDate": "2026-11-01T05:00:13.000Z",
+  "decidedAt": "2026-11-01T05:14:58.950Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes DeepSeek open-sourcing an agent prototype, i.e. open-source tooling, which rule 5-1 requires linking to the repository or an official announcement; the only link is a Techmeme aggregator permalink, not the repo or DeepSeek's own site. It is not established as a named model/version/cap",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Debby Wu / Bloomberg: DeepSeek open sources Super-Agent as a research prototype, a proactive coding agent it says can monitor group chats for coding issues and suggest solutions — DeepSeek has released a prototype of a more autonomous coding agent as it seeks to challenge Anthrop",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p2#a261101p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-01T05:00:13.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
