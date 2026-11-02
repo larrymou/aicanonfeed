@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "6d2c8c83b5f4733b",
+  "url": "https://trigger.dev/blog/security-incident-nov-2026",
+  "sourceName": "Hacker News Front Page",
+  "title": "Trigger.dev customer environment variables exposed",
+  "summary": "Article URL: https://trigger.dev/blog/security-incident-nov-2026 Comments URL: https://news.ycombinator.com/item?id=50331784 Points: 38 # Comments: 8",
+  "pubDate": "2026-11-02T01:09:16.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security incident report about exposed customer environment variables; not a model release, research result, industry business event, policy action, or new open-source tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://trigger.dev/blog/security-incident-nov-2026 Comments URL: https://news.ycombinator.com/item?id=50331784 Points: 38 # Comments: 8",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://trigger.dev/blog/security-incident-nov-2026",
+    "linkHost": "trigger.dev",
+    "pubDate": "2026-11-02T01:09:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
