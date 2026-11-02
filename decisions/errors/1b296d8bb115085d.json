@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "1b296d8bb115085d",
+  "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Speeding up planning decisions with AI",
+  "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+  "pubDate": "2026-10-30T14:18:30.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-10-30T14:18:30.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
