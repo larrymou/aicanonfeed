@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "efae5a1bed82e881",
+  "url": "https://www.techmeme.com/261101/p26#a261101p26",
+  "sourceName": "Techmeme",
+  "title": "South Korean President Lee Jae Myung vows $15.97B for AI, chips, physical AI, and data centers in the country's 2027 budget, nearly twice the 2026 amount (Reuters)",
+  "summary": "Reuters: South Korean President Lee Jae Myung vows $15.97B for AI, chips, physical AI, and data centers in the country's 2027 budget, nearly twice the 2026 amount — South Korean President Lee Jae Myung vowed on Monday to make bold investments in artificial intelligence to boost …",
+  "pubDate": "2026-11-02T04:05:02.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: South Korean President Lee Jae Myung vows $15.97B for AI, chips, physical AI, and data centers in the country's 2027 budget, nearly twice the 2026 amount — South Korean President Lee Jae Myung vowed on Monday to make bold investments in artificial intelligence to boost …",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p26#a261101p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T04:05:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
