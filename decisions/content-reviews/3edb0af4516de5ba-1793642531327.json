@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "3edb0af4516de5ba",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xm3im8/operators_day_10_founders_hiring_for_founding_ml/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Operators Day : 10 founders hiring for founding ML roles - Nov 5 [n]",
+  "summary": "Hi all! I'm part of the EWOR team and we're organising Operators Day this Thursday, November 5 (4:30 PM CET / 9 PM IST), online on Zoom. Ten founders will be pitching live, sharing what they're building and the founding roles they're hiring for - AI/ML engineers, robotics enginee",
+  "pubDate": "2026-11-02T17:28:16.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a recruitment/hiring event announcement (founders pitching and hiring founding ML/robotics engineers). No rule covers hiring or community events: not a model release, research artifact, industry business event, policy action, or OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi all! I'm part of the EWOR team and we're organising Operators Day this Thursday, November 5 (4:30 PM CET / 9 PM IST), online on Zoom. Ten founders will be pitching live, sharing what they're building and the founding roles they're hiring for - AI/ML engineers, robotics enginee",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xm3im8/operators_day_10_founders_hiring_for_founding_ml/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-02T17:28:16.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
