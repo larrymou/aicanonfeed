@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "548ce6d9cdd215fb",
+  "url": "https://www.techmeme.com/261102/p29#a261102p29",
+  "sourceName": "Techmeme",
+  "title": "Amended S-1: Anthropic says it has purchase commitments and lease agreements of $895.4B, \"substantially all of which is related to compute and infrastructure\" (Ashley Capoot/CNBC)",
+  "summary": "Ashley Capoot / CNBC: Amended S-1: Anthropic says it has purchase commitments and lease agreements of $895.4B, “substantially all of which is related to compute and infrastructure” — Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities a",
+  "pubDate": "2026-11-02T16:35:00.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ashley Capoot / CNBC: Amended S-1: Anthropic says it has purchase commitments and lease agreements of $895.4B, “substantially all of which is related to compute and infrastructure” — Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p29#a261102p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T16:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
