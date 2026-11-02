@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "2cd12684f776cbea",
+  "url": "https://www.techmeme.com/261101/p27#a261101p27",
+  "sourceName": "Techmeme",
+  "title": "Casap, whose AI tools automate dispute and anti-fraud operations for banks, raised a $56M Series B led by Base10 Partners, bringing its total funding to $90M (Jeff John Roberts/Fortune)",
+  "summary": "Jeff John Roberts / Fortune: Casap, whose AI tools automate dispute and anti-fraud operations for banks, raised a $56M Series B led by Base10 Partners, bringing its total funding to $90M — Credit card fraud is hardly new, but the nature of that fraud is undergoing a major shift. ",
+  "pubDate": "2026-11-02T04:35:01.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jeff John Roberts / Fortune: Casap, whose AI tools automate dispute and anti-fraud operations for banks, raised a $56M Series B led by Base10 Partners, bringing its total funding to $90M — Credit card fraud is hardly new, but the nature of that fraud is undergoing a major shift. ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p27#a261101p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T04:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
