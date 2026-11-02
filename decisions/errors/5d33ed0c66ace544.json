@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "5d33ed0c66ace544",
+  "url": "https://openai.com/index/grid-protectors-program",
+  "sourceName": "OpenAI Blog",
+  "title": "Introducing the Grid Protectors Program",
+  "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+  "pubDate": "2026-11-02T15:00:00.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/grid-protectors-program",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-02T15:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
