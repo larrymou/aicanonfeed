@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "04b53ddcd6fc2d6a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xlzumq/any_update_with_the_accomodation_from_neurips_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Any update with the accomodation from NeurIPS [D]",
+  "summary": "Hi! For people who have recieved the financial grant, is there any update regarding the accomodation from the organizers? Edit; Asking for Sydney submitted by /u/Fantastic-Nerve-4056 [link] [comments]",
+  "pubDate": "2026-11-02T15:14:30.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread asking about NeurIPS grant accommodation logistics; no model release, research artifact, industry business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi! For people who have recieved the financial grant, is there any update regarding the accomodation from the organizers? Edit; Asking for Sydney submitted by /u/Fantastic-Nerve-4056 [link] [comments]",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xlzumq/any_update_with_the_accomodation_from_neurips_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-02T15:14:30.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
