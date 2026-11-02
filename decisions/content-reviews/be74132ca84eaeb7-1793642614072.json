@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "be74132ca84eaeb7",
+  "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+  "sourceName": "Wired AI",
+  "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
+  "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
+  "pubDate": "2026-11-02T12:00:00.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Advice/commentary piece on when to use AI web search; no named model release, no research artifact, no business/policy event, and no open-source tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-02T12:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
