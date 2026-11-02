@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "d0a26d10cc567ac9",
+  "url": "https://www.techmeme.com/261102/p31#a261102p31",
+  "sourceName": "Techmeme",
+  "title": "Anthropic confirms new Claude Code limits \"to steer it away from recreating someone else's specific game\", saying IP infringement violates its usage policy (Bruno Ferreira/Tom's Hardware)",
+  "summary": "Bruno Ferreira / Tom's Hardware: Anthropic confirms new Claude Code limits “to steer it away from recreating someone else's specific game”, saying IP infringement violates its usage policy — Meanwhile, we now have direct reports of reverse engineering efforts being blocked, while",
+  "pubDate": "2026-11-02T17:05:05.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Anthropic's change to Claude Code usage limits is a product usage-policy tweak, not a named model/major-version/capability release (R1), nor AI research (R2), business event (R3), or government policy action (R4). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bruno Ferreira / Tom's Hardware: Anthropic confirms new Claude Code limits “to steer it away from recreating someone else's specific game”, saying IP infringement violates its usage policy — Meanwhile, we now have direct reports of reverse engineering efforts being blocked, while",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p31#a261102p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T17:05:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
