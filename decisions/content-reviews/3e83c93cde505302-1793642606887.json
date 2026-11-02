@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "3e83c93cde505302",
+  "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+  "sourceName": "TechCrunch AI",
+  "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+  "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+  "pubDate": "2026-11-02T14:00:00.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Event promotion for TechCrunch Founder Summit; no AI model release, research artifact, industry business event, policy action, or open-source tooling announced.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-02T14:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
