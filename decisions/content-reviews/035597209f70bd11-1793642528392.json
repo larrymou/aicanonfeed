@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "035597209f70bd11",
+  "url": "https://www.techmeme.com/261102/p32#a261102p32",
+  "sourceName": "Techmeme",
+  "title": "DeepSeek releases a \"creator mode\" that allows users of DeepSeek Harness to create custom plugins, like a 3D model renderer and a video editing workbench (Debby Wu/Bloomberg)",
+  "summary": "Debby Wu / Bloomberg: DeepSeek releases a “creator mode” that allows users of DeepSeek Harness to create custom plugins, like a 3D model renderer and a video editing workbench — DeepSeek has unveiled a new option to quickly create custom plugins that help users to tackle a range ",
+  "pubDate": "2026-11-02T17:40:03.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Creator mode is a product/UI feature for DeepSeek Harness, not a named model or major version release (R1), not research (R2), not financing/M&A/partnership (R3), not policy (R4), and not an open-source tool/framework release (R5). Link is a Techmeme aggregator, not an official owner page or full au",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Debby Wu / Bloomberg: DeepSeek releases a “creator mode” that allows users of DeepSeek Harness to create custom plugins, like a 3D model renderer and a video editing workbench — DeepSeek has unveiled a new option to quickly create custom plugins that help users to tackle a range ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p32#a261102p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T17:40:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
