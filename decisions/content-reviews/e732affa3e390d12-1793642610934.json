@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "e732affa3e390d12",
+  "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+  "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+  "pubDate": "2026-11-02T13:57:53.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Merging ChatGPT's Chat and Work tabs is a UI/product feature change, not a named model release, capability launch, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool. Rule 1-1 explicitly excludes UI updates; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+    "summaryChars": 99,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-02T13:57:53.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
