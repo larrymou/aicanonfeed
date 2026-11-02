@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "f2269a052f0bd4da",
+  "url": "https://subvocal.company/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Subvocal – Talk to your computer without making noise",
+  "summary": "Hi HN, we're Aarush and Arnav from The Subvocal Company (YC F26). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech. Here's a video of Da",
+  "pubDate": "2026-11-02T17:16:17.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN launch of silent-speech smart glasses from a startup; no named AI model, no research artifact, no policy action, no open-source tool. Content does not establish an AI product, so no rule condition is met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi HN, we're Aarush and Arnav from The Subvocal Company (YC F26). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech. Here's a video of Da",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://subvocal.company/",
+    "linkHost": "subvocal.company",
+    "pubDate": "2026-11-02T17:16:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
