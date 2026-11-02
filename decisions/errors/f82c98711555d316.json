@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "f82c98711555d316",
+  "url": "https://www.techmeme.com/261102/p30#a261102p30",
+  "sourceName": "Techmeme",
+  "title": "Israeli startup 42AI, which is developing a \"behavioral world model\" that tries to predict human behavior, emerges from stealth with a $62.5M seed (Ram Iyer/TechCrunch)",
+  "summary": "Ram Iyer / TechCrunch: Israeli startup 42AI, which is developing a “behavioral world model” that tries to predict human behavior, emerges from stealth with a $62.5M seed — Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you deci",
+  "pubDate": "2026-11-02T16:45:05.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ram Iyer / TechCrunch: Israeli startup 42AI, which is developing a “behavioral world model” that tries to predict human behavior, emerges from stealth with a $62.5M seed — Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you deci",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p30#a261102p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T16:45:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
