@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "760da671570f2583",
+  "url": "https://bitmovin.com/careers/8660599002/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Bitmovin (YC S15) Is Hiring Technical Graduates in Denver (Engineering/CS Focus)",
+  "summary": "Article URL: https://bitmovin.com/careers/8660599002/ Comments URL: https://news.ycombinator.com/item?id=50339827 Points: 0 # Comments: 0",
+  "pubDate": "2026-11-02T17:00:41.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a hiring/job posting (Bitmovin careers page for technical graduates), not a model release, research result, industry business event, policy action, or open-source tool release. No rule covers hiring announcements.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://bitmovin.com/careers/8660599002/ Comments URL: https://news.ycombinator.com/item?id=50339827 Points: 0 # Comments: 0",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://bitmovin.com/careers/8660599002/",
+    "linkHost": "bitmovin.com",
+    "pubDate": "2026-11-02T17:00:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
