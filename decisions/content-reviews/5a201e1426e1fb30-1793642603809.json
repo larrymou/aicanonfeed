@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "5a201e1426e1fb30",
+  "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+  "sourceName": "TechCrunch AI",
+  "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+  "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+  "pubDate": "2026-11-02T15:00:00.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports a $16 million M&A deal in which Omen AI acquires Aquatic Labs, an AI industry business event covered by a reputable media report with a publication date.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+    "summaryChars": 93,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-02T15:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
