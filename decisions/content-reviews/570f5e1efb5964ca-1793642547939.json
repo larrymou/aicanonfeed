@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793642497414-smaytv",
+  "urlHash": "570f5e1efb5964ca",
+  "url": "https://momentic.ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+  "summary": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs. Here’s a demo: https://youtu.be/BFsM-Se1Fh8 We’re both software engineers tha",
+  "pubDate": "2026-11-02T17:05:25.000Z",
+  "decidedAt": "2026-11-02T18:01:51.301Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Launch HN announcing a non-model AI product: Momentic's QA agents that autonomously test app flows. Item links directly to the company's own site (momentic.ai) as the launch announcement, fitting the non-model product launch clause of the industry rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs. Here’s a demo: https://youtu.be/BFsM-Se1Fh8 We’re both software engineers tha",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://momentic.ai/",
+    "linkHost": "momentic.ai",
+    "pubDate": "2026-11-02T17:05:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
