@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "cd02d1c1e00acde5",
+  "url": "https://occupysaas.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "OccupySaaS",
+  "summary": "Article URL: https://occupysaas.com/ Comments URL: https://news.ycombinator.com/item?id=50331402 Points: 144 # Comments: 100",
+  "pubDate": "2026-11-02T00:17:27.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'OccupySaaS' with only generic HN metadata; nothing indicates a named AI model release, AI research artifact, AI business event, policy action, or open-source AI tool. No rule conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://occupysaas.com/ Comments URL: https://news.ycombinator.com/item?id=50331402 Points: 144 # Comments: 100",
+    "summaryChars": 124,
+    "summarySource": "summary",
+    "link": "https://occupysaas.com/",
+    "linkHost": "occupysaas.com",
+    "pubDate": "2026-11-02T00:17:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
