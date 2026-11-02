@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "6ee5567711f3fa2f",
+  "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+  "sourceName": "Hacker News Front Page",
+  "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+  "summary": "Article URL: https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/ Comments URL: https://news.ycombinator.com/item?id=50332163 Points: 51 # Comments: 3",
+  "pubDate": "2026-11-02T01:59:38.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a comic explaining BSD Unix history; it reports no AI model release, research result, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/ Comments URL: https://news.ycombinator.com/item?id=50332163 Points: 51 # Comments: 3",
+    "summaryChars": 195,
+    "summarySource": "summary",
+    "link": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+    "linkHost": "fosscomics.com",
+    "pubDate": "2026-11-02T01:59:38.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
