@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "4fb3f6cb896d1986",
+  "url": "https://www.techmeme.com/261101/p25#a261101p25",
+  "sourceName": "Techmeme",
+  "title": "AI-powered medical search engine Vera Health, which says it is used by 800,000+ clinicians in 190 countries, raised a $28.5M Series A led by Threshold Ventures (Cailey Gleeson/Fierce Healthcare)",
+  "summary": "Cailey Gleeson / Fierce Healthcare: AI-powered medical search engine Vera Health, which says it is used by 800,000+ clinicians in 190 countries, raised a $28.5M Series A led by Threshold Ventures — Artificial Intelligence funding round series A venture capital (VC) — Clinical art",
+  "pubDate": "2026-11-02T03:35:01.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cailey Gleeson / Fierce Healthcare: AI-powered medical search engine Vera Health, which says it is used by 800,000+ clinicians in 190 countries, raised a $28.5M Series A led by Threshold Ventures — Artificial Intelligence funding round series A venture capital (VC) — Clinical art",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261101/p25#a261101p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T03:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
