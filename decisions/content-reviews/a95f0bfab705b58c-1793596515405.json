@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "a95f0bfab705b58c",
+  "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+  "summary": "Article URL: https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture Comments URL: https://news.ycombinator.com/item?id=50332086 Points: 49 # Comments: 22",
+  "pubDate": "2026-11-02T01:47:07.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Eurogamer commentary piece on error-ridden AI fan wikis in games culture. Not a model release, research paper/benchmark, industry business event, policy action, or open-source tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture Comments URL: https://news.ycombinator.com/item?id=50332086 Points: 49 # Comments: 22",
+    "summaryChars": 171,
+    "summarySource": "summary",
+    "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+    "linkHost": "www.eurogamer.net",
+    "pubDate": "2026-11-02T01:47:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
