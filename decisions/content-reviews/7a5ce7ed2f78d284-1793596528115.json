@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793596454041-smy6am",
+  "urlHash": "7a5ce7ed2f78d284",
+  "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+  "sourceName": "TechCrunch AI",
+  "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+  "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+  "pubDate": "2026-11-01T20:57:58.000Z",
+  "decidedAt": "2026-11-02T05:14:45.662Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/podcast discussion about tech CEO statements on AI; no named model release, research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+    "summaryChars": 68,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-01T20:57:58.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
