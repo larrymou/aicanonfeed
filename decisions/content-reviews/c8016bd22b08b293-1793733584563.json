@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "c8016bd22b08b293",
+  "url": "https://www.techmeme.com/261103/p22#a261103p22",
+  "sourceName": "Techmeme",
+  "title": "Microsoft updates Windows 11 to make PCs with 8GB of RAM up to 20% more responsive and multitasking up to 40% faster in lab tests, utilizing memory compression (Lance Whitney/ZDNET)",
+  "summary": "Lance Whitney / ZDNET: Microsoft updates Windows 11 to make PCs with 8GB of RAM up to 20% more responsive and multitasking up to 40% faster in lab tests, utilizing memory compression — The latest updates to Windows 11 offer improvements in speed, performance, and memory managemen",
+  "pubDate": "2026-11-03T17:20:01.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Windows 11 performance/memory-compression update is a proprietary OS feature tweak, not an AI model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tooling. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lance Whitney / ZDNET: Microsoft updates Windows 11 to make PCs with 8GB of RAM up to 20% more responsive and multitasking up to 40% faster in lab tests, utilizing memory compression — The latest updates to Windows 11 offer improvements in speed, performance, and memory managemen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p22#a261103p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T17:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
