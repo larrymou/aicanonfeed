@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "599a5ec938d2a987",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+  "sourceName": "r/MachineLearning new",
+  "title": "We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]",
+  "summary": "We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The researc",
+  "pubDate": "2026-11-03T05:09:18.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post describing a topic-indexed corpus of ML papers. No original research artifact (rule 2-1), no business event (3-1), no policy action (4-1). For tools-oss (5-1) the only link is a reddit.com discussion post, not a repository or official project announcement, so the required link condition ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The researc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-03T05:09:18.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
