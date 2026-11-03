@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "ddc6898918aeabc1",
+  "url": "https://posthog.com/blog/comparison-content-guide",
+  "sourceName": "Hacker News Front Page",
+  "title": "How to write comparison content that doesn't age like milk",
+  "summary": "Article URL: https://posthog.com/blog/comparison-content-guide Comments URL: https://news.ycombinator.com/item?id=50355365 Points: 12 # Comments: 3",
+  "pubDate": "2026-11-03T17:46:58.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a content-marketing advice post about writing comparison articles; it announces no AI model, research result, industry business event, policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://posthog.com/blog/comparison-content-guide Comments URL: https://news.ycombinator.com/item?id=50355365 Points: 12 # Comments: 3",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://posthog.com/blog/comparison-content-guide",
+    "linkHost": "posthog.com",
+    "pubDate": "2026-11-03T17:46:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
