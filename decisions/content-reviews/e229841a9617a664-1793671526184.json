@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "e229841a9617a664",
+  "url": "https://www.techmeme.com/261102/p46#a261102p46",
+  "sourceName": "Techmeme",
+  "title": "Match Group reports Q3 revenue fell 3% YoY to $891M, below estimates, and total paying users fell 5% to 13.8M; Q4 forecast has adjusted EBITDA below estimates (Samantha Kelly/Bloomberg)",
+  "summary": "Samantha Kelly / Bloomberg: Match Group reports Q3 revenue fell 3% YoY to $891M, below estimates, and total paying users fell 5% to 13.8M; Q4 forecast has adjusted EBITDA below estimates — Match Group Inc. disappointed investors after posting weaker-than-expected quarterly revenu",
+  "pubDate": "2026-11-03T00:45:01.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Match Group Q3 earnings/revenue miss is a general consumer-internet business report with no AI model, research, policy, or AI tooling content; it is not an AI industry business event, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Samantha Kelly / Bloomberg: Match Group reports Q3 revenue fell 3% YoY to $891M, below estimates, and total paying users fell 5% to 13.8M; Q4 forecast has adjusted EBITDA below estimates — Match Group Inc. disappointed investors after posting weaker-than-expected quarterly revenu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p46#a261102p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T00:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
