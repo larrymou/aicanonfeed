@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "277870ffc8d71544",
+  "url": "https://openai.com/index/scaling-git-at-openai",
+  "sourceName": "OpenAI Blog",
+  "title": "Scaling Git at OpenAI",
+  "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+  "pubDate": "2026-11-02T15:30:00.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Engineering blog about an internal Git-compatible backend (Pando). No named model release, no research artifact, no business event, no policy action, and no open-source tool/framework launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+    "summaryChars": 113,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/scaling-git-at-openai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-02T15:30:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
