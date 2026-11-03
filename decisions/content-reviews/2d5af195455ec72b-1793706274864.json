@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "2d5af195455ec72b",
+  "url": "https://www.techmeme.com/261103/p10#a261103p10",
+  "sourceName": "Techmeme",
+  "title": "Chainalysis and Elliptic expect North Korean hackers to take months to launder the Binance proceeds, utilizing scripted automation and DeFi lending protocols (Financial Times)",
+  "summary": "Financial Times: Chainalysis and Elliptic expect North Korean hackers to take months to launder the Binance proceeds, utilizing scripted automation and DeFi lending protocols — North Korean hackers are expected to take months to launder the billions of dollars of tokens they stol",
+  "pubDate": "2026-11-03T11:40:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns North Korean hackers laundering stolen crypto via DeFi; it is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Chainalysis and Elliptic expect North Korean hackers to take months to launder the Binance proceeds, utilizing scripted automation and DeFi lending protocols — North Korean hackers are expected to take months to launder the billions of dollars of tokens they stol",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p10#a261103p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T11:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
