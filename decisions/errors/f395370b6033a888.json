@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "f395370b6033a888",
+  "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google will let schools skip AI tools, but they have to give up search, too",
+  "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+  "pubDate": "2026-11-03T17:54:43.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-03T17:54:43.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
