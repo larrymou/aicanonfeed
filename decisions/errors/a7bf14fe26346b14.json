@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "a7bf14fe26346b14",
+  "url": "https://arxiv.org/abs/2610.41231",
+  "sourceName": "arXiv cs.AI",
+  "title": "Coarse3D: Controllable and Faithful Sparse Structure Generation for Image-to-3D",
+  "summary": "arXiv:2610.41231v1 Announce Type: cross Abstract: Coarse-to-fine 3D-native generation relies heavily on the first-stage sparse structure, which determines the global orientation and overall geometry for subsequent refinement. However, existing coarse generators suffer from two ke",
+  "pubDate": "2026-11-03T05:00:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2610.41231v1 Announce Type: cross Abstract: Coarse-to-fine 3D-native generation relies heavily on the first-stage sparse structure, which determines the global orientation and overall geometry for subsequent refinement. However, existing coarse generators suffer from two ke",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2610.41231",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-03T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
