@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "f7bd56cafa89653c",
+  "url": "https://www.techmeme.com/261103/p21#a261103p21",
+  "sourceName": "Techmeme",
+  "title": "Rockstar plans to let users pre-load GTA VI on November 10, ahead of its November 19 launch, and says the game requires up to 212GB \"depending on your device\" (Emma Roth/The Verge)",
+  "summary": "Emma Roth / The Verge: Rockstar plans to let users pre-load GTA VI on November 10, ahead of its November 19 launch, and says the game requires up to 212GB “depending on your device” — Rockstar says to make sure you have ‘ample space’ on your device. … You're going to need a lot o",
+  "pubDate": "2026-11-03T17:00:55.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a video game (GTA VI) pre-load and storage requirements; it is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Emma Roth / The Verge: Rockstar plans to let users pre-load GTA VI on November 10, ahead of its November 19 launch, and says the game requires up to 212GB “depending on your device” — Rockstar says to make sure you have ‘ample space’ on your device. … You're going to need a lot o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p21#a261103p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T17:00:55.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
