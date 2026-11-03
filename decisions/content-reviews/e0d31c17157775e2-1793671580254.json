@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "e0d31c17157775e2",
+  "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+  "sourceName": "Ars Technica AI",
+  "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+  "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+  "pubDate": "2026-11-02T18:32:21.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative report about a future Apple home robot; no AI model release, research artifact, policy action, or open-source tooling. No product launch or business event is observed, only a rumored 2027 hardware item, so no rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-02T18:32:21.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
