@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "502310879104d432",
+  "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+  "sourceName": "Hacker News Front Page",
+  "title": "I use AI (Oct 2026)",
+  "summary": "Article URL: https://ben.stolovitz.com/posts/how-use-ai-oct-2026/ Comments URL: https://news.ycombinator.com/item?id=50355767 Points: 9 # Comments: 6",
+  "pubDate": "2026-11-03T18:11:11.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog essay about how the author uses AI; no named model release, research artifact, business event, policy action, or open-source tool announcement. No active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ben.stolovitz.com/posts/how-use-ai-oct-2026/ Comments URL: https://news.ycombinator.com/item?id=50355767 Points: 9 # Comments: 6",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+    "linkHost": "ben.stolovitz.com",
+    "pubDate": "2026-11-03T18:11:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
