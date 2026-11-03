@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "ab43a68e58ffc2fa",
+  "url": "https://www.techmeme.com/261103/p9#a261103p9",
+  "sourceName": "Techmeme",
+  "title": "OpenAI hires former US Army Secretary Dan Driscoll to oversee national security modernization, as it pushes to secure government contracts and shape policy (Gareth Vipers/Wall Street Journal)",
+  "summary": "Gareth Vipers / Wall Street Journal: OpenAI hires former US Army Secretary Dan Driscoll to oversee national security modernization, as it pushes to secure government contracts and shape policy — Driscoll will advise on ways AI could bolster U.S. security capabilities and cyber de",
+  "pubDate": "2026-11-03T11:25:01.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an executive hire (former Army Secretary) and lobbying intent, not a model release, research artifact, policy/government action, OSS tool, or the enumerated industry events (financing, M&A, partnership, market data, non-model product launch). Aggregator link only; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gareth Vipers / Wall Street Journal: OpenAI hires former US Army Secretary Dan Driscoll to oversee national security modernization, as it pushes to secure government contracts and shape policy — Driscoll will advise on ways AI could bolster U.S. security capabilities and cyber de",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p9#a261103p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T11:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
