@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "f1a111e72742f0df",
+  "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+  "summary": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 187 # Comments: 50",
+  "pubDate": "2026-11-03T17:40:00.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog commentary on simonwillison.net, not an official Qwen/Alibaba announcement page, and '3.8' is not a major-version label established by the owner. No research artifact, business event, policy action, or OSS tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 187 # Comments: 50",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "linkHost": "simonwillison.net",
+    "pubDate": "2026-11-03T17:40:00.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
