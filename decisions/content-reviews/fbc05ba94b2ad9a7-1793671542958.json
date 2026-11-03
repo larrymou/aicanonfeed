@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "fbc05ba94b2ad9a7",
+  "url": "https://www.c64-wiki.com/wiki/GUI64",
+  "sourceName": "Hacker News Front Page",
+  "title": "GUI64 – GUI for the Commodore 64 running on top of the built-in ROM",
+  "summary": "Article URL: https://www.c64-wiki.com/wiki/GUI64 Comments URL: https://news.ycombinator.com/item?id=50345735 Points: 5 # Comments: 0",
+  "pubDate": "2026-11-02T23:32:22.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a GUI for the Commodore 64 retro computer; it involves no AI model release, research, industry business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.c64-wiki.com/wiki/GUI64 Comments URL: https://news.ycombinator.com/item?id=50345735 Points: 5 # Comments: 0",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://www.c64-wiki.com/wiki/GUI64",
+    "linkHost": "www.c64-wiki.com",
+    "pubDate": "2026-11-02T23:32:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
