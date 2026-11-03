@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "afa1fe9a09741bf6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xmzu1x/anybody_up_for_discussion_on_improvement_of/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Anybody up for discussion on improvement of inference speed of Language Models[R]",
+  "summary": "What are the latest papers that are there in the space on inference architecture of llms, I would like to discuss with them on the approaches. Btw I have been doing work with llms for the last 2 months and I have gotten to know very new things. I read about the lunch table discus",
+  "pubDate": "2026-11-03T17:50:39.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post soliciting papers on LLM inference speed; no paper/preprint/benchmark artifact or official source linked, so rule 2-1 is unmet. No model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What are the latest papers that are there in the space on inference architecture of llms, I would like to discuss with them on the approaches. Btw I have been doing work with llms for the last 2 months and I have gotten to know very new things. I read about the lunch table discus",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xmzu1x/anybody_up_for_discussion_on_improvement_of/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-03T17:50:39.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
