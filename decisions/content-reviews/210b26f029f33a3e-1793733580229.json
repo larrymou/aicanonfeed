@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "210b26f029f33a3e",
+  "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "sourceName": "Hacker News Front Page",
+  "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+  "summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 483 # Comments: 155",
+  "pubDate": "2026-11-03T17:22:37.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A GitHub issue alleging Postman auto-installs AI plugins and shares API data is a privacy/security complaint, not a model release, research artifact, industry business event, policy action, or new open-source tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 483 # Comments: 155",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-03T17:22:37.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
