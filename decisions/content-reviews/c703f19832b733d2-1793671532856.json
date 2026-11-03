@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "c703f19832b733d2",
+  "url": "https://news.ycombinator.com/item?id=50346164",
+  "sourceName": "Hacker News Front Page",
+  "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
+  "summary": "I filled out the web form for the Cuyahoga Amateur Radio Club but it's probably been circular-filed... I gave some info about a large collection of radio gear that needs to be removed from a home or it will be put into a dumpster. A lot of it brand-new. If you know anybody at the",
+  "pubDate": "2026-11-03T00:09:36.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ask HN request for a contact at an amateur radio club to rehome radio gear; no AI model release, research, industry, policy, or OSS tooling content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I filled out the web form for the Cuyahoga Amateur Radio Club but it's probably been circular-filed... I gave some info about a large collection of radio gear that needs to be removed from a home or it will be put into a dumpster. A lot of it brand-new. If you know anybody at the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://news.ycombinator.com/item?id=50346164",
+    "linkHost": "news.ycombinator.com",
+    "pubDate": "2026-11-03T00:09:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
