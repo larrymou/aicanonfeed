@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "5b69a3f0e8503dcf",
+  "url": "https://www.techmeme.com/261102/p47#a261102p47",
+  "sourceName": "Techmeme",
+  "title": "John Ternus says Apple expects memory costs to increase into December and beyond; Apple's inventory grew to $14.54B in Q4, up 31.1% QoQ and 154.3% YoY (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: John Ternus says Apple expects memory costs to increase into December and beyond; Apple's inventory grew to $14.54B in Q4, up 31.1% QoQ and 154.3% YoY — Apple's stockpiling of inventory, particularly computer memory, continued in its fiscal fourth-quarte",
+  "pubDate": "2026-11-03T01:15:02.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Apple memory cost expectations and inventory growth; no AI model, research artifact, AI business event, policy action, or OSS tool is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: John Ternus says Apple expects memory costs to increase into December and beyond; Apple's inventory grew to $14.54B in Q4, up 31.1% QoQ and 154.3% YoY — Apple's stockpiling of inventory, particularly computer memory, continued in its fiscal fourth-quarte",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p47#a261102p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T01:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
