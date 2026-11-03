@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "217f514cd106f2c8",
+  "url": "https://www.techmeme.com/261102/p44#a261102p44",
+  "sourceName": "Techmeme",
+  "title": "Anthropic S-1 claims it may \"imminently meet\" its RSI threshold and may fail to identify \"significant acceleration\" in its development until after it's occurred (Julie Bort/TechCrunch)",
+  "summary": "Julie Bort / TechCrunch: Anthropic S-1 claims it may “imminently meet” its RSI threshold and may fail to identify “significant acceleration” in its development until after it's occurred — While much attention has focused on the updated financials Anthropic revealed in its revised",
+  "pubDate": "2026-11-02T23:05:00.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Julie Bort / TechCrunch: Anthropic S-1 claims it may “imminently meet” its RSI threshold and may fail to identify “significant acceleration” in its development until after it's occurred — While much attention has focused on the updated financials Anthropic revealed in its revised",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p44#a261102p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-02T23:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
