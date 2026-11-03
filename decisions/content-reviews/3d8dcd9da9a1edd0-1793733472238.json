@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "3d8dcd9da9a1edd0",
+  "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+  "sourceName": "The Verge AI",
+  "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+  "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, an",
+  "pubDate": "2026-11-03T18:31:00.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple watchOS 27.3 beta adds Siri Audio Intelligence features (Siri Recap, ambient listening). No named AI model or model line is released, so rule 1-1 fails; no research artifact, policy action, OSS tool, or industry business event (financing/M&A/partnership/market data) is reported. Feature update",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, an",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-03T18:31:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
