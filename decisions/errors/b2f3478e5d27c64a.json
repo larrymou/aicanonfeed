@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "b2f3478e5d27c64a",
+  "url": "https://www.techmeme.com/261103/p25#a261103p25",
+  "sourceName": "Techmeme",
+  "title": "Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros (Bloomberg)",
+  "summary": "Bloomberg: Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros — Meta Platforms Inc. is eyeing at least $20 billion from a potential cross-border investment-grade bond offe",
+  "pubDate": "2026-11-03T18:55:03.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros — Meta Platforms Inc. is eyeing at least $20 billion from a potential cross-border investment-grade bond offe",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p25#a261103p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T18:55:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
