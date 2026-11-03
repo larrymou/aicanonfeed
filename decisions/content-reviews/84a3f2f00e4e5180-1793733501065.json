@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "84a3f2f00e4e5180",
+  "url": "https://www.techmeme.com/261103/p24#a261103p24",
+  "sourceName": "Techmeme",
+  "title": "AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; a source says it hit $800M in annualized revenue this year (Natasha Mascarenhas/Bloomberg)",
+  "summary": "Natasha Mascarenhas / Bloomberg: AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; a source says it hit $800M in annualized revenue this year — Fal, an AI inference startup that hosts image, video and audio models for creators and de",
+  "pubDate": "2026-11-03T18:10:04.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, with reported $800M annualized revenue. Covered via Techmeme linking to a Bloomberg report by named author Natasha Mascarenhas, satisfying rule 3-1 financing coverage.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Natasha Mascarenhas / Bloomberg: AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; a source says it hit $800M in annualized revenue this year — Fal, an AI inference startup that hosts image, video and audio models for creators and de",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p24#a261103p24",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T18:10:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
