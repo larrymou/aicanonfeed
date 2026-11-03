@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "23abe1f1b0a2b246",
+  "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+  "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+  "pubDate": "2026-11-03T03:30:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-03T03:30:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
