@@ -1,0 +1,44 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "c01265aacc1a10af",
+  "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+  "sourceName": "The Verge AI",
+  "title": "Google is entirely disabling Search in schools that don&#8217;t want AI",
+  "summary": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and ",
+  "pubDate": "2026-11-03T17:00:04.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report that Google will disable Search in schools rejecting its AI features. Not a named model release (1-1), research artifact (2-1), financing/M&A/partnership/market data or product launch (3-1), government policy action (4-1), or open-source tool release (5-1); no rule covers this company a",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-03T17:00:04.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
