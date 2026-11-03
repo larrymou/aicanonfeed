@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "c8564f3a68709075",
+  "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+  "sourceName": "TechCrunch AI",
+  "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+  "summary": "The one-year-old startup is now valued at $300 million.",
+  "pubDate": "2026-11-02T23:13:53.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports a financing event: Trajectory raises $45M at a $300M valuation. Rule 3-1 covers AI industry business events (financing) with a link to a reputable media report (TechCrunch), which is observed via title, link and linkHost.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The one-year-old startup is now valued at $300 million.",
+    "summaryChars": 55,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-02T23:13:53.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
