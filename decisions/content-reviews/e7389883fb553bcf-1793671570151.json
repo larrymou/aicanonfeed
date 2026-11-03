@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "e7389883fb553bcf",
+  "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+  "sourceName": "TechCrunch AI",
+  "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+  "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+  "pubDate": "2026-11-02T19:19:17.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a private copyright lawsuit by news outlets against Brave. It is not a model release, research artifact, policy/government action, or OSS tool release, and the enumerated industry events (financing, M&A, partnerships, revenue data, non-model product launches) do not cover litigation.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+    "summaryChars": 209,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-02T19:19:17.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
