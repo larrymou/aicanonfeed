@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "baf6a1185cdb25e9",
+  "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+  "sourceName": "Hacker News Front Page",
+  "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+  "summary": "Article URL: https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio Comments URL: https://news.ycombinator.com/item?id=50346849 Points: 6 # Comments: 0",
+  "pubDate": "2026-11-03T01:33:43.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub project for burning visible artwork onto optical discs; no AI model, research, industry, policy, or AI developer-tool content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio Comments URL: https://news.ycombinator.com/item?id=50346849 Points: 6 # Comments: 0",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-03T01:33:43.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
