@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "f3123bdeed841684",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.14-rc0",
+  "summary": "server: decode cloud web search responses (#19476)",
+  "pubDate": "2026-11-03T00:59:50.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama open-source tool release tag v0.40.14-rc0 on its GitHub repository, with change described (decode cloud web search responses) — a framework/library update linked to the repo, matching tools-oss rule 5-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "server: decode cloud web search responses (#19476)",
+    "summaryChars": 50,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-03T00:59:50.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
