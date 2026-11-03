@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "b6cd935ced7d6ec3",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xm8vik/iclr_2027_review_results_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR 2027 review results [D]",
+  "summary": "The reviews will be out this week. What are the expectations with 60K+ submissions and the small scale of review rating? submitted by /u/Old-Duck-3693 [link] [comments]",
+  "pubDate": "2026-11-02T20:41:35.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread about ICLR 2027 review timelines/expectations; no paper, benchmark, model release, business event, policy action, or OSS tool link. No rule covers commentary without a research artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The reviews will be out this week. What are the expectations with 60K+ submissions and the small scale of review rating? submitted by /u/Old-Duck-3693 [link] [comments]",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xm8vik/iclr_2027_review_results_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-02T20:41:35.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
