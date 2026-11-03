@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "ad5caf9363b0d29b",
+  "url": "https://hjkl.duy.run",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: I built a little browser game to practice Vim commands",
+  "summary": "I made hjkl to help myself remember Vim commands. It’s a little browser game you can play when you want to unwind and get a bit of Vim practice in. There are still a lot of commands I want to add, but I hope someone finds it useful in the meantime :) Comments URL: https://news.yc",
+  "pubDate": "2026-11-03T03:10:04.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A browser game for practicing Vim commands is a general developer toy, not an AI model release, research result, industry business event, policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I made hjkl to help myself remember Vim commands. It’s a little browser game you can play when you want to unwind and get a bit of Vim practice in. There are still a lot of commands I want to add, but I hope someone finds it useful in the meantime :) Comments URL: https://news.yc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://hjkl.duy.run",
+    "linkHost": "hjkl.duy.run",
+    "pubDate": "2026-11-03T03:10:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
