@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "0f547d42bb6352a3",
+  "url": "https://www.techmeme.com/261103/p6#a261103p6",
+  "sourceName": "Techmeme",
+  "title": "Google severs ties with and bans Android TV box maker Videostrong after discovering it intentionally preloaded a malware backdoor to control the XCPE botnet (Ben Schoon/9to5Google)",
+  "summary": "Ben Schoon / 9to5Google: Google severs ties with and bans Android TV box maker Videostrong after discovering it intentionally preloaded a malware backdoor to control the XCPE botnet — Google has confirmed that an Android TV device maker snuck a backdoor for malware onto certified",
+  "pubDate": "2026-11-03T10:50:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Google banning an Android TV box maker over a preloaded malware backdoor. It is not an AI model release, research, AI business event (financing/M&A/partnership/product launch), policy action, or OSS tool release; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ben Schoon / 9to5Google: Google severs ties with and bans Android TV box maker Videostrong after discovering it intentionally preloaded a malware backdoor to control the XCPE botnet — Google has confirmed that an Android TV device maker snuck a backdoor for malware onto certified",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p6#a261103p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T10:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
