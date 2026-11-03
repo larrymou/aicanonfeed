@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "62ed14364f0e88ad",
+  "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+  "sourceName": "The Verge AI",
+  "title": "Indie games are missing launch dates because Steam is backed up",
+  "summary": "A screenshot from Food Devils, which is missing its planned launch today. Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their p",
+  "pubDate": "2026-11-03T18:14:50.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Steam/Valve indie game approval delays, not AI. No AI model release, research artifact, industry AI business event, policy action, or open-source AI tooling; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A screenshot from Food Devils, which is missing its planned launch today. Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their p",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-03T18:14:50.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
