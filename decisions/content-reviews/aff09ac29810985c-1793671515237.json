@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "aff09ac29810985c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xmfm3n/iclr_2027_reviews_discussion_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR 2027 reviews discussion [D]",
+  "summary": "The reviews will be out soon. Really worried about the narrow range of scores 1-4 this time and about people using the AI based LLM reviews instead of actual fair reading. Share your opinions. Lets keep this to update the reviews received. submitted by /u/Old-Duck-3693 [link] [co",
+  "pubDate": "2026-11-03T01:22:08.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [D] discussion thread about ICLR 2027 review scores and LLM-generated reviews; it is commentary with no paper, benchmark, or official source link, so no rule (research, industry, policy, tools, model release) is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The reviews will be out soon. Really worried about the narrow range of scores 1-4 this time and about people using the AI based LLM reviews instead of actual fair reading. Share your opinions. Lets keep this to update the reviews received. submitted by /u/Old-Duck-3693 [link] [co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xmfm3n/iclr_2027_reviews_discussion_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-03T01:22:08.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
