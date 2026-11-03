@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "7483f1634e582f64",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xmq17q/paper_review_question_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Paper review question [D]",
+  "summary": "I'm curious how other reviewers handle papers that report impressive results but are extremely poorly written. I'm not just talking about grammar, etc. I am more concerned about the overall presentation of ideas and how the authors position their contributions within the existing",
+  "pubDate": "2026-11-03T11:01:06.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking how reviewers handle poorly written papers; no research artifact, paper link, or official source, so rule 2-1 (and all other rules) are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm curious how other reviewers handle papers that report impressive results but are extremely poorly written. I'm not just talking about grammar, etc. I am more concerned about the overall presentation of ideas and how the authors position their contributions within the existing",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xmq17q/paper_review_question_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-03T11:01:06.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
