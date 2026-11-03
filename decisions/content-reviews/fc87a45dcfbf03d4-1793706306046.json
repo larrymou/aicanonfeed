@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "fc87a45dcfbf03d4",
+  "url": "https://openai.com/index/heimstaden",
+  "sourceName": "OpenAI Blog",
+  "title": "Heimstaden is changing residential real estate management with AI",
+  "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+  "pubDate": "2026-11-03T08:00:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Heimstaden using ChatGPT Enterprise and Codex. No new model/version/capability release, no research artifact, no policy action, no OSS tool, and no financing/M&A/partnership/deal event; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/heimstaden",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-03T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
