@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "0fa442fbe53259e1",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xmowry/cpu_parallelism_lessons_that_carry_over_to_gpu/",
+  "sourceName": "r/MachineLearning new",
+  "title": "CPU parallelism lessons that carry over to GPU kernels: dependency chains, FP non-associativity, false sharing, memory-bound loops [P]",
+  "summary": "Session 2 of my free GPU kernel engineering series (my own channel, earlier post: [LINK TO FIRST POST]) covers CPU parallelism, with no GPU code. The idea is that most GPU performance ideas are CPU ideas turned up, so here are the parts I found most useful on their own. A single ",
+  "pubDate": "2026-11-03T09:53:58.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post is an educational tutorial session on CPU parallelism for GPU kernel learning; no new model release, no research paper/preprint/benchmark artifact, no industry business event, no policy action, and no OSS tool/framework release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Session 2 of my free GPU kernel engineering series (my own channel, earlier post: [LINK TO FIRST POST]) covers CPU parallelism, with no GPU code. The idea is that most GPU performance ideas are CPU ideas turned up, so here are the parts I found most useful on their own. A single ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xmowry/cpu_parallelism_lessons_that_carry_over_to_gpu/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-03T09:53:58.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
