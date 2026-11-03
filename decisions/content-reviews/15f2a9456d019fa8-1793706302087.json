@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "15f2a9456d019fa8",
+  "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+  "sourceName": "Hacker News Front Page",
+  "title": "Revolut moves to self-hosted GLM",
+  "summary": "Article URL: https://twitter.com/guilleflorvs/status/2117379073785696395 Comments URL: https://news.ycombinator.com/item?id=50350004 Points: 87 # Comments: 45",
+  "pubDate": "2026-11-03T09:53:59.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Only evidence is a link to an X/Twitter post (linkHost twitter.com) about Revolut adopting self-hosted GLM. No official owner announcement, no named author or publication date, no paper artifact, and no qualifying company/deal announcement or reputable media report.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://twitter.com/guilleflorvs/status/2117379073785696395 Comments URL: https://news.ycombinator.com/item?id=50350004 Points: 87 # Comments: 45",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+    "linkHost": "twitter.com",
+    "pubDate": "2026-11-03T09:53:59.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
