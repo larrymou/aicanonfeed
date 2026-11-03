@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "2df88c701c87b55f",
+  "url": "https://www.techmeme.com/261102/p45#a261102p45",
+  "sourceName": "Techmeme",
+  "title": "Trajectory, which is developing AI model post-training tools for nontechnical customers, raised a $45M Series A led by Sequoia at a $300M valuation (Marina Temkin/TechCrunch)",
+  "summary": "Marina Temkin / TechCrunch: Trajectory, which is developing AI model post-training tools for nontechnical customers, raised a $45M Series A led by Sequoia at a $300M valuation — Whether developed by OpenAI, Anthropic, or built on open-source alternatives, current AI models share ",
+  "pubDate": "2026-11-03T00:05:01.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Marina Temkin / TechCrunch: Trajectory, which is developing AI model post-training tools for nontechnical customers, raised a $45M Series A led by Sequoia at a $300M valuation — Whether developed by OpenAI, Anthropic, or built on open-source alternatives, current AI models share ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p45#a261102p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T00:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
