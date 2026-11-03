@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793671491184-w3c0mq",
+  "urlHash": "906b26d05456efb1",
+  "url": "https://www.techmeme.com/261102/p48#a261102p48",
+  "sourceName": "Techmeme",
+  "title": "Salesforce announces plans to acquire Cresta, a provider of AI-powered contact center automation software; source: Salesforce agreed to pay $2.7B for Cresta (The Information)",
+  "summary": "The Information: Salesforce announces plans to acquire Cresta, a provider of AI-powered contact center automation software; source: Salesforce agreed to pay $2.7B for Cresta — Salesforce extended its recent shopping spree, announcing on Monday plans to acquire Cresta, a nine-year",
+  "pubDate": "2026-11-03T01:20:01.000Z",
+  "decidedAt": "2026-11-03T02:05:00.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Salesforce announces plans to acquire Cresta, a provider of AI-powered contact center automation software; source: Salesforce agreed to pay $2.7B for Cresta — Salesforce extended its recent shopping spree, announcing on Monday plans to acquire Cresta, a nine-year",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261102/p48#a261102p48",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T01:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
