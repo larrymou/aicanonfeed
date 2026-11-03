@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "bca108e4c77bd86b",
+  "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+  "sourceName": "OpenAI Blog",
+  "title": "Rewarding defenders with bigger bug bounties",
+  "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+  "pubDate": "2026-11-02T18:00:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a security bug bounty program update (higher rewards, bonuses). It is not a model release, research artifact, business event (financing/M&A/partnership/market data/non-model product), policy action, or open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-02T18:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
