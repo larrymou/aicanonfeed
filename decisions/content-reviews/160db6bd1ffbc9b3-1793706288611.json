@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "160db6bd1ffbc9b3",
+  "url": "https://www.techmeme.com/261103/p7#a261103p7",
+  "sourceName": "Techmeme",
+  "title": "The UK NCSC says AI is \"transforming cyber operations\" and expects China and Russia to \"routinely use AI cyber to achieve their geopolitical goals\" by 2028 (Tom Wilson/Financial Times)",
+  "summary": "Tom Wilson / Financial Times: The UK NCSC says AI is “transforming cyber operations” and expects China and Russia to “routinely use AI cyber to achieve their geopolitical goals” by 2028 — Head of National Cyber Security Centre set to warn security defences, particularly for criti",
+  "pubDate": "2026-11-03T11:05:01.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "NCSC threat warning about AI-enabled cyber operations is commentary/assessment, not a new law, regulation, enforcement action, or official policy announcement under rule 4-1. No model release, research artifact, business event, or OSS tool; link is a Techmeme aggregation permalink, not an official d",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tom Wilson / Financial Times: The UK NCSC says AI is “transforming cyber operations” and expects China and Russia to “routinely use AI cyber to achieve their geopolitical goals” by 2028 — Head of National Cyber Security Centre set to warn security defences, particularly for criti",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p7#a261103p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T11:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
