@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "975111b7d4f46d8d",
+  "url": "https://www.techmeme.com/261103/p8#a261103p8",
+  "sourceName": "Techmeme",
+  "title": "China plans to roll out broad AI safety standards covering development through deployment, targeting domestic AI model makers, after global security incidents (Bloomberg)",
+  "summary": "Bloomberg: China plans to roll out broad AI safety standards covering development through deployment, targeting domestic AI model makers, after global security incidents — China plans to roll out a broad set of standards governing the AI safety from development through deployment",
+  "pubDate": "2026-11-03T11:15:03.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: China plans to roll out broad AI safety standards covering development through deployment, targeting domestic AI model makers, after global security incidents — China plans to roll out a broad set of standards governing the AI safety from development through deployment",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p8#a261103p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T11:15:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
