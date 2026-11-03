@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793733422614-55g054",
+  "urlHash": "90ff5ab634ecc941",
+  "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+  "sourceName": "TechCrunch AI",
+  "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+  "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+  "pubDate": "2026-11-03T18:42:16.000Z",
+  "decidedAt": "2026-11-03T19:17:31.962Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch report on Netflix's AI 'Discover' recommendation tab is a consumer streaming UI feature. No named AI model/version (1-1 excludes generic product features), no research artifact, no financing/M&A/partnership/market data, no policy action, and no open-source tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-03T18:42:16.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
