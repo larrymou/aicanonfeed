@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "b53d42e9c538fd76",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.14",
+  "summary": "What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints no",
+  "pubDate": "2026-11-03T06:57:31.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints no",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-03T06:57:31.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
