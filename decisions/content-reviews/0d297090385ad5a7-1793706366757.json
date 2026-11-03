@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793706265237-4v301v",
+  "urlHash": "0d297090385ad5a7",
+  "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+  "sourceName": "OpenAI Blog",
+  "title": "Preparing our next security sprint to harden OpenAI",
+  "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+  "pubDate": "2026-11-02T18:00:00.000Z",
+  "decidedAt": "2026-11-03T11:44:32.971Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Internal security sprint announcement; no named model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-02T18:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
