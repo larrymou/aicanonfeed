@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "c172670df3bbada1",
+  "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+  "sourceName": "Ars Technica AI",
+  "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+  "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+  "pubDate": "2026-11-03T20:39:55.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Russian data center infrastructure hardened against drone strikes; no AI model release, research artifact, business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-03T20:39:55.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
