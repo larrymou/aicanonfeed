@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "726c1b134d9eb84f",
+  "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
+  "summary": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language docume",
+  "pubDate": "2026-11-03T16:32:54.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS Bedrock regional inference availability for the existing Kimi K3 model is an infrastructure/geographic deployment update, not a new model, major version, or new capability; it also does not match research, industry business events, policy, or OSS tooling rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language docume",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-03T16:32:54.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
