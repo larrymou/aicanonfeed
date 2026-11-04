@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "eba05ae8eb31553e",
+  "url": "https://www.techmeme.com/261103/p41#a261103p41",
+  "sourceName": "Techmeme",
+  "title": "Google says its education updates give schools \"more choice, not less\"; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually (@newsfromgoogle)",
+  "summary": "@newsfromgoogle: Google says its education updates give schools “more choice, not less”; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually — We want to clarify what we announced today about our education services. Today's announcements give sc",
+  "pubDate": "2026-11-04T00:00:50.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Education-services default settings clarification (Gemini/Gemini Notebook/Search off by default), not a named model release, major version, or new capability (R1). No paper/benchmark (R2), no financing/M&A/partnership/market data or non-model product launch with official announcement (R3), no govern",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "@newsfromgoogle: Google says its education updates give schools “more choice, not less”; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually — We want to clarify what we announced today about our education services. Today's announcements give sc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p41#a261103p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T00:00:50.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
