@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "01b1e45f222dec5e",
+  "url": "https://arxiv.org/abs/2605.29713",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+  "summary": "Article URL: https://arxiv.org/abs/2605.29713 Comments URL: https://news.ycombinator.com/item?id=50358582 Points: 174 # Comments: 28",
+  "pubDate": "2026-11-03T21:40:53.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title describes an educational mathematical primer/book on generative AI foundations, not a report of new AI research results; arXiv host alone does not establish the rule's 'new research results' condition.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://arxiv.org/abs/2605.29713 Comments URL: https://news.ycombinator.com/item?id=50358582 Points: 174 # Comments: 28",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2605.29713",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-03T21:40:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
