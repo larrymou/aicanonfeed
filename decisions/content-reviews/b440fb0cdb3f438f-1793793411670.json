@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "b440fb0cdb3f438f",
+  "url": "https://www.techmeme.com/261104/p18#a261104p18",
+  "sourceName": "Techmeme",
+  "title": "Analysis: SpaceX revises its 2027 data center capacity target up to a record ~13GW, roughly equivalent to all of Google's capacity from 1999-2026 in 1.5 years (SemiAnalysis)",
+  "summary": "SemiAnalysis: Analysis: SpaceX revises its 2027 data center capacity target up to a record ~13GW, roughly equivalent to all of Google's capacity from 1999-2026 in 1.5 years — Making 13GW in 1.5 Years A Reality, Repurposing Rocket Ship Campuses, A Datacenter at TeraFab? — Reyk Knu",
+  "pubDate": "2026-11-04T11:25:00.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is SemiAnalysis commentary/forecast about SpaceX data center capacity targets (13GW by 2027). It reports no model release, research artifact, financing/M&A/partnership/deal, policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "SemiAnalysis: Analysis: SpaceX revises its 2027 data center capacity target up to a record ~13GW, roughly equivalent to all of Google's capacity from 1999-2026 in 1.5 years — Making 13GW in 1.5 Years A Reality, Repurposing Rocket Ship Campuses, A Datacenter at TeraFab? — Reyk Knu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p18#a261104p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T11:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
