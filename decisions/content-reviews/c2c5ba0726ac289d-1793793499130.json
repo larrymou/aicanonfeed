@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "c2c5ba0726ac289d",
+  "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+  "sourceName": "Wired AI",
+  "title": "Here’s Why You Shouldn’t Use AI to Vote",
+  "summary": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+  "pubDate": "2026-11-03T14:45:08.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/advice article warning against using chatbots to vote. No named model release, research artifact, industry business event, policy action, or open-source tool launch; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-03T14:45:08.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
