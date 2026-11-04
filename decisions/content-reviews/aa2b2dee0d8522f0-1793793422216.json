@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "aa2b2dee0d8522f0",
+  "url": "https://www.techmeme.com/261104/p16#a261104p16",
+  "sourceName": "Techmeme",
+  "title": "Google says it expanded voluntary exit buyouts in June to employees across Canada, France, Germany, Japan, and Switzerland to manage costs amid huge AI spending (Reuters)",
+  "summary": "Reuters: Google says it expanded voluntary exit buyouts in June to employees across Canada, France, Germany, Japan, and Switzerland to manage costs amid huge AI spending — Alphabet's Google (GOOGL.O) has expanded employee buyout offers to several countries this year as it looks t",
+  "pubDate": "2026-11-04T11:05:00.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Google expanding voluntary exit buyouts (workforce/cost restructuring). No listed rule covers this: not a model release or capability, not a research artifact, not financing/M&A/partnership/market-data/non-model product launch, not policy action, not OSS tooling. Link is a Techmeme aggr",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Google says it expanded voluntary exit buyouts in June to employees across Canada, France, Germany, Japan, and Switzerland to manage costs amid huge AI spending — Alphabet's Google (GOOGL.O) has expanded employee buyout offers to several countries this year as it looks t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p16#a261104p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T11:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
