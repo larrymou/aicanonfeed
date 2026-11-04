@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "34e7d62615202d0d",
+  "url": "https://openai.com/index/cisco-cyber",
+  "sourceName": "OpenAI Blog",
+  "title": "How Cisco defends at machine speed with OpenAI",
+  "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+  "pubDate": "2026-11-03T08:00:00.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on how Cisco uses OpenAI models for security. No named model release (R1), no research artifact (R2), no financing/M&A/partnership deal or revenue data stated (R3), no policy action (R4), no open-source tool (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/cisco-cyber",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-03T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
