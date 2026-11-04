@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "2746cbc5892115a5",
+  "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Safari introduces Adaptive Dark Mode in 27.3",
+  "summary": "Article URL: https://webkit.org/blog/18541/introducing-adaptive-dark-mode/ Comments URL: https://news.ycombinator.com/item?id=50358562 Points: 232 # Comments: 148",
+  "pubDate": "2026-11-03T21:39:05.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Safari Adaptive Dark Mode is a browser UI feature, not an AI model release, AI research, AI business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://webkit.org/blog/18541/introducing-adaptive-dark-mode/ Comments URL: https://news.ycombinator.com/item?id=50358562 Points: 232 # Comments: 148",
+    "summaryChars": 162,
+    "summarySource": "summary",
+    "link": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+    "linkHost": "webkit.org",
+    "pubDate": "2026-11-03T21:39:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
