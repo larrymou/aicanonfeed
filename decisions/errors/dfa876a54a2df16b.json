@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "dfa876a54a2df16b",
+  "url": "https://www.ricursive.com/ripple",
+  "sourceName": "Hacker News Front Page",
+  "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+  "summary": "Article URL: https://www.ricursive.com/ripple Comments URL: https://news.ycombinator.com/item?id=50369925 Points: 3 # Comments: 0",
+  "pubDate": "2026-11-04T18:53:29.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ricursive.com/ripple Comments URL: https://news.ycombinator.com/item?id=50369925 Points: 3 # Comments: 0",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://www.ricursive.com/ripple",
+    "linkHost": "www.ricursive.com",
+    "pubDate": "2026-11-04T18:53:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
