@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "4c66b4e5d0d02adc",
+  "url": "https://www.techmeme.com/261103/p42#a261103p42",
+  "sourceName": "Techmeme",
+  "title": "How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia (The Information)",
+  "summary": "The Information: How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia — Last month, OpenAI Senior Research Scientist Noam Brown posted a link in a company Slack channel to ",
+  "pubDate": "2026-11-04T00:20:01.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Nvidia's lobbying/soft-power influence on chip policy and OpenAI's silence; it is not a policy action (no law, EO, or official announcement) and not an enumerated industry business event (financing, M&A, partnership, market data, product launch). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia — Last month, OpenAI Senior Research Scientist Noam Brown posted a link in a company Slack channel to ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p42#a261103p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T00:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
