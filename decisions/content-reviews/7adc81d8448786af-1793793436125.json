@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "7adc81d8448786af",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "A message to top tier conferences [D]",
+  "summary": "TL;DR: Please be hard in desk rejecting AI generated papers Recently I went to two AI conferences (A and A*) and I was surprised that \"AI cheaters\" didn't even read their own paper before presentation! For example, a guy couldn't even answer the question of how he represented kno",
+  "pubDate": "2026-11-04T09:55:50.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary urging conferences to desk-reject AI-generated papers; no model release, no research artifact link (no paper/preprint/benchmark), no business, policy, or OSS announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TL;DR: Please be hard in desk rejecting AI generated papers Recently I went to two AI conferences (A and A*) and I was surprised that \"AI cheaters\" didn't even read their own paper before presentation! For example, a guy couldn't even answer the question of how he represented kno",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T09:55:50.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
