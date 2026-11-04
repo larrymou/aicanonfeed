@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "649db0bad2a71a38",
+  "url": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
+  "sourceName": "Hacker News Front Page",
+  "title": "Verification Is Not Knowledge: Science needs more than answers",
+  "summary": "Article URL: https://blog.cosmos-institute.org/p/verification-is-not-knowledge Comments URL: https://news.ycombinator.com/item?id=50363019 Points: 64 # Comments: 32",
+  "pubDate": "2026-11-04T09:01:58.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay on a blog; no named model release, no research artifact (paper/arXiv/benchmark) link, no business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.cosmos-institute.org/p/verification-is-not-knowledge Comments URL: https://news.ycombinator.com/item?id=50363019 Points: 64 # Comments: 32",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
+    "linkHost": "blog.cosmos-institute.org",
+    "pubDate": "2026-11-04T09:01:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
