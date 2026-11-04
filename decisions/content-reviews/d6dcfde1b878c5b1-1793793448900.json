@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "d6dcfde1b878c5b1",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnh0uh/visa_situation_for_neurips_sydney_attendees_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Visa Situation for NeurIPS Sydney Attendees [D]",
+  "summary": "I'm just wondering about visa processing situation for NeurIPS sydney attendees. Invitation letter and all valid docs are not really helping (one friend got rejected), processing time is tooo long (almost a month). and organizers not responding in case visa is not approved for co",
+  "pubDate": "2026-11-04T06:24:54.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion about visa processing for NeurIPS attendees; no model release, research artifact, industry business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm just wondering about visa processing situation for NeurIPS sydney attendees. Invitation letter and all valid docs are not really helping (one friend got rejected), processing time is tooo long (almost a month). and organizers not responding in case visa is not approved for co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnh0uh/visa_situation_for_neurips_sydney_attendees_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T06:24:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
