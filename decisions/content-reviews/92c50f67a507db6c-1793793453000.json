@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "92c50f67a507db6c",
+  "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+  "sourceName": "The Verge AI",
+  "title": "The biggest modding site in PC gaming is taking a stance on AI",
+  "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the plat",
+  "pubDate": "2026-11-04T00:42:10.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Nexus Mods mandating AI disclosure for mod uploads is platform self-regulation, not a government/law/regulatory action (rule 4-1 excludes self-regulation). It is also not a model release, research artifact, business event (financing/M&A/partnership/market data), or OSS tool launch, so no active rule",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the plat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-04T00:42:10.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
