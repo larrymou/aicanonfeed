@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "c674dcd7e82d4f53",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnbdx0/experiments_with_chinchilla_scaling_laws/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Experiments with Chinchilla scaling laws (following DeepMind) [R]",
+  "summary": "Question to all the PhDs & research engineers in this group. Have any of you done small-scale experiments with the Chinchilla scaling laws (using PyTorch or JAX)? If so, we'd be keen to hear more (or have a chat). Thanks! Here's the official Chinchilla paper, from the DeepMind we",
+  "pubDate": "2026-11-04T01:31:50.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking others about small-scale Chinchilla experiments; it reports no new research results, paper, or benchmark of its own. No rule covers a question/commentary post, so reject.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Question to all the PhDs & research engineers in this group. Have any of you done small-scale experiments with the Chinchilla scaling laws (using PyTorch or JAX)? If so, we'd be keen to hear more (or have a chat). Thanks! Here's the official Chinchilla paper, from the DeepMind we",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnbdx0/experiments_with_chinchilla_scaling_laws/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T01:31:50.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
