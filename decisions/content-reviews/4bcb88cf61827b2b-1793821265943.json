@@ -1,0 +1,45 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "4bcb88cf61827b2b",
+  "url": "https://www.techmeme.com/261104/p43#a261104p43",
+  "sourceName": "Techmeme",
+  "title": "Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image and AI video detection, and the smaller Image Flash 1.0 for AI video detection (Isaac Kasahara/Pangram)",
+  "summary": "Isaac Kasahara / Pangram: Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image and AI video detection, and the smaller Image Flash 1.0 for AI video detection — State-of-the-art AI image and video detection with our latest Pangram Image models. … A few",
+  "pubDate": "2026-11-04T17:02:08.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names Pangram Image 1.0/Image Flash 1.0, but the link is a Techmeme aggregator permalink, not an official Pangram announcement or a full authored news article; linked_page_owner_domain and linked_page_author are not observed, so R1's evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Isaac Kasahara / Pangram: Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image and AI video detection, and the smaller Image Flash 1.0 for AI video detection — State-of-the-art AI image and video detection with our latest Pangram Image models. … A few",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p43#a261104p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T17:02:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
