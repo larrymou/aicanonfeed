@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "50e10d77ea8c1a06",
+  "url": "https://www.techmeme.com/261104/p47#a261104p47",
+  "sourceName": "Techmeme",
+  "title": "Apple says it will check iCloud items shared to \"Anyone with the link\" for \"harmful content\" in 27.3 OS versions, and may delete the content or disable accounts (Ryan Christoffel/9to5Mac)",
+  "summary": "Ryan Christoffel / 9to5Mac: Apple says it will check iCloud items shared to “Anyone with the link” for “harmful content” in 27.3 OS versions, and may delete the content or disable accounts — iOS 27.3 adds lots of new iPhone features, and it also makes a change to how public iClou",
+  "pubDate": "2026-11-04T19:35:03.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple's iCloud content-scanning change is a company platform/moderation policy, not an AI model release, research artifact, industry business event, or government policy action. Rule 4-1 explicitly excludes industry self-regulation and commentary without policy action.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ryan Christoffel / 9to5Mac: Apple says it will check iCloud items shared to “Anyone with the link” for “harmful content” in 27.3 OS versions, and may delete the content or disable accounts — iOS 27.3 adds lots of new iPhone features, and it also makes a change to how public iClou",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p47#a261104p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T19:35:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
