@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "b4a1796dcf3642a4",
+  "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+  "sourceName": "Wired AI",
+  "title": "The Results Are In: Voters Hate Data Centers",
+  "summary": "From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms.",
+  "pubDate": "2026-11-04T16:56:17.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Election/ballot coverage of voter sentiment on data centers; no named model release, research artifact, company business event, official policy/regulatory action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-04T16:56:17.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
