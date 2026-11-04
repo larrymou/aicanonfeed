@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "8c201a1638b80a48",
+  "url": "https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta",
+  "sourceName": "Hacker News Front Page",
+  "title": "Conductor Is Joining Meta",
+  "summary": "Article URL: https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta Comments URL: https://news.ycombinator.com/item?id=50369840 Points: 26 # Comments: 31",
+  "pubDate": "2026-11-04T18:47:33.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Title announces 'Conductor Is Joining Meta', an M&A/company event, and links to the company's own announcement page on conductor.build, satisfying the industry rule's requirement for a company or deal announcement.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta Comments URL: https://news.ycombinator.com/item?id=50369840 Points: 26 # Comments: 31",
+    "summaryChars": 169,
+    "summarySource": "summary",
+    "link": "https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta",
+    "linkHost": "www.conductor.build",
+    "pubDate": "2026-11-04T18:47:33.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
