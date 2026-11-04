@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "b5b5c5c86899b61a",
+  "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+  "sourceName": "Hacker News Front Page",
+  "title": "Incident with Pull Requests, Git Operations and Issues",
+  "summary": "Article URL: https://www.githubstatus.com/incidents/smtdswd1h2w4 Comments URL: https://news.ycombinator.com/item?id=50363378 Points: 88 # Comments: 47",
+  "pubDate": "2026-11-04T10:00:06.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub status incident report about pull requests, git operations and issues; a service outage notice with no AI model release, research, industry, policy, or open-source tool announcement covered by the active rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.githubstatus.com/incidents/smtdswd1h2w4 Comments URL: https://news.ycombinator.com/item?id=50363378 Points: 88 # Comments: 47",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+    "linkHost": "www.githubstatus.com",
+    "pubDate": "2026-11-04T10:00:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
