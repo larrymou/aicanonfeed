@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "ad5ada1b065eb974",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Do looped transformers save HBM traffic? Profiling weight reuse in Huginn on a B200 [P]",
+  "summary": "Do looped transformers, which reuse the same weights at every iteration, also save HBM traffic? In my new post I cover the looped architecture (Huginn), then model and measure its performance on a B200: how much data each iteration reads from memory, how long it takes, and why th",
+  "pubDate": "2026-11-04T16:26:12.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] self-post with informal profiling/analysis of Huginn on a B200; no peer-reviewed paper, arXiv preprint, or official benchmark artifact link, so research rule 2-1 unmet. Not a model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Do looped transformers, which reuse the same weights at every iteration, also save HBM traffic? In my new post I cover the looped architecture (Huginn), then model and measure its performance on a B200: how much data each iteration reads from memory, how long it takes, and why th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T16:26:12.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
