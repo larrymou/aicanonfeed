@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "430dcaf158f7ddfa",
+  "url": "https://www.techmeme.com/261104/p46#a261104p46",
+  "sourceName": "Techmeme",
+  "title": "Meta acquires Conductor, which lets developers run multiple AI coding agents in parallel; CEO Charlie Holtz says the team will join Meta Superintelligence Labs (Madison Mills/Axios)",
+  "summary": "Madison Mills / Axios: Meta acquires Conductor, which lets developers run multiple AI coding agents in parallel; CEO Charlie Holtz says the team will join Meta Superintelligence Labs — Meta has acquired Conductor, an AI coding startup that lets software engineers manage multiple ",
+  "pubDate": "2026-11-04T18:50:00.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Madison Mills / Axios: Meta acquires Conductor, which lets developers run multiple AI coding agents in parallel; CEO Charlie Holtz says the team will join Meta Superintelligence Labs — Meta has acquired Conductor, an AI coding startup that lets software engineers manage multiple ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p46#a261104p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T18:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
