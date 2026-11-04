@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "6eab87348744b9ea",
+  "url": "https://www.techmeme.com/261103/p40#a261103p40",
+  "sourceName": "Techmeme",
+  "title": "Valve announces changes to Steam's review process, as a surge in game submissions pushes review times to \"up to 12 business days\", instead of the usual 3-5 days (Jay Peters/The Verge)",
+  "summary": "Jay Peters / The Verge: Valve announces changes to Steam's review process, as a surge in game submissions pushes review times to “up to 12 business days”, instead of the usual 3-5 days — Valve admits that it's now taking ‘up to 12 business days’ to game submissions.",
+  "pubDate": "2026-11-03T23:30:02.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Valve adjusting Steam's game review timelines—not an AI model release, research, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jay Peters / The Verge: Valve announces changes to Steam's review process, as a surge in game submissions pushes review times to “up to 12 business days”, instead of the usual 3-5 days — Valve admits that it's now taking ‘up to 12 business days’ to game submissions.",
+    "summaryChars": 266,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261103/p40#a261103p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-03T23:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
