@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "7274d352b0b75892",
+  "url": "https://longreads.com/2026/11/03/murder-friendship-doubt/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Have I Befriended a Murderer?",
+  "summary": "Article URL: https://longreads.com/2026/11/03/murder-friendship-doubt/ Comments URL: https://news.ycombinator.com/item?id=50369754 Points: 13 # Comments: 0",
+  "pubDate": "2026-11-04T18:40:54.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A Longreads personal essay about friendship and a murder case is not AI model release, AI research, AI industry news, AI policy, or an open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://longreads.com/2026/11/03/murder-friendship-doubt/ Comments URL: https://news.ycombinator.com/item?id=50369754 Points: 13 # Comments: 0",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://longreads.com/2026/11/03/murder-friendship-doubt/",
+    "linkHost": "longreads.com",
+    "pubDate": "2026-11-04T18:40:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
