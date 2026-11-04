@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "ec51e351ec2747a2",
+  "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+  "sourceName": "The Verge AI",
+  "title": "Apple starts giving Siri AI access to third-party apps",
+  "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process",
+  "pubDate": "2026-11-03T20:16:17.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Siri AI third-party app integration is a proprietary platform feature update, not a named model/major-version release with an official owner link (link is a Verge article, no observed author). It is not new research, financing/M&A/partnership, policy action, or open-source tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-03T20:16:17.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
