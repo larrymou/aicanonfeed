@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "5be970daedb2f3ba",
+  "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+  "sourceName": "Wired AI",
+  "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+  "summary": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
+  "pubDate": "2026-11-04T19:16:25.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/commentary with Hugging Face's CEO about existential risk and open source. No named model release, research artifact, business event, policy action, or OSS tool launch; no rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-04T19:16:25.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
