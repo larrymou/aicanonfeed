@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "bbaa8c0067b45fd4",
+  "url": "https://www.techmeme.com/261104/p44#a261104p44",
+  "sourceName": "Techmeme",
+  "title": "Sequoia raised ~$10B in new funds, and announces it is shutting down its Arc accelerator and Scouts program, merging its early-stage and growth teams, and more (Connie Loizos/TechCrunch)",
+  "summary": "Connie Loizos / TechCrunch: Sequoia raised ~$10B in new funds, and announces it is shutting down its Arc accelerator and Scouts program, merging its early-stage and growth teams, and more — Sequoia Capital posted a memo to X on Wednesday morning titled “The Sequoia of Tomorrow” t",
+  "pubDate": "2026-11-04T17:30:41.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Connie Loizos / TechCrunch: Sequoia raised ~$10B in new funds, and announces it is shutting down its Arc accelerator and Scouts program, merging its early-stage and growth teams, and more — Sequoia Capital posted a memo to X on Wednesday morning titled “The Sequoia of Tomorrow” t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p44#a261104p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T17:30:41.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
