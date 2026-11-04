@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "ef0e90236814fadb",
+  "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+  "sourceName": "TechCrunch AI",
+  "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+  "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+  "pubDate": "2026-11-04T16:51:35.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hands-on commentary/review of Apple's Siri Recaps feature; no named model release with official owner announcement, no research artifact, no business event (financing/M&A/partnership/market data), no policy action, and no open-source tooling release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-04T16:51:35.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
