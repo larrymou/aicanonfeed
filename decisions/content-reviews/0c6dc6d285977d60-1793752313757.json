@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793752187663-ict0nh",
+  "urlHash": "0c6dc6d285977d60",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Couldn't reproduce a published paper's numbers with its own code and settings. How do I present this? [R]",
+  "summary": "I'm writing a machine learning paper. One of my baselines is a published method. I reran it with the authors' released code and the exact hyperparameters listed in their paper. On most benchmarks my numbers match theirs within noise, but on two benchmarks my reproduction is clear",
+  "pubDate": "2026-11-02T19:00:24.000Z",
+  "decidedAt": "2026-11-04T00:29:56.916Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for advice on presenting a failed reproduction; no new research result, paper, or official source link. No rule covers commentary/questions.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm writing a machine learning paper. One of my baselines is a published method. I reran it with the authors' released code and the exact hyperparameters listed in their paper. On most benchmarks my numbers match theirs within noise, but on two benchmarks my reproduction is clear",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-02T19:00:24.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
