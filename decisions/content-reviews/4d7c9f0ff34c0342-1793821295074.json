@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793821164020-braekw",
+  "urlHash": "4d7c9f0ff34c0342",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnscvr/why_cant_conferences_just_reasonably_reduce_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Why can't conferences just reasonably reduce the cap on number of submissions? [D]",
+  "summary": "As per the the 2027 CVPR guidelines: \"Maximum number of submissions (continuing from CVPR 2026): Each author may submit at most 25 papers. If an author enrolls more than 25 papers, the Program Chairs (PCs) will desk-reject the submissions that exceed this limit (see the Desk Reje",
+  "pubDate": "2026-11-04T16:17:39.000Z",
+  "decidedAt": "2026-11-04T19:39:34.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post [D] about conference submission caps; commentary/opinion with no paper, benchmark, official announcement, business event, policy action, or OSS release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As per the the 2027 CVPR guidelines: \"Maximum number of submissions (continuing from CVPR 2026): Each author may submit at most 25 papers. If an author enrolls more than 25 papers, the Program Chairs (PCs) will desk-reject the submissions that exceed this limit (see the Desk Reje",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnscvr/why_cant_conferences_just_reasonably_reduce_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T16:17:39.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
