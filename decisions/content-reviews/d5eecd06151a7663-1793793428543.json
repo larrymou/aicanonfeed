@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793793390547-fbqmf4",
+  "urlHash": "d5eecd06151a7663",
+  "url": "https://news.ycombinator.com/item?id=50363461",
+  "sourceName": "Hacker News Front Page",
+  "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+  "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Googl",
+  "pubDate": "2026-11-04T10:10:27.000Z",
+  "decidedAt": "2026-11-04T11:56:39.997Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal-account privacy complaint/commentary about Gemini training on chat history. Not a named model release, research artifact, industry business event, policy action, or OSS tool launch; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Googl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://news.ycombinator.com/item?id=50363461",
+    "linkHost": "news.ycombinator.com",
+    "pubDate": "2026-11-04T10:10:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
