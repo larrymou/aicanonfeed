@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "4435ee3951d149fb",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnb5ju/ai_can_read_neural_network_weights_i_wasnt_ready/",
+  "sourceName": "r/MachineLearning new",
+  "title": "AI can read neural network weights. I wasn't ready for that. [D]",
+  "summary": "Give a model a 17,253-parameter net as plain tokenized text and it works out the net plays Pac-Man. Astra, Opus 5.5 and Muse Spark 1.3 all got it, and Astra did it with minimal reasoning. Nobody writes essays about what specific weights do, so where does this skill come from? Eit",
+  "pubDate": "2026-11-04T01:20:44.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post ([D]) with no link to an original paper, benchmark, official model announcement, or policy/industry source. Commentary only; no rule's artifact requirement is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Give a model a 17,253-parameter net as plain tokenized text and it works out the net plays Pac-Man. Astra, Opus 5.5 and Muse Spark 1.3 all got it, and Astra did it with minimal reasoning. Nobody writes essays about what specific weights do, so where does this skill come from? Eit",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnb5ju/ai_can_read_neural_network_weights_i_wasnt_ready/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T01:20:44.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
