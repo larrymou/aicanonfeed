@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "2128505f76f6bd52",
+  "url": "https://www.techmeme.com/261105/p18#a261105p18",
+  "sourceName": "Techmeme",
+  "title": "Study: UK consumer AI spending passes £1B annually, with 5.1% of adults paying for subscriptions as of July 2026; Claude is rapidly catching up to ChatGPT (Bloomberg)",
+  "summary": "Bloomberg: Study: UK consumer AI spending passes £1B annually, with 5.1% of adults paying for subscriptions as of July 2026; Claude is rapidly catching up to ChatGPT — UK consumers are spending over £1 billion ($1.4 billion) a year on artificial intelligence subscriptions …",
+  "pubDate": "2026-11-05T11:40:08.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Study: UK consumer AI spending passes £1B annually, with 5.1% of adults paying for subscriptions as of July 2026; Claude is rapidly catching up to ChatGPT — UK consumers are spending over £1 billion ($1.4 billion) a year on artificial intelligence subscriptions …",
+    "summaryChars": 274,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p18#a261105p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T11:40:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
