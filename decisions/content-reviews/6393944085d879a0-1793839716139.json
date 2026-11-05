@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "6393944085d879a0",
+  "url": "https://www.techmeme.com/261104/p53#a261104p53",
+  "sourceName": "Techmeme",
+  "title": "Snap reports Q3 revenue up 14% YoY to $1.72B, in line with est., and DAUs up 4% to 495M, vs. 499M est.; SNAP drops 9%+ after hours (Spencer Soper/Bloomberg)",
+  "summary": "Spencer Soper / Bloomberg: Snap reports Q3 revenue up 14% YoY to $1.72B, in line with est., and DAUs up 4% to 495M, vs. 499M est.; SNAP drops 9%+ after hours — Snap Inc. fell after the company reported third-quarter ad revenue and user growth that missed estimates, with Chief Exe",
+  "pubDate": "2026-11-04T21:40:00.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Snap Q3 earnings (revenue, DAUs, stock drop) is a general consumer-social-media financial report with no AI model, research, policy, or open-source tooling content; no active rule covers non-AI market data.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Spencer Soper / Bloomberg: Snap reports Q3 revenue up 14% YoY to $1.72B, in line with est., and DAUs up 4% to 495M, vs. 499M est.; SNAP drops 9%+ after hours — Snap Inc. fell after the company reported third-quarter ad revenue and user growth that missed estimates, with Chief Exe",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p53#a261104p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T21:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
