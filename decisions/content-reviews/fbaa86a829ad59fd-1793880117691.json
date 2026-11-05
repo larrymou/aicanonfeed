@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "fbaa86a829ad59fd",
+  "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+  "sourceName": "OpenAI Blog",
+  "title": "A thousand fewer paths to root",
+  "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+  "pubDate": "2026-11-04T08:00:00.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI engineering blog about an autonomous pipeline patching 948 Linux kernel privilege-escalation bugs. Not a model/version release, not a paper/preprint/benchmark artifact, not a business event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-04T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
