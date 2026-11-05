@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "335e94a0914635a1",
+  "url": "https://github.com/rivet-dev/rivet",
+  "sourceName": "Hacker News Front Page",
+  "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+  "summary": "Hey HN, this is Nathan and Nicholas from Rivet (https://rivet.dev) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3. Actors provide ",
+  "pubDate": "2026-11-05T17:17:42.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Launch HN announces Rivet, a new open-source orchestrator for agentic workloads on S3, with a link to its GitHub repository — an open-source developer tool/framework release under rule 5-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey HN, this is Nathan and Nicholas from Rivet (https://rivet.dev) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3. Actors provide ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/rivet-dev/rivet",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-05T17:17:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
