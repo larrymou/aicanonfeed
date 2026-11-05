@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "66f442c3c86a311c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+  "sourceName": "r/MachineLearning new",
+  "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Megatron-LM, setting by setting [P]",
+  "summary": "Handbook: https://huggingface.co/spaces/huggingface/moe-blogpost Hello, I'm Nouamane, one of the authors. I'm at Hugging Face and also worked on the Ultra-Scale and Smol Training Playbooks, if you've read those. This handbook is for people who have trained a dense model and want ",
+  "pubDate": "2026-11-05T19:13:51.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an educational handbook/tutorial about training MoE models with Megatron-LM, not a model release, research paper, industry business event, policy action, or new open-source tool/framework release. No rule covers tutorial content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Handbook: https://huggingface.co/spaces/huggingface/moe-blogpost Hello, I'm Nouamane, one of the authors. I'm at Hugging Face and also worked on the Ultra-Scale and Smol Training Playbooks, if you've read those. This handbook is for people who have trained a dense model and want ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-05T19:13:51.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
