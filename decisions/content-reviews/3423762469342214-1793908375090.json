@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "3423762469342214",
+  "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+  "sourceName": "Hacker News Front Page",
+  "title": "NTS: Authenticated Time at Meta",
+  "summary": "Article URL: https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/ Comments URL: https://news.ycombinator.com/item?id=50382525 Points: 9 # Comments: 3",
+  "pubDate": "2026-11-05T18:24:28.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta production-engineering post about NTS authenticated time; no AI model release, research artifact, business event, policy action, or open-source AI tool announced, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/ Comments URL: https://news.ycombinator.com/item?id=50382525 Points: 9 # Comments: 3",
+    "summaryChars": 189,
+    "summarySource": "summary",
+    "link": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+    "linkHost": "engineering.fb.com",
+    "pubDate": "2026-11-05T18:24:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
