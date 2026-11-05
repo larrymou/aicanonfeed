@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "86d5c720b5bd89c8",
+  "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Local privilege escalation vulnerabilities in Linux",
+  "summary": "Article URL: https://openai.com/index/a-thousand-fewer-paths-to-root/ Comments URL: https://news.ycombinator.com/item?id=50372929 Points: 35 # Comments: 21",
+  "pubDate": "2026-11-04T23:33:14.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title and summary describe Linux privilege-escalation vulnerabilities; no named AI model release, no research paper/benchmark artifact, no business, policy, or OSS tool announcement. No active rule covers this security write-up.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openai.com/index/a-thousand-fewer-paths-to-root/ Comments URL: https://news.ycombinator.com/item?id=50372929 Points: 35 # Comments: 21",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-04T23:33:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
