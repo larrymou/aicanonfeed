@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "9e49ad7916ca6612",
+  "url": "https://openai.com/index/introducing-images-2-6/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Introducing Images 2.6",
+  "summary": "Article URL: https://openai.com/index/introducing-images-2-6/ Comments URL: https://news.ycombinator.com/item?id=50372945 Points: 39 # Comments: 17",
+  "pubDate": "2026-11-04T23:35:44.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'Images 2.6' on openai.com does not establish a named model release under 1-1: version 2.6 is not N.0 form, no owner-labeled major version is observed (page body not observed), and no new capability is described. Not research, business, policy, or OSS tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openai.com/index/introducing-images-2-6/ Comments URL: https://news.ycombinator.com/item?id=50372945 Points: 39 # Comments: 17",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-images-2-6/",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-04T23:35:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
