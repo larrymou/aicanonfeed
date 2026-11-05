@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "25acc37db0e40d43",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+  "sourceName": "r/MachineLearning new",
+  "title": "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+  "summary": "Hi all, author here (Idiap Research Institute, joint work with Logitech). We recently released DialFork and thought it might interest people here. It's a benchmark for a failure mode of LLM agents that is easy to miss: every turn is fluent and factual, the tool calls are correct,",
+  "pubDate": "2026-11-05T10:44:15.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Benchmark announcement (research-flavored, [R] tag), but the only link is a Reddit discussion thread, not the original paper or an official source; rule 2-1's link condition is unmet and no other rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi all, author here (Idiap Research Institute, joint work with Logitech). We recently released DialFork and thought it might interest people here. It's a benchmark for a failure mode of LLM agents that is easy to miss: every turn is fluent and factual, the tool calls are correct,",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-05T10:44:15.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
