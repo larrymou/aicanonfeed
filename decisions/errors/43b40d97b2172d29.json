@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "43b40d97b2172d29",
+  "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Baidu released ERNIE 5.5 Flash Base",
+  "summary": "Article URL: https://ernie.baidu.com/release/ernie-5-5-flash-base/ Comments URL: https://news.ycombinator.com/item?id=50377078 Points: 49 # Comments: 30",
+  "pubDate": "2026-11-05T09:29:12.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ernie.baidu.com/release/ernie-5-5-flash-base/ Comments URL: https://news.ycombinator.com/item?id=50377078 Points: 49 # Comments: 30",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+    "linkHost": "ernie.baidu.com",
+    "pubDate": "2026-11-05T09:29:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
