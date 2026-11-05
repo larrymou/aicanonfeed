@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "e23d00acfc29d82d",
+  "url": "https://www.techmeme.com/261105/p49#a261105p49",
+  "sourceName": "Techmeme",
+  "title": "Google plans to spend $17B to build its first Wyoming data center, pay for all the power it uses, and form a Community Council to address growth concerns (Davey Alba/Bloomberg)",
+  "summary": "Davey Alba / Bloomberg: Google plans to spend $17B to build its first Wyoming data center, pay for all the power it uses, and form a Community Council to address growth concerns — Alphabet Inc.'s Google will spend $17 billion to build a data center in Wyoming, formally putting a ",
+  "pubDate": "2026-11-05T19:40:01.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Davey Alba / Bloomberg: Google plans to spend $17B to build its first Wyoming data center, pay for all the power it uses, and form a Community Council to address growth concerns — Alphabet Inc.'s Google will spend $17 billion to build a data center in Wyoming, formally putting a ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p49#a261105p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T19:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
