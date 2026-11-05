@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "4e8ffaf368b6a3e1",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xnzzgn/length_is_cheap_competition_is_not_attention/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval [R]",
+  "summary": "Author here. A short summary, since the title is a claim. Setup: key-value retrieval, 512 to 32K tokens, five open models (0.5B to 3B, four families). At equal length and equal evidence position, we fill the context either with neutral text or with statements in the format of the",
+  "pubDate": "2026-11-04T21:08:41.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post summarizing author's own claim; the link points to the Reddit thread, not to an original paper, arXiv preprint, or official source, and no linked_page_author/owner is observed. Rule 2-1's requirement of a link to the original research artifact is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Author here. A short summary, since the title is a claim. Setup: key-value retrieval, 512 to 32K tokens, five open models (0.5B to 3B, four families). At equal length and equal evidence position, we fill the context either with neutral text or with statements in the format of the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xnzzgn/length_is_cheap_competition_is_not_attention/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T21:08:41.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
