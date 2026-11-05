@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "ad1030df5ce46710",
+  "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+  "sourceName": "TechCrunch AI",
+  "title": "Apple is reportedly cutting budgets for its internal AI usage",
+  "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+  "pubDate": "2026-11-05T01:26:22.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Report of Apple cutting internal AI budgets is a cost-cutting rumor; it is not financing, M&A, a partnership, market/revenue data, or a product launch under 3-1, and has no model release, research artifact, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+    "summaryChars": 106,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-05T01:26:22.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
