@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "eb51572a63ba1f48",
+  "url": "https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "How to Lie With Statistics (1954) [pdf]",
+  "summary": "Article URL: https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf Comments URL: https://news.ycombinator.com/item?id=50382594 Points: 26 # Comments: 2",
+  "pubDate": "2026-11-05T18:29:22.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a 1954 statistics book PDF posted on Hacker News; it reports no new AI research artifact, model release, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf Comments URL: https://news.ycombinator.com/item?id=50382594 Points: 26 # Comments: 2",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf",
+    "linkHost": "www.horace.org",
+    "pubDate": "2026-11-05T18:29:22.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
