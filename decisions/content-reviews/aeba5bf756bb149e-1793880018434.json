@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "aeba5bf756bb149e",
+  "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Awesome repositories are no longer awesome",
+  "summary": "Article URL: https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/ Comments URL: https://news.ycombinator.com/item?id=50377821 Points: 18 # Comments: 9",
+  "pubDate": "2026-11-05T11:16:51.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece about 'awesome repositories' quality; no AI model release, research artifact, industry business event, policy action, or new open-source tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/ Comments URL: https://news.ycombinator.com/item?id=50377821 Points: 18 # Comments: 9",
+    "summaryChars": 181,
+    "summarySource": "summary",
+    "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+    "linkHost": "erikgahner.github.io",
+    "pubDate": "2026-11-05T11:16:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
