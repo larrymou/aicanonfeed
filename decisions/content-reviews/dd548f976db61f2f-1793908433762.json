@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "dd548f976db61f2f",
+  "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
+  "sourceName": "Wired AI",
+  "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
+  "summary": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”",
+  "pubDate": "2026-11-05T16:26:57.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/interview with Reddit's founder about social media's direction; no model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-05T16:26:57.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
