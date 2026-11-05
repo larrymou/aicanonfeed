@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "bfa418821b32c66c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[P] NKI layer megakernels for GLM-5.3-Flash on AWS Trainium2: where a decode step's time went, and what we changed [P]",
+  "summary": "We wrote an inference engine for AWS Trainium2 that serves GLM-5.3-Flash (320B MoE, 1M-token context) on one trn2.48xlarge, and open-sourced it. Most of the work went into decode, and the part I found most interesting is how little of a decode step was the model's actual math. In",
+  "pubDate": "2026-11-04T21:47:55.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Third-party Reddit post about an open-source Trainium2 inference engine for GLM-5.3-Flash; no official owner model-release link, no paper, no business event, and no repository/official announcement link for a tools-OSS claim.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We wrote an inference engine for AWS Trainium2 that serves GLM-5.3-Flash (320B MoE, 1M-token context) on one trn2.48xlarge, and open-sourced it. Most of the work went into decode, and the part I found most interesting is how little of a decode step was the model's actual math. In",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-04T21:47:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
