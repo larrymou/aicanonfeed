@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "aafa56eb626cdd3b",
+  "url": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+  "sourceName": "Wired AI",
+  "title": "He Trolls AI Labs for a Living. Now They All Want to Work With Him",
+  "summary": "OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.",
+  "pubDate": "2026-11-05T11:45:00.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Profile/commentary piece about an influencer who critiques chatbots. No named model release, no research artifact, no business event (financing/M&A/partnership) announcement, no policy action, and no open-source tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-05T11:45:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
