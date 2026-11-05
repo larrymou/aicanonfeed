@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "25fa4dd18ec78a48",
+  "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+  "sourceName": "OpenAI Blog",
+  "title": "Setting a new standard for responsible AI infrastructure",
+  "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+  "pubDate": "2026-11-05T02:00:00.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI's National Community Compact and Compute Campus Policy Blueprint is corporate policy advocacy, not a government policy action (R4-1 excludes self-regulation/commentary), nor a model release, research artifact, business event, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-05T02:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
