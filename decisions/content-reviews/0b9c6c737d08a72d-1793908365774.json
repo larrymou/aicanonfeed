@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "0b9c6c737d08a72d",
+  "url": "https://www.techmeme.com/261105/p45#a261105p45",
+  "sourceName": "Techmeme",
+  "title": "California's Proposition 40, which proposes a one-time 5% tax on assets of billionaires for healthcare funding, seems headed for defeat as vote counts continue (Los Angeles Times)",
+  "summary": "Los Angeles Times: California's Proposition 40, which proposes a one-time 5% tax on assets of billionaires for healthcare funding, seems headed for defeat as vote counts continue — - 7 min Click here to listen to this article — Despite a nationwide blue wave in the midterm electi",
+  "pubDate": "2026-11-05T18:50:00.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a California billionaire asset-tax proposition (Prop 40) with no AI model, research, industry, AI policy, or open-source tooling component; no active rule covers general tax/electoral news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Los Angeles Times: California's Proposition 40, which proposes a one-time 5% tax on assets of billionaires for healthcare funding, seems headed for defeat as vote counts continue — - 7 min Click here to listen to this article — Despite a nationwide blue wave in the midterm electi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p45#a261105p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T18:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
