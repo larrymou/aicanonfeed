@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "b9d103d4bb4ed2d8",
+  "url": "https://www.techmeme.com/261105/p47#a261105p47",
+  "sourceName": "Techmeme",
+  "title": "Sources: about 600,000 of Nvidia's H200 chips are stored in Hong Kong awaiting shipment to mainland China, as Beijing withholds approval for large-scale imports (Reuters)",
+  "summary": "Reuters: Sources: about 600,000 of Nvidia's H200 chips are stored in Hong Kong awaiting shipment to mainland China, as Beijing withholds approval for large-scale imports — About 600,000 of Nvidia's advanced artificial intelligence chips are stored in Hong Kong awaiting shipment t",
+  "pubDate": "2026-11-05T19:20:02.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Nvidia H200 chip inventory held in Hong Kong pending Beijing import approval. It is not a model release, research artifact, OSS tool, and it fits none of rule 3-1's enumerated business events (financing, M&A, partnerships, market/revenue data, non-model product launch); no official poli",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: about 600,000 of Nvidia's H200 chips are stored in Hong Kong awaiting shipment to mainland China, as Beijing withholds approval for large-scale imports — About 600,000 of Nvidia's advanced artificial intelligence chips are stored in Hong Kong awaiting shipment t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p47#a261105p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T19:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
