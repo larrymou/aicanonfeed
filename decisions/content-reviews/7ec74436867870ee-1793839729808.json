@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "7ec74436867870ee",
+  "url": "https://dbushell.com/2026/11/03/xslt-rip/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Death Comes for XSLT",
+  "summary": "Article URL: https://dbushell.com/2026/11/03/xslt-rip/ Comments URL: https://news.ycombinator.com/item?id=50371408 Points: 34 # Comments: 10",
+  "pubDate": "2026-11-04T20:57:10.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Article about XSLT (a web styling/transformation language), not an AI model release, research result, industry business event, policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://dbushell.com/2026/11/03/xslt-rip/ Comments URL: https://news.ycombinator.com/item?id=50371408 Points: 34 # Comments: 10",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://dbushell.com/2026/11/03/xslt-rip/",
+    "linkHost": "dbushell.com",
+    "pubDate": "2026-11-04T20:57:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
