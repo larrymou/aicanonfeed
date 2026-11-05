@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "0ee5115bb8658d79",
+  "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+  "sourceName": "TechCrunch AI",
+  "title": "After the midterms, a bigger clash over data centers could be coming",
+  "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+  "pubDate": "2026-11-05T01:02:14.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is political commentary about data center opposition in midterms; no AI model release, research artifact, business event (financing/M&A/partnership/market data/product launch), official policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+    "summaryChars": 65,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-05T01:02:14.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
