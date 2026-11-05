@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "8f58f94e0d399c24",
+  "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+  "sourceName": "Wired AI",
+  "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+  "summary": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+  "pubDate": "2026-11-04T20:41:29.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers election spending by a pro-AI Super PAC, not a new law, executive order, regulatory enforcement, or official policy announcement (R4-1 excludes non-policy action). It is also not an industry business event, model release, research result, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+    "summaryChars": 198,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-04T20:41:29.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
