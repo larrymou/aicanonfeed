@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "7c6c81b8ef712d4f",
+  "url": "https://jaytholen.net/teengamedev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Being a kid making games in the early 2000s",
+  "summary": "Article URL: https://jaytholen.net/teengamedev/ Comments URL: https://news.ycombinator.com/item?id=50375691 Points: 22 # Comments: 3",
+  "pubDate": "2026-11-05T05:53:53.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal nostalgia article about childhood game development in the early 2000s; no AI model release, research artifact, industry business event, policy action, or open-source AI tool is reported. No rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://jaytholen.net/teengamedev/ Comments URL: https://news.ycombinator.com/item?id=50375691 Points: 22 # Comments: 3",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://jaytholen.net/teengamedev/",
+    "linkHost": "jaytholen.net",
+    "pubDate": "2026-11-05T05:53:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
