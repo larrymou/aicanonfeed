@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "1e37220378c13e70",
+  "url": "https://www.techmeme.com/261105/p17#a261105p17",
+  "sourceName": "Techmeme",
+  "title": "X is rolling out a redesigned web app country by country for signed-in users, with a single unified server, saying it improves load times over slow connections (Jay Peters/The Verge)",
+  "summary": "Jay Peters / The Verge: X is rolling out a redesigned web app country by country for signed-in users, with a single unified server, saying it improves load times over slow connections — X is moving signed-in users to its new web app one country at a time, but it's already using t",
+  "pubDate": "2026-11-05T11:30:55.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers X's redesigned web app rollout; it is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tooling. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jay Peters / The Verge: X is rolling out a redesigned web app country by country for signed-in users, with a single unified server, saying it improves load times over slow connections — X is moving signed-in users to its new web app one country at a time, but it's already using t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p17#a261105p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T11:30:55.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
