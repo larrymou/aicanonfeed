@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "2a534a9150d0a24d",
+  "url": "https://www.techmeme.com/261104/p57#a261104p57",
+  "sourceName": "Techmeme",
+  "title": "OpenAI launches Images 2.6 in ChatGPT, Codex, and the API, saying it generates images 50% faster, and adds animated GIF creation from prompts or photos (Emma Roth/The Verge)",
+  "summary": "Emma Roth / The Verge: OpenAI launches Images 2.6 in ChatGPT, Codex, and the API, saying it generates images 50% faster, and adds animated GIF creation from prompts or photos — You can use ChatGPT to edit a GIF's animation speed and individual frames. … ChatGPT can now create GIF",
+  "pubDate": "2026-11-05T00:40:01.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names OpenAI Images 2.6 and a new GIF capability, but the only link is a Techmeme aggregator; no official OpenAI page or full news article on a non-owner domain with a linked-page author/date is observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Emma Roth / The Verge: OpenAI launches Images 2.6 in ChatGPT, Codex, and the API, saying it generates images 50% faster, and adds animated GIF creation from prompts or photos — You can use ChatGPT to edit a GIF's animation speed and individual frames. … ChatGPT can now create GIF",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p57#a261104p57",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T00:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
