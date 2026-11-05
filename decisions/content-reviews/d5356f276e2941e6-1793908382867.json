@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "d5356f276e2941e6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xopogt/i_animated_how_a_language_model_picks_the_next/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I animated how a language model picks the next token, with real probabilities from Qwen2.5-0.5B: softmax, greedy vs sampling, temperature, top-k, top-p (7 min video) [D]",
+  "summary": "I made this explainer for my small channel and would like feedback from people learning this, especially if anything is wrong. It follows one real example the whole way. I gave Qwen2.5-0.5B-Instruct \"Write one sentence about the moon.\" twice with the same settings (temperature 1,",
+  "pubDate": "2026-11-05T18:05:55.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "An educational explainer video animating token sampling with Qwen2.5-0.5B; it is not a new model release, research paper/benchmark, industry business event, policy action, or open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I made this explainer for my small channel and would like feedback from people learning this, especially if anything is wrong. It follows one real example the whole way. I gave Qwen2.5-0.5B-Instruct \"Write one sentence about the moon.\" twice with the same settings (temperature 1,",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xopogt/i_animated_how_a_language_model_picks_the_next/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-05T18:05:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
