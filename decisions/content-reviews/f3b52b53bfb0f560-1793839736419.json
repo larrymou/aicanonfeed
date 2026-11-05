@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "f3b52b53bfb0f560",
+  "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+  "sourceName": "Ars Technica AI",
+  "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+  "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+  "pubDate": "2026-11-04T20:55:50.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ars Technica piece is industry commentary/framing about electoral backlash to AI, not a model release, research artifact, business event, OSS tool, or an official policy action/law; no official document or specific regulation is cited, so no rule clearly covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-04T20:55:50.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
