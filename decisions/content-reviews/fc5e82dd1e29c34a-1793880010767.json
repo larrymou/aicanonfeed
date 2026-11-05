@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "fc5e82dd1e29c34a",
+  "url": "https://www.techmeme.com/261105/p16#a261105p16",
+  "sourceName": "Techmeme",
+  "title": "Sources: at Jensen Huang's election event, tech executives expressed concern over anti-data center results; OpenAI discussed resetting its 2027 capacity plans (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: at Jensen Huang's election event, tech executives expressed concern over anti-data center results; OpenAI discussed resetting its 2027 capacity plans — Americans' vote for anti-data center candidates and ballot measures could rein in AI's expansion a",
+  "pubDate": "2026-11-05T11:25:05.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme/WSJ report on executives' reactions to anti-data-center election results and OpenAI capacity planning is neither a model release, research artifact, financing/M&A/partnership/market data or non-model product launch, official policy action, nor an OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: at Jensen Huang's election event, tech executives expressed concern over anti-data center results; OpenAI discussed resetting its 2027 capacity plans — Americans' vote for anti-data center candidates and ballot measures could rein in AI's expansion a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p16#a261105p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T11:25:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
