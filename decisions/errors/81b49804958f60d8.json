@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "81b49804958f60d8",
+  "url": "https://www.techmeme.com/261104/p55#a261104p55",
+  "sourceName": "Techmeme",
+  "title": "Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7% (Reuters)",
+  "summary": "Reuters: Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7% — Wall Street closed sharply higher on Wednesday as Democrats' sweeping midterm election victory eased politica",
+  "pubDate": "2026-11-04T23:30:01.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7% — Wall Street closed sharply higher on Wednesday as Democrats' sweeping midterm election victory eased politica",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261104/p55#a261104p55",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-04T23:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
