@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "8d6f6c8bc49c9de3",
+  "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+  "sourceName": "TechCrunch AI",
+  "title": "Meta acquires AI coding startup Conductor",
+  "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+  "pubDate": "2026-11-04T21:10:56.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-04T21:10:56.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
