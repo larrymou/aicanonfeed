@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "9ff8b42e85e7940a",
+  "url": "https://www.techmeme.com/261105/p15#a261105p15",
+  "sourceName": "Techmeme",
+  "title": "Hugging Face CEO Clément Delangue says his P(doom) is \"close to zero\", arguing that future AI risks stem from closed frontier AI labs, not open-source systems (Will Knight/Wired)",
+  "summary": "Will Knight / Wired: Hugging Face CEO Clément Delangue says his P(doom) is “close to zero”, arguing that future AI risks stem from closed frontier AI labs, not open-source systems — “Most of the risk is actually created by a couple of players building behind closed doors,” Clémen",
+  "pubDate": "2026-11-05T11:20:03.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is opinion/commentary from Hugging Face's CEO about AI risk (P(doom) near zero). No model release, research artifact, business event, policy action, or OSS tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will Knight / Wired: Hugging Face CEO Clément Delangue says his P(doom) is “close to zero”, arguing that future AI risks stem from closed frontier AI labs, not open-source systems — “Most of the risk is actually created by a couple of players building behind closed doors,” Clémen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p15#a261105p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T11:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
