@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "5cacd2f820ca01e9",
+  "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+  "sourceName": "Hacker News Front Page",
+  "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+  "summary": "Article URL: https://hachyderm.io/@damienmiller/117563026759098135 Comments URL: https://news.ycombinator.com/item?id=50377221 Points: 36 # Comments: 7",
+  "pubDate": "2026-11-05T09:46:17.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenSSH 10.6p2 security release is not an AI model, research, industry business event, policy action, or AI open-source tool; no active rule covers general non-AI software releases.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://hachyderm.io/@damienmiller/117563026759098135 Comments URL: https://news.ycombinator.com/item?id=50377221 Points: 36 # Comments: 7",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://hachyderm.io/@damienmiller/117563026759098135",
+    "linkHost": "hachyderm.io",
+    "pubDate": "2026-11-05T09:46:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
