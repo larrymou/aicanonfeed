@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "c806cb54cf0bad11",
+  "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+  "sourceName": "Hacker News Front Page",
+  "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+  "summary": "Article URL: https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026 Comments URL: https://news.ycombinator.com/item?id=50382179 Points: 117 # Comments: 112",
+  "pubDate": "2026-11-05T18:00:01.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/market event: Nasdaq falling 5% as investors retreat from the AI trade, linked to a reputable media report (WSJ). Fits the market-data clause of the industry rule; no model release, research artifact, policy action, or OSS tooling involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026 Comments URL: https://news.ycombinator.com/item?id=50382179 Points: 117 # Comments: 112",
+    "summaryChars": 181,
+    "summarySource": "summary",
+    "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+    "linkHost": "www.wsj.com",
+    "pubDate": "2026-11-05T18:00:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
