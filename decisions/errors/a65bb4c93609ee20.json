@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793879982406-5e2bip",
+  "urlHash": "a65bb4c93609ee20",
+  "url": "https://www.techmeme.com/261105/p19#a261105p19",
+  "sourceName": "Techmeme",
+  "title": "Amazon partners with Uber to make Uber Eats the \"official\" US restaurant delivery partner for Amazon Prime subscribers, after previously partnering with Grubhub (Andrew J. Hawkins/The Verge)",
+  "summary": "Andrew J. Hawkins / The Verge: Amazon partners with Uber to make Uber Eats the “official” US restaurant delivery partner for Amazon Prime subscribers, after previously partnering with Grubhub — Prime members can now order takeout straight from the Amazon app or website with waive",
+  "pubDate": "2026-11-05T11:50:06.000Z",
+  "decidedAt": "2026-11-05T11:59:50.745Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew J. Hawkins / The Verge: Amazon partners with Uber to make Uber Eats the “official” US restaurant delivery partner for Amazon Prime subscribers, after previously partnering with Grubhub — Prime members can now order takeout straight from the Amazon app or website with waive",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p19#a261105p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-05T11:50:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
