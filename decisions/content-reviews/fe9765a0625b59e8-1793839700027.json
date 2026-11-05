@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793839637336-y9qch7",
+  "urlHash": "fe9765a0625b59e8",
+  "url": "https://icode4.coffee/?p=1746",
+  "sourceName": "Hacker News Front Page",
+  "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+  "summary": "Article URL: https://icode4.coffee/?p=1746 Comments URL: https://news.ycombinator.com/item?id=50372164 Points: 48 # Comments: 2",
+  "pubDate": "2026-11-04T22:01:49.000Z",
+  "decidedAt": "2026-11-05T00:47:22.778Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Xbox 360 hypervisor hacking/security research; no AI model release, AI research paper, industry business event, policy action, or open-source AI tooling is described. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://icode4.coffee/?p=1746 Comments URL: https://news.ycombinator.com/item?id=50372164 Points: 48 # Comments: 2",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://icode4.coffee/?p=1746",
+    "linkHost": "icode4.coffee",
+    "pubDate": "2026-11-04T22:01:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
