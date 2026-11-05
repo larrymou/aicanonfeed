@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793908295085-fvhdru",
+  "urlHash": "94c971e34f7981b0",
+  "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+  "sourceName": "The Verge AI",
+  "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+  "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it rele",
+  "pubDate": "2026-11-05T17:00:00.000Z",
+  "decidedAt": "2026-11-05T19:51:43.513Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Entertainment news about an AI-generated film casting Grimes; no AI model release, research artifact, industry business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it rele",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
