@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "72359a442de9fcf7",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xpf4t6/iclr27_reviewer_says_my_paper_is_too_close_to_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR27: Reviewer says my paper is too close to the same paper that I previously had in a workshop. [D]",
+  "summary": "I submitted my paper to ICLR, after improving and correcting since I \"published\" it previously in a workshop/arXiv. In this process, I changed the name of the method and title. Now a reviewer, pointed out that my method is very closely related to basically an old version of my pa",
+  "pubDate": "2026-11-06T15:09:18.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for advice about an ICLR reviewer conflict; it links to no paper, official source, product, policy action, or repository, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I submitted my paper to ICLR, after improving and correcting since I \"published\" it previously in a workshop/arXiv. In this process, I changed the name of the method and title. Now a reviewer, pointed out that my method is very closely related to basically an old version of my pa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xpf4t6/iclr27_reviewer_says_my_paper_is_too_close_to_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-06T15:09:18.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
