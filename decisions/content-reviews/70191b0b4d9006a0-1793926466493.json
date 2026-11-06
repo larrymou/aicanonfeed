@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "70191b0b4d9006a0",
+  "url": "https://www.techmeme.com/261105/p62#a261105p62",
+  "sourceName": "Techmeme",
+  "title": "Sources: cloud security startup Cyera is planning to raise around $800M in a round led by Cyberstarts at a $20B valuation, up from $12B in June (Aaron Holmes/The Information)",
+  "summary": "Aaron Holmes / The Information: Sources: cloud security startup Cyera is planning to raise around $800M in a round led by Cyberstarts at a $20B valuation, up from $12B in June — Last week my colleagues Jemima and Valida scooped that Cyera, a five-year-old cloud security startup, ",
+  "pubDate": "2026-11-06T00:20:06.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a funding round for Cyera, a cloud security startup, with no AI model, research artifact, policy action, or open-source tooling. Content contains no fact establishing AI relevance, so no active rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Aaron Holmes / The Information: Sources: cloud security startup Cyera is planning to raise around $800M in a round led by Cyberstarts at a $20B valuation, up from $12B in June — Last week my colleagues Jemima and Valida scooped that Cyera, a five-year-old cloud security startup, ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p62#a261105p62",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T00:20:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
