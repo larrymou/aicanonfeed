@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "1f535d9fd6b5ad37",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xov58r/empirical_evaluation_of_sparse_predictive/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Empirical Evaluation of Sparse Predictive Hierarchies (SPH) & Non-Backprop Learning on Chess (Lc0 Baseline) Negative Result [R]",
+  "summary": "Hi everyone, I wanted to share an empirical study testing whether biologically inspired architectures with local learning rules, specifically Sparse Predictive Hierarchies (SPH) based on Ogma's whitepapers (AOgmaNeo) can handle complex policy/value prediction tasks without end-to",
+  "pubDate": "2026-11-05T21:40:01.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post about an empirical negative-result study; no link to an original paper, arXiv preprint, or official source is observed, so rule 2-1's artifact requirement is unmet. Not a model release, industry event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi everyone, I wanted to share an empirical study testing whether biologically inspired architectures with local learning rules, specifically Sparse Predictive Hierarchies (SPH) based on Ogma's whitepapers (AOgmaNeo) can handle complex policy/value prediction tasks without end-to",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xov58r/empirical_evaluation_of_sparse_predictive/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-05T21:40:01.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
