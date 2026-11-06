@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "802fe2a0170cd882",
+  "url": "https://www.techmeme.com/261106/p18#a261106p18",
+  "sourceName": "Techmeme",
+  "title": "Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips (Brody Ford/Bloomberg)",
+  "summary": "Brody Ford / Bloomberg: Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips — Microsoft Corp. is winding down an arrangement to rent AI computing from Oracle Corp., part o",
+  "pubDate": "2026-11-06T18:05:03.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Brody Ford / Bloomberg: Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips — Microsoft Corp. is winding down an arrangement to rent AI computing from Oracle Corp., part o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p18#a261106p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T18:05:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
