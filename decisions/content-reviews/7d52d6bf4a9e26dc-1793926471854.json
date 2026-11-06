@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "7d52d6bf4a9e26dc",
+  "url": "https://www.techmeme.com/261105/p61#a261105p61",
+  "sourceName": "Techmeme",
+  "title": "Thinking Machines Lab debuts Inkling 2 Small, a MoE model with 594B total and 17B active parameters, and plans to release weights next week after safety testing (Thinking Machines Lab)",
+  "summary": "Thinking Machines Lab: Thinking Machines Lab debuts Inkling 2 Small, a MoE model with 594B total and 17B active parameters, and plans to release weights next week after safety testing — {\"selector\":\"[data-shape]\",\"layers\":[{\" nodes\":[22, 33,24,44,35,46],\"edges\":[[22,33],[33, 44],",
+  "pubDate": "2026-11-06T00:15:00.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Named model (Inkling 2 Small) and release action fit R1, but evidence link fails: linkHost is techmeme.com (not Thinking Machines Lab's own site) and no author or owner domain is observed, so no official announcement page or authored news article is established.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Thinking Machines Lab: Thinking Machines Lab debuts Inkling 2 Small, a MoE model with 594B total and 17B active parameters, and plans to release weights next week after safety testing — {\"selector\":\"[data-shape]\",\"layers\":[{\" nodes\":[22, 33,24,44,35,46],\"edges\":[[22,33],[33, 44],",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p61#a261105p61",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T00:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
