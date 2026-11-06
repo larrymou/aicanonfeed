@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "1ebc0fcad61a0f69",
+  "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+  "sourceName": "Ars Technica AI",
+  "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+  "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
+  "pubDate": "2026-11-05T21:39:40.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A civil lawsuit over misuse of ChatGPT is not a model release, research artifact, industry business event (financing/M&A/partnership/product launch), official policy action, or open-source tool release. No active rule covers litigation.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-05T21:39:40.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
