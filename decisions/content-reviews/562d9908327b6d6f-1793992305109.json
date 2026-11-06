@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "562d9908327b6d6f",
+  "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+  "sourceName": "Ars Technica AI",
+  "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+  "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+  "pubDate": "2026-11-06T17:43:02.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meta dropping a commercial-terms update about AI training on linked content is a corporate policy/terms retreat, not a model release, research artifact, industry business event (financing/M&A/partnership/market data/product launch), or government policy action. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-06T17:43:02.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
