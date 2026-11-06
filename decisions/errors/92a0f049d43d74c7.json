@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "92a0f049d43d74c7",
+  "url": "https://www.techmeme.com/261106/p8#a261106p8",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips (Mackenzie Hawkins/Bloomberg)",
+  "summary": "Mackenzie Hawkins / Bloomberg: Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips — Nvidia Corp. is stepping up monitoring of AI accelerators sold in Southeast Asia, a strat",
+  "pubDate": "2026-11-06T11:30:01.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mackenzie Hawkins / Bloomberg: Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips — Nvidia Corp. is stepping up monitoring of AI accelerators sold in Southeast Asia, a strat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p8#a261106p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T11:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
