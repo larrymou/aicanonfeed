@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "59ac2bc495e5ad3c",
+  "url": "https://www.techmeme.com/261106/p17#a261106p17",
+  "sourceName": "Techmeme",
+  "title": "The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys at major international law firms in a $129M+ fraud scheme (Rebecca Cohen/NBC News)",
+  "summary": "Rebecca Cohen / NBC News: The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys at major international law firms in a $129M+ fraud scheme — Federal prosecutors say the suspects posed as corporate executives and high-powered attorneys,",
+  "pubDate": "2026-11-06T17:35:00.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a DOJ criminal indictment over AI-assisted impersonation fraud, not an AI policy/regulatory action, model release, research artifact, business event, or OSS tool; the link is a Techmeme aggregator page, not an official document or original outlet article.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Rebecca Cohen / NBC News: The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys at major international law firms in a $129M+ fraud scheme — Federal prosecutors say the suspects posed as corporate executives and high-powered attorneys,",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p17#a261106p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T17:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
