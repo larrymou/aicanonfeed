@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "d18ddd9c12e46dd9",
+  "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+  "sourceName": "Hacker News Front Page",
+  "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+  "summary": "Article URL: https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105 Comments URL: https://news.ycombinator.com/item?id=50390124 Points: 133 # Comments: 81",
+  "pubDate": "2026-11-06T09:27:12.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a GitHub issue about a Dutch bank (ASN) blocking non-Google Android/GrapheneOS. It is not an AI model release, AI research, AI industry business event, AI policy action, or an open-source AI tool/framework, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105 Comments URL: https://news.ycombinator.com/item?id=50390124 Points: 133 # Comments: 81",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-06T09:27:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
