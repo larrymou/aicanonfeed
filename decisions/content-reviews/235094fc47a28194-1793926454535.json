@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "235094fc47a28194",
+  "url": "https://www.techmeme.com/261105/p64#a261105p64",
+  "sourceName": "Techmeme",
+  "title": "Lyft reports Q3 revenue up 8% YoY to $1.82B, vs. $1.92B est., and a net loss of $0.03 a share, vs. an est. profit of $0.20 a share; LYFT drops 8%+ after hours (Kelly Cloonan/Wall Street Journal)",
+  "summary": "Kelly Cloonan / Wall Street Journal: Lyft reports Q3 revenue up 8% YoY to $1.82B, vs. $1.92B est., and a net loss of $0.03 a share, vs. an est. profit of $0.20 a share; LYFT drops 8%+ after hours — However, the ride-hailing platform's top and bottom lines were dented by legal, ta",
+  "pubDate": "2026-11-06T00:45:01.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Lyft Q3 earnings report (revenue, net loss, stock drop) is a general ride-hailing financial news item with no AI model, research, policy, or AI tooling content; no active rule covers non-AI industry earnings.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kelly Cloonan / Wall Street Journal: Lyft reports Q3 revenue up 8% YoY to $1.82B, vs. $1.92B est., and a net loss of $0.03 a share, vs. an est. profit of $0.20 a share; LYFT drops 8%+ after hours — However, the ride-hailing platform's top and bottom lines were dented by legal, ta",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p64#a261105p64",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T00:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
