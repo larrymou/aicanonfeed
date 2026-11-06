@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "5eb6f69cfb37a9ae",
+  "url": "https://jhr.pensoft.net/articles.php?id=9096",
+  "sourceName": "Hacker News Front Page",
+  "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+  "summary": "Article URL: https://jhr.pensoft.net/articles.php?id=9096 Comments URL: https://news.ycombinator.com/item?id=50390525 Points: 39 # Comments: 11",
+  "pubDate": "2026-11-06T10:21:15.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a biology/ecology article about wood ants in a pitfall trap; no AI model release, research artifact, industry event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://jhr.pensoft.net/articles.php?id=9096 Comments URL: https://news.ycombinator.com/item?id=50390525 Points: 39 # Comments: 11",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://jhr.pensoft.net/articles.php?id=9096",
+    "linkHost": "jhr.pensoft.net",
+    "pubDate": "2026-11-06T10:21:15.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
