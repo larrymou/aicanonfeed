@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "b8f730e3ceef74f7",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xpkp8q/iclr_reviewer_rubricd/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR reviewer rubric[D]",
+  "summary": "Dear all could anyone please be kind enough to comment below the ICLR rubric and grading reviewers were told to use along w the subscores and overall scores? I'd be super grateful. Thanks a lot in advance. submitted by /u/Anshuman3480 [link] [comments]",
+  "pubDate": "2026-11-06T18:45:46.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit community post asking others to share the ICLR reviewer rubric; no model release, research artifact, industry event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dear all could anyone please be kind enough to comment below the ICLR rubric and grading reviewers were told to use along w the subscores and overall scores? I'd be super grateful. Thanks a lot in advance. submitted by /u/Anshuman3480 [link] [comments]",
+    "summaryChars": 252,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xpkp8q/iclr_reviewer_rubricd/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-06T18:45:46.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
