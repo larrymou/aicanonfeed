@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "5fc46c145ed1156b",
+  "url": "https://www.techmeme.com/261106/p7#a261106p7",
+  "sourceName": "Techmeme",
+  "title": "Elon Musk says Tesla plans to wind down production of the Cybertruck at its Texas Gigafactory in mid-2027 \"to make room for increased Cybercab production\" (Kana Inagaki/Financial Times)",
+  "summary": "Kana Inagaki / Financial Times: Elon Musk says Tesla plans to wind down production of the Cybertruck at its Texas Gigafactory in mid-2027 “to make room for increased Cybercab production” — Carmaker will wind down production of futuristic pick-up truck at its gigafactory in Texas",
+  "pubDate": "2026-11-06T10:40:01.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Tesla ending Cybertruck production to shift to Cybercab manufacturing; no AI model release, research, industry-AI business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kana Inagaki / Financial Times: Elon Musk says Tesla plans to wind down production of the Cybertruck at its Texas Gigafactory in mid-2027 “to make room for increased Cybercab production” — Carmaker will wind down production of futuristic pick-up truck at its gigafactory in Texas",
+    "summaryChars": 279,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p7#a261106p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T10:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
