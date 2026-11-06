@@ -1,0 +1,43 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "dbe9554da67aea58",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.15",
+  "summary": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog: v0.40.14...v0.40.15-rc0",
+  "pubDate": "2026-11-05T23:03:42.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Ollama v0.40.15 release (library/framework update) published on its GitHub repository, matching the open-source tooling rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog: v0.40.14...v0.40.15-rc0",
+    "summaryChars": 188,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-05T23:03:42.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
