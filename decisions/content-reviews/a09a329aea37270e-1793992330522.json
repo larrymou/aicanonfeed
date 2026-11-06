@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "a09a329aea37270e",
+  "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+  "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability ",
+  "pubDate": "2026-11-06T17:09:23.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Technical how-to blog post (Part 2) about governing AI agent access using Okta and Amazon Bedrock AgentCore. No new model release, research artifact, business event, policy action, or new open-source tool/framework release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-06T17:09:23.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
