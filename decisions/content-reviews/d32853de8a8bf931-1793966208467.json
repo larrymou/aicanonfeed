@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "d32853de8a8bf931",
+  "url": "https://obelisk.club/research/app-store-2026",
+  "sourceName": "Hacker News Front Page",
+  "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+  "summary": "Article URL: https://obelisk.club/research/app-store-2026 Comments URL: https://news.ycombinator.com/item?id=50389448 Points: 49 # Comments: 44",
+  "pubDate": "2026-11-06T07:59:19.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Third-party 'App Store 2026 in numbers' analysis with no named AI model release, no research artifact, no policy action, no OSS tool, and no identifiable AI business event (financing/M&A/partnership) in the observed fields. No rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://obelisk.club/research/app-store-2026 Comments URL: https://news.ycombinator.com/item?id=50389448 Points: 49 # Comments: 44",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://obelisk.club/research/app-store-2026",
+    "linkHost": "obelisk.club",
+    "pubDate": "2026-11-06T07:59:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
