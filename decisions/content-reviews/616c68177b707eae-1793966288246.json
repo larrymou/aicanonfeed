@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "616c68177b707eae",
+  "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+  "sourceName": "OpenAI Blog",
+  "title": "Australian universities are creating AI-native graduates",
+  "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+  "pubDate": "2026-11-05T17:00:00.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI blog customer/education story about universities adopting ChatGPT. No named model release or new capability, no research artifact, no policy action, no OSS tool. No stated partnership/deal terms, so group 3 (partnerships) is not established from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
