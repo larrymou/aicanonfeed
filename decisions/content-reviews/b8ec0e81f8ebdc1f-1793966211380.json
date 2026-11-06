@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "b8ec0e81f8ebdc1f",
+  "url": "https://www.techmeme.com/261106/p5#a261106p5",
+  "sourceName": "Techmeme",
+  "title": "Blockaid: Binance hackers stole ~$2.5B, or 40% of the $6.3B haul, in a single Ethereum transaction using wallet permissions that cost just $15 to set up (Sidhartha Shukla/Bloomberg)",
+  "summary": "Sidhartha Shukla / Bloomberg: Blockaid: Binance hackers stole ~$2.5B, or 40% of the $6.3B haul, in a single Ethereum transaction using wallet permissions that cost just $15 to set up — The hackers who stole $6.3 billion from Binance last week found a way to take 40% of the stolen",
+  "pubDate": "2026-11-06T07:25:00.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a cryptocurrency hack/theft of Binance funds; it is not an AI model release, research result, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sidhartha Shukla / Bloomberg: Blockaid: Binance hackers stole ~$2.5B, or 40% of the $6.3B haul, in a single Ethereum transaction using wallet permissions that cost just $15 to set up — The hackers who stole $6.3 billion from Binance last week found a way to take 40% of the stolen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p5#a261106p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T07:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
