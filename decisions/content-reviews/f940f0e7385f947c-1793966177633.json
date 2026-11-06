@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "f940f0e7385f947c",
+  "url": "https://www.techmeme.com/261106/p9#a261106p9",
+  "sourceName": "Techmeme",
+  "title": "Sources: Democrats are eyeing Apple, Meta, and Elon Musk-led companies as early congressional investigation targets, after winning House and Senate majorities (Pranshu Verma/Washington Post)",
+  "summary": "Pranshu Verma / Washington Post: Sources: Democrats are eyeing Apple, Meta, and Elon Musk-led companies as early congressional investigation targets, after winning House and Senate majorities — Democrats are laying the groundwork to investigate some of the country's largest compa",
+  "pubDate": "2026-11-06T11:45:06.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns planned congressional investigations of tech companies after election wins; no AI model release, research, AI business event, or AI policy/regulatory action is reported. No rule covers a purely political oversight story.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Pranshu Verma / Washington Post: Sources: Democrats are eyeing Apple, Meta, and Elon Musk-led companies as early congressional investigation targets, after winning House and Senate majorities — Democrats are laying the groundwork to investigate some of the country's largest compa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p9#a261106p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T11:45:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
