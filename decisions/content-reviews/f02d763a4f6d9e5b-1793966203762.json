@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "f02d763a4f6d9e5b",
+  "url": "https://www.norvig.com/chomsky.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Chomsky and the Two Cultures of Statistical Learning",
+  "summary": "Article URL: https://www.norvig.com/chomsky.html Comments URL: https://news.ycombinator.com/item?id=50389570 Points: 6 # Comments: 1",
+  "pubDate": "2026-11-06T08:18:36.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "An essay/commentary on Norvig's site about Chomsky and statistical learning. It is not a model release, not a new research artifact (no paper, preprint, or benchmark), and not an industry, policy, or OSS tooling announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.norvig.com/chomsky.html Comments URL: https://news.ycombinator.com/item?id=50389570 Points: 6 # Comments: 1",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://www.norvig.com/chomsky.html",
+    "linkHost": "www.norvig.com",
+    "pubDate": "2026-11-06T08:18:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
