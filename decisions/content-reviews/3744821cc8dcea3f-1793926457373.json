@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "3744821cc8dcea3f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xozcd8/iclr_review_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR Review [D]",
+  "summary": "About to be released. Anybody got them so far ? I have two submissions #35k+ & 50k+, waiting. submitted by /u/Invariant_n_Cauchy [link] [comments]",
+  "pubDate": "2026-11-06T00:44:42.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit forum post asking whether ICLR reviews have been released; it reports no research artifact, model release, business event, policy action, or tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "About to be released. Anybody got them so far ? I have two submissions #35k+ & 50k+, waiting. submitted by /u/Invariant_n_Cauchy [link] [comments]",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xozcd8/iclr_review_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-06T00:44:42.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
