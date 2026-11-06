@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "84e924c4ab2b73c1",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+  "sourceName": "The Verge AI",
+  "title": "AI is the new dating dealbreaker",
+  "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"",
+  "pubDate": "2026-11-06T17:00:00.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Vox/Verge-style cultural commentary on AI in dating. Not a model release, research artifact, industry business event, policy action, or open-source tool launch; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-06T17:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
