@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "53eff4b4e1cfd452",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.15",
+  "summary": "MiMo V2.6 Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama. ollama run mimo-v2.6 AutoTrust decision models AutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. ",
+  "pubDate": "2026-11-06T01:47:18.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "MiMo V2.6 Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama. ollama run mimo-v2.6 AutoTrust decision models AutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-06T01:47:18.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
