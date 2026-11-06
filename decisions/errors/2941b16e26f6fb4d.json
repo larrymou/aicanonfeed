@@ -1,0 +1,37 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "2941b16e26f6fb4d",
+  "url": "https://www.techmeme.com/261105/p60#a261105p60",
+  "sourceName": "Techmeme",
+  "title": "Sources: major investors are increasingly skeptical Anthropic's IPO can achieve a $1.5T valuation after a market selloff; one says it could be closer to $1T (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: major investors are increasingly skeptical Anthropic's IPO can achieve a $1.5T valuation after a market selloff; one says it could be closer to $1T — The AI giant could need to set a significantly lower-than-expected valuation, investors say — Major ",
+  "pubDate": "2026-11-06T00:10:00.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: major investors are increasingly skeptical Anthropic's IPO can achieve a $1.5T valuation after a market selloff; one says it could be closer to $1T — The AI giant could need to set a significantly lower-than-expected valuation, investors say — Major ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261105/p60#a261105p60",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T00:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
