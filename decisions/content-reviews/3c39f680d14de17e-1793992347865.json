@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "3c39f680d14de17e",
+  "url": "https://www.techmeme.com/261106/p16#a261106p16",
+  "sourceName": "Techmeme",
+  "title": "Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems (Lawrence Abrams/BleepingComputer)",
+  "summary": "Lawrence Abrams / BleepingComputer: Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems — A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attacker",
+  "pubDate": "2026-11-06T16:30:00.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a decade-old OpenSSH/musl authentication flaw (security vulnerability), not an AI model release, research result, AI industry event, policy action, or new open-source AI tool. No active community rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lawrence Abrams / BleepingComputer: Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems — A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attacker",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p16#a261106p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T16:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
