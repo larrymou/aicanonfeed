@@ -1,0 +1,40 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "c262b9961ff71dc3",
+  "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+  "sourceName": "TechCrunch AI",
+  "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+  "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+  "pubDate": "2026-11-06T18:44:38.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security news about exposed Artex penetration-testing servers; no new model release, research artifact, business event, policy action, or new OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+    "summaryChars": 158,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-06T18:44:38.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
