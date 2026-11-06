@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793992240421-6toqpd",
+  "urlHash": "9e40c95d4da9e2b4",
+  "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+  "sourceName": "Ars Technica AI",
+  "title": "Could potential AI clones of GTA VI force a quicker official port?",
+  "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+  "pubDate": "2026-11-06T16:19:12.000Z",
+  "decidedAt": "2026-11-06T19:10:48.629Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative commentary about potential AI clones of GTA VI and alleged time pressure on Rockstar. No named model release, no research artifact, no financing/M&A/partnership event, no policy action, and no open-source tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+    "summaryChars": 82,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-06T16:19:12.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
