@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "f82ac2b1bc1fa626",
+  "url": "https://www.fgc.org.br/comunicado",
+  "sourceName": "Hacker News Front Page",
+  "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
+  "summary": "Article URL: https://www.fgc.org.br/comunicado Comments URL: https://news.ycombinator.com/item?id=50386104 Points: 8 # Comments: 1",
+  "pubDate": "2026-11-05T23:32:36.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a data breach notice from a Brazilian credit guarantor fund (FGC); it is not about AI models, research, industry business events, policy, or OSS tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.fgc.org.br/comunicado Comments URL: https://news.ycombinator.com/item?id=50386104 Points: 8 # Comments: 1",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://www.fgc.org.br/comunicado",
+    "linkHost": "www.fgc.org.br",
+    "pubDate": "2026-11-05T23:32:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
