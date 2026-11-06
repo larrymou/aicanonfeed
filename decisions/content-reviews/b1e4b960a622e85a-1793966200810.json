@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793966160152-576qz9",
+  "urlHash": "b1e4b960a622e85a",
+  "url": "https://www.techmeme.com/261106/p6#a261106p6",
+  "sourceName": "Techmeme",
+  "title": "Cleanview: ~40% of planned data center capacity is in states where newly elected governors have pledged to pause or halt construction (Bloomberg)",
+  "summary": "Bloomberg: Cleanview: ~40% of planned data center capacity is in states where newly elected governors have pledged to pause or halt construction — A new crop of Democratic governors-elect campaigned on putting the brakes on artificial intelligence development. — Data center oppos",
+  "pubDate": "2026-11-06T09:25:00.000Z",
+  "decidedAt": "2026-11-06T11:56:15.089Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports campaign pledges by governors-elect to pause data center construction, not a law, executive order, enforcement action, or official policy announcement (R4-1 unmet). No model release, research artifact, business deal, or OSS tool; link is a Techmeme aggregator permalink, not an official ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Cleanview: ~40% of planned data center capacity is in states where newly elected governors have pledged to pause or halt construction — A new crop of Democratic governors-elect campaigned on putting the brakes on artificial intelligence development. — Data center oppos",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p6#a261106p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T09:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
