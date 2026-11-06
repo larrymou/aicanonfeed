@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "17805770150e698d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xonrvy/trainlint_static_checks_for_ml_bugs_that_dont/",
+  "sourceName": "r/MachineLearning new",
+  "title": "trainlint: static checks for ML bugs that don't crash (fit-before-split, eval mode, logits losses) [P]",
+  "summary": "I wrote a small checker for training and evaluation code. It looks for mistakes that do not raise errors. The classic one is leakage through preprocessing. With 5,000 random features and random labels, picking the top 20 features on the full dataset and then running 5-fold cross-",
+  "pubDate": "2026-11-05T16:54:56.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces a developer tool (trainlint) but the only link is a Reddit discussion post (linkHost www.reddit.com); no repository or official project announcement link is observed, and open-source status is not established in Content, so rule 5-1 conditions are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I wrote a small checker for training and evaluation code. It looks for mistakes that do not raise errors. The classic one is leakage through preprocessing. With 5,000 random features and random labels, picking the top 20 features on the full dataset and then running 5-fold cross-",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xonrvy/trainlint_static_checks_for_ml_bugs_that_dont/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-05T16:54:56.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
