@@ -1,0 +1,41 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "199af8aea5b61129",
+  "url": "https://github.com/anthropics/claude-code/issues/107757",
+  "sourceName": "Hacker News Front Page",
+  "title": "Claude Code sends your email address to websites",
+  "summary": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 407 # Comments: 142",
+  "pubDate": "2026-11-05T22:17:15.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A GitHub issue reporting a privacy/security bug in Claude Code. It is not a model release, research paper, industry business event, policy action, or open-source tool/framework launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 407 # Comments: 142",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://github.com/anthropics/claude-code/issues/107757",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-05T22:17:15.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
