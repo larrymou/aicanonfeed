@@ -1,0 +1,42 @@
+{
+  "runId": "run-1793926445054-y0qsa8",
+  "urlHash": "e5707d4ca802e66e",
+  "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Inkling 2 Small",
+  "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-small/ Comments URL: https://news.ycombinator.com/item?id=50386338 Points: 22 # Comments: 5",
+  "pubDate": "2026-11-06T00:00:24.000Z",
+  "decidedAt": "2026-11-06T00:54:12.798Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names 'Inkling 2 Small' on thinkingmachines.ai, but the summary is only HN boilerplate with no facts confirming a new model, an N.0 major version, or a new capability; release action under 1-1 cannot be established from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-small/ Comments URL: https://news.ycombinator.com/item?id=50386338 Points: 22 # Comments: 5",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "linkHost": "thinkingmachines.ai",
+    "pubDate": "2026-11-06T00:00:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
