@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "0b44da5db7ffd35b",
+  "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+  "sourceName": "Wired AI",
+  "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+  "summary": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+  "pubDate": "2026-11-07T11:00:00.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired feature on caregiver apps adopting AI; no named model release, no research artifact, no financing/M&A/partnership or product-launch business event, no policy action, and no open-source tooling. Commentary only, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-07T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
