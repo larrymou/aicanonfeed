@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "81155664a5e4cac8",
+  "url": "https://www.techmeme.com/261106/p23#a261106p23",
+  "sourceName": "Techmeme",
+  "title": "Filing: Google spent roughly $548M to buy around 3M shares of Qualcomm, which is pushing into serving the AI data center market (Ryan Barwick/The Information)",
+  "summary": "Ryan Barwick / The Information: Filing: Google spent roughly $548M to buy around 3M shares of Qualcomm, which is pushing into serving the AI data center market — Google's investment arm Google Ventures has acquired nearly 3 million shares of the chip maker Qualcomm, as a result o",
+  "pubDate": "2026-11-06T21:35:00.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ryan Barwick / The Information: Filing: Google spent roughly $548M to buy around 3M shares of Qualcomm, which is pushing into serving the AI data center market — Google's investment arm Google Ventures has acquired nearly 3 million shares of the chip maker Qualcomm, as a result o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p23#a261106p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T21:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
