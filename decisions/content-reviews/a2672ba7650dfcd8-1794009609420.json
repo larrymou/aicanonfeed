@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "a2672ba7650dfcd8",
+  "url": "https://www.techmeme.com/261106/p26#a261106p26",
+  "sourceName": "Techmeme",
+  "title": "Apple says the App Store has over 100K apps built for the iPhone Duo and \"thousands of optimized apps are being added to the store each day\" (Jay Peters/The Verge)",
+  "summary": "Jay Peters / The Verge: Apple says the App Store has over 100K apps built for the iPhone Duo and “thousands of optimized apps are being added to the store each day” — Even though a lot of apps have been updated for the iPhone Duo, they sometimes still have issues.",
+  "pubDate": "2026-11-06T23:20:01.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Apple App Store app counts for iPhone Duo; no AI model release, AI research artifact, AI business event, policy action, or open-source AI tooling is present, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jay Peters / The Verge: Apple says the App Store has over 100K apps built for the iPhone Duo and “thousands of optimized apps are being added to the store each day” — Even though a lot of apps have been updated for the iPhone Duo, they sometimes still have issues.",
+    "summaryChars": 264,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p26#a261106p26",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T23:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
