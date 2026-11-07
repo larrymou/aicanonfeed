@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "0cd016329efe947f",
+  "url": "https://uploadyourram.org",
+  "sourceName": "Hacker News Front Page",
+  "title": "Upload Your RAM",
+  "summary": "Article URL: https://uploadyourram.org Comments URL: https://news.ycombinator.com/item?id=50403214 Points: 203 # Comments: 168",
+  "pubDate": "2026-11-07T10:15:26.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/link give no evidence of an AI model release, research artifact, industry business event, policy action, or open-source AI tool; no rule condition can be established from the observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://uploadyourram.org Comments URL: https://news.ycombinator.com/item?id=50403214 Points: 203 # Comments: 168",
+    "summaryChars": 126,
+    "summarySource": "summary",
+    "link": "https://uploadyourram.org",
+    "linkHost": "uploadyourram.org",
+    "pubDate": "2026-11-07T10:15:26.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
