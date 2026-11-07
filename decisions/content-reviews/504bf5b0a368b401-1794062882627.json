@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "504bf5b0a368b401",
+  "url": "https://www.techmeme.com/261107/p7#a261107p7",
+  "sourceName": "Techmeme",
+  "title": "How differences in economics, public policy, and cultural patterns could explain greater pessimism about AI in the West than in Asia and emerging economies (Gillian Tett/Financial Times)",
+  "summary": "Gillian Tett / Financial Times: How differences in economics, public policy, and cultural patterns could explain greater pessimism about AI in the West than in Asia and emerging economies — Voter hostility to Big Tech helped shape the US midterms, and similar fears are spreading ",
+  "pubDate": "2026-11-07T07:40:01.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme item is opinion/commentary (Gillian Tett/FT column) on societal attitudes toward AI in West vs Asia. No named model release, no research artifact, no business event, no policy action, and no OSS tool; no active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gillian Tett / Financial Times: How differences in economics, public policy, and cultural patterns could explain greater pessimism about AI in the West than in Asia and emerging economies — Voter hostility to Big Tech helped shape the US midterms, and similar fears are spreading ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p7#a261107p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T07:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
