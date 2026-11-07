@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "86fc9a5d200e55f4",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xponb2/what_exactly_is_the_relationship_between_ml/",
+  "sourceName": "r/MachineLearning new",
+  "title": "What exactly is the relationship between ML academia and industry/big tech nowadays (2026)? [D]",
+  "summary": "It was clear to me that around 2012 - 2018ish, academic research was kind of paving the way for many applications in industry, from deep nets for vision to RL algorithms. There was tremendous value in research coming out of academia and new methods such as ADAM or TRPO algorithm ",
+  "pubDate": "2026-11-06T21:25:49.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary thread asking about academia-industry relations; no research artifact, product launch, business event, policy action, or OSS release. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It was clear to me that around 2012 - 2018ish, academic research was kind of paving the way for many applications in industry, from deep nets for vision to RL algorithms. There was tremendous value in research coming out of academia and new methods such as ADAM or TRPO algorithm ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xponb2/what_exactly_is_the_relationship_between_ml/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-06T21:25:49.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
