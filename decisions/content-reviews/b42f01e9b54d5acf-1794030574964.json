@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "b42f01e9b54d5acf",
+  "url": "https://www.techmeme.com/261106/p28#a261106p28",
+  "sourceName": "Techmeme",
+  "title": "Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users (Frederic Lardinois/The New Stack)",
+  "summary": "Frederic Lardinois / The New Stack: Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users — Starting on Friday, everyone using Meta's Muse agent and Meta AI gets new models the",
+  "pubDate": "2026-11-07T01:50:00.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1's evidence-link condition fails: linkHost is techmeme.com (an aggregator permalink), not an official Meta announcement page, and linked_page_owner_domain/author are not observed; the item is not a full news article on a non-owner domain.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Frederic Lardinois / The New Stack: Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users — Starting on Friday, everyone using Meta's Muse agent and Meta AI gets new models the",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p28#a261106p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T01:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
