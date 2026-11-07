@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "55aa1dc18cbb251b",
+  "url": "https://github.com/hedgerow-dev/coldframe",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+  "summary": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake. To learn more about this I built a honeypot that",
+  "pubDate": "2026-11-07T17:27:30.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN honeypot posing as a supermarket fridge controller; no AI model, research, industry, policy, or AI open-source tooling content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake. To learn more about this I built a honeypot that",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/hedgerow-dev/coldframe",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-07T17:27:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
