@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "ee1504eea214e326",
+  "url": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Did prediction markets do any predicting this midterms?",
+  "summary": "I've heard so much about how prediction markets are the guiding light in this dark world. But when put head to head against polls or Nate Silver's FLIPR model, they are really a wash. Especially looking at flipped or close-by-polls races, there is no alpha compared to a tradition",
+  "pubDate": "2026-11-07T03:50:21.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN analysis comparing prediction markets to polls/FLIPR models for midterms. Not an AI model release, research artifact (no paper/preprint/benchmark), AI industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I've heard so much about how prediction markets are the guiding light in this dark world. But when put head to head against polls or Nate Silver's FLIPR model, they are really a wash. Especially looking at flipped or close-by-polls races, there is no alpha compared to a tradition",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
+    "linkHost": "app.artifactbin.dev",
+    "pubDate": "2026-11-07T03:50:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
