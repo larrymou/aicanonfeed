@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "4a785358b7cb0437",
+  "url": "https://www.techmeme.com/261106/p25#a261106p25",
+  "sourceName": "Techmeme",
+  "title": "Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project (Lynn Doan/Bloomberg)",
+  "summary": "Lynn Doan / Bloomberg: Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project — Alphabet Inc.'s Google has bought out Crusoe's data center site in southeast Wyoming, opting to tak",
+  "pubDate": "2026-11-06T23:15:02.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lynn Doan / Bloomberg: Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project — Alphabet Inc.'s Google has bought out Crusoe's data center site in southeast Wyoming, opting to tak",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p25#a261106p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T23:15:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
