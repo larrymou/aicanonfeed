@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "32ce43dcf46f8979",
+  "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "The $8 Linux Computer (2022)",
+  "summary": "Article URL: http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html Comments URL: https://news.ycombinator.com/item?id=50404599 Points: 7 # Comments: 4",
+  "pubDate": "2026-11-07T14:00:20.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a cheap Linux single-board computer; no AI model, research, industry, policy, or open-source AI tooling content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html Comments URL: https://news.ycombinator.com/item?id=50404599 Points: 7 # Comments: 4",
+    "summaryChars": 177,
+    "summarySource": "summary",
+    "link": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+    "linkHost": "thelittleengineerthatcould.blogspot.com",
+    "pubDate": "2026-11-07T14:00:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
