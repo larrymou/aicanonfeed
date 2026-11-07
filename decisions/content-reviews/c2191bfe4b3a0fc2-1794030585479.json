@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "c2191bfe4b3a0fc2",
+  "url": "https://www.techmeme.com/261106/p27#a261106p27",
+  "sourceName": "Techmeme",
+  "title": "CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B (Loren Grush/Bloomberg)",
+  "summary": "Loren Grush / Bloomberg: CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B — CesiumAstro raised $730 million in its latest funding round, a cash infusion the Austin-based s",
+  "pubDate": "2026-11-07T00:01:09.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Funding round for CesiumAstro, a satellite communications network company; no AI model, research artifact, AI policy action, or AI tooling is reported, so no active rule (including the AI-industry event rule) is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Loren Grush / Bloomberg: CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B — CesiumAstro raised $730 million in its latest funding round, a cash infusion the Austin-based s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p27#a261106p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T00:01:09.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
