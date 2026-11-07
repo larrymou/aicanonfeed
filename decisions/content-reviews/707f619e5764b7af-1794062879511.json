@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "707f619e5764b7af",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xq1f1m/are_iclr_2027_reviews_unusually_shallow_this_year/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Are ICLR 2027 reviews unusually shallow this year, or is it just me? [D]",
+  "summary": "I’ve been going through ICLR 2027 reviews, and most of them look extremely shallow. They’re so f short, like they're written for a random workshop. Almost every review I've seen is two generic points under each section (strengths, weaknesses, questions) and nothing more. Then a s",
+  "pubDate": "2026-11-07T08:25:40.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion complaining about shallow ICLR 2027 reviews. No named model release, no paper/preprint or benchmark artifact, no industry business event, no policy action, no OSS tool release. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I’ve been going through ICLR 2027 reviews, and most of them look extremely shallow. They’re so f short, like they're written for a random workshop. Almost every review I've seen is two generic points under each section (strengths, weaknesses, questions) and nothing more. Then a s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xq1f1m/are_iclr_2027_reviews_unusually_shallow_this_year/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-07T08:25:40.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
