@@ -1,18 +1,22 @@
 {
-  "runId": "run-1794009594975-7008vk",
+  "runId": "run-1794030522608-g2mnqt",
   "urlHash": "58fc9a0b8ae1b328",
   "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
   "sourceName": "The Verge AI",
   "title": "Amazon will let you text Alexa your shopping list",
   "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching resul",
   "pubDate": "2026-11-06T14:00:00.000Z",
-  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Amazon adding a text-ordering feature to Alexa for Shopping is a generic product feature update, not a named model release with an official owner link (1-1 excludes product features), not a research artifact, not a business event like financing/M&A/partnership/market data, not policy, and not open-s",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching resul",
