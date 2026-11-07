@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "13507f252cca4fbf",
+  "url": "https://www.techmeme.com/261107/p11#a261107p11",
+  "sourceName": "Techmeme",
+  "title": "Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees \"shaky\" projects killed (Cecile Daurat/Bloomberg)",
+  "summary": "Cecile Daurat / Bloomberg: Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees “shaky” projects killed — Guardrails against data-center expansion in states won by Democrats may help spread investme",
+  "pubDate": "2026-11-07T16:35:01.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/analysis piece about how Democratic election wins might affect AI investment pacing. No named model release, no research artifact, no concrete business event (financing/M&A/partnership) announcement, and no official policy action or document; link is a Techmeme aggregation page. No rule c",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cecile Daurat / Bloomberg: Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees “shaky” projects killed — Guardrails against data-center expansion in states won by Democrats may help spread investme",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p11#a261107p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T16:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
