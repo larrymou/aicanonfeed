@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "e0c8b4541e0b5e8b",
+  "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI is dramatically accelerating AI research",
+  "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 157 # Comments: 112",
+  "pubDate": "2026-11-06T20:27:23.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion piece about AI accelerating research; no named model release, no paper or benchmark artifact, no business, policy, or OSS tooling announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 157 # Comments: 112",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+    "linkHost": "www.planned-obsolescence.org",
+    "pubDate": "2026-11-06T20:27:23.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
