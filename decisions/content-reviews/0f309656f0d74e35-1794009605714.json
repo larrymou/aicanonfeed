@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "0f309656f0d74e35",
+  "url": "https://nocveday.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "No CVE Today, Please",
+  "summary": "Article URL: https://nocveday.com/ Comments URL: https://news.ycombinator.com/item?id=50399859 Points: 4 # Comments: 0",
+  "pubDate": "2026-11-06T23:20:06.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary show a non-AI web article about CVEs; no named AI model release, research artifact, industry business event, policy action, or OSS AI tool is reported, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nocveday.com/ Comments URL: https://news.ycombinator.com/item?id=50399859 Points: 4 # Comments: 0",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://nocveday.com/",
+    "linkHost": "nocveday.com",
+    "pubDate": "2026-11-06T23:20:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
