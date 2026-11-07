@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "9db55803402ec47c",
+  "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+  "sourceName": "Ars Technica AI",
+  "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+  "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+  "pubDate": "2026-11-05T12:00:41.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-05T12:00:41.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
