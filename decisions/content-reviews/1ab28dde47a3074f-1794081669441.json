@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "1ab28dde47a3074f",
+  "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+  "sourceName": "The Verge AI",
+  "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+  "summary": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should",
+  "pubDate": "2026-11-07T15:50:00.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "This is a hands-on review of a proprietary app feature (NYT Cooking's AI assistant). No named model release (R1), no research artifact (R2), no business event such as financing, M&A, partnership, market data, or product launch announcement (R3), no policy action (R4), and no open-source tooling (R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-07T15:50:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
