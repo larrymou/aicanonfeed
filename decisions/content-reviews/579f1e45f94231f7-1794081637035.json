@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "579f1e45f94231f7",
+  "url": "https://blog.bosscher.ch/posts/openstick/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What I run on my $10 USD OpenStick homelab",
+  "summary": "Article URL: https://blog.bosscher.ch/posts/openstick/ Comments URL: https://news.ycombinator.com/item?id=50406670 Points: 79 # Comments: 18",
+  "pubDate": "2026-11-07T18:12:12.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal homelab blog post about running services on a $10 OpenStick device; no AI model release, research artifact, industry business event, policy action, or open-source AI tool/framework announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.bosscher.ch/posts/openstick/ Comments URL: https://news.ycombinator.com/item?id=50406670 Points: 79 # Comments: 18",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://blog.bosscher.ch/posts/openstick/",
+    "linkHost": "blog.bosscher.ch",
+    "pubDate": "2026-11-07T18:12:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
