@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "7068639167045207",
+  "url": "https://www.techmeme.com/261106/p22#a261106p22",
+  "sourceName": "Techmeme",
+  "title": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total (Bloomberg)",
+  "summary": "Bloomberg: Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total — OpenAI has closed on new funding of roughly $11 billion, the initial part of a round that values the company at $1.25 trillion, accor",
+  "pubDate": "2026-11-06T21:15:00.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry financing event: OpenAI closing ~$11B in new funding at a $1.25T valuation, sourced to Bloomberg via Techmeme, which is a reputable media report. No model/capability release involved, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total — OpenAI has closed on new funding of roughly $11 billion, the initial part of a round that values the company at $1.25 trillion, accor",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p22#a261106p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T21:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
