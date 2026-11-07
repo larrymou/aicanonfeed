@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "d40f9466337f4802",
+  "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+  "sourceName": "TechCrunch AI",
+  "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+  "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+  "pubDate": "2026-11-06T14:10:00.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Alexa text-shopping rollout is an incremental feature update for an existing assistant; no named model or release action (R1), no research artifact (R2), no financing/M&A/partnership/market data or product launch (R3), no policy action (R4), not OSS tooling (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-06T14:10:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
