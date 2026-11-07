@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "980a934d66b53cbb",
+  "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+  "sourceName": "The Verge AI",
+  "title": "Protesters break into Microsoft data center site in Amsterdam",
+  "summary": "Members of the action group Geef Tegengas put a banner on a crane during a protest. | Image: Getty Images Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest again",
+  "pubDate": "2026-11-06T11:55:19.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a protest at a Microsoft data center construction site. It is not a model release, research artifact, AI business event (financing/M&A/partnership/product launch), official policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Members of the action group Geef Tegengas put a banner on a crane during a protest. | Image: Getty Images Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest again",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-06T11:55:19.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
