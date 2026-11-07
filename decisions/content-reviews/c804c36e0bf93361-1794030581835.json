@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "c804c36e0bf93361",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xpu5g0/iclr_position_paper_criticized_for_lacking/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR position paper criticized for lacking experiments and making speculative claims — how to respond? [D]",
+  "summary": "One reviewer criticizes it for lacking an implemented system, empirical validation, results and for making speculative arguments. But its a position/argumentative paper, it doesnt have to have any of those. We provide technical arguments, falsifiable hypotheses, and other contrib",
+  "pubDate": "2026-11-07T01:36:34.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/advice request about responding to a reviewer critique of a position paper; no paper, preprint, or benchmark link. No rule covers community commentary without a research artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "One reviewer criticizes it for lacking an implemented system, empirical validation, results and for making speculative arguments. But its a position/argumentative paper, it doesnt have to have any of those. We provide technical arguments, falsifiable hypotheses, and other contrib",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xpu5g0/iclr_position_paper_criticized_for_lacking/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-07T01:36:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
