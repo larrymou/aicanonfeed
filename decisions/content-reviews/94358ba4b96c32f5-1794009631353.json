@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "94358ba4b96c32f5",
+  "url": "https://www.techmeme.com/261106/p24#a261106p24",
+  "sourceName": "Techmeme",
+  "title": "Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang (New York Times)",
+  "summary": "New York Times: Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang — U.S. intelligence concluded that Alice Huang, a Chinese business executive who developed a close relations",
+  "pubDate": "2026-11-06T21:46:41.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an intelligence/espionage allegation involving a company executive; it is not a model release, research artifact, industry business event (financing/M&A/partnership/product launch), policy action, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang — U.S. intelligence concluded that Alice Huang, a Chinese business executive who developed a close relations",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p24#a261106p24",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-06T21:46:41.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
