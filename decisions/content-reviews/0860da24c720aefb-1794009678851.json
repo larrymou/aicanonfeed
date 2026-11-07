@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "0860da24c720aefb",
+  "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1",
+  "summary": "An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta",
+  "pubDate": "2026-11-06T17:09:18.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "How-to tutorial on governing AI agent access using existing Okta Cross App Access and Amazon Bedrock AgentCore; not a named model release, research artifact, industry business event, policy action, or new open-source tool/framework release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-06T17:09:18.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
