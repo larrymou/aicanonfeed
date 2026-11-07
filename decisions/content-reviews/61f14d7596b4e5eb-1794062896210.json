@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "61f14d7596b4e5eb",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xpzqjy/iclr27_received_a_review_that_seems_to_be_for_an/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR27: Received a review that seems to be for an entirely different paper. Has anyone experienced this? [D]",
+  "summary": "Got my reviews yesterday, and honestly, I'm starting to question the credibility of the entire review process. One of the reviewers seems to have submitted a review for a completely different paper. And I don't mean they misunderstood our method or missed the main contribution. T",
+  "pubDate": "2026-11-07T06:40:14.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion/commentary about a peer-review experience; no research artifact, paper link, official announcement, policy action, or tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Got my reviews yesterday, and honestly, I'm starting to question the credibility of the entire review process. One of the reviewers seems to have submitted a review for a completely different paper. And I don't mean they misunderstood our method or missed the main contribution. T",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xpzqjy/iclr27_received_a_review_that_seems_to_be_for_an/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-07T06:40:14.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
