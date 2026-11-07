@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "8017ce29f6d88c8d",
+  "url": "https://hunch.net/?p=13764006",
+  "sourceName": "Hacker News Front Page",
+  "title": "The end of Microsoft Research's AI Frontiers group",
+  "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 133 # Comments: 62",
+  "pubDate": "2026-11-07T18:02:17.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary about a research group being shut down; no new model, research artifact, business deal, policy action, or OSS release. Link is a personal blog post (hunch.net) with no official owner announcement or named-author news article, so no active rule is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 133 # Comments: 62",
+    "summaryChars": 175,
+    "summarySource": "summary",
+    "link": "https://hunch.net/?p=13764006",
+    "linkHost": "hunch.net",
+    "pubDate": "2026-11-07T18:02:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
