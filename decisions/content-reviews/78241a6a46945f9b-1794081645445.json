@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "78241a6a46945f9b",
+  "url": "https://www.techmeme.com/261107/p13#a261107p13",
+  "sourceName": "Techmeme",
+  "title": "Binance says CFO Kaiser Ng is leaving to \"pursue a new venture\" days after a $6.3B hack, citing a six-month transition plan, and names Justin Yek as CFO (Bloomberg)",
+  "summary": "Bloomberg: Binance says CFO Kaiser Ng is leaving to “pursue a new venture” days after a $6.3B hack, citing a six-month transition plan, and names Justin Yek as CFO — Kaiser Ng, the chief financial officer at Binance Holdings Ltd., the world's largest crypto exchange …",
+  "pubDate": "2026-11-07T18:01:40.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a crypto exchange CFO departure; no AI model, research, industry-AI, policy, or OSS tool content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Binance says CFO Kaiser Ng is leaving to “pursue a new venture” days after a $6.3B hack, citing a six-month transition plan, and names Justin Yek as CFO — Kaiser Ng, the chief financial officer at Binance Holdings Ltd., the world's largest crypto exchange …",
+    "summaryChars": 268,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p13#a261107p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T18:01:40.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
