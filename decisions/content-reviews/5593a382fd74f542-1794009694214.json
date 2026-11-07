@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "5593a382fd74f542",
+  "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+  "sourceName": "Wired AI",
+  "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+  "summary": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
+  "pubDate": "2026-11-06T16:00:00.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary/trend piece on data brokers collecting corporate files for AI training. No specific financing, M&A, partnership, revenue data, or product launch, and no named company or deal is reported, so rule 3-1's industry business event condition is not met. Not a model, research, policy, or O",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
+    "summaryChars": 116,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-06T16:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
