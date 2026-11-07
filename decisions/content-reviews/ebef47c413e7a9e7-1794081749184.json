@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "ebef47c413e7a9e7",
+  "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+  "sourceName": "TechCrunch AI",
+  "title": "Axiom Math wants to keep AI slop out of mathematics",
+  "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+  "pubDate": "2026-11-05T16:16:45.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch story on a startup's verification of the Stacks Project: no named model release or official owner announcement (R1), no paper/preprint or official research artifact link (R2), no financing/M&A/partnership/revenue/non-model product launch (R3), no policy action (R4), no open-source tool re",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+    "summaryChars": 184,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-05T16:16:45.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
