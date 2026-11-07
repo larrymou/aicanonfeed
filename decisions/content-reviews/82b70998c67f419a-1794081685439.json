@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "82b70998c67f419a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xpu1eq/the_most_scathing_reviewer_2_review_i_have_ever/",
+  "sourceName": "r/MachineLearning new",
+  "title": "The most scathing reviewer 2 review I have ever read",
+  "summary": "This is not my paper. Not my review either. Official Review of Submission21893 by Reviewer Xz8e Paper Summary: The paper tries to learn correlations among components of each latent state in a world model to propagate the reward sensitivities to adaptively weight the uncertainties",
+  "pubDate": "2026-11-07T01:30:53.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post sharing a peer-review comment; it is commentary only, with no research artifact, model release, business event, policy action, or OSS tool announcement linked. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is not my paper. Not my review either. Official Review of Submission21893 by Reviewer Xz8e Paper Summary: The paper tries to learn correlations among components of each latent state in a world model to propagate the reward sensitivities to adaptively weight the uncertainties",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xpu1eq/the_most_scathing_reviewer_2_review_i_have_ever/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-07T01:30:53.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
