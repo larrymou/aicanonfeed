@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "14575e33652b5549",
+  "url": "https://www.techmeme.com/261107/p12#a261107p12",
+  "sourceName": "Techmeme",
+  "title": "Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof \"shocking news\"; it could one day speed up chip design and break encryption (Cade Metz/New York Times)",
+  "summary": "Cade Metz / New York Times: Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof “shocking news”; it could one day speed up chip design and break encryption — A longstanding hypothesis held that some problems would always be hard for computers to so",
+  "pubDate": "2026-11-07T17:15:01.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a research result (an alleged disproof of the Exponential Time Hypothesis) only via a Techmeme/NYT media summary. Rule 2-1 requires a link to the original paper or official source; linkHost is techmeme.com and no paper link is observed. Not a model release, business event, policy action",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "link",
+    "linkHost",
+    "title",
+    "summary",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cade Metz / New York Times: Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof “shocking news”; it could one day speed up chip design and break encryption — A longstanding hypothesis held that some problems would always be hard for computers to so",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p12#a261107p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T17:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
