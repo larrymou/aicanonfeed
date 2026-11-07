@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "8afb68b4d52e2745",
+  "url": "https://www.techmeme.com/261107/p5#a261107p5",
+  "sourceName": "Techmeme",
+  "title": "Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July (Zack Whittaker/TechCrunch)",
+  "summary": "Zack Whittaker / TechCrunch: Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July — Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool ",
+  "pubDate": "2026-11-07T07:01:02.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Censys security finding about exposed copies of an existing hacking tool used in cyberattacks; it is not a model release, new AI research artifact, business event, policy action, or new OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Zack Whittaker / TechCrunch: Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July — Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p5#a261107p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T07:01:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
