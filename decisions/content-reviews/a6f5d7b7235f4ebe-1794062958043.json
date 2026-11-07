@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "a6f5d7b7235f4ebe",
+  "url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "AI Text Watermarking May Not Be Able to Meet the E.U.’s New Rules",
+  "summary": "The European Union now requires AI-generated text to be watermarked so that it can be identified as such. But tests on OpenAI’s new textGrain watermark, released in October and developed to comply with the new E.U. law, show that these watermarks often do not survive additional e",
+  "pubDate": "2026-11-05T15:00:03.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule applies. Not a named model release (textGrain is a watermark, no model/capability launch). No paper or research artifact linked. Not a business event or OSS tool. It is commentary/testing on watermark robustness under existing E.U. rules, not a new policy or regulatory action, and links no o",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The European Union now requires AI-generated text to be watermarked so that it can be identified as such. But tests on OpenAI’s new textGrain watermark, released in October and developed to comply with the new E.U. law, show that these watermarks often do not survive additional e",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-05T15:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
