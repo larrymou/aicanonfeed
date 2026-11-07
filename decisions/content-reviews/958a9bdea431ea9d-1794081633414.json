@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794081614612-btk6ve",
+  "urlHash": "958a9bdea431ea9d",
+  "url": "https://www.techmeme.com/261107/p14#a261107p14",
+  "sourceName": "Techmeme",
+  "title": "Public records appear to show SpaceX building a \"Starbase supercomputer\" in TX, but Gina Hinojosa's election as governor may delay some of the data center plans (Ann Davis Vaughan/The Information)",
+  "summary": "Ann Davis Vaughan / The Information: Public records appear to show SpaceX building a “Starbase supercomputer” in TX, but Gina Hinojosa's election as governor may delay some of the data center plans — Elon Musk moved early to build AI data centers in Tennessee and Mississippi and ",
+  "pubDate": "2026-11-07T19:40:04.000Z",
+  "decidedAt": "2026-11-07T20:00:28.286Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Report about SpaceX data-center construction and a governor election's possible impact; no named AI model release, no research artifact, no policy action/official document, no OSS release, and no financing/M&A/partnership event. Link is a Techmeme aggregation page, not the underlying report or compa",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ann Davis Vaughan / The Information: Public records appear to show SpaceX building a “Starbase supercomputer” in TX, but Gina Hinojosa's election as governor may delay some of the data center plans — Elon Musk moved early to build AI data centers in Tennessee and Mississippi and ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p14#a261107p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T19:40:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
