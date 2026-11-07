@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794062833446-gj448o",
+  "urlHash": "031f184b65cee86e",
+  "url": "https://www.techmeme.com/261107/p6#a261107p6",
+  "sourceName": "Techmeme",
+  "title": "Global tablet shipments fell 23% YoY to 32M units in Q3 2026, their lowest level in nearly three years; Apple's iPad shipments fell 27.5% YoY to ~11.58M (Omdia)",
+  "summary": "Omdia: Global tablet shipments fell 23% YoY to 32M units in Q3 2026, their lowest level in nearly three years; Apple's iPad shipments fell 27.5% YoY to ~11.58M — The global tablet market fell 23% year-over-year (YoY) to 32 million units in Q3 2026, marking its lowest shipment lev",
+  "pubDate": "2026-11-07T07:30:01.000Z",
+  "decidedAt": "2026-11-07T14:47:26.212Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is tablet shipment market data (Omdia) from Techmeme; not an AI model release, research artifact, AI policy action, open-source tool, or AI industry business event. No active rule covers non-AI consumer hardware market data.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Omdia: Global tablet shipments fell 23% YoY to 32M units in Q3 2026, their lowest level in nearly three years; Apple's iPad shipments fell 27.5% YoY to ~11.58M — The global tablet market fell 23% year-over-year (YoY) to 32 million units in Q3 2026, marking its lowest shipment lev",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p6#a261107p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T07:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
