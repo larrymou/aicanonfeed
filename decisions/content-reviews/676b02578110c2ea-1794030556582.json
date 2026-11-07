@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "676b02578110c2ea",
+  "url": "https://computer.rip/2026-10-25-searchlights.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Lighting the Skies",
+  "summary": "Article URL: https://computer.rip/2026-10-25-searchlights.html Comments URL: https://news.ycombinator.com/item?id=50401414 Points: 11 # Comments: 1",
+  "pubDate": "2026-11-07T03:40:34.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a historical article about searchlights on computer.rip; no AI model release, research, industry, policy, or OSS tool content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://computer.rip/2026-10-25-searchlights.html Comments URL: https://news.ycombinator.com/item?id=50401414 Points: 11 # Comments: 1",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://computer.rip/2026-10-25-searchlights.html",
+    "linkHost": "computer.rip",
+    "pubDate": "2026-11-07T03:40:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
