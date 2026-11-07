@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "fed01451632b0d1c",
+  "url": "https://www.techmeme.com/261106/p29#a261106p29",
+  "sourceName": "Techmeme",
+  "title": "Sources: US officials believe Jensen Huang had a romantic relationship with Alice Huang, who they allege was recruited to spy for China's top spy agency, MSS (Demetri Sevastopulo/Financial Times)",
+  "summary": "Demetri Sevastopulo / Financial Times: Sources: US officials believe Jensen Huang had a romantic relationship with Alice Huang, who they allege was recruited to spy for China's top spy agency, MSS — American intelligence warned the tech boss was involved with executive recruited ",
+  "pubDate": "2026-11-07T02:50:02.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports intelligence/espionage allegations involving a tech executive; it is not a model or capability release, research artifact, AI business event (financing/M&A/partnership/market data), policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Demetri Sevastopulo / Financial Times: Sources: US officials believe Jensen Huang had a romantic relationship with Alice Huang, who they allege was recruited to spy for China's top spy agency, MSS — American intelligence warned the tech boss was involved with executive recruited ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261106/p29#a261106p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-07T02:50:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
