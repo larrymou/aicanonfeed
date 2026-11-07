@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "bd95b63d46d959af",
+  "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+  "sourceName": "Hacker News Front Page",
+  "title": "The AI sell-off compared to well-known stock market crashes",
+  "summary": "Article URL: https://www.kadoa.com/companies/insights/ai-selloff-perspective Comments URL: https://news.ycombinator.com/item?id=50401029 Points: 36 # Comments: 25",
+  "pubDate": "2026-11-07T02:20:06.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Analysis/commentary piece comparing the AI stock sell-off to past market crashes, not a report of a specific industry business event. Link is a company insights blog, not a deal/company announcement or reputable media report; no author observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.kadoa.com/companies/insights/ai-selloff-perspective Comments URL: https://news.ycombinator.com/item?id=50401029 Points: 36 # Comments: 25",
+    "summaryChars": 162,
+    "summarySource": "summary",
+    "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+    "linkHost": "www.kadoa.com",
+    "pubDate": "2026-11-07T02:20:06.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
