@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "5b5f4925f1b37cdf",
+  "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+  "sourceName": "Hacker News Front Page",
+  "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+  "summary": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 36 # Comments: 9",
+  "pubDate": "2026-11-06T22:50:43.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Community forum post reporting a ChatGPT connector data-routing/security issue. Not a named model release (R1), research artifact (R2), industry business event (R3), policy action (R4), or open-source tool release (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 36 # Comments: 9",
+    "summaryChars": 206,
+    "summarySource": "summary",
+    "link": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+    "linkHost": "community.openai.com",
+    "pubDate": "2026-11-06T22:50:43.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
