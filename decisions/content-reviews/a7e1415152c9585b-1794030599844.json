@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794030522608-g2mnqt",
+  "urlHash": "a7e1415152c9585b",
+  "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+  "sourceName": "The Verge AI",
+  "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+  "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push ",
+  "pubDate": "2026-11-06T23:00:44.000Z",
+  "decidedAt": "2026-11-07T05:48:51.064Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reported espionage/security story about China recruiting an executive to spy on Nvidia's CEO. It is not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-06T23:00:44.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
