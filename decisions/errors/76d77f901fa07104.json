@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794009594975-7008vk",
+  "urlHash": "76d77f901fa07104",
+  "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+  "sourceName": "TechCrunch AI",
+  "title": "Underdog shows off a 32MB speech model in new demo",
+  "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+  "pubDate": "2026-11-06T13:02:16.000Z",
+  "decidedAt": "2026-11-07T00:00:03.578Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+    "summaryChars": 80,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-06T13:02:16.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
