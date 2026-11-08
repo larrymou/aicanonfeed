@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "c7aa9e435f02c624",
+  "url": "https://duxlabs.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+  "summary": "Article URL: https://duxlabs.dev/ Comments URL: https://news.ycombinator.com/item?id=50416053 Points: 32 # Comments: 5",
+  "pubDate": "2026-11-08T19:08:51.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Dux is a free, open-source Wayland desktop shell with a file manager and theming — a general-purpose OS desktop environment, not an AI model, research result, industry business event, policy action, or AI developer tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://duxlabs.dev/ Comments URL: https://news.ycombinator.com/item?id=50416053 Points: 32 # Comments: 5",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://duxlabs.dev/",
+    "linkHost": "duxlabs.dev",
+    "pubDate": "2026-11-08T19:08:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
