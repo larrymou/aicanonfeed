@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "fbb4c6ab199fa8c6",
+  "url": "https://linebender.org/blog/jit-bitmap-text/",
+  "sourceName": "Hacker News Front Page",
+  "title": "JIT bitmap text rendering for microcontrollers",
+  "summary": "Article URL: https://linebender.org/blog/jit-bitmap-text/ Comments URL: https://news.ycombinator.com/item?id=50412072 Points: 43 # Comments: 7",
+  "pubDate": "2026-11-08T10:42:15.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about JIT bitmap text rendering for microcontrollers, a graphics/text-rendering technique with no AI model, research, industry, policy, or AI tooling/framework content. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://linebender.org/blog/jit-bitmap-text/ Comments URL: https://news.ycombinator.com/item?id=50412072 Points: 43 # Comments: 7",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://linebender.org/blog/jit-bitmap-text/",
+    "linkHost": "linebender.org",
+    "pubDate": "2026-11-08T10:42:15.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
