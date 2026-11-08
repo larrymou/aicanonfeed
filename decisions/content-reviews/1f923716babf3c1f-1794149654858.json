@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "1f923716babf3c1f",
+  "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Writing as a Thinking Tool",
+  "summary": "Article URL: http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html Comments URL: https://news.ycombinator.com/item?id=50412067 Points: 10 # Comments: 1",
+  "pubDate": "2026-11-08T10:41:52.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog essay on writing as a thinking tool; no AI model release, research artifact, industry business event, policy action, or open-source tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html Comments URL: https://news.ycombinator.com/item?id=50412067 Points: 10 # Comments: 1",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+    "linkHost": "muratbuffalo.blogspot.com",
+    "pubDate": "2026-11-08T10:41:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
