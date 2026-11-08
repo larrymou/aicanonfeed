@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "f0359aec71fc68a6",
+  "url": "https://www.techmeme.com/261108/p10#a261108p10",
+  "sourceName": "Techmeme",
+  "title": "Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb (Alex Eichenstein/The Information)",
+  "summary": "Alex Eichenstein / The Information: Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb — Volatile trading in AI-related stocks this past week has put a spotlight on invest",
+  "pubDate": "2026-11-08T17:45:00.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alex Eichenstein / The Information: Excluding Anthropic's IPO, AI companies sold or priced $300B+ of stock in 2026, with ~$100B more on tap, raising questions about how much the market can absorb — Volatile trading in AI-related stocks this past week has put a spotlight on invest",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p10#a261108p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T17:45:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
