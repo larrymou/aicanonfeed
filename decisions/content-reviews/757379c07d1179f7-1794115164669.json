@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "757379c07d1179f7",
+  "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+  "sourceName": "TechCrunch AI",
+  "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+  "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+  "pubDate": "2026-11-07T22:07:22.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Podcast commentary on what the midterms mean for the tech industry; no specific law, executive order, regulatory action, business event, model release, research artifact, or OSS tool is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+    "summaryChars": 68,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-07T22:07:22.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
