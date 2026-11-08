@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "2d1d326185a62641",
+  "url": "https://openai.com/ads/customers/flipsnack",
+  "sourceName": "OpenAI Blog",
+  "title": "Flipsnack grows product signups with conversion optimization",
+  "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+  "pubDate": "2026-11-05T00:45:15.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Flipsnack's ChatGPT Ads campaign performance. Not a model release (no named model/version/capability), not research, not policy, not OSS tooling, and not an AI industry business event (financing, M&A, partnership, market data, or product launch).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://openai.com/ads/customers/flipsnack",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-05T00:45:15.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
