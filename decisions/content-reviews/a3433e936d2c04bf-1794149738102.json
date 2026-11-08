@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "a3433e936d2c04bf",
+  "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+  "sourceName": "OpenAI Blog",
+  "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+  "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+  "pubDate": "2026-11-04T07:00:00.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary only announce regional availability of an existing model (GPT-5.6 Cyber on Bedrock in AWS GovCloud) — not a new model, owner-labeled major version or N.0 version, or new capability; nor a financing/M&A/partnership/market business event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-04T07:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
