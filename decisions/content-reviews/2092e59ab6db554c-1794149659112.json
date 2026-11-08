@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "2092e59ab6db554c",
+  "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+  "sourceName": "Wired AI",
+  "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+  "summary": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+  "pubDate": "2026-11-08T10:00:00.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired explainer/commentary on world models; no specific named model release, no research paper or benchmark link, no business event, no policy action, and no OSS tool. No rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-08T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
