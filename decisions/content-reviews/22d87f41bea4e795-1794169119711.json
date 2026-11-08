@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "22d87f41bea4e795",
+  "url": "https://www.techmeme.com/261108/p8#a261108p8",
+  "sourceName": "Techmeme",
+  "title": "Sources: Anthropic bought commitments for 1.7GW of gas-fired generators from equipment supplier OnePWR for $3.4B, the largest known such purchase by an AI lab (Martha Muir/Financial Times)",
+  "summary": "Martha Muir / Financial Times: Sources: Anthropic bought commitments for 1.7GW of gas-fired generators from equipment supplier OnePWR for $3.4B, the largest known such purchase by an AI lab — AI lab bypasses traditional suppliers to secure scarce equipment as demand for energy su",
+  "pubDate": "2026-11-08T15:05:01.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: Anthropic's $3.4B commitment to buy 1.7GW of gas generators from OnePWR, per Financial Times reporting; a non-model business/deal event covered by reputable media.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Martha Muir / Financial Times: Sources: Anthropic bought commitments for 1.7GW of gas-fired generators from equipment supplier OnePWR for $3.4B, the largest known such purchase by an AI lab — AI lab bypasses traditional suppliers to secure scarce equipment as demand for energy su",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p8#a261108p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T15:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
