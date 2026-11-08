@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "c9b22d6ccf1c9892",
+  "url": "https://www.techmeme.com/261108/p4#a261108p4",
+  "sourceName": "Techmeme",
+  "title": "The crypto industry is bracing for a reckoning after Democrats won the US midterms and vowed to investigate the Trump family and its ties to the industry (Financial Times)",
+  "summary": "Financial Times: The crypto industry is bracing for a reckoning after Democrats won the US midterms and vowed to investigate the Trump family and its ties to the industry — Democrats have vowed to start investigation into president's family after sweeping victory in midterms",
+  "pubDate": "2026-11-08T06:35:01.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about crypto industry politics after US midterms; no AI model, research, industry-business, policy-on-AI, or OSS tooling content, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: The crypto industry is bracing for a reckoning after Democrats won the US midterms and vowed to investigate the Trump family and its ties to the industry — Democrats have vowed to start investigation into president's family after sweeping victory in midterms",
+    "summaryChars": 275,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p4#a261108p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T06:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
