@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "a275545ccc597109",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xqqj67/grfnet_pytorch_model_for_multichannel_timeseries/",
+  "sourceName": "r/MachineLearning new",
+  "title": "GRFNet, PyTorch model for multichannel time-series classification [P]",
+  "summary": "Hi all, Through my MSc work on EEG decoding, I built a novel (partially) architecture tailored to the constraints of EEG. The datasets are small, the subject variability is high, and signal acquisition variables differ significantly. I’ve now extracted that model to develop into ",
+  "pubDate": "2026-11-08T05:13:11.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post about a personal PyTorch model (GRFNet) for time-series classification, but the link is only the Reddit thread — no original paper/official source (rule 2-1) and no repository or official tool announcement (rule 5-1). No rule's evidence link condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi all, Through my MSc work on EEG decoding, I built a novel (partially) architecture tailored to the constraints of EEG. The datasets are small, the subject variability is high, and signal acquisition variables differ significantly. I’ve now extracted that model to develop into ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xqqj67/grfnet_pytorch_model_for_multichannel_timeseries/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-08T05:13:11.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
