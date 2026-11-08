@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "db9792e954d44701",
+  "url": "https://openai.com/index/merge-builds-with-openai",
+  "sourceName": "OpenAI Blog",
+  "title": "Merge builds product and business tools with OpenAI technology",
+  "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+  "pubDate": "2026-11-05T08:00:00.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Merge using OpenAI products; no new model release, research artifact, business event, policy action, or OSS tool launch. Mentions GPT-6 Astra only as usage, not an availability announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/merge-builds-with-openai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-05T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
