@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "45f5170dd485daff",
+  "url": "https://www.techmeme.com/261108/p3#a261108p3",
+  "sourceName": "Techmeme",
+  "title": "Nous Research unveils Arete-27B, a post-trained Qwen3.8-27B model that reinforces Western values, saying the underlying Chinese model's bias layer is shallow (Nous Research)",
+  "summary": "Nous Research: Nous Research unveils Arete-27B, a post-trained Qwen3.8-27B model that reinforces Western values, saying the underlying Chinese model's bias layer is shallow — We post-trained over Alibaba's Qwen3.8-27B to reinforce Western values on a Chinese-trained model. We cal",
+  "pubDate": "2026-11-08T06:20:00.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nous Research: Nous Research unveils Arete-27B, a post-trained Qwen3.8-27B model that reinforces Western values, saying the underlying Chinese model's bias layer is shallow — We post-trained over Alibaba's Qwen3.8-27B to reinforce Western values on a Chinese-trained model. We cal",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p3#a261108p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T06:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
