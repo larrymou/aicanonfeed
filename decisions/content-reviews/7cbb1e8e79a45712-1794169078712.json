@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "7cbb1e8e79a45712",
+  "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+  "sourceName": "Hacker News Front Page",
+  "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+  "summary": "Article URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc Comments URL: https://news.ycombinator.com/item?id=50416158 Points: 42 # Comments: 22",
+  "pubDate": "2026-11-08T19:20:32.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about email deliverability/DMARC policy at Outlook.com, not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc Comments URL: https://news.ycombinator.com/item?id=50416158 Points: 42 # Comments: 22",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+    "linkHost": "mailroute.net",
+    "pubDate": "2026-11-08T19:20:32.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
