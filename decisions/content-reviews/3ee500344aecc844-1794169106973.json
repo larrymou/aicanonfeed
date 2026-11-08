@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "3ee500344aecc844",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xr47tw/i_merged_attention_and_mlp_processing_into_a/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I merged attention and MLP processing into a single gated Transformer block. GAP [R]",
+  "summary": "Hi everyone! I've been experimenting with an alternative Transformer architecture called GAP (Gated Attention Projection). The main idea is to combine attention and MLP-style processing into a single gated block, instead of using the standard separate attention and feed-forward s",
+  "pubDate": "2026-11-08T17:43:26.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post describing an experimental Transformer variant (GAP). No link to an original paper/arXiv or official source, so research rule 2-1 is unmet; no official owner announcement or news article for model rule 1-1, and no repository/tool release for rule 5-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hi everyone! I've been experimenting with an alternative Transformer architecture called GAP (Gated Attention Projection). The main idea is to combine attention and MLP-style processing into a single gated block, instead of using the standard separate attention and feed-forward s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xr47tw/i_merged_attention_and_mlp_processing_into_a/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-08T17:43:26.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
