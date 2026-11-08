@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "c60c4786c8d2113f",
+  "url": "https://aworkinglibrary.com/writing/petered",
+  "sourceName": "Hacker News Front Page",
+  "title": "Petered (what happens after the Peter Principle)",
+  "summary": "Article URL: https://aworkinglibrary.com/writing/petered Comments URL: https://news.ycombinator.com/item?id=50412152 Points: 87 # Comments: 50",
+  "pubDate": "2026-11-08T10:56:43.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a general workplace essay on the Peter Principle; no named AI model release, research artifact, AI business event, policy action, or open-source AI tool is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://aworkinglibrary.com/writing/petered Comments URL: https://news.ycombinator.com/item?id=50412152 Points: 87 # Comments: 50",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://aworkinglibrary.com/writing/petered",
+    "linkHost": "aworkinglibrary.com",
+    "pubDate": "2026-11-08T10:56:43.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
