@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "4c8760afa8825b3f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xqw77i/r_preregistered_replication_of_dreaming_neural/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[R] Pre-registered replication of \"Dreaming neural networks\" (Hopfield unlearning, Fachechi et al. 2019) — submitted to ReScience C, code + data + pre-registrations public [R]",
+  "summary": "I re-implemented the dreaming (Hebbian-unlearning) Hopfield kernel J(t) = J(1+t)(1+tJ)^-1 from Fachechi, Agliari & Barra (Neural Networks 2019) in NumPy, at N = 1 000, 10 seeds per condition, with a pre-registered design frozen by git tags before each run. Main result: dreaming a",
+  "pubDate": "2026-11-08T11:20:10.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Replication study of published Hopfield unlearning work could fit rule 2-1, but the only link is a Reddit discussion post (linkHost www.reddit.com); no link to the original paper or official source is observed, so the rule's evidence-link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I re-implemented the dreaming (Hebbian-unlearning) Hopfield kernel J(t) = J(1+t)(1+tJ)^-1 from Fachechi, Agliari & Barra (Neural Networks 2019) in NumPy, at N = 1 000, 10 seeds per condition, with a pre-registered design frozen by git tags before each run. Main result: dreaming a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xqw77i/r_preregistered_replication_of_dreaming_neural/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-08T11:20:10.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
