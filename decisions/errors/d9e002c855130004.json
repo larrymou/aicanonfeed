@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "d9e002c855130004",
+  "url": "https://www.techmeme.com/261108/p12#a261108p12",
+  "sourceName": "Techmeme",
+  "title": "DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user (Saritha Rai/Bloomberg)",
+  "summary": "Saritha Rai / Bloomberg: DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user — DeepSeek, the Chinese AI disruptor, released striking adoption numbers for its AI agent infra",
+  "pubDate": "2026-11-08T20:10:00.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Saritha Rai / Bloomberg: DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user — DeepSeek, the Chinese AI disruptor, released striking adoption numbers for its AI agent infra",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p12#a261108p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T20:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
