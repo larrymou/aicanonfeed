@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "9cc8c1cac234c331",
+  "url": "https://github.com/AmSach/maple",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Maple – Sub-2-BPW Moe Pruning to Run Gemma 4 26B at 45 TPS on a 6GB GPU",
+  "summary": "Article URL: https://github.com/AmSach/maple Comments URL: https://news.ycombinator.com/item?id=50410253 Points: 3 # Comments: 0",
+  "pubDate": "2026-11-08T03:48:04.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Show HN announcing Maple, a new open-source tool for MoE pruning to run Gemma on a 6GB GPU, linked to its GitHub repository; fits the tools/OSS rule rather than a model release.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/AmSach/maple Comments URL: https://news.ycombinator.com/item?id=50410253 Points: 3 # Comments: 0",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://github.com/AmSach/maple",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-08T03:48:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
