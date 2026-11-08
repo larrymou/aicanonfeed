@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "7c9b33ca4865f081",
+  "url": "https://www.techmeme.com/261108/p5#a261108p5",
+  "sourceName": "Techmeme",
+  "title": "Internal documents leaked by Cisco workers angry over the company's ties to Israel's military show how it expanded its business as the war in Gaza dragged on (Alice Speri/The Guardian)",
+  "summary": "Alice Speri / The Guardian: Internal documents leaked by Cisco workers angry over the company's ties to Israel's military show how it expanded its business as the war in Gaza dragged on — Tech giant leaped to shore up relationship even as company was roiled by worker protest over",
+  "pubDate": "2026-11-08T06:50:00.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports leaked Cisco internal documents about its business ties to Israel's military; no AI model release, research artifact, AI industry business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alice Speri / The Guardian: Internal documents leaked by Cisco workers angry over the company's ties to Israel's military show how it expanded its business as the war in Gaza dragged on — Tech giant leaped to shore up relationship even as company was roiled by worker protest over",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p5#a261108p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T06:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
