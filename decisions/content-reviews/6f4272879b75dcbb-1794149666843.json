@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "6f4272879b75dcbb",
+  "url": "https://www.techmeme.com/261108/p6#a261108p6",
+  "sourceName": "Techmeme",
+  "title": "Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers (Valerie Volcovici/Reuters)",
+  "summary": "Valerie Volcovici / Reuters: Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers — Environmental groups worldwide are using artificial intelligence to analyze climate data",
+  "pubDate": "2026-11-08T07:01:10.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is general commentary on environmental groups adopting AI; it reports no model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Valerie Volcovici / Reuters: Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers — Environmental groups worldwide are using artificial intelligence to analyze climate data",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p6#a261108p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T07:01:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
