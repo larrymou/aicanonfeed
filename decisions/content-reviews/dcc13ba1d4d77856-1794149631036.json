@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "dcc13ba1d4d77856",
+  "url": "https://krthr.co/person-of-interest/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Person of Interest",
+  "summary": "Article URL: https://krthr.co/person-of-interest/ Comments URL: https://news.ycombinator.com/item?id=50412318 Points: 169 # Comments: 106",
+  "pubDate": "2026-11-08T11:23:28.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'Person of Interest' with only an HN link and no descriptive summary; no Content fact establishes a model release, research artifact, industry business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://krthr.co/person-of-interest/ Comments URL: https://news.ycombinator.com/item?id=50412318 Points: 169 # Comments: 106",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://krthr.co/person-of-interest/",
+    "linkHost": "krthr.co",
+    "pubDate": "2026-11-08T11:23:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
