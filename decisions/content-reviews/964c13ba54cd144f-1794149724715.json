@@ -1,18 +1,24 @@
 {
-  "runId": "run-1794115126166-1bzxk3",
+  "runId": "run-1794149608574-8u31o9",
   "urlHash": "964c13ba54cd144f",
   "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
   "sourceName": "Ollama releases",
   "title": "v0.40.15-rc1: llama.cpp: version bump b12111 (#19530)",
   "summary": "Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix",
   "pubDate": "2026-11-05T01:31:38.000Z",
-  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "reason": "Routine release-candidate version bump and patch drop in Ollama's repo; no named AI model release, no research artifact, no business/policy event, and not a new open-source tool or framework launch under rule 5-1.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix",
