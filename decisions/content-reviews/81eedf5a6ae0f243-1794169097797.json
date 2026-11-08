@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "81eedf5a6ae0f243",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xr4hkm/artificial_analysis_multimodal_decision_model/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Artificial Analysis: multimodal decision model Drex Max ranks #1. Both achieving SOTA and Pareto frontier [N]",
+  "summary": "hey, its Alti from Nace. we released a small update with Drex Max v1.1, both achieving the SOTA and Pareto frontier for decision models. We did all that by iterating step by step and every previous version of Drex’s open weights are available on hf. We also released a full playbo",
+  "pubDate": "2026-11-08T17:54:43.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Drex Max v1.1 is named, but v1.1 is not a major version (N.0) and no new model capability is established; the only link is a Reddit post, not an official owner announcement or authored news article. Not a research artifact, business event, or OSS tooling, so no rule matches.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "hey, its Alti from Nace. we released a small update with Drex Max v1.1, both achieving the SOTA and Pareto frontier for decision models. We did all that by iterating step by step and every previous version of Drex’s open weights are available on hf. We also released a full playbo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xr4hkm/artificial_analysis_multimodal_decision_model/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-08T17:54:43.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
