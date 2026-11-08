@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "b631255c3816963f",
+  "url": "https://www.techmeme.com/261108/p9#a261108p9",
+  "sourceName": "Techmeme",
+  "title": "Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities (Mark Gurman/Bloomberg)",
+  "summary": "Mark Gurman / Bloomberg: Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities — The company wants to turn Siri into a true AI agent. … Apple's new CEO is pressing software c",
+  "pubDate": "2026-11-08T16:20:06.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media report on internal Apple AI strategy/leadership pressure; no named model release or official owner announcement (1-1), no research artifact (2-1), no financing/M&A/partnership/product launch (3-1), no policy action (4-1), no OSS tool (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mark Gurman / Bloomberg: Sources: John Ternus wants more urgency in Apple's AI efforts, pushing Craig Federighi to move beyond Siri AI tweaks to agentic and other advanced capabilities — The company wants to turn Siri into a true AI agent. … Apple's new CEO is pressing software c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p9#a261108p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T16:20:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
