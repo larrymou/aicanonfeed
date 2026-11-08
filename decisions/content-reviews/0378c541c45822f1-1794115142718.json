@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "0378c541c45822f1",
+  "url": "https://github.com/waywardgeek/ensemble",
+  "sourceName": "Hacker News Front Page",
+  "title": "I Use Development-Driven Specs, Not Spec-Driven Development",
+  "summary": "Article URL: https://github.com/waywardgeek/ensemble Comments URL: https://news.ycombinator.com/item?id=50410279 Points: 4 # Comments: 5",
+  "pubDate": "2026-11-08T03:51:55.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN link to a GitHub repo about development-driven specs; Content shows no AI model release, research artifact, industry event, policy action, or AI open-source tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/waywardgeek/ensemble Comments URL: https://news.ycombinator.com/item?id=50410279 Points: 4 # Comments: 5",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/waywardgeek/ensemble",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-08T03:51:55.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
