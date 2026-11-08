@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "247db924c90c48cc",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xqgg4v/combinatorial_optimization_with_pointer_networks/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Combinatorial Optimization with Pointer Networks: Theory, Benchmarks, and Limitations [P]",
+  "summary": "Hello everyone, This is the first article I’ve decided to share publicly. I'm really interested in solving combinatorial optimization problems using machine learning, and this is the opening piece in what will hopefully become a broader series exploring this domain. This part foc",
+  "pubDate": "2026-11-07T20:44:34.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post sharing a personal article series on pointer networks for combinatorial optimization. No link to an arXiv preprint, peer-reviewed paper, benchmark release, or official source, so rule 2-1's research-artifact requirement is unmet; not a model release, industry event, policy act",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello everyone, This is the first article I’ve decided to share publicly. I'm really interested in solving combinatorial optimization problems using machine learning, and this is the opening piece in what will hopefully become a broader series exploring this domain. This part foc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xqgg4v/combinatorial_optimization_with_pointer_networks/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-07T20:44:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
