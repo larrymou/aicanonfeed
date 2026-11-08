@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794149608574-8u31o9",
+  "urlHash": "981785a01550309d",
+  "url": "https://openai.com/index/devrev-enterprise-self-service",
+  "sourceName": "OpenAI Blog",
+  "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+  "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+  "pubDate": "2026-11-04T00:00:00.000Z",
+  "decidedAt": "2026-11-08T14:53:45.034Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study: DevRev uses GPT-6.1 Sol. No new model/major version/capability release (R1-1), no research artifact, no policy action, no OSS tool, and no financing/M&A/partnership deal or market data to satisfy 3-1. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+    "summaryChars": 116,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/devrev-enterprise-self-service",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
