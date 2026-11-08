@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "7dac8a78f7feaf0e",
+  "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Kirlian Photography: Building Your Own Equipment",
+  "summary": "Article URL: https://imagesco.com/articles/kirlian/kirlian-photography.html Comments URL: https://news.ycombinator.com/item?id=50410359 Points: 4 # Comments: 0",
+  "pubDate": "2026-11-08T04:14:12.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a DIY Kirlian photography article, unrelated to AI models, research, industry, policy, or OSS AI tools. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://imagesco.com/articles/kirlian/kirlian-photography.html Comments URL: https://news.ycombinator.com/item?id=50410359 Points: 4 # Comments: 0",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+    "linkHost": "imagesco.com",
+    "pubDate": "2026-11-08T04:14:12.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
