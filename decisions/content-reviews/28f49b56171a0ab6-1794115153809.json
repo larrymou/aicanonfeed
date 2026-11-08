@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794115126166-1bzxk3",
+  "urlHash": "28f49b56171a0ab6",
+  "url": "https://www.techmeme.com/261107/p18#a261107p18",
+  "sourceName": "Techmeme",
+  "title": "How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms (Politico)",
+  "summary": "Politico: How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms — For years, the policy debate over artificial intelligence belonged to those who counted progress in decades.",
+  "pubDate": "2026-11-08T02:45:02.000Z",
+  "decidedAt": "2026-11-08T05:18:53.197Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is political/advocacy reporting on an AI-safety network and a super PAC's midterm spending; it is not a model release, research artifact, industry business event, official policy/government action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Politico: How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms — For years, the policy debate over artificial intelligence belonged to those who counted progress in decades.",
+    "summaryChars": 277,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261107/p18#a261107p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-08T02:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
