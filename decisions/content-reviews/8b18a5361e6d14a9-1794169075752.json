@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794169060410-4y4up1",
+  "urlHash": "8b18a5361e6d14a9",
+  "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+  "sourceName": "Hacker News Front Page",
+  "title": "How I Fight AI Brain Fry",
+  "summary": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 14 # Comments: 3",
+  "pubDate": "2026-11-08T19:37:42.000Z",
+  "decidedAt": "2026-11-08T20:17:49.170Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog commentary on coping with AI fatigue. No model release, research artifact, business event, policy action, or open-source tool announced; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 14 # Comments: 3",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+    "linkHost": "sergeykuhne.com",
+    "pubDate": "2026-11-08T19:37:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
