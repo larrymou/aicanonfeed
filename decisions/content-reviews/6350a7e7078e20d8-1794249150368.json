@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "6350a7e7078e20d8",
+  "url": "https://www.techmeme.com/261109/p33#a261109p33",
+  "sourceName": "Techmeme",
+  "title": "French officials say Iran's Revolutionary Guards were behind the cyberattacks that knocked out commercial refrigerators and freezers across France in October (Reuters)",
+  "summary": "Reuters: French officials say Iran's Revolutionary Guards were behind the cyberattacks that knocked out commercial refrigerators and freezers across France in October — French officials on Monday accused Iran's Revolutionary Guards of responsibility for the cyberattacks that knoc",
+  "pubDate": "2026-11-09T17:05:00.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a state-sponsored cyberattack (Iran's Revolutionary Guards vs French refrigeration systems). It is not a model release, AI research, AI industry business event, AI policy action, or OSS tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: French officials say Iran's Revolutionary Guards were behind the cyberattacks that knocked out commercial refrigerators and freezers across France in October — French officials on Monday accused Iran's Revolutionary Guards of responsibility for the cyberattacks that knoc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p33#a261109p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T17:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
