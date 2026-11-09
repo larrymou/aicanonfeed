@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "7c8756cc02a616ad",
+  "url": "https://aphyr.com/posts/427-rip-harvest",
+  "sourceName": "Hacker News Front Page",
+  "title": "RIP, Harvest",
+  "summary": "Article URL: https://aphyr.com/posts/427-rip-harvest Comments URL: https://news.ycombinator.com/item?id=50420035 Points: 190 # Comments: 58",
+  "pubDate": "2026-11-09T01:58:21.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'RIP, Harvest' with an aphyr.com personal blog link provides no evidence of a named model release, AI research artifact, industry business event, policy action, or open-source AI tool. No rule condition is met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://aphyr.com/posts/427-rip-harvest Comments URL: https://news.ycombinator.com/item?id=50420035 Points: 190 # Comments: 58",
+    "summaryChars": 139,
+    "summarySource": "summary",
+    "link": "https://aphyr.com/posts/427-rip-harvest",
+    "linkHost": "aphyr.com",
+    "pubDate": "2026-11-09T01:58:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
