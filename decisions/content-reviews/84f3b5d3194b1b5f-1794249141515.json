@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "84f3b5d3194b1b5f",
+  "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+  "sourceName": "Ars Technica AI",
+  "title": "Claude Code is accidentally exposing secrets all over GitHub",
+  "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+  "pubDate": "2026-11-09T17:24:26.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security news about Claude Code settings files leaking secrets on GitHub. Not a model release, research artifact, industry business event (financing/M&A/partnership/market data/product launch), policy action, or new OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-09T17:24:26.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
