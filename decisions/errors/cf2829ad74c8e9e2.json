@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "cf2829ad74c8e9e2",
+  "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+  "sourceName": "The Verge AI",
+  "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+  "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbo",
+  "pubDate": "2026-11-09T18:07:23.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-09T18:07:23.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
