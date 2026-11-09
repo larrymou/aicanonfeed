@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "aae656ff5da4f5a0",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xr9d9y/continual_retention_across_6_streams_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Continual retention across 6 streams [R]",
+  "summary": "submitted by /u/Horror-Celery4869 [link] [comments]",
+  "pubDate": "2026-11-08T21:16:07.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [R] post with no observed paper/preprint link or abstract; title alone can't establish a new research result with a link to the original artifact, so rule 2-1 conditions are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "submitted by /u/Horror-Celery4869 [link] [comments]",
+    "summaryChars": 51,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xr9d9y/continual_retention_across_6_streams_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-08T21:16:07.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
