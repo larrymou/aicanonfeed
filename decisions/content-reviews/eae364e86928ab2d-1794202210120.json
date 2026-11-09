@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "eae364e86928ab2d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xrj2ld/have_mlsys_2027_reviewers_received_their_paper/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Have MLSys 2027 reviewers received their paper assignments yet? [D]",
+  "summary": "I’m signed up as a reciprocal reviewer for MLSys 2027 but haven’t been assigned any papers yet. Has anyone received their assignments, or heard when they’ll be released? submitted by /u/Sea_Raccoon_9673 [link] [comments]",
+  "pubDate": "2026-11-09T05:09:22.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking about MLSys 2027 reviewer paper assignments. It reports no new research artifact, model release, industry business event, policy action, or open-source tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I’m signed up as a reciprocal reviewer for MLSys 2027 but haven’t been assigned any papers yet. Has anyone received their assignments, or heard when they’ll be released? submitted by /u/Sea_Raccoon_9673 [link] [comments]",
+    "summaryChars": 220,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xrj2ld/have_mlsys_2027_reviewers_received_their_paper/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-09T05:09:22.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
