@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "95fc78640d80e843",
+  "url": "https://www.techmeme.com/261109/p32#a261109p32",
+  "sourceName": "Techmeme",
+  "title": "Sources: a Commerce Department investigation into Megaspeed for allegedly smuggling Nvidia chips to China was transferred to the DOJ after Nvidia intervened (New York Times)",
+  "summary": "New York Times: Sources: a Commerce Department investigation into Megaspeed for allegedly smuggling Nvidia chips to China was transferred to the DOJ after Nvidia intervened — An investigation into Megaspeed, a Singapore company that was buying advanced Nvidia A.I. chips, was tran",
+  "pubDate": "2026-11-09T16:20:00.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Sources: a Commerce Department investigation into Megaspeed for allegedly smuggling Nvidia chips to China was transferred to the DOJ after Nvidia intervened — An investigation into Megaspeed, a Singapore company that was buying advanced Nvidia A.I. chips, was tran",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p32#a261109p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T16:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
