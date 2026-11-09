@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "1d5c59045f3456cb",
+  "url": "https://www.techmeme.com/261108/p21#a261108p21",
+  "sourceName": "Techmeme",
+  "title": "Tencent's chief AI scientist Yao Shunyu says AI's bio abilities will soon make it \"possible to do harm\" and Anthropic has a \"strong argument\" for closed models (Vincent Chow/South China Morning Post)",
+  "summary": "Vincent Chow / South China Morning Post: Tencent's chief AI scientist Yao Shunyu says AI's bio abilities will soon make it “possible to do harm” and Anthropic has a “strong argument” for closed models — Artificial intelligence models will soon be powerful enough to master biology",
+  "pubDate": "2026-11-09T03:15:01.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/interview remarks by Tencent's chief AI scientist about AI bio risks and closed vs open models. No model release, research artifact, business event, policy action, or OSS tool; the Techmeme link is an aggregator pointer, no official owner or paper source.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Vincent Chow / South China Morning Post: Tencent's chief AI scientist Yao Shunyu says AI's bio abilities will soon make it “possible to do harm” and Anthropic has a “strong argument” for closed models — Artificial intelligence models will soon be powerful enough to master biology",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p21#a261108p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T03:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
