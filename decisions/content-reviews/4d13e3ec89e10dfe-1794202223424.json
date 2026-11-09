@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "4d13e3ec89e10dfe",
+  "url": "http://mamememo.blogspot.com/2010/09/qlobe.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Qlobe: Rotating Quine (2010)",
+  "summary": "Article URL: http://mamememo.blogspot.com/2010/09/qlobe.html Comments URL: https://news.ycombinator.com/item?id=50420599 Points: 12 # Comments: 0",
+  "pubDate": "2026-11-09T03:15:17.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A 2010 blog post about a rotating quine (self-replicating code art); no AI model release, research paper, industry event, policy action, or AI open-source tooling is described. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: http://mamememo.blogspot.com/2010/09/qlobe.html Comments URL: https://news.ycombinator.com/item?id=50420599 Points: 12 # Comments: 0",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
+    "linkHost": "mamememo.blogspot.com",
+    "pubDate": "2026-11-09T03:15:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
