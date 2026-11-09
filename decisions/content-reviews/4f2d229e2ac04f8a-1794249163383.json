@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "4f2d229e2ac04f8a",
+  "url": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+  "summary": "This article is brought to you by Queen’s University Belfast. Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and creating applications to support risk assessment, client profiling, match making, and information yield",
+  "pubDate": "2026-11-09T16:25:06.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/sponsored article on zero-trust security for AI agents; no named model release, research artifact, business event, policy action, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This article is brought to you by Queen’s University Belfast. Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and creating applications to support risk assessment, client profiling, match making, and information yield",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-09T16:25:06.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
