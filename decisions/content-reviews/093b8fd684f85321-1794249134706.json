@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "093b8fd684f85321",
+  "url": "https://news.ycombinator.com/front?day=2024-11-08",
+  "sourceName": "Hacker News Front Page",
+  "title": "Going back two years on Hacker News is like entering another, better universe",
+  "summary": "Article URL: https://news.ycombinator.com/front?day=2024-11-08 Comments URL: https://news.ycombinator.com/item?id=50428724 Points: 77 # Comments: 34",
+  "pubDate": "2026-11-09T17:36:20.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN front-page archive link about site history; no AI model release, research artifact, industry business event, policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://news.ycombinator.com/front?day=2024-11-08 Comments URL: https://news.ycombinator.com/item?id=50428724 Points: 77 # Comments: 34",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://news.ycombinator.com/front?day=2024-11-08",
+    "linkHost": "news.ycombinator.com",
+    "pubDate": "2026-11-09T17:36:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
