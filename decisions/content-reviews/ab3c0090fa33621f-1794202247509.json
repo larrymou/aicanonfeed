@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "ab3c0090fa33621f",
+  "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+  "sourceName": "TechCrunch AI",
+  "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+  "summary": "In a memo to the company, Huang admitted that he had an affair.",
+  "pubDate": "2026-11-08T21:00:11.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a corporate/HR investigation into Nvidia's CEO's personal relationship. It is not a model release, research artifact, industry business event (financing, M&A, partnership, market data, non-model product launch), policy action, or OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In a memo to the company, Huang admitted that he had an affair.",
+    "summaryChars": 63,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-08T21:00:11.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
