@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "3886a995c9206e38",
+  "url": "https://www.techmeme.com/261109/p2#a261109p2",
+  "sourceName": "Techmeme",
+  "title": "When talking about AI safety, President Trump says \"I don't mind guardrails. But I don't wanna put us in a deep second position\", and \"China has no guardrails\" (CBS News)",
+  "summary": "CBS News: When talking about AI safety, President Trump says “I don't mind guardrails. But I don't wanna put us in a deep second position”, and “China has no guardrails” — This past Tuesday, President Donald Trump's Republican Party suffered an extraordinary midterm repudiation …",
+  "pubDate": "2026-11-09T05:15:01.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is presidential commentary/quote on AI safety from a CBS interview, not a law, executive order, regulatory enforcement, or official policy announcement; no policy action or official document link is present, so rule 4-1 is unmet and no other rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CBS News: When talking about AI safety, President Trump says “I don't mind guardrails. But I don't wanna put us in a deep second position”, and “China has no guardrails” — This past Tuesday, President Donald Trump's Republican Party suffered an extraordinary midterm repudiation …",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p2#a261109p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T05:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
