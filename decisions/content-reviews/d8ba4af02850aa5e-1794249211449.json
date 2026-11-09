@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "d8ba4af02850aa5e",
+  "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+  "sourceName": "The Verge AI",
+  "title": "Jonathan Kanter is using AI to take on Big Tech",
+  "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former ",
+  "pubDate": "2026-11-09T14:30:00.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Profile of former DOJ antitrust official Jonathan Kanter using AI in private-sector legal work. Not a named model release, research artifact, business event, policy/government action, or OSS tool launch; no rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-09T14:30:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
