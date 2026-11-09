@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "af09521a6deb7dfd",
+  "url": "https://www.techmeme.com/261108/p23#a261108p23",
+  "sourceName": "Techmeme",
+  "title": "Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race (Andrew Edgecliffe-Johnson/Semafor)",
+  "summary": "Andrew Edgecliffe-Johnson / Semafor: Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race — There's little precedent in US corporate history for the crisis facing Nvidia after",
+  "pubDate": "2026-11-09T04:25:00.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary about a corporate crisis/scandal involving Jensen Huang and Nvidia. No named model release, research artifact, financing/M&A/partnership/market data, policy action, or OSS tool launch is reported. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew Edgecliffe-Johnson / Semafor: Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race — There's little precedent in US corporate history for the crisis facing Nvidia after",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p23#a261108p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T04:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
