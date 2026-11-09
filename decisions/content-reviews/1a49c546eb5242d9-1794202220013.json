@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "1a49c546eb5242d9",
+  "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+  "sourceName": "Hacker News Front Page",
+  "title": "A Critique of GPUI",
+  "summary": "Article URL: https://blog.zortax.de/posts/a-critique-of-gpui Comments URL: https://news.ycombinator.com/item?id=50420857 Points: 33 # Comments: 7",
+  "pubDate": "2026-11-09T03:51:10.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A critique/opinion piece on GPUI, not a model release, research paper, benchmark, industry business event, policy action, or new open-source tool/framework release. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.zortax.de/posts/a-critique-of-gpui Comments URL: https://news.ycombinator.com/item?id=50420857 Points: 33 # Comments: 7",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
+    "linkHost": "blog.zortax.de",
+    "pubDate": "2026-11-09T03:51:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
