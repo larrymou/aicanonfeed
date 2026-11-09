@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "637cc51b2facce74",
+  "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+  "sourceName": "Ars Technica AI",
+  "title": "Nvidia CEO's affair becomes a national security problem",
+  "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+  "pubDate": "2026-11-09T15:23:20.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Story is about an alleged affair and a Chinese espionage probe involving Nvidia's CEO — a security/tech-policy news item. It is not a model release, research result, business event (financing, M&A, partnership, market data, product launch), or official policy/regulatory action, and no OSS tooling is",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+    "summaryChars": 82,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-09T15:23:20.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
