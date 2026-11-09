@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "da0e04ae969a16f8",
+  "url": "https://www.techmeme.com/261109/p35#a261109p35",
+  "sourceName": "Techmeme",
+  "title": "Meta releases Muse Ember, its smallest and most cost-efficient AI model yet, saying it delivers more intelligence per dollar than Haiku 5.5 and GPT-6 Luna (Russell Brandom/TechCrunch)",
+  "summary": "Russell Brandom / TechCrunch: Meta releases Muse Ember, its smallest and most cost-efficient AI model yet, saying it delivers more intelligence per dollar than Haiku 5.5 and GPT-6 Luna — Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab's lig",
+  "pubDate": "2026-11-09T18:15:00.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Russell Brandom / TechCrunch: Meta releases Muse Ember, its smallest and most cost-efficient AI model yet, saying it delivers more intelligence per dollar than Haiku 5.5 and GPT-6 Luna — Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab's lig",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p35#a261109p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T18:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
