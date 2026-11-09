@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "a75157291928ceb3",
+  "url": "https://www.techmeme.com/261108/p22#a261108p22",
+  "sourceName": "Techmeme",
+  "title": "An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more (Nilay Patel/The Verge)",
+  "summary": "Nilay Patel / The Verge: An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more — Today, I'm talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity e",
+  "pubDate": "2026-11-09T04:05:00.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/commentary on AI and cybersecurity; no named model release, no research artifact, no business deal, no policy action, and no open-source tool. No rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nilay Patel / The Verge: An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more — Today, I'm talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity e",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261108/p22#a261108p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T04:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
