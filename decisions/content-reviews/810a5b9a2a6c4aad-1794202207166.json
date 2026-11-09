@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794202189203-0c4xwt",
+  "urlHash": "810a5b9a2a6c4aad",
+  "url": "https://www.techmeme.com/261109/p1#a261109p1",
+  "sourceName": "Techmeme",
+  "title": "Sources and filings detail how Jensen Huang has brought his children and other family members into Nvidia, making it unusually family-run for Silicon Valley (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources and filings detail how Jensen Huang has brought his children and other family members into Nvidia, making it unusually family-run for Silicon Valley — The Nvidia CEO has elevated his children to prominence. His board is investigating reports that he w",
+  "pubDate": "2026-11-09T05:10:00.000Z",
+  "decidedAt": "2026-11-09T05:29:57.262Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "WSJ report on Jensen Huang's family members working at Nvidia is a corporate governance/personnel story. It reports no model release, research artifact, financing/M&A/partnership/market data or non-model product launch, policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources and filings detail how Jensen Huang has brought his children and other family members into Nvidia, making it unusually family-run for Silicon Valley — The Nvidia CEO has elevated his children to prominence. His board is investigating reports that he w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p1#a261109p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T05:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
