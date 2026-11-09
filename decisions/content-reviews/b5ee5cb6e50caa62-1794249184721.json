@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "b5ee5cb6e50caa62",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xrv8mp/eacl_2027_decisions_thread_r/",
+  "sourceName": "r/MachineLearning new",
+  "title": "EACL 2027 Decisions Thread [R]",
+  "summary": "(Will be out on thursday) submitted by /u/Dry_Theme_7508 [link] [comments]",
+  "pubDate": "2026-11-09T15:52:24.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread about EACL 2027 decision timing; no paper, preprint, benchmark artifact, or official source link. Fails research rule 2-1 and no other rule covers community chatter.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "(Will be out on thursday) submitted by /u/Dry_Theme_7508 [link] [comments]",
+    "summaryChars": 74,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xrv8mp/eacl_2027_decisions_thread_r/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-09T15:52:24.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
