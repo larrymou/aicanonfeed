@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "e85e3f3ffe1e843f",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.16",
+  "summary": "What's Changed openai: forward truncation option in responses requests by @marlonferreira1800-hue in #19501 openai: return an empty array for /v1/models when no models are installed by @liangliang205 in #19539 llama.cpp: version bump b12177 by @dhiltgen in #19576 README: add Quoc",
+  "pubDate": "2026-11-09T18:21:19.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "What's Changed openai: forward truncation option in responses requests by @marlonferreira1800-hue in #19501 openai: return an empty array for /v1/models when no models are installed by @liangliang205 in #19539 llama.cpp: version bump b12177 by @dhiltgen in #19576 README: add Quoc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-09T18:21:19.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
