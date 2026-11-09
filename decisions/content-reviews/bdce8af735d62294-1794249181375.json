@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "bdce8af735d62294",
+  "url": "https://www.techmeme.com/261109/p31#a261109p31",
+  "sourceName": "Techmeme",
+  "title": "In a 60 Minutes interview, Trump says the DOJ threatened a top exec at \"one of the big\" AI companies over \"bad\" activities and this \"person totally changed\" (Stevie Bonifield/The Verge)",
+  "summary": "Stevie Bonifield / The Verge: In a 60 Minutes interview, Trump says the DOJ threatened a top exec at “one of the big” AI companies over “bad” activities and this “person totally changed” — Trump claims the DOJ told a top AI executive, ‘get ready to go to jail.’",
+  "pubDate": "2026-11-09T16:10:02.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview remark claiming DOJ threatened an AI executive is commentary, not an official policy action or document; no enforcement announcement or official source link. No rule (model release, research, industry deal, or OSS tool) applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Stevie Bonifield / The Verge: In a 60 Minutes interview, Trump says the DOJ threatened a top exec at “one of the big” AI companies over “bad” activities and this “person totally changed” — Trump claims the DOJ told a top AI executive, ‘get ready to go to jail.’",
+    "summaryChars": 261,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p31#a261109p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T16:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
