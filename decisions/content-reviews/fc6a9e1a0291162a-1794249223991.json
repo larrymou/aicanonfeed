@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794249076877-nrp97m",
+  "urlHash": "fc6a9e1a0291162a",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xrn7lo/i_tried_to_reproduce_lost_in_the_middle_on/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I tried to reproduce “lost in the middle” on current models and actually couldn’t do that! [P]",
+  "summary": "Everyone keeps citing lost in the middle so, instead of going by the paper's citations, i wanted to actually check it on my own stuff, without building a labeled set for it. So i did the lazy version. make up facts the model can’t already know, drop the one document that has the ",
+  "pubDate": "2026-11-09T09:22:10.000Z",
+  "decidedAt": "2026-11-09T18:31:32.965Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post describing a personal ad-hoc reproduction attempt of 'lost in the middle'; no peer-reviewed paper, arXiv preprint, or official benchmark release link. Fails rule 2-1, and no other group applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Everyone keeps citing lost in the middle so, instead of going by the paper's citations, i wanted to actually check it on my own stuff, without building a labeled set for it. So i did the lazy version. make up facts the model can’t already know, drop the one document that has the ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xrn7lo/i_tried_to_reproduce_lost_in_the_middle_on/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-09T09:22:10.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
