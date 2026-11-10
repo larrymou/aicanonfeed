@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "124eecaa75d8340f",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xsh5uh/how_do_you_guys_use_ai_to_come_up_with_research/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How do you guys use ai to come up with research ideas/loops to test them? Any tips? [D]",
+  "summary": "Hey guys, Im a uni student who's been tasked by this PhD student at this lab im interning at to figure out a problem across a certain type of system and figure out how it generalised. I'm in undergrad, so I get that research starts with measuring a gap and naming what a system is",
+  "pubDate": "2026-11-10T07:56:55.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for advice on using AI for research ideation; no named model release, no paper/preprint/benchmark artifact, no industry, policy, or OSS tool announcement. No rule covers commentary questions.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey guys, Im a uni student who's been tasked by this PhD student at this lab im interning at to figure out a problem across a certain type of system and figure out how it generalised. I'm in undergrad, so I get that research starts with measuring a gap and naming what a system is",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xsh5uh/how_do_you_guys_use_ai_to_come_up_with_research/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-10T07:56:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
