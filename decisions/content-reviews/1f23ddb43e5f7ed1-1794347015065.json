@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "1f23ddb43e5f7ed1",
+  "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+  "sourceName": "TechCrunch AI",
+  "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+  "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+  "pubDate": "2026-11-10T19:23:34.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports an M&A event: Oura acquiring AI-native primary care startup Counsel Health for $625M, linked to a reputable media report. This is an AI industry business event, not a model release.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-10T19:23:34.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
