@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "f321c904268bcef2",
+  "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+  "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+  "pubDate": "2026-11-10T12:02:28.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+    "summaryChars": 102,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-11-10T12:02:28.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
