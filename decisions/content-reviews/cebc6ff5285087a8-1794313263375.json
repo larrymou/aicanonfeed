@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "cebc6ff5285087a8",
+  "url": "https://connect.queenslibrary.org/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Queens Public library under ransomware attack e-borrowing suspended",
+  "summary": "Article URL: https://connect.queenslibrary.org/ Comments URL: https://news.ycombinator.com/item?id=50437790 Points: 58 # Comments: 37",
+  "pubDate": "2026-11-10T09:04:39.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a ransomware attack on a public library, unrelated to AI models, research, industry business events, AI policy, or open-source AI tools. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://connect.queenslibrary.org/ Comments URL: https://news.ycombinator.com/item?id=50437790 Points: 58 # Comments: 37",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://connect.queenslibrary.org/",
+    "linkHost": "connect.queenslibrary.org",
+    "pubDate": "2026-11-10T09:04:39.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
