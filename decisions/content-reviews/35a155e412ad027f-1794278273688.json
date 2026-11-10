@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "35a155e412ad027f",
+  "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+  "sourceName": "Hacker News Front Page",
+  "title": "Fable 5.2 one-shotted my nephew's dream game",
+  "summary": "Article URL: https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game Comments URL: https://news.ycombinator.com/item?id=50433659 Points: 164 # Comments: 114",
+  "pubDate": "2026-11-09T23:08:13.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about a game made with 'Fable 5.2'; no named lab/company owner, no official announcement link (linked_page_owner_domain/author not observed), and no research, business, policy, or OSS-tool artifact. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game Comments URL: https://news.ycombinator.com/item?id=50433659 Points: 164 # Comments: 114",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+    "linkHost": "notesbylex.com",
+    "pubDate": "2026-11-09T23:08:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
