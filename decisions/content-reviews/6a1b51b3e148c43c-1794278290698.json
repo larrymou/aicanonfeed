@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "6a1b51b3e148c43c",
+  "url": "https://github.com/expo/exact",
+  "sourceName": "Hacker News Front Page",
+  "title": "Exact – a new cross platform UI framework by the Expo team",
+  "summary": "Article URL: https://github.com/expo/exact Comments URL: https://news.ycombinator.com/item?id=50433541 Points: 46 # Comments: 23",
+  "pubDate": "2026-11-09T22:59:13.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Cross-platform UI framework from the Expo team, not an AI model, research, business event, policy action, or AI-focused OSS tool. No active rule covers a non-AI UI framework release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/expo/exact Comments URL: https://news.ycombinator.com/item?id=50433541 Points: 46 # Comments: 23",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://github.com/expo/exact",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-09T22:59:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
