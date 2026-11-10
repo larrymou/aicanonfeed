@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "a63244b3c1cf5c9e",
+  "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What Constant Surveillance Is Doing to Children",
+  "summary": "Article URL: https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/ Comments URL: https://news.ycombinator.com/item?id=50438480 Points: 25 # Comments: 7",
+  "pubDate": "2026-11-10T10:47:18.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Atlantic magazine piece on parental location-tracking and children is general tech/society commentary. It reports no AI model release, research artifact, industry business event, policy action, or open-source tool, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/ Comments URL: https://news.ycombinator.com/item?id=50438480 Points: 25 # Comments: 7",
+    "summaryChars": 195,
+    "summarySource": "summary",
+    "link": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+    "linkHost": "www.theatlantic.com",
+    "pubDate": "2026-11-10T10:47:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
