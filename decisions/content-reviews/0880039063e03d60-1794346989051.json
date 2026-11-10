@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "0880039063e03d60",
+  "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+  "sourceName": "Hacker News Front Page",
+  "title": "Sherman Anti-Trust Act (1890",
+  "summary": "Article URL: https://www.archives.gov/milestone-documents/sherman-anti-trust-act Comments URL: https://news.ycombinator.com/item?id=50446219 Points: 27 # Comments: 9",
+  "pubDate": "2026-11-10T20:56:16.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Historical Sherman Anti-Trust Act (1890) archive page from the National Archives; no AI model release, research, industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.archives.gov/milestone-documents/sherman-anti-trust-act Comments URL: https://news.ycombinator.com/item?id=50446219 Points: 27 # Comments: 9",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "linkHost": "www.archives.gov",
+    "pubDate": "2026-11-10T20:56:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
