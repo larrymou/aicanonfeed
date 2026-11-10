@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "1a0c6447ab6c6af5",
+  "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI usage generates a fragile codebase",
+  "summary": "Article URL: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/ Comments URL: https://news.ycombinator.com/item?id=50438318 Points: 69 # Comments: 54",
+  "pubDate": "2026-11-10T10:25:58.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary post on AI-generated code quality from a personal blog. No named model release, no research paper/benchmark artifact, no business or policy event, and no open-source tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/ Comments URL: https://news.ycombinator.com/item?id=50438318 Points: 69 # Comments: 54",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+    "linkHost": "evanxmerz.com",
+    "pubDate": "2026-11-10T10:25:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
