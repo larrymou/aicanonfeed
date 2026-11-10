@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "4a67921aca4afd15",
+  "url": "https://www.techmeme.com/261110/p52#a261110p52",
+  "sourceName": "Techmeme",
+  "title": "Sources: the US Commerce Dept. delayed new Entity List additions for two months, leaving off Megaspeed despite four other US agencies pushing for its inclusion (Financial Times)",
+  "summary": "Financial Times: Sources: the US Commerce Dept. delayed new Entity List additions for two months, leaving off Megaspeed despite four other US agencies pushing for its inclusion — Company connected to alleged Chinese spy who had affair with Nvidia chief Jensen Huang was left off ‘",
+  "pubDate": "2026-11-10T21:35:07.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "Reports a US Commerce Department action on Entity List additions (export-control/government action), covered by a reputable source (Financial Times via Techmeme), matching the policy rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: the US Commerce Dept. delayed new Entity List additions for two months, leaving off Megaspeed despite four other US agencies pushing for its inclusion — Company connected to alleged Chinese spy who had affair with Nvidia chief Jensen Huang was left off ‘",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p52#a261110p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T21:35:07.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
