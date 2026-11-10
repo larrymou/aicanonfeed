@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "c07c343a0e7253b5",
+  "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+  "sourceName": "Ars Technica AI",
+  "title": "What happens to mathematics when AI becomes an oracle?",
+  "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World.",
+  "pubDate": "2026-11-10T20:30:01.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a book/commentary discussion with mathematician Steven Strogatz; no new model release, research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World.",
+    "summaryChars": 100,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-10T20:30:01.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
