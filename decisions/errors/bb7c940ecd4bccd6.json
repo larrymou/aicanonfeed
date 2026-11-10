@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "bb7c940ecd4bccd6",
+  "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+  "summary": "NVIDIA Nemotron 3.5 Super VL, a 120B-parameter multimodal vision-language model, is now available in Amazon SageMaker JumpStart. Deploy the NVFP4 or BF16 variant in a few steps, then run text, image, and video inference for document intelligence, computer-use agents, and multimod",
+  "pubDate": "2026-11-09T20:01:20.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "NVIDIA Nemotron 3.5 Super VL, a 120B-parameter multimodal vision-language model, is now available in Amazon SageMaker JumpStart. Deploy the NVFP4 or BF16 variant in a few steps, then run text, image, and video inference for document intelligence, computer-use agents, and multimod",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-09T20:01:20.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
