@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "349d314923b43129",
+  "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+  "sourceName": "Wired AI",
+  "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+  "summary": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+  "pubDate": "2026-11-10T07:00:00.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired report on security flaws in UK government websites. No model release, no research artifact (paper/preprint/benchmark), no business event, no policy/regulatory action, and no open-source tool launch; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-10T07:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
