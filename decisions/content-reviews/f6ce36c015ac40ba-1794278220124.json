@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "f6ce36c015ac40ba",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xsasyf/did_we_ever_really_get_to_the_bottom_of_why/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Did we ever really get to the bottom of why BatchNorm works? [D]",
+  "summary": "It's been a long time since I studied this. Just checking in on an old friend. I also realize it's fallen out of favor for being extremely inconvenient, but why did it ever work? submitted by /u/XTXinverseXTY [link] [comments]",
+  "pubDate": "2026-11-10T02:07:04.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion question about why BatchNorm works; no paper, preprint, or benchmark link, so no new research result under 2-1. Not a model release, industry event, policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It's been a long time since I studied this. Just checking in on an old friend. I also realize it's fallen out of favor for being extremely inconvenient, but why did it ever work? submitted by /u/XTXinverseXTY [link] [comments]",
+    "summaryChars": 226,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xsasyf/did_we_ever_really_get_to_the_bottom_of_why/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-10T02:07:04.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
