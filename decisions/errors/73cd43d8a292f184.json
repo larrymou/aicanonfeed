@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "73cd43d8a292f184",
+  "url": "https://www.techmeme.com/261110/p53#a261110p53",
+  "sourceName": "Techmeme",
+  "title": "CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June (Jordan Novet/CNBC)",
+  "summary": "Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that",
+  "pubDate": "2026-11-10T21:40:01.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p53#a261110p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T21:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
