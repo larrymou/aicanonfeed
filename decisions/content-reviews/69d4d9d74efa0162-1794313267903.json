@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "69d4d9d74efa0162",
+  "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+  "sourceName": "OpenAI Blog",
+  "title": "Closing the AI guidance gap in education",
+  "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+  "pubDate": "2026-11-10T09:00:00.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post on education guidance/partnership lessons; no named model release, no research artifact link, no policy action, no OSS tool, and no specific partnership/deal announcement to match industry rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-10T09:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
