@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "ffd0277ad7cd64c2",
+  "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Locating the Source of a Mysterious Beep",
+  "summary": "Article URL: https://simonwillison.net/2026/Nov/9/mysterious-beeps/ Comments URL: https://news.ycombinator.com/item?id=50434310 Points: 9 # Comments: 5",
+  "pubDate": "2026-11-10T00:10:46.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a personal blog post about locating a mysterious beep; no AI model release, research artifact, industry business event, policy action, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://simonwillison.net/2026/Nov/9/mysterious-beeps/ Comments URL: https://news.ycombinator.com/item?id=50434310 Points: 9 # Comments: 5",
+    "summaryChars": 151,
+    "summarySource": "summary",
+    "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "linkHost": "simonwillison.net",
+    "pubDate": "2026-11-10T00:10:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
