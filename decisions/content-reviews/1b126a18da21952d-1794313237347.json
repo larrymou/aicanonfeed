@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "1b126a18da21952d",
+  "url": "https://www.techmeme.com/261110/p13#a261110p13",
+  "sourceName": "Techmeme",
+  "title": "Sources: Jensen Huang and Alice Huang's relationship dates back to at least 2023, facilitating $7.5B+ in Nvidia chip shipments via Chinese companies since then (The Information)",
+  "summary": "The Information: Sources: Jensen Huang and Alice Huang's relationship dates back to at least 2023, facilitating $7.5B+ in Nvidia chip shipments via Chinese companies since then — The relationship between Nvidia CEO Jensen Huang and Alice Huang, the woman that the U.S. government ",
+  "pubDate": "2026-11-10T11:45:02.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Report on Nvidia business dealings: relationship facilitating $7.5B+ in Nvidia chip shipments via Chinese companies, attributed to The Information — an AI industry market/business report from a reputable media source.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Sources: Jensen Huang and Alice Huang's relationship dates back to at least 2023, facilitating $7.5B+ in Nvidia chip shipments via Chinese companies since then — The relationship between Nvidia CEO Jensen Huang and Alice Huang, the woman that the U.S. government ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p13#a261110p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T11:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
