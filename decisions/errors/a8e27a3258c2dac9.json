@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "a8e27a3258c2dac9",
+  "url": "https://www.techmeme.com/261109/p45#a261109p45",
+  "sourceName": "Techmeme",
+  "title": "Apple is now offering additional AI access via one-time $50 \"intelligence usage packs\" when monthly usage caps are met, starting in its Creator Studio apps (Ryan Christoffel/9to5Mac)",
+  "summary": "Ryan Christoffel / 9to5Mac: Apple is now offering additional AI access via one-time $50 “intelligence usage packs” when monthly usage caps are met, starting in its Creator Studio apps — Apple has said it will eventually charge for expanded usage of select AI features. Now the fir",
+  "pubDate": "2026-11-09T23:05:00.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ryan Christoffel / 9to5Mac: Apple is now offering additional AI access via one-time $50 “intelligence usage packs” when monthly usage caps are met, starting in its Creator Studio apps — Apple has said it will eventually charge for expanded usage of select AI features. Now the fir",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p45#a261109p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-09T23:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
