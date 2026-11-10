@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "667ae52ac922981a",
+  "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+  "sourceName": "Wired AI",
+  "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+  "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+  "pubDate": "2026-11-10T05:01:00.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired media story about a DeepMind formal-verification research result, but the link is a news article, not the original paper or official source, so research rule 2-1's artifact link condition is unmet. No model release, business event, policy action, or OSS release applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-10T05:01:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
