@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "95f82950f174d85f",
+  "url": "https://www.techmeme.com/261110/p14#a261110p14",
+  "sourceName": "Techmeme",
+  "title": "Google DeepMind researchers used agentic AI framework AlphaProof Code to verify the Signal protocol's cryptographic guarantees, in a four-week proof-of-concept (Lily Hay Newman/Wired)",
+  "summary": "Lily Hay Newman / Wired: Google DeepMind researchers used agentic AI framework AlphaProof Code to verify the Signal protocol's cryptographic guarantees, in a four-week proof-of-concept — DeepMind researchers were able to formally verify that the widely used encryption protocol wo",
+  "pubDate": "2026-11-10T11:55:00.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reports a DeepMind formal-verification proof-of-concept, but the only link is a Techmeme aggregator item, not the original paper or an official DeepMind research source, so rule 2-1's evidence-link condition is unmet; no model release, business, policy, or OSS tool event applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "link",
+    "linkHost",
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lily Hay Newman / Wired: Google DeepMind researchers used agentic AI framework AlphaProof Code to verify the Signal protocol's cryptographic guarantees, in a four-week proof-of-concept — DeepMind researchers were able to formally verify that the widely used encryption protocol wo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p14#a261110p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T11:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
