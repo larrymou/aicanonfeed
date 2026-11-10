@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "712ba541c27f93fb",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xs6494/followup_2026_papers_are_finally_in_the_topic/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Follow-up: 2026 papers are finally in the topic pages, and we made ICML / CVPR / ICLR 2026 \"newspapers\"[P]",
+  "summary": "A few weeks ago I posted the topic pages we built from 10 years of ICML/NeurIPS/ICLR/CVPR/AAAI papers. A bunch of you pointed out the obvious gap: the benchmark records and ablations stopped at 2025. That's fixed now. We've pulled results out of about 101k full texts (it was 79k ",
+  "pubDate": "2026-11-09T22:39:13.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit follow-up describing an index of conference papers (topic pages), not a new research paper/benchmark or an open-source tool release with a repository/official announcement link; the only link is a Reddit post, so no active rule is satisfied.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A few weeks ago I posted the topic pages we built from 10 years of ICML/NeurIPS/ICLR/CVPR/AAAI papers. A bunch of you pointed out the obvious gap: the benchmark records and ablations stopped at 2025. That's fixed now. We've pulled results out of about 101k full texts (it was 79k ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xs6494/followup_2026_papers_are_finally_in_the_topic/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-09T22:39:13.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
