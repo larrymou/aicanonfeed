@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "37ad40cfbc85009e",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xsldgu/fable_52_just_doubled_the_best_remote_labor_index/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Fable 5.2 just doubled the best Remote Labor Index score [N]",
+  "summary": "Processing img zv6dhr1i1s0i1... Remote Labor Index (RLI) measures the ability of AI to fully automate remote work: https://www.remotelabor.ai/ submitted by /u/we_are_mammals [link] [comments]",
+  "pubDate": "2026-11-10T12:14:41.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title names 'Fable 5.2' but no owning lab/company is identified, and the link is a Reddit post — not an official owner announcement nor a full news article with named author and publication date. No R1 condition met; not a paper/official benchmark source (R2) nor an industry/policy/OSS announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Processing img zv6dhr1i1s0i1... Remote Labor Index (RLI) measures the ability of AI to fully automate remote work: https://www.remotelabor.ai/ submitted by /u/we_are_mammals [link] [comments]",
+    "summaryChars": 191,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xsldgu/fable_52_just_doubled_the_best_remote_labor_index/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-10T12:14:41.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
