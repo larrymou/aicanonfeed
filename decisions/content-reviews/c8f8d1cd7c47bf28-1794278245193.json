@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "c8f8d1cd7c47bf28",
+  "url": "https://maurycyz.com/projects/badcert/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Horible public key tricks",
+  "summary": "Article URL: https://maurycyz.com/projects/badcert/ Comments URL: https://news.ycombinator.com/item?id=50434264 Points: 33 # Comments: 11",
+  "pubDate": "2026-11-10T00:07:17.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general article about public key cryptography tricks; no AI model release, research paper, industry business event, policy action, or AI open-source tool is indicated. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://maurycyz.com/projects/badcert/ Comments URL: https://news.ycombinator.com/item?id=50434264 Points: 33 # Comments: 11",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://maurycyz.com/projects/badcert/",
+    "linkHost": "maurycyz.com",
+    "pubDate": "2026-11-10T00:07:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
