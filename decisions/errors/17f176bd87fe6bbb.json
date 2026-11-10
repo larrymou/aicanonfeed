@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "17f176bd87fe6bbb",
+  "url": "https://www.techmeme.com/261110/p49#a261110p49",
+  "sourceName": "Techmeme",
+  "title": "Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures (Shubhangi Goel/Business Insider)",
+  "summary": "Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they ",
+  "pubDate": "2026-11-10T20:25:16.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p49#a261110p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T20:25:16.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
