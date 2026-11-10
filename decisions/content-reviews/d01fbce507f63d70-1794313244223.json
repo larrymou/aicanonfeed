@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "d01fbce507f63d70",
+  "url": "https://www.techmeme.com/261110/p11#a261110p11",
+  "sourceName": "Techmeme",
+  "title": "BT CEO Allison Kirkby says a Starlink deal is \"ready to launch\" but the company is \"cautious on how Starlink might be viewed\" after the Ukraine service cutoff (Kieran Smith/Financial Times)",
+  "summary": "Kieran Smith / Financial Times: BT CEO Allison Kirkby says a Starlink deal is “ready to launch” but the company is “cautious on how Starlink might be viewed” after the Ukraine service cutoff — Launch will not proceed until ‘noise has died down’ over battlefield service disruption",
+  "pubDate": "2026-11-10T11:35:01.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns a BT/Starlink telecom deal and is not AI-related; no active rule (model releases, research, industry AI business, policy, or OSS tools) covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kieran Smith / Financial Times: BT CEO Allison Kirkby says a Starlink deal is “ready to launch” but the company is “cautious on how Starlink might be viewed” after the Ukraine service cutoff — Launch will not proceed until ‘noise has died down’ over battlefield service disruption",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p11#a261110p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T11:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
