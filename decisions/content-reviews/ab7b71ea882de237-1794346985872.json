@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "ab7b71ea882de237",
+  "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Six Math Essentials by Terence Tao",
+  "summary": "Article URL: https://teorth.github.io/tao-web/six-math-essentials.html Comments URL: https://news.ycombinator.com/item?id=50446246 Points: 20 # Comments: 1",
+  "pubDate": "2026-11-10T20:58:44.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general math article by Terence Tao (six math essentials) on a personal GitHub Pages site. No AI model release, no AI research artifact, no industry, policy, or OSS AI tooling element; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://teorth.github.io/tao-web/six-math-essentials.html Comments URL: https://news.ycombinator.com/item?id=50446246 Points: 20 # Comments: 1",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://teorth.github.io/tao-web/six-math-essentials.html",
+    "linkHost": "teorth.github.io",
+    "pubDate": "2026-11-10T20:58:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
