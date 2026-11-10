@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "a3b9c588de0da82b",
+  "url": "https://www.techmeme.com/261110/p50#a261110p50",
+  "sourceName": "Techmeme",
+  "title": "S-1: Nvidia plans to invest about $10B in Anthropic after its IPO, or ~10% of the new cash Anthropic is expected to raise this month, including in the IPO (Cory Weinberg/New York Times)",
+  "summary": "Cory Weinberg / New York Times: S-1: Nvidia plans to invest about $10B in Anthropic after its IPO, or ~10% of the new cash Anthropic is expected to raise this month, including in the IPO — Nvidia planned to invest $10 billion in Anthropic alongside its initial public offering, th",
+  "pubDate": "2026-11-10T20:55:05.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Cory Weinberg / New York Times: S-1: Nvidia plans to invest about $10B in Anthropic after its IPO, or ~10% of the new cash Anthropic is expected to raise this month, including in the IPO — Nvidia planned to invest $10 billion in Anthropic alongside its initial public offering, th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p50#a261110p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T20:55:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
