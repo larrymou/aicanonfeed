@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "8c68f2e486c25c61",
+  "url": "https://fakedos.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "'C:\\> FORMAT C:' – relax, it's just a screen saver",
+  "summary": "Article URL: https://fakedos.com/ Comments URL: https://news.ycombinator.com/item?id=50438377 Points: 4 # Comments: 0",
+  "pubDate": "2026-11-10T10:32:36.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hacker News item about a fake DOS screensaver site; not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://fakedos.com/ Comments URL: https://news.ycombinator.com/item?id=50438377 Points: 4 # Comments: 0",
+    "summaryChars": 117,
+    "summarySource": "summary",
+    "link": "https://fakedos.com/",
+    "linkHost": "fakedos.com",
+    "pubDate": "2026-11-10T10:32:36.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
