@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "308d7d66da977857",
+  "url": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore",
+  "summary": "A seven-layer composable reference architecture for taking enterprise agentic AI from prototype to production on Amazon Bedrock AgentCore. Each layer has a stable contract, so you can swap technologies at any layer without redesigning the rest of the stack.",
+  "pubDate": "2026-11-09T19:05:54.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post describing a reference architecture pattern on Amazon Bedrock AgentCore; not a named model release, research paper, policy action, or open-source tool/framework release. No rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A seven-layer composable reference architecture for taking enterprise agentic AI from prototype to production on Amazon Bedrock AgentCore. Each layer has a stable contract, so you can swap technologies at any layer without redesigning the rest of the stack.",
+    "summaryChars": 257,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-09T19:05:54.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
