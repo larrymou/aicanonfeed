@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "242c2c5235cec943",
+  "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What objective is reasoning solving?",
+  "summary": "Article URL: https://alexwang.ai/posts/reasoning-as-pathfinding/ Comments URL: https://news.ycombinator.com/item?id=50445013 Points: 55 # Comments: 22",
+  "pubDate": "2026-11-10T19:25:14.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/analysis blog post on reasoning objectives; no named model release, no paper/arXiv/benchmark artifact, no business event, policy action, or OSS tool. No active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alexwang.ai/posts/reasoning-as-pathfinding/ Comments URL: https://news.ycombinator.com/item?id=50445013 Points: 55 # Comments: 22",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+    "linkHost": "alexwang.ai",
+    "pubDate": "2026-11-10T19:25:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
