@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794346954434-z8o44r",
+  "urlHash": "c0101f36ad82bf91",
+  "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+  "sourceName": "Google AI Blog",
+  "title": "Gemini Intelligence: New features, on more devices",
+  "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+  "pubDate": "2026-11-10T19:00:00.000Z",
+  "decidedAt": "2026-11-10T21:42:44.133Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a consumer feature rollout of 'Gemini Intelligence' to more devices. No specific new model or major-version release (1-1 excludes generic product features), no research artifact, no financing/M&A/partnership/market data for 3-1, no policy action, and no open-source tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-11-10T19:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
