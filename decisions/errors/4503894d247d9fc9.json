@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794313189386-ij627f",
+  "urlHash": "4503894d247d9fc9",
+  "url": "https://www.techmeme.com/261110/p15#a261110p15",
+  "sourceName": "Techmeme",
+  "title": "Filing: Anthropic's IPO could give it an up to $1.405T valuation on a fully diluted basis, up from the $965B valuation during its $65B Series H announced in May (Ashley Capoot/CNBC)",
+  "summary": "Ashley Capoot / CNBC: Filing: Anthropic's IPO could give it an up to $1.405T valuation on a fully diluted basis, up from the $965B valuation during its $65B Series H announced in May — Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $7",
+  "pubDate": "2026-11-10T12:07:31.000Z",
+  "decidedAt": "2026-11-10T12:19:59.426Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ashley Capoot / CNBC: Filing: Anthropic's IPO could give it an up to $1.405T valuation on a fully diluted basis, up from the $965B valuation during its $65B Series H announced in May — Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $7",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p15#a261110p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T12:07:31.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
