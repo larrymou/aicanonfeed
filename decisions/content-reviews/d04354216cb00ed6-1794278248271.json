@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794278206848-sezf5c",
+  "urlHash": "d04354216cb00ed6",
+  "url": "https://www.techmeme.com/261109/p47#a261109p47",
+  "sourceName": "Techmeme",
+  "title": "Take-Two reiterates FY 2027 outlook, says Q2 total net bookings fell 18% YoY to $1.6B, vs. $1.65B est., and NBA 2K27 missed sales forecast partly due to GTA VI (Jason Schreier/Bloomberg)",
+  "summary": "Jason Schreier / Bloomberg: Take-Two reiterates FY 2027 outlook, says Q2 total net bookings fell 18% YoY to $1.6B, vs. $1.65B est., and NBA 2K27 missed sales forecast partly due to GTA VI — The video-game publisher may have hurt one game's sales with another of its own games — Ta",
+  "pubDate": "2026-11-10T00:05:01.000Z",
+  "decidedAt": "2026-11-10T02:36:58.341Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is video-game publisher Take-Two's earnings/bookings news (NBA 2K27, GTA VI); no AI model, research, AI industry event, policy action, or open-source AI tool is described, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jason Schreier / Bloomberg: Take-Two reiterates FY 2027 outlook, says Q2 total net bookings fell 18% YoY to $1.6B, vs. $1.65B est., and NBA 2K27 missed sales forecast partly due to GTA VI — The video-game publisher may have hurt one game's sales with another of its own games — Ta",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261109/p47#a261109p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-10T00:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
