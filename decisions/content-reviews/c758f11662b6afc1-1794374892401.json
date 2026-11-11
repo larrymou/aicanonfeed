@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "c758f11662b6afc1",
+  "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Protecting SSH Keys with macOS Secure Enclave",
+  "summary": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 22 # Comments: 5",
+  "pubDate": "2026-11-11T04:28:57.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post about securing SSH keys with macOS Secure Enclave; it is not an AI model release, research result, industry business event, policy action, or open-source AI tool/framework, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 22 # Comments: 5",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+    "linkHost": "gatezh.com",
+    "pubDate": "2026-11-11T04:28:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
