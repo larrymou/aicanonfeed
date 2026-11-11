@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "1251f00274bede43",
+  "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+  "sourceName": "The Verge AI",
+  "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+  "summary": "Project Screen Test lets you talk with AI-generated characters to shape their personality. | Image: Adobe Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are b",
+  "pubDate": "2026-11-11T14:00:00.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Verge coverage of Adobe Max experimental 'sneak' prototypes. No named model or version release (R1), no research artifact (R2), no financing/M&A/partnership or product launch (R3), no policy action (R4), and proprietary experiments are not open-source tools (R5). Media feature, no official owner lin",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Project Screen Test lets you talk with AI-generated characters to shape their personality. | Image: Adobe Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are b",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-11T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
