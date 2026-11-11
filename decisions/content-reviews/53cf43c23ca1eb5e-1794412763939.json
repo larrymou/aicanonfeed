@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "53cf43c23ca1eb5e",
+  "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+  "sourceName": "Hacker News Front Page",
+  "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+  "summary": "Article URL: https://www.theverge.com/tech/1012372/tv-privacy-acr-questions Comments URL: https://news.ycombinator.com/item?id=50453474 Points: 114 # Comments: 57",
+  "pubDate": "2026-11-11T13:56:05.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a consumer-privacy investigative piece about TV manufacturers' data collection; it reports no AI model release, research artifact, AI industry business event, AI policy/government action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.theverge.com/tech/1012372/tv-privacy-acr-questions Comments URL: https://news.ycombinator.com/item?id=50453474 Points: 114 # Comments: 57",
+    "summaryChars": 162,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-11T13:56:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
