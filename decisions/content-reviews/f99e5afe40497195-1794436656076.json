@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "f99e5afe40497195",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xtt0px/have_people_given_up_on_iclr_reviews_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Have people given up on ICLR reviews? [D]",
+  "summary": "Something weird I observed with my batch of papers and my own paper. Authors have not posted a single rebuttal yet, and no reviewer has responded to ours. This is a batch of almost 10-12 papers. Even papers with borderline fixable reviews have no responses from authors. Have peop",
+  "pubDate": "2026-11-11T20:40:40.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about ICLR peer-review activity; no new model, no research artifact (paper/preprint/benchmark), no business, policy, or OSS tool announcement. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Something weird I observed with my batch of papers and my own paper. Authors have not posted a single rebuttal yet, and no reviewer has responded to ours. This is a batch of almost 10-12 papers. Even papers with borderline fixable reviews have no responses from authors. Have peop",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xtt0px/have_people_given_up_on_iclr_reviews_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-11T20:40:40.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
