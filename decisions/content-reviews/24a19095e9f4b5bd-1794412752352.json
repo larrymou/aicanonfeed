@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "24a19095e9f4b5bd",
+  "url": "https://spectrum.ieee.org/human-centered-ai-product-design",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "When Does It Actually Make Sense to Put AI Into Products?",
+  "summary": "Over the past few years, the tech industry has rushed to plug a new microchip into every device on the assumption that if you can add AI, you should. Smart vision toothbrushes, mood-reading household robots, and a host of physical products are invading consumers’ daily lives, rel",
+  "pubDate": "2026-11-11T14:00:02.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion piece about human-centered AI product design; no named model release with official owner link, no research artifact, no business, policy, or OSS announcement. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Over the past few years, the tech industry has rushed to plug a new microchip into every device on the assumption that if you can add AI, you should. Smart vision toothbrushes, mood-reading household robots, and a host of physical products are invading consumers’ daily lives, rel",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/human-centered-ai-product-design",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-11T14:00:02.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
