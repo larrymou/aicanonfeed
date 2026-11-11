@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "351392b31b9f8e22",
+  "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+  "sourceName": "TechCrunch AI",
+  "title": "Why the data center you dread might never even be built",
+  "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may ne",
+  "pubDate": "2026-11-11T20:15:15.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/video on data center construction obstacles and local opposition. Not a named model release, research artifact, industry business event (no financing/M&A/partnership/deal), policy action, or OSS tool launch. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may ne",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-11T20:15:15.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
