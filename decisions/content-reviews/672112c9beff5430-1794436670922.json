@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "672112c9beff5430",
+  "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+  "sourceName": "Wired AI",
+  "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+  "summary": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+  "pubDate": "2026-11-11T19:55:54.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired first-person commentary about training a toy Microduck with an OpenAI model; no new model/version/capability announcement, no research artifact, no business event, policy action, or OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+    "summaryChars": 91,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-11T19:55:54.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
