@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "7611a838f306fada",
+  "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+  "summary": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versio",
+  "pubDate": "2026-11-11T15:50:55.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "AWS ML Blog announces UAEF, a framework-agnostic system for closed-loop evaluation of AI agents (canonical trace format, 36 built-in metrics) — a new developer tool/framework launch with an official announcement link on aws.amazon.com.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versio",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-11T15:50:55.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
