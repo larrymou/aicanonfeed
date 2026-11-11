@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "206edacbf751e621",
+  "url": "https://www.techmeme.com/261111/p43#a261111p43",
+  "sourceName": "Techmeme",
+  "title": "Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company (New York Times)",
+  "summary": "New York Times: Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company — Mr. Huang, Nvidia's chief executive, is already facing scrutiny over an affair with a Chinese business",
+  "pubDate": "2026-11-11T22:03:12.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a personal/HR matter about Nvidia's CEO; it is not a model release, research result, industry business event (financing, M&A, partnership, market data, product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company — Mr. Huang, Nvidia's chief executive, is already facing scrutiny over an affair with a Chinese business",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p43#a261111p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T22:03:12.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
