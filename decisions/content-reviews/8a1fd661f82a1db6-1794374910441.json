@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "8a1fd661f82a1db6",
+  "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "A great old-timey game-programming hack (2013)",
+  "summary": "Article URL: https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html Comments URL: https://news.ycombinator.com/item?id=50448921 Points: 74 # Comments: 10",
+  "pubDate": "2026-11-11T01:56:31.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about a 2013 game-programming hack; no AI model release, research paper, industry business event, policy action, or open-source AI tooling announced. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html Comments URL: https://news.ycombinator.com/item?id=50448921 Points: 74 # Comments: 10",
+    "summaryChars": 183,
+    "summarySource": "summary",
+    "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+    "linkHost": "blog.moertel.com",
+    "pubDate": "2026-11-11T01:56:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
