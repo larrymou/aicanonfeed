@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "f047d6df95a8884d",
+  "url": "https://www.techmeme.com/261111/p1#a261111p1",
+  "sourceName": "Techmeme",
+  "title": "Sources: Jensen Huang's affair has significantly raised the chances of Congress enacting chip export limits this year via the National Defense Authorization Act (Politico)",
+  "summary": "Politico: Sources: Jensen Huang's affair has significantly raised the chances of Congress enacting chip export limits this year via the National Defense Authorization Act — The espionage scandal surrounding Nvidia CEO Jensen Huang is posing an escalating threat to one of the chip",
+  "pubDate": "2026-11-11T05:05:26.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative reporting on the odds Congress will pass chip export limits via the NDAA — no enacted law, executive order, or official policy announcement. Link is a Techmeme aggregator page, not an official document or a named-author article on a reputable news domain; no group 4 action established (n",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Politico: Sources: Jensen Huang's affair has significantly raised the chances of Congress enacting chip export limits this year via the National Defense Authorization Act — The espionage scandal surrounding Nvidia CEO Jensen Huang is posing an escalating threat to one of the chip",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p1#a261111p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T05:05:26.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
