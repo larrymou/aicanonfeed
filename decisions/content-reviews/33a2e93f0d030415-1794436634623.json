@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "33a2e93f0d030415",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xtul3j/i_built_an_explorer_of_2100_robotics_papers/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I built an explorer of 2,100+ robotics papers covering 10 years of CoRL; with TLDRs, links to code, project pages, and research trends [P]",
+  "summary": "Heya roboticists and mind minders ~ I built a complete CoRL paper explorer, indexing 2,100+ robotics papers from the last 10 years (2017–2026). Added paper TLDRs, project pages, code, arXiv links, task chips, summary stats, research trends, and more!! Trying to make robot learnin",
+  "pubDate": "2026-11-11T21:42:54.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal post announcing an indexer of existing robotics papers (TLDRs/links). Not a new research result (R2), and the only link is a Reddit thread, not a repository or official project announcement required by R5. No official owner model release or business/policy event.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Heya roboticists and mind minders ~ I built a complete CoRL paper explorer, indexing 2,100+ robotics papers from the last 10 years (2017–2026). Added paper TLDRs, project pages, code, arXiv links, task chips, summary stats, research trends, and more!! Trying to make robot learnin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xtul3j/i_built_an_explorer_of_2100_robotics_papers/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-11T21:42:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
