@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "8e297cc8b8062244",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xt5xld/why_are_anthropics_top_researchers_cited_twice_as/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Why are Anthropic's top researchers cited twice as much as OpenAI's? [D]",
+  "summary": "submitted by /u/NegotiationOk7535 [link] [comments]",
+  "pubDate": "2026-11-11T02:22:54.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion question comparing researcher citation counts; no named model release, no paper/preprint or benchmark artifact, no business event, no policy action, and no OSS tool. Commentary only, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "submitted by /u/NegotiationOk7535 [link] [comments]",
+    "summaryChars": 51,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xt5xld/why_are_anthropics_top_researchers_cited_twice_as/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-11T02:22:54.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
