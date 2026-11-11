@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "2a6c5d835180bbbc",
+  "url": "https://www.techmeme.com/261111/p31#a261111p31",
+  "sourceName": "Techmeme",
+  "title": "Plurai, founded by former Nexar staffers to use synthetic data and digital twins of corporate IT environments to assess AI agents, raised a $13M seed (Tim Fernholz/TechCrunch)",
+  "summary": "Tim Fernholz / TechCrunch: Plurai, founded by former Nexar staffers to use synthetic data and digital twins of corporate IT environments to assess AI agents, raised a $13M seed — AI agents are all the rage, but they're not quite as capable as their purveyors would have you believ",
+  "pubDate": "2026-11-11T15:05:56.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tim Fernholz / TechCrunch: Plurai, founded by former Nexar staffers to use synthetic data and digital twins of corporate IT environments to assess AI agents, raised a $13M seed — AI agents are all the rage, but they're not quite as capable as their purveyors would have you believ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p31#a261111p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T15:05:56.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
