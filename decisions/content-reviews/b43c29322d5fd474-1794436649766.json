@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "b43c29322d5fd474",
+  "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Automating AWS Agent Registry updates with push-based architecture",
+  "summary": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, acr",
+  "pubDate": "2026-11-11T20:52:48.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog how-to on wiring CloudTrail/EventBridge/Lambda to auto-sync Agent Registry metadata. It is an architecture tutorial, not a model release, research artifact, business event, policy action, or new OSS tool/framework launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, acr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-11T20:52:48.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
