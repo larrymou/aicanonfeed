@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "833534b672b8daa3",
+  "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+  "pubDate": "2026-11-11T15:00:15.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "summaryChars": 95,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-11-11T15:00:15.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
