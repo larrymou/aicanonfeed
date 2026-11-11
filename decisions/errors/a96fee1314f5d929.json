@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "a96fee1314f5d929",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1",
+  "sourceName": "vLLM releases",
+  "title": "v0.34.0rc1",
+  "summary": "[Bugfix][Spec Decode][XPU] greedy_argmax: treat NaN as -inf on the to…",
+  "pubDate": "2026-11-11T19:37:13.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[Bugfix][Spec Decode][XPU] greedy_argmax: treat NaN as -inf on the to…",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-11T19:37:13.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
