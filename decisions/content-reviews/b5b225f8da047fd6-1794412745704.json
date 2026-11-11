@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "b5b225f8da047fd6",
+  "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google DeepMind just mathematically verified key parts of Signal",
+  "summary": "The four-week project hints that AI could make formal verification far more practical.",
+  "pubDate": "2026-11-11T14:08:57.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule met. Research rule (2-1) needs a link to the original paper/official source; the link is an Ars Technica news article with no observed author or paper link. Not a model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The four-week project hints that AI could make formal verification far more practical.",
+    "summaryChars": 86,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-11T14:08:57.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
