@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "41ac0cf810580fa7",
+  "url": "https://spectrum.ieee.org/national-science-foundation-x-labs",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "NSF’s X-Labs Program Draws Support From Charities and Investors",
+  "summary": "When the U.S. National Science Foundation began its X-Labs program in May, the agency said the higher-risk, higher-funded awards would create new kinds of partnerships that would confront urgent scientific and technological challenges. Now, the NSF is doubling down on the idea, w",
+  "pubDate": "2026-11-11T13:00:03.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports NSF X-Labs science funding program support from charities and investors; it is not an AI model release, research paper, AI industry business event, AI policy/regulation, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "When the U.S. National Science Foundation began its X-Labs program in May, the agency said the higher-risk, higher-funded awards would create new kinds of partnerships that would confront urgent scientific and technological challenges. Now, the NSF is doubling down on the idea, w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/national-science-foundation-x-labs",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-11T13:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
