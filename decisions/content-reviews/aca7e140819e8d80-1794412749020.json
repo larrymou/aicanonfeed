@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "aca7e140819e8d80",
+  "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+  "sourceName": "Hacker News Front Page",
+  "title": "Apple is killing its Support Community forum next week",
+  "summary": "Article URL: https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down Comments URL: https://news.ycombinator.com/item?id=50453555 Points: 82 # Comments: 41",
+  "pubDate": "2026-11-11T14:02:11.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple shutting down its consumer support forum is a general tech product/platform news item with no AI model, research artifact, AI business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down Comments URL: https://news.ycombinator.com/item?id=50453555 Points: 82 # Comments: 41",
+    "summaryChars": 180,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-11T14:02:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
