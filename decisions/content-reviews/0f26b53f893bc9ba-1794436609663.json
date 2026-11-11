@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "0f26b53f893bc9ba",
+  "url": "https://www.techmeme.com/261111/p44#a261111p44",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future — Move follows company investigation into an affair with a Chinese woman alleged to be a spy.",
+  "pubDate": "2026-11-11T22:32:14.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Nvidia board leadership turmoil (potential ouster of Jensen Huang). No named model release (R1), no research artifact (R2), and it is not financing, M&A, partnership, market data, or a product launch under R3; nothing under R4/R5.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future — Move follows company investigation into an affair with a Chinese woman alleged to be a spy.",
+    "summaryChars": 235,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p44#a261111p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T22:32:14.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
