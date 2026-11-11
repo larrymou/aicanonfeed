@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "5927601e8c1c10bd",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Would you pick your strongest model to coordinate other agents? Results from WorkflowArena [R]",
+  "summary": "Suppose you’re putting together a team of agents. Picking the strongest model as the coordinator seems reasonable. We wanted to test whether its workflows would actually help other models do the work. In one experiment, we gave Opus 5.5 and GPT-6 Astra the same 32 challenging tas",
+  "pubDate": "2026-11-11T05:25:43.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about coordinating agents with different models, but no link to an original paper, preprint, or official source is observed; only a reddit.com self-post link, so research rule 2-1's artifact requirement is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Suppose you’re putting together a team of agents. Picking the strongest model as the coordinator seems reasonable. We wanted to test whether its workflows would actually help other models do the work. In one experiment, we gave Opus 5.5 and GPT-6 Astra the same 32 challenging tas",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-11T05:25:43.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
