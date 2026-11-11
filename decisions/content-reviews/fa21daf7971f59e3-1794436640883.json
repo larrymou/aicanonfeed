@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "fa21daf7971f59e3",
+  "url": "https://playgta5.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Play GTA5 on Browser",
+  "summary": "Article URL: https://playgta5.com/ Comments URL: https://news.ycombinator.com/item?id=50458710 Points: 35 # Comments: 21",
+  "pubDate": "2026-11-11T21:10:35.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about playing GTA5 in a browser; no AI model, research, industry, policy, or open-source AI tooling content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://playgta5.com/ Comments URL: https://news.ycombinator.com/item?id=50458710 Points: 35 # Comments: 21",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://playgta5.com/",
+    "linkHost": "playgta5.com",
+    "pubDate": "2026-11-11T21:10:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
