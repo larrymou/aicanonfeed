@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "5518ef5f75c82c68",
+  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+  "sourceName": "Hacker News Front Page",
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 115 # Comments: 88",
+  "pubDate": "2026-11-11T21:24:35.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A private airline's ban on AI agents booking flights is a corporate/self-regulatory decision, not a government law, regulation, or enforcement action (rule 4-1 excludes industry self-regulation), and it is not a model release, research artifact, business event like financing/M&A, or open-source tool",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 115 # Comments: 88",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+    "linkHost": "www.cbsnews.com",
+    "pubDate": "2026-11-11T21:24:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
