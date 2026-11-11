@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "e4e9565de9f6f797",
+  "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+  "sourceName": "TechCrunch AI",
+  "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+  "summary": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+  "pubDate": "2026-11-11T19:54:00.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports CoreWeave's financing strategy (customer prepayments, shorter contracts, borrowing against contracts) from its Q3 earnings — an AI industry business/financing event, covered by a reputable media report with no official owner model announcement.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+    "summaryChars": 218,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-11T19:54:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
