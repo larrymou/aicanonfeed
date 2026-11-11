@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "092d7ad16ff4f4ba",
+  "url": "https://www.techmeme.com/261111/p30#a261111p30",
+  "sourceName": "Techmeme",
+  "title": "Rox, which develops AI agents to automate customer research and outreach, raised a $100M Series B co-led by General Catalyst and March at a $1.3B valuation (Morgan Chittum/Fortune)",
+  "summary": "Morgan Chittum / Fortune: Rox, which develops AI agents to automate customer research and outreach, raised a $100M Series B co-led by General Catalyst and March at a $1.3B valuation — Morgan Chittum here. For decades, enterprise software giants like Salesforce have powered the wo",
+  "pubDate": "2026-11-11T14:40:02.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Morgan Chittum / Fortune: Rox, which develops AI agents to automate customer research and outreach, raised a $100M Series B co-led by General Catalyst and March at a $1.3B valuation — Morgan Chittum here. For decades, enterprise software giants like Salesforce have powered the wo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p30#a261111p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T14:40:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
