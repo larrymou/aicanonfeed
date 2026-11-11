@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "e06ee448d8d7fe26",
+  "url": "https://blog.atuin.sh/threads-agent-sessions/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Atuin Threads: All your agent sessions on every machine",
+  "summary": "Article URL: https://blog.atuin.sh/threads-agent-sessions/ Comments URL: https://news.ycombinator.com/item?id=50453637 Points: 34 # Comments: 14",
+  "pubDate": "2026-11-11T14:10:46.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.atuin.sh/threads-agent-sessions/ Comments URL: https://news.ycombinator.com/item?id=50453637 Points: 34 # Comments: 14",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://blog.atuin.sh/threads-agent-sessions/",
+    "linkHost": "blog.atuin.sh",
+    "pubDate": "2026-11-11T14:10:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
