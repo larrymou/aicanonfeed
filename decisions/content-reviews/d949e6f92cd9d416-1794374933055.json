@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "d949e6f92cd9d416",
+  "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+  "sourceName": "Ars Technica AI",
+  "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+  "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+  "pubDate": "2026-11-10T22:35:01.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Ars Technica reports Amazon's launch of AI-powered Ring Robotics security drone and robot devices — a non-model consumer product launch covered by a reputable media report (arstechnica.com), matching the industry rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-10T22:35:01.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
