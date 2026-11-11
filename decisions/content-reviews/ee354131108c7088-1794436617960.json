@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "ee354131108c7088",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xtvipb/how_should_authors_handle_a_suspected/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How should authors handle a suspected auto-generated review at ICLR? Flag to the AC or just rebut? [D]",
+  "summary": "I'm curious how ACs and experienced authors think about this. My situation: one ICLR reviewer gave a 2 with confidence 1. The other reviewers gave 3 with confidence 3. Pangram flags the review as 100% AI. I know detectors aren't proof on their own, but there are other signs too: ",
+  "pubDate": "2026-11-11T22:20:31.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for advice on handling a suspected AI-generated ICLR review. No model release, research artifact, industry business event, policy action, or OSS tool; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I'm curious how ACs and experienced authors think about this. My situation: one ICLR reviewer gave a 2 with confidence 1. The other reviewers gave 3 with confidence 3. Pangram flags the review as 100% AI. I know detectors aren't proof on their own, but there are other signs too: ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xtvipb/how_should_authors_handle_a_suspected/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-11T22:20:31.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
