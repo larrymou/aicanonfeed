@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "580e683d4048102e",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Latent prediction beats reconstruction for tactile pretraining on dexterous manipulation tasks[R]",
+  "summary": "New paper from Robbyant, with inference code and checkpoints already public. LingBot-Touch is a self-supervised tactile encoder trained JEPA-style: it predicts latent representations of masked contact instead of reconstructing raw sensor signals. The paper tests it against same-s",
+  "pubDate": "2026-11-09T18:52:05.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Post reports a new tactile-pretraining paper (LingBot-Touch, JEPA-style) with code/checkpoints, but the only observed link is the Reddit post itself; no link to the original paper or official source is observed in Content, so rule 2-1's link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New paper from Robbyant, with inference code and checkpoints already public. LingBot-Touch is a self-supervised tactile encoder trained JEPA-style: it predicts latent representations of masked contact instead of reconstructing raw sensor signals. The paper tests it against same-s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-09T18:52:05.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
