@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "0f0b263932529097",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xrzzfu/facing_file_extraction_problem_during_bayesian/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Facing file Extraction problem during Bayesian Optimization[P]",
+  "summary": "Ok so for context i am an electrical engineer person who is automating software's and workflow for my project now here is the problem i am facing basically i am using an optimization algorithm called Bayesian optimization which improves design by keeps iterating until some target",
+  "pubDate": "2026-11-09T18:45:28.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit help-request post about a file extraction issue while using Bayesian optimization. No new research result, model release, industry event, policy action, or OSS tool announcement, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ok so for context i am an electrical engineer person who is automating software's and workflow for my project now here is the problem i am facing basically i am using an optimization algorithm called Bayesian optimization which improves design by keeps iterating until some target",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xrzzfu/facing_file_extraction_problem_during_bayesian/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-09T18:45:28.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
