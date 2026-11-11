@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "90e91921653245c7",
+  "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Lock Your GitHub Actions",
+  "summary": "Article URL: https://hugovk.dev/blog/2026/lock-github-actions/ Comments URL: https://news.ycombinator.com/item?id=50459485 Points: 6 # Comments: 1",
+  "pubDate": "2026-11-11T22:16:41.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about securing GitHub Actions workflows (CI security practice). No named AI model release, no AI research artifact, no AI business/policy event, and no open-source AI tool/framework release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://hugovk.dev/blog/2026/lock-github-actions/ Comments URL: https://news.ycombinator.com/item?id=50459485 Points: 6 # Comments: 1",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
+    "linkHost": "hugovk.dev",
+    "pubDate": "2026-11-11T22:16:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
