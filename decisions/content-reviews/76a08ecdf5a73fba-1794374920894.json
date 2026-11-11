@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "76a08ecdf5a73fba",
+  "url": "https://tis-100.wincon.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "LLMs Play Zachtronics' TIS-100",
+  "summary": "Article URL: https://tis-100.wincon.dev/ Comments URL: https://news.ycombinator.com/item?id=50448340 Points: 26 # Comments: 3",
+  "pubDate": "2026-11-11T00:37:05.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN post titled 'LLMs Play Zachtronics' TIS-100' links to an unverified third-party page with no observed paper, official research source, model release, business event, policy action, or OSS tool announcement. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tis-100.wincon.dev/ Comments URL: https://news.ycombinator.com/item?id=50448340 Points: 26 # Comments: 3",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://tis-100.wincon.dev/",
+    "linkHost": "tis-100.wincon.dev",
+    "pubDate": "2026-11-11T00:37:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
