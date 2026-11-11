@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "85d34f42172adca9",
+  "url": "https://www.techmeme.com/261110/p64#a261110p64",
+  "sourceName": "Techmeme",
+  "title": "Tech consultant Nima Momeni was sentenced to 16 years to life in prison for the second-degree murder of Cash App founder Bob Lee in 2023 (Heather Knight/New York Times)",
+  "summary": "Heather Knight / New York Times: Tech consultant Nima Momeni was sentenced to 16 years to life in prison for the second-degree murder of Cash App founder Bob Lee in 2023 — Nima Momeni was sentenced for the 2023 murder of Bob Lee, a killing that initially set off crime fears in Sa",
+  "pubDate": "2026-11-11T03:20:14.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a criminal sentencing (Nima Momeni for the murder of Bob Lee); it is not a model release, AI research, AI industry business event, AI policy action, or open-source tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Heather Knight / New York Times: Tech consultant Nima Momeni was sentenced to 16 years to life in prison for the second-degree murder of Cash App founder Bob Lee in 2023 — Nima Momeni was sentenced for the 2023 murder of Bob Lee, a killing that initially set off crime fears in Sa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p64#a261110p64",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T03:20:14.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
