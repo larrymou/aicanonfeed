@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794374854061-ppz1in",
+  "urlHash": "af1b040f16deeb06",
+  "url": "https://www.techmeme.com/261110/p66#a261110p66",
+  "sourceName": "Techmeme",
+  "title": "Nvidia's stock fell 5.47% on Tuesday, following a 4%+ drop on Monday after the revelation of Jensen Huang's affair with Alice Huang, an alleged Chinese spy (April Roach/CNBC)",
+  "summary": "April Roach / CNBC: Nvidia's stock fell 5.47% on Tuesday, following a 4%+ drop on Monday after the revelation of Jensen Huang's affair with Alice Huang, an alleged Chinese spy — Nvidia shares sank 5.47% on Tuesday as investors continued to weigh the potential fallout from CEO Jen",
+  "pubDate": "2026-11-11T04:45:01.000Z",
+  "decidedAt": "2026-11-11T05:27:40.992Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a stock-price drop tied to a personal scandal about Nvidia's CEO, not a model release, research artifact, policy action, OSS tool, or an AI business event (financing, M&A, partnership, market/revenue data, product launch). No active rule covers it; linked source is an aggregator permali",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "April Roach / CNBC: Nvidia's stock fell 5.47% on Tuesday, following a 4%+ drop on Monday after the revelation of Jensen Huang's affair with Alice Huang, an alleged Chinese spy — Nvidia shares sank 5.47% on Tuesday as investors continued to weigh the potential fallout from CEO Jen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261110/p66#a261110p66",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T04:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
