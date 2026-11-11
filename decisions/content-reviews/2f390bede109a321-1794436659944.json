@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "2f390bede109a321",
+  "url": "https://www.techmeme.com/261111/p41#a261111p41",
+  "sourceName": "Techmeme",
+  "title": "AWS releases AWS Emulator, a free tool that simulates 200+ of its services locally, saying AI agents wrote it and its team hasn't written or reviewed any code (Todd Bishop/GeekWire)",
+  "summary": "Todd Bishop / GeekWire: AWS releases AWS Emulator, a free tool that simulates 200+ of its services locally, saying AI agents wrote it and its team hasn't written or reviewed any code — AWS says its engineers didn't write or review a single line of code in its newest developer too",
+  "pubDate": "2026-11-11T20:25:00.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Developer tool launch, but the link is a Techmeme aggregator page, not the repository or an official AWS announcement; open-source status and an official owner link are not established from Content, so rule 5-1 conditions are unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Todd Bishop / GeekWire: AWS releases AWS Emulator, a free tool that simulates 200+ of its services locally, saying AI agents wrote it and its team hasn't written or reviewed any code — AWS says its engineers didn't write or review a single line of code in its newest developer too",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p41#a261111p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T20:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
