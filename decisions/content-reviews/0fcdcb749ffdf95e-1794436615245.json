@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794436599180-xaewrl",
+  "urlHash": "0fcdcb749ffdf95e",
+  "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "ICYMI: What landed for AI builders in October 2026",
+  "summary": "A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.",
+  "pubDate": "2026-11-11T22:26:40.000Z",
+  "decidedAt": "2026-11-11T22:36:47.066Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Monthly recap of AWS updates; no specific named AI model, no research paper/benchmark, no concrete financing/M&A/partnership/product-launch event, and no open-source tool/repository announcement identified.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.",
+    "summaryChars": 225,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-11T22:26:40.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
