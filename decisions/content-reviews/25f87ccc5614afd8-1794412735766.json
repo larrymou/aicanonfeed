@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794412666044-at390x",
+  "urlHash": "25f87ccc5614afd8",
+  "url": "https://www.techmeme.com/261111/p29#a261111p29",
+  "sourceName": "Techmeme",
+  "title": "After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as progressive and acknowledging ICE's enforcement missteps (Politico)",
+  "summary": "Politico: After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as progressive and acknowledging ICE's enforcement missteps — With help from Eli Okun, Ali Bianco and Irie Sentner — Good Wednesday morning — and a special note of gratitude",
+  "pubDate": "2026-11-11T14:20:57.000Z",
+  "decidedAt": "2026-11-11T15:57:55.137Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is political commentary about Palantir's CEO shifting toward Democrats; no model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Politico: After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as progressive and acknowledging ICE's enforcement missteps — With help from Eli Okun, Ali Bianco and Irie Sentner — Good Wednesday morning — and a special note of gratitude",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261111/p29#a261111p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-11T14:20:57.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
