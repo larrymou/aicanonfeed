@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "a2b0c1f50bc657d6",
+  "url": "https://getvale.org",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: A self-hosted PHP platform combining CMS, e-commerce and more, built-in",
+  "summary": "We used WordPress ourselves but struggled with ongoing maintenance. So we built an internal alternative CMS that met our needs. After two years of development, we decided to make it open source. You can try the live demo (credentials included), explore the source code, and read t",
+  "pubDate": "2026-11-12T15:35:54.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A self-hosted PHP CMS/e-commerce platform with no AI content. Rule 5-1 requires an open-source AI tool, framework, or developer resource; this is a general-purpose web CMS, not AI. No other rule (models, research, industry business event, policy) applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "We used WordPress ourselves but struggled with ongoing maintenance. So we built an internal alternative CMS that met our needs. After two years of development, we decided to make it open source. You can try the live demo (credentials included), explore the source code, and read t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://getvale.org",
+    "linkHost": "getvale.org",
+    "pubDate": "2026-11-12T15:35:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
