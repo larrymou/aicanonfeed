@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "b092fa65bb9fc1c7",
+  "url": "https://www.techmeme.com/261112/p41#a261112p41",
+  "sourceName": "Techmeme",
+  "title": "US House Foreign Affairs Chairman Brian Mast says Jensen Huang has agreed to testify to Congress before Thanksgiving, likely behind closed doors (Erik Wasson/Bloomberg)",
+  "summary": "Erik Wasson / Bloomberg: US House Foreign Affairs Chairman Brian Mast says Jensen Huang has agreed to testify to Congress before Thanksgiving, likely behind closed doors — Nvidia Corp. Chief Executive Officer Jensen Huang, who was ousted from his post after reports of an affair w",
+  "pubDate": "2026-11-12T16:35:00.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A congressional testimony agreement is not a new law, executive order, regulatory enforcement, or official policy announcement under rule 4-1, and it is not a financing/M&A/partnership/product event under 3-1. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Erik Wasson / Bloomberg: US House Foreign Affairs Chairman Brian Mast says Jensen Huang has agreed to testify to Congress before Thanksgiving, likely behind closed doors — Nvidia Corp. Chief Executive Officer Jensen Huang, who was ousted from his post after reports of an affair w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p41#a261112p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T16:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
