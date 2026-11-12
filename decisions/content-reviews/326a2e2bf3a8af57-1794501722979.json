@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "326a2e2bf3a8af57",
+  "url": "https://github.com/chocoford/ExcalidrawZ",
+  "sourceName": "Hacker News Front Page",
+  "title": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+  "summary": "Article URL: https://github.com/chocoford/ExcalidrawZ Comments URL: https://news.ycombinator.com/item?id=50468944 Points: 19 # Comments: 2",
+  "pubDate": "2026-11-12T15:25:52.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "ExcalidrawZ is a local native drawing/whiteboard app for macOS/iOS; nothing in the title or summary indicates an AI model, AI research, AI business event, AI policy action, or AI open-source tool/framework. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/chocoford/ExcalidrawZ Comments URL: https://news.ycombinator.com/item?id=50468944 Points: 19 # Comments: 2",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://github.com/chocoford/ExcalidrawZ",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-12T15:25:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
