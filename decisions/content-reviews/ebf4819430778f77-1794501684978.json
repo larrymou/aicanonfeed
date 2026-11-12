@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "ebf4819430778f77",
+  "url": "https://www.techmeme.com/261112/p38#a261112p38",
+  "sourceName": "Techmeme",
+  "title": "President Trump says Tim Cook is the \"only one man\" to take Jensen Huang's place as Nvidia CEO, adding \"A Legend replaces a Legend!\" (Zac Hall/9to5Mac)",
+  "summary": "Zac Hall / 9to5Mac: President Trump says Tim Cook is the “only one man” to take Jensen Huang's place as Nvidia CEO, adding “A Legend replaces a Legend!” — Jensen Huang is out as CEO of NVIDIA after reported love affairs with an alleged Chinese spy and a high-ranking executive at ",
+  "pubDate": "2026-11-12T16:05:00.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary/personnel speculation about Nvidia's CEO, not a model release, research artifact, business event (financing, M&A, partnership, market data, product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Zac Hall / 9to5Mac: President Trump says Tim Cook is the “only one man” to take Jensen Huang's place as Nvidia CEO, adding “A Legend replaces a Legend!” — Jensen Huang is out as CEO of NVIDIA after reported love affairs with an alleged Chinese spy and a high-ranking executive at ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p38#a261112p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T16:05:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
