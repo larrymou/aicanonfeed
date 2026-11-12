@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "271f5d0fa3609755",
+  "url": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Darling Development Update – Q4 2026",
+  "summary": "Article URL: https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/ Comments URL: https://news.ycombinator.com/item?id=50463103 Points: 13 # Comments: 3",
+  "pubDate": "2026-11-12T04:32:31.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Darling Q4 2026 development update is a macOS-compatibility-layer project update, not an AI model release, research, industry event, policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/ Comments URL: https://news.ycombinator.com/item?id=50463103 Points: 13 # Comments: 3",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
+    "linkHost": "blog.darlinghq.org",
+    "pubDate": "2026-11-12T04:32:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
