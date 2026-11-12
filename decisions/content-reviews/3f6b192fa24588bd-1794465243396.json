@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "3f6b192fa24588bd",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xu1szu/missed_presentation_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Missed Presentation [D]",
+  "summary": "Hello everyone, For some reason if you miss paper workshop presentation then what happens? submitted by /u/No_Caterpillar3174 [link] [comments]",
+  "pubDate": "2026-11-12T03:08:20.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit community question asking what happens if a paper workshop presentation is missed; no named model release, no research artifact link, no industry/policy/tooling announcement. No rule covers this discussion post.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hello everyone, For some reason if you miss paper workshop presentation then what happens? submitted by /u/No_Caterpillar3174 [link] [comments]",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xu1szu/missed_presentation_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-12T03:08:20.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
