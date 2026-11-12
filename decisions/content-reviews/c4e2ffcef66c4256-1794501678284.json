@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "c4e2ffcef66c4256",
+  "url": "https://www.techmeme.com/261112/p39#a261112p39",
+  "sourceName": "Techmeme",
+  "title": "In an email to staff, new interim Nvidia CEO Colette Kress cites \"an extraordinarily difficult period\" and sets a company meeting for November 18 (Terrence O'Brien/The Verge)",
+  "summary": "Terrence O'Brien / The Verge: In an email to staff, new interim Nvidia CEO Colette Kress cites “an extraordinarily difficult period” and sets a company meeting for November 18 — Nvidia's board and interim CEO Colette Kress told employees they're ready to ‘move forward together.’",
+  "pubDate": "2026-11-12T16:15:01.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an Nvidia interim-CEO staff email and company meeting — a leadership/corporate personnel event. No rule covers it: not a model release, research artifact, policy action, OSS tool, and R3-1 lists only financing, M&A, partnerships, market/revenue data, or non-model product launches.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Terrence O'Brien / The Verge: In an email to staff, new interim Nvidia CEO Colette Kress cites “an extraordinarily difficult period” and sets a company meeting for November 18 — Nvidia's board and interim CEO Colette Kress told employees they're ready to ‘move forward together.’",
+    "summaryChars": 279,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p39#a261112p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T16:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
