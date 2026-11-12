@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "b2e35daf8642042c",
+  "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+  "sourceName": "TechCrunch AI",
+  "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+  "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+  "pubDate": "2026-11-12T15:37:29.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an executive leadership change (CEO departure/interim CFO replacement) at Nvidia. Rule 3-1 enumerates financing, M&A, partnerships, market/revenue data, or non-model product launches; a leadership succession is not among these, and no model, research artifact, policy action, or OSS rele",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-12T15:37:29.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
