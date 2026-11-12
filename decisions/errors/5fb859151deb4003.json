@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "5fb859151deb4003",
+  "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+  "sourceName": "Ars Technica AI",
+  "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+  "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+  "pubDate": "2026-11-11T18:16:40.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-11T18:16:40.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
