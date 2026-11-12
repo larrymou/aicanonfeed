@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "d533790e4d2bd7ed",
+  "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+  "sourceName": "The Verge AI",
+  "title": "Jensen Huang is out. What did China want from him?",
+  "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with ",
+  "pubDate": "2026-11-12T16:30:00.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers an Nvidia CEO resignation/scandal podcast discussion. It is not a model release, research artifact, AI policy action, OSS tool, nor one of rule 3-1's listed business events (financing, M&A, partnership, market/revenue data, non-model product launch). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-12T16:30:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
