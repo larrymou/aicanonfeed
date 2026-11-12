@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "853dbb82b8173f9f",
+  "url": "https://fable52.games",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games",
+  "summary": "Article URL: https://fable52.games Comments URL: https://news.ycombinator.com/item?id=50469007 Points: 24 # Comments: 16",
+  "pubDate": "2026-11-12T15:30:01.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for a hobby site hosting single-file HTML games; no AI model from a named lab is announced, no research artifact, no business/policy event, and it is not an open-source AI tool or framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://fable52.games Comments URL: https://news.ycombinator.com/item?id=50469007 Points: 24 # Comments: 16",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://fable52.games",
+    "linkHost": "fable52.games",
+    "pubDate": "2026-11-12T15:30:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
