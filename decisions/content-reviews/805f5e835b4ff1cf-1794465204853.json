@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "805f5e835b4ff1cf",
+  "url": "https://www.techmeme.com/261112/p4#a261112p4",
+  "sourceName": "Techmeme",
+  "title": "Sources: Chinese AI companies are rushing to rent Nvidia compute capacity overseas amid fears of tighter US restrictions after the Jensen Huang spy scandal (Reuters)",
+  "summary": "Reuters: Sources: Chinese AI companies are rushing to rent Nvidia compute capacity overseas amid fears of tighter US restrictions after the Jensen Huang spy scandal — Chinese artificial intelligence companies are trying to rent Nvidia-powered computing capacity at data centres ou",
+  "pubDate": "2026-11-12T06:05:01.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reports a market trend (Chinese firms renting Nvidia compute abroad) driven by fears of future US restrictions. No financing, M&A, partnership, revenue/market data, or product launch for rule 3-1, and no actual policy action or official document for rule 4-1. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: Chinese AI companies are rushing to rent Nvidia compute capacity overseas amid fears of tighter US restrictions after the Jensen Huang spy scandal — Chinese artificial intelligence companies are trying to rent Nvidia-powered computing capacity at data centres ou",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p4#a261112p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T06:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
