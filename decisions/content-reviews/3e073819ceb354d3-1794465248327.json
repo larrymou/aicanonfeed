@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "3e073819ceb354d3",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I fine-tuned EVA-02 in a week to build a neural video retrieval engine for what CLIP still won't do [P]",
+  "summary": "TL;DR: After a manic 7-day sprint, I open-sourced a local video retrieval engine built to search massive unstructured video portals by visual poses, clothing details, camera angles, and motion cadence—ignoring uploader metadata at search time and running in minimal VRAM. GitHub: ",
+  "pubDate": "2026-11-12T03:03:34.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post about a personal fine-tuning project; the only link is the Reddit thread, and no repository or official announcement URL is observed (summary's 'GitHub:' is truncated). No rule's evidence link condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "TL;DR: After a manic 7-day sprint, I open-sourced a local video retrieval engine built to search massive unstructured video portals by visual poses, clothing details, camera angles, and motion cadence—ignoring uploader metadata at search time and running in minimal VRAM. GitHub: ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-12T03:03:34.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
