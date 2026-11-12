@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "f7d9d0f9eb068df9",
+  "url": "https://www.techmeme.com/261112/p1#a261112p1",
+  "sourceName": "Techmeme",
+  "title": "AMD shares rose 4%+ after hours after closing up 7.3%, while Broadcom gained 2.4% after hours following a 4% gain, as Nvidia's board weighs ousting CEO Huang (Financial Times)",
+  "summary": "Financial Times: AMD shares rose 4%+ after hours after closing up 7.3%, while Broadcom gained 2.4% after hours following a 4% gain, as Nvidia's board weighs ousting CEO Huang — Stock sinks almost 9 per cent in after-market trading as chief executive's fate hangs in balance follow",
+  "pubDate": "2026-11-12T05:25:01.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports stock price moves and a possible Nvidia CEO succession; no model release, research artifact, policy action, OSS tool, or enumerated industry event (financing, M&A, partnership, market/revenue data, product launch). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: AMD shares rose 4%+ after hours after closing up 7.3%, while Broadcom gained 2.4% after hours following a 4% gain, as Nvidia's board weighs ousting CEO Huang — Stock sinks almost 9 per cent in after-market trading as chief executive's fate hangs in balance follow",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p1#a261112p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T05:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
