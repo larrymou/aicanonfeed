@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "17107c7279fd1016",
+  "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+  "sourceName": "TechCrunch AI",
+  "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+  "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+  "pubDate": "2026-11-12T16:12:44.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative social-media commentary about a possible Nvidia CEO successor. No model/capability release, research artifact, business event (financing, M&A, partnership, market data), policy action, or OSS tool launch is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-12T16:12:44.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
