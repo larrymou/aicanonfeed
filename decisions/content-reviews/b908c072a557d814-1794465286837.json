@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "b908c072a557d814",
+  "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+  "sourceName": "TechCrunch AI",
+  "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+  "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+  "pubDate": "2026-11-11T23:17:05.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is personal-rumor gossip about Jensen Huang's alleged affairs; it reports no AI model release, research result, industry business event (financing/M&A/partnership/market data), policy action, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+    "summaryChars": 197,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-11T23:17:05.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
