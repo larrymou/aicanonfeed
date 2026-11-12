@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "7c091be54b73fa0e",
+  "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+  "sourceName": "TechCrunch AI",
+  "title": "Norwest pushes deeper into AI with new $4B fund",
+  "summary": "This is the investment firm's largest fund to date.",
+  "pubDate": "2026-11-12T15:18:14.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This is the investment firm's largest fund to date.",
+    "summaryChars": 51,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-12T15:18:14.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
