@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "1a5ded56b08be9ae",
+  "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+  "sourceName": "Wired AI",
+  "title": "A Startup Wants to Fight AI Bioweapons With AI",
+  "summary": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
+  "pubDate": "2026-11-11T17:00:00.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule clearly matches: no named model or official release link, no research artifact, no financing/M&A/partnership or product-launch business event, no policy action, and no open-source tooling announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-11T17:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
