@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "cac5c7e5906dac13",
+  "url": "https://github.com/hyperionaidev/smolmaxxing/",
+  "sourceName": "Hacker News Front Page",
+  "title": "I'm making LLMs work on small and old devices",
+  "summary": "Article URL: https://github.com/hyperionaidev/smolmaxxing/ Comments URL: https://news.ycombinator.com/item?id=50468888 Points: 22 # Comments: 6",
+  "pubDate": "2026-11-12T15:23:10.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Item points to a GitHub repository (github.com) presenting an open-source developer project for running LLMs on small/old devices, matching the tools & OSS rule for new open-source AI tools/developer resources with a repo link.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/hyperionaidev/smolmaxxing/ Comments URL: https://news.ycombinator.com/item?id=50468888 Points: 22 # Comments: 6",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://github.com/hyperionaidev/smolmaxxing/",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-12T15:23:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
