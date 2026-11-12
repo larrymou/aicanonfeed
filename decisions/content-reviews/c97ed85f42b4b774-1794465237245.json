@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "c97ed85f42b4b774",
+  "url": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+  "sourceName": "Hacker News Front Page",
+  "title": "Bad ideas that aren't bad anymore",
+  "summary": "Article URL: https://devonestes.com/bad-ideas-that-arent-bad-anymore Comments URL: https://news.ycombinator.com/item?id=50462613 Points: 8 # Comments: 0",
+  "pubDate": "2026-11-12T03:18:13.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Generic blog post with no evidence of an AI model release, research artifact, industry business event, policy action, or open-source AI tool. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://devonestes.com/bad-ideas-that-arent-bad-anymore Comments URL: https://news.ycombinator.com/item?id=50462613 Points: 8 # Comments: 0",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+    "linkHost": "devonestes.com",
+    "pubDate": "2026-11-12T03:18:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
