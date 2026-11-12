@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "332129941b38f1ad",
+  "url": "https://www.techmeme.com/261112/p3#a261112p3",
+  "sourceName": "Techmeme",
+  "title": "China hawks and Big Tech critics on Capitol Hill are building bipartisan support for tighter export controls as Nvidia CEO Jensen Huang falls out of favor in DC (Joe Miller/Financial Times)",
+  "summary": "Joe Miller / Financial Times: China hawks and Big Tech critics on Capitol Hill are building bipartisan support for tighter export controls as Nvidia CEO Jensen Huang falls out of favor in DC — AI kingmaker's opponents see ‘blood in the water’ after affair with suspected Chinese s",
+  "pubDate": "2026-11-12T05:45:05.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is political maneuvering over export controls (Capitol Hill support-building), not a new law, executive order, regulatory enforcement, or official policy announcement, so R4-1's policy-action condition is unmet; not a model release, research, business event, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Joe Miller / Financial Times: China hawks and Big Tech critics on Capitol Hill are building bipartisan support for tighter export controls as Nvidia CEO Jensen Huang falls out of favor in DC — AI kingmaker's opponents see ‘blood in the water’ after affair with suspected Chinese s",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p3#a261112p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T05:45:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
