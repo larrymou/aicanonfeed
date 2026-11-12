@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "3008e096d9453ac5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xue879/cvpr_2027_author_enrollment_form_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "CVPR 2027 Author enrollment form [D]",
+  "summary": "I just realized that CVPR 2027 requires a separate author enrollment form to be completed by the abstract deadline, in addition to having a complete OpenReview profile. My OpenReview profile was already complete, but I submitted the enrollment form about an hour after the deadlin",
+  "pubDate": "2026-11-12T14:30:15.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion about a CVPR 2027 author enrollment form deadline — administrative/logistics commentary. No named model release, no research paper or benchmark link, no business event, no policy action, and no OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I just realized that CVPR 2027 requires a separate author enrollment form to be completed by the abstract deadline, in addition to having a complete OpenReview profile. My OpenReview profile was already complete, but I submitted the enrollment form about an hour after the deadlin",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xue879/cvpr_2027_author_enrollment_form_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-12T14:30:15.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
