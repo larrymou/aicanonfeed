@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794501642212-h1wlag",
+  "urlHash": "dd8ebb1e9961279d",
+  "url": "https://www.techmeme.com/261112/p37#a261112p37",
+  "sourceName": "Techmeme",
+  "title": "Sources: firms tied to Alice Huang recently invested in DeepSeek, to forge closer ties and supply Nvidia's Blackwell chips, which are banned from sale to China (The Information)",
+  "summary": "The Information: Sources: firms tied to Alice Huang recently invested in DeepSeek, to forge closer ties and supply Nvidia's Blackwell chips, which are banned from sale to China — The network of companies tied to Alice Huang, the alleged Chinese spy in a romantic relationship with",
+  "pubDate": "2026-11-12T15:35:02.000Z",
+  "decidedAt": "2026-11-12T16:40:53.768Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: firms tied to Alice Huang invested in DeepSeek to forge closer ties and supply Nvidia Blackwell chips, reported via Techmeme linking to The Information coverage. No model release, research artifact, policy action, or OSS tool involved.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Sources: firms tied to Alice Huang recently invested in DeepSeek, to forge closer ties and supply Nvidia's Blackwell chips, which are banned from sale to China — The network of companies tied to Alice Huang, the alleged Chinese spy in a romantic relationship with",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p37#a261112p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T15:35:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
