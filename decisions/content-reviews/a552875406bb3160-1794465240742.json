@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794465184881-1tkoyk",
+  "urlHash": "a552875406bb3160",
+  "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+  "sourceName": "TechCrunch AI",
+  "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+  "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+  "pubDate": "2026-11-12T03:13:10.000Z",
+  "decidedAt": "2026-11-12T06:33:15.427Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative commentary about possible successors to Nvidia's CEO; no model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-12T03:13:10.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
