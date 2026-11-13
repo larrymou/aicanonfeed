@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "175f5824efd680f7",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4ldx/open_weights_paratrace_v8_raidtuned_5th_on_the/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Open weights: ParaTrace v8 (RAID-tuned), 5th on the RAID leaderboard (TPR at 1% FPR) [R]",
+  "summary": "Open weights: ParaTrace v8 (RAID-tuned), 5th on the RAID leaderboard (TPR at 1% FPR) - Ettin-1B encoder (ModernBERT architecture), 512-token windows - Fine-tuned on RAID's training split, then a hard-example round - RAID hidden test set: TPR 99.20% at 1% FPR, 99.76% at 5% FPR (99",
+  "pubDate": "2026-11-13T10:39:43.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Open-weights model post on Reddit, but no official owner announcement link (linked_page_owner_domain not observed) and no authored news article with publication date, so R1-1 fails. Not a paper/preprint/official benchmark source for research, and not tooling, industry deal, or policy action.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Open weights: ParaTrace v8 (RAID-tuned), 5th on the RAID leaderboard (TPR at 1% FPR) - Ettin-1B encoder (ModernBERT architecture), 512-token windows - Fine-tuned on RAID's training split, then a hard-example round - RAID hidden test set: TPR 99.20% at 1% FPR, 99.76% at 5% FPR (99",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xv4ldx/open_weights_paratrace_v8_raidtuned_5th_on_the/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-13T10:39:43.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
