@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "579aa129bfed87fd",
+  "url": "https://www.dwarkesh.com/p/rsi",
+  "sourceName": "Hacker News Front Page",
+  "title": "The avalanche that hit math is coming for AI development",
+  "summary": "Article URL: https://www.dwarkesh.com/p/rsi Comments URL: https://news.ycombinator.com/item?id=50487854 Points: 13 # Comments: 1",
+  "pubDate": "2026-11-13T18:39:42.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay on a personal Substack-style site; no named model release, no research paper/benchmark artifact, no industry business event, no policy action, and no open-source tool or repo. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.dwarkesh.com/p/rsi Comments URL: https://news.ycombinator.com/item?id=50487854 Points: 13 # Comments: 1",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://www.dwarkesh.com/p/rsi",
+    "linkHost": "www.dwarkesh.com",
+    "pubDate": "2026-11-13T18:39:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
