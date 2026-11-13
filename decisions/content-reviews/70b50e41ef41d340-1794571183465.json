@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "70b50e41ef41d340",
+  "url": "https://www.techmeme.com/261113/p4#a261113p4",
+  "sourceName": "Techmeme",
+  "title": "Sources: Samsung is in talks to buy Modine Manufacturing, a US maker of data center cooling systems, as soon as the coming weeks; Modine's market value is $5.6B (Bloomberg)",
+  "summary": "Bloomberg: Sources: Samsung is in talks to buy Modine Manufacturing, a US maker of data center cooling systems, as soon as the coming weeks; Modine's market value is $5.6B — Samsung Electronics Co. is in talks to acquire Modine Manufacturing Co., a maker of cooling systems for da",
+  "pubDate": "2026-11-13T06:30:00.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an M&A business event: Samsung in talks to acquire Modine Manufacturing (data center cooling), via Bloomberg-sourced reputable media coverage, matching industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "link",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Samsung is in talks to buy Modine Manufacturing, a US maker of data center cooling systems, as soon as the coming weeks; Modine's market value is $5.6B — Samsung Electronics Co. is in talks to acquire Modine Manufacturing Co., a maker of cooling systems for da",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p4#a261113p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T06:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
