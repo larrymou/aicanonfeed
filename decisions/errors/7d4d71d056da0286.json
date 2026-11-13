@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "7d4d71d056da0286",
+  "url": "https://openai.com/index/introducing-chatgpt-wallet",
+  "sourceName": "OpenAI Blog",
+  "title": "Introducing ChatGPT Wallet",
+  "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+  "pubDate": "2026-11-13T15:00:00.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-chatgpt-wallet",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-13T15:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
