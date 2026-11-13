@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "42306dbc9080a4a7",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xuzv6d/how_to_make_a_legorastyle_legal_conflict_detector/",
+  "sourceName": "r/MachineLearning new",
+  "title": "How to make a Legora-style legal conflict detector tool using only NLI and encoder models [P]",
+  "summary": "Hey r/learnmachinelearning! I’m Tabs, a legal engineer at Isaacus. Still getting better at machine learning things but here we go. I built an open-source legal conflict detector that finds deviations and gaps between pairs of legal documents using only encoder models and natural ",
+  "pubDate": "2026-11-13T05:48:17.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit how-to post about building an open-source legal conflict detector, but the link is a Reddit discussion thread; no repository or official announcement link is observed, so rule 5-1's evidence link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hey r/learnmachinelearning! I’m Tabs, a legal engineer at Isaacus. Still getting better at machine learning things but here we go. I built an open-source legal conflict detector that finds deviations and gaps between pairs of legal documents using only encoder models and natural ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xuzv6d/how_to_make_a_legorastyle_legal_conflict_detector/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-13T05:48:17.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
