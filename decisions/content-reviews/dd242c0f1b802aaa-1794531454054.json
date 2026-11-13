@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "dd242c0f1b802aaa",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xutg9v/i_need_feedback_on_this_architecture_for_amodal/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I need feedback on this architecture for amodal raster-to-vector using a hybrid approach. [D]",
+  "summary": "I am the maintainer of Inkvec, a open-source raster-to-vector tracer for logos and icons (see: github.com/logolabs/inkvec ). Right now the main issue with Inkvec is that it uses MDL in order to select nodes, plus it only creates jigsaws, failing to do amodal infilling so that it ",
+  "pubDate": "2026-11-13T00:25:55.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post requesting architecture feedback on an existing open-source tracer; not a model release, research artifact, industry business event, policy action, or new tool/framework announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I am the maintainer of Inkvec, a open-source raster-to-vector tracer for logos and icons (see: github.com/logolabs/inkvec ). Right now the main issue with Inkvec is that it uses MDL in order to select nodes, plus it only creates jigsaws, failing to do amodal infilling so that it ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xutg9v/i_need_feedback_on_this_architecture_for_amodal/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-13T00:25:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
