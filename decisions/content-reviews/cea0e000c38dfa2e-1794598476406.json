@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "cea0e000c38dfa2e",
+  "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+  "sourceName": "TechCrunch AI",
+  "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+  "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+  "pubDate": "2026-11-13T12:52:19.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "VC commentary/speculation on Nvidia's turmoil and opportunities in Israel's startup ecosystem; no concrete financing, M&A, partnership, market data, or product event, so no industry rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-13T12:52:19.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
