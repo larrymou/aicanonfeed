@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "6b0540ad176226bb",
+  "url": "https://www.techmeme.com/261112/p65#a261112p65",
+  "sourceName": "Techmeme",
+  "title": "New York-based Hatz AI, which makes tools for managed services providers to help small businesses adopt AI, raised a $24M Series A (CJ Fairfield/CRN)",
+  "summary": "CJ Fairfield / CRN: New York-based Hatz AI, which makes tools for managed services providers to help small businesses adopt AI, raised a $24M Series A — 'Small businesses are trying to figure out how to transform themselves right now into being AI-first or AI-native, and it's a j",
+  "pubDate": "2026-11-13T00:30:00.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CJ Fairfield / CRN: New York-based Hatz AI, which makes tools for managed services providers to help small businesses adopt AI, raised a $24M Series A — 'Small businesses are trying to figure out how to transform themselves right now into being AI-first or AI-native, and it's a j",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p65#a261112p65",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T00:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
