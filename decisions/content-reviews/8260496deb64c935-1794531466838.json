@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "8260496deb64c935",
+  "url": "https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge",
+  "sourceName": "Hacker News Front Page",
+  "title": "Richard Posner has died",
+  "summary": "Article URL: https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge Comments URL: https://news.ycombinator.com/item?id=50475829 Points: 25 # Comments: 3",
+  "pubDate": "2026-11-12T23:19:53.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Obituary of law and economics scholar Richard Posner; not an AI model release, research result, industry business event, policy action, or open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge Comments URL: https://news.ycombinator.com/item?id=50475829 Points: 25 # Comments: 3",
+    "summaryChars": 223,
+    "summarySource": "summary",
+    "link": "https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge",
+    "linkHost": "www.law.uchicago.edu",
+    "pubDate": "2026-11-12T23:19:53.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
