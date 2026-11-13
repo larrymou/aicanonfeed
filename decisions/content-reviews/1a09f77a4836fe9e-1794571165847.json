@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "1a09f77a4836fe9e",
+  "url": "https://status.claude.com/incidents/nn11wk485zfn",
+  "sourceName": "Hacker News Front Page",
+  "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+  "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 224 # Comments: 163",
+  "pubDate": "2026-11-13T10:18:13.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Status incident page reporting elevated errors on claude.ai/Claude Code; it is an outage notice, not a model release, research result, business event, policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 224 # Comments: 163",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://status.claude.com/incidents/nn11wk485zfn",
+    "linkHost": "status.claude.com",
+    "pubDate": "2026-11-13T10:18:13.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
