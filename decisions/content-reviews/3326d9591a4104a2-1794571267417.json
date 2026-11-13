@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "3326d9591a4104a2",
+  "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+  "sourceName": "Wired AI",
+  "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+  "summary": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize.",
+  "pubDate": "2026-11-12T18:05:41.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Labor unionization effort by Google DeepMind staff. Not a model release, research artifact, industry business event (financing/M&A/partnership/market data/product launch), official policy action, or OSS tool; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-12T18:05:41.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
