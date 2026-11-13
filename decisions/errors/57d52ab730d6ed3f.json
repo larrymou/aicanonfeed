@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "57d52ab730d6ed3f",
+  "url": "https://www.techmeme.com/261113/p5#a261113p5",
+  "sourceName": "Techmeme",
+  "title": "OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them (Jessica Lyons/The Register)",
+  "summary": "Jessica Lyons / The Register: OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them — OpenAI has launched two new security products, one for penetration testing and another for de",
+  "pubDate": "2026-11-13T07:25:02.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jessica Lyons / The Register: OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them — OpenAI has launched two new security products, one for penetration testing and another for de",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p5#a261113p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T07:25:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
