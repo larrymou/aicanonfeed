@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "69a4be7aab7399d4",
+  "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+  "sourceName": "TechCrunch AI",
+  "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+  "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+  "pubDate": "2026-11-13T14:44:48.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-13T14:44:48.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
