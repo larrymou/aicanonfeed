@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "ba94dc2c0141810a",
+  "url": "https://www.techmeme.com/261113/p7#a261113p7",
+  "sourceName": "Techmeme",
+  "title": "A review of Chinese contracts, disclosures, and other documents identifies $3.2B+ in compute projects built or planned around Nvidia GPUs restricted by the US (Eduardo Baptista/Reuters)",
+  "summary": "Eduardo Baptista / Reuters: A review of Chinese contracts, disclosures, and other documents identifies $3.2B+ in compute projects built or planned around Nvidia GPUs restricted by the US — Nvidia has said US export controls have effectively shut it out of China's AI data-centre m",
+  "pubDate": "2026-11-13T10:50:00.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Eduardo Baptista / Reuters: A review of Chinese contracts, disclosures, and other documents identifies $3.2B+ in compute projects built or planned around Nvidia GPUs restricted by the US — Nvidia has said US export controls have effectively shut it out of China's AI data-centre m",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p7#a261113p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T10:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
