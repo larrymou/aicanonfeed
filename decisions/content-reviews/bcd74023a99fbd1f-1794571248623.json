@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "bcd74023a99fbd1f",
+  "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+  "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+  "pubDate": "2026-11-12T18:57:45.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ars Technica report on calls for school AI moratoriums and a lawsuit labeling Gemini a 'suicide coach' is advocacy/commentary, not a new law, executive order, regulatory enforcement, or official policy announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+    "summaryChars": 78,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-12T18:57:45.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
