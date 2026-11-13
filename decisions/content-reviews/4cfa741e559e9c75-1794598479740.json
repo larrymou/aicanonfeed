@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "4cfa741e559e9c75",
+  "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+  "sourceName": "TechCrunch AI",
+  "title": "Jensen Huang didn’t show confidence in his successor, report says",
+  "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+  "pubDate": "2026-11-13T12:28:23.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is leadership/executive commentary about Nvidia's Jensen Huang and a successor; it reports no model release, research artifact, business event (financing, M&A, partnership, market data, product launch), policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-13T12:28:23.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
