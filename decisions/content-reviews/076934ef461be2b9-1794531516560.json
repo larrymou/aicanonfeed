@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "076934ef461be2b9",
+  "url": "https://unemploymentlabs.com/checkpoint-forensics",
+  "sourceName": "Hacker News Front Page",
+  "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+  "summary": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 134 # Comments: 38",
+  "pubDate": "2026-11-12T21:56:11.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN-linked opinion/analysis piece on GPUs and Chinese models. No named model release with official owner link, no paper/preprint or benchmark artifact, no business event, no policy action, no OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 134 # Comments: 38",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://unemploymentlabs.com/checkpoint-forensics",
+    "linkHost": "unemploymentlabs.com",
+    "pubDate": "2026-11-12T21:56:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
