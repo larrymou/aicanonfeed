@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "f91b58ae6c69ce8c",
+  "url": "https://www.techmeme.com/261113/p22#a261113p22",
+  "sourceName": "Techmeme",
+  "title": "Some in China question the timing of reports on the relationship between Jensen Huang and Alice Huang; Trump is set to meet Xi Jinping in Shenzhen next week (Mithil Aggarwal/NBC News)",
+  "summary": "Mithil Aggarwal / NBC News: Some in China question the timing of reports on the relationship between Jensen Huang and Alice Huang; Trump is set to meet Xi Jinping in Shenzhen next week — Reports of resigned CEO Jensen Huang's relationship with an alleged Chinese spy may lead to t",
+  "pubDate": "2026-11-13T18:15:06.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is media/politics commentary about reports on Jensen Huang's relationship and a scheduled Trump–Xi meeting. No model release, research artifact, industry business event (financing/M&A/partnership), official policy action, or OSS tool launch is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mithil Aggarwal / NBC News: Some in China question the timing of reports on the relationship between Jensen Huang and Alice Huang; Trump is set to meet Xi Jinping in Shenzhen next week — Reports of resigned CEO Jensen Huang's relationship with an alleged Chinese spy may lead to t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p22#a261113p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T18:15:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
