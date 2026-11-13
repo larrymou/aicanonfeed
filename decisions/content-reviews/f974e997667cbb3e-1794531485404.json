@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "f974e997667cbb3e",
+  "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
+  "sourceName": "Wired AI",
+  "title": "Silicon Valley Is Still Defending Jensen Huang",
+  "summary": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial.",
+  "pubDate": "2026-11-12T22:29:43.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary on Jensen Huang's resignation and Silicon Valley reaction; no model release, research artifact, business event, policy action, or OSS tool launch covered by active rules.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial.",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-12T22:29:43.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
