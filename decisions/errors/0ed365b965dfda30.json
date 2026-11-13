@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "0ed365b965dfda30",
+  "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+  "sourceName": "Hacker News Front Page",
+  "title": "Models can now transmit viruses in weight-space",
+  "summary": "Article URL: https://www.alphaxiv.org/abs/2611.weight-space-misfolding Comments URL: https://news.ycombinator.com/item?id=50487762 Points: 34 # Comments: 12",
+  "pubDate": "2026-11-13T18:33:35.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.alphaxiv.org/abs/2611.weight-space-misfolding Comments URL: https://news.ycombinator.com/item?id=50487762 Points: 34 # Comments: 12",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+    "linkHost": "www.alphaxiv.org",
+    "pubDate": "2026-11-13T18:33:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
