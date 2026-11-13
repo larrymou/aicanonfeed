@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "6669a4d19d8d9722",
+  "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+  "sourceName": "TechCrunch AI",
+  "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+  "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+  "pubDate": "2026-11-13T18:40:30.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch report on research about banned Nvidia chips in Chinese models. No link to an original paper/official source (2-1 unmet), no official policy action (4-1 unmet), and no financing/M&A/partnership/product launch (3-1 unmet).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+    "summaryChars": 94,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-13T18:40:30.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
