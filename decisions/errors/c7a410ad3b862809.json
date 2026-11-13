@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "c7a410ad3b862809",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "summary": "Introducing Gemini 4 Hydrogen",
+  "pubDate": "2026-11-12T18:00:50.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Introducing Gemini 4 Hydrogen",
+    "summaryChars": 29,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-11-12T18:00:50.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
