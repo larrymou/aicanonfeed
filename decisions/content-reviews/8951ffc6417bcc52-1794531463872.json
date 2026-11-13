@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "8951ffc6417bcc52",
+  "url": "https://www.techmeme.com/261112/p63#a261112p63",
+  "sourceName": "Techmeme",
+  "title": "The FBI says North Korean hackers stole $400M+ in crypto in the last 18 months using \"FaceStealer\", a scheme involving fake video calls and AI deepfakes (A.J. Vicens/Reuters)",
+  "summary": "A.J. Vicens / Reuters: The FBI says North Korean hackers stole $400M+ in crypto in the last 18 months using “FaceStealer”, a scheme involving fake video calls and AI deepfakes — North Korean state-backed hackers have stolen more than $400 million in cryptocurrency over the past 1",
+  "pubDate": "2026-11-12T23:35:01.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "FBI statement on North Korean hackers using AI deepfakes in crypto theft is a cybercrime report, not an AI model release, research artifact, industry business event, AI policy/regulation action, or OSS tool launch. Link is a Techmeme aggregator permalink, not an official policy document.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A.J. Vicens / Reuters: The FBI says North Korean hackers stole $400M+ in crypto in the last 18 months using “FaceStealer”, a scheme involving fake video calls and AI deepfakes — North Korean state-backed hackers have stolen more than $400 million in cryptocurrency over the past 1",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p63#a261112p63",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T23:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
