@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "814da016fd5e2ddb",
+  "url": "https://www.techmeme.com/261112/p62#a261112p62",
+  "sourceName": "Techmeme",
+  "title": "Analysis of open weights: six models from DeepSeek, Moonshot, MiniMax, and Ant Group released since April carry fingerprints of export-controlled Blackwell GPUs (Will DePue/Unemployment Labs)",
+  "summary": "Will DePue / Unemployment Labs: Analysis of open weights: six models from DeepSeek, Moonshot, MiniMax, and Ant Group released since April carry fingerprints of export-controlled Blackwell GPUs — Executive Summary — Our forensic analysis of publicly released AI models finds eviden",
+  "pubDate": "2026-11-12T22:30:04.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme pointer to a third-party forensic analysis of open-weight models' GPU fingerprints. Not a model release (1-1), no research artifact like a paper/preprint/benchmark (2-1), no financing/M&A/partnership/product launch (3-1), no policy action (4-1), no OSS tool release (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will DePue / Unemployment Labs: Analysis of open weights: six models from DeepSeek, Moonshot, MiniMax, and Ant Group released since April carry fingerprints of export-controlled Blackwell GPUs — Executive Summary — Our forensic analysis of publicly released AI models finds eviden",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p62#a261112p62",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T22:30:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
