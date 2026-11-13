@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "89bbfacda9f4c812",
+  "url": "https://status.cloud.microsoft/m365/referrer=serviceStatusRedirect",
+  "sourceName": "Hacker News Front Page",
+  "title": "Outlook Down, Microsoft Teams and Office may be impacted",
+  "summary": "Article URL: https://status.cloud.microsoft/m365/referrer=serviceStatusRedirect Comments URL: https://news.ycombinator.com/item?id=50475505 Points: 14 # Comments: 2",
+  "pubDate": "2026-11-12T22:47:24.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Microsoft 365/Teams/Outlook service outage status page. It is not a model release, research result, industry business event, policy action, or OSS tool announcement, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://status.cloud.microsoft/m365/referrer=serviceStatusRedirect Comments URL: https://news.ycombinator.com/item?id=50475505 Points: 14 # Comments: 2",
+    "summaryChars": 164,
+    "summarySource": "summary",
+    "link": "https://status.cloud.microsoft/m365/referrer=serviceStatusRedirect",
+    "linkHost": "status.cloud.microsoft",
+    "pubDate": "2026-11-12T22:47:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
