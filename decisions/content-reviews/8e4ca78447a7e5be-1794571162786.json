@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "8e4ca78447a7e5be",
+  "url": "https://status.claude.com/history",
+  "sourceName": "Hacker News Front Page",
+  "title": "Claude Is Down",
+  "summary": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 114 # Comments: 88",
+  "pubDate": "2026-11-13T10:20:09.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a service status/outage page for Claude (status.claude.com/history); it announces no new model, research artifact, business event, policy action, or OSS tool. No active rule covers outage status reports.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 114 # Comments: 88",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://status.claude.com/history",
+    "linkHost": "status.claude.com",
+    "pubDate": "2026-11-13T10:20:09.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
