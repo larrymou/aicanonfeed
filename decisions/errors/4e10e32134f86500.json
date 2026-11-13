@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "4e10e32134f86500",
+  "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+  "sourceName": "Hacker News Front Page",
+  "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+  "summary": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 18 # Comments: 4",
+  "pubDate": "2026-11-12T23:06:17.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 18 # Comments: 4",
+    "summaryChars": 188,
+    "summarySource": "summary",
+    "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "linkHost": "edge0.ai",
+    "pubDate": "2026-11-12T23:06:17.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
