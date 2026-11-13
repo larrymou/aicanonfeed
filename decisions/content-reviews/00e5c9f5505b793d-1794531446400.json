@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "00e5c9f5505b793d",
+  "url": "https://www.techmeme.com/261112/p66#a261112p66",
+  "sourceName": "Techmeme",
+  "title": "Sources: President Trump urged Jensen Huang to keep fighting for his job in a Tuesday call; aides say Trump saw the company as essentially too big to fail (New York Times)",
+  "summary": "New York Times: Sources: President Trump urged Jensen Huang to keep fighting for his job in a Tuesday call; aides say Trump saw the company as essentially too big to fail — The president called the Nvidia chief on Tuesday, continuing a pattern of supporting him even as the spy sc",
+  "pubDate": "2026-11-13T00:35:01.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is political/governance news: a presidential call urging Nvidia's CEO to keep his job. It is not a model release, research artifact, policy/regulatory action, OSS tool, nor an enumerated industry business event (financing, M&A, partnership, market data, non-model product launch). No rule covers",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Sources: President Trump urged Jensen Huang to keep fighting for his job in a Tuesday call; aides say Trump saw the company as essentially too big to fail — The president called the Nvidia chief on Tuesday, continuing a pattern of supporting him even as the spy sc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p66#a261112p66",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T00:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
