@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "61e70c457c4d9522",
+  "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+  "sourceName": "Hacker News Front Page",
+  "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+  "summary": "Article URL: https://toninoble.com/post/ctrlc-ctrlv-ctrlcve Comments URL: https://news.ycombinator.com/item?id=50487605 Points: 10 # Comments: 3",
+  "pubDate": "2026-11-13T18:23:49.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security research article on Android clipboard vulnerabilities; no AI model release, AI research artifact, AI business event, policy action, or open-source AI tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://toninoble.com/post/ctrlc-ctrlv-ctrlcve Comments URL: https://news.ycombinator.com/item?id=50487605 Points: 10 # Comments: 3",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+    "linkHost": "toninoble.com",
+    "pubDate": "2026-11-13T18:23:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
