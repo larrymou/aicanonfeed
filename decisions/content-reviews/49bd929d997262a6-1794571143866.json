@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "49bd929d997262a6",
+  "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+  "sourceName": "Wired AI",
+  "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+  "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+  "pubDate": "2026-11-13T11:45:00.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired feature/commentary on a startup using AI microdramas for Black storytelling. No named model release, no research artifact, no financing/M&A/partnership or product-launch announcement, no policy action, no OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+    "summaryChars": 130,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-13T11:45:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
