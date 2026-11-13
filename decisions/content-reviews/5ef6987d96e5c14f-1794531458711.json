@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "5ef6987d96e5c14f",
+  "url": "https://www.techmeme.com/261112/p64#a261112p64",
+  "sourceName": "Techmeme",
+  "title": "Cisco reports Q1 revenue up 24% YoY to $18.5B, above $18.14B est., adjusted EPS above estimates, and raises its FY 2027 revenue forecast (Anzar Mehraj/Reuters)",
+  "summary": "Anzar Mehraj / Reuters: Cisco reports Q1 revenue up 24% YoY to $18.5B, above $18.14B est., adjusted EPS above estimates, and raises its FY 2027 revenue forecast — Cisco (CSCO.O) beat Wall Street estimates for first-quarter results and raised its annual revenue forecast on Thursda",
+  "pubDate": "2026-11-12T23:50:00.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Cisco quarterly earnings/revenue forecast item contains no AI model release, research artifact, AI policy action, OSS tooling, or AI-specific business event; the AI-relevance of this revenue data cannot be established from Content, so rule 3-1 is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anzar Mehraj / Reuters: Cisco reports Q1 revenue up 24% YoY to $18.5B, above $18.14B est., adjusted EPS above estimates, and raises its FY 2027 revenue forecast — Cisco (CSCO.O) beat Wall Street estimates for first-quarter results and raised its annual revenue forecast on Thursda",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261112/p64#a261112p64",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-12T23:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
