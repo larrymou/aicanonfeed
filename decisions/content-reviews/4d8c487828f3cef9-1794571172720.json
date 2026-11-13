@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "4d8c487828f3cef9",
+  "url": "https://coyotetracks.org/blog/right-amount-of-ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Is there a 'right amount' of AI?",
+  "summary": "Article URL: https://coyotetracks.org/blog/right-amount-of-ai/ Comments URL: https://news.ycombinator.com/item?id=50480659 Points: 3 # Comments: 0",
+  "pubDate": "2026-11-13T09:27:05.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/essay asking about an appropriate amount of AI; no named model release, no research artifact, no industry business event, no policy action, no open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://coyotetracks.org/blog/right-amount-of-ai/ Comments URL: https://news.ycombinator.com/item?id=50480659 Points: 3 # Comments: 0",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://coyotetracks.org/blog/right-amount-of-ai/",
+    "linkHost": "coyotetracks.org",
+    "pubDate": "2026-11-13T09:27:05.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
