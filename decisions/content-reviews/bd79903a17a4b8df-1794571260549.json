@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "bd79903a17a4b8df",
+  "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+  "sourceName": "TechCrunch AI",
+  "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+  "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+  "pubDate": "2026-11-12T18:39:23.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary on Jensen Huang's resignation and Nvidia's open-source stance. No model release, research artifact, financing/M&A/deal event, policy action, or OSS tool launch; leadership/strategy analysis isn't covered by any active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+    "summaryChars": 233,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-12T18:39:23.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
