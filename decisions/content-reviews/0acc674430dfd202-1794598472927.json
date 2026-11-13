@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "0acc674430dfd202",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+  "sourceName": "The Verge AI",
+  "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+  "summary": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agen",
+  "pubDate": "2026-11-13T14:00:00.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hands-on review of Claude Duet; no official Anthropic announcement link, and linked_page_author/owner not observed, so R1-1's evidence-link condition fails. It reports no research artifact, business event, policy action, or OSS release, so no other rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agen",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-13T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
