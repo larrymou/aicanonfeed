@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "420a7c95521bb8f5",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xuvxke/i_built_tamserve_to_make_realtime_video_tracking/",
+  "sourceName": "r/MachineLearning new",
+  "title": "I built tamserve to make real-time video tracking 2x cheaper [P]",
+  "summary": "SAM 2-style trackers (SAM 2.1, EdgeTAM) are more accurate and flexible than box trackers: point at anything once and get its exact outline on every frame. But on live cameras they're expensive, and Meta's code keeps every frame it sees, so it runs out of GPU memory within minutes",
+  "pubDate": "2026-11-13T02:23:51.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Community [P] post about a developer's own video-tracking tool (tamserve). The only link is the Reddit thread itself; no repository or official project announcement is linked, so rule 5-1's evidence requirement is unmet. It is not a model release, research paper, business event, or policy action.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "SAM 2-style trackers (SAM 2.1, EdgeTAM) are more accurate and flexible than box trackers: point at anything once and get its exact outline on every frame. But on live cameras they're expensive, and Meta's code keeps every frame it sees, so it runs out of GPU memory within minutes",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xuvxke/i_built_tamserve_to_make_realtime_video_tracking/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-13T02:23:51.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
