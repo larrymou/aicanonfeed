@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "2d75af2f556d2c1c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xupgn8/weights_for_mnist_handwriting_network_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Weights for MNIST Handwriting Network [P]",
+  "summary": "The weights for my network looks really cool. First one is the first hidden layer of 64 neurons, the seconds is the second hidden layer of 32 neurons, and the last one is the output layer of 10 neurons. I've pretty much just started learning Machine Learning, so this is my first ",
+  "pubDate": "2026-11-12T21:35:41.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal Reddit post by a beginner sharing visualizations of MNIST network weights. No named model release, no research paper/benchmark, no industry event, no policy action, and no OSS tool or framework release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The weights for my network looks really cool. First one is the first hidden layer of 64 neurons, the seconds is the second hidden layer of 32 neurons, and the last one is the output layer of 10 neurons. I've pretty much just started learning Machine Learning, so this is my first ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xupgn8/weights_for_mnist_handwriting_network_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-12T21:35:41.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
