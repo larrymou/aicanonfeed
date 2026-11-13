@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "1897b5916b4877a7",
+  "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang’s $470 Billion Affair",
+  "summary": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+  "pubDate": "2026-11-12T18:59:58.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Podcast commentary/gossip about Nvidia's CEO's personal life; no model release, research artifact, business event with deal/company announcement, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-12T18:59:58.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
