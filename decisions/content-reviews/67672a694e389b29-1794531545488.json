@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "67672a694e389b29",
+  "url": "https://openai.com/business/customer-stories/amplitude",
+  "sourceName": "OpenAI Blog",
+  "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+  "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+  "pubDate": "2026-11-12T20:00:00.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about Amplitude using OpenAI models. No named model release or capability announcement (R1), no research artifact (R2), no financing/M&A/partnership deal/market data or non-model product launch (R3), no policy action (R4), no OSS tool release (R5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "summaryChars": 172,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/customer-stories/amplitude",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-12T20:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
