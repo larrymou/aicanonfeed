@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794531435205-uoopc2",
+  "urlHash": "c1c27abf12bf2ca8",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xuqs9d/gemma_3_builds_a_linearly_decodable_spatial_map/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Gemma 3 builds a linearly decodable spatial map from text, but its answers never read it [R]",
+  "summary": "Independent, preregistered study on Gemma 3 (12B/27B) with text-only layouts like \"A is 3 north of B, C is 2 east of A\". - Probes read every object's position, even ones that need two sentences combined (R² 0.74). - Erasing that map costs no more than erasing random directions. T",
+  "pubDate": "2026-11-12T22:29:05.000Z",
+  "decidedAt": "2026-11-13T00:57:22.841Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an independent preregistered probing study (research), but the only link is a Reddit thread (linkHost www.reddit.com); no link to the original paper or official source is observed, so R2's link condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Independent, preregistered study on Gemma 3 (12B/27B) with text-only layouts like \"A is 3 north of B, C is 2 east of A\". - Probes read every object's position, even ones that need two sentences combined (R² 0.74). - Erasing that map costs no more than erasing random directions. T",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xuqs9d/gemma_3_builds_a_linearly_decodable_spatial_map/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-12T22:29:05.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
