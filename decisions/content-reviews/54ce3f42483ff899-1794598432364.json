@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794598368384-5z14cs",
+  "urlHash": "54ce3f42483ff899",
+  "url": "https://www.techmeme.com/261113/p21#a261113p21",
+  "sourceName": "Techmeme",
+  "title": "Microsoft says Microsoft 365 availability is improving as the outage stretches into a second day, disrupting governments, hospitals, and businesses globally (Bruce Gil/Gizmodo)",
+  "summary": "Bruce Gil / Gizmodo: Microsoft says Microsoft 365 availability is improving as the outage stretches into a second day, disrupting governments, hospitals, and businesses globally — The tech giant is racing to fully restore Outlook, Teams, and other Microsoft 365 services following",
+  "pubDate": "2026-11-13T17:50:02.000Z",
+  "decidedAt": "2026-11-13T19:32:57.823Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Microsoft 365 service outage, not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool release. No active rule covers service disruptions.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bruce Gil / Gizmodo: Microsoft says Microsoft 365 availability is improving as the outage stretches into a second day, disrupting governments, hospitals, and businesses globally — The tech giant is racing to fully restore Outlook, Teams, and other Microsoft 365 services following",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p21#a261113p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T17:50:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
