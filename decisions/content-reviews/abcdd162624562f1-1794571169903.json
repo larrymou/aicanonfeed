@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794571129381-ecnfft",
+  "urlHash": "abcdd162624562f1",
+  "url": "https://www.techmeme.com/261113/p6#a261113p6",
+  "sourceName": "Techmeme",
+  "title": "AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares (Sangmi Cha/Bloomberg)",
+  "summary": "Sangmi Cha / Bloomberg: AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares — Artificial intelligence server maker xFusion Digital Technologies Co. received approval from t",
+  "pubDate": "2026-11-13T09:35:00.000Z",
+  "decidedAt": "2026-11-13T11:59:01.296Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business event: xFusion's ChiNext IPO approval and ~$1.2B fundraising, sourced to Bloomberg via Techmeme — a reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sangmi Cha / Bloomberg: AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares — Artificial intelligence server maker xFusion Digital Technologies Co. received approval from t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p6#a261113p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T09:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
