@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "a926608655a30efb",
+  "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "What Happened to 3Com?",
+  "summary": "Article URL: https://dfarq.homeip.net/what-happened-to-3com/ Comments URL: https://news.ycombinator.com/item?id=50491830 Points: 9 # Comments: 2",
+  "pubDate": "2026-11-13T23:48:59.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title 'What Happened to 3Com?' and summary describe a historical article about the networking company 3Com. No AI model release, research artifact, industry business event, policy action, or open-source AI tooling is reported; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://dfarq.homeip.net/what-happened-to-3com/ Comments URL: https://news.ycombinator.com/item?id=50491830 Points: 9 # Comments: 2",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://dfarq.homeip.net/what-happened-to-3com/",
+    "linkHost": "dfarq.homeip.net",
+    "pubDate": "2026-11-13T23:48:59.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
