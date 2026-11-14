@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "bfa613f73ba0ef2b",
+  "url": "https://www.techmeme.com/261114/p17#a261114p17",
+  "sourceName": "Techmeme",
+  "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed (Lauren Edmonds/Business Insider)",
+  "summary": "Lauren Edmonds / Business Insider: A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed — Some people aren't ready to let former CEO Jensen Huang go. — A petition to reinst",
+  "pubDate": "2026-11-14T19:01:14.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about a petition to reinstate Jensen Huang as Nvidia CEO. It is not a model release, research artifact, policy action, or OSS tool, and does not match industry rule categories (financing, M&A, partnerships, market data, product launch).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lauren Edmonds / Business Insider: A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed — Some people aren't ready to let former CEO Jensen Huang go. — A petition to reinst",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p17#a261114p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T19:01:14.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
