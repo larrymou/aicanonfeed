@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "c44ac57feedcf64a",
+  "url": "https://arxiv.org/abs/2611.14654",
+  "sourceName": "arXiv cs.AI",
+  "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+  "summary": "arXiv:2611.14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work",
+  "pubDate": "2026-11-14T05:00:00.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint reporting new research on tool-using agent history compaction/repair, with a link to the original paper on arxiv.org.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2611.14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2611.14654",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-14T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
