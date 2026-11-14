@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "b72a1fcbc5f8bc67",
+  "url": "https://www.techmeme.com/261113/p35#a261113p35",
+  "sourceName": "Techmeme",
+  "title": "Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash (CBS News)",
+  "summary": "CBS News: Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash — Kierra Frazier is a news editor for CBS News & Stations. — Faris Tanyos is a news editor for CBSNews.com, where he",
+  "pubDate": "2026-11-13T23:55:00.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns an FAA air traffic control network outage, which is not AI model release, research, industry business event, policy, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CBS News: Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash — Kierra Frazier is a news editor for CBS News & Stations. — Faris Tanyos is a news editor for CBSNews.com, where he",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p35#a261113p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T23:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
