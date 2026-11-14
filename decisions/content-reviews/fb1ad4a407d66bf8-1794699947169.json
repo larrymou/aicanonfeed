@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "fb1ad4a407d66bf8",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xw9m5h/anonymous_github_not_working_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Anonymous GitHub not working [D]",
+  "summary": "Mid ICLR rebuttals and I found out the links I made are not working. Anyone else having the same issue? submitted by /u/ZealousidealBee6113 [link] [comments]",
+  "pubDate": "2026-11-14T18:31:16.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking why anonymous GitHub links broke during ICLR rebuttals. No model release, research artifact, industry business event, policy action, or OSS tool announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mid ICLR rebuttals and I found out the links I made are not working. Anyone else having the same issue? submitted by /u/ZealousidealBee6113 [link] [comments]",
+    "summaryChars": 157,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xw9m5h/anonymous_github_not_working_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-14T18:31:16.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
