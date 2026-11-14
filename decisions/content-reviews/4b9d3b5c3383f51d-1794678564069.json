@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "4b9d3b5c3383f51d",
+  "url": "https://www.techmeme.com/261114/p11#a261114p11",
+  "sourceName": "Techmeme",
+  "title": "Italy's data protection agency fines Meta €805M for allegedly accessing Android users' photos and videos without their consent or informing them (Reuters)",
+  "summary": "Reuters: Italy's data protection agency fines Meta €805M for allegedly accessing Android users' photos and videos without their consent or informing them — Italy's data protection agency said on Saturday it had fined Meta Platforms (META.O) €805 million ($887 million) …",
+  "pubDate": "2026-11-14T15:10:02.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Italian data-protection fine against Meta over Android photo/video consent is a privacy enforcement matter; Content contains no fact establishing AI policy, regulation, or an AI artifact, so no active rule (including policy 4-1) is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Italy's data protection agency fines Meta €805M for allegedly accessing Android users' photos and videos without their consent or informing them — Italy's data protection agency said on Saturday it had fined Meta Platforms (META.O) €805 million ($887 million) …",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p11#a261114p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T15:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
