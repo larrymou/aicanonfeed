@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "de0a54ad3eaa730b",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xwcjuq/iclr_2027_initial_review_scores_ranked_by/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR 2027 Initial Review Scores ranked by University [N]",
+  "summary": "Crawled from OpenReview, titles matched to arXiv, then affiliated with OpenAlex submitted by /u/No-Lab4175 [link] [comments]",
+  "pubDate": "2026-11-14T20:33:14.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit post ranking ICLR 2027 review scores by university affiliation is commentary/analysis, not a new research paper, preprint, or benchmark release with an original artifact link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Crawled from OpenReview, titles matched to arXiv, then affiliated with OpenAlex submitted by /u/No-Lab4175 [link] [comments]",
+    "summaryChars": 124,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xwcjuq/iclr_2027_initial_review_scores_ranked_by/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-14T20:33:14.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
