@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "622a2cbb1774e561",
+  "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+  "sourceName": "Hacker News Front Page",
+  "title": "SpaceX Catches the Starship to end Flight 15",
+  "summary": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 465 # Comments: 288",
+  "pubDate": "2026-11-14T21:22:24.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about SpaceX Starship Flight 15, a spaceflight event unrelated to AI models, research, industry business, policy, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 465 # Comments: 288",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+    "linkHost": "x.com",
+    "pubDate": "2026-11-14T21:22:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
