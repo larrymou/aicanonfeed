@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "049ace856e268e72",
+  "url": "https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "First Strike",
+  "summary": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html Comments URL: https://news.ycombinator.com/item?id=50491944 Points: 29 # Comments: 10",
+  "pubDate": "2026-11-14T00:00:59.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post titled 'First Strike' with no observed facts about a named model release, research paper/benchmark, industry business event, policy action, or OSS tool launch. No rule conditions are met from Content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html Comments URL: https://news.ycombinator.com/item?id=50491944 Points: 29 # Comments: 10",
+    "summaryChars": 172,
+    "summarySource": "summary",
+    "link": "https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
+    "linkHost": "geohot.github.io",
+    "pubDate": "2026-11-14T00:00:59.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
