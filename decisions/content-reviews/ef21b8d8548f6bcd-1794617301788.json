@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "ef21b8d8548f6bcd",
+  "url": "https://www.techmeme.com/261113/p33#a261113p33",
+  "sourceName": "Techmeme",
+  "title": "Source: the FBI is probing whether the FAA outage was caused by a software update, and doesn't believe it was due to a cyberattack or criminality (Myles Miller/Bloomberg)",
+  "summary": "Myles Miller / Bloomberg: Source: the FBI is probing whether the FAA outage was caused by a software update, and doesn't believe it was due to a cyberattack or criminality — The Federal Bureau of Investigation doesn't believe the communication issue affecting air traffic control ",
+  "pubDate": "2026-11-13T22:20:00.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns an FBI probe into an FAA air traffic control outage possibly caused by a software update; it reports no AI model release, research, AI industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Myles Miller / Bloomberg: Source: the FBI is probing whether the FAA outage was caused by a software update, and doesn't believe it was due to a cyberattack or criminality — The Federal Bureau of Investigation doesn't believe the communication issue affecting air traffic control ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p33#a261113p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T22:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
