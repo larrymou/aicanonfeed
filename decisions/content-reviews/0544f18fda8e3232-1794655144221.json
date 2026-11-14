@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "0544f18fda8e3232",
+  "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+  "sourceName": "TechCrunch AI",
+  "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+  "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+  "pubDate": "2026-11-12T17:17:58.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Airline's internal decision to block AI agents from bookings is not a model release, research result, open-source tool, government policy action, or the business events enumerated under industry (financing, M&A, partnership, market data, product launch). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+    "summaryChars": 102,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-12T17:17:58.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
