@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "f9b3a0e12385efeb",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xvyvbd/p_bolt_pchie_a_deterministic_tamperevident_safety/",
+  "sourceName": "r/MachineLearning new",
+  "title": "[P] Bolt PCHIE: a deterministic, tamper-evident safety harness for AI agents [P]",
+  "summary": "I built a deterministic, tamper-evident safety harness for AI agents, and I put it up in public last night. Every decision the agent makes is sealed into a hash chain as it happens, so the run can be replayed and verified afterward instead of trusted. The agent keeps episodic mem",
+  "pubDate": "2026-11-14T10:06:39.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit self-post about a personal safety harness project; no repository or official announcement link, and open-source status is not established. No research artifact, model release, policy action, or business event, so no rule is satisfied.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I built a deterministic, tamper-evident safety harness for AI agents, and I put it up in public last night. Every decision the agent makes is sealed into a hash chain as it happens, so the run can be replayed and verified afterward instead of trusted. The agent keeps episodic mem",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xvyvbd/p_bolt_pchie_a_deterministic_tamperevident_safety/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-14T10:06:39.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
