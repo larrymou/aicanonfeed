@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "d05bc9050dc3e1c3",
+  "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+  "sourceName": "Wired AI",
+  "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+  "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+  "pubDate": "2026-11-14T11:00:00.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired feature commentary on AI in aviation; no named model release, research artifact, business/financing event, policy action, or open-source tool. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-14T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
