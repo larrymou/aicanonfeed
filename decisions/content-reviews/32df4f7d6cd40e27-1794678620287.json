@@ -1,18 +1,22 @@
 {
-  "runId": "run-1794655024877-9s5rsy",
+  "runId": "run-1794678508091-kkb8mq",
   "urlHash": "32df4f7d6cd40e27",
   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
   "sourceName": "TechCrunch AI",
   "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
   "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
   "pubDate": "2026-11-12T22:42:51.000Z",
-  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "reason": "Partisan congressional investigation/letter about Nvidia's China sales and Trump dealings; no new law, EO, regulatory enforcement, or official policy announcement, so rule 4-1's policy action is unmet. Not a business event, model release, research artifact, or OSS tool.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
