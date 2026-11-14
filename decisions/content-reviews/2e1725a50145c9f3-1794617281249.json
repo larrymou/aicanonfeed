@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "2e1725a50145c9f3",
+  "url": "https://www.techmeme.com/261113/p34#a261113p34",
+  "sourceName": "Techmeme",
+  "title": "ASI, developer of AI tool SMART, says the FAA outage \"is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC\" (Asi/@airspaceintel)",
+  "summary": "Asi / @airspaceintel: ASI, developer of AI tool SMART, says the FAA outage “is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC” — The current ground stop is not based on or a result of the SMART system, any product of ASI or o",
+  "pubDate": "2026-11-13T23:35:00.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Vendor denial/statement about an FAA outage's cause. Not a model release, research artifact, business event (financing/M&A/partnership/product launch), policy action, or open-source tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Asi / @airspaceintel: ASI, developer of AI tool SMART, says the FAA outage “is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC” — The current ground stop is not based on or a result of the SMART system, any product of ASI or o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p34#a261113p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T23:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
