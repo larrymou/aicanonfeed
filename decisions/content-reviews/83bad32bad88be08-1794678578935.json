@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "83bad32bad88be08",
+  "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+  "sourceName": "Wired AI",
+  "title": "Beware the New AI-Fueled Ransomware Boom",
+  "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+  "pubDate": "2026-11-14T13:00:00.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired commentary on AI-assisted ransomware attacks. No named model release, no research artifact, no financing/M&A/partnership or product launch, no policy action, and no open-source tool release. No active rule covers this security trend piece.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-14T13:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
