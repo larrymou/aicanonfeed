@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "f16fbfb856742f51",
+  "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
+  "sourceName": "Hacker News Front Page",
+  "title": "Formalizing US Tax Code (Using Lean)",
+  "summary": "Article URL: https://lexifina.com/blog/formalizing-the-us-tax-code Comments URL: https://news.ycombinator.com/item?id=50497900 Points: 52 # Comments: 16",
+  "pubDate": "2026-11-14T15:41:20.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about formalizing the US tax code in Lean; no named model release, no research paper/benchmark artifact, no business, policy, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lexifina.com/blog/formalizing-the-us-tax-code Comments URL: https://news.ycombinator.com/item?id=50497900 Points: 52 # Comments: 16",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://lexifina.com/blog/formalizing-the-us-tax-code",
+    "linkHost": "lexifina.com",
+    "pubDate": "2026-11-14T15:41:20.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
