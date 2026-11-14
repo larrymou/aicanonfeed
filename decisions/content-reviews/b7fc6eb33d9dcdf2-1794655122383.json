@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "b7fc6eb33d9dcdf2",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xul9u7/creating_author_burdens_to_reduce_paper/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Creating author burdens to reduce paper submissions is STUPID [D]",
+  "summary": "Over the past two years, conferences have been trying to add different administrative nonsense. Initially, it was author/reviewer sign-up, then reciprocal reviewing, and now CVPR has this author enrollment form that freaks everyone out. I get that we're trying to filter out low-q",
+  "pubDate": "2026-11-12T18:55:13.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit opinion/discussion post complaining about conference submission administrative burdens. No model release, no research artifact (paper/preprint/benchmark), no industry business event, no policy action, and no open-source tool. No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Over the past two years, conferences have been trying to add different administrative nonsense. Initially, it was author/reviewer sign-up, then reciprocal reviewing, and now CVPR has this author enrollment form that freaks everyone out. I get that we're trying to filter out low-q",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xul9u7/creating_author_burdens_to_reduce_paper/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-12T18:55:13.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
