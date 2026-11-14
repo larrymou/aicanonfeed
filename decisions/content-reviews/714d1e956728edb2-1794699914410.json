@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "714d1e956728edb2",
+  "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+  "sourceName": "Hacker News Front Page",
+  "title": "L3Harris Statement on the Nov. 13 Ground Stop",
+  "summary": "Article URL: https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop Comments URL: https://news.ycombinator.com/item?id=50501844 Points: 14 # Comments: 5",
+  "pubDate": "2026-11-14T22:51:44.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a L3Harris press statement about a Nov. 13 ground stop; it is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop Comments URL: https://news.ycombinator.com/item?id=50501844 Points: 14 # Comments: 5",
+    "summaryChars": 191,
+    "summarySource": "summary",
+    "link": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
+    "linkHost": "www.l3harris.com",
+    "pubDate": "2026-11-14T22:51:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
