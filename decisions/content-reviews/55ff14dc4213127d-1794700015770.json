@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "55ff14dc4213127d",
+  "url": "https://openai.com/index/jiostar-vijay-seshadri",
+  "sourceName": "OpenAI Blog",
+  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+  "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+  "pubDate": "2026-11-11T00:00:00.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer interview/case study about deploying AI at scale; not a named model release, research paper, business event (financing/M&A/partnership/market data), policy action, or OSS tool launch. No rule covers commentary/customer stories.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/jiostar-vijay-seshadri",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-11T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
