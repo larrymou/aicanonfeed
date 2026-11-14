@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "0095fec763cf81b7",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xw6d7n/ethical_alternatives_to_kaggle_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Ethical Alternatives to Kaggle [D]",
+  "summary": "I personally find it unconscionable to mandate biometric verification - with a controversial vendor on the top of that - to access a competition. Not to cash a prize, just to submit a solution. What are alternatives competition to have fun with SOTA or quasi-SOTA models? submitte",
+  "pubDate": "2026-11-14T16:20:55.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion asking for alternatives to Kaggle over biometric verification requirements. No named model release, no research artifact, no industry business event, no policy action, and no OSS tool/framework announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I personally find it unconscionable to mandate biometric verification - with a controversial vendor on the top of that - to access a competition. Not to cash a prize, just to submit a solution. What are alternatives competition to have fun with SOTA or quasi-SOTA models? submitte",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xw6d7n/ethical_alternatives_to_kaggle_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-14T16:20:55.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
