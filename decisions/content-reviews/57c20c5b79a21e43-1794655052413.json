@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "57c20c5b79a21e43",
+  "url": "https://www.techmeme.com/261114/p6#a261114p6",
+  "sourceName": "Techmeme",
+  "title": "Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation (Lucinda Shen/Axios)",
+  "summary": "Lucinda Shen / Axios: Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation — Operand, which uses AI to do due diligence for private equity firms, raised $31 million in seed and Seri",
+  "pubDate": "2026-11-14T07:02:17.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry financing event: Operand raised $31M in seed and Series A led by Khosla Ventures at a $220M valuation, with a link to reputable tech news coverage (Techmeme/Axios). No official model release, research artifact, policy action, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lucinda Shen / Axios: Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation — Operand, which uses AI to do due diligence for private equity firms, raised $31 million in seed and Seri",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p6#a261114p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T07:02:17.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
