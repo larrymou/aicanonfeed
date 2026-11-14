@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "10d2f059b6593773",
+  "url": "https://www.techmeme.com/261114/p13#a261114p13",
+  "sourceName": "Techmeme",
+  "title": "Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a \"bitcoin treasury,\" as its shares are down 60+% this year (Financial Times)",
+  "summary": "Financial Times: Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a “bitcoin treasury,” as its shares are down 60+% this year — Plunge in shares and cryptocurrency prices could force Truth Social owner to sell assets or take on co",
+  "pubDate": "2026-11-14T16:35:01.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Trump Media's convertible bond repayment deadline tied to a bitcoin treasury; no AI model release, research, AI business event, policy action, or open-source tooling is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a “bitcoin treasury,” as its shares are down 60+% this year — Plunge in shares and cryptocurrency prices could force Truth Social owner to sell assets or take on co",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p13#a261114p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T16:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
