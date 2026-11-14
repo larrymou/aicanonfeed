@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "36f6281ef8944313",
+  "url": "https://www.techmeme.com/261114/p7#a261114p7",
+  "sourceName": "Techmeme",
+  "title": "Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign (Eleanor Olcott/Financial Times)",
+  "summary": "Eleanor Olcott / Financial Times: Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign — Former Nvidia chief executive facing intense scrutiny over ties to Beijing — In Jan",
+  "pubDate": "2026-11-14T07:30:08.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Nvidia's Jensen Huang struggling to gain access to Beijing policymakers. It is neither a model release (R1), a research artifact (R2), a financing/M&A/partnership/market-data or non-model product event (R3), a policy action such as a law or enforcement (R4), nor open-source tooling (R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Eleanor Olcott / Financial Times: Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign — Former Nvidia chief executive facing intense scrutiny over ties to Beijing — In Jan",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p7#a261114p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T07:30:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
