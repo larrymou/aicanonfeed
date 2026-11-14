@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "7d971f83e5d67b77",
+  "url": "https://www.joshka.net/cell-borders/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Terminal borders that don't cost a cell",
+  "summary": "Article URL: https://www.joshka.net/cell-borders/ Comments URL: https://news.ycombinator.com/item?id=50491423 Points: 29 # Comments: 13",
+  "pubDate": "2026-11-13T23:06:40.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about terminal rendering/border graphics, not AI. No named AI model, research artifact, industry event, policy action, or AI open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.joshka.net/cell-borders/ Comments URL: https://news.ycombinator.com/item?id=50491423 Points: 29 # Comments: 13",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://www.joshka.net/cell-borders/",
+    "linkHost": "www.joshka.net",
+    "pubDate": "2026-11-13T23:06:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
