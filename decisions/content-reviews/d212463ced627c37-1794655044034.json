@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "d212463ced627c37",
+  "url": "https://www.techmeme.com/261114/p8#a261114p8",
+  "sourceName": "Techmeme",
+  "title": "Microsoft says all Microsoft 365 products are operational, ending an outage that disrupted governments, traders, hospitals, and businesses around the world (Bloomberg)",
+  "summary": "Bloomberg: Microsoft says all Microsoft 365 products are operational, ending an outage that disrupted governments, traders, hospitals, and businesses around the world — Microsoft Corp. said access has been fully restored to its flagship software, ending an outage that paralyzed g",
+  "pubDate": "2026-11-14T08:03:46.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a Microsoft 365 service outage being resolved. It is not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Microsoft says all Microsoft 365 products are operational, ending an outage that disrupted governments, traders, hospitals, and businesses around the world — Microsoft Corp. said access has been fully restored to its flagship software, ending an outage that paralyzed g",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p8#a261114p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T08:03:46.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
