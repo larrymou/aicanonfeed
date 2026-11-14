@@ -1,18 +1,22 @@
 {
-  "runId": "run-1794655024877-9s5rsy",
+  "runId": "run-1794678508091-kkb8mq",
   "urlHash": "cf8aede2b245e7be",
   "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
   "sourceName": "TechCrunch AI",
   "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
   "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
   "pubDate": "2026-11-12T17:36:40.000Z",
-  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Commentary on a CEO's pledge to advocate for open source AI and an executive exit; no named model release, research artifact, policy action, OSS tool release, or reported financing/M&A/partnership/revenue event. No rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
