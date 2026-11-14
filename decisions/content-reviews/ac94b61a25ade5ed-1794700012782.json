@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "ac94b61a25ade5ed",
+  "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+  "sourceName": "OpenAI Blog",
+  "title": "ChatGPT Plus for veterans and servicemembers",
+  "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+  "pubDate": "2026-11-11T08:00:00.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces a free-year ChatGPT Plus offer for veterans/service members, a promotional/CSR program with no new model, version, or capability (not R1); no research artifact (not R2); no financing, M&A, partnership, market data, or product launch (not R3); no policy action (not R4); no OSS tooling ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-11T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
