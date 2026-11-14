@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "a99dfdd20d85acbb",
+  "url": "https://openai.com/business/customer-stories/shield",
+  "sourceName": "OpenAI Blog",
+  "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+  "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+  "pubDate": "2026-11-13T08:00:00.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer story about Shield using OpenAI products; no new model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool launch. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/customer-stories/shield",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-13T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
