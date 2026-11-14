@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "ed95b098010a9ba6",
+  "url": "https://www.techmeme.com/261114/p10#a261114p10",
+  "sourceName": "Techmeme",
+  "title": "How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms (Washington Post)",
+  "summary": "Washington Post: How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms — Rubio's intervention helped topple one of Washington's most influential corporate voices on China, gi",
+  "pubDate": "2026-11-14T14:30:23.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a political-influence story about Rubio and Jensen Huang; it reports no new law, regulation, enforcement, or official policy announcement (4-1 unmet) and no financing/M&A/partnership/market-data business event (3-1 unmet). Link is an aggregator page, not an official document.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Washington Post: How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms — Rubio's intervention helped topple one of Washington's most influential corporate voices on China, gi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p10#a261114p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T14:30:23.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
