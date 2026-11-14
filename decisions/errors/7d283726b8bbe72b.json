@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "7d283726b8bbe72b",
+  "url": "https://www.techmeme.com/261113/p32#a261113p32",
+  "sourceName": "Techmeme",
+  "title": "The FAA announced on November 10 that it has expanded the use of SMART, an AI tool for advising air traffic controllers to manage congestion, across the US (Jeremy Hsu/Ars Technica)",
+  "summary": "Jeremy Hsu / Ars Technica: The FAA announced on November 10 that it has expanded the use of SMART, an AI tool for advising air traffic controllers to manage congestion, across the US — The US government has expanded the use of an AI tool for advising air traffic controllers to as",
+  "pubDate": "2026-11-13T22:10:02.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jeremy Hsu / Ars Technica: The FAA announced on November 10 that it has expanded the use of SMART, an AI tool for advising air traffic controllers to manage congestion, across the US — The US government has expanded the use of an AI tool for advising air traffic controllers to as",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261113/p32#a261113p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-13T22:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
