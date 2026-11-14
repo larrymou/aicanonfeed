@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "22f7de6935dc23ea",
+  "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+  "sourceName": "Hacker News Front Page",
+  "title": "Ggml v1.0.0",
+  "summary": "Article URL: https://github.com/ggml-org/ggml/releases/tag/v1.0.0 Comments URL: https://news.ycombinator.com/item?id=50493062 Points: 275 # Comments: 45",
+  "pubDate": "2026-11-14T02:28:29.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/ggml-org/ggml/releases/tag/v1.0.0 Comments URL: https://news.ycombinator.com/item?id=50493062 Points: 275 # Comments: 45",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-14T02:28:29.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
