@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "fa4ee4850332e283",
+  "url": "https://www.techmeme.com/261114/p19#a261114p19",
+  "sourceName": "Techmeme",
+  "title": "USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system (Maria Clara Cobo/Bloomberg)",
+  "summary": "Maria Clara Cobo / Bloomberg: USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system — Stablecoins are proving useful not only as a store of value but as a payment system — inc",
+  "pubDate": "2026-11-14T20:45:34.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers USD-pegged stablecoin adoption in Latin America's crypto activity; it reports no AI model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Maria Clara Cobo / Bloomberg: USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system — Stablecoins are proving useful not only as a store of value but as a payment system — inc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p19#a261114p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T20:45:34.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
