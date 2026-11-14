@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "d1d5ee0e5b65843f",
+  "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+  "summary": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
+  "pubDate": "2026-11-12T17:59:15.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
+    "summaryChars": 116,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-12T17:59:15.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
