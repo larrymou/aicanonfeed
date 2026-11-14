@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794617240883-tscoqb",
+  "urlHash": "d594c39e97738b7d",
+  "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+  "sourceName": "Ars Technica AI",
+  "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+  "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+  "pubDate": "2026-11-13T21:20:47.000Z",
+  "decidedAt": "2026-11-14T00:47:36.416Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "Reports a US government agency (FAA) expanding its use of an AI tool to manage air traffic across all US airspace — a government action on AI, covered by a reputable news source with a dated article.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+    "summaryChars": 85,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-13T21:20:47.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
