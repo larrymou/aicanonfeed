@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794678508091-kkb8mq",
+  "urlHash": "1768882bb1abb533",
+  "url": "https://www.techmeme.com/261114/p14#a261114p14",
+  "sourceName": "Techmeme",
+  "title": "Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a \"faulty router\" (Joseph Pisani/Wall Street Journal)",
+  "summary": "Joseph Pisani / Wall Street Journal: Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a “faulty router” — Work at a single remote location caused instability that led authorities to order nati",
+  "pubDate": "2026-11-14T17:15:29.000Z",
+  "decidedAt": "2026-11-14T17:48:35.937Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns an FAA outage attributed to copper-to-fiber wiring and a contractor's router; it reports no AI model release, research, industry business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Joseph Pisani / Wall Street Journal: Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a “faulty router” — Work at a single remote location caused instability that led authorities to order nati",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p14#a261114p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T17:15:29.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
