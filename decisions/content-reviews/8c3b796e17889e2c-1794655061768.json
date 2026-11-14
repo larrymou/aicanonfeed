@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "8c3b796e17889e2c",
+  "url": "https://www.techmeme.com/261114/p4#a261114p4",
+  "sourceName": "Techmeme",
+  "title": "Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners (Jessica Hagen/MobiHealthNews)",
+  "summary": "Jessica Hagen / MobiHealthNews: Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners — The round is the company's third in less than two years and brings its total funding to $",
+  "pubDate": "2026-11-14T06:35:00.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: Charta Health, an AI-powered medical chart review/billing/coding tooling company, raised a $55M Series B led by Insight Partners, with a link to a reputable media report (MobiHealthNews via Techmeme).",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jessica Hagen / MobiHealthNews: Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners — The round is the company's third in less than two years and brings its total funding to $",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p4#a261114p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T06:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
