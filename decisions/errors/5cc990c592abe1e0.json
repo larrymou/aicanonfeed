@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "5cc990c592abe1e0",
+  "url": "https://www.techmeme.com/261114/p16#a261114p16",
+  "sourceName": "Techmeme",
+  "title": "Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation (FinTech Global)",
+  "summary": "FinTech Global: Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation — Databento, a platform supplying market data to the modern financial industry, has secured $100m in a Se",
+  "pubDate": "2026-11-14T18:35:04.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "FinTech Global: Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation — Databento, a platform supplying market data to the modern financial industry, has secured $100m in a Se",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p16#a261114p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T18:35:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
