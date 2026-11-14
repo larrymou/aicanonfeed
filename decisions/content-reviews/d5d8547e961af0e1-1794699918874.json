@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794699905961-mb5hfy",
+  "urlHash": "d5d8547e961af0e1",
+  "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+  "summary": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html Comments URL: https://news.ycombinator.com/item?id=50501631 Points: 32 # Comments: 18",
+  "pubDate": "2026-11-14T22:26:30.000Z",
+  "decidedAt": "2026-11-14T23:45:12.863Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/market event: allegations that Nvidia used circular financing deals to keep GPU prices high, linked to a reputable media report (TechSpot) with a publication date.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html Comments URL: https://news.ycombinator.com/item?id=50501631 Points: 32 # Comments: 18",
+    "summaryChars": 198,
+    "summarySource": "summary",
+    "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+    "linkHost": "www.techspot.com",
+    "pubDate": "2026-11-14T22:26:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
