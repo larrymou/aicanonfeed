@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "a9c0a0c8a7adff81",
+  "url": "https://arxiv.org/abs/2611.14544",
+  "sourceName": "arXiv cs.AI",
+  "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+  "summary": "arXiv:2611.14544v1 Announce Type: new Abstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal ",
+  "pubDate": "2026-11-14T05:00:00.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2611.14544v1 Announce Type: new Abstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2611.14544",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-14T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
