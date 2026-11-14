@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794655024877-9s5rsy",
+  "urlHash": "b338b5a5af80e931",
+  "url": "https://news.ycombinator.com/item?id=50494696",
+  "sourceName": "Hacker News Front Page",
+  "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+  "summary": "Specifically, what are the most useful, concrete skills to learn as an individual to take economic advantage of the advances in LLMs, agents and associated new technological capabilities? What is accessible to learn just from the internet and experimentation, without a degree pro",
+  "pubDate": "2026-11-14T06:56:42.000Z",
+  "decidedAt": "2026-11-14T11:17:10.791Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ask HN discussion thread asking which AI skills to learn. It is community commentary, not a model release, research paper/benchmark, industry business event, policy action, or OSS tool announcement, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Specifically, what are the most useful, concrete skills to learn as an individual to take economic advantage of the advances in LLMs, agents and associated new technological capabilities? What is accessible to learn just from the internet and experimentation, without a degree pro",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://news.ycombinator.com/item?id=50494696",
+    "linkHost": "news.ycombinator.com",
+    "pubDate": "2026-11-14T06:56:42.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
