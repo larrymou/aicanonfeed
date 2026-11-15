@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "2805eac96187662d",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Making cudaMemcpy 5x faster on a B300 [P]",
+  "summary": "https://preview.redd.it/cjz9xy3rht1i1.png?width=1600&format=png&auto=webp&s=0eea8a5d9e53d5ea4593ce1a629bc7342a049ffa Hi everyone, I made a tool that can speed up pageable transfers for cudaMemcpy. For example: # B300, copying a 1 GB tensor to the GPU and back: import time, torch ",
+  "pubDate": "2026-11-15T18:20:27.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit [P] post about a tool speeding up cudaMemcpy transfers; closest is tools-oss, but no repository or official project announcement link is observed (link is a Reddit thread), so the rule's evidence condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "https://preview.redd.it/cjz9xy3rht1i1.png?width=1600&format=png&auto=webp&s=0eea8a5d9e53d5ea4593ce1a629bc7342a049ffa Hi everyone, I made a tool that can speed up pageable transfers for cudaMemcpy. For example: # B300, copying a 1 GB tensor to the GPU and back: import time, torch ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-15T18:20:27.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
