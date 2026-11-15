@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "b62677a8ffedb763",
+  "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+  "sourceName": "Wired AI",
+  "title": "AI DJs Completely Kill My Groove",
+  "summary": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+  "pubDate": "2026-11-15T12:00:00.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary piece about synthetic DJ hosts on streaming playlists. No named model release, no research artifact, no business deal, no policy action, and no open-source tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-15T12:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
