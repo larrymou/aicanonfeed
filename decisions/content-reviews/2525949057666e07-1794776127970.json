@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "2525949057666e07",
+  "url": "https://www.techmeme.com/261115/p13#a261115p13",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nvidia appealed to Taiwanese officials after its manager was charged over chip smuggling, and sought advice from TSMC, which declined to get involved (Mackenzie Hawkins/Bloomberg)",
+  "summary": "Mackenzie Hawkins / Bloomberg: Sources: Nvidia appealed to Taiwanese officials after its manager was charged over chip smuggling, and sought advice from TSMC, which declined to get involved — Nvidia Corp. appealed to Taiwanese officials after prosecutors on the island accused an ",
+  "pubDate": "2026-11-15T19:10:00.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Nvidia's lobbying of Taiwanese officials and TSMC's non-involvement after a manager was charged over chip smuggling. It is not a model release, research artifact, listed industry business event (financing/M&A/partnership/product launch), policy action, or OSS tool release; no rule covers",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mackenzie Hawkins / Bloomberg: Sources: Nvidia appealed to Taiwanese officials after its manager was charged over chip smuggling, and sought advice from TSMC, which declined to get involved — Nvidia Corp. appealed to Taiwanese officials after prosecutors on the island accused an ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p13#a261115p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T19:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
