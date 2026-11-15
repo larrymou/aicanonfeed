@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "9092d5eb66f29547",
+  "url": "https://openai.com/index/singapore-airlines-travel-work",
+  "sourceName": "OpenAI Blog",
+  "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+  "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+  "pubDate": "2026-11-10T08:00:00.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study on Singapore Airlines' use of OpenAI models/API. No new model or capability (R1-1), no research artifact (R2-1), no financing/M&A/partnership/revenue event (R3-1), no policy action (R4-1), no OSS tool (R5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/singapore-airlines-travel-work",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-10T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
