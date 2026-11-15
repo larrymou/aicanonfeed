@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "77700861542a2325",
+  "url": "https://www.techmeme.com/261115/p5#a261115p5",
+  "sourceName": "Techmeme",
+  "title": "Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed (Alex Konrad/Upstarts Media)",
+  "summary": "Alex Konrad / Upstarts Media: Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed — The startup backed by Kleiner Perkins and Costanoa says it's reached “seven figures” in bookings w",
+  "pubDate": "2026-11-15T06:50:01.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alex Konrad / Upstarts Media: Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed — The startup backed by Kleiner Perkins and Costanoa says it's reached “seven figures” in bookings w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p5#a261115p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T06:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
