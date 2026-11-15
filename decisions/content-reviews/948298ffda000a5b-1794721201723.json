@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "948298ffda000a5b",
+  "url": "https://www.techmeme.com/261114/p23#a261114p23",
+  "sourceName": "Techmeme",
+  "title": "The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms (Washington Post)",
+  "summary": "Washington Post: The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms — The scandal connects to voter concerns over AI, data centers, China and corruption. — Sex. Money. Power",
+  "pubDate": "2026-11-15T04:15:42.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Washington Post political analysis of an Nvidia scandal's midterm implications is commentary, not a policy action (4-1) or a business event like financing/M&A/partnership (3-1); the Techmeme link is an aggregator page, not an official document or named-author article.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Washington Post: The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms — The scandal connects to voter concerns over AI, data centers, China and corruption. — Sex. Money. Power",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p23#a261114p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T04:15:42.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
