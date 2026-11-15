@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "d91962eda87574b8",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xw3q5f/is_it_compulsory_to_upload_neurips_poster_by_15th/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Is it compulsory to upload neurips poster by 15th Nov? [D]",
+  "summary": "I received this mail which said \"Please upload your poster and thumbnail by clicking on the poster upload page link on the paper metadata page.\" The mail contains 15th November as a date, do we really need to upload posters ?? submitted by /u/Jealous_Key_4030 [link] [comments]",
+  "pubDate": "2026-11-14T14:28:42.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit Q&A post asking whether a NeurIPS poster upload deadline is compulsory. No new research artifact, model release, industry business event, policy action, or open-source tool announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I received this mail which said \"Please upload your poster and thumbnail by clicking on the poster upload page link on the paper metadata page.\" The mail contains 15th November as a date, do we really need to upload posters ?? submitted by /u/Jealous_Key_4030 [link] [comments]",
+    "summaryChars": 277,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xw3q5f/is_it_compulsory_to_upload_neurips_poster_by_15th/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-14T14:28:42.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
