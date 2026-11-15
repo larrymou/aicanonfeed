@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "3d92df477befb260",
+  "url": "https://www.techmeme.com/261115/p3#a261115p3",
+  "sourceName": "Techmeme",
+  "title": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)",
+  "summary": "Tamara Djurickovic / Tech.eu: Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A — Nebuly develops a platform that helps enterprises measure the business value of AI agents by ",
+  "pubDate": "2026-11-15T06:40:02.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tamara Djurickovic / Tech.eu: Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A — Nebuly develops a platform that helps enterprises measure the business value of AI agents by ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p3#a261115p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T06:40:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
