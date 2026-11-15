@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "d65ff10a8650adf2",
+  "url": "https://github.com/eclipse-mosquitto/mosquitto",
+  "sourceName": "Hacker News Front Page",
+  "title": "Eclipse Mosquitto – An open source MQTT broker",
+  "summary": "Article URL: https://github.com/eclipse-mosquitto/mosquitto Comments URL: https://news.ycombinator.com/item?id=50509416 Points: 30 # Comments: 9",
+  "pubDate": "2026-11-15T18:36:40.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Eclipse Mosquitto is an open-source MQTT messaging broker with no AI model, research, industry business event, policy action, or AI developer tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/eclipse-mosquitto/mosquitto Comments URL: https://news.ycombinator.com/item?id=50509416 Points: 30 # Comments: 9",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://github.com/eclipse-mosquitto/mosquitto",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-15T18:36:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
