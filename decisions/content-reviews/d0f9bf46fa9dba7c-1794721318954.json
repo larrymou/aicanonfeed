@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "d0f9bf46fa9dba7c",
+  "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Opening the datasets behind our AI weather models",
+  "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+  "pubDate": "2026-11-10T11:13:04.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item announces open weather datasets, not a named model release (1-1), not a paper/preprint/benchmark result (2-1), not a business event (3-1), not policy (4-1), and not an open-source library/framework/tool launch (5-1). No rule covers dataset releases.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+    "summaryChars": 94,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-11-10T11:13:04.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
