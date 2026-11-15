@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "0f0020abcf733229",
+  "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+  "sourceName": "OpenAI Blog",
+  "title": "Helping caregivers use AI in everyday life",
+  "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+  "pubDate": "2026-11-10T12:00:00.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes OpenAI Academy workshops teaching caregivers practical ChatGPT skills. It is not a named model release, research artifact, business event, policy action, or open-source tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-10T12:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
