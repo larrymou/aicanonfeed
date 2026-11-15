@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "ee6d659a6ec6b724",
+  "url": "https://arkanumdata.com/research/house-trades",
+  "sourceName": "Hacker News Front Page",
+  "title": "Do House members' stock trades beat the market? A test of 8,900 trades",
+  "summary": "Article URL: https://arkanumdata.com/research/house-trades Comments URL: https://news.ycombinator.com/item?id=50510005 Points: 32 # Comments: 10",
+  "pubDate": "2026-11-15T19:46:02.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a finance study on congressional stock trades; no AI model release, AI research artifact, industry business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://arkanumdata.com/research/house-trades Comments URL: https://news.ycombinator.com/item?id=50510005 Points: 32 # Comments: 10",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://arkanumdata.com/research/house-trades",
+    "linkHost": "arkanumdata.com",
+    "pubDate": "2026-11-15T19:46:02.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
