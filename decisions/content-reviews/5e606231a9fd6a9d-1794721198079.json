@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "5e606231a9fd6a9d",
+  "url": "https://github.com/matheuzgomes/gawain",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Gawain – Require type hints on all Python variables",
+  "summary": "Yes, i really hate \"dict[str, ANY]\" Comments URL: https://news.ycombinator.com/item?id=50504072 Points: 14 # Comments: 1",
+  "pubDate": "2026-11-15T04:39:25.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN for 'Gawain', a Python static-typing linter; title/summary show no AI model, research artifact, industry business event, policy action, or AI open-source tooling, so no active rule (incl. 5-1's AI-tool requirement) is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yes, i really hate \"dict[str, ANY]\" Comments URL: https://news.ycombinator.com/item?id=50504072 Points: 14 # Comments: 1",
+    "summaryChars": 120,
+    "summarySource": "summary",
+    "link": "https://github.com/matheuzgomes/gawain",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-15T04:39:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
