@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "9a643798fdd36d09",
+  "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+  "summary": "Article URL: https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/ Comments URL: https://news.ycombinator.com/item?id=50509953 Points: 38 # Comments: 24",
+  "pubDate": "2026-11-15T19:39:46.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Fortune story about a private AI-themed school's tuition and student test results; it is not a model release, research artifact, AI business event (financing/M&A/partnership/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/ Comments URL: https://news.ycombinator.com/item?id=50509953 Points: 38 # Comments: 24",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+    "linkHost": "fortune.com",
+    "pubDate": "2026-11-15T19:39:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
