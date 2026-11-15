@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "d5b22fd6980e5cd0",
+  "url": "https://www.techmeme.com/261115/p6#a261115p6",
+  "sourceName": "Techmeme",
+  "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy (Chris Miller/Financial Times)",
+  "summary": "Chris Miller / Financial Times: A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy — The chip company has only itself to blame for a long list of adversaries — Jensen Huang'",
+  "pubDate": "2026-11-15T07:01:35.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme link to an FT opinion/commentary column about Nvidia leadership and DC/foreign-policy dynamics. No named model release, no research artifact (paper/preprint/benchmark), no financing/M&A/partnership/market-data or non-model product launch, no policy action, no OSS tooling. Commentary without",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Miller / Financial Times: A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy — The chip company has only itself to blame for a long list of adversaries — Jensen Huang'",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p6#a261115p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T07:01:35.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
