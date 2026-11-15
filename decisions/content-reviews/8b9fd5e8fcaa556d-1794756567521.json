@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "8b9fd5e8fcaa556d",
+  "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+  "sourceName": "Hacker News Front Page",
+  "title": "All AI-generated code should be Open Source",
+  "summary": "Article URL: https://jakub.jankiewicz.org/blog/ai-code-open-source/ Comments URL: https://news.ycombinator.com/item?id=50507303 Points: 43 # Comments: 14",
+  "pubDate": "2026-11-15T14:46:58.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary blog post arguing AI-generated code should be open source. No named model release, no research artifact, no business event, no policy action, and no new OSS tool/framework announced; no active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://jakub.jankiewicz.org/blog/ai-code-open-source/ Comments URL: https://news.ycombinator.com/item?id=50507303 Points: 43 # Comments: 14",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+    "linkHost": "jakub.jankiewicz.org",
+    "pubDate": "2026-11-15T14:46:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
