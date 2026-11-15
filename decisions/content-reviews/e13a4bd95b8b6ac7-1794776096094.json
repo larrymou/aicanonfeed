@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "e13a4bd95b8b6ac7",
+  "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+  "sourceName": "TechCrunch AI",
+  "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+  "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+  "pubDate": "2026-11-15T20:20:57.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Comedy/entertainment item about an SNL sketch featuring tech executives; no AI model release, research, industry business event, policy action, or open-source tool is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+    "summaryChars": 177,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-15T20:20:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
