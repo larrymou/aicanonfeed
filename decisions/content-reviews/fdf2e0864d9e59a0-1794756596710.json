@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "fdf2e0864d9e59a0",
+  "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+  "sourceName": "Wired AI",
+  "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+  "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+  "pubDate": "2026-11-15T11:00:00.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired feature on a Carnegie Mellon student's E Ink gadget project (OATs). No named lab/company model release, no research artifact, no financing/M&A/partnership/revenue event, no OSS repo. No rule covers this design commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-15T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
