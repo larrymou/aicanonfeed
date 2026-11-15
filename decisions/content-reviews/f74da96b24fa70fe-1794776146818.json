@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "f74da96b24fa70fe",
+  "url": "https://www.techmeme.com/261115/p11#a261115p11",
+  "sourceName": "Techmeme",
+  "title": "Sources: Howard Lutnick is expected to join Trump on Air Force One to China this week, after clashing with Scott Bessent and others over Nvidia chip curbs (Ashley Gold/Semafor)",
+  "summary": "Ashley Gold / Semafor: Sources: Howard Lutnick is expected to join Trump on Air Force One to China this week, after clashing with Scott Bessent and others over Nvidia chip curbs — Howard Lutnick is expected to travel on Air Force One with the president to China this week as the c",
+  "pubDate": "2026-11-15T17:15:01.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Howard Lutnick's travel to China and internal administration disagreements over Nvidia chip curbs. No model release, research artifact, business event (financing/M&A/partnership/market data/product launch), formal policy action, or OSS tool is reported, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ashley Gold / Semafor: Sources: Howard Lutnick is expected to join Trump on Air Force One to China this week, after clashing with Scott Bessent and others over Nvidia chip curbs — Howard Lutnick is expected to travel on Air Force One with the president to China this week as the c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p11#a261115p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T17:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
