@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "e77bcd6e9fde3da5",
+  "url": "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)",
+  "summary": "Article URL: https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/ Comments URL: https://news.ycombinator.com/item?id=50507206 Points: 22 # Comments: 10",
+  "pubDate": "2026-11-15T14:31:52.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "IETF draft proposing HTTP status code 483; not an AI model release, research, industry event, policy action, or open-source AI tool. No active rule covers this non-AI networking item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/ Comments URL: https://news.ycombinator.com/item?id=50507206 Points: 22 # Comments: 10",
+    "summaryChars": 167,
+    "summarySource": "summary",
+    "link": "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/",
+    "linkHost": "datatracker.ietf.org",
+    "pubDate": "2026-11-15T14:31:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
