@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "b6a998f7218333dc",
+  "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+  "summary": "Article URL: https://github.com/Tthanh2k6/turbo-browser-mcp Comments URL: https://news.ycombinator.com/item?id=50503930 Points: 7 # Comments: 0",
+  "pubDate": "2026-11-15T04:09:11.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Show HN announcing Turbo-Browser-MCP, a new open-source developer tool for MCP (batch forms, DOM deltas, submit guards), linked directly to its GitHub repository.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/Tthanh2k6/turbo-browser-mcp Comments URL: https://news.ycombinator.com/item?id=50503930 Points: 7 # Comments: 0",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-15T04:09:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
