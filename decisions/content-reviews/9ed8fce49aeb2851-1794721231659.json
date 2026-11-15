@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "9ed8fce49aeb2851",
+  "url": "https://www.techmeme.com/261114/p15#a261114p15",
+  "sourceName": "Techmeme",
+  "title": "Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up (Nathan Lambert/Interconnects AI)",
+  "summary": "Nathan Lambert / Interconnects AI: Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up — A decapitation. It's time to rebuild. … Audio playback is not supported on your brows",
+  "pubDate": "2026-11-14T18:05:02.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay about open-source model funding from an aggregator link; no model release, research artifact, business event, policy action, or OSS tool release is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nathan Lambert / Interconnects AI: Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up — A decapitation. It's time to rebuild. … Audio playback is not supported on your brows",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261114/p15#a261114p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-14T18:05:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
