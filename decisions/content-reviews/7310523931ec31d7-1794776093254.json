@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "7310523931ec31d7",
+  "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+  "sourceName": "The Verge AI",
+  "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+  "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might ",
+  "pubDate": "2026-11-15T20:43:49.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a newsletter roundup of rumors/drama about Nvidia and Jensen Huang; no named model release, research artifact, concrete business event (financing/M&A/partnership/market data), policy action, or OSS tool launch. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-15T20:43:49.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
