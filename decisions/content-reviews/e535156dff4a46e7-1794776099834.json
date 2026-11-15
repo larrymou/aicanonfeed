@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "e535156dff4a46e7",
+  "url": "https://www.techmeme.com/261115/p15#a261115p15",
+  "sourceName": "Techmeme",
+  "title": "Megaspeed says Alice Huang left in August 2025 and has no current role, and that it runs a \"legitimate and lawful business\" as it opens an internal probe (Associated Press)",
+  "summary": "Associated Press: Megaspeed says Alice Huang left in August 2025 and has no current role, and that it runs a “legitimate and lawful business” as it opens an internal probe — Singapore-based cloud computing company Megaspeed International said Sunday that Chinese businesswoman Ali",
+  "pubDate": "2026-11-15T20:02:17.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Megaspeed's statement that an executive departed and that it opened an internal probe into its business. It is not a model release, research artifact, financing/M&A/partnership/market data or non-model product launch, nor an official policy action. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Associated Press: Megaspeed says Alice Huang left in August 2025 and has no current role, and that it runs a “legitimate and lawful business” as it opens an internal probe — Singapore-based cloud computing company Megaspeed International said Sunday that Chinese businesswoman Ali",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p15#a261115p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T20:02:17.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
