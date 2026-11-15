@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "d27638383af29436",
+  "url": "https://prog21.dadgum.com/116.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+  "summary": "Article URL: https://prog21.dadgum.com/116.html Comments URL: https://news.ycombinator.com/item?id=50506894 Points: 43 # Comments: 14",
+  "pubDate": "2026-11-15T13:44:16.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a 2011 article about Turbo Pascal size, not AI model release, research, industry, policy, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://prog21.dadgum.com/116.html Comments URL: https://news.ycombinator.com/item?id=50506894 Points: 43 # Comments: 14",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://prog21.dadgum.com/116.html",
+    "linkHost": "prog21.dadgum.com",
+    "pubDate": "2026-11-15T13:44:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
