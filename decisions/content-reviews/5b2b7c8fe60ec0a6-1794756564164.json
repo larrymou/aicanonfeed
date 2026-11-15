@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794756552973-6dq6h2",
+  "urlHash": "5b2b7c8fe60ec0a6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xwxcwm/codex_astra_fails_at_kaggle_titanic_p/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Codex + Astra fails at Kaggle Titanic [P]",
+  "summary": "I expected Codex + Astra to do better on Kaggle Titanic. With a one-hour limit, the best result from two runs was 72.96% accuracy. I then explicitly suggested XGBoost and let it spend roughly 90–100 minutes optimizing the solution. The best result reached 77.27%. For a task as fa",
+  "pubDate": "2026-11-15T14:50:30.000Z",
+  "decidedAt": "2026-11-15T15:29:22.491Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit anecdote about running Codex + Astra on Kaggle Titanic. No model release, paper/benchmark artifact, business event, policy action, or OSS tool announcement; no rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I expected Codex + Astra to do better on Kaggle Titanic. With a one-hour limit, the best result from two runs was 72.96% accuracy. I then explicitly suggested XGBoost and let it spend roughly 90–100 minutes optimizing the solution. The best result reached 77.27%. For a task as fa",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xwxcwm/codex_astra_fails_at_kaggle_titanic_p/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-15T14:50:30.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
