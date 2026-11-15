@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "fa7e32358249c7c1",
+  "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+  "summary": "Article URL: https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1 Comments URL: https://news.ycombinator.com/item?id=50509883 Points: 46 # Comments: 27",
+  "pubDate": "2026-11-15T19:31:11.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "FT article about Jensen Huang's comeback as Nvidia CEO with allies: corporate leadership/commentary, not a model release, research artifact, financing/M&A/partnership/market data or product launch, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1 Comments URL: https://news.ycombinator.com/item?id=50509883 Points: 46 # Comments: 27",
+    "summaryChars": 162,
+    "summarySource": "summary",
+    "link": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+    "linkHost": "www.ft.com",
+    "pubDate": "2026-11-15T19:31:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
