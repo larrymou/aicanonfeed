@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794721188083-xi3spi",
+  "urlHash": "0303ada4a529724d",
+  "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+  "summary": "Article URL: https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c Comments URL: https://news.ycombinator.com/item?id=50503588 Points: 41 # Comments: 19",
+  "pubDate": "2026-11-15T03:05:54.000Z",
+  "decidedAt": "2026-11-15T05:39:55.727Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a WSJ story about an airline telecom router outage; it contains no AI model release, research, industry, policy, or open-source tooling content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c Comments URL: https://news.ycombinator.com/item?id=50503588 Points: 41 # Comments: 19",
+    "summaryChars": 217,
+    "summarySource": "summary",
+    "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+    "linkHost": "www.wsj.com",
+    "pubDate": "2026-11-15T03:05:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
