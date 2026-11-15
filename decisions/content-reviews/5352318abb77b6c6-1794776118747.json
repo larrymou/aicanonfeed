@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794776070630-xrxvb1",
+  "urlHash": "5352318abb77b6c6",
+  "url": "https://www.techmeme.com/261115/p14#a261115p14",
+  "sourceName": "Techmeme",
+  "title": "Sources: Jensen Huang has discussed a comeback as Nvidia CEO with confidants, as allies form a \"war room\" to lobby for his return and seek White House support (Financial Times)",
+  "summary": "Financial Times: Sources: Jensen Huang has discussed a comeback as Nvidia CEO with confidants, as allies form a “war room” to lobby for his return and seek White House support — Tech supporters lobby chipmaker's board to reinstate former CEO after he resigned following affair wit",
+  "pubDate": "2026-11-15T19:20:00.000Z",
+  "decidedAt": "2026-11-15T20:54:51.135Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Nvidia leadership/governance maneuvering (Huang's possible return, lobbying campaign). It is not a model release, research artifact, policy action, or OSS tool, and rule 3-1's listed business events (financing, M&A, partnerships, market data, product launches) do not cover executive lead",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: Jensen Huang has discussed a comeback as Nvidia CEO with confidants, as allies form a “war room” to lobby for his return and seek White House support — Tech supporters lobby chipmaker's board to reinstate former CEO after he resigned following affair wit",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p14#a261115p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-15T19:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
