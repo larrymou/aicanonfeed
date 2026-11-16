@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "c6c966fdb4696dab",
+  "url": "https://www.techmeme.com/261115/p27#a261115p27",
+  "sourceName": "Techmeme",
+  "title": "Apple launches its Health AI Usage Study, with an OpenEvidence-powered app that answers health questions and can use HealthKit data, for up to 200,000 US users (Ivan Mehta/TechCrunch)",
+  "summary": "Ivan Mehta / TechCrunch: Apple launches its Health AI Usage Study, with an OpenEvidence-powered app that answers health questions and can use HealthKit data, for up to 200,000 US users — Big AI labs like OpenAI and Anthropic have made their bets on offering chatbots that can answ",
+  "pubDate": "2026-11-16T04:10:02.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple launching a health AI usage study with an OpenEvidence-powered app names no specific model, is not a major version/capability release, and provides no paper or benchmark artifact. It is not financing/M&A/partnership/revenue, policy action, or OSS tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ivan Mehta / TechCrunch: Apple launches its Health AI Usage Study, with an OpenEvidence-powered app that answers health questions and can use HealthKit data, for up to 200,000 US users — Big AI labs like OpenAI and Anthropic have made their bets on offering chatbots that can answ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p27#a261115p27",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T04:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
