@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "30440c4bdc27459b",
+  "url": "https://news.ycombinator.com/item?id=50513451",
+  "sourceName": "Hacker News Front Page",
+  "title": "Tell HN: HN is being scraped for emails to scam",
+  "summary": "I know that many folks here post their personal emails in the Who's for Hire monthly pages and other places, and want to remind you that this public site gets views from folks with ill intent (or their bots/agents) as well. I use unique emails for every site, so I immediately kne",
+  "pubDate": "2026-11-16T02:53:30.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A community warning about HN emails being scraped for scams; no AI model release, research artifact, industry business event, policy action, or open-source tool launch is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "I know that many folks here post their personal emails in the Who's for Hire monthly pages and other places, and want to remind you that this public site gets views from folks with ill intent (or their bots/agents) as well. I use unique emails for every site, so I immediately kne",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://news.ycombinator.com/item?id=50513451",
+    "linkHost": "news.ycombinator.com",
+    "pubDate": "2026-11-16T02:53:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
