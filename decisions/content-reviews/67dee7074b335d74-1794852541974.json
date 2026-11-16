@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "67dee7074b335d74",
+  "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+  "sourceName": "Hacker News Front Page",
+  "title": "Grazing sheep in fields with solar arrays",
+  "summary": "Article URL: https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains Comments URL: https://news.ycombinator.com/item?id=50520182 Points: 30 # Comments: 3",
+  "pubDate": "2026-11-16T17:27:46.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about sheep grazing on solar arrays — agriculture/environmental research, not AI. No active rule (model releases, AI research, industry, policy, tools/OSS) covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains Comments URL: https://news.ycombinator.com/item?id=50520182 Points: 30 # Comments: 3",
+    "summaryChars": 206,
+    "summarySource": "summary",
+    "link": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+    "linkHost": "news.cornell.edu",
+    "pubDate": "2026-11-16T17:27:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
