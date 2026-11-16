@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "9e057ce6a9faaf90",
+  "url": "https://www.techmeme.com/261116/p37#a261116p37",
+  "sourceName": "Techmeme",
+  "title": "Source: Nvidia's board is not considering bringing Jensen Huang back as CEO and it is focused on a national security investigation into Huang (CNBC)",
+  "summary": "CNBC: Source: Nvidia's board is not considering bringing Jensen Huang back as CEO and it is focused on a national security investigation into Huang — Nvidia's board of directors is not considering bringing back Jensen Huang as CEO, a person familiar with the matter told CNBC.",
+  "pubDate": "2026-11-16T17:43:06.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a board/CEO-succession and investigation report about Nvidia. It is not a model release (R1), research artifact (R2), one of the enumerated industry business events like financing, M&A, partnership, revenue data or non-model product launch (R3), a policy/government action (R4), or OSS toolin",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CNBC: Source: Nvidia's board is not considering bringing Jensen Huang back as CEO and it is focused on a national security investigation into Huang — Nvidia's board of directors is not considering bringing back Jensen Huang as CEO, a person familiar with the matter told CNBC.",
+    "summaryChars": 276,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p37#a261116p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T17:43:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
