@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "e70fab80267cf810",
+  "url": "https://www.techmeme.com/261116/p38#a261116p38",
+  "sourceName": "Techmeme",
+  "title": "Sam Altman says he has \"personal strong empathy\" for Jensen Huang and \"heroes have flaws,\" but the AI industry \"will be fine\" due to strong revenues and demand (Shirin Ghaffary/Bloomberg)",
+  "summary": "Shirin Ghaffary / Bloomberg: Sam Altman says he has “personal strong empathy” for Jensen Huang and “heroes have flaws,” but the AI industry “will be fine” due to strong revenues and demand — OpenAI's Sam Altman said he believes the artificial intelligence industry will weather …",
+  "pubDate": "2026-11-16T18:05:01.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/quote from Sam Altman about industry outlook; no new model or capability release (1-1), no research artifact (2-1), no financing/M&A/partnership/market event or product launch (3-1), no policy action (4-1), no OSS tooling (5-1). No rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Shirin Ghaffary / Bloomberg: Sam Altman says he has “personal strong empathy” for Jensen Huang and “heroes have flaws,” but the AI industry “will be fine” due to strong revenues and demand — OpenAI's Sam Altman said he believes the artificial intelligence industry will weather …",
+    "summaryChars": 279,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p38#a261116p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T18:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
