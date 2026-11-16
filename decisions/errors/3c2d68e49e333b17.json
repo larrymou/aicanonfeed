@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "3c2d68e49e333b17",
+  "url": "https://www.techmeme.com/261115/p29#a261115p29",
+  "sourceName": "Techmeme",
+  "title": "Sources: the Trump admin plans to name Nvidia, Amazon, Microsoft, OpenAI, and Anthropic among 24+ AI \"national champions\" to help them win overseas business (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: the Trump admin plans to name Nvidia, Amazon, Microsoft, OpenAI, and Anthropic among 24+ AI “national champions” to help them win overseas business — The new program is part of an effort to help U.S. AI companies compete for business overseas",
+  "pubDate": "2026-11-16T04:40:00.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: the Trump admin plans to name Nvidia, Amazon, Microsoft, OpenAI, and Anthropic among 24+ AI “national champions” to help them win overseas business — The new program is part of an effort to help U.S. AI companies compete for business overseas",
+    "summaryChars": 272,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p29#a261115p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T04:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
