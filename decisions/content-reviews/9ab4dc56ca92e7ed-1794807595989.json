@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "9ab4dc56ca92e7ed",
+  "url": "https://www.techmeme.com/261116/p1#a261116p1",
+  "sourceName": "Techmeme",
+  "title": "Alibaba says it filtered Qwen4-Max's training data to remove offensive cyber capabilities and mitigate chemical, biological, radiological, and nuclear risks (Ann Cao/South China Morning Post)",
+  "summary": "Ann Cao / South China Morning Post: Alibaba says it filtered Qwen4-Max's training data to remove offensive cyber capabilities and mitigate chemical, biological, radiological, and nuclear risks — Alibaba Group Holding has launched its most advanced artificial intelligence model to",
+  "pubDate": "2026-11-16T05:15:01.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Names Qwen4-Max and a launch, but the link is a Techmeme permalink (linkHost www.techmeme.com), not Alibaba's official announcement nor a full news article on a non-owner domain with observed author/date; linked_page_owner_domain and linked_page_author are not observed, so rule 1-1's evidence-link c",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ann Cao / South China Morning Post: Alibaba says it filtered Qwen4-Max's training data to remove offensive cyber capabilities and mitigate chemical, biological, radiological, and nuclear risks — Alibaba Group Holding has launched its most advanced artificial intelligence model to",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p1#a261116p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T05:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
