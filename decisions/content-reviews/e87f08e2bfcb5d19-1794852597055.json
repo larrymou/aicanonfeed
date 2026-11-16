@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "e87f08e2bfcb5d19",
+  "url": "https://www.techmeme.com/261116/p34#a261116p34",
+  "sourceName": "Techmeme",
+  "title": "Harvard study: just 403 US data centers operational between May 2024 and April 2025 consumed as much electricity annually as the state of Michigan (Molly Taft/Wired)",
+  "summary": "Molly Taft / Wired: Harvard study: just 403 US data centers operational between May 2024 and April 2025 consumed as much electricity annually as the state of Michigan — New Harvard research shows that data-center power demand is outstripping states—and that doesn't even include f",
+  "pubDate": "2026-11-16T16:45:01.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Harvard study on data-center electricity use is not a model release, AI industry business event, policy action, or OSS tool. Research rule 2-1 fails: the link is a Techmeme aggregate, not the original paper or official source.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Molly Taft / Wired: Harvard study: just 403 US data centers operational between May 2024 and April 2025 consumed as much electricity annually as the state of Michigan — New Harvard research shows that data-center power demand is outstripping states—and that doesn't even include f",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p34#a261116p34",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T16:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
