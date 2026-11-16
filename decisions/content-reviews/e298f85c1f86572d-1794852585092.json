@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "e298f85c1f86572d",
+  "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+  "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
+  "pubDate": "2026-11-16T17:00:00.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Media-only coverage of an OpenAI product launch (new image classifier plus ChatGPT CSAM warnings), with no observed official owner link or named author, so it falls under industry rule 3-1 rather than the model-release rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
+    "summaryChars": 83,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-16T17:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
