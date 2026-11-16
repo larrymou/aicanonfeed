@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "e59f883e66735049",
+  "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang Is Gone. Now What?",
+  "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
+  "pubDate": "2026-11-16T16:12:51.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Podcast/interview commentary about Nvidia CEO Jensen Huang's departure. No named model release, no research artifact, no policy action, no OSS tool; leadership-change commentary isn't financing, M&A, partnership, market data, or a product launch under rule 3-1.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
+    "summaryChars": 189,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-16T16:12:51.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
