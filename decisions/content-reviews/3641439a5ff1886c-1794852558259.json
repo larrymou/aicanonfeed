@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "3641439a5ff1886c",
+  "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
+  "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn mil",
+  "pubDate": "2026-11-16T17:04:11.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study of Novo Nordisk building an assistant on Amazon Bedrock AgentCore. It is not a model/version/capability release (1-1), not a research artifact (2-1), not financing/M&A/partnership/market data or product launch (3-1), not policy (4-1), and not OSS tooling (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn mil",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-16T17:04:11.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
