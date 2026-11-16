@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "c8c8ec773b4c3bb0",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xxbo56/iclr_did_you_post_reminder_of_rebuttal_response_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR did you post reminder of rebuttal response? [D]",
+  "summary": "Well, I know they are busy due to the CVPR(So am I). But it's only about few days left and none of the reviewers replied my response. Do you think this is a good time to post a reminder to reviewers? submitted by /u/Opening_Progress6820 [link] [comments]",
+  "pubDate": "2026-11-16T00:42:45.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking whether to remind ICLR reviewers about a rebuttal response. It is community commentary, not a new research result with a paper/benchmark link, nor a model release, industry event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Well, I know they are busy due to the CVPR(So am I). But it's only about few days left and none of the reviewers replied my response. Do you think this is a good time to post a reminder to reviewers? submitted by /u/Opening_Progress6820 [link] [comments]",
+    "summaryChars": 254,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xxbo56/iclr_did_you_post_reminder_of_rebuttal_response_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-16T00:42:45.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
