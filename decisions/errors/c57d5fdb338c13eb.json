@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "c57d5fdb338c13eb",
+  "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+  "sourceName": "The Verge AI",
+  "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+  "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI",
+  "pubDate": "2026-11-16T01:26:56.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-16T01:26:56.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
