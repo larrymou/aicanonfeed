@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "3209bb0120496c95",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xxvby6/serious_spaces_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Serious spaces? [D]",
+  "summary": "As much as I love Reddit, it can really be hit and miss for serious discourse on AI and machine learning. Depending on which sub I guess. But are there any spaces outside of Reddit where there is more conversation, more community and less trolling? To be able to have a decent con",
+  "pubDate": "2026-11-16T17:23:56.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post asking for community/discussion spaces outside Reddit. No named model release, no research paper or benchmark, no industry business event, no policy action, and no OSS tool/framework release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As much as I love Reddit, it can really be hit and miss for serious discourse on AI and machine learning. Depending on which sub I guess. But are there any spaces outside of Reddit where there is more conversation, more community and less trolling? To be able to have a decent con",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xxvby6/serious_spaces_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-16T17:23:56.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
