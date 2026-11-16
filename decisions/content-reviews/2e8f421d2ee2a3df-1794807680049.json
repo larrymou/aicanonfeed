@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "2e8f421d2ee2a3df",
+  "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+  "sourceName": "OpenAI Blog",
+  "title": "A step toward defining the Standard Model on a lattice",
+  "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+  "pubDate": "2026-11-15T22:00:01.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Physics research post about a lattice Standard Model definition, aided by GPT-6 Astra. It announces no model availability, major version, or new model capability (R1-1 unmet), and is not an AI research paper/preprint/benchmark artifact (R2-1 unmet). No industry, policy, or OSS tooling event applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-15T22:00:01.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
