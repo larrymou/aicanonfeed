@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "33b95c2112c46efd",
+  "url": "https://openai.com/index/our-new-blog-for-science",
+  "sourceName": "OpenAI Blog",
+  "title": "Our new blog for science",
+  "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+  "pubDate": "2026-11-15T22:00:00.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Announcement of a new science blog; no named AI model, no research artifact, no business/deal event, no policy action, and no open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/our-new-blog-for-science",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-15T22:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
