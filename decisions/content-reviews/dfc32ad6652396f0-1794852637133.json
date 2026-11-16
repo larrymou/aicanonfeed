@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "dfc32ad6652396f0",
+  "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+  "sourceName": "Google AI Blog",
+  "title": "New Ask Maps features to help with holiday travel and prep",
+  "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+  "pubDate": "2026-11-16T14:00:00.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Google Maps consumer feature update (holiday travel tips, saved lists). No named AI model or capability release, no research artifact, no business event (financing/M&A/partnership/revenue), no policy action, no open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+    "summaryChars": 121,
+    "summarySource": "summary",
+    "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-11-16T14:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
