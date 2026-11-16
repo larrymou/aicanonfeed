@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "c876496118766282",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+  "sourceName": "vLLM releases",
+  "title": "v0.34.0",
+  "summary": "v0.34.0",
+  "pubDate": "2026-11-16T04:27:15.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "GitHub release tag v0.34.0 from vLLM releases announces a new version of the open-source vLLM library/framework, with the release page on the project's repository as the official link; matches rule 5-1 for OSS tooling/framework releases.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "v0.34.0",
+    "summaryChars": 7,
+    "summarySource": "summary",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-16T04:27:15.000Z",
+    "sourceName": "vLLM releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
