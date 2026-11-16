@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "b2ded9ead1bb5651",
+  "url": "https://klauria.tech/psychic/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Psychic: Like fzf but learns from your actions",
+  "summary": "Article URL: https://klauria.tech/psychic/ Comments URL: https://news.ycombinator.com/item?id=50518690 Points: 3 # Comments: 1",
+  "pubDate": "2026-11-16T15:33:34.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a CLI fuzzy-finder tool ('Psychic: Like fzf') with no indication it is an AI tool, framework, or model. No rule (model release, research, industry, policy, AI OSS tooling) is satisfied by the observed facts.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://klauria.tech/psychic/ Comments URL: https://news.ycombinator.com/item?id=50518690 Points: 3 # Comments: 1",
+    "summaryChars": 126,
+    "summarySource": "summary",
+    "link": "https://klauria.tech/psychic/",
+    "linkHost": "klauria.tech",
+    "pubDate": "2026-11-16T15:33:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
