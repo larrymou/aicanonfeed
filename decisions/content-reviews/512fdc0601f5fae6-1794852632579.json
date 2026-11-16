@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "512fdc0601f5fae6",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xxqa3i/aistats_2027_paper_discussion_d/",
+  "sourceName": "r/MachineLearning new",
+  "title": "AISTATS 2027 paper discussion [D]",
+  "summary": "Creating this post since the reviews are supposed to go live today. What do you guys think? submitted by /u/LongjumpingAd4741 [link] [comments]",
+  "pubDate": "2026-11-16T14:09:31.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread about AISTATS 2027 reviews; no new research artifact (paper/preprint/benchmark) linked, and it is commentary, which rule 2-1 excludes. No financing, policy action, model release, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Creating this post since the reviews are supposed to go live today. What do you guys think? submitted by /u/LongjumpingAd4741 [link] [comments]",
+    "summaryChars": 143,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xxqa3i/aistats_2027_paper_discussion_d/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-16T14:09:31.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
