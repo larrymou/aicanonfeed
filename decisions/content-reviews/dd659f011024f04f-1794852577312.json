@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "dd659f011024f04f",
+  "url": "https://openai.com/index/strengthening-online-child-safety",
+  "sourceName": "OpenAI Blog",
+  "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+  "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+  "pubDate": "2026-11-16T17:00:00.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes safety tools, guidance and partnerships for child abuse prevention; no named model release, no research artifact, no business deal, no government policy action, and no open-source tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/strengthening-online-child-safety",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-16T17:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
