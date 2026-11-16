@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "e6b637328ef2109d",
+  "url": "https://arxiv.org/abs/2611.17340",
+  "sourceName": "arXiv cs.AI",
+  "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+  "summary": "arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complica",
+  "pubDate": "2026-11-16T05:00:00.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complica",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2611.17340",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-16T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
