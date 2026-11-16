@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "5240671d3470b878",
+  "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI will embed Apollo researchers to investigate AI subversion",
+  "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+  "pubDate": "2026-11-16T17:02:43.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an industry partnership/collaboration: OpenAI embedding six Apollo Research evaluators to investigate model subversion, covered by TechCrunch (reputable media report). No model release, research artifact, policy action, or OSS tool.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-16T17:02:43.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
