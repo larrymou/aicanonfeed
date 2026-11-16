@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "2885ac6e7a6a1904",
+  "url": "https://burntsushi.net/jiff/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jiff 1.0: A datetime library for Rust",
+  "summary": "Article URL: https://burntsushi.net/jiff/ Comments URL: https://news.ycombinator.com/item?id=50519744 Points: 33 # Comments: 6",
+  "pubDate": "2026-11-16T16:53:39.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Jiff 1.0 is a general-purpose Rust datetime library, not an AI model, research result, industry business event, policy action, or AI-focused open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://burntsushi.net/jiff/ Comments URL: https://news.ycombinator.com/item?id=50519744 Points: 33 # Comments: 6",
+    "summaryChars": 126,
+    "summarySource": "summary",
+    "link": "https://burntsushi.net/jiff/",
+    "linkHost": "burntsushi.net",
+    "pubDate": "2026-11-16T16:53:39.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
