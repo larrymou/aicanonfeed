@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "6a5a86ae1d41b78f",
+  "url": "https://www.techmeme.com/261116/p35#a261116p35",
+  "sourceName": "Techmeme",
+  "title": "Noeri, which is developing AI software to review and suggest improvements for its clients' AI models and tools, raised $110M led by Menlo Ventures (Dina Bass/Bloomberg)",
+  "summary": "Dina Bass / Bloomberg: Noeri, which is developing AI software to review and suggest improvements for its clients' AI models and tools, raised $110M led by Menlo Ventures — A five-month-old startup co-founded by two prominent artificial intelligence experts at Stanford University ",
+  "pubDate": "2026-11-16T16:55:01.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dina Bass / Bloomberg: Noeri, which is developing AI software to review and suggest improvements for its clients' AI models and tools, raised $110M led by Menlo Ventures — A five-month-old startup co-founded by two prominent artificial intelligence experts at Stanford University ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p35#a261116p35",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T16:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
