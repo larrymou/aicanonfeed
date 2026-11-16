@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "ab86d8db7ed14fd9",
+  "url": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Stop Filming in Log",
+  "summary": "Article URL: https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/ Comments URL: https://news.ycombinator.com/item?id=50514093 Points: 3 # Comments: 0",
+  "pubDate": "2026-11-16T04:37:03.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a cinematography/filmmaking article about shooting in log, not an AI model release, research, industry, policy, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/ Comments URL: https://news.ycombinator.com/item?id=50514093 Points: 3 # Comments: 0",
+    "summaryChars": 163,
+    "summarySource": "summary",
+    "link": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/",
+    "linkHost": "digitalfilms.wordpress.com",
+    "pubDate": "2026-11-16T04:37:03.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
