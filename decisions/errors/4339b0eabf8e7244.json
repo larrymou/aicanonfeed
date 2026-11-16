@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794807582422-wuxcwv",
+  "urlHash": "4339b0eabf8e7244",
+  "url": "https://www.techmeme.com/261115/p28#a261115p28",
+  "sourceName": "Techmeme",
+  "title": "AI agent management platform Kindo raised $30M led by Crosspoint and Forgepoint, bringing total funding to $57.6M, and says its revenue grew ~800% YoY in 2026 (Abhinaya Prabhu/Tech Funding News)",
+  "summary": "Abhinaya Prabhu / Tech Funding News: AI agent management platform Kindo raised $30M led by Crosspoint and Forgepoint, bringing total funding to $57.6M, and says its revenue grew ~800% YoY in 2026 — - Kindo has raised $30M, bringing its total capital raised to $57.6M. — Crosspoint",
+  "pubDate": "2026-11-16T04:35:01.000Z",
+  "decidedAt": "2026-11-16T05:39:50.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Abhinaya Prabhu / Tech Funding News: AI agent management platform Kindo raised $30M led by Crosspoint and Forgepoint, bringing total funding to $57.6M, and says its revenue grew ~800% YoY in 2026 — - Kindo has raised $30M, bringing its total capital raised to $57.6M. — Crosspoint",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261115/p28#a261115p28",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T04:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
