@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "0a661af781d5e149",
+  "url": "https://www.techmeme.com/261116/p36#a261116p36",
+  "sourceName": "Techmeme",
+  "title": "Anthropic cuts its coordinated vulnerability disclosure window from 90 to 30 days for high- and critical-severity issues, in response to AI-driven bug discovery (Anthropic)",
+  "summary": "Anthropic: Anthropic cuts its coordinated vulnerability disclosure window from 90 to 30 days for high- and critical-severity issues, in response to AI-driven bug discovery — We remain optimistic that this will help defenders find and fix vulnerabilities faster than ever before.",
+  "pubDate": "2026-11-16T17:20:03.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Anthropic's change to its vulnerability disclosure window is a company security-process policy update, not a model release, research artifact, business event (financing/M&A/partnership/market data/product launch), government policy action, or open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic: Anthropic cuts its coordinated vulnerability disclosure window from 90 to 30 days for high- and critical-severity issues, in response to AI-driven bug discovery — We remain optimistic that this will help defenders find and fix vulnerabilities faster than ever before.",
+    "summaryChars": 278,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p36#a261116p36",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T17:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
