@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794852516528-eev90k",
+  "urlHash": "6ba05f6da7a6c0ec",
+  "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
+  "summary": "On 15 September, a startup called TypeSafe AI released a new AI model called Jev. The company’s broad, disruptive claims about Jev that turned heads: The company claimed that Jev, which it calls a “System One model” is cheaper, faster, and can’t hallucinate. TypeSafe AI’s marketi",
+  "pubDate": "2026-11-16T17:00:54.000Z",
+  "decidedAt": "2026-11-16T18:08:45.225Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Media-only coverage of a named model launch (TypeSafe AI's Jev) by a reputable outlet, with no official owner link observed; rule 3-1 assigns media-only model-launch coverage to industry.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On 15 September, a startup called TypeSafe AI released a new AI model called Jev. The company’s broad, disruptive claims about Jev that turned heads: The company claimed that Jev, which it calls a “System One model” is cheaper, faster, and can’t hallucinate. TypeSafe AI’s marketi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-16T17:00:54.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
