@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "57443bb6ebfa8bc6",
+  "url": "https://www.techmeme.com/261117/p59#a261117p59",
+  "sourceName": "Techmeme",
+  "title": "On Q3 earnings call, Nvidia Chair Harvey Jones says the board does not intend to reinstate Jensen Huang as CEO (Hayden Field/The Verge)",
+  "summary": "Hayden Field / The Verge: On Q3 earnings call, Nvidia Chair Harvey Jones says the board does not intend to reinstate Jensen Huang as CEO — The board said it would not take additional questions on the call about Huang's departure. … Starting Nvidia's quarterly earnings call on Tue",
+  "pubDate": "2026-11-17T22:15:01.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a CEO/board leadership statement on Nvidia's earnings call. Rule 3-1 covers financing, M&A, partnerships, market/revenue data, or non-model product launches — none established here; link is a Techmeme aggregation, not a company/deal announcement. No rule covers leadership governance new",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hayden Field / The Verge: On Q3 earnings call, Nvidia Chair Harvey Jones says the board does not intend to reinstate Jensen Huang as CEO — The board said it would not take additional questions on the call about Huang's departure. … Starting Nvidia's quarterly earnings call on Tue",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p59#a261117p59",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T22:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
