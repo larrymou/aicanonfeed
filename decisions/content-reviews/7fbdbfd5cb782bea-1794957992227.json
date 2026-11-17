@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "7fbdbfd5cb782bea",
+  "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google makes it easier to use Gemini without training AI on your data",
+  "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+  "pubDate": "2026-11-17T16:50:10.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a Gemini privacy/settings toggle (separate opt-out for AI training vs chat history) — a product feature/UI change, not a named model release, research artifact, business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+    "summaryChars": 92,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-17T16:50:10.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
