@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "07e53395ad214b86",
+  "url": "https://www.techmeme.com/261116/p46#a261116p46",
+  "sourceName": "Techmeme",
+  "title": "Researchers find Optimizely serving malicious JavaScript to sites of 178 orgs including Zoom, CNN, HSBC, Salesforce, GitLab, Ledger, BBC, Equifax, IKEA, more (Scott Helme/Report URI Blog)",
+  "summary": "Scott Helme / Report URI Blog: Researchers find Optimizely serving malicious JavaScript to sites of 178 orgs including Zoom, CNN, HSBC, Salesforce, GitLab, Ledger, BBC, Equifax, IKEA, more — On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations thr",
+  "pubDate": "2026-11-16T23:20:01.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security incident report (malicious JavaScript served via Optimizely to 178 orgs). Not a model release, research paper/benchmark, business event (financing, M&A, partnership, market data, product launch), policy action, or open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Scott Helme / Report URI Blog: Researchers find Optimizely serving malicious JavaScript to sites of 178 orgs including Zoom, CNN, HSBC, Salesforce, GitLab, Ledger, BBC, Equifax, IKEA, more — On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations thr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p46#a261116p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T23:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
