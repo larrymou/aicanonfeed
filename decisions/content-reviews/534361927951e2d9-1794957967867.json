@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "534361927951e2d9",
+  "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+  "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+  "pubDate": "2026-11-17T19:02:20.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Only media coverage (techcrunch.com) of expanded access to an existing Gemini feature; no official owner link, no named author on the linked article, and no new model/version or capability launch to satisfy R1-1. It is not a financing/M&A/partnership/non-model product launch (R3-1), research artifac",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+    "summaryChars": 116,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-17T19:02:20.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
