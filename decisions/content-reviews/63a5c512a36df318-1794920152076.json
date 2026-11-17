@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "63a5c512a36df318",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xyf6pr/curated_list_of_resources_theory_and_code_for/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Curated list of resources: Theory and Code for learning Distributed Training for beginners [P]",
+  "summary": "[Must Read: Beginners] What I did read, in order, for learning the basics of Distributed Training for LLMs From Scratch: Building a distributed training framework from first principles by Umar Jamil on YT Horovod: Fast and Easy Distributed Deep Learning in TensorFlow PyTorch Dist",
+  "pubDate": "2026-11-17T08:31:17.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Curated list of existing learning resources for distributed training; no new model release, no original research artifact, no new OSS tool release, and no business/policy event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "[Must Read: Beginners] What I did read, in order, for learning the basics of Distributed Training for LLMs From Scratch: Building a distributed training framework from first principles by Umar Jamil on YT Horovod: Fast and Easy Distributed Deep Learning in TensorFlow PyTorch Dist",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xyf6pr/curated_list_of_resources_theory_and_code_for/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-17T08:31:17.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
