@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "25b5dfac7e31c25d",
+  "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why 3dfx 1 cards had such a washed out color output?",
+  "summary": "Article URL: https://twitter.com/id_aa_carmack/status/2122478083319992513 Comments URL: https://news.ycombinator.com/item?id=50525575 Points: 184 # Comments: 55",
+  "pubDate": "2026-11-17T00:16:24.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about legacy 3dfx GPU color output—retro hardware discussion on Twitter/HN, not an AI model release, research, industry event, policy action, or OSS AI tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://twitter.com/id_aa_carmack/status/2122478083319992513 Comments URL: https://news.ycombinator.com/item?id=50525575 Points: 184 # Comments: 55",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+    "linkHost": "twitter.com",
+    "pubDate": "2026-11-17T00:16:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
