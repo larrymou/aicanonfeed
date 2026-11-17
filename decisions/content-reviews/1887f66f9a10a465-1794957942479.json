@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "1887f66f9a10a465",
+  "url": "https://calif.io/java4shell/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+  "summary": "Article URL: https://calif.io/java4shell/ Comments URL: https://news.ycombinator.com/item?id=50538240 Points: 312 # Comments: 79",
+  "pubDate": "2026-11-17T21:11:28.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Java/OpenJDK security vulnerability (RCE) article, not an AI model release, AI research artifact, AI business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://calif.io/java4shell/ Comments URL: https://news.ycombinator.com/item?id=50538240 Points: 312 # Comments: 79",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://calif.io/java4shell/",
+    "linkHost": "calif.io",
+    "pubDate": "2026-11-17T21:11:28.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
