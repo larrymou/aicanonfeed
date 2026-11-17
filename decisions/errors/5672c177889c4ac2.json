@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "5672c177889c4ac2",
+  "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+  "sourceName": "Ars Technica AI",
+  "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+  "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+  "pubDate": "2026-11-16T22:58:27.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+    "summaryChars": 76,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-16T22:58:27.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
