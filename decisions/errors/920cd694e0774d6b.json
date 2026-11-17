@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "920cd694e0774d6b",
+  "url": "https://www.techmeme.com/261117/p21#a261117p21",
+  "sourceName": "Techmeme",
+  "title": "The Trump administration's proposal to curb China's remote access to AI chips rattles Southeast Asia, threatening a data center boom fueled by Chinese companies (New York Times)",
+  "summary": "New York Times: The Trump administration's proposal to curb China's remote access to AI chips rattles Southeast Asia, threatening a data center boom fueled by Chinese companies — New U.S. restrictions could jeopardize billions in investment and force countries in the region to st",
+  "pubDate": "2026-11-17T12:45:03.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: The Trump administration's proposal to curb China's remote access to AI chips rattles Southeast Asia, threatening a data center boom fueled by Chinese companies — New U.S. restrictions could jeopardize billions in investment and force countries in the region to st",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p21#a261117p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T12:45:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
