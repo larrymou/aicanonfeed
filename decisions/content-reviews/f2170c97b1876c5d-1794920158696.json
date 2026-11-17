@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "f2170c97b1876c5d",
+  "url": "https://support.apple.com/en-us/149699",
+  "sourceName": "Hacker News Front Page",
+  "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+  "summary": "Article URL: https://support.apple.com/en-us/149699 Comments URL: https://news.ycombinator.com/item?id=50526560 Points: 154 # Comments: 86",
+  "pubDate": "2026-11-17T02:17:04.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Apple support article about granting Full Disk Access / system protection override — a consumer OS security doc. No AI model release, research artifact, industry business event, AI policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://support.apple.com/en-us/149699 Comments URL: https://news.ycombinator.com/item?id=50526560 Points: 154 # Comments: 86",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://support.apple.com/en-us/149699",
+    "linkHost": "support.apple.com",
+    "pubDate": "2026-11-17T02:17:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
