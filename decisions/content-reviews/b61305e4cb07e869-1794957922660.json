@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "b61305e4cb07e869",
+  "url": "https://www.techmeme.com/261117/p57#a261117p57",
+  "sourceName": "Techmeme",
+  "title": "Artificial Analysis shows GPT-6.2 Astra trailing only Claude Fable 5.2 in its main index, flat vs. GPT-6 Astra in coding; Epoch AI has Astra tied with Fable 5.2 (Matthias Bastian/The Decoder)",
+  "summary": "Matthias Bastian / The Decoder: Artificial Analysis shows GPT-6.2 Astra trailing only Claude Fable 5.2 in its main index, flat vs. GPT-6 Astra in coding; Epoch AI has Astra tied with Fable 5.2 — Key Points … Ask about this article... GPT-6.2 Astra and Sol are available now for Pl",
+  "pubDate": "2026-11-17T21:45:02.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme aggregator link reporting third-party benchmark index comparisons (Artificial Analysis, Epoch AI), not an official owner model announcement; link is to techmeme.com, and linked_page_owner_domain/linked_page_author are not observed, so R1-1's evidence-link condition is unmet. No research art",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "linkHost",
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matthias Bastian / The Decoder: Artificial Analysis shows GPT-6.2 Astra trailing only Claude Fable 5.2 in its main index, flat vs. GPT-6 Astra in coding; Epoch AI has Astra tied with Fable 5.2 — Key Points … Ask about this article... GPT-6.2 Astra and Sol are available now for Pl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p57#a261117p57",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T21:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
