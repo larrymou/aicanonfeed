@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "b16a598086e446c0",
+  "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+  "sourceName": "TechCrunch AI",
+  "title": "SEC reportedly investigating Nvidia amid Huang exit",
+  "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+  "pubDate": "2026-11-17T21:48:07.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports an SEC probe into Nvidia tied to CEO Jensen Huang's departure; it is not a model release, research artifact, financing/M&A/partnership/market data, AI policy action, or OSS tooling, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+    "summaryChars": 171,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-17T21:48:07.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
