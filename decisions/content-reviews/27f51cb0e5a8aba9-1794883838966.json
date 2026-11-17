@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "27f51cb0e5a8aba9",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xy6t7g/is_anyones_ac_playing_the_role_of_discussion/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Is anyone's AC playing the role of \"discussion moderator\" for ICLR? [D]",
+  "summary": "According to the guide, they are supposed to encourage reviewers to respond to author rebuttals, yet we've gotten nothing but radio silence. Is anyone else having better luck? submitted by /u/Whatever_635 [link] [comments]",
+  "pubDate": "2026-11-17T00:59:53.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion thread asking whether ICLR area chairs are moderating rebuttals; it reports no new research artifact, model release, business event, policy action, or OSS tool, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "According to the guide, they are supposed to encourage reviewers to respond to author rebuttals, yet we've gotten nothing but radio silence. Is anyone else having better luck? submitted by /u/Whatever_635 [link] [comments]",
+    "summaryChars": 222,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xy6t7g/is_anyones_ac_playing_the_role_of_discussion/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-17T00:59:53.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
