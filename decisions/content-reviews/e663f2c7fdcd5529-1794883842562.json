@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "e663f2c7fdcd5529",
+  "url": "https://www.techmeme.com/261116/p48#a261116p48",
+  "sourceName": "Techmeme",
+  "title": "Sources: the US DOJ will review DoorDash's ~$17B acquisition of Instacart; DoorDash has agreed to pay a $1.25B breakup fee if the deal fails antitrust review (Jody Godoy/Reuters)",
+  "summary": "Jody Godoy / Reuters: Sources: the US DOJ will review DoorDash's ~$17B acquisition of Instacart; DoorDash has agreed to pay a $1.25B breakup fee if the deal fails antitrust review — The US Department of Justice will review DoorDash's proposed acquisition of Instacart, two people ",
+  "pubDate": "2026-11-17T00:16:11.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "DoorDash/Instacart acquisition and DOJ antitrust review is a non-AI business/legal event; no AI model, research, AI industry, AI policy, or OSS tooling content is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jody Godoy / Reuters: Sources: the US DOJ will review DoorDash's ~$17B acquisition of Instacart; DoorDash has agreed to pay a $1.25B breakup fee if the deal fails antitrust review — The US Department of Justice will review DoorDash's proposed acquisition of Instacart, two people ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p48#a261116p48",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T00:16:11.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
