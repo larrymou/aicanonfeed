@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "d8921ccd466002b9",
+  "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+  "sourceName": "Wired AI",
+  "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
+  "summary": "Live Rewind and Siri Recap can transcribe missed moments and summarize your day—if you don’t mind a little social clumsiness.",
+  "pubDate": "2026-11-17T11:00:00.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired article covers an Apple Watch consumer feature (Live Rewind, Siri Recap), not a named AI model release with an official owner announcement, research artifact, business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Live Rewind and Siri Recap can transcribe missed moments and summarize your day—if you don’t mind a little social clumsiness.",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-17T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
