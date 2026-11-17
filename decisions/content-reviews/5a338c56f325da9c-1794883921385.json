@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "5a338c56f325da9c",
+  "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+  "sourceName": "TechCrunch AI",
+  "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+  "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+  "pubDate": "2026-11-16T18:11:10.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion piece quoting Sam Altman on the AI industry without Jensen Huang. No model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool announced; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+    "summaryChars": 177,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-16T18:11:10.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
