@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "e2dcb27f44942632",
+  "url": "https://www.techmeme.com/261116/p47#a261116p47",
+  "sourceName": "Techmeme",
+  "title": "Sources: Kalshi bought FB Securities, a small New York-based broker, in July and plans to launch equity trading within the next two months (Vicky Ge Huang/Wall Street Journal)",
+  "summary": "Vicky Ge Huang / Wall Street Journal: Sources: Kalshi bought FB Securities, a small New York-based broker, in July and plans to launch equity trading within the next two months — The prediction-markets platform, still fighting legal battles with U.S. states over its yes-or-no con",
+  "pubDate": "2026-11-17T00:05:01.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a prediction-markets platform (Kalshi) acquiring a broker and planning equity trading; no AI model, research, policy action, open-source tool, or AI-industry business event is established by the content, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Vicky Ge Huang / Wall Street Journal: Sources: Kalshi bought FB Securities, a small New York-based broker, in July and plans to launch equity trading within the next two months — The prediction-markets platform, still fighting legal battles with U.S. states over its yes-or-no con",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p47#a261116p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T00:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
