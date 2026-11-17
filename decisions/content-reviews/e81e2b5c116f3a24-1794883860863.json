@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "e81e2b5c116f3a24",
+  "url": "https://www.techmeme.com/261116/p45#a261116p45",
+  "sourceName": "Techmeme",
+  "title": "United Airlines says it has \"resolved a technology issue that delayed flight departures\", adding that the outage did not impact flights already in progress (Michele Luhn/CNBC)",
+  "summary": "Michele Luhn / CNBC: United Airlines says it has “resolved a technology issue that delayed flight departures”, adding that the outage did not impact flights already in progress — United Airlines on Monday said it had resolved a “widespread system outage” that briefly affected dep",
+  "pubDate": "2026-11-16T22:58:46.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "United Airlines IT outage/delayed flights news; no AI model release, research, industry AI business event, policy, or OSS tool involved. No active rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Michele Luhn / CNBC: United Airlines says it has “resolved a technology issue that delayed flight departures”, adding that the outage did not impact flights already in progress — United Airlines on Monday said it had resolved a “widespread system outage” that briefly affected dep",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p45#a261116p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-16T22:58:46.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
