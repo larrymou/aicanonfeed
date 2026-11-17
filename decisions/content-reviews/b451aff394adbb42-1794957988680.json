@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "b451aff394adbb42",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+  "sourceName": "Google AI Blog",
+  "title": "Put Gemini to work for you",
+  "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+  "pubDate": "2026-11-17T17:00:00.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a feature/availability update to the Gemini app (Tasks free in six countries, Workspace integration). No named model release, major version, or new model capability; not research, policy, OSS, or a business event. Rule 1-1 excludes generic product features.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+    "summaryChars": 169,
+    "summarySource": "summary",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-11-17T17:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
