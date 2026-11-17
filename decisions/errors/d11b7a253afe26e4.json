@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "d11b7a253afe26e4",
+  "url": "https://www.techmeme.com/261117/p19#a261117p19",
+  "sourceName": "Techmeme",
+  "title": "Sources: the Trump administration is moving forward with an FCC proposal to ban US imports of new Chinese optical transceiver models, despite Big Tech pushback (Reuters)",
+  "summary": "Reuters: Sources: the Trump administration is moving forward with an FCC proposal to ban US imports of new Chinese optical transceiver models, despite Big Tech pushback — The Trump administration plans to press ahead with efforts to block imports of Chinese data center equipment ",
+  "pubDate": "2026-11-17T12:20:02.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: the Trump administration is moving forward with an FCC proposal to ban US imports of new Chinese optical transceiver models, despite Big Tech pushback — The Trump administration plans to press ahead with efforts to block imports of Chinese data center equipment ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p19#a261117p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T12:20:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
