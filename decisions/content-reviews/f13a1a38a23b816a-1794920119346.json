@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "f13a1a38a23b816a",
+  "url": "https://www.techmeme.com/261117/p18#a261117p18",
+  "sourceName": "Techmeme",
+  "title": "Alphabet's Isomorphic Labs raised a $5B Series C led by Sequoia and Greenoaks, after raising $2.1B in May and $600M in March 2025, to accelerate clinical trials (Bloomberg)",
+  "summary": "Bloomberg: Alphabet's Isomorphic Labs raised a $5B Series C led by Sequoia and Greenoaks, after raising $2.1B in May and $600M in March 2025, to accelerate clinical trials — Alphabet Inc.'s Isomorphic Labs, which is working to design new drugs with artificial intelligence, has ra",
+  "pubDate": "2026-11-17T12:11:18.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Isomorphic Labs' $5B Series C financing is an AI industry business event (financing), reported via Bloomberg through Techmeme, a reputable media report.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "link",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Alphabet's Isomorphic Labs raised a $5B Series C led by Sequoia and Greenoaks, after raising $2.1B in May and $600M in March 2025, to accelerate clinical trials — Alphabet Inc.'s Isomorphic Labs, which is working to design new drugs with artificial intelligence, has ra",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p18#a261117p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T12:11:18.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
