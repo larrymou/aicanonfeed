@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "4f20b6480ffff64b",
+  "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+  "sourceName": "TechCrunch AI",
+  "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+  "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+  "pubDate": "2026-11-16T22:03:02.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Preview/commentary piece listing questions Nvidia should answer ahead of earnings; it reports no actual financing, M&A, partnership, market/revenue data, or product launch, so no industry (3-1) or other rule condition is met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+    "summaryChars": 258,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-16T22:03:02.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
