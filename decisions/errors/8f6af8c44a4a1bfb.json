@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "8f6af8c44a4a1bfb",
+  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "sourceName": "OpenAI Blog",
+  "title": "Introducing GPT-6.2 Astra and Sol",
+  "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+  "pubDate": "2026-11-17T17:45:00.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-17T17:45:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
