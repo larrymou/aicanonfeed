@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "da7398bddea1998c",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xyf1tq/iclr_2027_pcs_ran_an_ai_detector_on_reviews_peer/",
+  "sourceName": "r/MachineLearning new",
+  "title": "ICLR 2027: PCs ran an AI detector on reviews, peer review is cooked [D]",
+  "summary": "The PCs ran AI detectors on the reviews and left this comment on undisclosed AI usage in reviews: AI use in this review An AI-text detector assesses this review as likely AI-generated, yet its AI-use documentation field does not mention how AI was used. It is therefore possible t",
+  "pubDate": "2026-11-17T08:22:41.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about ICLR peer review and AI-detector use on reviews; no named model release, no paper/preprint/benchmark artifact, no business, policy, or OSS tool announcement. No active rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The PCs ran AI detectors on the reviews and left this comment on undisclosed AI usage in reviews: AI use in this review An AI-text detector assesses this review as likely AI-generated, yet its AI-use documentation field does not mention how AI was used. It is therefore possible t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xyf1tq/iclr_2027_pcs_ran_an_ai_detector_on_reviews_peer/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-17T08:22:41.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
