@@ -1,0 +1,43 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "f43b098f1551916a",
+  "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+  "sourceName": "The Verge AI",
+  "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+  "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, t",
+  "pubDate": "2026-11-16T18:43:35.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Nvidia board deliberations about returning Jensen Huang as CEO — corporate governance/leadership news. It is not a model release (R1-1), research artifact (R2-1), a listed business event like financing/M&A/partnership/market data/product launch (R3-1), policy action (R4-1), or OSS tooli",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-16T18:43:35.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
