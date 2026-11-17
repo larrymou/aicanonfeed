@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "edd30b49f3319217",
+  "url": "https://www.techmeme.com/261116/p49#a261116p49",
+  "sourceName": "Techmeme",
+  "title": "macOS 27.3 beta warns if an app would get full device control, nudging users to \"Choose Apps\" for the app to control instead, brought on by AI apps' popularity (Juli Clover/MacRumors)",
+  "summary": "Juli Clover / MacRumors: macOS 27.3 beta warns if an app would get full device control, nudging users to “Choose Apps” for the app to control instead, brought on by AI apps' popularity — With the latest macOS 27.3 beta, Apple is giving Mac users more control over the data they sh",
+  "pubDate": "2026-11-17T02:31:00.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a macOS beta privacy/consent feature for app device control triggered by AI app popularity. It is not a model release (1-1), research artifact (2-1), industry business event (3-1), policy/government action (4-1), or open-source dev tool (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Juli Clover / MacRumors: macOS 27.3 beta warns if an app would get full device control, nudging users to “Choose Apps” for the app to control instead, brought on by AI apps' popularity — With the latest macOS 27.3 beta, Apple is giving Mac users more control over the data they sh",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261116/p49#a261116p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T02:31:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
