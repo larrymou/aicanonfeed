@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "a94040aee0211f18",
+  "url": "https://www.techmeme.com/261117/p17#a261117p17",
+  "sourceName": "Techmeme",
+  "title": "Hollywood VFX artists and studios are adopting AI and ML tools to streamline rotoscoping, a tedious process that can cost up to $75K for a one-minute scene (Matt Stevens/New York Times)",
+  "summary": "Matt Stevens / New York Times: Hollywood VFX artists and studios are adopting AI and ML tools to streamline rotoscoping, a tedious process that can cost up to $75K for a one-minute scene — The potential for artificial intelligence to ease the slog of a key process known as rotosc",
+  "pubDate": "2026-11-17T12:05:10.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a trend report on VFX studios adopting AI/ML tools for rotoscoping; no named model release, research artifact, business event (financing/M&A/partnership/revenue), policy action, or OSS tool release. Link is a Techmeme aggregator, not an official or qualifying source.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Matt Stevens / New York Times: Hollywood VFX artists and studios are adopting AI and ML tools to streamline rotoscoping, a tedious process that can cost up to $75K for a one-minute scene — The potential for artificial intelligence to ease the slog of a key process known as rotosc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p17#a261117p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-17T12:05:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
