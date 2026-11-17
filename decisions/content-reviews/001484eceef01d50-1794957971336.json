@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "001484eceef01d50",
+  "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+  "summary": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relative",
+  "pubDate": "2026-11-17T19:00:03.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary on IEEE's decade of AI ethics work, not a model release, research artifact, business event, government policy action, or open-source tool release; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relative",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-17T19:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
