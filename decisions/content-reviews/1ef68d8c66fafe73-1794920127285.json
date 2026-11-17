@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "1ef68d8c66fafe73",
+  "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+  "summary": "Article URL: https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html Comments URL: https://news.ycombinator.com/item?id=50530163 Points: 49 # Comments: 14",
+  "pubDate": "2026-11-17T11:45:51.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a study on school phone bans and test scores; it is not a model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tool. No active rule covers this content.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html Comments URL: https://news.ycombinator.com/item?id=50530163 Points: 49 # Comments: 14",
+    "summaryChars": 176,
+    "summarySource": "summary",
+    "link": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+    "linkHost": "www.nytimes.com",
+    "pubDate": "2026-11-17T11:45:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
