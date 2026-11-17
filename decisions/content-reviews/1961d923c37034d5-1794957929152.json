@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794957857337-9tzl84",
+  "urlHash": "1961d923c37034d5",
+  "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google joins the tech outage trend by announcing it’s not having one",
+  "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+  "pubDate": "2026-11-17T21:34:50.000Z",
+  "decidedAt": "2026-11-17T23:24:26.194Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a lighthearted PR comment about Gmail reliability during tech outages. No model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or open-source tooling; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+    "summaryChars": 125,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-17T21:34:50.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
