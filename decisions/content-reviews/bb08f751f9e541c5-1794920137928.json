@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "bb08f751f9e541c5",
+  "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+  "sourceName": "Wired AI",
+  "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+  "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
+  "pubDate": "2026-11-17T11:00:00.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/profile commentary with the Hugging Face CEO about AI optimism after a security incident. No named model release, no research artifact, no business event, no policy action, and no OSS tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
+    "summaryChars": 187,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-17T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
