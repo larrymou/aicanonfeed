@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794920090556-lsctx6",
+  "urlHash": "b3096993391fed14",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1xyg0vu/concerns_about_peer_reviewers_inflating_oa_scores/",
+  "sourceName": "r/MachineLearning new",
+  "title": "Concerns About Peer Reviewers Inflating OA Scores [D]",
+  "summary": "The paper is largely incremental, with very little improvement over existing work. One of the reviewers gave a one-line weakness that isn't even a real weakness, despite having a high confidence score and is giving a high OA score. Another review appears to be AI-generated, follo",
+  "pubDate": "2026-11-17T09:25:13.000Z",
+  "decidedAt": "2026-11-17T12:55:01.543Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reddit discussion post about peer-review scoring concerns; it is commentary/community discussion with no original paper, benchmark, or official source link, so no rule (including research 2-1) applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The paper is largely incremental, with very little improvement over existing work. One of the reviewers gave a one-line weakness that isn't even a real weakness, despite having a high confidence score and is giving a high OA score. Another review appears to be AI-generated, follo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1xyg0vu/concerns_about_peer_reviewers_inflating_oa_scores/",
+    "linkHost": "www.reddit.com",
+    "pubDate": "2026-11-17T09:25:13.000Z",
+    "sourceName": "r/MachineLearning new",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
