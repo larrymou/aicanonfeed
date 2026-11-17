@@ -1,0 +1,44 @@
+{
+  "runId": "run-1794883813800-sq1d2x",
+  "urlHash": "3ac344c50cc66ad7",
+  "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+  "sourceName": "Ars Technica AI",
+  "title": "US moves to cut China’s remote access to AI chips",
+  "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+  "pubDate": "2026-11-16T19:10:09.000Z",
+  "decidedAt": "2026-11-17T02:50:31.410Z",
+  "include": true,
+  "categoryId": "policy",
+  "matchedRuleId": "4-1",
+  "reason": "Reports a US government action restricting China's remote access to AI chips, covered by Ars Technica, a reputable source, matching the policy rule for government action.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+    "summaryChars": 66,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-16T19:10:09.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
