@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "b05e86862eb0902a",
+  "url": "https://www.techmeme.com/261118/p31#a261118p31",
+  "sourceName": "Techmeme",
+  "title": "Variational, which offers blockchain-based derivatives tied to cryptocurrencies and traditional assets, raised a $110M Series B at a $1.5B valuation (Jason Shubnell/The Block)",
+  "summary": "Jason Shubnell / The Block: Variational, which offers blockchain-based derivatives tied to cryptocurrencies and traditional assets, raised a $110M Series B at a $1.5B valuation — Traditional markets account for more than half of daily trading volume on its Omni trading platform.",
+  "pubDate": "2026-11-18T16:20:03.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a crypto/blockchain derivatives startup funding round with no AI model, research, policy, tooling, or AI-industry business element; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jason Shubnell / The Block: Variational, which offers blockchain-based derivatives tied to cryptocurrencies and traditional assets, raised a $110M Series B at a $1.5B valuation — Traditional markets account for more than half of daily trading volume on its Omni trading platform.",
+    "summaryChars": 279,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p31#a261118p31",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T16:20:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
