@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "13a326b30c606947",
+  "url": "https://www.techmeme.com/261118/p2#a261118p2",
+  "sourceName": "Techmeme",
+  "title": "The Solana Foundation takes a majority stake in CoinGecko, a popular crypto price-tracking platform with 18M registered users (Francisco Rodrigues/CoinDesk)",
+  "summary": "Francisco Rodrigues / CoinDesk: The Solana Foundation takes a majority stake in CoinGecko, a popular crypto price-tracking platform with 18M registered users — The Solana Foundation has taken a majority interest in CoinGecko, one of the crypto ecosystem's most popular price-track",
+  "pubDate": "2026-11-18T05:55:03.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a crypto business event (Solana Foundation acquiring majority stake in CoinGecko), not AI. No active rule covers non-AI industry news, so it is rejected.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Francisco Rodrigues / CoinDesk: The Solana Foundation takes a majority stake in CoinGecko, a popular crypto price-tracking platform with 18M registered users — The Solana Foundation has taken a majority interest in CoinGecko, one of the crypto ecosystem's most popular price-track",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p2#a261118p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T05:55:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
