@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "b48439034e662a0b",
+  "url": "https://www.techmeme.com/261118/p29#a261118p29",
+  "sourceName": "Techmeme",
+  "title": "An interview with philosopher Thomas Nagel, who won a $1M prize for contributions to consciousness and says the notion of AI consciousness is \"just ridiculous\" (Steven Levy/Wired)",
+  "summary": "Steven Levy / Wired: An interview with philosopher Thomas Nagel, who won a $1M prize for contributions to consciousness and says the notion of AI consciousness is “just ridiculous” — Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-",
+  "pubDate": "2026-11-18T15:30:01.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Interview/commentary piece on AI consciousness with no research artifact, model release, business event, policy action, or OSS tool. No active rule covers pure commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Steven Levy / Wired: An interview with philosopher Thomas Nagel, who won a $1M prize for contributions to consciousness and says the notion of AI consciousness is “just ridiculous” — Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p29#a261118p29",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T15:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
