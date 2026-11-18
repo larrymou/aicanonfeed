@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "6e2507a157693f01",
+  "url": "https://spectrum.ieee.org/enormous-theorem-ai",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Startup Makes Headway Towards Formalizing All of Math With AI",
+  "summary": "As Axiom Math’s AI swarm was putting the final touches on the automatic verification of 15,000-page proof of the Classification of Finite Simple Groups (CFSG), colloquially referred to as the ‘enormous theorem’, on Sunday 25 October, the company’s Founding Mathematician Ken Ono h",
+  "pubDate": "2026-11-18T13:00:03.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report on a startup's AI-assisted formalization milestone. No named model release (1-1), no link to an original paper/official research source (2-1), no financing/M&A/partnership/market or product launch (3-1), no policy action (4-1), no OSS tool release (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As Axiom Math’s AI swarm was putting the final touches on the automatic verification of 15,000-page proof of the Classification of Finite Simple Groups (CFSG), colloquially referred to as the ‘enormous theorem’, on Sunday 25 October, the company’s Founding Mathematician Ken Ono h",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/enormous-theorem-ai",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-18T13:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
