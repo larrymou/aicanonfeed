@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "981981976c8d83da",
+  "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+  "sourceName": "Wired AI",
+  "title": "Lovable Wants You to Vibe Code Your Dream Job",
+  "summary": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
+  "pubDate": "2026-11-18T10:00:00.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Startup strategy profile about Lovable targeting vibe-coded businesses; no named model release or capability (R1-1), no research artifact (R2-1), no concrete financing/M&A/partnership/market data or product launch event (R3-1), no policy action (R4-1), and no open-source tool release (R5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
