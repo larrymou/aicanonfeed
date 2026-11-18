@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "ab00b903e6c15228",
+  "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+  "summary": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 31 # Comments: 15",
+  "pubDate": "2026-11-18T16:08:24.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rule 1-1 requires a named specific model or model line; the title only says 'Seven new world-class models,' a generic phrase, so the named-model condition is unmet. Rule 3-1 is excluded because this is a model release with an apparent owner-site link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 31 # Comments: 15",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+    "linkHost": "microsoft.ai",
+    "pubDate": "2026-11-18T16:08:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
