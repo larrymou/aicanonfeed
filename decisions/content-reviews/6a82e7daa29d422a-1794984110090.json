@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "6a82e7daa29d422a",
+  "url": "https://www.techmeme.com/261117/p71#a261117p71",
+  "sourceName": "Techmeme",
+  "title": "Sources: former Nvidia exec Jay Puri, who oversaw chip clients like Alice Huang, controlled chip sales to Super Micro; Puri is married to an ex-Super Micro exec (The Information)",
+  "summary": "The Information: Sources: former Nvidia exec Jay Puri, who oversaw chip clients like Alice Huang, controlled chip sales to Super Micro; Puri is married to an ex-Super Micro exec — For years, anytime a major Nvidia customer wanted to buy chips or otherwise needed attention, they c",
+  "pubDate": "2026-11-18T04:15:00.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Investigative report on a former Nvidia exec's client relationships/conflict of interest; no new model, research artifact, business event (financing/M&A/partnership/revenue), policy action, or OSS release, and link is an aggregator page. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Information: Sources: former Nvidia exec Jay Puri, who oversaw chip clients like Alice Huang, controlled chip sales to Super Micro; Puri is married to an ex-Super Micro exec — For years, anytime a major Nvidia customer wanted to buy chips or otherwise needed attention, they c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p71#a261117p71",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T04:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
