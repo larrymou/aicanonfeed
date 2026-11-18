@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "00a064e6720eae62",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+  "sourceName": "Google AI Blog",
+  "title": "The Gemini app is now available on lower-memory Android devices.",
+  "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+  "pubDate": "2026-11-18T17:00:00.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-11-18T17:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
