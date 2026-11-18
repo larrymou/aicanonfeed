@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "ddf152f6d3b592a4",
+  "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+  "sourceName": "The Verge AI",
+  "title": "Will Wright’s next game uses AI to map your memories",
+  "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explo",
+  "pubDate": "2026-11-18T14:00:00.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Consumer game announcement/interview about Will Wright's MyMems; no named AI model release (1-1), no research artifact (2-1), no financing/M&A/partnership or AI product launch with owner link (3-1), no policy action (4-1), not OSS tooling (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-18T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
