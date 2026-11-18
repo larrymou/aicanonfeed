@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "ecf8c81cb5048aa0",
+  "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+  "sourceName": "TechCrunch AI",
+  "title": "As decision model use skyrockets, is customization the next frontier?",
+  "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+  "pubDate": "2026-11-17T18:10:00.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No named AI model or model line in title/summary ('decision model' is generic), no official owner announcement link (media domain, author not observed), and it is a trend/customization piece rather than a financing, M&A, partnership, market-data, or non-model product launch event. No rule's conditio",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+    "summaryChars": 105,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-17T18:10:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
