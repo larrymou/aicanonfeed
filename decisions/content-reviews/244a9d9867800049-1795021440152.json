@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "244a9d9867800049",
+  "url": "https://www.techmeme.com/261118/p32#a261118p32",
+  "sourceName": "Techmeme",
+  "title": "Cybersecurity company Xint says it found RCE vulnerabilities in Nginx using GPT 6.1 Sol and GPT-6 Luna; Wiz says it had separately found the same flaws (Thomas Brewster/Forbes)",
+  "summary": "Thomas Brewster / Forbes: Cybersecurity company Xint says it found RCE vulnerabilities in Nginx using GPT 6.1 Sol and GPT-6 Luna; Wiz says it had separately found the same flaws — Darpa-backed cyber company tells Forbes its AI is finding all kinds of vulnerabilities, including on",
+  "pubDate": "2026-11-18T16:25:01.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Media report about a cybersecurity firm using GPT models to find Nginx RCE vulnerabilities. No model release, research paper, business event, policy action, or OSS tool is announced; GPT names are incidental, not a release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Thomas Brewster / Forbes: Cybersecurity company Xint says it found RCE vulnerabilities in Nginx using GPT 6.1 Sol and GPT-6 Luna; Wiz says it had separately found the same flaws — Darpa-backed cyber company tells Forbes its AI is finding all kinds of vulnerabilities, including on",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p32#a261118p32",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T16:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
