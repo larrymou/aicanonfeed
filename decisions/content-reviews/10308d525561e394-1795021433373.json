@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "10308d525561e394",
+  "url": "https://www.techmeme.com/261118/p33#a261118p33",
+  "sourceName": "Techmeme",
+  "title": "Ukraine is using a network of drones as airborne communication relays after repeated Starlink disruptions, including during a strike on Russia's Kerch Bridge (Financial Times)",
+  "summary": "Financial Times: Ukraine is using a network of drones as airborne communication relays after repeated Starlink disruptions, including during a strike on Russia's Kerch Bridge — Kyiv starts using its own communication system for drone strikes after repeated disruptions in the use ",
+  "pubDate": "2026-11-18T16:50:02.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Ukraine's military use of drones as communication relays after Starlink disruptions. No AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tooling is reported; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Ukraine is using a network of drones as airborne communication relays after repeated Starlink disruptions, including during a strike on Russia's Kerch Bridge — Kyiv starts using its own communication system for drone strikes after repeated disruptions in the use ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p33#a261118p33",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T16:50:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
