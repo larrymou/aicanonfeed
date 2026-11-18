@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "b762a36d54f3a124",
+  "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+  "sourceName": "Wired AI",
+  "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+  "summary": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
+  "pubDate": "2026-11-18T05:01:00.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired coverage of a Gallup survey on Gen Z using AI as social companions. No model release, research artifact, business event, policy action, or OSS tool launch; no rule covers this commentary/survey item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T05:01:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
