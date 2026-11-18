@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "dc3186caf092d3af",
+  "url": "https://www.techmeme.com/261118/p30#a261118p30",
+  "sourceName": "Techmeme",
+  "title": "Ahead of Anthropic's IPO, CAIS and others sign the MisAnthropic Statement, challenging the company's \"safety\" branding and its \"reckless attempt\" to build RSI (Center for AI Safety)",
+  "summary": "Center for AI Safety: Ahead of Anthropic's IPO, CAIS and others sign the MisAnthropic Statement, challenging the company's “safety” branding and its “reckless attempt” to build RSI — Ahead of Anthropic's upcoming initial public offering, the Center for AI Safety (CAIS) …",
+  "pubDate": "2026-11-18T16:01:45.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an advocacy statement (CAIS 'MisAnthropic Statement') about Anthropic's safety branding ahead of its IPO — commentary, not a model release (1-1), research artifact (2-1), reported financing/partnership event (3-1), government policy action (4-1), or OSS tool launch (5-1). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Center for AI Safety: Ahead of Anthropic's IPO, CAIS and others sign the MisAnthropic Statement, challenging the company's “safety” branding and its “reckless attempt” to build RSI — Ahead of Anthropic's upcoming initial public offering, the Center for AI Safety (CAIS) …",
+    "summaryChars": 271,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p30#a261118p30",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T16:01:45.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
