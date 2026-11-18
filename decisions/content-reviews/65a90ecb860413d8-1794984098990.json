@@ -1,0 +1,40 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "65a90ecb860413d8",
+  "url": "https://www.techmeme.com/261117/p73#a261117p73",
+  "sourceName": "Techmeme",
+  "title": "YouTube is rolling out an update to include \"co-views\", or the estimated number of people watching together on TV, in the public view counts for videos (Emma Roth/The Verge)",
+  "summary": "Emma Roth / The Verge: YouTube is rolling out an update to include “co-views”, or the estimated number of people watching together on TV, in the public view counts for videos — YouTube view counts will now include estimates of how many people are watching a video together on TV.",
+  "pubDate": "2026-11-18T04:50:12.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "YouTube's co-views metric is a consumer product/UI update with no AI model release, research artifact, industry business event, policy action, or open-source tooling; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Emma Roth / The Verge: YouTube is rolling out an update to include “co-views”, or the estimated number of people watching together on TV, in the public view counts for videos — YouTube view counts will now include estimates of how many people are watching a video together on TV.",
+    "summaryChars": 279,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261117/p73#a261117p73",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T04:50:12.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
