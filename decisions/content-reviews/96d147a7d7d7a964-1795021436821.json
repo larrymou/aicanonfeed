@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "96d147a7d7d7a964",
+  "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
+  "sourceName": "Wired AI",
+  "title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+  "summary": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots.",
+  "pubDate": "2026-11-18T16:35:24.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired news report on criminals using a penetration-testing AI tool; no model release, research artifact, business event, policy action, or open-source tool announcement/link to a repo or official announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots.",
+    "summaryChars": 170,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/artex-ai-hacking-tools/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T16:35:24.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
