@@ -1,0 +1,37 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "2bad80eaba6d647b",
+  "url": "https://www.techmeme.com/261118/p1#a261118p1",
+  "sourceName": "Techmeme",
+  "title": "Microsoft makes Word, Excel, and PowerPoint generally available inside Copilot, which CEO Satya Nadella calls \"the new OS for work\" (Nick Indge/Ars Technica)",
+  "summary": "Nick Indge / Ars Technica: Microsoft makes Word, Excel, and PowerPoint generally available inside Copilot, which CEO Satya Nadella calls “the new OS for work” — Opening the keynote at its Ignite event, Microsoft CEO Satya Nadella outlined the company's vision for its new “frontie",
+  "pubDate": "2026-11-18T05:40:01.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nick Indge / Ars Technica: Microsoft makes Word, Excel, and PowerPoint generally available inside Copilot, which CEO Satya Nadella calls “the new OS for work” — Opening the keynote at its Ignite event, Microsoft CEO Satya Nadella outlined the company's vision for its new “frontie",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p1#a261118p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-18T05:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
