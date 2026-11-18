@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "0c539a706d5e061c",
+  "url": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+  "sourceName": "Hacker News Front Page",
+  "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+  "summary": "Article URL: https://www.terra.security/blog/kvm-guest-to-host-escape Comments URL: https://news.ycombinator.com/item?id=50548004 Points: 14 # Comments: 1",
+  "pubDate": "2026-11-18T16:06:21.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a security vulnerability disclosure (CVE-2026-99312 KVM guest-to-host escape), not a model release, AI research artifact, AI industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.terra.security/blog/kvm-guest-to-host-escape Comments URL: https://news.ycombinator.com/item?id=50548004 Points: 14 # Comments: 1",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+    "linkHost": "www.terra.security",
+    "pubDate": "2026-11-18T16:06:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
