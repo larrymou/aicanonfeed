@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "a9981c27a696c94f",
+  "url": "https://www.lkuffo.com/superemeans/",
+  "sourceName": "Hacker News Front Page",
+  "title": "SuperEMeans: Making e-means 3× faster",
+  "summary": "Article URL: https://www.lkuffo.com/superemeans/ Comments URL: https://news.ycombinator.com/item?id=50548038 Points: 3 # Comments: 0",
+  "pubDate": "2026-11-18T16:09:50.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Only a Hacker News link to a personal blog post about speeding up an algorithm. No named AI model release, no paper/preprint or official research artifact, no business, policy, or OSS tool announcement is evidenced, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.lkuffo.com/superemeans/ Comments URL: https://news.ycombinator.com/item?id=50548038 Points: 3 # Comments: 0",
+    "summaryChars": 132,
+    "summarySource": "summary",
+    "link": "https://www.lkuffo.com/superemeans/",
+    "linkHost": "www.lkuffo.com",
+    "pubDate": "2026-11-18T16:09:50.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
