@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "41c8472c088fee7d",
+  "url": "https://blog.fortirix.com/blog/optimjack/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Optimjack from the Outside: The Hijacked Script Was on Our Radar",
+  "summary": "Article URL: https://blog.fortirix.com/blog/optimjack/ Comments URL: https://news.ycombinator.com/item?id=50542181 Points: 3 # Comments: 1",
+  "pubDate": "2026-11-18T05:21:07.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security/incident commentary about a hijacked script on a personal blog. Not a named model release, research paper/benchmark, business event, policy action, or OSS tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.fortirix.com/blog/optimjack/ Comments URL: https://news.ycombinator.com/item?id=50542181 Points: 3 # Comments: 1",
+    "summaryChars": 138,
+    "summarySource": "summary",
+    "link": "https://blog.fortirix.com/blog/optimjack/",
+    "linkHost": "blog.fortirix.com",
+    "pubDate": "2026-11-18T05:21:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
