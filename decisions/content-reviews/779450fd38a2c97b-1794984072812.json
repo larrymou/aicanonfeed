@@ -1,0 +1,41 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "779450fd38a2c97b",
+  "url": "https://www.evilgeniuslabs.org/why-fibonacci",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why Fibonacci?",
+  "summary": "Article URL: https://www.evilgeniuslabs.org/why-fibonacci Comments URL: https://news.ycombinator.com/item?id=50542264 Points: 9 # Comments: 1",
+  "pubDate": "2026-11-18T05:35:02.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a general article titled 'Why Fibonacci?' with no indication of an AI model release, research artifact, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.evilgeniuslabs.org/why-fibonacci Comments URL: https://news.ycombinator.com/item?id=50542264 Points: 9 # Comments: 1",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://www.evilgeniuslabs.org/why-fibonacci",
+    "linkHost": "www.evilgeniuslabs.org",
+    "pubDate": "2026-11-18T05:35:02.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
