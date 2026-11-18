@@ -1,0 +1,42 @@
+{
+  "runId": "run-1794984058923-r2p8vc",
+  "urlHash": "d34ce25785fdf87b",
+  "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+  "sourceName": "The Verge AI",
+  "title": "Satya Nadella says he’s AGI-pilled now",
+  "summary": "Microsoft CEO Satya Nadella onstage at Microsoft Ignite. | Image: Microsoft / YouTube Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am",
+  "pubDate": "2026-11-17T23:41:18.000Z",
+  "decidedAt": "2026-11-18T06:41:03.896Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion: Nadella's remarks about AGI at Ignite. No named model release, no research artifact, no business event (financing/M&A/partnership/market data), no policy action, and no OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Microsoft CEO Satya Nadella onstage at Microsoft Ignite. | Image: Microsoft / YouTube Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-17T23:41:18.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
