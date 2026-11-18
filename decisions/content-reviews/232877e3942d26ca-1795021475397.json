@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795021410943-6prvf7",
+  "urlHash": "232877e3942d26ca",
+  "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+  "sourceName": "Wired AI",
+  "title": "‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness",
+  "summary": "Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-dollar Berggruen Prize for his contributions to the field. And he has a lot of thoughts on AI.",
+  "pubDate": "2026-11-18T15:02:40.000Z",
+  "decidedAt": "2026-11-18T17:03:40.669Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/profile piece about philosopher Thomas Nagel winning the Berggruen Prize and his views on AI consciousness. No model release, no research artifact (no paper/arXiv link), no business event, no policy action, and no OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-dollar Berggruen Prize for his contributions to the field. And he has a lot of thoughts on AI.",
+    "summaryChars": 191,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T15:02:40.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
