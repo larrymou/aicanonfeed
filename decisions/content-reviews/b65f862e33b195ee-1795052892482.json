@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "b65f862e33b195ee",
+  "url": "https://www.techmeme.com/261118/p50#a261118p50",
+  "sourceName": "Techmeme",
+  "title": "At DealBook, Elon Musk says he feels \"pretty foolish\" after spending nearly $500M backing Republicans in midterms won by Democrats and claims \"I'm not MAGA\" (Todd Spangler/Variety)",
+  "summary": "Todd Spangler / Variety: At DealBook, Elon Musk says he feels “pretty foolish” after spending nearly $500M backing Republicans in midterms won by Democrats and claims “I'm not MAGA” — Elon Musk spent big backing Republicans in the 2026 midterm elections — which resulted in a swee",
+  "pubDate": "2026-11-19T00:25:01.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers Elon Musk's political spending remarks at DealBook; no AI model release, research artifact, AI business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Todd Spangler / Variety: At DealBook, Elon Musk says he feels “pretty foolish” after spending nearly $500M backing Republicans in midterms won by Democrats and claims “I'm not MAGA” — Elon Musk spent big backing Republicans in the 2026 midterm elections — which resulted in a swee",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p50#a261118p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T00:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
