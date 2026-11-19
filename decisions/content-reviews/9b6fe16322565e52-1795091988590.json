@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "9b6fe16322565e52",
+  "url": "https://www.techmeme.com/261119/p20#a261119p20",
+  "sourceName": "Techmeme",
+  "title": "Google is mandating Android app support for foldables starting in April 2027, saying developers must meet Tier 3 standards by filling display areas and more (Jay Peters/The Verge)",
+  "summary": "Jay Peters / The Verge: Google is mandating Android app support for foldables starting in April 2027, saying developers must meet Tier 3 standards by filling display areas and more — Now that the iPhone Duo is foldable is here, Google wants to make sure apps on Android foldables ",
+  "pubDate": "2026-11-19T11:45:02.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Google mandating Android app support standards for foldables is a platform/developer requirement, not a model release (R1), research artifact (R2), business event like financing/M&A/partnership/product launch (R3), government policy action (R4), or open-source tooling release (R5). No rule covers it",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jay Peters / The Verge: Google is mandating Android app support for foldables starting in April 2027, saying developers must meet Tier 3 standards by filling display areas and more — Now that the iPhone Duo is foldable is here, Google wants to make sure apps on Android foldables ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p20#a261119p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T11:45:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
