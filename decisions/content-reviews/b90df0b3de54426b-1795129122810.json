@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "b90df0b3de54426b",
+  "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+  "sourceName": "Hacker News Front Page",
+  "title": "Rebuilding my local voice assistant pipeline",
+  "summary": "Article URL: https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline Comments URL: https://news.ycombinator.com/item?id=50566261 Points: 23 # Comments: 2",
+  "pubDate": "2026-11-19T20:57:14.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personal blog post about rebuilding a hobbyist local voice assistant pipeline. No named model release from an owner, no research artifact, no business event, no policy action, and no open-source tool/framework release announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline Comments URL: https://news.ycombinator.com/item?id=50566261 Points: 23 # Comments: 2",
+    "summaryChars": 171,
+    "summarySource": "summary",
+    "link": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+    "linkHost": "blog.platypush.tech",
+    "pubDate": "2026-11-19T20:57:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
