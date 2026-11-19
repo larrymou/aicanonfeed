@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "cac57b5217ba2caa",
+  "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "Genie 4 is now available",
+  "summary": "Genie 4 is now available",
+  "pubDate": "2026-11-18T18:13:42.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Genie 4 is now available",
+    "summaryChars": 24,
+    "summarySource": "title_fallback",
+    "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-11-18T18:13:42.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
