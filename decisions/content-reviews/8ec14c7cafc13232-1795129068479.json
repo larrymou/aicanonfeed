@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "8ec14c7cafc13232",
+  "url": "https://www.techmeme.com/261119/p53#a261119p53",
+  "sourceName": "Techmeme",
+  "title": "Sources: National Cyber Director Sean Cairncross is leaving now to let the White House get a successor confirmed before Democrats take the Senate in January (Axios)",
+  "summary": "Axios: Sources: National Cyber Director Sean Cairncross is leaving now to let the White House get a successor confirmed before Democrats take the Senate in January — White House national cyber director Sean Cairncross is leaving his post, Axios has learned. … - Cairncross' depart",
+  "pubDate": "2026-11-19T22:45:01.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Personnel news: National Cyber Director Sean Cairncross departing. No new law, regulation, enforcement action, or official policy announcement; no model, research artifact, business event, or OSS tool. No rule covers this item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Axios: Sources: National Cyber Director Sean Cairncross is leaving now to let the White House get a successor confirmed before Democrats take the Senate in January — White House national cyber director Sean Cairncross is leaving his post, Axios has learned. … - Cairncross' depart",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p53#a261119p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T22:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
