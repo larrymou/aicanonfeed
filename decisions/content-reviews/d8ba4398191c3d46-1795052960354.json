@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "d8ba4398191c3d46",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+  "sourceName": "The Verge AI",
+  "title": "The nation’s largest school districts consider ditching Google Search",
+  "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powere",
+  "pubDate": "2026-11-18T23:18:35.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports school districts weighing Google alternatives after Google ties Search access to its AI features. It is not a model release, research artifact, policy/government action, or OSS tooling; no financing, M&A, partnership, revenue data, or product launch is reported, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powere",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-18T23:18:35.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
