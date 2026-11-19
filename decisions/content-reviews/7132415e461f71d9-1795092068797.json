@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "7132415e461f71d9",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+  "sourceName": "The Verge AI",
+  "title": "What is Nvidia without AI’s sugar daddy in charge?",
+  "summary": "Building a successful company means that it can run smoothly without you. Did Jensen Huang actually build a successful company? | Image: The Verge; Getty Images; Adobe If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technol",
+  "pubDate": "2026-11-18T18:34:15.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary column asking whether Nvidia is fragile without Jensen Huang. No reported financing, M&A, partnership, market/revenue figures, or product launch; no model, research artifact, policy action, or OSS release. No active rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Building a successful company means that it can run smoothly without you. Did Jensen Huang actually build a successful company? | Image: The Verge; Getty Images; Adobe If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technol",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-18T18:34:15.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
