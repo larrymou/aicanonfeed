@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "92460c3cc95e98a3",
+  "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Multiple vulnerabilities in Regexp and String case conversion",
+  "summary": "Article URL: https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/ Comments URL: https://news.ycombinator.com/item?id=50554038 Points: 59 # Comments: 10",
+  "pubDate": "2026-11-18T23:52:50.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Ruby language security advisory about regexp/string case-conversion vulnerabilities. It is not an AI model release, AI research, AI industry business event, AI policy action, or an open-source AI tool/framework, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/ Comments URL: https://news.ycombinator.com/item?id=50554038 Points: 59 # Comments: 10",
+    "summaryChars": 190,
+    "summarySource": "summary",
+    "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+    "linkHost": "www.ruby-lang.org",
+    "pubDate": "2026-11-18T23:52:50.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
