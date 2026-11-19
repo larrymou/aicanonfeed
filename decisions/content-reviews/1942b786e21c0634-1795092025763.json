@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "1942b786e21c0634",
+  "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+  "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+  "pubDate": "2026-11-18T21:38:22.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS how-to tutorial on designing responsible AI controls with Aurora PostgreSQL and Bedrock Guardrails. No model release, research artifact, business event, policy action, or OSS tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+    "summaryChars": 173,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-18T21:38:22.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
