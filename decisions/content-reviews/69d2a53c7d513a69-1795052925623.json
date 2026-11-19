@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "69d2a53c7d513a69",
+  "url": "https://claudia.gallery/fable/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+  "summary": "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 23 # Comments: 18",
+  "pubDate": "2026-11-19T00:18:18.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Creative art project page on claudia.gallery; no official owner announcement, release action, paper, business event, policy action, or OSS tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 23 # Comments: 18",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://claudia.gallery/fable/",
+    "linkHost": "claudia.gallery",
+    "pubDate": "2026-11-19T00:18:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
