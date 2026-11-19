@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "dacb66b371d0c7c1",
+  "url": "https://www.techmeme.com/261119/p51#a261119p51",
+  "sourceName": "Techmeme",
+  "title": "Intuit agrees to sell marketing subsidiary Mailchimp to Bending Spoons for $3.68B in cash and stock; Intuit paid $12B to buy Mailchimp in 2021 (Jordan Novet/CNBC)",
+  "summary": "Jordan Novet / CNBC: Intuit agrees to sell marketing subsidiary Mailchimp to Bending Spoons for $3.68B in cash and stock; Intuit paid $12B to buy Mailchimp in 2021 — Tax software maker Intuit said Thursday that it has agreed to sell marketing subsidiary Mailchimp to Italian techn",
+  "pubDate": "2026-11-19T21:25:01.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jordan Novet / CNBC: Intuit agrees to sell marketing subsidiary Mailchimp to Bending Spoons for $3.68B in cash and stock; Intuit paid $12B to buy Mailchimp in 2021 — Tax software maker Intuit said Thursday that it has agreed to sell marketing subsidiary Mailchimp to Italian techn",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p51#a261119p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T21:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
