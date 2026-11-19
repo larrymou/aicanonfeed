@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "2f808e192e0664c8",
+  "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+  "sourceName": "Ars Technica AI",
+  "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+  "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+  "pubDate": "2026-11-19T20:19:28.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a civil lawsuit over false-positive AI gun alerts. It is not a model release, research artifact, industry business event, official policy/government action, or open-source tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+    "summaryChars": 72,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-19T20:19:28.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
