@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "fddd50ab3ef20171",
+  "url": "https://www.techmeme.com/261119/p50#a261119p50",
+  "sourceName": "Techmeme",
+  "title": "At a Senate hearing, Trump's CISA director nominee Michael LoSapio dodged questions about the agency's priorities, denied January 6 was an attack, and more (Eric Geller/Cybersecurity Dive)",
+  "summary": "Eric Geller / Cybersecurity Dive: At a Senate hearing, Trump's CISA director nominee Michael LoSapio dodged questions about the agency's priorities, denied January 6 was an attack, and more — Michael LoSapio, a Palantir executive, also denied that the U.S. Capitol was attacked on",
+  "pubDate": "2026-11-19T21:01:29.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a Senate hearing for a CISA director nominee (cybersecurity agency personnel/politics); it reports no AI model release, research artifact, AI business event, AI policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Eric Geller / Cybersecurity Dive: At a Senate hearing, Trump's CISA director nominee Michael LoSapio dodged questions about the agency's priorities, denied January 6 was an attack, and more — Michael LoSapio, a Palantir executive, also denied that the U.S. Capitol was attacked on",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p50#a261119p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T21:01:29.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
