@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "add5cc7bdd5e941f",
+  "url": "https://www.techmeme.com/261119/p52#a261119p52",
+  "sourceName": "Techmeme",
+  "title": "A job listing shows Apple is developing an AI agent that can write code, browse the web, control apps, navigate devices, and coordinate subagents for users (Mark Gurman/Bloomberg)",
+  "summary": "Mark Gurman / Bloomberg: A job listing shows Apple is developing an AI agent that can write code, browse the web, control apps, navigate devices, and coordinate subagents for users — Apple Inc. is developing its own autonomous artificial intelligence agent that can get things don",
+  "pubDate": "2026-11-19T22:30:01.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No named model or release action (R1), no research artifact (R2), no financing/M&A/partnership/revenue/non-model product launch (R3), no policy action (R4), no OSS tool release (R5). A job listing revealing in-development plans is none of these.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mark Gurman / Bloomberg: A job listing shows Apple is developing an AI agent that can write code, browse the web, control apps, navigate devices, and coordinate subagents for users — Apple Inc. is developing its own autonomous artificial intelligence agent that can get things don",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p52#a261119p52",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T22:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
