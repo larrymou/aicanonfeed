@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "80bdab190c6dbdb4",
+  "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+  "sourceName": "TechCrunch AI",
+  "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+  "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+  "pubDate": "2026-11-18T21:57:40.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Nvidia delaying its 10-Q SEC filing. This is neither a named model release, new research, an enumerated industry business event (financing, M&A, partnership, market/revenue data, product launch), policy action, nor an OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+    "summaryChars": 162,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-18T21:57:40.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
