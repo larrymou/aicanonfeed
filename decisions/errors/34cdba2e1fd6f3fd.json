@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "34cdba2e1fd6f3fd",
+  "url": "https://www.techmeme.com/261118/p51#a261118p51",
+  "sourceName": "Techmeme",
+  "title": "Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B (Yasutaka Tamura/Bloomberg)",
+  "summary": "Yasutaka Tamura / Bloomberg: Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B — Anthropic PBC raised about $3 billion from Japanese investors as part of its initial public offering, the lower end of its p",
+  "pubDate": "2026-11-19T00:40:03.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Yasutaka Tamura / Bloomberg: Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B — Anthropic PBC raised about $3 billion from Japanese investors as part of its initial public offering, the lower end of its p",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p51#a261118p51",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T00:40:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
