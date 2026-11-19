@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "c51551cd2d791f85",
+  "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+  "sourceName": "Hacker News Front Page",
+  "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+  "summary": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 51 # Comments: 86",
+  "pubDate": "2026-11-19T18:47:16.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A YouTube debate video on whether governments should slow frontier AI is commentary, not a policy/regulatory action (rule 4-1 excludes commentary without policy action), and it reports no new research artifact, model release, industry business event, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 51 # Comments: 86",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+    "linkHost": "www.youtube.com",
+    "pubDate": "2026-11-19T18:47:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
