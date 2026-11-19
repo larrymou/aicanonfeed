@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "c363e4ee1aa6f6ac",
+  "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+  "sourceName": "The Verge AI",
+  "title": "Google is putting AI chats right on the homepage",
+  "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar b",
+  "pubDate": "2026-11-19T20:05:06.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar b",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-19T20:05:06.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
