@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "9e20b94c1c298d1c",
+  "url": "https://www.wired.com/story/guys-really-we-got-this/",
+  "sourceName": "Wired AI",
+  "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
+  "summary": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control.",
+  "pubDate": "2026-11-18T22:16:23.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "WIRED commentary tallying Nvidia interim CEO reassurances; no named model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool. No rule covers this commentary item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control.",
+    "summaryChars": 124,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/guys-really-we-got-this/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T22:16:23.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
