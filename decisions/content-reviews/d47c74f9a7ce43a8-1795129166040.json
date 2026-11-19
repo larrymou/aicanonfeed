@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "d47c74f9a7ce43a8",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+  "sourceName": "Google AI Blog",
+  "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+  "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+  "pubDate": "2026-11-19T17:00:00.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an interview/episode about curiosity and creativity with Walter Isaacson; no model release, research artifact, business event, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+    "summaryChars": 145,
+    "summarySource": "summary",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+    "linkHost": "blog.google",
+    "pubDate": "2026-11-19T17:00:00.000Z",
+    "sourceName": "Google AI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
