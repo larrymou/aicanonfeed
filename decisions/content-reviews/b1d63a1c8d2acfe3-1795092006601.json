@@ -1,18 +1,23 @@
 {
-  "runId": "run-1795052854744-7ytr0w",
+  "runId": "run-1795091939676-759z0z",
   "urlHash": "b1d63a1c8d2acfe3",
   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
   "summary": "Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.",
   "pubDate": "2026-11-18T23:03:29.000Z",
-  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Item is an incremental infrastructure/feature update for an existing managed service (SageMaker HyperPod). Rule 1-1 excludes infrastructure; it is not a model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or open-source tool, so no rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.",
