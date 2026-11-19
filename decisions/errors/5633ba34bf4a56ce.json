@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "5633ba34bf4a56ce",
+  "url": "https://www.techmeme.com/261119/p24#a261119p24",
+  "sourceName": "Techmeme",
+  "title": "IEA expects global data center investment to hit $4T by 2030; fewer than 100 major AI projects would require a combined 50GW of power, matching peak UK demand (Will Mathis/Bloomberg)",
+  "summary": "Will Mathis / Bloomberg: IEA expects global data center investment to hit $4T by 2030; fewer than 100 major AI projects would require a combined 50GW of power, matching peak UK demand — A surge in data center investments threatens to stretch global power grids to their limits, ac",
+  "pubDate": "2026-11-19T12:35:03.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Will Mathis / Bloomberg: IEA expects global data center investment to hit $4T by 2030; fewer than 100 major AI projects would require a combined 50GW of power, matching peak UK demand — A surge in data center investments threatens to stretch global power grids to their limits, ac",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p24#a261119p24",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T12:35:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
