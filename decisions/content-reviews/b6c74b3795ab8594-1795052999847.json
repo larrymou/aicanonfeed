@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "b6c74b3795ab8594",
+  "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
+  "sourceName": "Wired AI",
+  "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+  "summary": "Fallout from the Nvidia scandal has made any negotiations around AI difficult, officials say.",
+  "pubDate": "2026-11-18T22:00:00.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary on expected US-China diplomacy around AI; it reports no model release, research artifact, business event, concrete policy action, or OSS tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Fallout from the Nvidia scandal has made any negotiations around AI difficult, officials say.",
+    "summaryChars": 93,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T22:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
