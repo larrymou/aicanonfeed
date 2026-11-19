@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "d4505c0a6f8ef0e3",
+  "url": "https://www.techmeme.com/261119/p22#a261119p22",
+  "sourceName": "Techmeme",
+  "title": "Analysis: Anthropic needs ~$602B in annual revenue to hit a 20% return on invested capital comparable to its Big Tech peers; Apple has $478B in annual revenue (Financial Times)",
+  "summary": "Financial Times: Analysis: Anthropic needs ~$602B in annual revenue to hit a 20% return on invested capital comparable to its Big Tech peers; Apple has $478B in annual revenue — Good morning. Yesterday, while we were all waiting for Anthropic's IPO to price (more on that below), ",
+  "pubDate": "2026-11-19T12:15:22.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports AI industry business/market data: Financial Times analysis of Anthropic's revenue and ROIC requirements amid its IPO, via a reputable media report (Techmeme linking FT). No official owner announcement or model release, so industry rule applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Analysis: Anthropic needs ~$602B in annual revenue to hit a 20% return on invested capital comparable to its Big Tech peers; Apple has $478B in annual revenue — Good morning. Yesterday, while we were all waiting for Anthropic's IPO to price (more on that below), ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p22#a261119p22",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T12:15:22.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
