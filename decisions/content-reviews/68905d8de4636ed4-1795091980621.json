@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "68905d8de4636ed4",
+  "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Why a Computer Scientist Thinks Superintelligence Won’t Happen",
+  "summary": "Many people were caught off guard this past summer when employees of one of the world’s leading AI companies began casually debating whether their products would lead to human extinction. It started when Anthropic researcher Jacob Coxon announced his resignation, warning that his",
+  "pubDate": "2026-11-19T12:00:03.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/interview piece on whether superintelligence will happen. No new model release, no research artifact (paper/preprint/benchmark), no business event, no policy action, and no open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Many people were caught off guard this past summer when employees of one of the world’s leading AI companies began casually debating whether their products would lead to human extinction. It started when Anthropic researcher Jacob Coxon announced his resignation, warning that his",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-19T12:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
