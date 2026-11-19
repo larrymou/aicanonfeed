@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "aed3ea0dfc61854d",
+  "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+  "sourceName": "TechCrunch AI",
+  "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+  "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+  "pubDate": "2026-11-18T22:11:15.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+    "summaryChars": 93,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-18T22:11:15.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
