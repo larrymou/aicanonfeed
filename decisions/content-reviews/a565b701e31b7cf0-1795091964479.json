@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "a565b701e31b7cf0",
+  "url": "https://www.techmeme.com/261119/p23#a261119p23",
+  "sourceName": "Techmeme",
+  "title": "Dustin Moskovitz, one of Anthropic's earliest investors, says he \"invested in Anthropic to promote safety, not racing\" and frontier AI labs \"should slow down\" (New York Times)",
+  "summary": "New York Times: Dustin Moskovitz, one of Anthropic's earliest investors, says he “invested in Anthropic to promote safety, not racing” and frontier AI labs “should slow down” — Dustin Moskovitz was one of Anthropic's earliest investors, and that bet is expected to be worth billio",
+  "pubDate": "2026-11-19T12:25:01.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Investor commentary/opinion about AI safety and slowing down; not a model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Dustin Moskovitz, one of Anthropic's earliest investors, says he “invested in Anthropic to promote safety, not racing” and frontier AI labs “should slow down” — Dustin Moskovitz was one of Anthropic's earliest investors, and that bet is expected to be worth billio",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p23#a261119p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T12:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
