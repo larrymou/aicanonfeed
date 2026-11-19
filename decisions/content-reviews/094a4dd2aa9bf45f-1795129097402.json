@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "094a4dd2aa9bf45f",
+  "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+  "sourceName": "TechCrunch AI",
+  "title": "Meta’s new Muse Charm device may cost $300",
+  "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+  "pubDate": "2026-11-19T21:58:06.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rumor/leak about pricing of an unannounced Meta AI wearable; no named AI model or model capability (R1), no research artifact (R2), no confirmed non-model product launch, financing, M&A, partnership or revenue data (R3), no policy action (R4), no open-source tooling (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-19T21:58:06.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
