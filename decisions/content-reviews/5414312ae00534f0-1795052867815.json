@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "5414312ae00534f0",
+  "url": "https://www.techmeme.com/261118/p53#a261118p53",
+  "sourceName": "Techmeme",
+  "title": "Source: MoviePass is exploring a sale, pitching potential buyers on bundling movie tickets with streaming subscriptions; it has $10M in annual recurring revenue (Mark Stenberg/Adweek)",
+  "summary": "Mark Stenberg / Adweek: Source: MoviePass is exploring a sale, pitching potential buyers on bundling movie tickets with streaming subscriptions; it has $10M in annual recurring revenue — The theatrical subscription company is pitching potential buyers on bundling movie tickets in",
+  "pubDate": "2026-11-19T01:30:01.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers MoviePass exploring a sale and streaming bundle strategy; it is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mark Stenberg / Adweek: Source: MoviePass is exploring a sale, pitching potential buyers on bundling movie tickets with streaming subscriptions; it has $10M in annual recurring revenue — The theatrical subscription company is pitching potential buyers on bundling movie tickets in",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261118/p53#a261118p53",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T01:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
