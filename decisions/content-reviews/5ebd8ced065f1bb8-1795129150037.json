@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795129056724-dzv6mv",
+  "urlHash": "5ebd8ced065f1bb8",
+  "url": "https://www.techmeme.com/261119/p49#a261119p49",
+  "sourceName": "Techmeme",
+  "title": "Source: Meta plans to charge $300 for its forthcoming Muse Charm device and include a free 5G data plan from Verizon for up to 12 months (Jyoti Mann/The Information)",
+  "summary": "Jyoti Mann / The Information: Source: Meta plans to charge $300 for its forthcoming Muse Charm device and include a free 5G data plan from Verizon for up to 12 months — Meta Platforms plans to charge $300 for its forthcoming Muse Charm device and offer user subsidies, according t",
+  "pubDate": "2026-11-19T19:50:28.000Z",
+  "decidedAt": "2026-11-19T22:57:47.274Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rumored pricing/carrier-subsidy details for a forthcoming Meta hardware device; not a named model release (R1), research artifact (R2), official deal/launch announcement (R3), policy action (R4), or OSS tooling (R5). Only a Techmeme blurb citing an unconfirmed source.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jyoti Mann / The Information: Source: Meta plans to charge $300 for its forthcoming Muse Charm device and include a free 5G data plan from Verizon for up to 12 months — Meta Platforms plans to charge $300 for its forthcoming Muse Charm device and offer user subsidies, according t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p49#a261119p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-19T19:50:28.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
