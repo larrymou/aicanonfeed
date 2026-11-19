@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "120da5d8476ca5b4",
+  "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+  "sourceName": "The Verge AI",
+  "title": "Disney’s new Star Wars animatronics interact with guests using AI",
+  "summary": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Im",
+  "pubDate": "2026-11-18T17:50:57.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Consumer-tech feature story on Disney animatronics using AI/cloud services. No named model or release action (R1), no research artifact (R2), no financing/M&A/partnership/market data or AI product launch (R3), no policy action (R4), and no open-source tool or repo (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Im",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-18T17:50:57.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
