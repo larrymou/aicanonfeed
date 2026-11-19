@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "e8a84f6111970e8a",
+  "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+  "summary": "Article URL: https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/ Comments URL: https://news.ycombinator.com/item?id=50554374 Points: 46 # Comments: 13",
+  "pubDate": "2026-11-19T00:29:45.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Third-party commentary blog post on micjm.com, not an official owner announcement; no named author or publication date observed, so rule 1-1's evidence-link condition is unmet. Not research, business, policy, or OSS tooling.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/ Comments URL: https://news.ycombinator.com/item?id=50554374 Points: 46 # Comments: 13",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+    "linkHost": "micjm.com",
+    "pubDate": "2026-11-19T00:29:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
