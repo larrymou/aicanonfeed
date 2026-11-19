@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "e78487095dd37232",
+  "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+  "sourceName": "TechCrunch AI",
+  "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+  "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+  "pubDate": "2026-11-18T23:25:17.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a quote/commentary about Elon Musk defending Jensen Huang; no named model release, research artifact, business event, policy action, or OSS tool is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+    "summaryChars": 68,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-18T23:25:17.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
