@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795091939676-759z0z",
+  "urlHash": "82591dcc72952839",
+  "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+  "sourceName": "Wired AI",
+  "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+  "summary": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
+  "pubDate": "2026-11-18T21:15:00.000Z",
+  "decidedAt": "2026-11-19T12:39:18.249Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
+    "summaryChars": 171,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-18T21:15:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
