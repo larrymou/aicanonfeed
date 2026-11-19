@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795052854744-7ytr0w",
+  "urlHash": "71d333ab8e8f0644",
+  "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+  "summary": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI ",
+  "pubDate": "2026-11-18T23:58:22.000Z",
+  "decidedAt": "2026-11-19T01:47:45.128Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog engineering case study on optimizing Exa's embedding inference with Neuron/NKI kernels. Not a named model release, research paper, business event (financing/M&A/partnership/revenue/product launch), policy action, or open-source tool release with repo link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-18T23:58:22.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
