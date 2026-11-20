@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "fe1eb0476877e73f",
+  "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+  "summary": "Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or d",
+  "pubDate": "2026-11-19T20:01:06.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "AWS blog describes feature updates (defaults, built-in tools, lifecycle hooks) to the proprietary AgentCore harness. No named model release (R1-1), no research artifact (R2-1), not a business event/launch (R3-1), and R5-1 excludes proprietary product features.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or d",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-19T20:01:06.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
