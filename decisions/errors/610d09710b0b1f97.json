@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "610d09710b0b1f97",
+  "url": "https://www.techmeme.com/261119/p61#a261119p61",
+  "sourceName": "Techmeme",
+  "title": "Anthropic fell ~5% in after-hours trading on its debut day, following a record $107.3B IPO (Bloomberg)",
+  "summary": "Bloomberg: Anthropic fell ~5% in after-hours trading on its debut day, following a record $107.3B IPO — Anthropic PBC shares are headed for a weak open on their second day of trading, swept up in a broad market selloff as fears over the outlook for the artificial intelligence tra",
+  "pubDate": "2026-11-20T04:15:00.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Anthropic fell ~5% in after-hours trading on its debut day, following a record $107.3B IPO — Anthropic PBC shares are headed for a weak open on their second day of trading, swept up in a broad market selloff as fears over the outlook for the artificial intelligence tra",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261119/p61#a261119p61",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T04:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
