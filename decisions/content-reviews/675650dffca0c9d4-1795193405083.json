@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "675650dffca0c9d4",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+  "sourceName": "The Verge AI",
+  "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+  "summary": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alpöge claims he has solved the Riemann hypothesis, one of mathematics' most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the w",
+  "pubDate": "2026-11-20T16:34:13.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No rule covers it: not a named-model release, not a paper/preprint/benchmark release with a link to the original research artifact, and not an industry business, policy, or OSS tooling event. It is media commentary on a claimed math result.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alpöge claims he has solved the Riemann hypothesis, one of mathematics' most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-20T16:34:13.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
