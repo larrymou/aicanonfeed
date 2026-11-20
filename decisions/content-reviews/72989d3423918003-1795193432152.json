@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "72989d3423918003",
+  "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Why there are still no non-WebKit browsers on iOS",
+  "summary": "Article URL: https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/ Comments URL: https://news.ycombinator.com/item?id=50575644 Points: 99 # Comments: 40",
+  "pubDate": "2026-11-20T15:03:31.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Apple's iOS WebKit browser-engine restrictions (browser competition policy), not an AI model release, AI research, AI industry business event, AI policy/regulation, or AI open-source tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/ Comments URL: https://news.ycombinator.com/item?id=50575644 Points: 99 # Comments: 40",
+    "summaryChars": 182,
+    "summarySource": "summary",
+    "link": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+    "linkHost": "blog.mozilla.org",
+    "pubDate": "2026-11-20T15:03:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
