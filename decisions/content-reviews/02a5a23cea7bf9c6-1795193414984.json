@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "02a5a23cea7bf9c6",
+  "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Finite-time blow-up for the Navier–Stokes equations",
+  "summary": "Article URL: https://github.com/tristanbuckmaster/navier-stokes/ Comments URL: https://news.ycombinator.com/item?id=50576232 Points: 11 # Comments: 4",
+  "pubDate": "2026-11-20T15:34:31.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Hacker News post linking to a GitHub repository on a Navier–Stokes finite-time blow-up result — a pure mathematics/fluid-dynamics topic. No AI model release, AI research result, AI business event, AI policy action, or AI open-source tool is reported, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/tristanbuckmaster/navier-stokes/ Comments URL: https://news.ycombinator.com/item?id=50576232 Points: 11 # Comments: 4",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://github.com/tristanbuckmaster/navier-stokes/",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-20T15:34:31.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
