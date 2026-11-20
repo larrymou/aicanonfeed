@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "5410af89010fa615",
+  "url": "https://www.techmeme.com/261120/p17#a261120p17",
+  "sourceName": "Techmeme",
+  "title": "Anthropic mathematician Levent Alpöge claims he used Claude to prove the 167-year-old Riemann hypothesis and posts the proof in the Lean programming language (Joseph Howlett/Scientific American)",
+  "summary": "Joseph Howlett / Scientific American: Anthropic mathematician Levent Alpöge claims he used Claude to prove the 167-year-old Riemann hypothesis and posts the proof in the Lean programming language — An AI-generated solution of the 167-year-old problem, long considered far out of r",
+  "pubDate": "2026-11-20T15:20:00.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Claim of a Claude-assisted Riemann hypothesis proof posted in Lean, but the link is a Techmeme aggregator item, not the original paper/preprint or an official source; no research artifact link, no peer review, and it is not a model release, business, policy, or OSS tool item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Joseph Howlett / Scientific American: Anthropic mathematician Levent Alpöge claims he used Claude to prove the 167-year-old Riemann hypothesis and posts the proof in the Lean programming language — An AI-generated solution of the 167-year-old problem, long considered far out of r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p17#a261120p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T15:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
