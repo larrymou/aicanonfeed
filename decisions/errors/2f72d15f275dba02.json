@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "2f72d15f275dba02",
+  "url": "https://www.techmeme.com/261120/p3#a261120p3",
+  "sourceName": "Techmeme",
+  "title": "Sources: Nscale must seek a US license to provide ByteDance remote access to Nvidia GPUs under new rules; ByteDance made up ~73% of Nscale's 2025 revenue (Bloomberg)",
+  "summary": "Bloomberg: Sources: Nscale must seek a US license to provide ByteDance remote access to Nvidia GPUs under new rules; ByteDance made up ~73% of Nscale's 2025 revenue — Nscale Plc's agreement to sell artificial intelligence computing capacity to ByteDance Ltd. will come under great",
+  "pubDate": "2026-11-20T06:15:01.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: Nscale must seek a US license to provide ByteDance remote access to Nvidia GPUs under new rules; ByteDance made up ~73% of Nscale's 2025 revenue — Nscale Plc's agreement to sell artificial intelligence computing capacity to ByteDance Ltd. will come under great",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p3#a261120p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T06:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
