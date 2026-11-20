@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "4d2d20d171989c2f",
+  "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+  "sourceName": "TechCrunch AI",
+  "title": "Six AI-powered gadgets that could make your home office smarter",
+  "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+  "pubDate": "2026-11-20T14:00:00.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Gadget roundup listing third-party AI-powered home-office devices. No named model release, no research artifact, no specific business/deal event, no policy action, and no open-source tool release; a multi-product consumer listicle is not covered by any active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+    "summaryChars": 86,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-20T14:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
