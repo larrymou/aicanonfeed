@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "a680e86b911c477a",
+  "url": "https://www.techmeme.com/261120/p19#a261120p19",
+  "sourceName": "Techmeme",
+  "title": "Linq, which offers texting and calling infrastructure for AI agents, raised a $90M Series B led by a16z, following a $20M Series A in February (Harper Harwell/Birmingham Business Journal)",
+  "summary": "Harper Harwell / Birmingham Business Journal: Linq, which offers texting and calling infrastructure for AI agents, raised a $90M Series B led by a16z, following a $20M Series A in February — Just a few months after a major Series A funding round, one of Birmingham's fastest-growi",
+  "pubDate": "2026-11-20T16:00:53.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry financing event: Linq, which provides texting/calling infrastructure for AI agents, raised a $90M Series B led by a16z. Includes a link to a reputable media report (Birmingham Business Journal via Techmeme). Not a model release, so group 3 applies.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Harper Harwell / Birmingham Business Journal: Linq, which offers texting and calling infrastructure for AI agents, raised a $90M Series B led by a16z, following a $20M Series A in February — Just a few months after a major Series A funding round, one of Birmingham's fastest-growi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p19#a261120p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T16:00:53.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
