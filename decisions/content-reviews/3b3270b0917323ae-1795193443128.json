@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "3b3270b0917323ae",
+  "url": "https://alpo.ge/remark.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+  "summary": "Article URL: https://alpo.ge/remark.pdf Comments URL: https://news.ycombinator.com/item?id=50574968 Points: 1067 # Comments: 694",
+  "pubDate": "2026-11-20T14:16:21.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Claimed Riemann Hypothesis proof by an Anthropic employee is a pure mathematics claim, not a new AI research result, model release, industry business event, policy action, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alpo.ge/remark.pdf Comments URL: https://news.ycombinator.com/item?id=50574968 Points: 1067 # Comments: 694",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://alpo.ge/remark.pdf",
+    "linkHost": "alpo.ge",
+    "pubDate": "2026-11-20T14:16:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
