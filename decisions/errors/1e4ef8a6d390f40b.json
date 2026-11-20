@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "1e4ef8a6d390f40b",
+  "url": "https://www.techmeme.com/261120/p16#a261120p16",
+  "sourceName": "Techmeme",
+  "title": "Anthropic stock fell as low as $87.26 in the opening hours of its second day of trading, trimming gains from the $83 IPO price to as little as 5.1% (Bloomberg)",
+  "summary": "Bloomberg: Anthropic stock fell as low as $87.26 in the opening hours of its second day of trading, trimming gains from the $83 IPO price to as little as 5.1% — Anthropic PBC shares erased much of their first-day jump on Friday, testing investors' faith after the AI lab delivered",
+  "pubDate": "2026-11-20T15:10:01.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Anthropic stock fell as low as $87.26 in the opening hours of its second day of trading, trimming gains from the $83 IPO price to as little as 5.1% — Anthropic PBC shares erased much of their first-day jump on Friday, testing investors' faith after the AI lab delivered",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p16#a261120p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T15:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
