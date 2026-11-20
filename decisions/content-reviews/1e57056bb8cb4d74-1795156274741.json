@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "1e57056bb8cb4d74",
+  "url": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
+  "sourceName": "Hacker News Front Page",
+  "title": "GIMP now has UI tests",
+  "summary": "Article URL: https://www.gimp.org/news/2026/11/16/gimp-ui-tests/ Comments URL: https://news.ycombinator.com/item?id=50569985 Points: 67 # Comments: 46",
+  "pubDate": "2026-11-20T04:00:24.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GIMP UI tests are general open-source graphics software testing infrastructure, not an AI model release, research result, industry business event, policy action, or AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.gimp.org/news/2026/11/16/gimp-ui-tests/ Comments URL: https://news.ycombinator.com/item?id=50569985 Points: 67 # Comments: 46",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
+    "linkHost": "www.gimp.org",
+    "pubDate": "2026-11-20T04:00:24.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
