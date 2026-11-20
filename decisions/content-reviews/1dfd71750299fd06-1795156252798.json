@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "1dfd71750299fd06",
+  "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+  "sourceName": "Hacker News Front Page",
+  "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+  "summary": "Article URL: https://grapheneos.social/@GrapheneOS/117645038299496084 Comments URL: https://news.ycombinator.com/item?id=50570479 Points: 104 # Comments: 10",
+  "pubDate": "2026-11-20T05:21:02.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Google/OEM pressure on GrapheneOS and Android bootloader unlocking; it involves no AI model, research artifact, AI business event, AI policy action, or AI developer tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://grapheneos.social/@GrapheneOS/117645038299496084 Comments URL: https://news.ycombinator.com/item?id=50570479 Points: 104 # Comments: 10",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+    "linkHost": "grapheneos.social",
+    "pubDate": "2026-11-20T05:21:02.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
