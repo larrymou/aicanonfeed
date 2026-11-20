@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "68bdf67afed779d4",
+  "url": "https://www.techmeme.com/261120/p4#a261120p4",
+  "sourceName": "Techmeme",
+  "title": "Samsung names Choi Won-Joon head of its mobile division, replacing TM Roh, who stays as Samsung co-CEO, and Sang Joon Hwang to lead its memory business (Ben Schoon/9to5Google)",
+  "summary": "Ben Schoon / 9to5Google: Samsung names Choi Won-Joon head of its mobile division, replacing TM Roh, who stays as Samsung co-CEO, and Sang Joon Hwang to lead its memory business — After the better part of 7 years, Samsung's mobile division has a new chief and it's Choi Won-Joon, w",
+  "pubDate": "2026-11-20T06:25:00.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Samsung executive appointments (new mobile division head, memory business lead). No rule covers leadership changes: not a model release (R1), research (R2), listed industry business event such as financing/M&A/partnership/revenue (R3), policy action (R4), or OSS tool (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ben Schoon / 9to5Google: Samsung names Choi Won-Joon head of its mobile division, replacing TM Roh, who stays as Samsung co-CEO, and Sang Joon Hwang to lead its memory business — After the better part of 7 years, Samsung's mobile division has a new chief and it's Choi Won-Joon, w",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p4#a261120p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T06:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
