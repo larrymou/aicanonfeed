@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "3a410cf897476622",
+  "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+  "sourceName": "Wired AI",
+  "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+  "summary": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage.",
+  "pubDate": "2026-11-20T12:00:00.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired report on a Meta AI assistant feature that can track and unfollow Instagram accounts. It is not a named model release with an official owner announcement (R1 excludes UI/product features), not a research artifact, not a business event like financing/M&A/partnership/revenue, not policy action, ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage.",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-20T12:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
