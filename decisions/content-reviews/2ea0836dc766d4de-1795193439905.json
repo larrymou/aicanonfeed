@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "2ea0836dc766d4de",
+  "url": "https://www.techmeme.com/261120/p15#a261120p15",
+  "sourceName": "Techmeme",
+  "title": "Source: Coinbase is targeting H1 2027 to begin offering in-house event contracts in the US; it currently offers prediction markets through a Kalshi partnership (Bloomberg)",
+  "summary": "Bloomberg: Source: Coinbase is targeting H1 2027 to begin offering in-house event contracts in the US; it currently offers prediction markets through a Kalshi partnership — Coinbase Global Inc. is targeting the first half of 2027 to begin offering in-house event contracts in the ",
+  "pubDate": "2026-11-20T14:30:03.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Coinbase's plan to offer in-house event contracts (prediction markets) is a crypto/finance business item with no AI model, research, policy, or OSS tooling angle; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Source: Coinbase is targeting H1 2027 to begin offering in-house event contracts in the US; it currently offers prediction markets through a Kalshi partnership — Coinbase Global Inc. is targeting the first half of 2027 to begin offering in-house event contracts in the ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p15#a261120p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T14:30:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
