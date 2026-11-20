@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "1818e9e10b0d2cb8",
+  "url": "https://www.techmeme.com/261120/p2#a261120p2",
+  "sourceName": "Techmeme",
+  "title": "BrightAI, which uses AI to help industrial companies detect malfunctioning equipment, raised $97M led by Smith Point, bringing its total funding to $184M (Maria Deutscher/SiliconANGLE)",
+  "summary": "Maria Deutscher / SiliconANGLE: BrightAI, which uses AI to help industrial companies detect malfunctioning equipment, raised $97M led by Smith Point, bringing its total funding to $184M — BrightAI Inc., a startup that helps industrial companies detect malfunctioning equipment, ha",
+  "pubDate": "2026-11-20T05:55:02.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Maria Deutscher / SiliconANGLE: BrightAI, which uses AI to help industrial companies detect malfunctioning equipment, raised $97M led by Smith Point, bringing its total funding to $184M — BrightAI Inc., a startup that helps industrial companies detect malfunctioning equipment, ha",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p2#a261120p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T05:55:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
