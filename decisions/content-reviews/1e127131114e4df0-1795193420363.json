@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "1e127131114e4df0",
+  "url": "https://www.techmeme.com/261120/p18#a261120p18",
+  "sourceName": "Techmeme",
+  "title": "Filings: Jensen Huang's charity committed $350M to rent compute from CoreWeave for its Computing Initiative for Open Science, and has already spent $108.3M (Bloomberg)",
+  "summary": "Bloomberg: Filings: Jensen Huang's charity committed $350M to rent compute from CoreWeave for its Computing Initiative for Open Science, and has already spent $108.3M — Former Nvidia Corp. Chief Executive Officer Jensen Huang's charitable foundation plans to spend $350 million re",
+  "pubDate": "2026-11-20T15:30:00.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Reports an AI industry business/finance event: Jensen Huang's charity committing $350M to rent compute from CoreWeave, with filings detail, covered by Bloomberg via Techmeme — a business deal with a reputable media report link.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Filings: Jensen Huang's charity committed $350M to rent compute from CoreWeave for its Computing Initiative for Open Science, and has already spent $108.3M — Former Nvidia Corp. Chief Executive Officer Jensen Huang's charitable foundation plans to spend $350 million re",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p18#a261120p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T15:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
