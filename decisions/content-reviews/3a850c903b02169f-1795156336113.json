@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "3a850c903b02169f",
+  "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+  "sourceName": "TechCrunch AI",
+  "title": "Google gives Gemini the ability to use your Mac for you",
+  "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+  "pubDate": "2026-11-19T18:09:11.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Gemini named with a new agentic capability, but the link is a TechCrunch article (not Google's own domain) and no named author is observed (linked_page_author not observed), so rule 1-1's evidence-link condition is unmet.",
+  "evidenceStatus": "needs_verification",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-19T18:09:11.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
