@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "4efc51a9cb647c94",
+  "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+  "sourceName": "Hacker News Front Page",
+  "title": "I'll never buy Framework hardware again",
+  "summary": "Article URL: https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/ Comments URL: https://news.ycombinator.com/item?id=50576855 Points: 102 # Comments: 26",
+  "pubDate": "2026-11-20T16:06:30.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a consumer hardware complaint about Framework laptops; no AI model release, research, industry business event, policy action, or OSS AI tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/ Comments URL: https://news.ycombinator.com/item?id=50576855 Points: 102 # Comments: 26",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+    "linkHost": "poolp.org",
+    "pubDate": "2026-11-20T16:06:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
