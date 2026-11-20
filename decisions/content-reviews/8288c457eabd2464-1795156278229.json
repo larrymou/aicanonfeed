@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "8288c457eabd2464",
+  "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+  "sourceName": "TechCrunch AI",
+  "title": "Apple may be developing its own AI agent that runs your Mac",
+  "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+  "pubDate": "2026-11-20T00:56:01.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Rumor report that Apple 'may be developing' an AI agent: no named model, no release action, no official owner announcement, and not a business event (financing/M&A/partnership/product launch). No active rule covers this speculative news item.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+    "summaryChars": 127,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-20T00:56:01.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
