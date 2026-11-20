@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795193395582-xff1rm",
+  "urlHash": "02b09dc053eb7656",
+  "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+  "sourceName": "Wired AI",
+  "title": "Regular Tech Bros Are Worried About Honeypots",
+  "summary": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+  "pubDate": "2026-11-20T11:00:00.000Z",
+  "decidedAt": "2026-11-20T16:50:01.504Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a lifestyle/social commentary piece about dating anxieties among tech workers; it reports no AI model release, research result, industry business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+    "summaryChars": 108,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-20T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
