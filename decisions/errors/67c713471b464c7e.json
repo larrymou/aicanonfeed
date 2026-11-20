@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "67c713471b464c7e",
+  "url": "https://arxiv.org/abs/2611.23322",
+  "sourceName": "arXiv cs.AI",
+  "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+  "summary": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining gu",
+  "pubDate": "2026-11-20T05:00:00.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining gu",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2611.23322",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-20T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
