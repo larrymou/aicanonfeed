@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "907988838b26cb0f",
+  "url": "https://ethanlowman.com/posts/jj-primer/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jujutsu Primer",
+  "summary": "Article URL: https://ethanlowman.com/posts/jj-primer/ Comments URL: https://news.ycombinator.com/item?id=50570628 Points: 4 # Comments: 0",
+  "pubDate": "2026-11-20T05:46:01.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A 'Jujutsu Primer' article about a version control system; no AI model release, research artifact, business event, policy action, or open-source AI tool is indicated in the available fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ethanlowman.com/posts/jj-primer/ Comments URL: https://news.ycombinator.com/item?id=50570628 Points: 4 # Comments: 0",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://ethanlowman.com/posts/jj-primer/",
+    "linkHost": "ethanlowman.com",
+    "pubDate": "2026-11-20T05:46:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
