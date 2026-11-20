@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795156223489-bezh9a",
+  "urlHash": "fec354b70a63914f",
+  "url": "https://www.techmeme.com/261120/p1#a261120p1",
+  "sourceName": "Techmeme",
+  "title": "Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+ (William Sandlund/Financial Times)",
+  "summary": "William Sandlund / Financial Times: Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+ — Asia's markets follow Wall Street lower despite Claude AI maker's record listing — Technol",
+  "pubDate": "2026-11-20T05:45:01.000Z",
+  "decidedAt": "2026-11-20T06:30:30.094Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "William Sandlund / Financial Times: Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+ — Asia's markets follow Wall Street lower despite Claude AI maker's record listing — Technol",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p1#a261120p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T05:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
