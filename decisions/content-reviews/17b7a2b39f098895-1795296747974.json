@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "17b7a2b39f098895",
+  "url": "https://openai.com/business/learn/pr-scans-demo",
+  "sourceName": "OpenAI Blog",
+  "title": "See PR scans in action",
+  "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+  "pubDate": "2026-11-19T00:00:00.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Demo walkthrough of PR scans, a proprietary product feature. No named model release, research artifact, business event, or policy action, and not open-source tooling; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+    "summaryChars": 106,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/learn/pr-scans-demo",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-19T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
