@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "8145fefb47ff1ca9",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "sourceName": "OpenAI Blog",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+  "pubDate": "2026-11-20T00:00:00.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer story about Hebbia's prerelease testing of GPT-6 Astra; it does not announce availability of a new model, major version, or new capability (rule 1-1 unmet), and it is not a financing, M&A, partnership, or market data event (rule 3-1). No research artifact, policy action, or OSS release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/customer-stories/hebbia",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
