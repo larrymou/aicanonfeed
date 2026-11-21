@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "c558cb54b4c1334c",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.17-rc4",
+  "summary": "Merge remote-tracking branch 'upstream/main' into release_v0.40.17",
+  "pubDate": "2026-11-20T23:04:26.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Only a release-candidate tag (v0.40.17-rc4) with a merge-commit summary; no release notes, new tool/framework launch, or capability details are observed, so a substantive OSS tool release under tools-oss cannot be established.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Merge remote-tracking branch 'upstream/main' into release_v0.40.17",
+    "summaryChars": 66,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-20T23:04:26.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
