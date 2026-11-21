@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "75849af9873330dd",
+  "url": "https://borretti.me/article/re-riemann",
+  "sourceName": "Hacker News Front Page",
+  "title": "Re: Riemann",
+  "summary": "Article URL: https://borretti.me/article/re-riemann Comments URL: https://news.ycombinator.com/item?id=50583982 Points: 85 # Comments: 59",
+  "pubDate": "2026-11-20T23:42:44.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary show a math essay ('Re: Riemann') on borretti.me with no AI model, research paper/benchmark artifact, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://borretti.me/article/re-riemann Comments URL: https://news.ycombinator.com/item?id=50583982 Points: 85 # Comments: 59",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://borretti.me/article/re-riemann",
+    "linkHost": "borretti.me",
+    "pubDate": "2026-11-20T23:42:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
