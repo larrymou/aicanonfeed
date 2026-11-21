@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "fc059eec5b023eb8",
+  "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+  "sourceName": "TechCrunch AI",
+  "title": "Chips can survive the space environment — can their financing?",
+  "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+  "pubDate": "2026-11-20T17:40:01.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers financing risk for space-grade chips/data centers; title and summary establish no AI model, research, policy, OSS tooling, or clearly AI industry business event, so no active rule's conditions are met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-20T17:40:01.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
