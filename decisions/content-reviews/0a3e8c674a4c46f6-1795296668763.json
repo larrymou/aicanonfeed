@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "0a3e8c674a4c46f6",
+  "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+  "sourceName": "The Verge AI",
+  "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+  "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. ",
+  "pubDate": "2026-11-21T14:00:00.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Chess.com expanding into classic games (mahjong, sudoku, etc.) is a consumer gaming product update with no AI model release, research artifact, AI business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-21T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
