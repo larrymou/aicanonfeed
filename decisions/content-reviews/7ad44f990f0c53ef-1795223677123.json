@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "7ad44f990f0c53ef",
+  "url": "https://openai.com/index/combatting-adversarial-distillation",
+  "sourceName": "OpenAI Blog",
+  "title": "Combatting adversarial distillation",
+  "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+  "pubDate": "2026-11-20T10:00:00.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes OpenAI's safeguards/detection/enforcement approach to adversarial distillation; it is not a model release, research artifact, business event, policy action, or OSS tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/combatting-adversarial-distillation",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-20T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
