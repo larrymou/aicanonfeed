@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "b8606c68272e2ff2",
+  "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "RCE in Gnupg",
+  "summary": "Article URL: https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html Comments URL: https://news.ycombinator.com/item?id=50587208 Points: 43 # Comments: 3",
+  "pubDate": "2026-11-21T08:32:58.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a GnuPG security advisory (RCE disclosure), not an AI model release, AI research artifact, industry business event, policy action, or open-source AI tool/framework release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html Comments URL: https://news.ycombinator.com/item?id=50587208 Points: 43 # Comments: 3",
+    "summaryChars": 165,
+    "summarySource": "summary",
+    "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+    "linkHost": "lists.gnupg.org",
+    "pubDate": "2026-11-21T08:32:58.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
