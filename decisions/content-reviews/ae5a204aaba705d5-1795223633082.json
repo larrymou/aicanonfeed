@@ -1,0 +1,46 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "ae5a204aaba705d5",
+  "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+  "sourceName": "Ars Technica AI",
+  "title": "Google rolls out new search homepage with AI chat history and no search button",
+  "summary": "Google search is making it even easier to access AI tools on the search page.",
+  "pubDate": "2026-11-20T21:58:29.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Google search homepage redesign with AI chat history and no search button is a UI/product-feature update. No named model or new model capability (R1-1 excludes UI features), no research artifact, no policy action, no OSS tool, no financing/M&A/partnership/market data or product launch; media-only, n",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName",
+    "linked_page_owner_domain",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Google search is making it even easier to access AI tools on the search page.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-20T21:58:29.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
