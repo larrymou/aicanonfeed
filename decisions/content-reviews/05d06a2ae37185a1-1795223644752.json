@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "05d06a2ae37185a1",
+  "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+  "sourceName": "TechCrunch AI",
+  "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+  "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+  "pubDate": "2026-11-20T19:53:41.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a fusion power startup funding round; AI researcher is only incidental. Not an AI model release, research artifact, AI industry business event, AI policy action, or open-source AI tool, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-20T19:53:41.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
