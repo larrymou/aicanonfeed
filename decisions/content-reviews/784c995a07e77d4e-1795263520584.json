@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "784c995a07e77d4e",
+  "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Surprisingly Adorable Insect Portraits",
+  "summary": "Article URL: https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/ Comments URL: https://news.ycombinator.com/item?id=50586648 Points: 60 # Comments: 13",
+  "pubDate": "2026-11-21T06:44:14.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a photography article about insect portraits with no AI model, research, industry, policy, or OSS tooling content; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/ Comments URL: https://news.ycombinator.com/item?id=50586648 Points: 60 # Comments: 13",
+    "summaryChars": 218,
+    "summarySource": "summary",
+    "link": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
+    "linkHost": "amateurphotographer.com",
+    "pubDate": "2026-11-21T06:44:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
