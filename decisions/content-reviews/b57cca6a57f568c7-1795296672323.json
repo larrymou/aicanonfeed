@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "b57cca6a57f568c7",
+  "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+  "sourceName": "Wired AI",
+  "title": "The Outages Are Just Getting Started",
+  "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+  "pubDate": "2026-11-21T13:00:00.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary on internet outages and vulnerability patching; no named model release, research artifact, business event, policy action, or OSS tool launch. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-21T13:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
