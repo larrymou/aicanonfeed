@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "4e6bc391c618a510",
+  "url": "https://www.alcf.anl.gov/news/exascale-fusion-simulation-team-named-finalist-2026-gordon-bell-prize",
+  "sourceName": "Hacker News Front Page",
+  "title": "Exascale fusion simulation team named finalist for 2026 Gordon Bell Prize",
+  "summary": "Article URL: https://www.alcf.anl.gov/news/exascale-fusion-simulation-team-named-finalist-2026-gordon-bell-prize Comments URL: https://news.ycombinator.com/item?id=50587205 Points: 5 # Comments: 0",
+  "pubDate": "2026-11-21T08:32:34.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns an exascale fusion simulation team's Gordon Bell Prize finalist nomination; no AI model release, AI research artifact, AI business event, policy action, or open-source AI tooling is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.alcf.anl.gov/news/exascale-fusion-simulation-team-named-finalist-2026-gordon-bell-prize Comments URL: https://news.ycombinator.com/item?id=50587205 Points: 5 # Comments: 0",
+    "summaryChars": 196,
+    "summarySource": "summary",
+    "link": "https://www.alcf.anl.gov/news/exascale-fusion-simulation-team-named-finalist-2026-gordon-bell-prize",
+    "linkHost": "www.alcf.anl.gov",
+    "pubDate": "2026-11-21T08:32:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
