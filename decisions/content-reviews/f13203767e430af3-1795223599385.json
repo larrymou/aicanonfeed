@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "f13203767e430af3",
+  "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+  "sourceName": "Wired AI",
+  "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+  "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+  "pubDate": "2026-11-20T23:24:02.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a culture/gaming story about police departments using GTA 6 to recruit; it reports no AI model release, research artifact, AI business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+    "summaryChars": 182,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-20T23:24:02.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
