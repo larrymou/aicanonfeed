@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "57a4967972a820c2",
+  "url": "https://www.techmeme.com/261121/p8#a261121p8",
+  "sourceName": "Techmeme",
+  "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
+  "summary": "Financial Times: Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week — Acquisition would help AWS compete with Nvidia in race for computing power — Amazon is nearing a $7.5bn deal to ",
+  "pubDate": "2026-11-21T17:55:01.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week — Acquisition would help AWS compete with Nvidia in race for computing power — Amazon is nearing a $7.5bn deal to ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261121/p8#a261121p8",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-21T17:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
