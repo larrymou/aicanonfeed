@@ -1,18 +1,22 @@
 {
-  "runId": "run-1795263493302-0vf1mw",
+  "runId": "run-1795296625492-bf14oa",
   "urlHash": "b331a244d62b8fc8",
   "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
   "sourceName": "The Verge AI",
   "title": "Meta’s Muse Charm might cost $300",
   "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the ho",
   "pubDate": "2026-11-19T20:22:17.000Z",
-  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Item is a media report about rumored pricing of Meta's unreleased Muse Charm gadget. No named AI model release (R1), no research artifact (R2); it is not a product launch, financing, M&A, partnership, or market/revenue data (R3), and not a policy action or open-source tool.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the ho",
