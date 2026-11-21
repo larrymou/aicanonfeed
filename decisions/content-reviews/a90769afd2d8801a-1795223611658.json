@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "a90769afd2d8801a",
+  "url": "https://www.techmeme.com/261120/p40#a261120p40",
+  "sourceName": "Techmeme",
+  "title": "Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation in August (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation in August — The new financing would represent a nearly 20% increase from its August valuation — Databricks is in early",
+  "pubDate": "2026-11-20T23:05:04.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports AI industry financing: Databricks in early talks to raise several billion dollars at ~$225B valuation, cited to WSJ via Techmeme, a reputable media report. Matches industry rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation in August — The new financing would represent a nearly 20% increase from its August valuation — Databricks is in early",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p40#a261120p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T23:05:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
