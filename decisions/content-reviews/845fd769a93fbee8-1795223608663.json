@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "845fd769a93fbee8",
+  "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+  "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform tea",
+  "pubDate": "2026-11-20T23:07:03.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes managed cluster extensions for observability/user management in SageMaker HyperPod Slurm — an infrastructure/platform feature, not a named model release, research artifact, business event, policy action, or open-source tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform tea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-20T23:07:03.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
