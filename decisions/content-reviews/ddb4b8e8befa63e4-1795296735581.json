@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "ddb4b8e8befa63e4",
+  "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+  "sourceName": "TechCrunch AI",
+  "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+  "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+  "pubDate": "2026-11-19T14:54:39.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch report on Anthropic's IPO and its compute/financing arrangements with Amazon and Google is an AI industry business/financing event, covered by a reputable media report on techcrunch.com; not a model release or research artifact.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+    "summaryChars": 200,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-19T14:54:39.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
