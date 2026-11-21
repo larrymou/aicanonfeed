@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "e1c97d950edb3018",
+  "url": "https://ninlive.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "NINLIVE: The Nine Inch Nails live archive",
+  "summary": "Article URL: https://ninlive.com/ Comments URL: https://news.ycombinator.com/item?id=50583274 Points: 95 # Comments: 22",
+  "pubDate": "2026-11-20T22:30:47.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Nine Inch Nails live music archive site on Hacker News; it is not an AI model release, research paper, industry business event, policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://ninlive.com/ Comments URL: https://news.ycombinator.com/item?id=50583274 Points: 95 # Comments: 22",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://ninlive.com/",
+    "linkHost": "ninlive.com",
+    "pubDate": "2026-11-20T22:30:47.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
