@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "27d2ebc6b6a24776",
+  "url": "https://www.techmeme.com/261120/p43#a261120p43",
+  "sourceName": "Techmeme",
+  "title": "Oracle says it has secured funding for its infrastructure contract with OpenAI and \"any further private discussions with vendors are just additional options\" (@oracle)",
+  "summary": "@oracle: Oracle says it has secured funding for its infrastructure contract with OpenAI and “any further private discussions with vendors are just additional options” — Oracle has secured all the funding we need to fulfill our contract with OpenAI. With our final capital raise ea",
+  "pubDate": "2026-11-21T00:25:00.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Oracle's statement that it secured funding for its OpenAI infrastructure contract is an AI industry business/financing event, reported via Techmeme, a reputable media source.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "@oracle: Oracle says it has secured funding for its infrastructure contract with OpenAI and “any further private discussions with vendors are just additional options” — Oracle has secured all the funding we need to fulfill our contract with OpenAI. With our final capital raise ea",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p43#a261120p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-21T00:25:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
