@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "2f13222f29d708b5",
+  "url": "https://www.techmeme.com/261120/p41#a261120p41",
+  "sourceName": "Techmeme",
+  "title": "Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers — Bankers have been in contact with Walmart, Target, Kroger and other retailers about a potential ",
+  "pubDate": "2026-11-20T23:20:00.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a potential sale of Grubhub by Wonder, a food-delivery M&A story with no AI model, research, policy, or open-source tooling content; no active rule covers non-AI business news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers — Bankers have been in contact with Walmart, Target, Kroger and other retailers about a potential ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p41#a261120p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T23:20:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
