@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "45d32c293712e4d9",
+  "url": "https://www.techmeme.com/261121/p4#a261121p4",
+  "sourceName": "Techmeme",
+  "title": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution (Peter Hall/Scientific American)",
+  "summary": "Peter Hall / Scientific American: NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution — Two months after getting scooped by OpenAI, N.Y.U. professor Tristan Buckmaster and Anthr",
+  "pubDate": "2026-11-21T06:30:00.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a new AI-aided research proof, but the only observed link is a Techmeme aggregation post referencing a Scientific American article, not the original paper or an official research source. Rule 2-1's link condition is therefore unmet, and no other rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Peter Hall / Scientific American: NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution — Two months after getting scooped by OpenAI, N.Y.U. professor Tristan Buckmaster and Anthr",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261121/p4#a261121p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-21T06:30:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
