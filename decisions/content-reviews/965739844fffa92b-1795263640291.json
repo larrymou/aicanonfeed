@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "965739844fffa92b",
+  "url": "https://spectrum.ieee.org/ai-agent-manager",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Meet Shepherd, the Meta-Agent Keeping Rogue AI In Check",
+  "summary": "AI agents are running amok on the internet, armed with commands to accomplish certain tasks but often acting in undesirable or unexpected ways. These rogue incidents run the gamut from deleting an entire email inbox to hacking websites and even launching cyberattacks. Much like h",
+  "pubDate": "2026-11-19T15:00:03.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "IEEE Spectrum feature on an agent-supervising 'meta-agent'; the link is a media article, not a paper or official owner announcement. No named model release, no research artifact, no business event, no OSS repo/announcement, and no policy action — no rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI agents are running amok on the internet, armed with commands to accomplish certain tasks but often acting in undesirable or unexpected ways. These rogue incidents run the gamut from deleting an entire email inbox to hacking websites and even launching cyberattacks. Much like h",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/ai-agent-manager",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-19T15:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
