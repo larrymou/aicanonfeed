@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "9342dbf934e428aa",
+  "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+  "sourceName": "OpenAI Blog",
+  "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+  "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+  "pubDate": "2026-11-19T08:00:00.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Engineering blog about OpenAI's internal 'Performance Factory' infrastructure for optimizing ChatGPT speed. No new model/version/capability (1-1), no research artifact (2-1), no business event (3-1), no policy action (4-1), and no open-source tool release (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+    "summaryChars": 150,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-19T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
