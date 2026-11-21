@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "b01afd6d4fc55692",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+  "sourceName": "Ollama releases",
+  "title": "v0.40.17-rc3",
+  "summary": "mlxrunner: add Inkling 2 Mini",
+  "pubDate": "2026-11-20T18:37:07.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "mlxrunner: add Inkling 2 Mini",
+    "summaryChars": 29,
+    "summarySource": "summary",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-20T18:37:07.000Z",
+    "sourceName": "Ollama releases",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
