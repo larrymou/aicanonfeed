@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "85d0c5a4a983edfb",
+  "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+  "sourceName": "Ars Technica AI",
+  "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+  "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+  "pubDate": "2026-11-20T21:47:10.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Meta re-evaluating its 2030 net-zero sustainability goal due to AI data center emissions. It is not a model release, research artifact, business event (financing/M&A/partnership/revenue product), government policy action, or OSS tool release; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+    "summaryChars": 70,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-20T21:47:10.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
