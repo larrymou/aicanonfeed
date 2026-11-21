@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "3afdf5a7b1a6fd8a",
+  "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+  "sourceName": "The Verge AI",
+  "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+  "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers",
+  "pubDate": "2026-11-20T18:50:19.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-20T18:50:19.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
