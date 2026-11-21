@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "c1a2af93db54bfcf",
+  "url": "https://openai.com/index/introducing-medchembench",
+  "sourceName": "OpenAI Blog",
+  "title": "Can AI help scientists identify promising drug candidates?",
+  "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+  "pubDate": "2026-11-20T00:00:00.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+    "summaryChars": 154,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-medchembench",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
