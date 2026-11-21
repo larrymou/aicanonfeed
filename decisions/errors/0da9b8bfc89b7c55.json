@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "0da9b8bfc89b7c55",
+  "url": "https://www.techmeme.com/261120/p42#a261120p42",
+  "sourceName": "Techmeme",
+  "title": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom (George Steer/Financial Times)",
+  "summary": "George Steer / Financial Times: Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom — Shares in Anthropic and Nvidia tumble as fears over the AI spending boom grip Wall Str",
+  "pubDate": "2026-11-20T23:50:00.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "George Steer / Financial Times: Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom — Shares in Anthropic and Nvidia tumble as fears over the AI spending boom grip Wall Str",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p42#a261120p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T23:50:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
