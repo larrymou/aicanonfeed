@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "8d51b5dc2d971877",
+  "url": "https://www.techmeme.com/261121/p9#a261121p9",
+  "sourceName": "Techmeme",
+  "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China (Financial Times)",
+  "summary": "Financial Times: Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the luc",
+  "pubDate": "2026-11-21T18:55:01.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Financial Times investigation into an individual's shell-company network allegedly moving Nvidia chips to China. Not a model release, research artifact, enumerated industry business event (financing/M&A/partnership/market data/product launch), official policy action, or OSS tool release. No rule cov",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the luc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261121/p9#a261121p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-21T18:55:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
