@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795263493302-0vf1mw",
+  "urlHash": "859d9bb59e13136f",
+  "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+  "sourceName": "Hacker News Front Page",
+  "title": "FBI reportedly investigating apparent hack of its criminal database",
+  "summary": "Article URL: https://www.bbc.com/news/articles/cvze7de86pk3o Comments URL: https://news.ycombinator.com/item?id=50587859 Points: 39 # Comments: 10",
+  "pubDate": "2026-11-21T10:33:57.000Z",
+  "decidedAt": "2026-11-21T12:18:23.191Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Cybersecurity news about an FBI database hack; no AI model, research artifact, AI business event, AI policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.bbc.com/news/articles/cvze7de86pk3o Comments URL: https://news.ycombinator.com/item?id=50587859 Points: 39 # Comments: 10",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+    "linkHost": "www.bbc.com",
+    "pubDate": "2026-11-21T10:33:57.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
