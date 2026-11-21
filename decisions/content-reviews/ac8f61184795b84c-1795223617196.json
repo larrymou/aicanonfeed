@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795223556197-8382sl",
+  "urlHash": "ac8f61184795b84c",
+  "url": "https://www.techmeme.com/261120/p39#a261120p39",
+  "sourceName": "Techmeme",
+  "title": "Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to \"geopolitical risk\"; Cursor's Composer 2 was built on Kimi K2.5 (Kai Nicol-Schwarz/CNBC)",
+  "summary": "Kai Nicol-Schwarz / CNBC: Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to “geopolitical risk”; Cursor's Composer 2 was built on Kimi K2.5 — SpaceX's artificial-intelligence coding platform, Cursor, is considering moving away from using of",
+  "pubDate": "2026-11-20T23:00:01.000Z",
+  "decidedAt": "2026-11-21T01:12:44.580Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Cursor telling lawmakers it may phase out Chinese open-weight models due to geopolitical risk. No model release (1-1), no research artifact (2-1), no financing/M&A/partnership/market data/non-model product launch (3-1), and no government policy action (4-1); no OSS tool (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Kai Nicol-Schwarz / CNBC: Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to “geopolitical risk”; Cursor's Composer 2 was built on Kimi K2.5 — SpaceX's artificial-intelligence coding platform, Cursor, is considering moving away from using of",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261120/p39#a261120p39",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-20T23:00:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
