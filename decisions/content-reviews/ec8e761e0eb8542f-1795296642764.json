@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795296625492-bf14oa",
+  "urlHash": "ec8e761e0eb8542f",
+  "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+  "sourceName": "The Verge AI",
+  "title": "The UN fails to agree on rules regulating ‘killer robots’",
+  "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitl",
+  "pubDate": "2026-11-21T20:03:37.000Z",
+  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports UN diplomats failing to agree on autonomous-weapons rules and only agreeing to 'start discussing options'. No new law, regulation, enforcement action, or official policy announcement occurred, so rule 4-1's policy-action condition is unmet; it is process commentary, not a policy action.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-21T20:03:37.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
