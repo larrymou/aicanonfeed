@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "31dbae397b46d6b3",
+  "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+  "sourceName": "Hacker News Front Page",
+  "title": "Together.ai: Prompt Leakage for Requests",
+  "summary": "Article URL: https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026 Comments URL: https://news.ycombinator.com/item?id=50595816 Points: 11 # Comments: 4",
+  "pubDate": "2026-11-22T03:07:27.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Together.ai security incident disclosure about prompt leakage; not a model release, research result, business event (financing/M&A/partnership/revenue/product launch), policy action, or open-source tooling release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026 Comments URL: https://news.ycombinator.com/item?id=50595816 Points: 11 # Comments: 4",
+    "summaryChars": 194,
+    "summarySource": "summary",
+    "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+    "linkHost": "www.together.ai",
+    "pubDate": "2026-11-22T03:07:27.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
