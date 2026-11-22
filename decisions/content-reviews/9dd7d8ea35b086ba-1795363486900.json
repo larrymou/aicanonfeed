@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "9dd7d8ea35b086ba",
+  "url": "https://www.techmeme.com/261122/p3#a261122p3",
+  "sourceName": "Techmeme",
+  "title": "A joint statement by the Lean and Mathlib communities says \"we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct\" (Lean community blog)",
+  "summary": "Lean community blog: A joint statement by the Lean and Mathlib communities says “we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct” — Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative.",
+  "pubDate": "2026-11-22T06:00:02.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a community statement of confidence in a math proof, not an AI model release, AI research artifact, industry event, policy action, or OSS tool launch. The link is a Techmeme aggregation page (linkHost www.techmeme.com), not an original paper, repo, or official announcement; no named author o",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Lean community blog: A joint statement by the Lean and Mathlib communities says “we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct” — Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative.",
+    "summaryChars": 270,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p3#a261122p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T06:00:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
