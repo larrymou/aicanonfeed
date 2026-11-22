@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "7289e21f33e265e9",
+  "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+  "sourceName": "TechCrunch AI",
+  "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+  "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+  "pubDate": "2026-11-21T21:37:10.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Signal limiting screenshots is a messaging app UI/product feature change, not an AI model release, research artifact, AI business event (financing/M&A/partnership/market data/product launch), policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+    "summaryChars": 87,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-21T21:37:10.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
