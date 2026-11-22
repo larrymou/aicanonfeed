@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "68ddb817fe4001c0",
+  "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+  "sourceName": "OpenAI Blog",
+  "title": "Advancing chip design with OpenAI models",
+  "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+  "pubDate": "2026-11-18T00:00:00.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item describes applying OpenAI models to chip design, not announcing a model release, research paper, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
