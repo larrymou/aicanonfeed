@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "00c0f79701b234bc",
+  "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+  "sourceName": "Wired AI",
+  "title": "Banks Have Had It Up to Here With Your AI Agent",
+  "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+  "pubDate": "2026-11-22T11:00:00.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired report on banks blocking third-party AI agents from account access. Not a named model release, research paper, financing/M&A/partnership/market data/non-model launch, government policy action, or open-source tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+    "summaryChars": 160,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-22T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
