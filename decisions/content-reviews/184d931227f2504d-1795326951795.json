@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "184d931227f2504d",
+  "url": "https://openai.com/index/the-silent-consensus",
+  "sourceName": "OpenAI Blog",
+  "title": "The Silent Consensus",
+  "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+  "pubDate": "2026-11-18T10:00:00.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Essay/commentary on how capable AI could reshape society. No named model release, no research artifact, no business/policy event, and no open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/the-silent-consensus",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-18T10:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
