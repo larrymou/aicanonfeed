@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "5cc527f63b1854a4",
+  "url": "https://www.techmeme.com/261122/p5#a261122p5",
+  "sourceName": "Techmeme",
+  "title": "Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips (New York Times)",
+  "summary": "New York Times: Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips — China's espionage agency has been running a secret campaign to help the country's companies acquire adv",
+  "pubDate": "2026-11-22T07:00:41.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Report on Chinese MSS espionage campaign to help companies acquire advanced AI chips. Not a model release, research artifact, business event (financing/M&A/partnership/product), open-source tool, or AI policy/regulation action. Link is a Techmeme aggregator page, not an official document or full art",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips — China's espionage agency has been running a secret campaign to help the country's companies acquire adv",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p5#a261122p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T07:00:41.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
