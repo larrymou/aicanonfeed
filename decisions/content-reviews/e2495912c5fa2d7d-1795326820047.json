@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "e2495912c5fa2d7d",
+  "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+  "summary": "Article URL: https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/ Comments URL: https://news.ycombinator.com/item?id=50596133 Points: 158 # Comments: 80",
+  "pubDate": "2026-11-22T04:04:56.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Automotive parts standardization news (Toyota/Nissan/Honda); no AI model, research, AI industry, policy, or OSS tooling content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/ Comments URL: https://news.ycombinator.com/item?id=50596133 Points: 158 # Comments: 80",
+    "summaryChars": 194,
+    "summarySource": "summary",
+    "link": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+    "linkHost": "www.caranddriver.com",
+    "pubDate": "2026-11-22T04:04:56.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
