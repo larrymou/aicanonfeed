@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "da30645137037f00",
+  "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+  "sourceName": "OpenAI Blog",
+  "title": "Get started with Daybreak Blue",
+  "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+  "pubDate": "2026-11-19T00:00:00.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is an onboarding walkthrough video for 'Daybreak Blue'; it names no specific AI model or capability release, reports no research, business event, policy action, or open-source tool, so no rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+    "summaryChars": 118,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-19T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
