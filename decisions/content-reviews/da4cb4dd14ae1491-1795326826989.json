@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "da4cb4dd14ae1491",
+  "url": "https://www.iseecars.com/most-popular-car-colors-study",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Most Popular Car Colors in America",
+  "summary": "Article URL: https://www.iseecars.com/most-popular-car-colors-study Comments URL: https://news.ycombinator.com/item?id=50595725 Points: 14 # Comments: 20",
+  "pubDate": "2026-11-22T02:47:18.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a study of popular car colors; it is not an AI model release, research result, industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.iseecars.com/most-popular-car-colors-study Comments URL: https://news.ycombinator.com/item?id=50595725 Points: 14 # Comments: 20",
+    "summaryChars": 153,
+    "summarySource": "summary",
+    "link": "https://www.iseecars.com/most-popular-car-colors-study",
+    "linkHost": "www.iseecars.com",
+    "pubDate": "2026-11-22T02:47:18.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
