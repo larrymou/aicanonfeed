@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "5f0922b6c4bbb382",
+  "url": "https://www.techmeme.com/261122/p1#a261122p1",
+  "sourceName": "Techmeme",
+  "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China (Stu Woo/Wall Street Journal)",
+  "summary": "Stu Woo / Wall Street Journal: Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China — Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner — S",
+  "pubDate": "2026-11-22T05:45:01.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a media report on alleged AI-chip smuggling and a fraud case, not a model release, research result, business event (financing/M&A/partnership/product), official policy action, or OSS tool launch. No active rule covers crime/enforcement news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Stu Woo / Wall Street Journal: Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China — Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner — S",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p1#a261122p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T05:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
