@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "a23c1d39add00a44",
+  "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+  "sourceName": "Hacker News Front Page",
+  "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+  "summary": "Article URL: https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html Comments URL: https://news.ycombinator.com/item?id=50600677 Points: 3 # Comments:",
+  "pubDate": "2026-11-22T15:42:40.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about EU chemical regulation and health science, not an AI model release, AI research artifact, AI industry business event, AI policy action, or AI open-source tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html Comments URL: https://news.ycombinator.com/item?id=50600677 Points: 3 # Comments:",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+    "linkHost": "www.lemonde.fr",
+    "pubDate": "2026-11-22T15:42:40.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
