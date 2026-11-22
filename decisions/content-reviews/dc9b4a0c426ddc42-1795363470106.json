@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "dc9b4a0c426ddc42",
+  "url": "https://simonwillison.net/2026/Nov/21/muru/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+  "summary": "Article URL: https://simonwillison.net/2026/Nov/21/muru/ Comments URL: https://news.ycombinator.com/item?id=50597959 Points: 35 # Comments: 6",
+  "pubDate": "2026-11-22T09:57:01.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title suggests an AI-assisted Rust server tool, but the only Content is an HN stub: no repository link, no confirmation the tool is open-source, and no model release, research artifact, business event, or policy action. No rule condition is met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://simonwillison.net/2026/Nov/21/muru/ Comments URL: https://news.ycombinator.com/item?id=50597959 Points: 35 # Comments: 6",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://simonwillison.net/2026/Nov/21/muru/",
+    "linkHost": "simonwillison.net",
+    "pubDate": "2026-11-22T09:57:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
