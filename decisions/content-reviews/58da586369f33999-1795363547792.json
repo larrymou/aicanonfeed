@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "58da586369f33999",
+  "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+  "sourceName": "OpenAI Blog",
+  "title": "Research acceleration: The jagged frontier",
+  "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+  "pubDate": "2026-11-18T08:00:00.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI blog analysis of how coding agents accelerate research; no named model release (R1-1), no paper/preprint/benchmark artifact link (R2-1), and no business, policy, or OSS tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+    "summaryChars": 159,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-18T08:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
