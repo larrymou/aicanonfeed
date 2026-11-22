@@ -1,18 +1,23 @@
 {
-  "runId": "run-1795296625492-bf14oa",
+  "runId": "run-1795326796912-abt6pw",
   "urlHash": "5a5c979144e9fcd2",
   "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
   "sourceName": "AWS Machine Learning Blog",
   "title": "Use Kimi Code CLI with models on Amazon Bedrock",
   "summary": "Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider a",
   "pubDate": "2026-11-20T00:33:30.000Z",
-  "decidedAt": "2026-11-21T21:30:32.715Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5)",
+  "reason": "AWS how-to tutorial about configuring Kimi Code CLI v2.7.0 with Amazon Bedrock. It is not a new model release, research paper, business event, or policy action, and links to a third-party cloud blog rather than the tool's repository or official release announcement, so rule 5-1's link condition is u",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider a",
