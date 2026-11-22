@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795363430033-h1x6qk",
+  "urlHash": "00f8b201f181a02b",
+  "url": "https://www.techmeme.com/261122/p6#a261122p6",
+  "sourceName": "Techmeme",
+  "title": "Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly (Tom Wilson/Financial Times)",
+  "summary": "Tom Wilson / Financial Times: Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly — The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot us",
+  "pubDate": "2026-11-22T11:01:10.000Z",
+  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Techmeme summary of an FT piece on experts' commentary that AI speeds up planning of cyberattacks. No named model release, no research paper/benchmark artifact, no financing/M&A/partnership, no policy action, and no open-source tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tom Wilson / Financial Times: Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly — The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot us",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p6#a261122p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T11:01:10.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
