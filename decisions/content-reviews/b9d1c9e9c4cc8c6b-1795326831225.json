@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795326796912-abt6pw",
+  "urlHash": "b9d1c9e9c4cc8c6b",
+  "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Data Processing Incidents on Inference Providers",
+  "summary": "Article URL: https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/ Comments URL: https://news.ycombinator.com/item?id=50595554 Points: 71 # Comments: 29",
+  "pubDate": "2026-11-22T02:14:14.000Z",
+  "decidedAt": "2026-11-22T05:53:27.952Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post about data processing incidents on inference providers. Not a named model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/ Comments URL: https://news.ycombinator.com/item?id=50595554 Points: 71 # Comments: 29",
+    "summaryChars": 189,
+    "summarySource": "summary",
+    "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "linkHost": "openrouter.ai",
+    "pubDate": "2026-11-22T02:14:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
