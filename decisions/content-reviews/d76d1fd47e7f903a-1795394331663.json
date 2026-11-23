@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "d76d1fd47e7f903a",
+  "url": "https://0rwx.com/",
+  "sourceName": "Hacker News Front Page",
+  "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+  "summary": "Article URL: https://0rwx.com/ Comments URL: https://news.ycombinator.com/item?id=50605445 Points: 5 # Comments: 1",
+  "pubDate": "2026-11-22T23:53:00.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A personal essay/blog post presenting a conceptual 'model of AI usage' inspired by Unix permissions. It is not a named model release (R1), a paper/preprint or benchmark (R2), an industry business event (R3), a policy action (R4), or an open-source tool/framework release (R5).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://0rwx.com/ Comments URL: https://news.ycombinator.com/item?id=50605445 Points: 5 # Comments: 1",
+    "summaryChars": 114,
+    "summarySource": "summary",
+    "link": "https://0rwx.com/",
+    "linkHost": "0rwx.com",
+    "pubDate": "2026-11-22T23:53:00.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
