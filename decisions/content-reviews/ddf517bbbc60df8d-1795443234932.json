@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "ddf517bbbc60df8d",
+  "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+  "sourceName": "Wired AI",
+  "title": "Goodbye, World: The End of Programmers",
+  "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
+  "pubDate": "2026-11-23T10:00:00.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay about the craft of coding from Wired; no named model release, research artifact, business event, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
+    "summaryChars": 98,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-23T10:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
