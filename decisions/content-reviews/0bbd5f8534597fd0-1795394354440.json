@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "0bbd5f8534597fd0",
+  "url": "https://www.techmeme.com/261122/p10#a261122p10",
+  "sourceName": "Techmeme",
+  "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers (Alan Rappeport/New York Times)",
+  "summary": "Alan Rappeport / New York Times: A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers — The treasury secretary said on CBS that it was too soon to say if Jensen Huang should",
+  "pubDate": "2026-11-22T19:50:01.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Treasury secretary's televised comments urging probes of Nvidia's China chip sales are political commentary, not a new law, regulation, enforcement action, or official policy announcement; nor a model release, research artifact, business event, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alan Rappeport / New York Times: A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers — The treasury secretary said on CBS that it was too soon to say if Jensen Huang should",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p10#a261122p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T19:50:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
