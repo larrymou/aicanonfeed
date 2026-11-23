@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "46751abb305e5d0f",
+  "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+  "sourceName": "Wired AI",
+  "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+  "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
+  "pubDate": "2026-11-23T12:00:00.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired livestream Q&A announcement inviting audience questions on AI safety. No named model release, no research artifact/paper, no business event (financing, M&A, partnership, product launch), no policy/government action, and no open-source tool or developer resource.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
+    "summaryChars": 171,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-23T12:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
