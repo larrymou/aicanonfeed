@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "d497cc3428644548",
+  "url": "https://github.com/mikuta0407/win4wine",
+  "sourceName": "Hacker News Front Page",
+  "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+  "summary": "Article URL: https://github.com/mikuta0407/win4wine Comments URL: https://news.ycombinator.com/item?id=50610743 Points: 23 # Comments: 9",
+  "pubDate": "2026-11-23T12:28:11.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Win4wine is a Wine-based Windows shell compatibility project, not an AI model, research result, industry business event, policy action, or open-source AI tool. No rule covers non-AI software.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/mikuta0407/win4wine Comments URL: https://news.ycombinator.com/item?id=50610743 Points: 23 # Comments: 9",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://github.com/mikuta0407/win4wine",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-23T12:28:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
