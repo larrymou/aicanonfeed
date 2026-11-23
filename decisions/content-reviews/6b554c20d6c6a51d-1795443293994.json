@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "6b554c20d6c6a51d",
+  "url": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach",
+  "summary": "As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your",
+  "pubDate": "2026-11-19T18:48:55.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "How-to guidance on reducing Bedrock token spend with Accenture; not a named model release, research artifact, business event (financing/M&A/partnership/product launch), policy action, or open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-19T18:48:55.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
