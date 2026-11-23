@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "61d8127e693f0b0f",
+  "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+  "sourceName": "Hacker News Front Page",
+  "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+  "summary": "Article URL: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3 Comments URL: https://news.ycombinator.com/item?id=50605045 Points: 101 # Comments: 55",
+  "pubDate": "2026-11-22T23:12:10.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN link to a claude.ai artifact page showing a Lean formalization progress map. It is not a named model release, not a peer-reviewed/arXiv paper or official benchmark, not an industry business event, not a policy action, and not an OSS library/framework release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3 Comments URL: https://news.ycombinator.com/item?id=50605045 Points: 101 # Comments: 55",
+    "summaryChars": 149,
+    "summarySource": "summary",
+    "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+    "linkHost": "claude.ai",
+    "pubDate": "2026-11-22T23:12:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
