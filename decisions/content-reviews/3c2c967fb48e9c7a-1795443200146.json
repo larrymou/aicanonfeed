@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "3c2c967fb48e9c7a",
+  "url": "https://www.techmeme.com/261123/p18#a261123p18",
+  "sourceName": "Techmeme",
+  "title": "Q&A with Bret Taylor on his long career, co-founding Sierra, working with ex-Googlers, X's influence, AI call center agents, working as OpenAI chair, and more (Dom Cooke/Colossus)",
+  "summary": "Dom Cooke / Colossus: Q&A with Bret Taylor on his long career, co-founding Sierra, working with ex-Googlers, X's influence, AI call center agents, working as OpenAI chair, and more — A conversation with Bret Taylor, who has achieved nearly every feat in business except the one he",
+  "pubDate": "2026-11-23T13:10:00.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Q&A/interview with Bret Taylor covering career, Sierra, and AI call center agents. It reports no named model release, no research artifact, no financing/M&A/partnership/product launch, no policy action, and no OSS tool. No rule covers commentary interviews.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dom Cooke / Colossus: Q&A with Bret Taylor on his long career, co-founding Sierra, working with ex-Googlers, X's influence, AI call center agents, working as OpenAI chair, and more — A conversation with Bret Taylor, who has achieved nearly every feat in business except the one he",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p18#a261123p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-23T13:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
