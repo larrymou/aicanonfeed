@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "6e07216a8e04b80e",
+  "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+  "sourceName": "Wired AI",
+  "title": "States Sue SpaceX Over Grok Deepfakes",
+  "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+  "pubDate": "2026-11-23T11:00:00.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+    "summaryChars": 193,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-23T11:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
