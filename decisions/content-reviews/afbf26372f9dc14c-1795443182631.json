@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "afbf26372f9dc14c",
+  "url": "https://www.techmeme.com/261123/p21#a261123p21",
+  "sourceName": "Techmeme",
+  "title": "President Trump says Nvidia \"made the correct and proper decision\", the US \"needs Jensen's leadership\", and the US AG found no evidence of \"unlawful conduct\" (Donald J. Trump/@realDonaldTrump ...)",
+  "summary": "Donald J. Trump / @realDonaldTrump@truthsocial.com: President Trump says Nvidia “made the correct and proper decision”, the US “needs Jensen's leadership”, and the US AG found no evidence of “unlawful conduct” — The NVIDIA Board of Directors has made the correct and proper decisi",
+  "pubDate": "2026-11-23T14:11:52.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a presidential social-media comment praising Nvidia/Jensen Huang and relaying an AG finding; no named model release, research artifact, business deal, open-source tool, or official policy/regulatory document is linked (only a Techmeme post), so no rule's conditions are met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Donald J. Trump / @realDonaldTrump@truthsocial.com: President Trump says Nvidia “made the correct and proper decision”, the US “needs Jensen's leadership”, and the US AG found no evidence of “unlawful conduct” — The NVIDIA Board of Directors has made the correct and proper decisi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p21#a261123p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-23T14:11:52.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
