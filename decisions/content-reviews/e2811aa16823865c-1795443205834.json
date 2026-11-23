@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "e2811aa16823865c",
+  "url": "https://www.techmeme.com/261123/p17#a261123p17",
+  "sourceName": "Techmeme",
+  "title": "Arm CEO Rene Haas extends his contract through 2033 and will become SoftBank vice chair on December 1; a recruiting firm approached him over becoming Nvidia CEO (Bloomberg)",
+  "summary": "Bloomberg: Arm CEO Rene Haas extends his contract through 2033 and will become SoftBank vice chair on December 1; a recruiting firm approached him over becoming Nvidia CEO — Arm Holdings Plc Chief Executive Officer Rene Haas has pledged to stay in his current role through 2033, r",
+  "pubDate": "2026-11-23T12:30:02.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Executive personnel/contract news about Arm's CEO and a SoftBank vice chair role. Not a model release, research artifact, policy action, OSS tool, or one of the industry events listed in 3-1 (financing, M&A, partnerships, market/revenue data, non-model product launches).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Arm CEO Rene Haas extends his contract through 2033 and will become SoftBank vice chair on December 1; a recruiting firm approached him over becoming Nvidia CEO — Arm Holdings Plc Chief Executive Officer Rene Haas has pledged to stay in his current role through 2033, r",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p17#a261123p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-23T12:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
