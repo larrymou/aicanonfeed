@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "de0f31745cc5ebed",
+  "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The next circle of security hell",
+  "summary": "Article URL: https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/ Comments URL: https://news.ycombinator.com/item?id=50610334 Points: 68 # Comments: 29",
+  "pubDate": "2026-11-23T11:34:16.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog post titled 'The next circle of security hell' from a Gentoo developer blog; no named AI model, research paper/benchmark, industry business event, policy action, or open-source AI tool is evidenced. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/ Comments URL: https://news.ycombinator.com/item?id=50610334 Points: 68 # Comments: 29",
+    "summaryChars": 175,
+    "summarySource": "summary",
+    "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+    "linkHost": "blogs.gentoo.org",
+    "pubDate": "2026-11-23T11:34:16.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
