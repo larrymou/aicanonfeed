@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "ec44c275a2ceaace",
+  "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+  "sourceName": "AWS Machine Learning Blog",
+  "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
+  "summary": "Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven l",
+  "pubDate": "2026-11-19T19:53:32.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": true,
+  "categoryId": "model-releases",
+  "matchedRuleId": "1-1",
+  "reason": "AWS announcement names Amazon Polly and announces GA of a new voice cloning capability (custom voices on the generative engine), linked to the official aws.amazon.com blog — a new model capability from a named product owner.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven l",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+    "linkHost": "aws.amazon.com",
+    "pubDate": "2026-11-19T19:53:32.000Z",
+    "sourceName": "AWS Machine Learning Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
