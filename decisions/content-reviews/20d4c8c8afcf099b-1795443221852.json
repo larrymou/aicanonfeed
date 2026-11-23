@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "20d4c8c8afcf099b",
+  "url": "https://github.com/os6/nospeaker",
+  "sourceName": "Hacker News Front Page",
+  "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+  "summary": "Article URL: https://github.com/os6/nospeaker Comments URL: https://news.ycombinator.com/item?id=50610318 Points: 44 # Comments: 15",
+  "pubDate": "2026-11-23T11:31:54.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub project 'nospeaker' is a trackpad haptic-motor utility with no AI component; it is not an AI tool, framework, or developer resource, so rule 5-1 does not apply. No other rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/os6/nospeaker Comments URL: https://news.ycombinator.com/item?id=50610318 Points: 44 # Comments: 15",
+    "summaryChars": 131,
+    "summarySource": "summary",
+    "link": "https://github.com/os6/nospeaker",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-23T11:31:54.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
