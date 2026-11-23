@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "1a10f1676d46fc01",
+  "url": "https://openai.com/index/perplexity-and-intelligence",
+  "sourceName": "OpenAI Blog",
+  "title": "Perplexity and Intelligence",
+  "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+  "pubDate": "2026-11-22T00:00:00.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "OpenAI blog explainer on using perplexity to measure model progress. Not a named model release (R1), no research artifact/paper (R2), no business event (R3), no policy action (R4), and no open-source tool or repo (R5). No rule covers this commentary post.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/perplexity-and-intelligence",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-22T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
