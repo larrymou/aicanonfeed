@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "56ac6afaf3e0ff0b",
+  "url": "https://www.techmeme.com/261122/p12#a261122p12",
+  "sourceName": "Techmeme",
+  "title": "How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and \"Vision Quest\" talks, as Anthropic seeds his ideas with opinion-makers (Nitasha Tiku/Washington Post)",
+  "summary": "Nitasha Tiku / Washington Post: How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and “Vision Quest” talks, as Anthropic seeds his ideas with opinion-makers — Anthropic is worth more than $1 trillion. CEO Dario Amodei also wants to sell the world o",
+  "pubDate": "2026-11-22T23:20:08.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Profile/commentary piece on Dario Amodei's culture-building at Anthropic; no new model, research artifact, business event (financing/M&A/partnership), policy action, or OSS tool release. A valuation mention in a feature is not a reported business event, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nitasha Tiku / Washington Post: How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and “Vision Quest” talks, as Anthropic seeds his ideas with opinion-makers — Anthropic is worth more than $1 trillion. CEO Dario Amodei also wants to sell the world o",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p12#a261122p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T23:20:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
