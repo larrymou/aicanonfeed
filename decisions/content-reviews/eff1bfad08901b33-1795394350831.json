@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "eff1bfad08901b33",
+  "url": "https://www.techmeme.com/261122/p11#a261122p11",
+  "sourceName": "Techmeme",
+  "title": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for \"bumps in the road\" as systems are upgraded to adapt to the AI age (Garrett Downs/CNBC)",
+  "summary": "Garrett Downs / CNBC: After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age — Director of National Intelligence Jay Clayton warned Americans to prepare for “bumps in the road” …",
+  "pubDate": "2026-11-22T20:35:00.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Techmeme aggregation of a DNI official's commentary/warning about infrastructure 'bumps in the road' in the AI age. It reports no new law, executive order, regulatory enforcement, or official policy announcement, so R4-1 is unmet; no other rule covers commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Garrett Downs / CNBC: After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age — Director of National Intelligence Jay Clayton warned Americans to prepare for “bumps in the road” …",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p11#a261122p11",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T20:35:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
