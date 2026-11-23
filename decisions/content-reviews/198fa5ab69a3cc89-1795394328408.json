@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "198fa5ab69a3cc89",
+  "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Nespresso's project to reduce grams of coffee per capsule",
+  "summary": "Article URL: https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/ Comments URL: https://news.ycombinator.com/item?id=50605479 Points: 34 # Comments: 30",
+  "pubDate": "2026-11-22T23:57:45.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Nespresso coffee capsule project; no AI model release, research, industry, policy, or open-source tooling content, so no active rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/ Comments URL: https://news.ycombinator.com/item?id=50605479 Points: 34 # Comments: 30",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
+    "linkHost": "alvinbunk.wordpress.com",
+    "pubDate": "2026-11-22T23:57:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
