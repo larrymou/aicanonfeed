@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "9801813dc1e902bb",
+  "url": "https://www.techmeme.com/261123/p19#a261123p19",
+  "sourceName": "Techmeme",
+  "title": "Oregon and Virginia sue SpaceX, alleging Grok Imagine's \"spicy mode\" violated consumer laws by creating 1.8M+ sexualized images of women and 65+ of children (New York Times)",
+  "summary": "New York Times: Oregon and Virginia sue SpaceX, alleging Grok Imagine's “spicy mode” violated consumer laws by creating 1.8M+ sexualized images of women and 65+ of children — The states accused Elon Musk's company of violating consumer protection laws with its Grok Imagine artifi",
+  "pubDate": "2026-11-23T13:55:00.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Times: Oregon and Virginia sue SpaceX, alleging Grok Imagine's “spicy mode” violated consumer laws by creating 1.8M+ sexualized images of women and 65+ of children — The states accused Elon Musk's company of violating consumer protection laws with its Grok Imagine artifi",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p19#a261123p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-23T13:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
