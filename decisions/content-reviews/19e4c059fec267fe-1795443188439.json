@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "19e4c059fec267fe",
+  "url": "https://www.techmeme.com/261123/p20#a261123p20",
+  "sourceName": "Techmeme",
+  "title": "Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding \"no national security risk\"; NVDA jumps 30%+ (Nvidia Newsroom)",
+  "summary": "Nvidia Newsroom: Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding “no national security risk”; NVDA jumps 30%+ — SANTA CLARA, Calif., Nov. 23, 2026 NVIDIA (NASDAQ: NVDA) today announced that effective immediately …",
+  "pubDate": "2026-11-23T14:03:19.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Board reinstating Jensen Huang as CEO is a corporate governance/personnel event, not a model release, research artifact, policy action, OSS tool, or a listed industry event (financing, M&A, partnership, market/revenue data, non-model product launch). Link is a Techmeme aggregator page, not an owner ",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia Newsroom: Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding “no national security risk”; NVDA jumps 30%+ — SANTA CLARA, Calif., Nov. 23, 2026 NVIDIA (NASDAQ: NVDA) today announced that effective immediately …",
+    "summaryChars": 277,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p20#a261123p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-23T14:03:19.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
