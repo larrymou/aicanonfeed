@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795394311685-n1v71z",
+  "urlHash": "7d0024f934a7715d",
+  "url": "https://www.techmeme.com/261122/p9#a261122p9",
+  "sourceName": "Techmeme",
+  "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains (Jakub Pachocki/OpenAI)",
+  "summary": "Jakub Pachocki / OpenAI: OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains — - Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not ",
+  "pubDate": "2026-11-22T18:25:01.000Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No active rule covers this: it is OpenAI commentary/proposal about perplexity metrics and pacing limits, not a model release, research artifact, industry business event, policy action, or OSS tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jakub Pachocki / OpenAI: OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains — - Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261122/p9#a261122p9",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-22T18:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
