@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "04e5e033b7998e4f",
+  "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+  "sourceName": "TechCrunch AI",
+  "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+  "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+  "pubDate": "2026-11-23T01:25:53.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch report on venture financing — investors (Notable Capital, GIC, Baillie Gifford) backing Anthropic pre-IPO — is an AI industry business/financing event covered by a reputable media outlet.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+    "summaryChars": 87,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-23T01:25:53.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
