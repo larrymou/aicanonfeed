@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795443172394-k1p2rt",
+  "urlHash": "88f77e76b0ee1a3b",
+  "url": "https://github.com/ruairidhflint/news-blocklist",
+  "sourceName": "Hacker News Front Page",
+  "title": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
+  "summary": "A little while ago I built (vibed) a tiny Mac app to block websites via the hosts file. By default it imported some fairly popular adult filtering lists as well as social media etc. It has been very effective; it would only take a few moments to switch off but it is enough of an ",
+  "pubDate": "2026-11-23T13:02:52.000Z",
+  "decidedAt": "2026-11-23T14:12:57.125Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Show HN DNS blocklist of news sites is not an AI model release, research, industry business event, policy action, or AI open-source tool/framework. No active rule covers this non-AI utility.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A little while ago I built (vibed) a tiny Mac app to block websites via the hosts file. By default it imported some fairly popular adult filtering lists as well as social media etc. It has been very effective; it would only take a few moments to switch off but it is enough of an ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://github.com/ruairidhflint/news-blocklist",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-23T13:02:52.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
