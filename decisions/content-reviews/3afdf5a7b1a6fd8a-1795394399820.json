@@ -1,18 +1,23 @@
 {
-  "runId": "run-1795363430033-h1x6qk",
+  "runId": "run-1795394311685-n1v71z",
   "urlHash": "3afdf5a7b1a6fd8a",
   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
   "sourceName": "The Verge AI",
   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
   "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers",
   "pubDate": "2026-11-20T18:50:19.000Z",
-  "decidedAt": "2026-11-22T16:04:03.510Z",
+  "decidedAt": "2026-11-23T00:38:39.484Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "reason": "Item reports a presidential threat/promise to tax companies building AI data centers abroad. Rule 4-1 requires a new law, executive order, regulatory enforcement, or official policy announcement with an official document link; a stated intention is commentary without a policy action, so no rule cove",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers",
