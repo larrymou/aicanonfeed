@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "24a58ae8ba67fd26",
+  "url": "https://cobalt27.dev/",
+  "sourceName": "Hacker News Front Page",
+  "title": "The Power of GraphQL, Without GraphQL",
+  "summary": "Article URL: https://cobalt27.dev/ Comments URL: https://news.ycombinator.com/item?id=50621466 Points: 7 # Comments: 10",
+  "pubDate": "2026-11-24T00:03:59.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN post titled 'The Power of GraphQL, Without GraphQL' linking to cobalt27.dev; no evidence of an AI model release, research paper, industry business event, policy action, or open-source AI tool announcement. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://cobalt27.dev/ Comments URL: https://news.ycombinator.com/item?id=50621466 Points: 7 # Comments: 10",
+    "summaryChars": 119,
+    "summarySource": "summary",
+    "link": "https://cobalt27.dev/",
+    "linkHost": "cobalt27.dev",
+    "pubDate": "2026-11-24T00:03:59.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
