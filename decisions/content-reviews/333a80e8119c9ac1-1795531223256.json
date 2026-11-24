@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "333a80e8119c9ac1",
+  "url": "https://www.techmeme.com/261124/p18#a261124p18",
+  "sourceName": "Techmeme",
+  "title": "The OpenClaw Foundation launches ShellBench to test 13 frontier AI models across five harnesses on 100 tasks; top AI models hit only a ~60% completion rate (Nat Rubio-Licht/The Deep View)",
+  "summary": "Nat Rubio-Licht / The Deep View: The OpenClaw Foundation launches ShellBench to test 13 frontier AI models across five harnesses on 100 tasks; top AI models hit only a ~60% completion rate — Though agents have become a massive part of the enterprise AI conversation, new research ",
+  "pubDate": "2026-11-24T13:25:01.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a new benchmark (ShellBench) which could fit research rule 2-1, but the link is a Techmeme permalink, not the original paper or official source, so the required evidence link condition is unmet. Not a model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nat Rubio-Licht / The Deep View: The OpenClaw Foundation launches ShellBench to test 13 frontier AI models across five harnesses on 100 tasks; top AI models hit only a ~60% completion rate — Though agents have become a massive part of the enterprise AI conversation, new research ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p18#a261124p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T13:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
