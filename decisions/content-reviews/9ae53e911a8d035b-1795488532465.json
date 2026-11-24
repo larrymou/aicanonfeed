@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "9ae53e911a8d035b",
+  "url": "https://www.techmeme.com/261123/p49#a261123p49",
+  "sourceName": "Techmeme",
+  "title": "US prosecutors say the ex-OpenAI engineer charged with bugging an exec conference room had dozens of OpenAI meeting recordings, many on possible trade secrets (Madlin Mekelburg/Bloomberg)",
+  "summary": "Madlin Mekelburg / Bloomberg: US prosecutors say the ex-OpenAI engineer charged with bugging an exec conference room had dozens of OpenAI meeting recordings, many on possible trade secrets — US prosecutors say the former engineer at OpenAI charged with bugging an office conferenc",
+  "pubDate": "2026-11-24T02:10:02.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Criminal/legal case against a former OpenAI engineer over recordings and alleged trade secrets; no model release, research artifact, industry business event, policy/regulatory action, or OSS tool launch. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Madlin Mekelburg / Bloomberg: US prosecutors say the ex-OpenAI engineer charged with bugging an exec conference room had dozens of OpenAI meeting recordings, many on possible trade secrets — US prosecutors say the former engineer at OpenAI charged with bugging an office conferenc",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p49#a261123p49",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T02:10:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
