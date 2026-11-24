@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "96f2b25bc6b1bb1a",
+  "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "Why Does Voice AI Still Struggle With Kenyans’ Speech?",
+  "summary": "When people read prepared text aloud, AI can transcribe Swahili with remarkably few errors, and Swahili speech recognition looks close to solved. A March 2026 preprint by a team including a Harvard University researcher reports a 3.24 percent word error rate on recordings from Mo",
+  "pubDate": "2026-11-24T12:00:03.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "IEEE Spectrum feature on Swahili speech recognition; the summary mentions a preprint but the link is to a media article (spectrum.ieee.org), not the original paper or an official source. Rule 2-1's artifact-link condition is unmet, and no other rule covers this commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "When people read prepared text aloud, AI can transcribe Swahili with remarkably few errors, and Swahili speech recognition looks close to solved. A March 2026 preprint by a team including a Harvard University researcher reports a 3.24 percent word error rate on recordings from Mo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/swahili-speech-recognition",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-24T12:00:03.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
