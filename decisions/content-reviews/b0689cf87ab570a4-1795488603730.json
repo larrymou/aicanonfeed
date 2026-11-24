@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "b0689cf87ab570a4",
+  "url": "https://openai.com/index/introducing-shirudo",
+  "sourceName": "OpenAI Blog",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+  "pubDate": "2026-11-23T21:20:00.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Not an AI model release (no named model or new model capability). Shirudo is an open-source Linux runtime for patch rollout/security, not an AI tool or framework, so 5-1 doesn't apply; no research artifact, policy action, or financing/M&A deal reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/introducing-shirudo",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-23T21:20:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
