@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "18be7d27182ea33f",
+  "url": "https://www.techmeme.com/261123/p47#a261123p47",
+  "sourceName": "Techmeme",
+  "title": "Kalshi pauses operations in Utah, where it has 177K+ users, citing a federal court loss over a state gambling law; Kalshi also faces criminal charges in Utah (Alixel Cabrera/Utah News Dispatch)",
+  "summary": "Alixel Cabrera / Utah News Dispatch: Kalshi pauses operations in Utah, where it has 177K+ users, citing a federal court loss over a state gambling law; Kalshi also faces criminal charges in Utah — Amid multiple legal disputes between Utah leaders and Kalshi, the prediction market",
+  "pubDate": "2026-11-24T00:55:00.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Kalshi's prediction-market legal dispute with Utah over gambling law; it has no AI model, research, industry, policy, or OSS-tooling subject, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alixel Cabrera / Utah News Dispatch: Kalshi pauses operations in Utah, where it has 177K+ users, citing a federal court loss over a state gambling law; Kalshi also faces criminal charges in Utah — Amid multiple legal disputes between Utah leaders and Kalshi, the prediction market",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p47#a261123p47",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T00:55:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
