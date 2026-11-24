@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "e97dd56116f464d7",
+  "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+  "sourceName": "Ars Technica AI",
+  "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+  "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+  "pubDate": "2026-11-24T12:30:05.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Security incident report about attackers using AI agents to exploit a 0-day; no model release, research paper, business event, policy action, or open-source tool launch announced. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+    "summaryChars": 75,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-24T12:30:05.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
