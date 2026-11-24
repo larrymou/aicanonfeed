@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "191cd3ab838967fb",
+  "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang Is Back as Nvidia CEO",
+  "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.",
+  "pubDate": "2026-11-23T14:27:35.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a CEO reinstatement at Nvidia — a leadership/personnel event, not a model release, research artifact, policy action, or OSS tool, and not one of rule 3-1's enumerated business events (financing, M&A, partnerships, market data, non-model product launch). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.",
+    "summaryChars": 172,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-23T14:27:35.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
