@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "766fa93016d29b54",
+  "url": "https://www.techmeme.com/261124/p19#a261124p19",
+  "sourceName": "Techmeme",
+  "title": "Zipher, which uses AI agents to handle data workload execution and resource allocation, raised $53M across seed and Series A from TLV Partners and others (Duncan Riley/SiliconANGLE)",
+  "summary": "Duncan Riley / SiliconANGLE: Zipher, which uses AI agents to handle data workload execution and resource allocation, raised $53M across seed and Series A from TLV Partners and others — Data infrastructure startup Zipher Technologies Ltd. today announced that it has raised $53 mil",
+  "pubDate": "2026-11-24T13:35:01.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Financing event: Zipher raised $53M across seed and Series A from TLV Partners and others, reported via a reputable media item (SiliconANGLE via Techmeme) with author and date. No model release, research artifact, or policy action.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName",
+    "linkHost",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Duncan Riley / SiliconANGLE: Zipher, which uses AI agents to handle data workload execution and resource allocation, raised $53M across seed and Series A from TLV Partners and others — Data infrastructure startup Zipher Technologies Ltd. today announced that it has raised $53 mil",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p19#a261124p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T13:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
