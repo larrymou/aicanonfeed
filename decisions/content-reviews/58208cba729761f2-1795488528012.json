@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "58208cba729761f2",
+  "url": "https://www.techmeme.com/261123/p50#a261123p50",
+  "sourceName": "Techmeme",
+  "title": "Filing: ex-OpenAI engineer Abdulrahman Alfozan recorded a meeting with foreign government reps and photographed a confidential term sheet with another company (Emmy Martin/New York Times)",
+  "summary": "Emmy Martin / New York Times: Filing: ex-OpenAI engineer Abdulrahman Alfozan recorded a meeting with foreign government reps and photographed a confidential term sheet with another company — A court filing said the engineer captured meetings on customers, A.I. safety and a foreig",
+  "pubDate": "2026-11-24T02:35:01.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a court filing about an ex-OpenAI engineer's conduct (recordings, photographed term sheet) — no model release, research artifact, financing/M&A/partnership/market data, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Emmy Martin / New York Times: Filing: ex-OpenAI engineer Abdulrahman Alfozan recorded a meeting with foreign government reps and photographed a confidential term sheet with another company — A court filing said the engineer captured meetings on customers, A.I. safety and a foreig",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p50#a261123p50",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T02:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
