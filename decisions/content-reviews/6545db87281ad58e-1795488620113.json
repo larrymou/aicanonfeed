@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "6545db87281ad58e",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+  "sourceName": "The Verge AI",
+  "title": "Claude AI can review pull requests and ship fixes on its own now",
+  "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review c",
+  "pubDate": "2026-11-23T20:00:00.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "The Verge reports Anthropic launching Claude Ship, a non-model AI product/feature for reviewing and fixing pull requests. This is a product launch covered by reputable media, fitting industry news; no official owner link is present.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review c",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-23T20:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
