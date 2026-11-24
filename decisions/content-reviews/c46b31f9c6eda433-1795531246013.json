@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "c46b31f9c6eda433",
+  "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+  "sourceName": "Wired AI",
+  "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+  "summary": "It will take mathematicians months to understand the “alien” 17-million-line solution an Anthropic researcher produced for the Riemann hypothesis.",
+  "pubDate": "2026-11-24T10:15:00.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired media story about an AI-produced math solution; no link to an original paper or official source (rule 2-1 unmet), no model release, business event, policy action, or OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "It will take mathematicians months to understand the “alien” 17-million-line solution an Anthropic researcher produced for the Riemann hypothesis.",
+    "summaryChars": 146,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-24T10:15:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
