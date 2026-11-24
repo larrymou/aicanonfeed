@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "7a309cd655740776",
+  "url": "https://www.techmeme.com/261123/p48#a261123p48",
+  "sourceName": "Techmeme",
+  "title": "Sources: the US is investigating Iran's possible role in cyberattacks on up to 50 energy tankers via a Fortinet router flaw; Russia is also a possible culprit (Wall Street Journal)",
+  "summary": "Wall Street Journal: Sources: the US is investigating Iran's possible role in cyberattacks on up to 50 energy tankers via a Fortinet router flaw; Russia is also a possible culprit — As many as 50 ships carrying oil and other explosive substances are believed to have been attacked",
+  "pubDate": "2026-11-24T01:40:00.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is cybersecurity/geopolitical news about suspected attacks on energy tankers; no AI model release, research, industry business event, AI policy action, or OSS tool is reported.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Wall Street Journal: Sources: the US is investigating Iran's possible role in cyberattacks on up to 50 energy tankers via a Fortinet router flaw; Russia is also a possible culprit — As many as 50 ships carrying oil and other explosive substances are believed to have been attacked",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261123/p48#a261123p48",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T01:40:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
