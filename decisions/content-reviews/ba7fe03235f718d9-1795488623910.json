@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "ba7fe03235f718d9",
+  "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+  "sourceName": "The Verge AI",
+  "title": "How Jensen Huang ended up as Nvidia CEO again",
+  "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitte",
+  "pubDate": "2026-11-23T19:57:18.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a CEO resignation/leadership change at Nvidia, not a model release, research result, financing/M&A/partnership/revenue data or product launch, policy action, or OSS tool. No active rule covers leadership changes.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitte",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-23T19:57:18.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
