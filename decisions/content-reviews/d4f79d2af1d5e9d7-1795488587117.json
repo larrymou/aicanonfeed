@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "d4f79d2af1d5e9d7",
+  "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+  "sourceName": "TechCrunch AI",
+  "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+  "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+  "pubDate": "2026-11-23T21:47:41.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Nvidia executive personnel/scandal news (Jensen Huang reinstated), not a model release, research artifact, financing/M&A/partnership/market data, policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+    "summaryChars": 54,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-23T21:47:41.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
