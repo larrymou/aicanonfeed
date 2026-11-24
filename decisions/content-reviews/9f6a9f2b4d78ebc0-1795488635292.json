@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "9f6a9f2b4d78ebc0",
+  "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+  "sourceName": "TechCrunch AI",
+  "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+  "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+  "pubDate": "2026-11-23T18:12:22.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a scheduled Senate hearing where Nvidia's CEO is to testify; it announces no new law, regulation, executive order, or enforcement action, so rule 4-1's policy-action condition is unmet. It is not a model release, research artifact, business event, or OSS tool, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+    "summaryChars": 113,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-23T18:12:22.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
