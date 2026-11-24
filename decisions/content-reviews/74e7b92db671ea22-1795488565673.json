@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "74e7b92db671ea22",
+  "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+  "summary": "Article URL: https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/ Comments URL: https://news.ycombinator.com/item?id=50620822 Points: 215 # Comments: 162",
+  "pubDate": "2026-11-23T23:11:38.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary article on Nvidia's CEO framed as a national security scandal; no model release, research artifact, business event (financing/M&A/partnership/market data), official policy action, or OSS tooling is reported. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/ Comments URL: https://news.ycombinator.com/item?id=50620822 Points: 215 # Comments: 162",
+    "summaryChars": 195,
+    "summarySource": "summary",
+    "link": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+    "linkHost": "foreignpolicy.com",
+    "pubDate": "2026-11-23T23:11:38.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
