@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "fd715c73307d7b4b",
+  "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+  "summary": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?",
+  "pubDate": "2026-11-23T17:52:56.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is stock/CEO commentary and speculation about Nvidia's share price, with no named business event (financing, M&A, partnership, revenue data, or product launch) as required by rule 3-1; no model, research artifact, policy action, or OSS tool is involved.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?",
+    "summaryChars": 101,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-23T17:52:56.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
