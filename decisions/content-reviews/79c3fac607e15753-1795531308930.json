@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "79c3fac607e15753",
+  "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+  "sourceName": "TechCrunch AI",
+  "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+  "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+  "pubDate": "2026-11-23T16:39:10.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers executive personnel/corporate governance news (Trump advocating for Huang's return to Nvidia's board). No rule covers leadership/personnel events: not a model release, research artifact, policy action, OSS tool, or listed industry business event (financing, M&A, partnership, market data,",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+    "summaryChars": 90,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-23T16:39:10.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
