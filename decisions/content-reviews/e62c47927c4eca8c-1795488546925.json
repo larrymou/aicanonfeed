@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795488515336-7w9ef7",
+  "urlHash": "e62c47927c4eca8c",
+  "url": "https://www.science.org/doi/10.1126/scisignal.aef1375",
+  "sourceName": "Hacker News Front Page",
+  "title": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
+  "summary": "Article URL: https://www.science.org/doi/10.1126/scisignal.aef1375 Comments URL: https://news.ycombinator.com/item?id=50621977 Points: 44 # Comments: 17",
+  "pubDate": "2026-11-24T00:53:46.000Z",
+  "decidedAt": "2026-11-24T02:48:43.911Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a biomedical/cancer-immunotherapy finding with no AI model, AI research, industry, policy, or open-source tooling artifact; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.science.org/doi/10.1126/scisignal.aef1375 Comments URL: https://news.ycombinator.com/item?id=50621977 Points: 44 # Comments: 17",
+    "summaryChars": 152,
+    "summarySource": "summary",
+    "link": "https://www.science.org/doi/10.1126/scisignal.aef1375",
+    "linkHost": "www.science.org",
+    "pubDate": "2026-11-24T00:53:46.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
