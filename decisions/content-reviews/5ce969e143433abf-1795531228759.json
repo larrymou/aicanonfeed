@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795531194508-05imi1",
+  "urlHash": "5ce969e143433abf",
+  "url": "https://www.techmeme.com/261124/p17#a261124p17",
+  "sourceName": "Techmeme",
+  "title": "Uber, Nuro, and Lucid begin robotaxi testing without human safety operators across four South Bay cities ahead of a planned commercial debut in Q1 2027 (Andrew J. Hawkins/The Verge)",
+  "summary": "Andrew J. Hawkins / The Verge: Uber, Nuro, and Lucid begin robotaxi testing without human safety operators across four South Bay cities ahead of a planned commercial debut in Q1 2027 — The partnership is pulling human safety drivers from its Lucid Gravity SUVs ahead of an early 2",
+  "pubDate": "2026-11-24T13:15:27.000Z",
+  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Techmeme/Verge report on Uber, Nuro, and Lucid starting driverless robotaxi testing across South Bay cities ahead of a Q1 2027 commercial launch — an AI industry partnership/deployment event covered by a reputable media source.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Andrew J. Hawkins / The Verge: Uber, Nuro, and Lucid begin robotaxi testing without human safety operators across four South Bay cities ahead of a planned commercial debut in Q1 2027 — The partnership is pulling human safety drivers from its Lucid Gravity SUVs ahead of an early 2",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p17#a261124p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T13:15:27.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
