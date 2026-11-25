@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "15aa6a88725e06f9",
+  "url": "https://www.techmeme.com/261124/p42#a261124p42",
+  "sourceName": "Techmeme",
+  "title": "Trump says a pardon for Jensen Huang is \"always an option\" but likely unnecessary, and it's \"probably not too late\" for the US to take an equity stake in Nvidia (New York Post)",
+  "summary": "New York Post: Trump says a pardon for Jensen Huang is “always an option” but likely unnecessary, and it's “probably not too late” for the US to take an equity stake in Nvidia — WASHINGTON — President Trump told The Post in an exclusive interview that he's willing to pardon Jense",
+  "pubDate": "2026-11-24T23:10:00.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Presidential remarks in an interview about a possible pardon and a speculative Nvidia equity stake are commentary, not a new law, executive order, regulatory enforcement, or official policy announcement under rule 4-1; no model launch, research artifact, business deal, or OSS release either.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "New York Post: Trump says a pardon for Jensen Huang is “always an option” but likely unnecessary, and it's “probably not too late” for the US to take an equity stake in Nvidia — WASHINGTON — President Trump told The Post in an exclusive interview that he's willing to pardon Jense",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p42#a261124p42",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T23:10:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
