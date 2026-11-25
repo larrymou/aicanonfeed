@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "eb82cd09bd8cf571",
+  "url": "https://www.techmeme.com/261124/p44#a261124p44",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says GPT-6 models can design new protein shapes and sequences using only reasoning and code, without calling specialized biology models to generate them (OpenAI)",
+  "summary": "OpenAI: OpenAI says GPT-6 models can design new protein shapes and sequences using only reasoning and code, without calling specialized biology models to generate them — - Our GPT-6 family of models can design new protein shapes and the sequence of their chemical building blocks ",
+  "pubDate": "2026-11-24T23:40:02.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Titles/summary name GPT-6 and a new capability, but the link is a Techmeme permalink (linkHost www.techmeme.com), not an OpenAI official announcement page; linked_page_author is not observed, so the named-author news-article condition is unmet.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "linked_page_author"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI: OpenAI says GPT-6 models can design new protein shapes and sequences using only reasoning and code, without calling specialized biology models to generate them — - Our GPT-6 family of models can design new protein shapes and the sequence of their chemical building blocks ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p44#a261124p44",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T23:40:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
