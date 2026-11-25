@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "da014ea7f7e4abdb",
+  "url": "https://www.techmeme.com/261125/p19#a261125p19",
+  "sourceName": "Techmeme",
+  "title": "Sources: Walmart-backed Indian fintech PhonePe resumes its IPO preparations, targeting a Q1 2027 debut at a $12B to $15B valuation and raising $1.2B to $1.5B (Reuters)",
+  "summary": "Reuters: Sources: Walmart-backed Indian fintech PhonePe resumes its IPO preparations, targeting a Q1 2027 debut at a $12B to $15B valuation and raising $1.2B to $1.5B — Indian fintech PhonePe has resumed preparations for its initial public offering and is targeting a listing in t",
+  "pubDate": "2026-11-25T12:50:03.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "PhonePe IPO preparations are a fintech/financing event with no AI model, research, policy, or AI tooling content; no active rule covers non-AI industry news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: Walmart-backed Indian fintech PhonePe resumes its IPO preparations, targeting a Q1 2027 debut at a $12B to $15B valuation and raising $1.2B to $1.5B — Indian fintech PhonePe has resumed preparations for its initial public offering and is targeting a listing in t",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p19#a261125p19",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T12:50:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
