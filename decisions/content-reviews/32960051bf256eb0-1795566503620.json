@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "32960051bf256eb0",
+  "url": "https://www.techmeme.com/261124/p45#a261124p45",
+  "sourceName": "Techmeme",
+  "title": "Utah prosecutors drop criminal charges against Kalshi and its co-founders, one day after the company halted operations in the state (Marshall Cohen/CNN)",
+  "summary": "Marshall Cohen / CNN: Utah prosecutors drop criminal charges against Kalshi and its co-founders, one day after the company halted operations in the state — Utah prosecutors dropped criminal charges against the prediction company Kalshi and its co-founders on Tuesday, one day afte",
+  "pubDate": "2026-11-24T23:45:57.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Utah prosecutors dropping criminal charges against prediction-market company Kalshi; it is not an AI model release, research result, AI industry business event, AI policy action, or open-source AI tool.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Marshall Cohen / CNN: Utah prosecutors drop criminal charges against Kalshi and its co-founders, one day after the company halted operations in the state — Utah prosecutors dropped criminal charges against the prediction company Kalshi and its co-founders on Tuesday, one day afte",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p45#a261124p45",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T23:45:57.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
