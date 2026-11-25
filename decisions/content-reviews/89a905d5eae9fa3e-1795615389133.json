@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "89a905d5eae9fa3e",
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "sourceName": "OpenAI Blog",
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "summary": "How iFood scales coding agents across 15,000 repositories",
+  "pubDate": "2026-11-24T00:00:00.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer case study about iFood scaling coding agents; no new model/version release, no research artifact, no business event (financing/M&A/partnership/revenue), no policy action, and no open-source tool release. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "How iFood scales coding agents across 15,000 repositories",
+    "summaryChars": 57,
+    "summarySource": "title_fallback",
+    "link": "https://openai.com/business/customer-stories/ifood",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
