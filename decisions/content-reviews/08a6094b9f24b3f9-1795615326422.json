@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "08a6094b9f24b3f9",
+  "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+  "sourceName": "TechCrunch AI",
+  "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+  "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+  "pubDate": "2026-11-24T17:00:00.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch media report of a non-model product rollout: Meta integrating its Muse AI assistant into Instagram DMs. Not a new model/major version/capability, and no official owner announcement link, so it fits the industry rule's non-model product launch via reputable media.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-24T17:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
