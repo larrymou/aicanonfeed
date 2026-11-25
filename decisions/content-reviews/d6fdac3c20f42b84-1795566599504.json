@@ -1,18 +1,22 @@
 {
-  "runId": "run-1795531194508-05imi1",
+  "runId": "run-1795566485424-tiqcqy",
   "urlHash": "d6fdac3c20f42b84",
   "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
   "sourceName": "Google AI Blog",
   "title": "A more tailored Google Search that’s uniquely yours",
   "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
   "pubDate": "2026-11-23T17:00:00.000Z",
-  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Google Search personalization feature (Personal Intelligence in AI Mode) connecting Wallet/Drive/Gemini app. No named model release, no research artifact, no business event, no policy action, no OSS tooling—generic product feature, uncovered by rules.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
