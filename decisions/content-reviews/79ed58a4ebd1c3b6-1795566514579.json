@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "79ed58a4ebd1c3b6",
+  "url": "https://www.techmeme.com/261124/p43#a261124p43",
+  "sourceName": "Techmeme",
+  "title": "WiseTech says Australian police took no action against founder Richard White after probing allegations he exploited a woman's immigration status for sex (Angus Whitley/Bloomberg)",
+  "summary": "Angus Whitley / Bloomberg: WiseTech says Australian police took no action against founder Richard White after probing allegations he exploited a woman's immigration status for sex — WiseTech Global Ltd. said Australian police ended an investigation and took no action against foun",
+  "pubDate": "2026-11-24T23:25:08.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a legal/personnel news story about WiseTech's founder and an Australian police investigation; it reports no AI model release, research artifact, AI business event, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Angus Whitley / Bloomberg: WiseTech says Australian police took no action against founder Richard White after probing allegations he exploited a woman's immigration status for sex — WiseTech Global Ltd. said Australian police ended an investigation and took no action against foun",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p43#a261124p43",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-24T23:25:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
