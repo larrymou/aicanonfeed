@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "dc9f384d01243eb3",
+  "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+  "sourceName": "Hacker News Front Page",
+  "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+  "summary": "Article URL: https://github.com/google-research/google-research/tree/master/cogentic_research_papers Comments URL: https://news.ycombinator.com/item?id=50642086 Points: 9 # Comments: 1",
+  "pubDate": "2026-11-25T13:33:07.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title claims Google released papers on integer factorization/discrete logs, but Content does not establish these are new AI research results or point to a specific paper; link is only a repository directory, and no owner domain or author is observed.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/google-research/google-research/tree/master/cogentic_research_papers Comments URL: https://news.ycombinator.com/item?id=50642086 Points: 9 # Comments: 1",
+    "summaryChars": 184,
+    "summarySource": "summary",
+    "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-25T13:33:07.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
