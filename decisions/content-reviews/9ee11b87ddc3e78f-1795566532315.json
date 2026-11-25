@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "9ee11b87ddc3e78f",
+  "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
+  "sourceName": "Hacker News Front Page",
+  "title": "Heart attack and stroke risk detectable decades in advance",
+  "summary": "Article URL: https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance Comments URL: https://news.ycombinator.com/item?id=50635271 Points: 111 # Comments: 42",
+  "pubDate": "2026-11-24T21:51:21.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a medical/health study about heart attack and stroke risk prediction; it reports no AI model release, AI research artifact, AI business event, AI policy action, or AI open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance Comments URL: https://news.ycombinator.com/item?id=50635271 Points: 111 # Comments: 42",
+    "summaryChars": 184,
+    "summarySource": "summary",
+    "link": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
+    "linkHost": "www.ed.ac.uk",
+    "pubDate": "2026-11-24T21:51:21.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
