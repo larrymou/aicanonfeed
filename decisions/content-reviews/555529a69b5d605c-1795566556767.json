@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "555529a69b5d605c",
+  "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+  "sourceName": "The Verge AI",
+  "title": "Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired",
+  "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Time",
+  "pubDate": "2026-11-24T20:02:03.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Executive/personnel commentary about Jensen Huang's remarks to Nvidia staff; no model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Time",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-24T20:02:03.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
