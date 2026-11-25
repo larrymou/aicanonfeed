@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "7758c04a629331bf",
+  "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+  "sourceName": "OpenAI Blog",
+  "title": "Searching for distant planets with Astra",
+  "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+  "pubDate": "2026-11-24T11:00:00.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer use-case story about astronomers using Codex and Astra; no named model release, research paper, business event, policy action, or open-source tool launch to match any rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+    "summaryChars": 142,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-24T11:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
