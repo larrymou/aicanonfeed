@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "6faf4e3a29572690",
+  "url": "https://www.techmeme.com/261125/p20#a261125p20",
+  "sourceName": "Techmeme",
+  "title": "Chinese vendors in Shenzhen's Huaqiangbei market still sell US-restricted Nvidia hardware, quoting $3M+ for Blackwell B300 servers, up from $2M two months ago (Joshua Yang/Washington Post)",
+  "summary": "Joshua Yang / Washington Post: Chinese vendors in Shenzhen's Huaqiangbei market still sell US-restricted Nvidia hardware, quoting $3M+ for Blackwell B300 servers, up from $2M two months ago — Though black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, ",
+  "pubDate": "2026-11-25T13:00:57.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Joshua Yang / Washington Post: Chinese vendors in Shenzhen's Huaqiangbei market still sell US-restricted Nvidia hardware, quoting $3M+ for Blackwell B300 servers, up from $2M two months ago — Though black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p20#a261125p20",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T13:00:57.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
