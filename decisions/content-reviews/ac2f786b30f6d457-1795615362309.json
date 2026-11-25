@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "ac2f786b30f6d457",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "sourceName": "OpenAI Blog",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+  "pubDate": "2026-11-24T13:00:00.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary report lab capability tests of GPT-6 protein design, not an availability announcement of a new model, major version, or new capability class (modality/tool use/context length). No paper/preprint artifact for research; no business, policy, or OSS tool event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-24T13:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
