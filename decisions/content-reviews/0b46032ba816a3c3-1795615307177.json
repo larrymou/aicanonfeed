@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "0b46032ba816a3c3",
+  "url": "https://github.com/xoxorwr/pw-loudness-eq",
+  "sourceName": "Hacker News Front Page",
+  "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+  "summary": "Article URL: https://github.com/xoxorwr/pw-loudness-eq Comments URL: https://news.ycombinator.com/item?id=50641171 Points: 116 # Comments: 62",
+  "pubDate": "2026-11-25T11:34:25.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub repo porting Windows Loudness Equalization to PipeWire is an audio tool, not an AI model, research artifact, industry business event, policy action, or AI open-source tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/xoxorwr/pw-loudness-eq Comments URL: https://news.ycombinator.com/item?id=50641171 Points: 116 # Comments: 62",
+    "summaryChars": 141,
+    "summarySource": "summary",
+    "link": "https://github.com/xoxorwr/pw-loudness-eq",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-25T11:34:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
