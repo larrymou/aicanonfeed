@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "6fc06721a1314aa4",
+  "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
+  "summary": "The Nvidia CEO opened up about his personal life, defended his reinstatement, and acknowledged that his intense management style had hurt his staff.",
+  "pubDate": "2026-11-24T17:44:53.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Nvidia's CEO apologizing to employees and defending his reinstatement—executive/HR news, not a model release, research artifact, business event (financing, M&A, partnership, market data, non-model product), policy action, or OSS tool. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The Nvidia CEO opened up about his personal life, defended his reinstatement, and acknowledged that his intense management style had hurt his staff.",
+    "summaryChars": 148,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-24T17:44:53.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
