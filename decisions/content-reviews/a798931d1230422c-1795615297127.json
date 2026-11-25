@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "a798931d1230422c",
+  "url": "https://www.techmeme.com/261125/p18#a261125p18",
+  "sourceName": "Techmeme",
+  "title": "EA says it used AI and archival recordings to add late soccer commentator John Motson to EA Sports FC 27, with permission from Motson's widow and son (Tom Gerken/BBC)",
+  "summary": "Tom Gerken / BBC: EA says it used AI and archival recordings to add late soccer commentator John Motson to EA Sports FC 27, with permission from Motson's widow and son — Football game EA Sports FC will feature the digitally recreated voice of the late commentator John Motson, Ele",
+  "pubDate": "2026-11-25T12:25:01.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Reports an AI-recreated commentator voice as a feature inside a video game. No named AI model release, no research artifact, no financing/M&A/partnership/market data or product launch business event, no policy action, no OSS tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tom Gerken / BBC: EA says it used AI and archival recordings to add late soccer commentator John Motson to EA Sports FC 27, with permission from Motson's widow and son — Football game EA Sports FC will feature the digitally recreated voice of the late commentator John Motson, Ele",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p18#a261125p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T12:25:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
