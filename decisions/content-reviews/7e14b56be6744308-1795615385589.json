@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "7e14b56be6744308",
+  "url": "https://openai.com/business/customer-stories/intentful-dots",
+  "sourceName": "OpenAI Blog",
+  "title": "How Intentful uses dots to make more time for growth",
+  "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+  "pubDate": "2026-11-24T00:00:00.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer story about Intentful's use of OpenAI tools; no named model release, research artifact, business event, policy action, or open-source tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+    "summaryChars": 128,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/customer-stories/intentful-dots",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
