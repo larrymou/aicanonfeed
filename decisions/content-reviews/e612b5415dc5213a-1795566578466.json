@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "e612b5415dc5213a",
+  "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+  "sourceName": "Ars Technica AI",
+  "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+  "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+  "pubDate": "2026-11-24T17:34:34.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Tidal's ban on AI-generated music is a company/platform content policy, not a model release, research artifact, financing/M&A/partnership/market data, official government policy action, or open-source tool release. Rule 4-1 excludes industry self-regulation; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-24T17:34:34.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
