@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "0b9c4fffd365c9ff",
+  "url": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
+  "sourceName": "Hacker News Front Page",
+  "title": "Get in, friends, the Atmosphere is happening",
+  "summary": "Article URL: https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9 Comments URL: https://news.ycombinator.com/item?id=50636286 Points: 16 # Comments: 12",
+  "pubDate": "2026-11-24T23:23:35.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN link post to a personal blog titled 'Get in, friends, the Atmosphere is happening' — no named AI model release, research paper/benchmark, business event, policy action, or OSS AI tool is established by the observed fields. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9 Comments URL: https://news.ycombinator.com/item?id=50636286 Points: 16 # Comments: 12",
+    "summaryChars": 178,
+    "summarySource": "summary",
+    "link": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
+    "linkHost": "tropopause.pckt.blog",
+    "pubDate": "2026-11-24T23:23:35.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
