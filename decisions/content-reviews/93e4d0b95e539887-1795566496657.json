@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "93e4d0b95e539887",
+  "url": "https://www.techmeme.com/261124/p46#a261124p46",
+  "sourceName": "Techmeme",
+  "title": "Workday reports Q3 revenue up 11% YoY to $2.71B, above $2.69B est., forecasts Q4 subscription revenue of $2.6B, below $2.61B est.; WDAY drops 6%+ after hours (Duncan Riley/SiliconANGLE)",
+  "summary": "Duncan Riley / SiliconANGLE: Workday reports Q3 revenue up 11% YoY to $2.71B, above $2.69B est., forecasts Q4 subscription revenue of $2.6B, below $2.61B est.; WDAY drops 6%+ after hours — Shares of human resources and finance software company Workday Inc. fell more than 7% in la",
+  "pubDate": "2026-11-25T00:15:58.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is Workday Q3 earnings/revenue guidance, a general enterprise software financial report with no AI industry event, model release, research artifact, policy action, or open-source tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Duncan Riley / SiliconANGLE: Workday reports Q3 revenue up 11% YoY to $2.71B, above $2.69B est., forecasts Q4 subscription revenue of $2.6B, below $2.61B est.; WDAY drops 6%+ after hours — Shares of human resources and finance software company Workday Inc. fell more than 7% in la",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261124/p46#a261124p46",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T00:15:58.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
