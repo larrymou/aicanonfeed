@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "d0e234682f9b6d75",
+  "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+  "sourceName": "Ars Technica AI",
+  "title": "What's going on with the Riemann hypothesis?",
+  "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+  "pubDate": "2026-11-24T20:34:53.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item discusses an AI-assisted math proof, but the link is an Ars Technica news piece, not the original paper or official research source, so rule 2-1's required research-artifact link is unmet. No other rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+    "summaryChars": 79,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-24T20:34:53.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
