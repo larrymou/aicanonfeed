@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "1881b895e965b033",
+  "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+  "sourceName": "Ars Technica AI",
+  "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+  "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+  "pubDate": "2026-11-24T14:56:50.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Story is about political pressure on Nvidia's board regarding Jensen Huang's return — corporate governance/personnel news, not a model release, research result, financing/M&A/partnership/product launch, policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+    "summaryChars": 88,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-24T14:56:50.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
