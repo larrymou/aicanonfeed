@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "9fd8a5bde39c37e2",
+  "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+  "sourceName": "TechCrunch AI",
+  "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+  "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+  "pubDate": "2026-11-24T21:19:52.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch reports a startup financing event: Maple raises $5.3M for encrypted AI products. This is an AI industry business event (funding) covered by a reputable media report, matching rule 3-1.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-24T21:19:52.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
