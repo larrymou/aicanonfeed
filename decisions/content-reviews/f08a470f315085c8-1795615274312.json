@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "f08a470f315085c8",
+  "url": "https://www.techmeme.com/261125/p21#a261125p21",
+  "sourceName": "Techmeme",
+  "title": "OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics (alphaXiv)",
+  "summary": "alphaXiv: OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics — Multiplying two $n\\times n$ matrices produces $n^2$ output numbers, yet computing each one as a separate dot pro",
+  "pubDate": "2026-11-25T13:23:06.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a math preprint by OpenAI, but the only link is a Techmeme aggregator page (www.techmeme.com), not the original paper or an official source as rule 2-1 requires. No official owner domain or author is observed, so evidence is insufficient.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "alphaXiv: OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics — Multiplying two $n\\times n$ matrices produces $n^2$ output numbers, yet computing each one as a separate dot pro",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p21#a261125p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T13:23:06.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
