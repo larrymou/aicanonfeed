@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "022f717aafc7a3a3",
+  "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+  "sourceName": "TechCrunch AI",
+  "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+  "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+  "pubDate": "2026-11-24T16:46:00.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Tidal banning/removing AI-generated tracks is a platform content policy change, not a model release, research, financing/M&A/partnership/product launch, government policy action, or OSS tooling release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+    "summaryChars": 103,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-24T16:46:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
