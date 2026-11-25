@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "dccb9dfaa4879a5d",
+  "url": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
+  "sourceName": "Hacker News Front Page",
+  "title": "Fable 5.2 Tries Less on Some Hard Tasks When a Shortcut Is Available",
+  "summary": "Article URL: https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available Comments URL: https://news.ycombinator.com/item?id=50635698 Points: 28 # Comments: 26",
+  "pubDate": "2026-11-24T22:26:41.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog commentary about a model's observed behavior ('Fable 5.2 Tries Less...'), not an availability/version/capability announcement, not a paper/preprint/benchmark release, and no business, policy, or OSS launch event. No rule conditions met.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available Comments URL: https://news.ycombinator.com/item?id=50635698 Points: 28 # Comments: 26",
+    "summaryChars": 197,
+    "summarySource": "summary",
+    "link": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
+    "linkHost": "goodhartlabs.com",
+    "pubDate": "2026-11-24T22:26:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
