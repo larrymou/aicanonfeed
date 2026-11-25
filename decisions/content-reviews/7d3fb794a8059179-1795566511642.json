@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795566485424-tiqcqy",
+  "urlHash": "7d3fb794a8059179",
+  "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+  "sourceName": "Wired AI",
+  "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+  "summary": "Nvidia’s place at the center of the US economy may have outweighed concerns about its CEO’s ties to a suspected Chinese intelligence asset, national security and foreign policy experts say.",
+  "pubDate": "2026-11-24T23:39:04.000Z",
+  "decidedAt": "2026-11-25T00:28:13.591Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/analysis on Nvidia's political influence and national security concerns; no model release, research artifact, business event (financing/M&A/partnership/data), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nvidia’s place at the center of the US economy may have outweighed concerns about its CEO’s ties to a suspected Chinese intelligence asset, national security and foreign policy experts say.",
+    "summaryChars": 189,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-24T23:39:04.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
