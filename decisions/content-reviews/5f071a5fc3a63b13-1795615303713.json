@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795615252705-bjxszd",
+  "urlHash": "5f071a5fc3a63b13",
+  "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+  "sourceName": "Ars Technica AI",
+  "title": "AI may soon change what it means to be a theoretical physicist",
+  "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+  "pubDate": "2026-11-25T12:00:28.000Z",
+  "decidedAt": "2026-11-25T14:01:02.124Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/feature on AI's impact on theoretical physics; no named model release, no paper/preprint or benchmark link, no business, policy action, or OSS tool artifact. No rule covers commentary without a research artifact.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+    "summaryChars": 81,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-25T12:00:28.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
