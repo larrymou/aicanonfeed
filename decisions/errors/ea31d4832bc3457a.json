@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795700398446-sgbojg",
+  "urlHash": "ea31d4832bc3457a",
+  "url": "https://www.techmeme.com/261126/p18#a261126p18",
+  "sourceName": "Techmeme",
+  "title": "TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August (Davey Alba/Bloomberg)",
+  "summary": "Davey Alba / Bloomberg: TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August — The startup offers companies a way to keep employees' AI use private from model makers … Tech A",
+  "pubDate": "2026-11-26T13:30:01.000Z",
+  "decidedAt": "2026-11-26T13:40:11.283Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Davey Alba / Bloomberg: TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August — The startup offers companies a way to keep employees' AI use private from model makers … Tech A",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p18#a261126p18",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T13:30:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
