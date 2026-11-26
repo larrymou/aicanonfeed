@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "fb19c642f1b75584",
+  "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+  "sourceName": "TechCrunch AI",
+  "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+  "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+  "pubDate": "2026-11-25T20:03:27.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "No named model or new model capability (rule 1 unmet); not a research artifact, policy action, or OSS tool. A usage-meter/experience-merge update is a product/usage-policy change, not a launch, financing, M&A, partnership, or market data event under rule 3.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+    "summaryChars": 103,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-25T20:03:27.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
