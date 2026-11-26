@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795700398446-sgbojg",
+  "urlHash": "38341810e13e242d",
+  "url": "https://www.techmeme.com/261126/p15#a261126p15",
+  "sourceName": "Techmeme",
+  "title": "The Dutch government says it will resist the US' planned Match Act, which aims to restrict ASML's sales to China, calling the proposal a threat to the company (Bloomberg)",
+  "summary": "Bloomberg: The Dutch government says it will resist the US' planned Match Act, which aims to restrict ASML's sales to China, calling the proposal a threat to the company — The Dutch government said it will resist US plans to further restrict ASML Holding NV's sales to China, call",
+  "pubDate": "2026-11-26T12:50:19.000Z",
+  "decidedAt": "2026-11-26T13:40:11.283Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports the Dutch government resisting the US Match Act over ASML chip-equipment exports to China. No AI model release, research artifact, AI business event, AI-specific policy action, or OSS tool is shown; link is a Techmeme aggregator post, not an official document or original report.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: The Dutch government says it will resist the US' planned Match Act, which aims to restrict ASML's sales to China, calling the proposal a threat to the company — The Dutch government said it will resist US plans to further restrict ASML Holding NV's sales to China, call",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p15#a261126p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T12:50:19.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
