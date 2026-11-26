@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "fdbf22d65398d622",
+  "url": "https://www.techmeme.com/261125/p37#a261125p37",
+  "sourceName": "Techmeme",
+  "title": "NY Gov. Kathy Hochul signs a bill banning AI chatbot toys for five years, starting in February; California Gov. Gavin Newsom signed a four-year ban in September (NBC News)",
+  "summary": "NBC News: NY Gov. Kathy Hochul signs a bill banning AI chatbot toys for five years, starting in February; California Gov. Gavin Newsom signed a four-year ban in September — Gov. Kathy Hochul signed a bill today preventing the manufacture, exchange, distribution and sale of toys p",
+  "pubDate": "2026-11-25T21:30:02.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "NBC News: NY Gov. Kathy Hochul signs a bill banning AI chatbot toys for five years, starting in February; California Gov. Gavin Newsom signed a four-year ban in September — Gov. Kathy Hochul signed a bill today preventing the manufacture, exchange, distribution and sale of toys p",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p37#a261125p37",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T21:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
