@@ -1,18 +1,22 @@
 {
-  "runId": "run-1795531194508-05imi1",
+  "runId": "run-1795651442982-sl41mu",
   "urlHash": "3ffa5c39e01e3431",
   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
   "sourceName": "Google DeepMind Blog",
   "title": "Finding faster quantum algorithms with agents and formal verification",
   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
   "pubDate": "2026-11-23T16:59:40.000Z",
-  "decidedAt": "2026-11-24T14:40:11.658Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "reason": "DeepMind blog post on quantum algorithm research, but no named model release (R1-1), no linked paper/arXiv preprint or benchmark artifact (R2-1), no business event (R3-1), no policy action (R4-1), and no OSS tool/framework release (R5-1). No rule covers it.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
