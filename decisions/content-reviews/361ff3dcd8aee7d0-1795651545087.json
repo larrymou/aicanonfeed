@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "361ff3dcd8aee7d0",
+  "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+  "sourceName": "Ars Technica AI",
+  "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+  "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+  "pubDate": "2026-11-25T16:47:14.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Ars Live recap/commentary on military targeting of data centers. Not a model release, research artifact, industry business event, policy action, or OSS tool release; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+    "summaryChars": 77,
+    "summarySource": "summary",
+    "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+    "linkHost": "arstechnica.com",
+    "pubDate": "2026-11-25T16:47:14.000Z",
+    "sourceName": "Ars Technica AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
