@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "b4fddd7d3c17c325",
+  "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+  "sourceName": "TechCrunch AI",
+  "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+  "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+  "pubDate": "2026-11-25T19:44:24.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary: Anthropic's CEO disputing accusations about human control of AI. It is not a model release, research artifact, financing/M&A/partnership/market data, policy action, or open-source tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+    "summaryChars": 207,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-25T19:44:24.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
