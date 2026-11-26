@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795700398446-sgbojg",
+  "urlHash": "a1ca06fe5369f107",
+  "url": "https://www.techmeme.com/261126/p16#a261126p16",
+  "sourceName": "Techmeme",
+  "title": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster (Graham Barlow/TechRadar)",
+  "summary": "Graham Barlow / TechRadar: OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster — Too little, too late? … - OpenAI has admitted to a billing mistake with its new GPT-6.2 mod",
+  "pubDate": "2026-11-26T13:01:08.000Z",
+  "decidedAt": "2026-11-26T13:40:11.283Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a corrected billing/pricing mistake for an existing model, not a new model release, research result, financing/M&A/partnership/market event, policy action, or OSS tool. Pricing updates are excluded by R1-1, and no rule covers this billing correction.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Graham Barlow / TechRadar: OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster — Too little, too late? … - OpenAI has admitted to a billing mistake with its new GPT-6.2 mod",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p16#a261126p16",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T13:01:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
