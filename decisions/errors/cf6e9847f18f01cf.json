@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "cf6e9847f18f01cf",
+  "url": "https://www.techmeme.com/261125/p41#a261125p41",
+  "sourceName": "Techmeme",
+  "title": "A coalition of 42 AGs opposes Character.AI's plan to auction off data from 21M+ US accounts, 2.1M+ registered to minors, saying the sale lacks user protections (Sarah Perez/TechCrunch)",
+  "summary": "Sarah Perez / TechCrunch: A coalition of 42 AGs opposes Character.AI's plan to auction off data from 21M+ US accounts, 2.1M+ registered to minors, saying the sale lacks user protections — What happens to your private conversations when an AI company goes bankrupt? If it's Charact",
+  "pubDate": "2026-11-25T23:50:04.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sarah Perez / TechCrunch: A coalition of 42 AGs opposes Character.AI's plan to auction off data from 21M+ US accounts, 2.1M+ registered to minors, saying the sale lacks user protections — What happens to your private conversations when an AI company goes bankrupt? If it's Charact",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p41#a261125p41",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T23:50:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
