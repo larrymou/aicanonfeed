@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795700398446-sgbojg",
+  "urlHash": "4299a3ba81334a44",
+  "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+  "summary": "Article URL: https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/ Comments URL: https://news.ycombinator.com/item?id=50654289 Points: 97 # Comments: 30",
+  "pubDate": "2026-11-26T11:50:49.000Z",
+  "decidedAt": "2026-11-26T13:40:11.283Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a Nextcloud Office desktop app launch (office productivity software), not an AI model release, AI research, AI industry business event, AI policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/ Comments URL: https://news.ycombinator.com/item?id=50654289 Points: 97 # Comments: 30",
+    "summaryChars": 198,
+    "summarySource": "summary",
+    "link": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+    "linkHost": "nextcloud.com",
+    "pubDate": "2026-11-26T11:50:49.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
