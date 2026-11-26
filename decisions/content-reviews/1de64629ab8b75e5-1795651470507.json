@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "1de64629ab8b75e5",
+  "url": "https://modaic.dev/blog/latency-doesnt-lie",
+  "sourceName": "Hacker News Front Page",
+  "title": "Jev is (probably) Qwen3.5-35B-A3B",
+  "summary": "Article URL: https://modaic.dev/blog/latency-doesnt-lie Comments URL: https://news.ycombinator.com/item?id=50648823 Points: 98 # Comments: 6",
+  "pubDate": "2026-11-25T22:57:04.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Speculative blog post inferring a model's identity; no official owner announcement of a release, no research artifact, no business/policy/OSS event. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://modaic.dev/blog/latency-doesnt-lie Comments URL: https://news.ycombinator.com/item?id=50648823 Points: 98 # Comments: 6",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://modaic.dev/blog/latency-doesnt-lie",
+    "linkHost": "modaic.dev",
+    "pubDate": "2026-11-25T22:57:04.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
