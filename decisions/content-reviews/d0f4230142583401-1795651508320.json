@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "d0f4230142583401",
+  "url": "https://github.com/lsernau/grh-lean",
+  "sourceName": "Hacker News Front Page",
+  "title": "Much shorter version of GRH Lean verification from Anthropic",
+  "summary": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 191 # Comments: 87",
+  "pubDate": "2026-11-25T21:48:10.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "GitHub repo of a Lean formalization of GRH verification; no evidence of a named model release, paper/benchmark artifact, business event, policy action, or an AI library/framework/developer tool launch. No rule conditions met from observable fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 191 # Comments: 87",
+    "summaryChars": 135,
+    "summarySource": "summary",
+    "link": "https://github.com/lsernau/grh-lean",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-25T21:48:10.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
