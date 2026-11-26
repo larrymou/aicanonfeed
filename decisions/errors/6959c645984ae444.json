@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "6959c645984ae444",
+  "url": "https://www.techmeme.com/261125/p40#a261125p40",
+  "sourceName": "Techmeme",
+  "title": "Hands-on with the \"Install as app\" feature for Claude artifacts: they are HTML apps wrapped inside an Electron shim, which is managed via the main Claude app (Federico Viticci/MacStories)",
+  "summary": "Federico Viticci / MacStories: Hands-on with the “Install as app” feature for Claude artifacts: they are HTML apps wrapped inside an Electron shim, which is managed via the main Claude app — From the company's blog: … If you're an AppStories listener, you know that I've long thou",
+  "pubDate": "2026-11-25T23:20:01.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Federico Viticci / MacStories: Hands-on with the “Install as app” feature for Claude artifacts: they are HTML apps wrapped inside an Electron shim, which is managed via the main Claude app — From the company's blog: … If you're an AppStories listener, you know that I've long thou",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p40#a261125p40",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T23:20:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
