@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "a3c9028eefd69cfd",
+  "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+  "sourceName": "OpenAI Blog",
+  "title": "Clay helps sales teams win with Codex and ChatGPT",
+  "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+  "pubDate": "2026-11-24T00:00:00.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Customer story about Clay using ChatGPT/Codex integrations. No model release action, research artifact, business event, policy action, or open-source tool launch. Mention of GPT-6 is contextual, not an availability announcement.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "linkHost": "openai.com",
+    "pubDate": "2026-11-24T00:00:00.000Z",
+    "sourceName": "OpenAI Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
