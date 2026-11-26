@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795700398446-sgbojg",
+  "urlHash": "6bfee4b6633aba44",
+  "url": "https://github.com/intel/intel-one-mono",
+  "sourceName": "Hacker News Front Page",
+  "title": "Intel One Mono font",
+  "summary": "Article URL: https://github.com/intel/intel-one-mono Comments URL: https://news.ycombinator.com/item?id=50653667 Points: 180 # Comments: 104",
+  "pubDate": "2026-11-26T10:11:01.000Z",
+  "decidedAt": "2026-11-26T13:40:11.283Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Intel One Mono is a typeface release, not an AI model, research result, industry business event, policy action, or open-source AI tool/framework. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/intel/intel-one-mono Comments URL: https://news.ycombinator.com/item?id=50653667 Points: 180 # Comments: 104",
+    "summaryChars": 140,
+    "summarySource": "summary",
+    "link": "https://github.com/intel/intel-one-mono",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-26T10:11:01.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
