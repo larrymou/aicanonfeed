@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "74d99a307b5dcf28",
+  "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+  "sourceName": "TechCrunch AI",
+  "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+  "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+  "pubDate": "2026-11-25T19:54:57.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary about Nvidia's corporate culture/code of conduct. No named model or capability release (group 1), no research artifact (group 2), no financing/M&A/partnership/revenue data or product launch (group 3), no policy action (group 4), no open-source tooling (group 5). No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+    "summaryChars": 113,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-25T19:54:57.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
