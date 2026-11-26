@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795700398446-sgbojg",
+  "urlHash": "0fd8a0693ec9b697",
+  "url": "https://www.techmeme.com/261126/p14#a261126p14",
+  "sourceName": "Techmeme",
+  "title": "Analysis: institutional investors are selling stakes in older VC funds from the 2021 investment boom peak at steep discounts and rushing to back new AI funds (Financial Times)",
+  "summary": "Financial Times: Analysis: institutional investors are selling stakes in older VC funds from the 2021 investment boom peak at steep discounts and rushing to back new AI funds — Pension funds and endowments ditch legacy stakes at knockdown prices to free up cash for next-generatio",
+  "pubDate": "2026-11-26T12:35:21.000Z",
+  "decidedAt": "2026-11-26T13:40:11.283Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: Analysis: institutional investors are selling stakes in older VC funds from the 2021 investment boom peak at steep discounts and rushing to back new AI funds — Pension funds and endowments ditch legacy stakes at knockdown prices to free up cash for next-generatio",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p14#a261126p14",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T12:35:21.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
