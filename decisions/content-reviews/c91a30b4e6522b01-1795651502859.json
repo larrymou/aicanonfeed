@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "c91a30b4e6522b01",
+  "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+  "sourceName": "The Verge AI",
+  "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+  "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might a",
+  "pubDate": "2026-11-25T21:51:26.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers a patent filing for AI-generated personalized video feeds, not a model release, research artifact, business event, policy action, or open-source tool release. No active rule covers patents.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might a",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-25T21:51:26.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
