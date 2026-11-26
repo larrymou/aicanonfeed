@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "c0af2c57f24d795c",
+  "url": "https://www.techmeme.com/261125/p38#a261125p38",
+  "sourceName": "Techmeme",
+  "title": "Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan (Bloomberg)",
+  "summary": "Bloomberg: Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan — Lenders have hit the brakes on billions of dollars in loans tied to Chinese firms ByteDance, Alibaba and Te",
+  "pubDate": "2026-11-25T22:05:01.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Bloomberg: Sources: US chip curbs stall billions in data center loans tied to ByteDance, Alibaba, and Tencent, with some lenders delaying a $6.6B Bridge Data Centres loan — Lenders have hit the brakes on billions of dollars in loans tied to Chinese firms ByteDance, Alibaba and Te",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261125/p38#a261125p38",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-25T22:05:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
