@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "9d204a99ce77317c",
+  "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+  "sourceName": "TechCrunch AI",
+  "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+  "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+  "pubDate": "2026-11-25T14:10:18.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "TechCrunch report on Amazon and Meta discussing a deal (partnership/business development) concerning AI agent Muse; reputable media link qualifies under the industry rule, not a model/capability release with official owner announcement.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+    "summaryChars": 97,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-25T14:10:18.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
