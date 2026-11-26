@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "17929128d139e3d0",
+  "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+  "sourceName": "The Verge AI",
+  "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+  "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Googl",
+  "pubDate": "2026-11-25T17:44:51.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R4)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Googl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-25T17:44:51.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
