@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795651442982-sl41mu",
+  "urlHash": "10ef75306f1db512",
+  "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+  "sourceName": "Google DeepMind Blog",
+  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+  "pubDate": "2026-11-24T13:07:53.000Z",
+  "decidedAt": "2026-11-26T00:04:14.969Z",
+  "include": true,
+  "categoryId": "tools-oss",
+  "matchedRuleId": "5-1",
+  "reason": "Announces Mass Spec Skills, a new developer resource/skill package for Google Antigravity, with an official announcement link on the owner's domain (deepmind.google). This is a developer tool/resource launch, matching the tools & OSS rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+    "summaryChars": 95,
+    "summarySource": "summary",
+    "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+    "linkHost": "deepmind.google",
+    "pubDate": "2026-11-24T13:07:53.000Z",
+    "sourceName": "Google DeepMind Blog",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
