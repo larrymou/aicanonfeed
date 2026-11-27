@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "d7809351a614a645",
+  "url": "https://www.techmeme.com/261126/p25#a261126p25",
+  "sourceName": "Techmeme",
+  "title": "A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K (Nathan Grayson/Aftermath)",
+  "summary": "Nathan Grayson / Aftermath: A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K — What goes around comes around, I suppose. Earlier this year, Kick streamer N3on, a weasly littl",
+  "pubDate": "2026-11-26T22:10:01.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a criminal sentencing/fraud case involving AI impersonation. It is not a model release, research artifact, industry business event, AI policy/regulatory action, or open-source tool launch, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "pubDate",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Nathan Grayson / Aftermath: A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K — What goes around comes around, I suppose. Earlier this year, Kick streamer N3on, a weasly littl",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p25#a261126p25",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T22:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
