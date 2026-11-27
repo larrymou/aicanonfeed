@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "c74df66d31bcb672",
+  "url": "https://kendell.dev/blog/arkwrapper/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+  "summary": "Article URL: https://kendell.dev/blog/arkwrapper/ Comments URL: https://news.ycombinator.com/item?id=50660273 Points: 20 # Comments: 3",
+  "pubDate": "2026-11-26T21:59:19.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Blog commentary claiming certain services are wrappers around ByteDance Ark. No model release, research artifact, industry business event, policy action, or new OSS tool is announced; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://kendell.dev/blog/arkwrapper/ Comments URL: https://news.ycombinator.com/item?id=50660273 Points: 20 # Comments: 3",
+    "summaryChars": 134,
+    "summarySource": "summary",
+    "link": "https://kendell.dev/blog/arkwrapper/",
+    "linkHost": "kendell.dev",
+    "pubDate": "2026-11-26T21:59:19.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
