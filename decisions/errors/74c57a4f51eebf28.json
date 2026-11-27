@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "74c57a4f51eebf28",
+  "url": "https://arxiv.org/abs/2611.33165",
+  "sourceName": "arXiv cs.AI",
+  "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+  "summary": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and inter",
+  "pubDate": "2026-11-27T05:00:00.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R2)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and inter",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2611.33165",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-27T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
