@@ -1,18 +1,22 @@
 {
-  "runId": "run-1795786630229-vfiv3k",
+  "runId": "run-1795823826942-g81i3h",
   "urlHash": "927dd6b10beb1b95",
   "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
   "sourceName": "The Verge AI",
   "title": "Nothing offers a full look at its AI earbuds and charging case",
   "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-",
   "pubDate": "2026-11-25T16:00:59.000Z",
-  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
   "include": false,
   "categoryId": null,
   "matchedRuleId": null,
-  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "reason": "Consumer gadget reveal (Nothing AI earbuds) with no named AI model, research artifact, business event, policy action, or open-source tool. No active rule covers a hardware product teaser.",
   "evidenceStatus": "insufficient",
-  "evidenceCitations": [],
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
   "observedEvidence": {
     "titlePresent": true,
     "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-",
