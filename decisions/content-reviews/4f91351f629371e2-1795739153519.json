@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "4f91351f629371e2",
+  "url": "https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Denver man traps Waymo robotaxis with cones, eggs them at least 30 times",
+  "summary": "Article URL: https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/ Comments URL: https://news.ycombinator.com/item?id=50659918 Points: 35 # Comments: 19",
+  "pubDate": "2026-11-26T21:16:41.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Story about vandalism of Waymo robotaxis; not a model release, research artifact, industry business event, policy action, or open-source tool announcement under any active rule.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/ Comments URL: https://news.ycombinator.com/item?id=50659918 Points: 35 # Comments: 19",
+    "summaryChars": 168,
+    "summarySource": "summary",
+    "link": "https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/",
+    "linkHost": "electrek.co",
+    "pubDate": "2026-11-26T21:16:41.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
