@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "ce22529d68f2149e",
+  "url": "https://www.techmeme.com/261127/p3#a261127p3",
+  "sourceName": "Techmeme",
+  "title": "A look at proposals for vertical data centers, often the only option where land is limited in places like Taiwan; Kansas City recently rejected a 20-story tower (Tiffany Hsu/New York Times)",
+  "summary": "Tiffany Hsu / New York Times: A look at proposals for vertical data centers, often the only option where land is limited in places like Taiwan; Kansas City recently rejected a 20-story tower — The facilities that power A.I. and other big data needs are in high demand but widely d",
+  "pubDate": "2026-11-27T10:25:08.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item covers proposals for vertical data center construction/real estate, not a model release, research result, AI business event (financing, M&A, partnership, market data, product launch), policy action, or open-source tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Tiffany Hsu / New York Times: A look at proposals for vertical data centers, often the only option where land is limited in places like Taiwan; Kansas City recently rejected a 20-story tower — The facilities that power A.I. and other big data needs are in high demand but widely d",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p3#a261127p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T10:25:08.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
