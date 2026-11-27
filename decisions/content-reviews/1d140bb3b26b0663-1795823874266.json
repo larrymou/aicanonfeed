@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "1d140bb3b26b0663",
+  "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+  "sourceName": "The Verge AI",
+  "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+  "summary": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on ",
+  "pubDate": "2026-11-27T14:00:00.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Hands-on commentary about Android's DIY widget feature using Gemini; no named model release, no research artifact, no business event (financing/M&A/partnership/market data), and not open-source tooling. No active rule covers consumer feature commentary.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+    "linkHost": "www.theverge.com",
+    "pubDate": "2026-11-27T14:00:00.000Z",
+    "sourceName": "The Verge AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
