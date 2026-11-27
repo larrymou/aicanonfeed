@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "4a94d842c761a8d6",
+  "url": "https://progrium.github.io/9ux/",
+  "sourceName": "Hacker News Front Page",
+  "title": "9/UX: a Macintosh-inspired desktop for 9front",
+  "summary": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 43 # Comments: 9",
+  "pubDate": "2026-11-27T21:48:14.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a hobbyist Macintosh-inspired desktop environment for 9front; no AI model release, research paper, industry business event, policy action, or AI open-source tool is described. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 43 # Comments: 9",
+    "summaryChars": 129,
+    "summarySource": "summary",
+    "link": "https://progrium.github.io/9ux/",
+    "linkHost": "progrium.github.io",
+    "pubDate": "2026-11-27T21:48:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
