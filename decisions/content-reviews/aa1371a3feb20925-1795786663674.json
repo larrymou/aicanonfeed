@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "aa1371a3feb20925",
+  "url": "https://www.kimi.ai/news/kimi-for-science-program",
+  "sourceName": "Hacker News Front Page",
+  "title": "Kimi for Science More scientific ideas, made possible",
+  "summary": "Article URL: https://www.kimi.ai/news/kimi-for-science-program Comments URL: https://news.ycombinator.com/item?id=50665920 Points: 13 # Comments: 3",
+  "pubDate": "2026-11-27T12:03:11.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary announce a 'Kimi for Science' program, not a named model release, research artifact, business event, policy action, or OSS tool. No rule condition is met from observed fields.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.kimi.ai/news/kimi-for-science-program Comments URL: https://news.ycombinator.com/item?id=50665920 Points: 13 # Comments: 3",
+    "summaryChars": 147,
+    "summarySource": "summary",
+    "link": "https://www.kimi.ai/news/kimi-for-science-program",
+    "linkHost": "www.kimi.ai",
+    "pubDate": "2026-11-27T12:03:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
