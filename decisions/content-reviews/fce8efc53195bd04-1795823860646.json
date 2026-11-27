@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "fce8efc53195bd04",
+  "url": "https://www.techmeme.com/261127/p13#a261127p13",
+  "sourceName": "Techmeme",
+  "title": "Q&A with AI researchers Ege Erdil and Daniel Kokotajlo on the odds of an intelligence explosion before 2029, pausing AI, the US antagonizing China, and more (Dwarkesh Patel/Dwarkesh Podcast)",
+  "summary": "Dwarkesh Patel / Dwarkesh Podcast: Q&A with AI researchers Ege Erdil and Daniel Kokotajlo on the odds of an intelligence explosion before 2029, pausing AI, the US antagonizing China, and more — “If we pause now, people still won't understand what's at stake.” — New podcast episod",
+  "pubDate": "2026-11-27T20:15:01.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Podcast interview/commentary with AI researchers on intelligence explosion odds and pausing AI. No named model release, no research artifact (paper/preprint/benchmark), no business event, no policy action, and no OSS tool launch.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Dwarkesh Patel / Dwarkesh Podcast: Q&A with AI researchers Ege Erdil and Daniel Kokotajlo on the odds of an intelligence explosion before 2029, pausing AI, the US antagonizing China, and more — “If we pause now, people still won't understand what's at stake.” — New podcast episod",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p13#a261127p13",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T20:15:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
