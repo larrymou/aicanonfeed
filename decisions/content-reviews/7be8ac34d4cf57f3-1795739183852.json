@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "7be8ac34d4cf57f3",
+  "url": "https://www.techmeme.com/261126/p21#a261126p21",
+  "sourceName": "Techmeme",
+  "title": "UK workers at Rockstar Games vote against a union recognition deal, with only 25% voting in favor; source: 1,544 employees, or 93.2% of eligible workers, voted (Chris Kerr/Vertical Slice)",
+  "summary": "Chris Kerr / Vertical Slice: UK workers at Rockstar Games vote against a union recognition deal, with only 25% voting in favor; source: 1,544 employees, or 93.2% of eligible workers, voted — UK workers at Grand Theft Auto maker Rockstar Games have voted against a union recognitio",
+  "pubDate": "2026-11-26T16:10:01.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns a union recognition vote at Rockstar Games; it is not an AI model release, research result, AI business event (financing/M&A/partnership/revenue/product launch), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Chris Kerr / Vertical Slice: UK workers at Rockstar Games vote against a union recognition deal, with only 25% voting in favor; source: 1,544 employees, or 93.2% of eligible workers, voted — UK workers at Grand Theft Auto maker Rockstar Games have voted against a union recognitio",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p21#a261126p21",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T16:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
