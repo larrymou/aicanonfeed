@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "33281210e96d6fbb",
+  "url": "https://eprint.iacr.org/2026/3020.pdf",
+  "sourceName": "Hacker News Front Page",
+  "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+  "summary": "Article URL: https://eprint.iacr.org/2026/3020.pdf Comments URL: https://news.ycombinator.com/item?id=50665968 Points: 65 # Comments: 24",
+  "pubDate": "2026-11-27T12:08:51.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Cryptography preprint on a discrete logarithm algorithm; no AI research result, model release, industry, policy, or OSS tool announcement. No rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://eprint.iacr.org/2026/3020.pdf Comments URL: https://news.ycombinator.com/item?id=50665968 Points: 65 # Comments: 24",
+    "summaryChars": 136,
+    "summarySource": "summary",
+    "link": "https://eprint.iacr.org/2026/3020.pdf",
+    "linkHost": "eprint.iacr.org",
+    "pubDate": "2026-11-27T12:08:51.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
