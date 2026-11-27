@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "b7f18d41d591cfab",
+  "url": "https://sessiongraph.ai/",
+  "sourceName": "Hacker News Front Page",
+  "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+  "summary": "Article URL: https://sessiongraph.ai/ Comments URL: https://news.ycombinator.com/item?id=50671651 Points: 13 # Comments: 6",
+  "pubDate": "2026-11-27T21:07:34.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "SessionGraph is a developer tool launch, but Content does not establish that it is open-source and links only to a product site, not a repository or official open-source announcement; rule 5-1 conditions are unmet and no other rule applies.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://sessiongraph.ai/ Comments URL: https://news.ycombinator.com/item?id=50671651 Points: 13 # Comments: 6",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://sessiongraph.ai/",
+    "linkHost": "sessiongraph.ai",
+    "pubDate": "2026-11-27T21:07:34.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
