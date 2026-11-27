@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "a046ba0d9cacb338",
+  "url": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+  "sourceName": "IEEE Spectrum AI",
+  "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+  "summary": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew",
+  "pubDate": "2026-11-27T14:00:01.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Career profile of an ER doctor turned clinical AI engineer. No model release, research artifact, business event (financing/M&A/partnership/market data/product launch), policy action, or OSS tool announcement — no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+    "linkHost": "spectrum.ieee.org",
+    "pubDate": "2026-11-27T14:00:01.000Z",
+    "sourceName": "IEEE Spectrum AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
