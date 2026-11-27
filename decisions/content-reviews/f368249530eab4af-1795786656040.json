@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "f368249530eab4af",
+  "url": "https://www.techmeme.com/261127/p4#a261127p4",
+  "sourceName": "Techmeme",
+  "title": "Sources: the US Air Force recently found that hackers breached Cloud One, the cloud computing platform powering its air defense radar and other data feeds (Reuters)",
+  "summary": "Reuters: Sources: the US Air Force recently found that hackers breached Cloud One, the cloud computing platform powering its air defense radar and other data feeds — Hackers have breached the US Air Force's flagship cloud computing platform, three people familiar with the matter ",
+  "pubDate": "2026-11-27T12:10:01.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a cybersecurity breach of the US Air Force's Cloud One platform; it is not a model release, research result, AI industry business event, AI policy action, or open-source tool release. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Reuters: Sources: the US Air Force recently found that hackers breached Cloud One, the cloud computing platform powering its air defense radar and other data feeds — Hackers have breached the US Air Force's flagship cloud computing platform, three people familiar with the matter ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p4#a261127p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T12:10:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
