@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "291def41b24aabf1",
+  "url": "https://www.techmeme.com/261127/p12#a261127p12",
+  "sourceName": "Techmeme",
+  "title": "OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and \"coercing and threatening\" suppliers that work with both (Financial Times)",
+  "summary": "Financial Times: OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and “coercing and threatening” suppliers that work with both — The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with bo",
+  "pubDate": "2026-11-27T18:57:47.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a trade-secret countersuit/litigation between OpenAI and Apple. Rule 3-1 covers only financing, M&A, partnerships, market/revenue data, or non-model product launches; litigation is not enumerated. No model release, research artifact, policy action, or OSS tool link is present.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Financial Times: OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and “coercing and threatening” suppliers that work with both — The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with bo",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p12#a261127p12",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T18:57:47.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
