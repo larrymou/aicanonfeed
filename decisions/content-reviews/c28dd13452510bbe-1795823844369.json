@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "c28dd13452510bbe",
+  "url": "https://frantic.im/git/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Source Control from Hell",
+  "summary": "Article URL: https://frantic.im/git/ Comments URL: https://news.ycombinator.com/item?id=50672142 Points: 33 # Comments: 17",
+  "pubDate": "2026-11-27T22:06:44.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN-linked essay about source control (git); no AI model release, research artifact, AI business event, policy action, or open-source AI tool announcement. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://frantic.im/git/ Comments URL: https://news.ycombinator.com/item?id=50672142 Points: 33 # Comments: 17",
+    "summaryChars": 122,
+    "summarySource": "summary",
+    "link": "https://frantic.im/git/",
+    "linkHost": "frantic.im",
+    "pubDate": "2026-11-27T22:06:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
