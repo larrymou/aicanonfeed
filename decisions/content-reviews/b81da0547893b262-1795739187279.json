@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "b81da0547893b262",
+  "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+  "sourceName": "TechCrunch AI",
+  "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+  "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+  "pubDate": "2026-11-26T16:00:00.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Commentary/opinion piece contrasting Anthropic's IPO with GTA VI's success; no model release, research artifact, policy action, OSS tool, or reported business event (financing/M&A/partnership) with a qualifying announcement link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+    "summaryChars": 156,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-26T16:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
