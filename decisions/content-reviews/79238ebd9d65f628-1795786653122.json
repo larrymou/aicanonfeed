@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "79238ebd9d65f628",
+  "url": "https://www.techmeme.com/261127/p5#a261127p5",
+  "sourceName": "Techmeme",
+  "title": "Meituan reports Q3 revenue up 21.6% YoY to ~$17.3B, above est., and an adjusted net profit of ~$285.1M, up from a ~$2.4B adjusted net loss (Ben Jiang/South China Morning Post)",
+  "summary": "Ben Jiang / South China Morning Post: Meituan reports Q3 revenue up 21.6% YoY to ~$17.3B, above est., and an adjusted net profit of ~$285.1M, up from a ~$2.4B adjusted net loss — Chinese food-delivery giant Meituan reported a second consecutive profitable quarter on Friday, as th",
+  "pubDate": "2026-11-27T12:35:01.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Meituan Q3 earnings report is general corporate financial news, not an AI industry business event, model release, research result, policy action, or open-source tool; no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Ben Jiang / South China Morning Post: Meituan reports Q3 revenue up 21.6% YoY to ~$17.3B, above est., and an adjusted net profit of ~$285.1M, up from a ~$2.4B adjusted net loss — Chinese food-delivery giant Meituan reported a second consecutive profitable quarter on Friday, as th",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p5#a261127p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T12:35:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
