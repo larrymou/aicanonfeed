@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "6affdf6d52626513",
+  "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+  "sourceName": "Wired AI",
+  "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+  "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+  "pubDate": "2026-11-27T07:00:00.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Wired profile of Q.ANT's light-based chip effort. No model release (1-1), no paper/preprint/benchmark (2-1), no launch, financing, deal, partnership, or revenue event established (3-1), no policy action (4-1), no OSS repo or developer tool (5-1).",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+    "summaryChars": 137,
+    "summarySource": "summary",
+    "link": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+    "linkHost": "www.wired.com",
+    "pubDate": "2026-11-27T07:00:00.000Z",
+    "sourceName": "Wired AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
