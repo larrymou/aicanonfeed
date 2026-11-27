@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "f5618d178bae3017",
+  "url": "https://www.techmeme.com/261126/p23#a261126p23",
+  "sourceName": "Techmeme",
+  "title": "Altair Semiconductor, an Israeli chipmaker spun off from Sony earlier in 2026, raised a $100M Series A, as it prepares to launch low-power cellular modems (CTech)",
+  "summary": "CTech: Altair Semiconductor, an Israeli chipmaker spun off from Sony earlier in 2026, raised a $100M Series A, as it prepares to launch low-power cellular modems — The company, spun off from Sony earlier this year, is preparing a new low-power 5G modem for smart glasses, wearable",
+  "pubDate": "2026-11-26T18:05:38.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a $100M Series A financing for chipmaker Altair Semiconductor (low-power cellular modems for wearables); no AI model, research artifact, policy action, or open-source tool. No AI industry link is established, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "CTech: Altair Semiconductor, an Israeli chipmaker spun off from Sony earlier in 2026, raised a $100M Series A, as it prepares to launch low-power cellular modems — The company, spun off from Sony earlier this year, is preparing a new low-power 5G modem for smart glasses, wearable",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261126/p23#a261126p23",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-26T18:05:38.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
