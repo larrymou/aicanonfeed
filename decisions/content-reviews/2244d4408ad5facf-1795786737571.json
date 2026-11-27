@@ -1,0 +1,44 @@
+{
+  "runId": "run-1795786630229-vfiv3k",
+  "urlHash": "2244d4408ad5facf",
+  "url": "https://arxiv.org/abs/2611.33161",
+  "sourceName": "arXiv cs.AI",
+  "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+  "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mat",
+  "pubDate": "2026-11-27T05:00:00.000Z",
+  "decidedAt": "2026-11-27T13:37:18.022Z",
+  "include": true,
+  "categoryId": "research",
+  "matchedRuleId": "2-1",
+  "reason": "arXiv preprint (cs.AI) reporting a new test-time scoring method for LLM/VLM candidate selection, with a direct link to the original paper on arxiv.org.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "linkHost",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mat",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://arxiv.org/abs/2611.33161",
+    "linkHost": "arxiv.org",
+    "pubDate": "2026-11-27T05:00:00.000Z",
+    "sourceName": "arXiv cs.AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
