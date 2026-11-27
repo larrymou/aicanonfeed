@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "42fdb509ddf1b3dc",
+  "url": "https://tabernet.es/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+  "summary": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 6 # Comments: 0",
+  "pubDate": "2026-11-27T23:00:30.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Title/summary describe a Kubernetes demo where nodes are browser tabs; no AI model, research artifact, AI business event, AI policy action, or open-source AI tool is evidenced. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 6 # Comments: 0",
+    "summaryChars": 117,
+    "summarySource": "summary",
+    "link": "https://tabernet.es/",
+    "linkHost": "tabernet.es",
+    "pubDate": "2026-11-27T23:00:30.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
