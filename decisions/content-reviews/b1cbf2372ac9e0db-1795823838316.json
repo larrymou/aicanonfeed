@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795823826942-g81i3h",
+  "urlHash": "b1cbf2372ac9e0db",
+  "url": "https://www.techmeme.com/261127/p15#a261127p15",
+  "sourceName": "Techmeme",
+  "title": "US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage (Jean Eaglesham/Wall Street Journal)",
+  "summary": "Jean Eaglesham / Wall Street Journal: US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage — The multiday outage has left customers struggling to reach the insurer during one ",
+  "pubDate": "2026-11-27T23:30:02.000Z",
+  "decidedAt": "2026-11-27T23:57:17.239Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a non-AI insurance company website/app outage; it is not a model release, research result, AI industry business event, policy action, or open-source AI tool, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Jean Eaglesham / Wall Street Journal: US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage — The multiday outage has left customers struggling to reach the insurer during one ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p15#a261127p15",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T23:30:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
