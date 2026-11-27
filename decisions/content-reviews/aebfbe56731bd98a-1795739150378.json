@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795739132528-3lvtuj",
+  "urlHash": "aebfbe56731bd98a",
+  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "sourceName": "Hacker News Front Page",
+  "title": "AI made self-hosting fun again",
+  "summary": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 212 # Comments: 120",
+  "pubDate": "2026-11-26T21:47:45.000Z",
+  "decidedAt": "2026-11-27T00:25:40.595Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary blog post about AI and self-hosting. No named model release, no research artifact (paper/preprint/benchmark), no business event, no policy action, and no new open-source tool announcement link.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 212 # Comments: 120",
+    "summaryChars": 144,
+    "summarySource": "summary",
+    "link": "https://janlukas.blog/posts/ai-self-hosting",
+    "linkHost": "janlukas.blog",
+    "pubDate": "2026-11-26T21:47:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
