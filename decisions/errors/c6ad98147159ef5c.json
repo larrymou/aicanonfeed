@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795851053193-pzimyu",
+  "urlHash": "c6ad98147159ef5c",
+  "url": "https://github.com/skeeto/prospero",
+  "sourceName": "Hacker News Front Page",
+  "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+  "summary": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 56 # Comments: 20",
+  "pubDate": "2026-11-27T20:23:14.000Z",
+  "decidedAt": "2026-11-28T07:30:59.459Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R5-1)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 56 # Comments: 20",
+    "summaryChars": 133,
+    "summarySource": "summary",
+    "link": "https://github.com/skeeto/prospero",
+    "linkHost": "github.com",
+    "pubDate": "2026-11-27T20:23:14.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
