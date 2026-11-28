@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795851053193-pzimyu",
+  "urlHash": "c426b271970b8a28",
+  "url": "https://www.techmeme.com/261127/p17#a261127p17",
+  "sourceName": "Techmeme",
+  "title": "Anthropic says Claude doesn't silently sabotage work and that some user reports reflect \"overcaution\", where Claude clings to self-imposed rules on long tasks (Edwin/@edwinarbus)",
+  "summary": "Edwin / @edwinarbus: Anthropic says Claude doesn't silently sabotage work and that some user reports reflect “overcaution”, where Claude clings to self-imposed rules on long tasks — Claude has not been trained to sabotage work. Yes, it sometimes makes mistakes, and other agents m",
+  "pubDate": "2026-11-28T03:35:05.000Z",
+  "decidedAt": "2026-11-28T07:30:59.459Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is commentary: Anthropic responding to user reports about Claude's 'overcaution'. No new model/version/capability release with owner link, no research artifact, no business event (financing/M&A/partnership/market data/product launch), no policy action, no OSS tool release.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Edwin / @edwinarbus: Anthropic says Claude doesn't silently sabotage work and that some user reports reflect “overcaution”, where Claude clings to self-imposed rules on long tasks — Claude has not been trained to sabotage work. Yes, it sometimes makes mistakes, and other agents m",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p17#a261127p17",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T03:35:05.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
