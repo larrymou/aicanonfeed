@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "fab87a8fa9d3553a",
+  "url": "https://www.techmeme.com/261128/p5#a261128p5",
+  "sourceName": "Techmeme",
+  "title": "Power operators are using sensors and software to dynamically adjust grid safety limits, boosting existing network capacity amid rising AI-driven energy demand (Martha Muir/Financial Times)",
+  "summary": "Martha Muir / Financial Times: Power operators are using sensors and software to dynamically adjust grid safety limits, boosting existing network capacity amid rising AI-driven energy demand — Operators are using sensors and sophisticated software to eke out more capacity from in",
+  "pubDate": "2026-11-28T12:40:01.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about power grid operators using sensors/software to expand capacity amid AI-driven energy demand; it is not a model release, AI research artifact, AI industry business event, policy action, or OSS tool release, so no active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Martha Muir / Financial Times: Power operators are using sensors and software to dynamically adjust grid safety limits, boosting existing network capacity amid rising AI-driven energy demand — Operators are using sensors and sophisticated software to eke out more capacity from in",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p5#a261128p5",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T12:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
