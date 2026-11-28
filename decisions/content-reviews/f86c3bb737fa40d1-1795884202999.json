@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "f86c3bb737fa40d1",
+  "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Google will soon share Android developers' addresses publicly",
+  "summary": "Article URL: https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/ Comments URL: https://news.ycombinator.com/item?id=50678026 Points: 27 # Comments: 8",
+  "pubDate": "2026-11-28T14:23:44.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item concerns Google publishing Android developer addresses; no AI model release, research artifact, AI business event, government policy action, or open-source AI tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/ Comments URL: https://news.ycombinator.com/item?id=50678026 Points: 27 # Comments: 8",
+    "summaryChars": 192,
+    "summarySource": "summary",
+    "link": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+    "linkHost": "www.engadget.com",
+    "pubDate": "2026-11-28T14:23:44.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
