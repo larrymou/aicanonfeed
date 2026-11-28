@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795851053193-pzimyu",
+  "urlHash": "0b3158ad3bbbac59",
+  "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+  "sourceName": "Hacker News Front Page",
+  "title": "Atari Homebrew Awards Cancelled",
+  "summary": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.ycombinator.com/item?id=50673688 Points: 173 # Comments: 164",
+  "pubDate": "2026-11-28T02:03:25.000Z",
+  "decidedAt": "2026-11-28T07:30:59.459Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is about Atari homebrew community awards being cancelled; it contains no AI model release, research, industry business event, policy action, or open-source AI tooling. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.ycombinator.com/item?id=50673688 Points: 173 # Comments: 164",
+    "summaryChars": 174,
+    "summarySource": "summary",
+    "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+    "linkHost": "forums.atariage.com",
+    "pubDate": "2026-11-28T02:03:25.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
