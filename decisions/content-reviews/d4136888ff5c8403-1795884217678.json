@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "d4136888ff5c8403",
+  "url": "https://www.techmeme.com/261128/p4#a261128p4",
+  "sourceName": "Techmeme",
+  "title": "A profile of Jensen Huang, whom longtime friends and associates say has an unrelenting ability to make the most of any situation, as he returns as Nvidia's CEO (Erich Schwartzel/Wall Street Journal)",
+  "summary": "Erich Schwartzel / Wall Street Journal: A profile of Jensen Huang, whom longtime friends and associates say has an unrelenting ability to make the most of any situation, as he returns as Nvidia's CEO — As a longtime friend of the Nvidia CEO puts it, “Jensen will always pull a rab",
+  "pubDate": "2026-11-28T07:40:01.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "A Wall Street Journal profile of Jensen Huang is commentary/industry color, not a model release, research artifact, business event (financing/M&A/partnership/market data), policy action, or OSS tool. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Erich Schwartzel / Wall Street Journal: A profile of Jensen Huang, whom longtime friends and associates say has an unrelenting ability to make the most of any situation, as he returns as Nvidia's CEO — As a longtime friend of the Nvidia CEO puts it, “Jensen will always pull a rab",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p4#a261128p4",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T07:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
