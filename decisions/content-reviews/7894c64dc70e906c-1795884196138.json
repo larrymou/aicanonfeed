@@ -1,0 +1,42 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "7894c64dc70e906c",
+  "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+  "sourceName": "Hacker News Front Page",
+  "title": "Physics Breakthrough Simulator",
+  "summary": "Article URL: https://pages.ethanmdavidson.com/ai-physics-breakthrough Comments URL: https://news.ycombinator.com/item?id=50678273 Points: 60 # Comments: 10",
+  "pubDate": "2026-11-28T14:52:45.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "HN link to a personal 'Physics Breakthrough Simulator' page. No named AI model release, no research paper/preprint link, no industry business event, policy action, or OSS tool announcement; no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "link",
+    "linkHost",
+    "sourceName"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://pages.ethanmdavidson.com/ai-physics-breakthrough Comments URL: https://news.ycombinator.com/item?id=50678273 Points: 60 # Comments: 10",
+    "summaryChars": 155,
+    "summarySource": "summary",
+    "link": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+    "linkHost": "pages.ethanmdavidson.com",
+    "pubDate": "2026-11-28T14:52:45.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
