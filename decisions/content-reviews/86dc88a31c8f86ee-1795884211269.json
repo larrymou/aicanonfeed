@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "86dc88a31c8f86ee",
+  "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+  "sourceName": "TechCrunch AI",
+  "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+  "summary": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+  "pubDate": "2026-11-28T14:00:00.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "TechCrunch interview/commentary on Sakana AI's strategy; no specific named model, no release action, and no financing, partnership, or deal event. No active rule covers commentary-only items.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+    "summaryChars": 89,
+    "summarySource": "summary",
+    "link": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+    "linkHost": "techcrunch.com",
+    "pubDate": "2026-11-28T14:00:00.000Z",
+    "sourceName": "TechCrunch AI",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
