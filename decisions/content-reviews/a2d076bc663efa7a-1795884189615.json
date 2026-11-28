@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "a2d076bc663efa7a",
+  "url": "https://coryalthoff.com/essays/if-ai-takes-every-job-who-will-buy-things",
+  "sourceName": "Hacker News Front Page",
+  "title": "If AI takes every job who will buy things?",
+  "summary": "Article URL: https://coryalthoff.com/essays/if-ai-takes-every-job-who-will-buy-things Comments URL: https://news.ycombinator.com/item?id=50679023 Points: 16 # Comments: 14",
+  "pubDate": "2026-11-28T16:09:11.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Opinion/commentary essay on AI and labor economics; no named model release, research artifact, business event, policy action, or OSS tool announced. No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "linkHost",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Article URL: https://coryalthoff.com/essays/if-ai-takes-every-job-who-will-buy-things Comments URL: https://news.ycombinator.com/item?id=50679023 Points: 16 # Comments: 14",
+    "summaryChars": 171,
+    "summarySource": "summary",
+    "link": "https://coryalthoff.com/essays/if-ai-takes-every-job-who-will-buy-things",
+    "linkHost": "coryalthoff.com",
+    "pubDate": "2026-11-28T16:09:11.000Z",
+    "sourceName": "Hacker News Front Page",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
