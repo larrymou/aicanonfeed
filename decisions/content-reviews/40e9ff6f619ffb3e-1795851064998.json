@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795851053193-pzimyu",
+  "urlHash": "40e9ff6f619ffb3e",
+  "url": "https://www.techmeme.com/261128/p2#a261128p2",
+  "sourceName": "Techmeme",
+  "title": "COO Jen Wong says 80%+ of Reddit's monetization comes from logged-in users whose time on the site rises from 5 min/day in year one to 40 min/day by year five (Eleanor Pringle/Fortune)",
+  "summary": "Eleanor Pringle / Fortune: COO Jen Wong says 80%+ of Reddit's monetization comes from logged-in users whose time on the site rises from 5 min/day in year one to 40 min/day by year five — Reddit boasts engagement metrics that would be the envy of many other online platforms: Over ",
+  "pubDate": "2026-11-28T06:25:04.000Z",
+  "decidedAt": "2026-11-28T07:30:59.459Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports Reddit user engagement/monetization metrics from its COO; it is not an AI model release, research, OSS tool, policy action, or an AI industry business event (financing/M&A/partnership). No active rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Eleanor Pringle / Fortune: COO Jen Wong says 80%+ of Reddit's monetization comes from logged-in users whose time on the site rises from 5 min/day in year one to 40 min/day by year five — Reddit boasts engagement metrics that would be the envy of many other online platforms: Over ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p2#a261128p2",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T06:25:04.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
