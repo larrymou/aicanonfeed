@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "15370ca3d32510b7",
+  "url": "https://www.techmeme.com/261128/p6#a261128p6",
+  "sourceName": "Techmeme",
+  "title": "Q&A with Q.ANT CEO Michael Förtsch on making AI photonic processors which could be built with 90nm nodes, their memory efficiency, adoption challenges, and more (Joel Khalili/Wired)",
+  "summary": "Joel Khalili / Wired: Q&A with Q.ANT CEO Michael Förtsch on making AI photonic processors which could be built with 90nm nodes, their memory efficiency, adoption challenges, and more — German company Q.ANT is trying to cut the amount of energy required to run AI models by using l",
+  "pubDate": "2026-11-28T14:40:01.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Q&A interview with a CEO about photonic processor hardware and energy efficiency. No named model release, no paper/preprint or benchmark, no financing/M&A/partnership or market data, no policy action, and no open-source tooling; commentary only, so no rule covers it.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Joel Khalili / Wired: Q&A with Q.ANT CEO Michael Förtsch on making AI photonic processors which could be built with 90nm nodes, their memory efficiency, adoption challenges, and more — German company Q.ANT is trying to cut the amount of energy required to run AI models by using l",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p6#a261128p6",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T14:40:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
