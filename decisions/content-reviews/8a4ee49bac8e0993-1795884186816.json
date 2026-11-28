@@ -1,0 +1,41 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "8a4ee49bac8e0993",
+  "url": "https://www.techmeme.com/261128/p7#a261128p7",
+  "sourceName": "Techmeme",
+  "title": "The US aerospace and defense sector is struggling to secure memory chips, labor, land, power, and factory infrastructure amid the AI data center boom (Christian Davies/Financial Times)",
+  "summary": "Christian Davies / Financial Times: The US aerospace and defense sector is struggling to secure memory chips, labor, land, power, and factory infrastructure amid the AI data center boom — Boeing and leading defence contractors wrestle with ballooning backlogs fuelled by a surge i",
+  "pubDate": "2026-11-28T16:15:03.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item is a news analysis of aerospace/defense supply-chain strain (memory chips, labor, power) amid the AI data center boom. It reports no model release (R1), no research artifact (R2), no AI financing/M&A/partnership/revenue event or product launch (R3), no policy action (R4), and no OSS tooling (R5",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "linkHost"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Christian Davies / Financial Times: The US aerospace and defense sector is struggling to secure memory chips, labor, land, power, and factory infrastructure amid the AI data center boom — Boeing and leading defence contractors wrestle with ballooning backlogs fuelled by a surge i",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p7#a261128p7",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T16:15:03.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
