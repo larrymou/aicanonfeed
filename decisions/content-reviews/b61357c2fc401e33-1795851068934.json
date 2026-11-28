@@ -1,0 +1,43 @@
+{
+  "runId": "run-1795851053193-pzimyu",
+  "urlHash": "b61357c2fc401e33",
+  "url": "https://www.techmeme.com/261128/p1#a261128p1",
+  "sourceName": "Techmeme",
+  "title": "Embo, which is developing world models for robotics trained on massive amounts of internet video, emerges from stealth with a $110M seed led by a16z (Embo)",
+  "summary": "Embo: Embo, which is developing world models for robotics trained on massive amounts of internet video, emerges from stealth with a $110M seed led by a16z — Embo is building the next generation of frontier AI models, with a deep understanding of physical reality and fine-grained ",
+  "pubDate": "2026-11-28T05:50:02.000Z",
+  "decidedAt": "2026-11-28T07:30:59.459Z",
+  "include": true,
+  "categoryId": "industry",
+  "matchedRuleId": "3-1",
+  "reason": "Item reports an AI industry business event: Embo emerging from stealth with a $110M seed round led by a16z, with a link to reputable media coverage (Techmeme). No official owner model announcement, so it falls under the industry financing rule.",
+  "evidenceStatus": "sufficient",
+  "evidenceCitations": [
+    "title",
+    "summary",
+    "link",
+    "sourceName",
+    "pubDate"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Embo: Embo, which is developing world models for robotics trained on massive amounts of internet video, emerges from stealth with a $110M seed led by a16z — Embo is building the next generation of frontier AI models, with a deep understanding of physical reality and fine-grained ",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p1#a261128p1",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T05:50:02.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
