@@ -1,0 +1,40 @@
+{
+  "runId": "run-1795851053193-pzimyu",
+  "urlHash": "c8723c54302306f4",
+  "url": "https://www.techmeme.com/261128/p3#a261128p3",
+  "sourceName": "Techmeme",
+  "title": "Sweden-based Trustly, which lets merchants accept payments via bank transfers, raised $60M from Nordic Capital and others, taking its total funding to $450M+ (John Reynolds/Tech.eu)",
+  "summary": "John Reynolds / Tech.eu: Sweden-based Trustly, which lets merchants accept payments via bank transfers, raised $60M from Nordic Capital and others, taking its total funding to $450M+ — Trustly has raised the funds from existing investors. — Swedish fintech Trustly today confirmed",
+  "pubDate": "2026-11-28T06:45:01.000Z",
+  "decidedAt": "2026-11-28T07:30:59.459Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "Item reports a fintech funding round (Trustly, $60M) with no AI model, research, policy, or open-source tooling content; no active rule covers non-AI business news.",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [
+    "title",
+    "summary"
+  ],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "John Reynolds / Tech.eu: Sweden-based Trustly, which lets merchants accept payments via bank transfers, raised $60M from Nordic Capital and others, taking its total funding to $450M+ — Trustly has raised the funds from existing investors. — Swedish fintech Trustly today confirmed",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261128/p3#a261128p3",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-28T06:45:01.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
