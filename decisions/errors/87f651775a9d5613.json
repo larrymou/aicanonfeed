@@ -1,0 +1,37 @@
+{
+  "runId": "run-1795884173524-ajcrk2",
+  "urlHash": "87f651775a9d5613",
+  "url": "https://www.techmeme.com/261127/p10#a261127p10",
+  "sourceName": "Techmeme",
+  "title": "European Central Bank survey: 44% of employed EU consumers reported using AI weekly at work in August, on par with US peers; 18% used it daily, above US levels (Alexander Weber/Bloomberg)",
+  "summary": "Alexander Weber / Bloomberg: European Central Bank survey: 44% of employed EU consumers reported using AI weekly at work in August, on par with US peers; 18% used it daily, above US levels — Euro-area workers are turning to artificial intelligence at a similar rate as their peers",
+  "pubDate": "2026-11-27T18:15:00.000Z",
+  "decidedAt": "2026-11-28T16:43:02.452Z",
+  "include": false,
+  "categoryId": null,
+  "matchedRuleId": null,
+  "reason": "error: invalid model JSON (include=true with invalid matchedRuleId: R3)",
+  "evidenceStatus": "insufficient",
+  "evidenceCitations": [],
+  "observedEvidence": {
+    "titlePresent": true,
+    "summary": "Alexander Weber / Bloomberg: European Central Bank survey: 44% of employed EU consumers reported using AI weekly at work in August, on par with US peers; 18% used it daily, above US levels — Euro-area workers are turning to artificial intelligence at a similar rate as their peers",
+    "summaryChars": 280,
+    "summarySource": "summary",
+    "link": "https://www.techmeme.com/261127/p10#a261127p10",
+    "linkHost": "www.techmeme.com",
+    "pubDate": "2026-11-27T18:15:00.000Z",
+    "sourceName": "Techmeme",
+    "notObserved": [
+      "linked_page_content",
+      "linked_page_author",
+      "linked_page_owner_domain",
+      "announcement_page_version_label"
+    ]
+  },
+  "promptVersion": "5",
+  "promptBodyHash": "480a1103c723",
+  "ruleFingerprint": "e6b37238cc27",
+  "model": "deepseek-flash",
+  "evidenceEngineVersion": "3"
+}
